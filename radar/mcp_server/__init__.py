@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+"""Radar-Template MCP Server."""
+
+__version__ = "0.1.0"
