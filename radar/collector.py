@@ -23,6 +23,9 @@ logger = get_logger(__name__)
 def _fetch_url_with_retry(url: str, timeout: int, source_name: str) -> requests.Response:
     """Fetch URL with retry logic on transient errors."""
     attempt = 0
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
 
     @retry(
         stop=stop_after_attempt(3),
@@ -35,7 +38,7 @@ def _fetch_url_with_retry(url: str, timeout: int, source_name: str) -> requests.
         attempt += 1
         if attempt > 1:
             logger.warning("retry_attempt", source_name=source_name, attempt_number=attempt)
-        response = requests.get(url, timeout=timeout)
+        response = requests.get(url, timeout=timeout, headers=headers)
         response.raise_for_status()
         return response
 

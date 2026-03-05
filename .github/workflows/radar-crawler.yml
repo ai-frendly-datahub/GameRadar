@@ -1,13 +1,15 @@
-name: Radar Template Crawler
+name: GameRadar Crawler
 
 on:
-  workflow_dispatch:  # 수동 실행만 (템플릿 프로젝트는 정기 수집 불필요)
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *" # 매일 01:00 UTC (KST 10:00)
 
 permissions:
   contents: write
 
 env:
-  RADAR_CATEGORY: coffee   # 카테고리 YAML 이름을 여기에 맞게 수정하세요.
+  RADAR_CATEGORY: game
   TZ: Asia/Seoul
 
 concurrency:

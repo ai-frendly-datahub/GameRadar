@@ -3,17 +3,14 @@ display_name: "게임 산업 레이더"
 
 sources:
   # Official Platform Sources
-  - name: "Xbox Wire"
-    type: "rss"
-    url: "https://news.xbox.com/en-us/feed/"
   - name: "Nintendo Life"
     type: "rss"
     url: "https://www.nintendolife.com/feeds/latest"
+  - name: "PlayStation Blog"
+    type: "rss"
+    url: "https://blog.playstation.com/feed/"
   
   # Major Gaming News (Existing)
-  - name: "IGN"
-    type: "rss"
-    url: "https://feeds.ign.com/ign/all"
   - name: "GameSpot"
     type: "rss"
     url: "https://www.gamespot.com/feeds/mashup/"
@@ -31,9 +28,9 @@ sources:
   - name: "Eurogamer"
     type: "rss"
     url: "https://www.eurogamer.net/?format=rss"
-  - name: "VentureBeat Games"
+  - name: "Rock Paper Shotgun"
     type: "rss"
-    url: "https://venturebeat.com/category/games/feed/"
+    url: "https://www.rockpapershotgun.com/feed"
   
   # Indie & Mobile Gaming
   - name: "IndieGames.com"
@@ -42,9 +39,9 @@ sources:
   - name: "Pocket Gamer"
     type: "rss"
     url: "https://www.pocketgamer.com/news/index.rss"
-  - name: "Touch Arcade"
+  - name: "Destructoid"
     type: "rss"
-    url: "https://toucharcade.com/feed"
+    url: "https://www.destructoid.com/feed/"
   
   # Esports
   - name: "Dot Esports"
@@ -64,9 +61,14 @@ entities:
       - "steam"
       - "epic games"
       - "ps5"
+      - "ps4"
+      - "xbox series"
+      - "xbox one"
       - "switch"
       - "pc gaming"
       - "game pass"
+      - "playstation plus"
+      - "gamepass"
   - name: "Studio"
     display_name: "스튜디오"
     keywords:
@@ -82,6 +84,10 @@ entities:
       - "valve"
       - "blizzard"
       - "cd projekt"
+      - "bandai namco"
+      - "take-two"
+      - "microsoft"
+      - "sony"
   - name: "Genre"
     display_name: "장르"
     keywords:
@@ -96,6 +102,10 @@ entities:
       - "strategy"
       - "horror"
       - "open world"
+      - "puzzle"
+      - "platformer"
+      - "roguelike"
+      - "souls-like"
   - name: "Release"
     display_name: "출시 정보"
     keywords:
@@ -109,3 +119,15 @@ entities:
       - "expansion"
       - "update"
       - "patch"
+      - "beta"
+      - "preview"
+  - name: "Gaming"
+    display_name: "게임 관련"
+    keywords:
+      - "game"
+      - "gaming"
+      - "gamer"
+      - "gameplay"
+      - "esports"
+      - "tournament"
+      - "competitive"
