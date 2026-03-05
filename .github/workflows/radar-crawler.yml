@@ -35,8 +35,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-       - name: Run Radar
-         run: |
+      - name: Run Radar
+        run: |
            python main.py --category "${{ env.RADAR_CATEGORY }}" --recent-days 7 --keep-days 90
 
       - name: Auto-commit data updates
