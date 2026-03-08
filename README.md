@@ -1,5 +1,8 @@
 # GameRadar - 게임 정보 레이더
 
+**🌐 Live Report**: https://ai-frendly-datahub.github.io/GameRadar/
+
+
 게임 관련 뉴스, 출시 정보, 업데이트 소식을 수집하고 게임 장르별 트렌드를 분석합니다.
 
 ## 프로젝트 목표
