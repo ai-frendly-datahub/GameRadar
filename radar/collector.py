@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import html
 import time
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -58,7 +59,9 @@ def collect_sources(
 
     for source in sources:
         try:
-            articles.extend(_collect_single(source, category=category, limit=limit_per_source, timeout=timeout))
+            articles.extend(
+                _collect_single(source, category=category, limit=limit_per_source, timeout=timeout)
+            )
         except Exception as exc:  # noqa: BLE001 - surface errors to the caller
             error_msg = f"{source.name}: {exc}"
             logger.error("fetch_failed", source_name=source.name, error=str(exc))
@@ -75,7 +78,9 @@ def _collect_single(
     timeout: int,
 ) -> List[Article]:
     if source.type.lower() != "rss":
-        raise ValueError(f"Unsupported source type '{source.type}'. Only 'rss' is supported in the template.")
+        raise ValueError(
+            f"Unsupported source type '{source.type}'. Only 'rss' is supported in the template."
+        )
 
     logger.info("fetching_source", source_name=source.name, url=source.url)
     response = _fetch_url_with_retry(source.url, timeout, source.name)
@@ -86,12 +91,16 @@ def _collect_single(
     for entry in feed.entries[:limit]:
         published = _extract_datetime(entry)
         summary = entry.get("summary", "") or entry.get("description", "") or ""
+        if not summary:
+            _content = entry.get("content", [])
+            if _content:
+                summary = _content[0].get("value", "")
 
         items.append(
             Article(
-                title=(entry.get("title") or "").strip() or "(no title)",
+                title=html.unescape((entry.get("title") or "").strip()) or "(no title)",
                 link=(entry.get("link") or "").strip(),
-                summary=summary.strip(),
+                summary=html.unescape(summary.strip()),
                 published=published,
                 source=source.name,
                 category=category,
