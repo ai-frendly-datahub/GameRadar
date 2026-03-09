@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Iterable, List
+from typing import Optional, Iterable, List
 
 import duckdb
 
@@ -13,7 +13,7 @@ from .models import Article
 logger = get_logger(__name__)
 
 
-def _utc_naive(dt: datetime | None) -> datetime | None:
+def _utc_naive(dt: Optional[datetime]) -> Optional[datetime]:
     """Convert tz-aware datetime to UTC naive for DuckDB."""
     if dt is None:
         return None
@@ -104,7 +104,7 @@ class RadarStorage:
             self.conn.execute(f"DELETE FROM articles WHERE link IN ({placeholders})", links_to_delete)
 
             # 배치 INSERT: executemany()로 모든 기사를 한 번에 삽입
-            insert_data: List[tuple[str, str, str, str, str | None, datetime | None, datetime | None, str]] = []
+            insert_data: List[tuple[str, str, str, str, Optional[str], Optional[datetime], Optional[datetime], str]] = []
             for article in unique_articles:
                 entities_json = json.dumps(article.matched_entities, ensure_ascii=False)
                 published = _utc_naive(article.published)

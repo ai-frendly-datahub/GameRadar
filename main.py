@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import cast
+from typing import Optional, cast
 
 from radar.analyzer import apply_entity_rules
 from radar.common.validators import validate_article
@@ -103,8 +103,8 @@ def _send_notifications(
 def run(
     *,
     category: str,
-    config_path: Path | None = None,
-    categories_dir: Path | None = None,
+    config_path: Optional[Path] = None,
+    categories_dir: Optional[Path] = None,
     per_source_limit: int = 30,
     recent_days: int = 7,
     timeout: int = 15,
@@ -231,7 +231,7 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def _to_path(value: object) -> Path | None:
+def _to_path(value: object) -> Optional[Path]:
     if isinstance(value, Path):
         return value
     return None

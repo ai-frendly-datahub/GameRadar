@@ -4,7 +4,7 @@ import asyncio
 from importlib import import_module
 import os
 from pathlib import Path
-from typing import Any, Callable, Protocol, cast
+from typing import Optional, Any, Callable, Protocol, cast
 
 from radar.mcp_server.tools import (
     export_data,
@@ -119,11 +119,11 @@ def _call_tool_handler(name: str, arguments: object) -> str:
 
     if name == "query_articles":
         source_val = args.get("source")
-        source: str | None = str(source_val) if source_val else None
+        source: Optional[str] = str(source_val) if source_val else None
         category_val = args.get("category")
-        category: str | None = str(category_val) if category_val else None
+        category: Optional[str] = str(category_val) if category_val else None
         date_range_val = args.get("date_range_days")
-        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
+        date_range: Optional[int] = _as_int(date_range_val, -1) if date_range_val else None
         return query_articles(
             db_path=db_path,
             source=source,
@@ -140,7 +140,7 @@ def _call_tool_handler(name: str, arguments: object) -> str:
         )
     if name == "get_entity_stats":
         date_range_val = args.get("date_range_days")
-        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
+        date_range: Optional[int] = _as_int(date_range_val, -1) if date_range_val else None
         return get_entity_stats(
             db_path=db_path,
             date_range_days=date_range if date_range and date_range > 0 else None,
@@ -154,7 +154,7 @@ def _call_tool_handler(name: str, arguments: object) -> str:
         )
     if name == "export_data":
         date_range_val = args.get("date_range_days")
-        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
+        date_range: Optional[int] = _as_int(date_range_val, -1) if date_range_val else None
         return export_data(
             db_path=db_path,
             format=str(args.get("format", "json")),
@@ -192,7 +192,7 @@ class _StdioContext(Protocol):
     async def __aexit__(
         self,
         exc_type: type[BaseException] | None,
-        exc_value: BaseException | None,
+        exc_value: Optional[BaseException],
         traceback: object,
     ) -> object: ...
 
