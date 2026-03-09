@@ -4,10 +4,11 @@ from collections import Counter
 from collections.abc import Iterable
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Protocol, cast
+from typing import Any, Protocol, cast
 
 from jinja2 import Template
 
+from .calendar_heatmap import build_calendar_heatmap
 from .models import Article, CategoryConfig
 
 
@@ -40,9 +41,15 @@ def generate_report(
             "published_at": article.published.isoformat() if article.published else None,
             "summary": article.summary,
             "matched_entities": article.matched_entities or {},
+            "collected_at": article.collected_at.isoformat()  # type: ignore
+            if hasattr(article, "collected_at") and article.collected_at  # type: ignore
+            else None,
         }
         articles_json.append(article_data)
 
+    # Generate calendar heatmap
+    calendar_heatmap_html = build_calendar_heatmap(articles_json, days_back=90)
+    
     template = cast(_TemplateRenderer, Template(_REPORT_TEMPLATE))
     rendered = template.render(
         category=category,
@@ -52,6 +59,7 @@ def generate_report(
         stats=stats,
         entity_counts=entity_counts,
         errors=errors or [],
+        calendar_heatmap_html=calendar_heatmap_html,
     )
     _ = output_path.write_text(rendered, encoding="utf-8")
     return output_path
@@ -749,6 +757,95 @@ _REPORT_TEMPLATE = """<!doctype html>
             </div>
           </article>
         </div>
+
+         <div class="grid" style="margin-top:14px">
+           <article class="panel" aria-label="Data freshness">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Data Freshness</p>
+                 <p class="panel-sub">Collection lag distribution</p>
+               </div>
+               <div class="pill" aria-hidden="true">lag</div>
+             </header>
+             <div class="panel-bd">
+               <div class="chart-wrap" role="img" aria-label="Bar chart showing collection lag in hours">
+                 <canvas id="chartFreshness"></canvas>
+               </div>
+               <noscript>
+                 <p class="muted small">Charts require JavaScript. Enable JS to see freshness data.</p>
+               </noscript>
+             </div>
+           </article>
+
+           <article class="panel" aria-label="Entity extraction rate">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Entity Extraction Rate</p>
+                 <p class="panel-sub">Percentage with matched entities</p>
+               </div>
+               <div class="pill" aria-hidden="true">rate</div>
+             </header>
+             <div class="panel-bd">
+               <div class="chart-wrap" role="img" aria-label="Doughnut chart showing entity extraction rate">
+                 <canvas id="chartEntityRate"></canvas>
+               </div>
+               <noscript>
+                 <p class="muted small">Charts require JavaScript. Enable JS to see extraction rate.</p>
+               </noscript>
+             </div>
+           </article>
+         </div>
+
+         <div class="grid" style="margin-top:14px">
+           <article class="panel" aria-label="Source health">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Source Health</p>
+                 <p class="panel-sub">Article count by source (sorted)</p>
+               </div>
+               <div class="pill" aria-hidden="true">health</div>
+             </header>
+             <div class="panel-bd">
+               <div class="chart-wrap" role="img" aria-label="Horizontal bar chart showing source health">
+                 <canvas id="chartSourceHealth"></canvas>
+               </div>
+               <noscript>
+                 <p class="muted small">Charts require JavaScript. Enable JS to see source health.</p>
+               </noscript>
+             </div>
+
+           <article class="panel" aria-label="Time pattern heatmap">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Time Pattern Heatmap</p>
+                 <p class="panel-sub">Articles by day of week and hour (UTC)</p>
+               </div>
+               <div class="pill" aria-hidden="true">7x24</div>
+             </header>
+             <div class="panel-bd">
+               <div id="heatmapContainer" style="width:100%; height:360px;"></div>
+               <noscript>
+                 <p class="muted small">Heatmap requires JavaScript. Enable JS to see time patterns.</p>
+               </noscript>
+             </div>
+           </article>
+
+           <article class="panel" aria-label="Calendar heatmap">
+             <header class="panel-hd">
+               <div>
+                 <p class="panel-title">Release Calendar</p>
+                 <p class="panel-sub">Game releases by week and day (last 90 days)</p>
+               </div>
+               <div class="pill" aria-hidden="true">calendar</div>
+             </header>
+             <div class="panel-bd">
+               {{ calendar_heatmap_html | safe }}
+               <noscript>
+                 <p class="muted small">Calendar requires JavaScript. Enable JS to see release patterns.</p>
+               </noscript>
+             </div>
+           </article>
+         </div>
       </section>
 
       <section id="entities" class="section" aria-label="Entity table">
@@ -867,6 +964,7 @@ _REPORT_TEMPLATE = """<!doctype html>
       <script id="entities-data" type="application/json">{{ entity_counts|tojson if entity_counts else '{}' }}</script>
 
       <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
       <script>
         (function () {
           const reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -1124,6 +1222,243 @@ _REPORT_TEMPLATE = """<!doctype html>
               }
             });
           }
+
+           // Chart 1: Data Freshness (collection lag in hours)
+           function buildFreshness(items) {
+             const lagBuckets = { "0-1h": 0, "1-6h": 0, "6-24h": 0, "1-3d": 0, "3-7d": 0, "7d+": 0 };
+             for (const a of items) {
+               const pubStr = a && (a.published_at || a.published);
+               const collStr = a && a.collected_at;
+               if (!pubStr || !collStr) continue;
+               const pubDate = new Date(String(pubStr));
+               const collDate = new Date(String(collStr));
+               if (isNaN(pubDate.getTime()) || isNaN(collDate.getTime())) continue;
+               const lagMs = collDate.getTime() - pubDate.getTime();
+               const lagHours = lagMs / (1000 * 60 * 60);
+               if (lagHours < 1) lagBuckets["0-1h"]++;
+               else if (lagHours < 6) lagBuckets["1-6h"]++;
+               else if (lagHours < 24) lagBuckets["6-24h"]++;
+               else if (lagHours < 72) lagBuckets["1-3d"]++;
+               else if (lagHours < 168) lagBuckets["3-7d"]++;
+               else lagBuckets["7d+"]++;
+             }
+             return { labels: Object.keys(lagBuckets), values: Object.values(lagBuckets) };
+           }
+
+           const freshnessData = buildFreshness(articles);
+           const freshnessCanvas = document.getElementById("chartFreshness");
+           if (freshnessCanvas && freshnessData.labels.length) {
+             new Chart(freshnessCanvas.getContext("2d"), {
+               type: "bar",
+               data: {
+                 labels: freshnessData.labels,
+                 datasets: [{
+                   label: "articles",
+                   data: freshnessData.values,
+                   backgroundColor: "rgba(120,162,255,.35)",
+                   borderColor: "rgba(120,162,255,.72)",
+                   borderWidth: 1.2,
+                   borderRadius: 8,
+                   maxBarThickness: 44
+                 }]
+               },
+               options: {
+                 plugins: {
+                   legend: { display: false },
+                   tooltip: {
+                     backgroundColor: "rgba(10,16,30,.92)",
+                     borderColor: "rgba(150,190,255,.20)",
+                     borderWidth: 1
+                   }
+                 },
+                 scales: {
+                   x: {
+                     grid: { display: false },
+                     ticks: { color: "rgba(233,238,251,.68)" }
+                   },
+                   y: {
+                     beginAtZero: true,
+                     grid: { color: "rgba(150,190,255,.10)" },
+                     ticks: { color: "rgba(233,238,251,.64)" }
+                   }
+                 }
+               }
+             });
+           }
+
+           // Chart 2: Entity Extraction Rate (doughnut with center text)
+           function buildEntityRate(items) {
+             let withEntities = 0, withoutEntities = 0;
+             for (const a of items) {
+               const ents = a && a.matched_entities;
+               if (ents && Object.keys(ents).length > 0) withEntities++;
+               else withoutEntities++;
+             }
+             return { with: withEntities, without: withoutEntities };
+           }
+
+           const entityRateData = buildEntityRate(articles);
+           const entityRateCanvas = document.getElementById("chartEntityRate");
+           if (entityRateCanvas) {
+             const total = entityRateData.with + entityRateData.without;
+             const pct = total > 0 ? Math.round((entityRateData.with / total) * 100) : 0;
+             const plugin = {
+               id: "textCenter",
+               beforeDatasetsDraw(c) {
+                 const { width, height } = c.chartArea;
+                 const x = c.chartArea.left + width / 2;
+                 const y = c.chartArea.top + height / 2;
+                 c.ctx.save();
+                 c.ctx.font = "bold 24px sans-serif";
+                 c.ctx.fillStyle = "rgba(233,238,251,.8)";
+                 c.ctx.textAlign = "center";
+                 c.ctx.textBaseline = "middle";
+                 c.ctx.fillText(pct + "%", x, y);
+                 c.ctx.restore();
+               }
+             };
+             new Chart(entityRateCanvas.getContext("2d"), {
+               type: "doughnut",
+               data: {
+                 labels: ["With entities", "Without entities"],
+                 datasets: [{
+                   data: [entityRateData.with, entityRateData.without],
+                   backgroundColor: ["rgba(95,222,132,.35)", "rgba(255,91,110,.35)"],
+                   borderColor: ["rgba(95,222,132,.80)", "rgba(255,91,110,.80)"],
+                   borderWidth: 1.2
+                 }]
+               },
+               options: {
+                 cutout: "62%",
+                 plugins: {
+                   legend: { position: "bottom", labels: { color: "rgba(233,238,251,.72)", padding: 14 } },
+                   tooltip: {
+                     backgroundColor: "rgba(10,16,30,.92)",
+                     borderColor: "rgba(150,190,255,.20)",
+                     borderWidth: 1
+                   }
+                 }
+               },
+               plugins: [plugin]
+             });
+           }
+
+           // Chart 3: Source Health (horizontal bar, sorted descending)
+           function buildSourceHealth(items) {
+             const map = new Map();
+             for (const a of items) {
+               const s = (a && (a.source || a.source_name || a.publisher || a.feed || a.domain)) ? String(a.source || a.source_name || a.publisher || a.feed || a.domain) : "unknown";
+               const key = s.trim() || "unknown";
+               map.set(key, (map.get(key) || 0) + 1);
+             }
+             const pairs = Array.from(map.entries()).sort((a, b) => b[1] - a[1]);
+             return { labels: pairs.map(p => p[0]), values: pairs.map(p => p[1]) };
+           }
+
+           const sourceHealthData = buildSourceHealth(articles);
+           const sourceHealthCanvas = document.getElementById("chartSourceHealth");
+           if (sourceHealthCanvas && sourceHealthData.labels.length) {
+             const colors = palette(sourceHealthData.labels.length);
+             new Chart(sourceHealthCanvas.getContext("2d"), {
+               type: "bar",
+               data: {
+                 labels: sourceHealthData.labels,
+                 datasets: [{
+                   label: "articles",
+                   data: sourceHealthData.values,
+                   backgroundColor: colors.map(c => c.replace(")", ", .35)").replace("rgba", "rgba")),
+                   borderColor: colors.map(c => c.replace(")", ", .80)").replace("rgba", "rgba")),
+                   borderWidth: 1.2,
+                   borderRadius: 8,
+                   maxBarThickness: 44
+                 }]
+               },
+               options: {
+                 indexAxis: "y",
+                 plugins: {
+                   legend: { display: false },
+                   tooltip: {
+                     backgroundColor: "rgba(10,16,30,.92)",
+                     borderColor: "rgba(150,190,255,.20)",
+                     borderWidth: 1
+                   }
+                 },
+                 scales: {
+                   x: {
+                     beginAtZero: true,
+                     grid: { color: "rgba(150,190,255,.10)" },
+                     ticks: { color: "rgba(233,238,251,.64)" }
+                   },
+                   y: {
+                     grid: { display: false },
+                     ticks: { color: "rgba(233,238,251,.68)" }
+                   }
+                 }
+               }
+             });
+
+           // Chart 4: Time Pattern Heatmap (7x24)
+           function buildTimeHeatmap(items) {
+             const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+             const matrix = Array(7).fill(null).map(() => Array(24).fill(0));
+             
+             for (const a of items) {
+               const d = getArticleDate(a);
+               if (!d) continue;
+               const dayOfWeek = d.getUTCDay();
+               const hour = d.getUTCHours();
+               matrix[dayOfWeek][hour]++;
+             }
+             
+             const z = matrix;
+             const y = daysOfWeek;
+             const x = Array.from({length: 24}, (_, i) => i + ":00");
+             
+             return { z, x, y };
+           }
+
+           const heatmapData = buildTimeHeatmap(articles);
+           const heatmapContainer = document.getElementById("heatmapContainer");
+           if (heatmapContainer && heatmapData.z.some(row => row.some(v => v > 0))) {
+             const trace = {
+               z: heatmapData.z,
+               x: heatmapData.x,
+               y: heatmapData.y,
+               type: "heatmap",
+               colorscale: "YlOrRd",
+               hovertemplate: "%{y} %{x}: %{z} articles<extra></extra>",
+               colorbar: {
+                 title: "Count",
+                 thickness: 16,
+                 len: 0.7,
+                 tickfont: { size: 11, color: "rgba(233,238,251,.72)" },
+                 tickcolor: "rgba(233,238,251,.72)"
+               }
+             };
+             
+             const layout = {
+               title: "",
+               xaxis: {
+                 title: "",
+                 tickfont: { size: 11, color: "rgba(233,238,251,.72)" },
+                 showgrid: false,
+                 side: "bottom"
+               },
+               yaxis: {
+                 title: "",
+                 tickfont: { size: 11, color: "rgba(233,238,251,.72)" },
+                 autorange: "reversed"
+               },
+               margin: { l: 80, r: 60, t: 20, b: 40 },
+               paper_bgcolor: "transparent",
+               plot_bgcolor: "transparent",
+               font: { family: "var(--sans)", color: "rgba(233,238,251,.72)" },
+               hovermode: "closest"
+             };
+             
+             Plotly.newPlot(heatmapContainer, [trace], layout, {responsive: true, displayModeBar: false});
+           }
+
         })();
       </script>
     </main>
