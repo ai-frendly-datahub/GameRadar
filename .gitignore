@@ -172,3 +172,15 @@ marimo/_lsp/
 __marimo__/
 
 # Radar template artifacts
+
+# Generated workflow artifacts
+.sisyphus/
+data/raw/
+!data/raw/.gitkeep
+data/search_index.db
+data/search_index.db-wal
+data/search_index.db-shm
+reports/*.html
+!reports/.gitkeep
+docs/reports/*.html
+!docs/reports/.gitkeep
