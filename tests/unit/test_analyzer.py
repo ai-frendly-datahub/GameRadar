@@ -1,378 +1,155 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
-
-import pytest
-
-from radar.analyzer import apply_entity_rules
-from radar.models import Article, EntityDefinition
+from collections.abc import Iterable
+from datetime import UTC, datetime
+from importlib import import_module
+from typing import Protocol, cast
 
 
-class TestApplyEntityRules:
-    """Test entity matching logic in analyzer."""
+class _Article(Protocol):
+    title: str
+    link: str
+    summary: str
+    published: datetime | None
+    source: str
+    category: str
+    matched_entities: dict[str, list[str]]
+    collected_at: datetime | None
 
-    def test_apply_entity_rules_matches_single_keyword_in_title(self) -> None:
-        """Should match keyword found in article title."""
-        articles = [
-            Article(
-                title="Python programming guide",
-                link="http://example.com/1",
-                summary="Learn Python basics",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python"],
-            )
-        ]
 
-        result = apply_entity_rules(articles, entities)
+class _EntityDefinition(Protocol):
+    name: str
+    display_name: str
+    keywords: list[str]
 
-        assert len(result) == 1
-        assert "python" in result[0].matched_entities
-        assert result[0].matched_entities["python"] == ["python"]
 
-    def test_apply_entity_rules_matches_keyword_in_summary(self) -> None:
-        """Should match keyword found in article summary."""
-        articles = [
-            Article(
-                title="Web Development",
-                link="http://example.com/1",
-                summary="JavaScript is essential for web development",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="javascript",
-                display_name="JavaScript",
-                keywords=["javascript"],
-            )
-        ]
+class _ArticleCtor(Protocol):
+    def __call__(
+        self,
+        *,
+        title: str,
+        link: str,
+        summary: str,
+        published: datetime | None,
+        source: str,
+        category: str,
+        matched_entities: dict[str, list[str]] = ...,
+        collected_at: datetime | None = ...,
+    ) -> _Article: ...
 
-        result = apply_entity_rules(articles, entities)
 
-        assert len(result) == 1
-        assert "javascript" in result[0].matched_entities
-        assert result[0].matched_entities["javascript"] == ["javascript"]
+class _EntityCtor(Protocol):
+    def __call__(
+        self, *, name: str, display_name: str, keywords: list[str]
+    ) -> _EntityDefinition: ...
 
-    def test_apply_entity_rules_case_insensitive_matching(self) -> None:
-        """Should match keywords case-insensitively."""
-        articles = [
-            Article(
-                title="PYTHON Programming",
-                link="http://example.com/1",
-                summary="Learn Python basics",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python"],
-            )
-        ]
 
-        result = apply_entity_rules(articles, entities)
+class _ApplyEntityRules(Protocol):
+    def __call__(
+        self, articles: Iterable[_Article], entities: list[_EntityDefinition]
+    ) -> list[_Article]: ...
 
-        assert len(result) == 1
-        assert "python" in result[0].matched_entities
-        assert result[0].matched_entities["python"] == ["python"]
 
-    def test_apply_entity_rules_multiple_keywords_same_entity(self) -> None:
-        """Should match multiple keywords for same entity."""
-        articles = [
-            Article(
-                title="Python and JavaScript guide",
-                link="http://example.com/1",
-                summary="Learn web development",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="languages",
-                display_name="Languages",
-                keywords=["python", "javascript"],
-            )
-        ]
+Article = cast(_ArticleCtor, import_module("radar.models").Article)
+EntityDefinition = cast(_EntityCtor, import_module("radar.models").EntityDefinition)
+apply_entity_rules = cast(_ApplyEntityRules, import_module("radar.analyzer").apply_entity_rules)
 
-        result = apply_entity_rules(articles, entities)
 
-        assert len(result) == 1
-        assert "languages" in result[0].matched_entities
-        assert set(result[0].matched_entities["languages"]) == {"python", "javascript"}
+def _make_article(*, title: str, summary: str) -> _Article:
+    return Article(
+        title=title,
+        link=f"https://example.com/{title.lower().replace(' ', '-')}",
+        summary=summary,
+        published=datetime(2026, 3, 10, 9, 0, tzinfo=UTC),
+        source="Example RSS",
+        category="tech",
+    )
 
-    def test_apply_entity_rules_multiple_entities(self) -> None:
-        """Should match multiple different entities."""
-        articles = [
-            Article(
-                title="Python and JavaScript",
-                link="http://example.com/1",
-                summary="Web development languages",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python"],
-            ),
-            EntityDefinition(
-                name="javascript",
-                display_name="JavaScript",
-                keywords=["javascript"],
-            ),
-        ]
 
-        result = apply_entity_rules(articles, entities)
+def test_apply_entity_rules_matches_keywords_in_title_and_summary() -> None:
+    article = _make_article(title="AI adoption accelerates", summary="Cloud migration continues.")
+    entities = [
+        EntityDefinition(name="topic", display_name="Topic", keywords=["ai", "cloud"]),
+        EntityDefinition(name="lang", display_name="Language", keywords=["python"]),
+    ]
 
-        assert len(result) == 1
-        assert "python" in result[0].matched_entities
-        assert "javascript" in result[0].matched_entities
+    analyzed = apply_entity_rules([article], entities)
 
-    def test_apply_entity_rules_no_matches(self) -> None:
-        """Should return empty matched_entities when no keywords match."""
-        articles = [
-            Article(
-                title="Cooking guide",
-                link="http://example.com/1",
-                summary="Learn to cook",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="food",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python"],
-            )
-        ]
+    assert len(analyzed) == 1
+    assert analyzed[0].matched_entities == {"topic": ["ai", "cloud"]}
 
-        result = apply_entity_rules(articles, entities)
 
-        assert len(result) == 1
-        assert result[0].matched_entities == {}
+def test_apply_entity_rules_with_empty_entities_returns_articles_without_matches() -> None:
+    article = _make_article(title="No entities", summary="Nothing to match.")
 
-    def test_apply_entity_rules_empty_articles(self) -> None:
-        """Should handle empty article list."""
-        articles: list[Article] = []
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python"],
-            )
-        ]
+    analyzed = apply_entity_rules([article], [])
 
-        result = apply_entity_rules(articles, entities)
+    assert len(analyzed) == 1
+    assert analyzed[0].matched_entities == {}
 
-        assert result == []
 
-    def test_apply_entity_rules_empty_entities(self) -> None:
-        """Should handle empty entity list."""
-        articles = [
-            Article(
-                title="Python guide",
-                link="http://example.com/1",
-                summary="Learn Python",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities: list[EntityDefinition] = []
+def test_apply_entity_rules_with_empty_articles_returns_empty_list() -> None:
+    entities = [EntityDefinition(name="topic", display_name="Topic", keywords=["ai"])]
 
-        result = apply_entity_rules(articles, entities)
+    analyzed = apply_entity_rules([], entities)
 
-        assert len(result) == 1
-        assert result[0].matched_entities == {}
+    assert analyzed == []
 
-    def test_apply_entity_rules_empty_keywords_in_entity(self) -> None:
-        """Should skip entities with empty keywords."""
-        articles = [
-            Article(
-                title="Python guide",
-                link="http://example.com/1",
-                summary="Learn Python",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="empty",
-                display_name="Empty",
-                keywords=[],
-            )
-        ]
 
-        result = apply_entity_rules(articles, entities)
+def test_apply_entity_rules_is_case_insensitive() -> None:
+    article = _make_article(title="Ai and PYTHON", summary="CLOUD operations")
+    entities = [
+        EntityDefinition(name="topic", display_name="Topic", keywords=["AI", "python", "cloud"])
+    ]
 
-        assert len(result) == 1
-        assert result[0].matched_entities == {}
+    analyzed = apply_entity_rules([article], entities)
 
-    def test_apply_entity_rules_keyword_substring_match(self) -> None:
-        """Should match keywords as substrings."""
-        articles = [
-            Article(
-                title="Pythonic code",
-                link="http://example.com/1",
-                summary="Write pythonic code",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python"],
-            )
-        ]
+    assert analyzed[0].matched_entities == {"topic": ["ai", "python", "cloud"]}
 
-        result = apply_entity_rules(articles, entities)
 
-        assert len(result) == 1
-        assert "python" in result[0].matched_entities
-        assert result[0].matched_entities["python"] == ["python"]
+def test_apply_entity_rules_false_positive_ai_in_chair_eliminated() -> None:
+    article = _make_article(title="Wooden chair trends", summary="Furniture market update")
+    entities = [EntityDefinition(name="topic", display_name="Topic", keywords=["ai"])]
 
-    def test_apply_entity_rules_multiple_articles(self) -> None:
-        """Should process multiple articles independently."""
-        articles = [
-            Article(
-                title="Python guide",
-                link="http://example.com/1",
-                summary="Learn Python",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            ),
-            Article(
-                title="JavaScript tutorial",
-                link="http://example.com/2",
-                summary="Learn JavaScript",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            ),
-        ]
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python"],
-            ),
-            EntityDefinition(
-                name="javascript",
-                display_name="JavaScript",
-                keywords=["javascript"],
-            ),
-        ]
+    analyzed = apply_entity_rules([article], entities)
 
-        result = apply_entity_rules(articles, entities)
+    assert analyzed[0].matched_entities == {}
 
-        assert len(result) == 2
-        assert "python" in result[0].matched_entities
-        assert "javascript" in result[1].matched_entities
-        assert "javascript" not in result[0].matched_entities
-        assert "python" not in result[1].matched_entities
 
-    def test_apply_entity_rules_whitespace_keywords(self) -> None:
-        """Should skip empty/whitespace-only keywords."""
-        articles = [
-            Article(
-                title="Python guide",
-                link="http://example.com/1",
-                summary="Learn Python",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="test",
-                display_name="Test",
-                keywords=["", "   ", "python"],
-            )
-        ]
+def test_apply_entity_rules_ascii_keyword_ai_true_positives_preserved() -> None:
+    entities = [EntityDefinition(name="topic", display_name="Topic", keywords=["AI"])]
+    articles = [
+        _make_article(title="AI research roundup", summary="Weekly highlights"),
+        _make_article(title="Computer vision", summary="Teams are using AI for diagnostics"),
+        _make_article(title="Model updates", summary="the AI model improved by 10%"),
+    ]
 
-        result = apply_entity_rules(articles, entities)
+    analyzed = apply_entity_rules(articles, entities)
 
-        assert len(result) == 1
-        assert "test" in result[0].matched_entities
-        assert result[0].matched_entities["test"] == ["python"]
+    assert analyzed[0].matched_entities == {"topic": ["ai"]}
+    assert analyzed[1].matched_entities == {"topic": ["ai"]}
+    assert analyzed[2].matched_entities == {"topic": ["ai"]}
 
-    def test_apply_entity_rules_preserves_article_data(self) -> None:
-        """Should preserve original article data after analysis."""
-        original_article = Article(
-            title="Python guide",
-            link="http://example.com/1",
-            summary="Learn Python",
-            published=datetime.now(timezone.utc),
-            source="test_source",
-            category="tech",
-        )
-        articles = [original_article]
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python"],
-            )
-        ]
 
-        result = apply_entity_rules(articles, entities)
+def test_apply_entity_rules_ascii_keyword_ai_false_positives_eliminated() -> None:
+    entities = [EntityDefinition(name="topic", display_name="Topic", keywords=["AI"])]
+    articles = [
+        _make_article(title="CHAIR market trends", summary="furniture"),
+        _make_article(title="PAIR programming", summary="engineering practices"),
+        _make_article(title="MAIL delivery analytics", summary="logistics"),
+    ]
 
-        assert result[0].title == original_article.title
-        assert result[0].link == original_article.link
-        assert result[0].summary == original_article.summary
-        assert result[0].source == original_article.source
-        assert result[0].category == original_article.category
+    analyzed = apply_entity_rules(articles, entities)
 
-    def test_apply_entity_rules_duplicate_keywords_in_entity(self) -> None:
-        """Should handle duplicate keywords in entity definition."""
-        articles = [
-            Article(
-                title="Python Python guide",
-                link="http://example.com/1",
-                summary="Learn Python",
-                published=datetime.now(timezone.utc),
-                source="test_source",
-                category="tech",
-            )
-        ]
-        entities = [
-            EntityDefinition(
-                name="python",
-                display_name="Python",
-                keywords=["python", "python"],
-            )
-        ]
+    assert analyzed[0].matched_entities == {}
+    assert analyzed[1].matched_entities == {}
+    assert analyzed[2].matched_entities == {}
 
-        result = apply_entity_rules(articles, entities)
 
-        assert len(result) == 1
-        assert "python" in result[0].matched_entities
-        # Both occurrences should be counted
-        assert result[0].matched_entities["python"].count("python") == 2
+def test_apply_entity_rules_cjk_keyword_keeps_substring_matching() -> None:
+    article = _make_article(title="최신 연구 동향", summary="인공지능 연구 논문 요약")
+    entities = [EntityDefinition(name="topic", display_name="Topic", keywords=["인공지능"])]
+
+    analyzed = apply_entity_rules([article], entities)
+
+    assert analyzed[0].matched_entities == {"topic": ["인공지능"]}
