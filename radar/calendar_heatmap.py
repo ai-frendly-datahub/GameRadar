@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Any
 
 import plotly.graph_objects as go
@@ -20,7 +20,7 @@ def build_calendar_heatmap(articles: list[dict[str, Any]], days_back: int = 90) 
         HTML string containing the Plotly heatmap
     """
     # Parse dates and build week/day matrix
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     cutoff = now - timedelta(days=days_back)
 
     # Initialize matrix: weeks (rows) x days (cols)
@@ -44,7 +44,7 @@ def build_calendar_heatmap(articles: list[dict[str, Any]], days_back: int = 90) 
 
             # Ensure timezone-aware
             if published.tzinfo is None:
-                published = published.replace(tzinfo=timezone.utc)
+                published = published.replace(tzinfo=UTC)
 
             # Skip if outside range
             if published < cutoff or published > now:

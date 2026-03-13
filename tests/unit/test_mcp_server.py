@@ -2,13 +2,12 @@ from __future__ import annotations
 
 import json
 import tempfile
-from datetime import datetime, timedelta, timezone
+from collections.abc import Generator
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
-from typing import Generator
 
 import pytest
 
-from radar.models import Article
 from radar.mcp_server.tools import (
     export_data,
     get_entity_stats,
@@ -16,6 +15,7 @@ from radar.mcp_server.tools import (
     recent_articles,
     search_fulltext,
 )
+from radar.models import Article
 from radar.storage import RadarStorage
 
 
@@ -29,7 +29,7 @@ def temp_db() -> Generator[Path, None, None]:
 @pytest.fixture
 def sample_articles() -> list[Article]:
     """Create sample articles for testing."""
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     return [
         Article(
             title="Python Best Practices",
@@ -131,8 +131,16 @@ class TestSearchFulltext:
         with SearchIndex(search_db) as idx:
             idx.upsert_batch(
                 [
-                    ("http://example.com/python-1", "Python Best Practices", "Learn Python best practices"),
-                    ("http://example.com/web-1", "Web Development Trends", "Latest web development trends"),
+                    (
+                        "http://example.com/python-1",
+                        "Python Best Practices",
+                        "Learn Python best practices",
+                    ),
+                    (
+                        "http://example.com/web-1",
+                        "Web Development Trends",
+                        "Latest web development trends",
+                    ),
                 ]
             )
 

@@ -4,7 +4,7 @@ import sqlite3
 from dataclasses import dataclass
 from pathlib import Path
 from types import TracebackType
-from typing import Optional, cast
+from typing import cast
 
 
 @dataclass
@@ -17,7 +17,7 @@ class SearchResult:
 
 class SearchIndex:
     _db_path: Path
-    _conn: Optional[sqlite3.Connection]
+    _conn: sqlite3.Connection | None
 
     def __init__(self, db_path: Path) -> None:
         self._db_path = db_path
@@ -31,8 +31,8 @@ class SearchIndex:
     def __exit__(
         self,
         exc_type: type[BaseException] | None,
-        exc_value: Optional[BaseException],
-        traceback: Optional[TracebackType],
+        exc_value: BaseException | None,
+        traceback: TracebackType | None,
     ) -> None:
         self.close()
 
@@ -94,7 +94,9 @@ class SearchIndex:
             # 배치 DELETE: 모든 링크를 한 번에 삭제
             links_to_delete = [item[0] for item in items]
             placeholders = ",".join(["?"] * len(links_to_delete))
-            _ = conn.execute(f"DELETE FROM documents WHERE link IN ({placeholders})", links_to_delete)
+            _ = conn.execute(
+                f"DELETE FROM documents WHERE link IN ({placeholders})", links_to_delete
+            )
 
             # 배치 INSERT: executemany()로 모든 문서를 한 번에 삽입
             _ = conn.executemany(

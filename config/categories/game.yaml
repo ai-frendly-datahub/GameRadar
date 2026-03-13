@@ -14,9 +14,10 @@ sources:
   - name: "GameSpot"
     type: "rss"
     url: "https://www.gamespot.com/feeds/mashup/"
-  - name: "Polygon"
-    type: "rss"
-    url: "https://www.polygon.com/rss/index.xml"
+  # - name: "Polygon"
+  #   type: "rss"
+  #   url: "https://www.polygon.com/rss/index.xml"
+  # Disabled: Source unavailable
   - name: "Kotaku"
     type: "rss"
     url: "https://kotaku.com/rss"

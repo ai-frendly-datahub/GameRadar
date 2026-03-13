@@ -1,5 +1,4 @@
 from __future__ import annotations
-from typing import Optional
 
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -25,11 +24,11 @@ class Article:
     title: str
     link: str
     summary: str
-    published: Optional[datetime]
+    published: datetime | None
     source: str
     category: str
     matched_entities: dict[str, list[str]] = field(default_factory=dict)
-    collected_at: Optional[datetime] = None
+    collected_at: datetime | None = None
 
 
 @dataclass
@@ -86,9 +85,9 @@ class TelegramSettings:
 class StandardNotificationConfig:
     enabled: bool
     channels: list[str]
-    email: Optional[EmailSettings] = None
-    webhook_url: Optional[str] = None
-    telegram: Optional[TelegramSettings] = None
+    email: EmailSettings | None = None
+    webhook_url: str | None = None
+    telegram: TelegramSettings | None = None
     rules: dict[str, object] = field(default_factory=dict)
 
 
@@ -98,4 +97,4 @@ class RadarSettings:
     report_dir: Path
     raw_data_dir: Path
     search_db_path: Path
-    notifications: Optional[NotificationConfig] = None
+    notifications: NotificationConfig | None = None

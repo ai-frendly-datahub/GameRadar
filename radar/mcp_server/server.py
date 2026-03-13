@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 import asyncio
-from importlib import import_module
 import os
+from collections.abc import Callable
+from importlib import import_module
 from pathlib import Path
-from typing import Optional, Any, Callable, Protocol, cast
+from typing import Protocol, cast
 
 from radar.mcp_server.tools import (
     export_data,
@@ -13,6 +14,7 @@ from radar.mcp_server.tools import (
     recent_articles,
     search_fulltext,
 )
+
 
 def _db_path() -> Path:
     return Path(os.getenv("RADAR_DB_PATH", "data/radar_data.duckdb"))
@@ -56,9 +58,16 @@ def _list_tool_specs() -> list[dict[str, object]]:
             "inputSchema": {
                 "type": "object",
                 "properties": {
-                    "source": {"type": "string", "description": "Filter by source name (partial match)"},
+                    "source": {
+                        "type": "string",
+                        "description": "Filter by source name (partial match)",
+                    },
                     "category": {"type": "string", "description": "Filter by category"},
-                    "date_range_days": {"type": "integer", "minimum": 1, "description": "Filter to last N days"},
+                    "date_range_days": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "description": "Filter to last N days",
+                    },
                     "limit": {"type": "integer", "minimum": 1, "default": 50},
                 },
             },
@@ -81,7 +90,11 @@ def _list_tool_specs() -> list[dict[str, object]]:
             "inputSchema": {
                 "type": "object",
                 "properties": {
-                    "date_range_days": {"type": "integer", "minimum": 1, "description": "Filter to last N days"},
+                    "date_range_days": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "description": "Filter to last N days",
+                    },
                     "limit": {"type": "integer", "minimum": 1, "default": 20},
                 },
             },
@@ -104,7 +117,11 @@ def _list_tool_specs() -> list[dict[str, object]]:
                 "type": "object",
                 "properties": {
                     "format": {"type": "string", "enum": ["json", "csv"], "default": "json"},
-                    "date_range_days": {"type": "integer", "minimum": 1, "description": "Filter to last N days"},
+                    "date_range_days": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "description": "Filter to last N days",
+                    },
                     "limit": {"type": "integer", "minimum": 1, "default": 1000},
                 },
             },
@@ -119,11 +136,11 @@ def _call_tool_handler(name: str, arguments: object) -> str:
 
     if name == "query_articles":
         source_val = args.get("source")
-        source: Optional[str] = str(source_val) if source_val else None
+        source: str | None = str(source_val) if source_val else None
         category_val = args.get("category")
-        category: Optional[str] = str(category_val) if category_val else None
+        category: str | None = str(category_val) if category_val else None
         date_range_val = args.get("date_range_days")
-        date_range: Optional[int] = _as_int(date_range_val, -1) if date_range_val else None
+        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
         return query_articles(
             db_path=db_path,
             source=source,
@@ -140,7 +157,7 @@ def _call_tool_handler(name: str, arguments: object) -> str:
         )
     if name == "get_entity_stats":
         date_range_val = args.get("date_range_days")
-        date_range: Optional[int] = _as_int(date_range_val, -1) if date_range_val else None
+        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
         return get_entity_stats(
             db_path=db_path,
             date_range_days=date_range if date_range and date_range > 0 else None,
@@ -154,7 +171,7 @@ def _call_tool_handler(name: str, arguments: object) -> str:
         )
     if name == "export_data":
         date_range_val = args.get("date_range_days")
-        date_range: Optional[int] = _as_int(date_range_val, -1) if date_range_val else None
+        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
         return export_data(
             db_path=db_path,
             format=str(args.get("format", "json")),
@@ -192,7 +209,7 @@ class _StdioContext(Protocol):
     async def __aexit__(
         self,
         exc_type: type[BaseException] | None,
-        exc_value: Optional[BaseException],
+        exc_value: BaseException | None,
         traceback: object,
     ) -> object: ...
 
@@ -216,21 +233,23 @@ def _coerce_args(arguments: object) -> dict[str, object]:
 def create_app() -> _McpApp:
     server_module = import_module("mcp.server")
     types_module = import_module("mcp.types")
-    server_ctor = cast(_ServerCtor, getattr(server_module, "Server"))
-    tool_ctor = cast(_ToolCtor, getattr(types_module, "Tool"))
-    text_content_ctor = cast(_TextContentCtor, getattr(types_module, "TextContent"))
+    server_ctor = cast(_ServerCtor, server_module.Server)
+    tool_ctor = cast(_ToolCtor, types_module.Tool)
+    text_content_ctor = cast(_TextContentCtor, types_module.TextContent)
 
     app = server_ctor("radar-template")
 
     @app.list_tools()
     async def list_tools() -> list[object]:
         return [tool_ctor(**tool_spec) for tool_spec in _list_tool_specs()]
+
     _ = list_tools
 
     @app.call_tool()
     async def call_tool(name: str, arguments: object) -> list[object]:
         result = _call_tool_handler(name, arguments)
         return [text_content_ctor(type="text", text=result)]
+
     _ = call_tool
 
     return app
@@ -238,7 +257,7 @@ def create_app() -> _McpApp:
 
 async def main() -> None:
     stdio_module = import_module("mcp.server.stdio")
-    stdio_server = cast(_StdioServer, getattr(stdio_module, "stdio_server"))
+    stdio_server = cast(_StdioServer, stdio_module.stdio_server)
 
     app = create_app()
     async with stdio_server() as (read_stream, write_stream):

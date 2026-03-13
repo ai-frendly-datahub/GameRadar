@@ -1,15 +1,15 @@
 from __future__ import annotations
 
 from importlib import import_module
-from typing import Optional, Protocol, cast
+from typing import Protocol, cast
 
 
 class _ParsedQuery(Protocol):
     search_text: str
-    days: Optional[int]
-    limit: Optional[int]
-    category: Optional[str]
-    source: Optional[str]
+    days: int | None
+    limit: int | None
+    category: str | None
+    source: str | None
 
 
 class _ParseQuery(Protocol):

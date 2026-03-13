@@ -6,16 +6,15 @@ from pathlib import Path
 import pytest
 
 from radar.config_loader import (
-    load_category_config,
-    load_settings,
+    _dict_items,
     _parse_entity,
     _parse_source,
     _read_yaml_dict,
     _resolve_path,
     _string_value,
-    _dict_items,
+    load_category_config,
+    load_settings,
 )
-from radar.models import EntityDefinition, Source
 
 
 class TestLoadSettings:
@@ -179,9 +178,7 @@ class TestLoadCategoryConfig:
             categories_dir = Path(tmpdir)
             config_file = categories_dir / "tech.yaml"
             config_file.write_text(
-                "category_name: tech\n"
-                "sources: []\n"
-                "entities: []\n",
+                "category_name: tech\nsources: []\nentities: []\n",
                 encoding="utf-8",
             )
 

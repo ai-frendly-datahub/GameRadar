@@ -1,12 +1,13 @@
 from __future__ import annotations
 
+from unittest.mock import Mock, patch
+
 import pytest
 import requests
-from unittest.mock import Mock, patch, MagicMock
 
 from radar.collector import _collect_single, collect_sources
 from radar.exceptions import NetworkError, SourceError
-from radar.models import Source, Article
+from radar.models import Source
 
 
 class TestCollectorRetryLogic:

@@ -1,13 +1,11 @@
 from __future__ import annotations
 
 import tempfile
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
-import pytest
-
-from radar.models import Article, CategoryConfig, EntityDefinition, Source
-from radar.reporter import generate_report, _count_entities
+from radar.models import Article, CategoryConfig
+from radar.reporter import _count_entities, generate_report
 
 
 class TestGenerateReport:
@@ -124,7 +122,7 @@ class TestGenerateReport:
                     title="Breaking News",
                     link="http://example.com/1",
                     summary="Important update",
-                    published=datetime.now(timezone.utc),
+                    published=datetime.now(UTC),
                     source="test_source",
                     category="test",
                 )
@@ -156,7 +154,7 @@ class TestGenerateReport:
                     title="Article",
                     link="http://example.com/article",
                     summary="Summary",
-                    published=datetime.now(timezone.utc),
+                    published=datetime.now(UTC),
                     source="test_source",
                     category="test",
                 )
@@ -188,7 +186,7 @@ class TestGenerateReport:
                     title="Article",
                     link="http://example.com/1",
                     summary="This is a test summary",
-                    published=datetime.now(timezone.utc),
+                    published=datetime.now(UTC),
                     source="test_source",
                     category="test",
                 )
@@ -220,7 +218,7 @@ class TestGenerateReport:
                     title="Article",
                     link="http://example.com/1",
                     summary="Summary",
-                    published=datetime.now(timezone.utc),
+                    published=datetime.now(UTC),
                     source="BBC News",
                     category="test",
                 )
@@ -247,7 +245,7 @@ class TestGenerateReport:
                 sources=[],
                 entities=[],
             )
-            pub_date = datetime(2024, 3, 15, 10, 30, 0, tzinfo=timezone.utc)
+            pub_date = datetime(2024, 3, 15, 10, 30, 0, tzinfo=UTC)
             articles = [
                 Article(
                     title="Article",
@@ -311,7 +309,7 @@ class TestGenerateReport:
                     title="Python and JavaScript",
                     link="http://example.com/1",
                     summary="Languages",
-                    published=datetime.now(timezone.utc),
+                    published=datetime.now(UTC),
                     source="test_source",
                     category="test",
                     matched_entities={"languages": ["python", "javascript"]},
@@ -419,7 +417,7 @@ class TestCountEntities:
                 title="Test",
                 link="http://example.com/1",
                 summary="Test",
-                published=datetime.now(timezone.utc),
+                published=datetime.now(UTC),
                 source="test",
                 category="test",
                 matched_entities={"python": ["python"]},
@@ -437,7 +435,7 @@ class TestCountEntities:
                 title="Test",
                 link="http://example.com/1",
                 summary="Test",
-                published=datetime.now(timezone.utc),
+                published=datetime.now(UTC),
                 source="test",
                 category="test",
                 matched_entities={"languages": ["python", "javascript"]},
@@ -455,7 +453,7 @@ class TestCountEntities:
                 title="Test 1",
                 link="http://example.com/1",
                 summary="Test",
-                published=datetime.now(timezone.utc),
+                published=datetime.now(UTC),
                 source="test",
                 category="test",
                 matched_entities={"python": ["python"]},
@@ -464,7 +462,7 @@ class TestCountEntities:
                 title="Test 2",
                 link="http://example.com/2",
                 summary="Test",
-                published=datetime.now(timezone.utc),
+                published=datetime.now(UTC),
                 source="test",
                 category="test",
                 matched_entities={"python": ["python"]},
@@ -482,7 +480,7 @@ class TestCountEntities:
                 title="Test",
                 link="http://example.com/1",
                 summary="Test",
-                published=datetime.now(timezone.utc),
+                published=datetime.now(UTC),
                 source="test",
                 category="test",
                 matched_entities={"python": ["python"], "javascript": ["javascript"]},
@@ -509,7 +507,7 @@ class TestCountEntities:
                 title="Test",
                 link="http://example.com/1",
                 summary="Test",
-                published=datetime.now(timezone.utc),
+                published=datetime.now(UTC),
                 source="test",
                 category="test",
                 matched_entities={},
@@ -526,7 +524,7 @@ class TestCountEntities:
             title="Test",
             link="http://example.com/1",
             summary="Test",
-            published=datetime.now(timezone.utc),
+            published=datetime.now(UTC),
             source="test",
             category="test",
         )

@@ -7,12 +7,13 @@ from collections import Counter
 from datetime import datetime, timedelta
 from io import StringIO
 from pathlib import Path
-from typing import Optional, Any, cast
+from typing import Any, cast
 
 import duckdb
 
 from radar.nl_query import parse_query
 from radar.search_index import SearchIndex
+
 
 _ALLOWED_SQL = re.compile(r"^\s*(SELECT|WITH|EXPLAIN)\b", re.IGNORECASE)
 
@@ -39,9 +40,9 @@ def _filter_links(
     *,
     db_path: Path,
     links: list[str],
-    days: Optional[int] = None,
-    source: Optional[str] = None,
-    category: Optional[str] = None,
+    days: int | None = None,
+    source: str | None = None,
+    category: str | None = None,
 ) -> set[str]:
     if not links:
         return set()
@@ -77,9 +78,9 @@ def _filter_links(
 def query_articles(
     *,
     db_path: Path,
-    source: Optional[str] = None,
-    category: Optional[str] = None,
-    date_range_days: Optional[int] = None,
+    source: str | None = None,
+    category: str | None = None,
+    date_range_days: int | None = None,
     limit: int = 50,
 ) -> str:
     """Query articles with optional filters.
@@ -122,9 +123,7 @@ def query_articles(
             LIMIT ?
         """
         cursor = conn.execute(query, params + [limit])
-        rows = cast(
-            list[tuple[str, str, str, str, Optional[datetime], datetime]], cursor.fetchall()
-        )
+        rows = cast(list[tuple[str, str, str, str, datetime | None, datetime]], cursor.fetchall())
     finally:
         conn.close()
 
@@ -184,7 +183,7 @@ def search_fulltext(
 def get_entity_stats(
     *,
     db_path: Path,
-    date_range_days: Optional[int] = None,
+    date_range_days: int | None = None,
     limit: int = 20,
 ) -> str:
     """Get entity statistics (type counts and trends).
@@ -213,7 +212,7 @@ def get_entity_stats(
             {where_clause}
         """
         cursor = conn.execute(query, params)
-        rows = cast(list[tuple[Optional[str]]], cursor.fetchall())
+        rows = cast(list[tuple[str | None]], cursor.fetchall())
     finally:
         conn.close()
 
@@ -291,7 +290,7 @@ def export_data(
     *,
     db_path: Path,
     format: str = "json",
-    date_range_days: Optional[int] = None,
+    date_range_days: int | None = None,
     limit: int = 1000,
 ) -> str:
     """Export article data in JSON or CSV format.
@@ -324,11 +323,7 @@ def export_data(
         """
         cursor = conn.execute(query, params + [limit])
         rows = cast(
-            list[
-                tuple[
-                    str, str, str, str, Optional[str], Optional[datetime], datetime, Optional[str]
-                ]
-            ],
+            list[tuple[str, str, str, str, str | None, datetime | None, datetime, str | None]],
             cursor.fetchall(),
         )
     finally:

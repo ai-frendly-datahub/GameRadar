@@ -1,9 +1,7 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-
-import pytest
 
 from radar.models import (
     Article,
@@ -152,7 +150,7 @@ class TestArticle:
 
     def test_article_creation(self) -> None:
         """Should create Article with required fields."""
-        pub_date = datetime.now(timezone.utc)
+        pub_date = datetime.now(UTC)
         article = Article(
             title="Breaking News",
             link="http://example.com/article",
@@ -175,7 +173,7 @@ class TestArticle:
             title="Test",
             link="http://example.com",
             summary="Test",
-            published=datetime.now(timezone.utc),
+            published=datetime.now(UTC),
             source="test",
             category="test",
         )
@@ -189,7 +187,7 @@ class TestArticle:
             title="Test",
             link="http://example.com",
             summary="Test",
-            published=datetime.now(timezone.utc),
+            published=datetime.now(UTC),
             source="test",
             category="test",
             matched_entities=matched,
@@ -212,7 +210,7 @@ class TestArticle:
 
     def test_article_equality(self) -> None:
         """Should compare articles by value."""
-        pub_date = datetime(2024, 3, 15, 10, 30, 0, tzinfo=timezone.utc)
+        pub_date = datetime(2024, 3, 15, 10, 30, 0, tzinfo=UTC)
         article1 = Article(
             title="Test",
             link="http://example.com",
@@ -234,7 +232,7 @@ class TestArticle:
 
     def test_article_inequality_title(self) -> None:
         """Should distinguish articles with different titles."""
-        pub_date = datetime.now(timezone.utc)
+        pub_date = datetime.now(UTC)
         article1 = Article(
             title="Title 1",
             link="http://example.com",
@@ -256,7 +254,7 @@ class TestArticle:
 
     def test_article_inequality_link(self) -> None:
         """Should distinguish articles with different links."""
-        pub_date = datetime.now(timezone.utc)
+        pub_date = datetime.now(UTC)
         article1 = Article(
             title="Test",
             link="http://example.com/1",
@@ -283,7 +281,7 @@ class TestArticle:
             title="Test",
             link="http://example.com",
             summary=long_summary,
-            published=datetime.now(timezone.utc),
+            published=datetime.now(UTC),
             source="test",
             category="test",
         )
@@ -296,7 +294,7 @@ class TestArticle:
             title="Test: 한글 & Special <chars>",
             link="http://example.com?param=value&other=123",
             summary="Summary with émojis 🎉 and symbols @#$%",
-            published=datetime.now(timezone.utc),
+            published=datetime.now(UTC),
             source="Test/Source",
             category="test",
         )
@@ -312,9 +310,7 @@ class TestCategoryConfig:
     def test_category_config_creation(self) -> None:
         """Should create CategoryConfig with required fields."""
         sources = [Source(name="BBC", type="rss", url="http://example.com")]
-        entities = [
-            EntityDefinition(name="python", display_name="Python", keywords=["python"])
-        ]
+        entities = [EntityDefinition(name="python", display_name="Python", keywords=["python"])]
         config = CategoryConfig(
             category_name="tech",
             display_name="Technology",
@@ -369,9 +365,7 @@ class TestCategoryConfig:
         """Should support multiple entities."""
         entities = [
             EntityDefinition(name="python", display_name="Python", keywords=["python"]),
-            EntityDefinition(
-                name="javascript", display_name="JavaScript", keywords=["javascript"]
-            ),
+            EntityDefinition(name="javascript", display_name="JavaScript", keywords=["javascript"]),
             EntityDefinition(name="rust", display_name="Rust", keywords=["rust"]),
         ]
         config = CategoryConfig(
@@ -386,9 +380,7 @@ class TestCategoryConfig:
     def test_category_config_equality(self) -> None:
         """Should compare configs by value."""
         sources = [Source(name="BBC", type="rss", url="http://example.com")]
-        entities = [
-            EntityDefinition(name="python", display_name="Python", keywords=["python"])
-        ]
+        entities = [EntityDefinition(name="python", display_name="Python", keywords=["python"])]
         config1 = CategoryConfig(
             category_name="tech",
             display_name="Technology",

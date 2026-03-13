@@ -1,13 +1,13 @@
 from __future__ import annotations
 
 import argparse
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Optional, cast
+from typing import cast
 
 from radar.analyzer import apply_entity_rules
-from radar.common.validators import validate_article
 from radar.collector import collect_sources
+from radar.common.validators import validate_article
 from radar.config_loader import load_category_config, load_settings
 from radar.date_storage import apply_date_storage_policy
 from radar.logger import configure_logging, get_logger
@@ -21,6 +21,7 @@ from radar.raw_logger import RawLogger
 from radar.reporter import generate_report
 from radar.search_index import SearchIndex
 from radar.storage import RadarStorage
+
 
 logger = get_logger(__name__)
 
@@ -87,7 +88,7 @@ def _send_notifications(
         collected_count=collected_count,
         matched_count=matched_count,
         errors_count=errors_count,
-        timestamp=datetime.now(timezone.utc),
+        timestamp=datetime.now(UTC),
         report_url=str(report_path),
     )
 
@@ -104,8 +105,8 @@ def _send_notifications(
 def run(
     *,
     category: str,
-    config_path: Optional[Path] = None,
-    categories_dir: Optional[Path] = None,
+    config_path: Path | None = None,
+    categories_dir: Path | None = None,
     per_source_limit: int = 30,
     recent_days: int = 7,
     timeout: int = 15,
@@ -258,7 +259,7 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def _to_path(value: object) -> Optional[Path]:
+def _to_path(value: object) -> Path | None:
     if isinstance(value, Path):
         return value
     return None
