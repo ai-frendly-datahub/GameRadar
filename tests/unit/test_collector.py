@@ -5,6 +5,7 @@ import requests
 from unittest.mock import Mock, patch, MagicMock
 
 from radar.collector import _collect_single, collect_sources
+from radar.exceptions import NetworkError, SourceError
 from radar.models import Source, Article
 
 
@@ -37,9 +38,7 @@ class TestCollectorRetryLogic:
                 mock_response,
             ]
 
-            articles = _collect_single(
-                source, category="test", limit=10, timeout=15
-            )
+            articles = _collect_single(source, category="test", limit=10, timeout=15)
 
             assert len(articles) == 1
             assert articles[0].title == "Test Article"
@@ -76,9 +75,7 @@ class TestCollectorRetryLogic:
                 mock_response,
             ]
 
-            articles = _collect_single(
-                source, category="test", limit=10, timeout=15
-            )
+            articles = _collect_single(source, category="test", limit=10, timeout=15)
 
             assert len(articles) == 1
             assert articles[0].title == "Test Article"
@@ -93,7 +90,7 @@ class TestCollectorRetryLogic:
             # This test verifies that after 3 retries, it raises
             mock_get.side_effect = requests.exceptions.HTTPError("404 Not Found")
 
-            with pytest.raises(requests.exceptions.HTTPError):
+            with pytest.raises(SourceError):
                 _collect_single(source, category="test", limit=10, timeout=15)
 
             # Should try 3 times (retry logic applies to all RequestException)
@@ -106,7 +103,7 @@ class TestCollectorRetryLogic:
         with patch("radar.collector.requests.get") as mock_get:
             mock_get.side_effect = requests.exceptions.Timeout("timeout")
 
-            with pytest.raises(requests.exceptions.Timeout):
+            with pytest.raises(NetworkError):
                 _collect_single(source, category="test", limit=10, timeout=15)
 
             # Should try 3 times
@@ -137,9 +134,7 @@ class TestCollectorRetryLogic:
                 mock_response,
             ]
 
-            articles = _collect_single(
-                source, category="test", limit=10, timeout=15
-            )
+            articles = _collect_single(source, category="test", limit=10, timeout=15)
 
             assert len(articles) == 1
             assert mock_get.call_count == 3
@@ -152,7 +147,7 @@ class TestCollectSources:
         """Should collect articles from single source."""
         source = Source(name="test_feed", type="rss", url="http://example.com/feed")
 
-        with patch("radar.collector.requests.get") as mock_get:
+        with patch("radar.collector.requests.Session.get") as mock_get:
             mock_response = Mock()
             mock_response.content = b"""<?xml version="1.0"?>
             <rss version="2.0">
@@ -181,7 +176,7 @@ class TestCollectSources:
             Source(name="feed2", type="rss", url="http://example.com/feed2"),
         ]
 
-        with patch("radar.collector.requests.get") as mock_get:
+        with patch("radar.collector.requests.Session.get") as mock_get:
             mock_response = Mock()
             mock_response.content = b"""<?xml version="1.0"?>
             <rss version="2.0">
@@ -209,7 +204,7 @@ class TestCollectSources:
             Source(name="bad_feed", type="rss", url="http://example.com/bad"),
         ]
 
-        with patch("radar.collector.requests.get") as mock_get:
+        with patch("radar.collector.requests.Session.get") as mock_get:
             mock_response = Mock()
             mock_response.content = b"""<?xml version="1.0"?>
             <rss version="2.0">
@@ -258,7 +253,7 @@ class TestCollectSources:
         """Should respect per-source limit."""
         source = Source(name="test_feed", type="rss", url="http://example.com/feed")
 
-        with patch("radar.collector.requests.get") as mock_get:
+        with patch("radar.collector.requests.Session.get") as mock_get:
             mock_response = Mock()
             mock_response.content = b"""<?xml version="1.0"?>
             <rss version="2.0">
@@ -284,7 +279,7 @@ class TestCollectSingleSourceType:
         """Should raise ValueError for unsupported source type."""
         source = Source(name="html_feed", type="html", url="http://example.com/page")
 
-        with pytest.raises(ValueError, match="Unsupported source type"):
+        with pytest.raises(SourceError, match="Unsupported source type"):
             _collect_single(source, category="test", limit=10, timeout=15)
 
     def test_case_insensitive_rss_type(self) -> None:

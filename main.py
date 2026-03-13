@@ -9,6 +9,7 @@ from radar.analyzer import apply_entity_rules
 from radar.common.validators import validate_article
 from radar.collector import collect_sources
 from radar.config_loader import load_category_config, load_settings
+from radar.date_storage import apply_date_storage_policy
 from radar.logger import configure_logging, get_logger
 from radar.notifier import (
     CompositeNotifier,
@@ -109,6 +110,9 @@ def run(
     recent_days: int = 7,
     timeout: int = 15,
     keep_days: int = 90,
+    keep_raw_days: int = 180,
+    keep_report_days: int = 90,
+    snapshot_db: bool = False,
 ) -> Path:
     """Execute the lightweight collect -> analyze -> report pipeline."""
     configure_logging()
@@ -181,7 +185,18 @@ def run(
         stats=stats,
         errors=errors,
     )
+    date_storage = apply_date_storage_policy(
+        database_path=settings.database_path,
+        raw_data_dir=settings.raw_data_dir,
+        report_dir=settings.report_dir,
+        keep_raw_days=keep_raw_days,
+        keep_report_days=keep_report_days,
+        snapshot_db=snapshot_db,
+    )
     logger.info("report_generated", output_path=str(output_path))
+    snapshot_path = date_storage.get("snapshot_path")
+    if isinstance(snapshot_path, str) and snapshot_path:
+        logger.info("snapshot_saved", snapshot_path=snapshot_path)
     if errors:
         logger.warning("collection_errors", errors_count=len(errors))
 
@@ -223,6 +238,18 @@ def parse_args() -> argparse.Namespace:
         "--keep-days", type=int, default=90, help="Retention window for stored items"
     )
     _ = parser.add_argument(
+        "--keep-raw-days", type=int, default=180, help="Retention window for raw JSONL directories"
+    )
+    _ = parser.add_argument(
+        "--keep-report-days", type=int, default=90, help="Retention window for dated HTML reports"
+    )
+    _ = parser.add_argument(
+        "--snapshot-db",
+        action="store_true",
+        default=False,
+        help="Create a dated DuckDB snapshot after each run",
+    )
+    _ = parser.add_argument(
         "--generate-report",
         action="store_true",
         default=False,
@@ -260,4 +287,7 @@ if __name__ == "__main__":
         recent_days=_to_int(args.get("recent_days"), 7),
         timeout=_to_int(args.get("timeout"), 15),
         keep_days=_to_int(args.get("keep_days"), 90),
+        keep_raw_days=_to_int(args.get("keep_raw_days"), 180),
+        keep_report_days=_to_int(args.get("keep_report_days"), 90),
+        snapshot_db=bool(args.get("snapshot_db", False)),
     )
