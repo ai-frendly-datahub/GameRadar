@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 import duckdb
@@ -72,7 +72,7 @@ def test_handle_search(tmp_path: Path) -> None:
     search_db_path = tmp_path / "search.db"
     _init_articles_table(db_path)
 
-    now = datetime.now()
+    now = datetime.now(tz=UTC)
     recent_link = "https://example.com/recent"
     old_link = "https://example.com/old"
 
@@ -111,7 +111,7 @@ def test_handle_recent_updates(tmp_path: Path) -> None:
 
     db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
-    now = datetime.now()
+    now = datetime.now(tz=UTC)
 
     _seed_article(
         db_path=db_path,
@@ -162,7 +162,7 @@ def test_handle_top_trends(tmp_path: Path) -> None:
 
     db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
-    now = datetime.now()
+    now = datetime.now(tz=UTC)
 
     _seed_article(
         db_path=db_path,
@@ -204,7 +204,7 @@ def test_handle_search_with_source_filter(tmp_path: Path) -> None:
     search_db_path = tmp_path / "search.db"
     _init_articles_table(db_path)
 
-    now = datetime.now()
+    now = datetime.now(tz=UTC)
     bbc_link = "https://example.com/bbc"
     reuters_link = "https://example.com/reuters"
 
@@ -247,7 +247,7 @@ def test_handle_search_with_category_filter(tmp_path: Path) -> None:
     search_db_path = tmp_path / "search.db"
     _init_articles_table(db_path)
 
-    now = datetime.now()
+    now = datetime.now(tz=UTC)
     coffee_link = "https://example.com/coffee"
     wine_link = "https://example.com/wine"
 
@@ -290,7 +290,7 @@ def test_handle_search_with_time_source_category_filters(tmp_path: Path) -> None
     search_db_path = tmp_path / "search.db"
     _init_articles_table(db_path)
 
-    now = datetime.now()
+    now = datetime.now(tz=UTC)
     recent_bbc_coffee = "https://example.com/recent_bbc_coffee"
     old_bbc_coffee = "https://example.com/old_bbc_coffee"
     recent_reuters_coffee = "https://example.com/recent_reuters_coffee"

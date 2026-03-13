@@ -48,7 +48,7 @@ class TestGenerateReport:
             articles: list[Article] = []
             stats = {"sources": 0, "collected": 0, "matched": 0, "window_days": 7}
 
-            result = generate_report(
+            _ = generate_report(
                 category=category,
                 articles=articles,
                 output_path=output_path,

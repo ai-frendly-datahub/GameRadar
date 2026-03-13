@@ -4,7 +4,7 @@ import csv
 import json
 import re
 from collections import Counter
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from io import StringIO
 from pathlib import Path
 from typing import Any, cast
@@ -52,7 +52,7 @@ def _filter_links(
 
     if days is not None and days > 0:
         where_clauses.append("collected_at >= ?")
-        params.append(datetime.now() - timedelta(days=days))
+        params.append(datetime.now(tz=UTC) - timedelta(days=days))
 
     if source:
         where_clauses.append("LOWER(source) LIKE LOWER(?)")
@@ -107,7 +107,7 @@ def query_articles(
         params.append(category)
 
     if date_range_days is not None and date_range_days > 0:
-        cutoff = datetime.now() - timedelta(days=date_range_days)
+        cutoff = datetime.now(tz=UTC) - timedelta(days=date_range_days)
         where_clauses.append("collected_at >= ?")
         params.append(cutoff)
 
@@ -200,7 +200,7 @@ def get_entity_stats(
     params: list[object] = []
 
     if date_range_days is not None and date_range_days > 0:
-        cutoff = datetime.now() - timedelta(days=date_range_days)
+        cutoff = datetime.now(tz=UTC) - timedelta(days=date_range_days)
         where_clause = "WHERE collected_at >= ?"
         params.append(cutoff)
 
@@ -255,7 +255,7 @@ def recent_articles(
     Returns:
         Formatted text results
     """
-    cutoff = datetime.now() - timedelta(days=days)
+    cutoff = datetime.now(tz=UTC) - timedelta(days=days)
 
     conn = duckdb.connect(str(db_path), read_only=True)
     try:
@@ -308,7 +308,7 @@ def export_data(
     params: list[object] = []
 
     if date_range_days is not None and date_range_days > 0:
-        cutoff = datetime.now() - timedelta(days=date_range_days)
+        cutoff = datetime.now(tz=UTC) - timedelta(days=date_range_days)
         where_clause = "WHERE collected_at >= ?"
         params.append(cutoff)
 
