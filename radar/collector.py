@@ -8,6 +8,7 @@ from collections.abc import Mapping
 from concurrent.futures import Future, ThreadPoolExecutor
 from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
+from typing import Any
 from urllib.parse import urlparse
 
 import feedparser
@@ -23,16 +24,12 @@ from tenacity import (
 from urllib3.util.retry import Retry
 
 from .exceptions import NetworkError, ParseError, SourceError
-from .logger import get_logger
 from .models import Article, Source
 from .resilience import get_circuit_breaker_manager
 
 
-logger = get_logger(__name__)
-
-
 _DEFAULT_HEADERS: dict[str, str] = {
-    "User-Agent": "Mozilla/5.0 (compatible; GameRadarBot/1.0; +https://github.com/zzragida/ai-frendly-datahub)",
+    "User-Agent": "Mozilla/5.0 (compatible; RadarTemplateBot/1.0; +https://github.com/zzragida/ai-frendly-datahub)",
 }
 
 
@@ -85,12 +82,11 @@ def _create_session() -> requests.Session:
 def _fetch_url_with_retry(
     url: str,
     timeout: int,
-    source_name: str,
+    headers: dict[str, str] | None = None,
     session: requests.Session | None = None,
 ) -> requests.Response:
     """Fetch URL with retry logic on transient errors."""
-    attempt = 0
-    headers = dict(_DEFAULT_HEADERS)
+    merged = {**_DEFAULT_HEADERS, **(headers or {})}
 
     @retry(
         stop=stop_after_attempt(3),
@@ -99,14 +95,10 @@ def _fetch_url_with_retry(
         reraise=True,
     )
     def _fetch() -> requests.Response:
-        nonlocal attempt
-        attempt += 1
-        if attempt > 1:
-            logger.warning("retry_attempt", source_name=source_name, attempt_number=attempt)
         if session is not None:
-            response = session.get(url, timeout=timeout, headers=headers)
+            response = session.get(url, timeout=timeout, headers=merged)
         else:
-            response = requests.get(url, timeout=timeout, headers=headers)
+            response = requests.get(url, timeout=timeout, headers=merged)
         response.raise_for_status()
         return response
 
@@ -126,7 +118,6 @@ def collect_sources(
     articles: list[Article] = []
     errors: list[str] = []
     manager = get_circuit_breaker_manager()
-
     workers = _resolve_max_workers(max_workers)
     source_hosts: dict[str, str] = {
         source.name: (urlparse(source.url).netloc.lower() or source.name) for source in sources
@@ -152,14 +143,12 @@ def collect_sources(
             )
             return result, []
         except CircuitBreakerError:
-            logger.warning("circuit_breaker_open", source_name=source.name)
             return [], [f"{source.name}: Circuit breaker open (source unavailable)"]
         except SourceError as exc:
             return [], [str(exc)]
         except (NetworkError, ParseError) as exc:
             return [], [f"{source.name}: {exc}"]
-        except Exception as exc:  # noqa: BLE001 - surface errors to the caller
-            logger.error("fetch_failed", source_name=source.name, error=str(exc))
+        except Exception as exc:
             return [], [f"{source.name}: Unexpected error - {type(exc).__name__}: {exc}"]
 
     try:
@@ -195,9 +184,8 @@ def _collect_single(
     if source.type.lower() != "rss":
         raise SourceError(source.name, f"Unsupported source type '{source.type}'")
 
-    logger.info("fetching_source", source_name=source.name, url=source.url)
     try:
-        response = _fetch_url_with_retry(source.url, timeout, source.name, session=session)
+        response = _fetch_url_with_retry(source.url, timeout, session=session)
     except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as exc:
         raise NetworkError(f"Network error fetching {source.name}: {exc}") from exc
     except requests.exceptions.RequestException as exc:
@@ -205,39 +193,37 @@ def _collect_single(
 
     try:
         feed = feedparser.parse(response.content)
+        items: list[Article] = []
+
+        for entry in feed.entries[:limit]:
+            published = _extract_datetime(entry)
+            summary = _entry_text(entry, "summary") or _entry_text(entry, "description")
+            if not summary:
+                _content = entry.get("content", [])
+                if isinstance(_content, list) and _content:
+                    first_item = _content[0]
+                    if isinstance(first_item, Mapping):
+                        value = first_item.get("value")
+                        if isinstance(value, str):
+                            summary = value
+
+            items.append(
+                Article(
+                    title=html.unescape(_entry_text(entry, "title").strip()) or "(no title)",
+                    link=_entry_text(entry, "link").strip(),
+                    summary=html.unescape(summary.strip()),
+                    published=published,
+                    source=source.name,
+                    category=category,
+                )
+            )
+
+        return items
     except Exception as exc:
         raise ParseError(f"Failed to parse feed from {source.name}: {exc}") from exc
-    items: list[Article] = []
-
-    entries = list(getattr(feed, "entries", []))
-    for raw_entry in entries[:limit]:
-        entry = _entry_dict(raw_entry)
-        published = _extract_datetime(entry)
-        summary = _entry_text(entry, "summary") or _entry_text(entry, "description")
-        if not summary:
-            _content = entry.get("content", [])
-            if isinstance(_content, list) and _content:
-                first_item = _content[0]
-                if isinstance(first_item, Mapping):
-                    value = first_item.get("value")
-                    if isinstance(value, str):
-                        summary = value
-
-        items.append(
-            Article(
-                title=html.unescape(_entry_text(entry, "title").strip()) or "(no title)",
-                link=_entry_text(entry, "link").strip(),
-                summary=html.unescape(summary.strip()),
-                published=published,
-                source=source.name,
-                category=category,
-            )
-        )
-
-    return items
 
 
-def _extract_datetime(entry: Mapping[str, object]) -> datetime | None:
+def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
     """Parse a feed entry date into a timezone-aware datetime."""
     published_parsed = entry.get("published_parsed")
     if isinstance(published_parsed, time.struct_time):
@@ -260,12 +246,6 @@ def _extract_datetime(entry: Mapping[str, object]) -> datetime | None:
     return None
 
 
-def _entry_dict(entry: object) -> dict[str, object]:
-    if isinstance(entry, dict):
-        return {str(key): value for key, value in entry.items()}
-    return {}
-
-
-def _entry_text(entry: Mapping[str, object], key: str) -> str:
+def _entry_text(entry: Mapping[str, Any], key: str) -> str:
     value = entry.get(key)
     return value if isinstance(value, str) else ""

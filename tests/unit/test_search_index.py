@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import sqlite3
-import time
 from importlib import import_module
 from pathlib import Path
 from typing import Protocol, cast
@@ -20,8 +19,6 @@ class _SearchResult(Protocol):
 
 class _SearchIndex(Protocol):
     def upsert(self, link: str, title: str, body: str) -> None: ...
-
-    def upsert_batch(self, items: list[tuple[str, str, str]]) -> None: ...
 
     def search(self, query: str, *, limit: int = 20) -> list[_SearchResult]: ...
 
@@ -206,134 +203,3 @@ def test_load_settings_reads_custom_search_db_path(tmp_path: Path) -> None:
     settings = load_settings(config_path)
 
     assert settings.search_db_path == custom_path
-
-
-class TestSearchIndexBatchPerformance:
-    """Test batch processing performance and correctness."""
-
-    def test_batch_upsert_100_documents(self, tmp_path: Path) -> None:
-        """Should upsert 100 documents in batch and verify all are searchable."""
-        index = SearchIndex(tmp_path / "search_index.db")
-
-        # Create 100 documents
-        batch_items: list[tuple[str, str, str]] = [
-            (f"https://example.com/{i}", f"Document {i}", f"Content for document {i}")
-            for i in range(100)
-        ]
-
-        # Upsert all at once
-        index.upsert_batch(batch_items)
-
-        # Verify all documents are searchable
-        results = index.search("document", limit=200)
-        index.close()
-
-        assert len(results) == 100
-
-    def test_batch_upsert_performance_vs_single(self, tmp_path: Path) -> None:
-        """Batch upsert should be significantly faster than individual upserts."""
-        # Create 100 documents
-        batch_items: list[tuple[str, str, str]] = [
-            (f"https://example.com/{i}", f"Document {i}", f"Content for document {i}")
-            for i in range(100)
-        ]
-
-        # Batch upsert timing
-        index_batch = SearchIndex(tmp_path / "batch_search.db")
-        start = time.perf_counter()
-        index_batch.upsert_batch(batch_items)
-        batch_time = time.perf_counter() - start
-        index_batch.close()
-
-        # Single upsert timing
-        index_single = SearchIndex(tmp_path / "single_search.db")
-        start = time.perf_counter()
-        for link, title, body in batch_items:
-            index_single.upsert(link, title, body)
-        single_time = time.perf_counter() - start
-        index_single.close()
-
-        # Batch should be at least 2x faster (conservative estimate)
-        assert batch_time < single_time / 2, (
-            f"Batch upsert ({batch_time:.3f}s) should be significantly faster than "
-            f"individual upserts ({single_time:.3f}s)"
-        )
-
-    def test_batch_upsert_with_duplicates(self, tmp_path: Path) -> None:
-        """Batch upsert should handle duplicate links correctly."""
-        index = SearchIndex(tmp_path / "search_index.db")
-
-        # First batch
-        batch1: list[tuple[str, str, str]] = [
-            (f"https://example.com/{i}", f"Document {i}", f"Content {i}") for i in range(50)
-        ]
-        index.upsert_batch(batch1)
-
-        # Second batch with overlapping links
-        batch2: list[tuple[str, str, str]] = [
-            (f"https://example.com/{i}", f"Updated Document {i}", f"Updated Content {i}")
-            for i in range(25, 75)
-        ]
-        index.upsert_batch(batch2)
-
-        # Should have 75 unique documents
-        results = index.search("document", limit=200)
-        index.close()
-
-        assert len(results) == 75
-
-    def test_batch_upsert_empty_list(self, tmp_path: Path) -> None:
-        """Should handle empty batch gracefully."""
-        index = SearchIndex(tmp_path / "search_index.db")
-
-        # Upsert empty batch
-        index.upsert_batch([])
-
-        # Should have no documents
-        results = index.search("document")
-        index.close()
-
-        assert len(results) == 0
-
-    def test_batch_upsert_korean_documents(self, tmp_path: Path) -> None:
-        """Batch upsert should handle Korean text correctly."""
-        index = SearchIndex(tmp_path / "search_index.db")
-
-        # Create batch with Korean content
-        batch_items: list[tuple[str, str, str]] = [
-            (f"https://example.com/{i}", f"문서 {i}", f"한국어 콘텐츠 {i}") for i in range(10)
-        ]
-
-        # Upsert batch
-        index.upsert_batch(batch_items)
-
-        # Verify searchable
-        results = index.search("한국어", limit=20)
-        index.close()
-
-        assert len(results) == 10
-
-    def test_batch_upsert_preserves_search_ranking(self, tmp_path: Path) -> None:
-        """Batch upsert should maintain proper search ranking."""
-        index = SearchIndex(tmp_path / "search_index.db")
-
-        # Create batch with varying relevance
-        batch_items: list[tuple[str, str, str]] = [
-            (
-                "https://example.com/high",
-                "Merlot from France",
-                "Merlot from France is celebrated. Merlot France pairing tips.",
-            ),
-            ("https://example.com/low", "Merlot overview", "This article mentions merlot once."),
-        ]
-
-        # Upsert batch
-        index.upsert_batch(batch_items)
-
-        # Verify ranking
-        results = index.search("merlot OR france", limit=2)
-        index.close()
-
-        assert len(results) == 2
-        assert results[0].link == "https://example.com/high"
-        assert results[0].rank <= results[1].rank

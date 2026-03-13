@@ -40,29 +40,11 @@ class CategoryConfig:
 
 
 @dataclass
-class EmailConfig:
-    enabled: bool
-    smtp_host: str
-    smtp_port: int
-    smtp_user: str
-    smtp_password: str
-    from_addr: str
-    to_addrs: list[str]
-
-
-@dataclass
-class WebhookConfig:
-    enabled: bool
-    url: str
-    method: str
-    headers: dict[str, str]
-
-
-@dataclass
-class NotificationConfig:
-    enabled: bool
-    email: EmailConfig
-    webhook: WebhookConfig
+class RadarSettings:
+    database_path: Path
+    report_dir: Path
+    raw_data_dir: Path
+    search_db_path: Path
 
 
 @dataclass
@@ -82,19 +64,10 @@ class TelegramSettings:
 
 
 @dataclass
-class StandardNotificationConfig:
+class NotificationConfig:
     enabled: bool
     channels: list[str]
     email: EmailSettings | None = None
     webhook_url: str | None = None
     telegram: TelegramSettings | None = None
     rules: dict[str, object] = field(default_factory=dict)
-
-
-@dataclass
-class RadarSettings:
-    database_path: Path
-    report_dir: Path
-    raw_data_dir: Path
-    search_db_path: Path
-    notifications: NotificationConfig | None = None

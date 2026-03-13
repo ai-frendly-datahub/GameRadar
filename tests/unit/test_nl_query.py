@@ -9,7 +9,6 @@ class _ParsedQuery(Protocol):
     days: int | None
     limit: int | None
     category: str | None
-    source: str | None
 
 
 class _ParseQuery(Protocol):
@@ -98,68 +97,3 @@ def test_parse_whitespace_cleanup() -> None:
     assert parsed.days == 14
     assert parsed.limit == 5
     assert parsed.search_text == "보르도 와인"
-
-
-def test_parse_source_english() -> None:
-    parsed = parse_query("source:BBC wine news")
-
-    assert parsed.source == "BBC"
-    assert "wine" in parsed.search_text
-    assert "news" in parsed.search_text
-
-
-def test_parse_source_from_keyword() -> None:
-    parsed = parse_query("from Reuters coffee market")
-
-    assert parsed.source == "Reuters"
-    assert "coffee" in parsed.search_text
-    assert "market" in parsed.search_text
-
-
-def test_parse_source_korean() -> None:
-    parsed = parse_query("소스:조선일보 와인 뉴스")
-
-    assert parsed.source == "조선일보"
-    assert "와인" in parsed.search_text
-    assert "뉴스" in parsed.search_text
-
-
-def test_parse_category_english() -> None:
-    parsed = parse_query("category:wine coffee trends")
-
-    assert parsed.category == "wine"
-    assert "coffee" in parsed.search_text
-    assert "trends" in parsed.search_text
-
-
-def test_parse_category_korean() -> None:
-    parsed = parse_query("카테고리:와인 보르도 뉴스")
-
-    assert parsed.category == "와인"
-    assert "보르도" in parsed.search_text
-    assert "뉴스" in parsed.search_text
-
-
-def test_parse_combined_time_source_category() -> None:
-    parsed = parse_query("최근 1주 source:BBC category:wine 뉴스")
-
-    assert parsed.days == 7
-    assert parsed.source == "BBC"
-    assert parsed.category == "wine"
-    assert "뉴스" in parsed.search_text
-
-
-def test_parse_source_and_limit() -> None:
-    parsed = parse_query("from Reuters top 10 coffee")
-
-    assert parsed.source == "Reuters"
-    assert parsed.limit == 10
-    assert "coffee" in parsed.search_text
-
-
-def test_parse_category_and_limit() -> None:
-    parsed = parse_query("category:tech 최근 3일 5개")
-
-    assert parsed.category == "tech"
-    assert parsed.days == 3
-    assert parsed.limit == 5

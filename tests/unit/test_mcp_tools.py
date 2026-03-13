@@ -39,8 +39,6 @@ def _seed_article(
     link: str,
     collected_at: datetime,
     entities: dict[str, list[str]] | None = None,
-    source: str = "Test Source",
-    category: str = "coffee",
 ) -> None:
     conn = duckdb.connect(str(db_path))
     try:
@@ -51,8 +49,8 @@ def _seed_article(
             """,
             [
                 article_id,
-                category,
-                source,
+                "coffee",
+                "Test Source",
                 title,
                 link,
                 "summary",
@@ -66,13 +64,13 @@ def _seed_article(
 
 
 def test_handle_search(tmp_path: Path) -> None:
-    from radar.mcp_server.tools import handle_search
+    from mcp_server.tools import handle_search
 
     db_path = tmp_path / "radar.duckdb"
     search_db_path = tmp_path / "search.db"
     _init_articles_table(db_path)
 
-    now = datetime.now(tz=UTC)
+    now = datetime.now(UTC)
     recent_link = "https://example.com/recent"
     old_link = "https://example.com/old"
 
@@ -107,11 +105,11 @@ def test_handle_search(tmp_path: Path) -> None:
 
 
 def test_handle_recent_updates(tmp_path: Path) -> None:
-    from radar.mcp_server.tools import handle_recent_updates
+    from mcp_server.tools import handle_recent_updates
 
     db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
-    now = datetime.now(tz=UTC)
+    now = datetime.now(UTC)
 
     _seed_article(
         db_path=db_path,
@@ -135,7 +133,7 @@ def test_handle_recent_updates(tmp_path: Path) -> None:
 
 
 def test_handle_sql_select(tmp_path: Path) -> None:
-    from radar.mcp_server.tools import handle_sql
+    from mcp_server.tools import handle_sql
 
     db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
@@ -147,7 +145,7 @@ def test_handle_sql_select(tmp_path: Path) -> None:
 
 
 def test_handle_sql_blocked(tmp_path: Path) -> None:
-    from radar.mcp_server.tools import handle_sql
+    from mcp_server.tools import handle_sql
 
     db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
@@ -158,11 +156,11 @@ def test_handle_sql_blocked(tmp_path: Path) -> None:
 
 
 def test_handle_top_trends(tmp_path: Path) -> None:
-    from radar.mcp_server.tools import handle_top_trends
+    from mcp_server.tools import handle_top_trends
 
     db_path = tmp_path / "radar.duckdb"
     _init_articles_table(db_path)
-    now = datetime.now(tz=UTC)
+    now = datetime.now(UTC)
 
     _seed_article(
         db_path=db_path,
@@ -190,151 +188,8 @@ def test_handle_top_trends(tmp_path: Path) -> None:
 
 
 def test_handle_price_watch_stub() -> None:
-    from radar.mcp_server.tools import handle_price_watch
+    from mcp_server.tools import handle_price_watch
 
     output = handle_price_watch(threshold=10.0)
 
     assert "Not available in template project" in output
-
-
-def test_handle_search_with_source_filter(tmp_path: Path) -> None:
-    from radar.mcp_server.tools import handle_search
-
-    db_path = tmp_path / "radar.duckdb"
-    search_db_path = tmp_path / "search.db"
-    _init_articles_table(db_path)
-
-    now = datetime.now(tz=UTC)
-    bbc_link = "https://example.com/bbc"
-    reuters_link = "https://example.com/reuters"
-
-    _seed_article(
-        db_path=db_path,
-        article_id=1,
-        title="BBC coffee news",
-        link=bbc_link,
-        collected_at=now - timedelta(days=1),
-        source="BBC",
-    )
-    _seed_article(
-        db_path=db_path,
-        article_id=2,
-        title="Reuters coffee news",
-        link=reuters_link,
-        collected_at=now - timedelta(days=1),
-        source="Reuters",
-    )
-
-    with SearchIndex(search_db_path) as idx:
-        idx.upsert(bbc_link, "BBC coffee news", "BBC news")
-        idx.upsert(reuters_link, "Reuters coffee news", "Reuters news")
-
-    output = handle_search(
-        search_db_path=search_db_path,
-        db_path=db_path,
-        query="source:BBC coffee",
-        limit=10,
-    )
-
-    assert "BBC coffee news" in output
-    assert "Reuters coffee news" not in output
-
-
-def test_handle_search_with_category_filter(tmp_path: Path) -> None:
-    from radar.mcp_server.tools import handle_search
-
-    db_path = tmp_path / "radar.duckdb"
-    search_db_path = tmp_path / "search.db"
-    _init_articles_table(db_path)
-
-    now = datetime.now(tz=UTC)
-    coffee_link = "https://example.com/coffee"
-    wine_link = "https://example.com/wine"
-
-    _seed_article(
-        db_path=db_path,
-        article_id=1,
-        title="Coffee trends",
-        link=coffee_link,
-        collected_at=now - timedelta(days=1),
-        category="coffee",
-    )
-    _seed_article(
-        db_path=db_path,
-        article_id=2,
-        title="Wine trends",
-        link=wine_link,
-        collected_at=now - timedelta(days=1),
-        category="wine",
-    )
-
-    with SearchIndex(search_db_path) as idx:
-        idx.upsert(coffee_link, "Coffee trends", "Coffee market")
-        idx.upsert(wine_link, "Wine trends", "Wine market")
-
-    output = handle_search(
-        search_db_path=search_db_path,
-        db_path=db_path,
-        query="category:coffee trends",
-        limit=10,
-    )
-
-    assert "Coffee trends" in output
-    assert "Wine trends" not in output
-
-
-def test_handle_search_with_time_source_category_filters(tmp_path: Path) -> None:
-    from radar.mcp_server.tools import handle_search
-
-    db_path = tmp_path / "radar.duckdb"
-    search_db_path = tmp_path / "search.db"
-    _init_articles_table(db_path)
-
-    now = datetime.now(tz=UTC)
-    recent_bbc_coffee = "https://example.com/recent_bbc_coffee"
-    old_bbc_coffee = "https://example.com/old_bbc_coffee"
-    recent_reuters_coffee = "https://example.com/recent_reuters_coffee"
-
-    _seed_article(
-        db_path=db_path,
-        article_id=1,
-        title="Recent BBC coffee",
-        link=recent_bbc_coffee,
-        collected_at=now - timedelta(days=2),
-        source="BBC",
-        category="coffee",
-    )
-    _seed_article(
-        db_path=db_path,
-        article_id=2,
-        title="Old BBC coffee",
-        link=old_bbc_coffee,
-        collected_at=now - timedelta(days=20),
-        source="BBC",
-        category="coffee",
-    )
-    _seed_article(
-        db_path=db_path,
-        article_id=3,
-        title="Recent Reuters coffee",
-        link=recent_reuters_coffee,
-        collected_at=now - timedelta(days=2),
-        source="Reuters",
-        category="coffee",
-    )
-
-    with SearchIndex(search_db_path) as idx:
-        idx.upsert(recent_bbc_coffee, "Recent BBC coffee", "BBC recent")
-        idx.upsert(old_bbc_coffee, "Old BBC coffee", "BBC old")
-        idx.upsert(recent_reuters_coffee, "Recent Reuters coffee", "Reuters recent")
-
-    output = handle_search(
-        search_db_path=search_db_path,
-        db_path=db_path,
-        query="last 7 days source:BBC category:coffee",
-        limit=10,
-    )
-
-    assert "Recent BBC coffee" in output
-    assert "Old BBC coffee" not in output
-    assert "Recent Reuters coffee" not in output
