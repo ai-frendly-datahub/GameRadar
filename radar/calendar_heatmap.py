@@ -68,7 +68,7 @@ def build_calendar_heatmap(articles: list[dict[str, Any]], days_back: int = 90) 
         html_str = fig.to_html(include_plotlyjs=False, div_id="calendarHeatmap")
         return str(html_str)
 
-    weeks = sorted(set(k[0] for k in heatmap_data.keys()))
+    weeks = sorted({k[0] for k in heatmap_data.keys()})
     min_week = weeks[0]
     max_week = weeks[-1]
 
@@ -93,32 +93,32 @@ def build_calendar_heatmap(articles: list[dict[str, Any]], days_back: int = 90) 
             y=week_labels,
             colorscale="YlOrRd",
             hovertemplate="Week %{y}<br>%{x}<br>%{z} releases<extra></extra>",
-            colorbar=dict(
-                title="Releases",
-                thickness=16,
-                len=0.7,
-                tickfont=dict(size=11, color="rgba(233,238,251,.72)"),
-                tickcolor="rgba(233,238,251,.72)",
-            ),
+            colorbar={
+                "title": "Releases",
+                "thickness": 16,
+                "len": 0.7,
+                "tickfont": {"size": 11, "color": "rgba(233,238,251,.72)"},
+                "tickcolor": "rgba(233,238,251,.72)",
+            },
         )
     )
 
     fig.update_layout(
         title="",
-        xaxis=dict(
-            title="",
-            tickfont=dict(size=11, color="rgba(233,238,251,.72)"),
-            showgrid=False,
-            side="bottom",
-        ),
-        yaxis=dict(
-            title="",
-            tickfont=dict(size=11, color="rgba(233,238,251,.72)"),
-        ),
-        margin=dict(l=80, r=60, t=20, b=40),
+        xaxis={
+            "title": "",
+            "tickfont": {"size": 11, "color": "rgba(233,238,251,.72)"},
+            "showgrid": False,
+            "side": "bottom",
+        },
+        yaxis={
+            "title": "",
+            "tickfont": {"size": 11, "color": "rgba(233,238,251,.72)"},
+        },
+        margin={"l": 80, "r": 60, "t": 20, "b": 40},
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="var(--sans)", color="rgba(233,238,251,.72)"),
+        font={"family": "var(--sans)", "color": "rgba(233,238,251,.72)"},
         hovermode="closest",
         height=400,
     )
