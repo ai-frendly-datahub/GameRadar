@@ -45,6 +45,7 @@ class RadarSettings:
     report_dir: Path
     raw_data_dir: Path
     search_db_path: Path
+    notifications: NotificationConfig | None = None
 
 
 @dataclass
