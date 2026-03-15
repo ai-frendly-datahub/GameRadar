@@ -66,7 +66,7 @@ class TelegramSettings:
 @dataclass
 class NotificationConfig:
     enabled: bool
-    channels: list[str]
+    channels: list[str] = field(default_factory=list)
     email: EmailSettings | None = None
     webhook_url: str | None = None
     telegram: TelegramSettings | None = None
