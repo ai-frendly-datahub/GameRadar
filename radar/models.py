@@ -71,6 +71,7 @@ class NotificationConfig:
     webhook_url: str | None = None
     telegram: TelegramSettings | None = None
     rules: dict[str, object] = field(default_factory=dict)
+    webhook: WebhookConfig | None = None
 
 
 @dataclass
