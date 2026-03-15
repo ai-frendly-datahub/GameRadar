@@ -71,3 +71,32 @@ class NotificationConfig:
     webhook_url: str | None = None
     telegram: TelegramSettings | None = None
     rules: dict[str, object] = field(default_factory=dict)
+
+
+@dataclass
+class EmailConfig:
+    enabled: bool
+    smtp_host: str
+    smtp_port: int
+    smtp_user: str
+    smtp_password: str
+    from_addr: str
+    to_addrs: list[str]
+
+
+@dataclass
+class WebhookConfig:
+    enabled: bool
+    url: str
+    method: str
+    headers: dict[str, str]
+
+
+@dataclass
+class StandardNotificationConfig:
+    enabled: bool
+    channels: list[str]
+    email: EmailSettings | None = None
+    webhook_url: str | None = None
+    telegram: TelegramSettings | None = None
+    rules: dict[str, object] = field(default_factory=dict)
