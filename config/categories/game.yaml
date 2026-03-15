@@ -52,6 +52,17 @@ sources:
     type: "rss"
     url: "https://esportsinsider.com/feed"
 
+  # --- JavaScript-rendered sources (Playwright) ---
+  - name: "인벤 게임뉴스"
+    type: "javascript"
+    url: "https://www.inven.co.kr/webzine/news/"
+  - name: "게임메카"
+    type: "javascript"
+    url: "https://www.gamemeca.com/news.php"
+  - name: "루리웹 뉴스"
+    type: "javascript"
+    url: "https://bbs.ruliweb.com/news"
+
 entities:
   - name: "Platform"
     display_name: "플랫폼"
