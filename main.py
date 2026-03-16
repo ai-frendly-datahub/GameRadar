@@ -18,7 +18,7 @@ from radar.notifier import (
     WebhookNotifier,
 )
 from radar.raw_logger import RawLogger
-from radar.reporter import generate_report
+from radar.reporter import generate_index_html, generate_report
 from radar.search_index import SearchIndex
 from radar.storage import RadarStorage
 
@@ -186,6 +186,8 @@ def run(
         stats=stats,
         errors=errors,
     )
+    # Generate index.html
+    generate_index_html(settings.report_dir)
     date_storage = apply_date_storage_policy(
         database_path=settings.database_path,
         raw_data_dir=settings.raw_data_dir,
