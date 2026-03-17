@@ -117,7 +117,6 @@ def load_settings(config_path: Path | None = None) -> RadarSettings:
         report_dir=report_dir,
         raw_data_dir=raw_data_dir,
         search_db_path=search_db_path,
-        notifications=notifications,
     )
 
 
