@@ -4,21 +4,27 @@ from __future__ import annotations
 from radar_core.models import (
     Article,
     CategoryConfig,
+    EmailConfig,
     EmailSettings,
     EntityDefinition,
     NotificationConfig,
     RadarSettings,
     Source,
+    StandardNotificationConfig,
     TelegramSettings,
+    WebhookConfig,
 )
 
 __all__ = [
     "Article",
     "CategoryConfig",
+    "EmailConfig",
     "EmailSettings",
     "EntityDefinition",
     "NotificationConfig",
     "RadarSettings",
     "Source",
+    "StandardNotificationConfig",
     "TelegramSettings",
+    "WebhookConfig",
 ]
