@@ -249,8 +249,8 @@ def _parse_notifications(raw: dict[str, object]) -> NotificationConfig:
 
     return NotificationConfig(
         enabled=enabled,
-        email=email_config,
-        webhook=webhook_config,
+        channels=[],
+        webhook_url=webhook_config.url if webhook_config.enabled else None,
     )
 
 
