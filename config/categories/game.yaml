@@ -9,6 +9,9 @@ sources:
   - name: "PlayStation Blog"
     type: "rss"
     url: "https://blog.playstation.com/feed/"
+  - name: "Xbox Wire"
+    type: "rss"
+    url: "https://news.xbox.com/en-us/feed/"
   
   # Major Gaming News (Existing)
   - name: "GameSpot"
