@@ -1,0 +1,42 @@
+{
+  "date": "2026-03-16",
+  "category": "game",
+  "article_count": 200,
+  "source_count": 10,
+  "matched_count": 150,
+  "top_entities": [
+    {
+      "name": "Gaming",
+      "count": 101
+    },
+    {
+      "name": "Release",
+      "count": 98
+    },
+    {
+      "name": "Platform",
+      "count": 79
+    },
+    {
+      "name": "Genre",
+      "count": 68
+    },
+    {
+      "name": "Studio",
+      "count": 58
+    }
+  ],
+  "sources": {
+    "Destructoid": 30,
+    "PC Gamer": 30,
+    "Dot Esports": 10,
+    "Kotaku": 20,
+    "Eurogamer": 19,
+    "Nintendo Life": 25,
+    "Rock Paper Shotgun": 28,
+    "GameSpot": 15,
+    "PlayStation Blog": 7,
+    "Pocket Gamer": 16
+  },
+  "generated_at": "2026-03-16T11:01:54.671782+09:00"
+}
