@@ -106,11 +106,11 @@ def load_settings(config_path: Path | None = None) -> RadarSettings:
         _string_value(raw, "search_db_path", "data/search_index.db"), project_root=project_root
     )
 
-    notifications = None
+    _ = None
     notif_raw = raw.get("notifications")
     if isinstance(notif_raw, dict):
         notif_dict = cast(dict[object, object], notif_raw)
-        notifications = _parse_notifications({str(k): v for k, v in notif_dict.items()})
+        _ = _parse_notifications({str(k): v for k, v in notif_dict.items()})
 
     return RadarSettings(
         database_path=db_path,
@@ -212,7 +212,7 @@ def _parse_notifications(raw: dict[str, object]) -> NotificationConfig:
     if isinstance(smtp_port_raw, int):
         smtp_port = smtp_port_raw
 
-    email_config = EmailConfig(
+    _ = EmailConfig(
         enabled=email_enabled,
         smtp_host=_string_value(email_dict, "smtp_host", ""),
         smtp_port=smtp_port,
