@@ -52,7 +52,11 @@ def _send_notifications(
     if not isinstance(settings, RadarSettings):
         return
 
-    if not hasattr(settings, 'notifications') or not settings.notifications or not settings.notifications.enabled:
+    if (
+        not hasattr(settings, "notifications")
+        or not settings.notifications
+        or not settings.notifications.enabled
+    ):
         return
 
     notifiers: list[object] = []
