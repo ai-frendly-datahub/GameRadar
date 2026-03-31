@@ -141,6 +141,64 @@ sources:
     type: "rss"
     url: "https://www.4gamer.net/rss/news.xml"
 
+  # === Reddit Gaming Communities ===
+  - name: "r/gaming"
+    type: "rss"
+    url: "https://www.reddit.com/r/gaming/.rss"
+
+  - name: "r/Games"
+    type: "rss"
+    url: "https://www.reddit.com/r/Games/.rss"
+
+  - name: "r/PS5"
+    type: "rss"
+    url: "https://www.reddit.com/r/PS5/.rss"
+
+  - name: "r/XboxSeriesX"
+    type: "rss"
+    url: "https://www.reddit.com/r/XboxSeriesX/.rss"
+
+  - name: "r/NintendoSwitch"
+    type: "rss"
+    url: "https://www.reddit.com/r/NintendoSwitch/.rss"
+
+  - name: "r/pcgaming"
+    type: "rss"
+    url: "https://www.reddit.com/r/pcgaming/.rss"
+
+  - name: "r/IndieGaming"
+    type: "rss"
+    url: "https://www.reddit.com/r/IndieGaming/.rss"
+
+  - name: "r/leagueoflegends"
+    type: "rss"
+    url: "https://www.reddit.com/r/leagueoflegends/.rss"
+
+  - name: "r/VALORANT"
+    type: "rss"
+    url: "https://www.reddit.com/r/VALORANT/.rss"
+
+  - name: "r/Genshin_Impact"
+    type: "rss"
+    url: "https://www.reddit.com/r/Genshin_Impact/.rss"
+
+  - name: "r/lostarkgame"
+    type: "rss"
+    url: "https://www.reddit.com/r/lostarkgame/.rss"
+
+  - name: "r/MapleStory"
+    type: "rss"
+    url: "https://www.reddit.com/r/MapleStory/.rss"
+
+  # === Gaming Podcasts ===
+  - name: "Kinda Funny Games Daily"
+    type: "rss"
+    url: "https://feeds.simplecast.com/MbI0D7YZ"
+
+  - name: "IGN Game Scoop"
+    type: "rss"
+    url: "https://feeds.megaphone.fm/gamescoop"
+
 entities:
   - name: "Platform"
     display_name: "플랫폼"
