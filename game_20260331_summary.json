@@ -1,0 +1,47 @@
+{
+  "date": "2026-03-31",
+  "category": "game",
+  "article_count": 200,
+  "source_count": 15,
+  "matched_count": 133,
+  "top_entities": [
+    {
+      "name": "Gaming",
+      "count": 88
+    },
+    {
+      "name": "Release",
+      "count": 88
+    },
+    {
+      "name": "Platform",
+      "count": 86
+    },
+    {
+      "name": "Genre",
+      "count": 59
+    },
+    {
+      "name": "Studio",
+      "count": 37
+    }
+  ],
+  "sources": {
+    "루리웹 뉴스": 1,
+    "게임메카": 1,
+    "인벤 게임뉴스": 1,
+    "Nintendo Life": 16,
+    "Dot Esports": 17,
+    "PC Gamer": 45,
+    "Destructoid": 34,
+    "Kotaku": 25,
+    "GameSpot": 16,
+    "Esports Insider": 1,
+    "Rock Paper Shotgun": 12,
+    "Pocket Gamer": 12,
+    "Eurogamer": 17,
+    "Xbox Wire": 1,
+    "PlayStation Blog": 1
+  },
+  "generated_at": "2026-03-31T10:18:18.709712+09:00"
+}
