@@ -89,10 +89,16 @@ class SearchIndex:
         if not items:
             return
 
+        # 중복 링크 제거 (마지막 항목 유지)
+        seen: dict[str, tuple[str, str, str]] = {}
+        for item in items:
+            seen[item[0]] = item
+        unique_items = list(seen.values())
+
         conn = self._connection()
         try:
             # 배치 DELETE: 모든 링크를 한 번에 삭제
-            links_to_delete = [item[0] for item in items]
+            links_to_delete = [item[0] for item in unique_items]
             placeholders = ",".join(["?"] * len(links_to_delete))
             _ = conn.execute(
                 f"DELETE FROM documents WHERE link IN ({placeholders})", links_to_delete
@@ -101,7 +107,7 @@ class SearchIndex:
             # 배치 INSERT: executemany()로 모든 문서를 한 번에 삽입
             _ = conn.executemany(
                 "INSERT INTO documents(link, title, body) VALUES (?, ?, ?)",
-                items,
+                unique_items,
             )
             conn.commit()
         except Exception:
