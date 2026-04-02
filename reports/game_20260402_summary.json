@@ -3,27 +3,31 @@
   "category": "game",
   "article_count": 200,
   "source_count": 31,
-  "matched_count": 162,
+  "matched_count": 174,
   "top_entities": [
     {
+      "name": "GameGeneral",
+      "count": 314
+    },
+    {
       "name": "Release",
-      "count": 126
+      "count": 124
     },
     {
       "name": "Platform",
-      "count": 97
+      "count": 105
     },
     {
       "name": "Genre",
-      "count": 56
-    },
-    {
-      "name": "GameTitle",
-      "count": 54
+      "count": 59
     },
     {
       "name": "Studio",
-      "count": 46
+      "count": 53
+    },
+    {
+      "name": "GameTitle",
+      "count": 53
     },
     {
       "name": "Esports",
@@ -35,33 +39,33 @@
     "루리웹 뉴스": 1,
     "게임메카": 1,
     "인벤 게임뉴스": 1,
+    "Dexerto": 16,
+    "GameSpot": 10,
+    "Nintendo Life": 7,
+    "Kotaku": 11,
     "r/MapleStory": 7,
     "r/NintendoSwitch": 2,
+    "Esports Insider": 2,
     "r/pcgaming": 10,
     "r/IndieGaming": 13,
     "r/Games": 7,
     "r/PS5": 5,
     "r/leagueoflegends": 11,
     "r/Genshin_Impact": 7,
-    "GameSpot": 9,
-    "r/VALORANT": 12,
+    "r/VALORANT": 10,
     "Push Square": 7,
-    "PC Gamer": 14,
+    "PC Gamer": 12,
     "GamesRadar": 20,
-    "Nintendo Life": 4,
     "Dot Esports": 2,
-    "r/lostarkgame": 3,
-    "r/gaming": 11,
-    "Dexerto": 14,
+    "r/lostarkgame": 2,
+    "r/gaming": 9,
     "Destructoid": 14,
     "Game Developer": 1,
-    "Kotaku": 11,
     "Pure Xbox": 4,
-    "Esports Insider": 1,
     "Rock Paper Shotgun": 1,
     "Pocket Gamer": 3,
     "Xbox Wire": 1,
     "Eurogamer": 2
   },
-  "generated_at": "2026-04-02T10:18:47.062911+09:00"
+  "generated_at": "2026-04-02T14:36:26.502895+09:00"
 }
