@@ -2,24 +2,24 @@
   "date": "2026-04-14",
   "category": "game",
   "article_count": 200,
-  "source_count": 23,
-  "matched_count": 166,
+  "source_count": 22,
+  "matched_count": 163,
   "top_entities": [
     {
       "name": "GameGeneral",
-      "count": 455
+      "count": 446
     },
     {
       "name": "Platform",
-      "count": 108
+      "count": 105
     },
     {
       "name": "Release",
-      "count": 74
+      "count": 79
     },
     {
       "name": "Genre",
-      "count": 70
+      "count": 67
     },
     {
       "name": "Studio",
@@ -27,7 +27,7 @@
     },
     {
       "name": "GameTitle",
-      "count": 34
+      "count": 32
     },
     {
       "name": "Esports",
@@ -38,26 +38,25 @@
     "게임포커스": 1,
     "루리웹 뉴스": 1,
     "게임조선": 5,
-    "게임톡": 23,
-    "Rock Paper Shotgun": 4,
-    "PC Gamer": 19,
+    "게임톡": 22,
+    "GamesRadar": 33,
+    "PC Gamer": 17,
+    "Dexerto": 28,
+    "Kotaku": 7,
+    "Pure Xbox": 5,
+    "Nintendo Life": 8,
+    "Push Square": 8,
+    "Destructoid": 18,
+    "Rock Paper Shotgun": 3,
     "Eurogamer": 9,
     "Dot Esports": 10,
     "Pocket Gamer": 5,
-    "Dexerto": 26,
-    "Destructoid": 17,
-    "GamesRadar": 30,
     "GamesIndustry.biz": 6,
-    "Pure Xbox": 4,
-    "Push Square": 8,
     "IndieGames.com": 1,
     "VGC": 4,
     "Game Developer": 1,
-    "GameSpot": 11,
-    "Esports Insider": 1,
-    "Nintendo Life": 8,
-    "Kotaku": 5,
-    "Xbox Wire": 1
+    "GameSpot": 7,
+    "Esports Insider": 1
   },
-  "generated_at": "2026-04-14T20:55:16.514664+09:00"
+  "generated_at": "2026-04-14T21:19:32.030183+09:00"
 }
