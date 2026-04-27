@@ -1,0 +1,74 @@
+{
+  "date": "2026-04-14",
+  "category": "game",
+  "article_count": 65,
+  "source_count": 30,
+  "matched_count": 65,
+  "top_entities": [
+    {
+      "name": "GameGeneral",
+      "count": 136
+    },
+    {
+      "name": "SourceSignal",
+      "count": 80
+    },
+    {
+      "name": "Platform",
+      "count": 31
+    },
+    {
+      "name": "Release",
+      "count": 29
+    },
+    {
+      "name": "Studio",
+      "count": 17
+    },
+    {
+      "name": "Genre",
+      "count": 16
+    },
+    {
+      "name": "GameTitle",
+      "count": 12
+    },
+    {
+      "name": "Esports",
+      "count": 5
+    }
+  ],
+  "sources": {
+    "r/MapleStory": 3,
+    "r/IndieGaming": 3,
+    "r/PS5": 3,
+    "r/Genshin_Impact": 4,
+    "r/gaming": 3,
+    "r/pcgaming": 3,
+    "r/VALORANT": 3,
+    "r/leagueoflegends": 3,
+    "r/Games": 3,
+    "게임톡": 3,
+    "r/NintendoSwitch": 3,
+    "r/lostarkgame": 2,
+    "Dexerto": 2,
+    "Destructoid": 2,
+    "Rock Paper Shotgun": 1,
+    "GamesIndustry.biz": 2,
+    "Pure Xbox": 1,
+    "Push Square": 2,
+    "IndieGames.com": 1,
+    "VGC": 1,
+    "Dot Esports": 3,
+    "Game Developer": 1,
+    "루리웹 뉴스": 3,
+    "GameSpot": 2,
+    "Pocket Gamer": 1,
+    "PC Gamer": 2,
+    "Nintendo Life": 2,
+    "GamesRadar": 1,
+    "Kotaku": 1,
+    "게임조선": 1
+  },
+  "generated_at": "2026-04-14T20:23:41.499147+09:00"
+}

@@ -7,6 +7,8 @@ from unittest.mock import Mock, patch
 
 import pytest
 
+from radar_core import CrawlHealthStore
+
 from radar.collector import RateLimiter, collect_sources
 from radar.exceptions import NetworkError, SourceError
 from radar.models import Article, Source
@@ -207,3 +209,84 @@ def test_max_workers_is_capped_and_validated(env_value: str, expected_workers: i
         mock_executor.assert_not_called()
     else:
         mock_executor.assert_called_once_with(max_workers=expected_workers)
+
+
+def test_collect_sources_can_bypass_stale_crawl_health_disable(tmp_path) -> None:
+    health_db_path = tmp_path / "health.duckdb"
+    with CrawlHealthStore(str(health_db_path), batch_size=1, failure_threshold=1) as store:
+        store.record_failure("ruliweb", "previous selector timeout", 1.0)
+
+    source = Source(
+        name="ruliweb",
+        type="rss",
+        url="https://bbs.ruliweb.com/news/rss",
+        config={"bypass_crawl_health": True},
+    )
+    article = Article(
+        title="ruliweb",
+        link="https://example.com/ruliweb",
+        summary="ruliweb",
+        published=None,
+        source="ruliweb",
+        category="game",
+    )
+    manager = _pass_through_manager()
+
+    with (
+        patch("radar.collector._collect_single", return_value=[article]) as mock_rss,
+        patch("radar.collector.get_circuit_breaker_manager", return_value=manager),
+    ):
+        articles, errors = collect_sources(
+            [source],
+            category="game",
+            min_interval_per_host=0.0,
+            max_workers=1,
+            health_db_path=str(health_db_path),
+        )
+
+    assert articles == [article]
+    assert errors == []
+    assert mock_rss.call_count == 1
+
+
+def test_browser_collection_uses_request_timeout_as_milliseconds(tmp_path) -> None:
+    source = Source(
+        name="browser_source",
+        type="javascript",
+        url="https://example.com/games",
+        config={"wait_for": "main"},
+    )
+    captured: dict[str, object] = {}
+
+    def fake_collect_browser_sources(
+        sources: list[Source],
+        category: str,
+        *,
+        timeout: int,
+        health_db_path: str | None = None,
+    ) -> tuple[list[Article], list[str]]:
+        captured["sources"] = sources
+        captured["category"] = category
+        captured["timeout"] = timeout
+        captured["health_db_path"] = health_db_path
+        return [], []
+
+    health_db_path = str(tmp_path / "health.duckdb")
+    with patch(
+        "radar.browser_collector.collect_browser_sources",
+        side_effect=fake_collect_browser_sources,
+    ):
+        articles, errors = collect_sources(
+            [source],
+            category="game",
+            timeout=5,
+            min_interval_per_host=0.0,
+            health_db_path=health_db_path,
+        )
+
+    assert articles == []
+    assert errors == []
+    assert captured["sources"] == [source]
+    assert captured["category"] == "game"
+    assert captured["timeout"] == 5_000
+    assert captured["health_db_path"] == health_db_path

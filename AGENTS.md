@@ -1,13 +1,13 @@
 # GAMERADAR
 
-게임 관련 뉴스, 출시 정보, 업데이트 소식을 수집하고 게임 장르별 트렌드를 분석합니다.
+게임 뉴스, 플랫폼 공지, 브라우저 기반 한국 게임 미디어, Reddit 커뮤니티를 함께 수집해 출시/패치/흥행 신호를 분석합니다.
 
 ## STRUCTURE
 
 ```
 GameRadar/
 ├── radar/
-│   ├── collector.py              # collect_sources() — 게임 뉴스 RSS 및 API
+│   ├── collector.py              # collect_sources() — RSS + browser + Reddit
 │   ├── analyzer.py               # apply_entity_rules() — 게임 장르별 키워드 매칭 (RPG, FPS, 모바일, 인디 등)
 │   ├── reporter.py               # generate_report() — Jinja2 HTML
 │   ├── storage.py                # RadarStorage — DuckDB upsert/query/retention
@@ -34,14 +34,15 @@ GameRadar/
 
 | Entity | Examples |
 |--------|----------|
-| 주요 엔티티 1 | 예시 1, 예시 2, 예시 3 |
-| 주요 엔티티 2 | 예시 4, 예시 5, 예시 6 |
-| 주요 엔티티 3 | 예시 7, 예시 8, 예시 9 |
+| `Platform` | PlayStation, Xbox, Steam, Nintendo, Epic Games |
+| `Genre` | RPG, FPS, 오픈월드, 로그라이크, 모바일 |
+| `BusinessSignal` | patch, release, game pass, sale, top seller |
 
 ## DEVIATIONS FROM TEMPLATE
 
-- 표준 템플릿 대비 특화 기능 1
-- 표준 템플릿 대비 특화 기능 2
+- `javascript` 소스와 Reddit 소스를 collector에서 별도 pass로 처리
+- `config_loader.py`가 Source 메타데이터와 browser `config`를 실제 런타임으로 전달
+- 플랫폼 공지와 한국 게임 미디어를 operational signal 관점으로 함께 사용
 
 ## COMMANDS
 

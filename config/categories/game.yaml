@@ -1,634 +1,812 @@
-category_name: "game"
-display_name: "게임 산업 레이더"
-
+category_name: game
+display_name: 게임 산업 레이더
+data_quality:
+  priority: P2
+  primary_motion: intelligence
+  weakest_dimension: authority
+  quality_outputs:
+    freshness_report: reports/game_quality.json
+    dated_freshness_report_pattern: reports/game_YYYYMMDD_quality.json
+    tracked_event_models:
+    - steam_chart
+    - store_ranking
+    - patch_note
+    - release_schedule
+  event_models:
+    steam_chart:
+      date_fields:
+      - metric_time
+      - collected_at
+      required_fields:
+      - game_id
+      - platform
+      - concurrent_players
+    store_ranking:
+      date_fields:
+      - ranking_date
+      - collected_at
+      required_fields:
+      - game_id
+      - platform
+      - rank
+      - market
+    patch_note:
+      date_fields:
+      - patch_date
+      - collected_at
+      required_fields:
+      - game_id
+      - platform
+      - version
+      - source_url
+    release_schedule:
+      date_fields:
+      - release_date
+      - collected_at
+      required_fields:
+      - game_title
+      - platform
+      - source_url
+  canonical_keys:
+    game:
+    - normalized_game_title
+    - platform
+    - edition
+    - publisher
+    release:
+    - game_id
+    - platform
+    - release_date
+    - region
+  freshness_sla:
+    steam_chart_hours: 24
+    store_ranking_days: 3
+    patch_note_days: 7
+    release_schedule_days: 7
+  quality_gates:
+  - 게임명, 플랫폼, edition을 canonical key로 분리한다
+  - 출시 전 관심 신호와 출시 후 운영 신호를 분리한다
+  - 패치일, 출시일, 수집일을 별도 필드로 유지한다
+  - 스토어 순위와 커뮤니티 반응을 같은 흥행 점수로 직접 병합하지 않는다
+source_backlog:
+  operational_candidates:
+  - id: steam_charts_metrics
+    name: Steam concurrent player charts
+    signal_type: steam_chart
+    activation_gate: ToS review, app id mapping, and metric timestamp normalization
+  - id: steam_top_sellers
+    name: Steam top sellers ranking
+    signal_type: store_ranking
+    activation_gate: regional ranking handling, app id mapping, and ranking date retention
+  - id: app_store_game_rankings
+    name: App Store and Google Play game rankings
+    signal_type: store_ranking
+    activation_gate: market coverage, region/country tagging, and duplicate app mapping
+  - id: official_patch_note_pages
+    name: Official patch note pages
+    signal_type: patch_note
+    activation_gate: publisher domain validation, version parsing, and game/platform
+      canonicalization
 sources:
-  # === 플랫폼 공식 블로그 ===
-  - name: "Nintendo Life"
-    type: "rss"
-    url: "https://www.nintendolife.com/feeds/latest"
-
-  - name: "PlayStation Blog"
-    type: "rss"
-    url: "https://blog.playstation.com/feed/"
-
-  - name: "Xbox Wire"
-    type: "rss"
-    url: "https://news.xbox.com/en-us/feed/"
-
-  - name: "Steam News"
-    type: "rss"
-    url: "https://store.steampowered.com/feeds/news.xml"
-
-  # === 글로벌 게임 뉴스 ===
-  - name: "GameSpot"
-    type: "rss"
-    url: "https://www.gamespot.com/feeds/mashup/"
-
-  - name: "Kotaku"
-    type: "rss"
-    url: "https://kotaku.com/rss"
-
-  - name: "PC Gamer"
-    type: "rss"
-    url: "https://www.pcgamer.com/rss/"
-
-  - name: "Eurogamer"
-    type: "rss"
-    url: "https://www.eurogamer.net/?format=rss"
-
-  - name: "Rock Paper Shotgun"
-    type: "rss"
-    url: "https://www.rockpapershotgun.com/feed"
-
-  - name: "VGC"
-    type: "rss"
-    url: "https://www.videogameschronicle.com/feed/"
-
-  - name: "GamesRadar"
-    type: "rss"
-    url: "https://www.gamesradar.com/rss/"
-
-  - name: "Push Square"
-    type: "rss"
-    url: "https://www.pushsquare.com/feeds/latest"
-
-  - name: "Pure Xbox"
-    type: "rss"
-    url: "https://www.purexbox.com/feeds/latest"
-
-  # === 인디/모바일 게임 ===
-  - name: "IndieGames.com"
-    type: "rss"
-    url: "https://indiegamesplus.com/feed"
-
-  - name: "Pocket Gamer"
-    type: "rss"
-    url: "https://www.pocketgamer.com/news/index.rss"
-
-  - name: "Destructoid"
-    type: "rss"
-    url: "https://www.destructoid.com/feed/"
-
-  - name: "Touch Arcade"
-    type: "rss"
-    url: "https://toucharcade.com/feed/"
-
-  # === 게임 산업/비즈니스 ===
-  - name: "GamesIndustry.biz"
-    type: "rss"
-    url: "https://www.gamesindustry.biz/feed"
-
-  - name: "Game Developer"
-    type: "rss"
-    url: "https://www.gamedeveloper.com/rss.xml"
-
-  - name: "VentureBeat Gaming"
-    type: "rss"
-    url: "https://venturebeat.com/category/games/feed/"
-
-  # === e스포츠 ===
-  - name: "Dot Esports"
-    type: "rss"
-    url: "https://dotesports.com/feed"
-
-  - name: "Esports Insider"
-    type: "rss"
-    url: "https://esportsinsider.com/feed"
-
-  - name: "The Esports Observer"
-    type: "rss"
-    url: "https://archive.esportsobserver.com/feed/"
-
-  - name: "Dexerto"
-    type: "rss"
-    url: "https://www.dexerto.com/feed/"
-
-  # === 한국 게임 미디어 ===
-  - name: "인벤 뉴스"
-    type: "rss"
-    url: "https://www.inven.co.kr/webzine/rss/"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "게임메카"
-    type: "rss"
-    url: "https://www.gamemeca.com/rss/"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "디스이즈게임"
-    type: "rss"
-    url: "https://www.thisisgame.com/webzine/rss/"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "게임조선"
-    type: "rss"
-    url: "http://www.gameinsight.co.kr/rss/allArticle.xml"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "게임톡"
-    type: "rss"
-    url: "https://www.gametoc.co.kr/rss/allArticle.xml"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "루리웹 뉴스"
-    type: "javascript"
-    url: "https://bbs.ruliweb.com/news"
-    config:
-      wait_for: ".board_list"
-
-  - name: "게임동아"
-    type: "rss"
-    url: "https://game.donga.com/rss/"
-
-  - name: "게임포커스"
-    type: "javascript"
-    url: "https://www.gamefocus.co.kr/news/articleList.html"
-    config:
-      wait_for: ".article-list"
-
-  # === 일본 게임 미디어 ===
-  - name: "Famitsu"
-    type: "rss"
-    url: "https://www.famitsu.com/feed/"
-
-  - name: "4Gamer"
-    type: "rss"
-    url: "https://www.4gamer.net/rss/news.xml"
-
-  # === Reddit Gaming Communities ===
-  # NOTE: 2026-04-02 Reddit RSS 403 차단 → reddit type으로 변환
-  - name: "r/gaming"
-    type: reddit
-    url: "https://www.reddit.com/r/gaming/"
-
-  - name: "r/Games"
-    type: reddit
-    url: "https://www.reddit.com/r/Games/"
-
-  - name: "r/PS5"
-    type: reddit
-    url: "https://www.reddit.com/r/PS5/"
-
-  - name: "r/XboxSeriesX"
-    type: reddit
-    url: "https://www.reddit.com/r/XboxSeriesX/"
-
-  - name: "r/NintendoSwitch"
-    type: reddit
-    url: "https://www.reddit.com/r/NintendoSwitch/"
-
-  - name: "r/pcgaming"
-    type: reddit
-    url: "https://www.reddit.com/r/pcgaming/"
-
-  - name: "r/IndieGaming"
-    type: reddit
-    url: "https://www.reddit.com/r/IndieGaming/"
-
-  - name: "r/leagueoflegends"
-    type: reddit
-    url: "https://www.reddit.com/r/leagueoflegends/"
-
-  - name: "r/VALORANT"
-    type: reddit
-    url: "https://www.reddit.com/r/VALORANT/"
-
-  - name: "r/Genshin_Impact"
-    type: reddit
-    url: "https://www.reddit.com/r/Genshin_Impact/"
-
-  - name: "r/lostarkgame"
-    type: reddit
-    url: "https://www.reddit.com/r/lostarkgame/"
-
-  - name: "r/MapleStory"
-    type: reddit
-    url: "https://www.reddit.com/r/MapleStory/"
-
-  # === Gaming Podcasts ===
-  - name: "Kinda Funny Games Daily"
-    type: "rss"
-    url: "https://feeds.simplecast.com/MbI0D7YZ"
-
-  - name: "IGN Game Scoop"
-    type: "rss"
-    url: "https://feeds.megaphone.fm/gamescoop"
-
+- name: Nintendo Life
+  type: rss
+  url: https://www.nintendolife.com/feeds/latest
+  config:
+    event_model: editorial_coverage
+- name: PlayStation Blog
+  type: rss
+  url: https://blog.playstation.com/feed/
+  trust_tier: T1_authoritative
+  collection_tier: C1_rss
+  content_type: platform_update
+  producer_role: platform
+  info_purpose:
+  - release_schedule
+  - patch
+  - platform_update
+  notes: Official PlayStation announcements covering release schedule, patch, and
+    platform update signals.
+  config:
+    event_model: editorial_coverage
+- name: Xbox Wire
+  type: rss
+  url: https://news.xbox.com/en-us/feed/
+  trust_tier: T1_authoritative
+  collection_tier: C1_rss
+  content_type: platform_update
+  producer_role: platform
+  info_purpose:
+  - game_pass
+  - release_schedule
+  - platform_update
+  notes: Official Xbox Wire feed used for Game Pass additions, release schedule, and
+    platform rollout signals.
+  config:
+    event_model: editorial_coverage
+- name: Steam News
+  type: rss
+  url: https://store.steampowered.com/feeds/news.xml
+  enabled: false
+  trust_tier: T1_authoritative
+  collection_tier: C1_rss
+  content_type: patch_note
+  producer_role: platform
+  info_purpose:
+  - patch
+  - release
+  - sale
+  - top_seller
+  notes: 'DISABLED 2026-04-24: the public feed is reachable but currently serves older
+    Team Fortress 2 update items and no current cross-game operational signals from
+    this runner. Keep cataloged until a stable current patch/release or ranking feed
+    is verified.'
+  config:
+    disabled_reason: dormant_global_feed_without_current_operational_signal
+    required_before_enable:
+    - stable_current_patch_or_release_signal
+    - source_scope_smoke
+- name: GameSpot
+  type: rss
+  url: https://www.gamespot.com/feeds/mashup/
+  config:
+    event_model: editorial_coverage
+- name: Kotaku
+  type: rss
+  url: https://kotaku.com/rss
+  config:
+    event_model: editorial_coverage
+- name: PC Gamer
+  type: rss
+  url: https://www.pcgamer.com/rss/
+  config:
+    event_model: editorial_coverage
+- name: Eurogamer
+  type: rss
+  url: https://www.eurogamer.net/?format=rss
+  enabled: false
+  notes: '2026-04-13 live smoke: current network receives connection reset/block response
+    for the RSS endpoint. Keep as cataloged media source until a stable public feed
+    is verified.'
+- name: Rock Paper Shotgun
+  type: rss
+  url: https://www.rockpapershotgun.com/feed
+  config:
+    event_model: editorial_coverage
+- name: VGC
+  type: rss
+  url: https://www.videogameschronicle.com/feed/
+  config:
+    event_model: editorial_coverage
+- name: GamesRadar
+  type: rss
+  url: https://www.gamesradar.com/rss/
+  config:
+    event_model: editorial_coverage
+- name: Push Square
+  type: rss
+  url: https://www.pushsquare.com/feeds/latest
+  config:
+    event_model: editorial_coverage
+- name: Pure Xbox
+  type: rss
+  url: https://www.purexbox.com/feeds/latest
+  config:
+    event_model: editorial_coverage
+- name: IndieGames.com
+  type: rss
+  url: https://indiegamesplus.com/feed
+  config:
+    event_model: editorial_coverage
+- name: Pocket Gamer
+  type: rss
+  url: https://www.pocketgamer.com/news/index.rss
+  config:
+    event_model: editorial_coverage
+- name: Destructoid
+  type: rss
+  url: https://www.destructoid.com/feed/
+  config:
+    event_model: editorial_coverage
+- name: Touch Arcade
+  type: rss
+  url: https://toucharcade.com/feed/
+  config:
+    event_model: editorial_coverage
+- name: GamesIndustry.biz
+  type: rss
+  url: https://www.gamesindustry.biz/feed
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: market_report
+  producer_role: trade_media
+  info_purpose:
+  - sales_chart
+  - release_schedule
+  - market_analysis
+  notes: Trade media source that frequently covers sales chart, release schedule,
+    and business performance signals.
+  config:
+    event_model: editorial_coverage
+- name: Game Developer
+  type: rss
+  url: https://www.gamedeveloper.com/rss.xml
+  config:
+    event_model: editorial_coverage
+- name: VentureBeat Gaming
+  type: rss
+  url: https://venturebeat.com/category/games/feed/
+  enabled: false
+  notes: '2026-04-13 live smoke: current feed probe returns 403 after redirect to
+    GamesBeat. Keep cataloged until a stable public games feed is verified.'
+- name: Dot Esports
+  type: rss
+  url: https://dotesports.com/feed
+  config:
+    event_model: editorial_coverage
+- name: Esports Insider
+  type: rss
+  url: https://esportsinsider.com/feed
+  enabled: false
+  notes: '2026-04-13 live smoke: current feed probe resets the HTTPS connection. Keep
+    cataloged until the endpoint is reachable from the crawler network.'
+- name: The Esports Observer
+  type: rss
+  url: https://archive.esportsobserver.com/feed/
+  enabled: false
+  notes: '2026-04-13 live smoke: archived feed probe returns HTTP 500. Keep disabled
+    until an active replacement feed is verified.'
+- name: Dexerto
+  type: rss
+  url: https://www.dexerto.com/feed/
+  config:
+    event_model: editorial_coverage
+- name: 인벤 뉴스
+  type: rss
+  url: https://www.inven.co.kr/webzine/rss/
+  enabled: false
+  language: ko
+  country: KR
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  notes: '2026-04-13 live smoke: current RSS probe returns 404. Keep disabled until
+    a stable public RSS endpoint is verified.'
+- name: 게임메카
+  type: rss
+  url: https://www.gamemeca.com/rss/
+  language: ko
+  country: KR
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  config:
+    event_model: editorial_coverage
+- name: 디스이즈게임
+  type: rss
+  url: https://www.thisisgame.com/webzine/rss/
+  enabled: false
+  language: ko
+  country: KR
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  notes: '2026-04-13 live smoke: current RSS probe returns 403. Keep disabled until
+    a stable public RSS endpoint is verified.'
+- name: 게임조선
+  type: rss
+  url: http://www.gameinsight.co.kr/rss/allArticle.xml
+  language: ko
+  country: KR
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  config:
+    event_model: editorial_coverage
+- name: 게임톡
+  type: rss
+  url: https://www.gametoc.co.kr/rss/allArticle.xml
+  language: ko
+  country: KR
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  config:
+    event_model: editorial_coverage
+- name: 루리웹 뉴스
+  type: rss
+  url: https://bbs.ruliweb.com/news/rss
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  producer_role: community_media
+  info_purpose:
+  - community_reaction
+  - patch
+  - release
+  notes: Korean community-heavy gaming news surface useful for patch and release reaction
+    signals.
+  config:
+    bypass_crawl_health: true
+    event_model: editorial_coverage
+- name: 게임동아
+  type: rss
+  url: https://game.donga.com/rss/
+  config:
+    event_model: editorial_coverage
+- name: 게임포커스
+  type: javascript
+  url: https://www.gamefocus.co.kr/news/articleList.html
+  enabled: false
+  trust_tier: T3_professional
+  collection_tier: C3_html_js
+  content_type: news
+  producer_role: trade_media
+  info_purpose:
+  - release_schedule
+  - patch
+  - market_analysis
+  notes: '2026-04-13 live smoke: listing/RSS probes return 403/404 and the browser
+    selector no longer resolves. Keep disabled until a stable public feed or selector
+    is verified.'
+  config:
+    wait_for: .article-list
+- name: Famitsu
+  type: rss
+  url: https://www.famitsu.com/feed/
+  enabled: false
+  notes: '2026-04-13 live smoke: current feed probe returns 404. Keep disabled until
+    a stable public feed URL is verified.'
+- name: 4Gamer
+  type: rss
+  url: https://www.4gamer.net/rss/news.xml
+  enabled: false
+  notes: '2026-04-13 live smoke: current feed probe returns 404. Keep disabled until
+    a stable public feed URL is verified.'
+- name: r/gaming
+  type: reddit
+  url: https://www.reddit.com/r/gaming/
+  config:
+    event_model: editorial_coverage
+- name: r/Games
+  type: reddit
+  url: https://www.reddit.com/r/Games/
+  config:
+    event_model: editorial_coverage
+- name: r/PS5
+  type: reddit
+  url: https://www.reddit.com/r/PS5/
+  config:
+    event_model: editorial_coverage
+- name: r/XboxSeriesX
+  type: reddit
+  url: https://www.reddit.com/r/XboxSeriesX/
+  config:
+    event_model: editorial_coverage
+- name: r/NintendoSwitch
+  type: reddit
+  url: https://www.reddit.com/r/NintendoSwitch/
+  config:
+    event_model: editorial_coverage
+- name: r/pcgaming
+  type: reddit
+  url: https://www.reddit.com/r/pcgaming/
+  config:
+    event_model: editorial_coverage
+- name: r/IndieGaming
+  type: reddit
+  url: https://www.reddit.com/r/IndieGaming/
+  config:
+    event_model: editorial_coverage
+- name: r/leagueoflegends
+  type: reddit
+  url: https://www.reddit.com/r/leagueoflegends/
+  config:
+    event_model: editorial_coverage
+- name: r/VALORANT
+  type: reddit
+  url: https://www.reddit.com/r/VALORANT/
+  config:
+    event_model: editorial_coverage
+- name: r/Genshin_Impact
+  type: reddit
+  url: https://www.reddit.com/r/Genshin_Impact/
+  config:
+    event_model: editorial_coverage
+- name: r/lostarkgame
+  type: reddit
+  url: https://www.reddit.com/r/lostarkgame/
+  config:
+    event_model: editorial_coverage
+- name: r/MapleStory
+  type: reddit
+  url: https://www.reddit.com/r/MapleStory/
+  config:
+    event_model: editorial_coverage
+- name: Kinda Funny Games Daily
+  type: rss
+  url: https://feeds.simplecast.com/MbI0D7YZ
+  enabled: false
+  notes: '2026-04-13 live smoke: current Simplecast feed probe returns 404. Keep disabled
+    until the active podcast feed is verified.'
+- name: IGN Game Scoop
+  type: rss
+  url: https://feeds.megaphone.fm/gamescoop
+  config:
+    event_model: editorial_coverage
 entities:
-  - name: "Platform"
-    display_name: "플랫폼"
-    keywords:
-      # 콘솔
-      - "playstation"
-      - "플레이스테이션"
-      - "ps5"
-      - "ps4"
-      - "xbox"
-      - "엑스박스"
-      - "xbox series x"
-      - "xbox series s"
-      - "nintendo"
-      - "닌텐도"
-      - "switch"
-      - "스위치"
-      - "switch 2"
-      # PC 플랫폼
-      - "steam"
-      - "스팀"
-      - "epic games"
-      - "에픽게임즈"
-      - "gog"
-      - "pc gaming"
-      - "battle.net"
-      # 구독 서비스
-      - "game pass"
-      - "게임패스"
-      - "playstation plus"
-      - "ps plus"
-      - "nintendo switch online"
-      - "ea play"
-      - "ubisoft+"
-      # 클라우드 게이밍
-      - "xcloud"
-      - "geforce now"
-      - "ps now"
-      - "클라우드 게이밍"
-      # VR/AR
-      - "vr"
-      - "psvr"
-      - "quest"
-      - "메타퀘스트"
-
-  - name: "Studio"
-    display_name: "스튜디오"
-    keywords:
-      # 대형 퍼블리셔
-      - "activision"
-      - "액티비전"
-      - "ea games"
-      - "일렉트로닉아츠"
-      - "ubisoft"
-      - "유비소프트"
-      - "rockstar"
-      - "락스타"
-      - "bethesda"
-      - "베데스다"
-      - "nintendo"
-      - "square enix"
-      - "스퀘어에닉스"
-      - "capcom"
-      - "캡콤"
-      - "fromsoftware"
-      - "프롬소프트웨어"
-      - "valve"
-      - "밸브"
-      - "blizzard"
-      - "블리자드"
-      - "cd projekt"
-      - "bandai namco"
-      - "반다이남코"
-      - "take-two"
-      - "microsoft gaming"
-      - "sony interactive"
-      - "sega"
-      - "세가"
-      - "konami"
-      - "코나미"
-      # 한국 게임사
-      - "넥슨"
-      - "nexon"
-      - "엔씨소프트"
-      - "ncsoft"
-      - "넷마블"
-      - "netmarble"
-      - "크래프톤"
-      - "krafton"
-      - "펄어비스"
-      - "pearl abyss"
-      - "스마일게이트"
-      - "smilegate"
-      - "카카오게임즈"
-      - "컴투스"
-      - "데브시스터즈"
-      # 일본 게임사
-      - "mihoyo"
-      - "호요버스"
-      - "atlus"
-      - "아틀러스"
-      - "koei tecmo"
-      - "코에이테크모"
-      - "level-5"
-
-  - name: "Genre"
-    display_name: "장르"
-    keywords:
-      # 액션/어드벤처
-      - "action"
-      - "액션"
-      - "adventure"
-      - "어드벤처"
-      - "action rpg"
-      - "arpg"
-      - "hack and slash"
-      # RPG
-      - "rpg"
-      - "jrpg"
-      - "일본rpg"
-      - "western rpg"
-      - "mmorpg"
-      - "온라인rpg"
-      # FPS/TPS
-      - "fps"
-      - "tps"
-      - "슈터"
-      - "shooter"
-      - "battle royale"
-      - "배틀로얄"
-      # 시뮬레이션
-      - "simulation"
-      - "시뮬레이션"
-      - "경영"
-      - "farming"
-      - "life sim"
-      # 전략
-      - "strategy"
-      - "전략"
-      - "rts"
-      - "turn-based"
-      - "턴제"
-      - "4x"
-      # 기타 장르
-      - "horror"
-      - "공포"
-      - "open world"
-      - "오픈월드"
-      - "puzzle"
-      - "퍼즐"
-      - "platformer"
-      - "플랫포머"
-      - "roguelike"
-      - "로그라이크"
-      - "souls-like"
-      - "소울라이크"
-      - "metroidvania"
-      - "fighting"
-      - "격투"
-      - "racing"
-      - "레이싱"
-      - "sports"
-      - "스포츠"
-      - "indie"
-      - "인디"
-      - "gacha"
-      - "가챠"
-      - "idle"
-
-  - name: "Release"
-    display_name: "출시 정보"
-    keywords:
-      - "launch"
-      - "출시"
-      - "release date"
-      - "발매일"
-      - "coming soon"
-      - "early access"
-      - "얼리액세스"
-      - "announced"
-      - "발표"
-      - "trailer"
-      - "트레일러"
-      - "예고편"
-      - "dlc"
-      - "expansion"
-      - "확장팩"
-      - "update"
-      - "업데이트"
-      - "patch"
-      - "패치"
-      - "beta"
-      - "베타"
-      - "preview"
-      - "프리뷰"
-      - "demo"
-      - "데모"
-      - "showcase"
-      - "state of play"
-      - "nintendo direct"
-      - "game awards"
-      - "e3"
-      - "gamescom"
-      - "tgs"
-
-  - name: "Esports"
-    display_name: "e스포츠"
-    keywords:
-      - "esports"
-      - "이스포츠"
-      - "tournament"
-      - "토너먼트"
-      - "competitive"
-      - "경쟁전"
-      - "프로게이머"
-      - "프로팀"
-      - "lck"
-      - "lpl"
-      - "worlds"
-      - "월드챔피언십"
-      - "valorant champions"
-      - "owl"
-      - "오버워치리그"
-      - "상금"
-      - "prize pool"
-      - "스크림"
-      - "랭크"
-
-  - name: "GameTitle"
-    display_name: "인기 타이틀"
-    keywords:
-      # 현재 인기작
-      - "발더스게이트3"
-      - "baldurs gate 3"
-      - "엘든링"
-      - "elden ring"
-      - "젤다"
-      - "zelda"
-      - "gta"
-      - "콜오브듀티"
-      - "call of duty"
-      - "포트나이트"
-      - "fortnite"
-      - "마인크래프트"
-      - "minecraft"
-      - "리그오브레전드"
-      - "league of legends"
-      - "발로란트"
-      - "valorant"
-      - "원신"
-      - "genshin"
-      - "호라이즌"
-      - "horizon"
-      - "스파이더맨"
-      - "spiderman"
-      - "갓오브워"
-      - "god of war"
-      - "파이널판타지"
-      - "final fantasy"
-      - "몬스터헌터"
-      - "monster hunter"
-      - "fifa"
-      - "fc"
-      - "ea sports fc"
-      - "스타크래프트"
-      - "starcraft"
-      - "디아블로"
-      - "diablo"
-      - "오버워치"
-      - "overwatch"
-      - "배틀그라운드"
-      - "pubg"
-      - "로스트아크"
-      - "lost ark"
-      - "메이플스토리"
-      - "maplestory"
-      - "던전앤파이터"
-      - "dnf"
-      - "블루아카이브"
-      - "blue archive"
-      - "우마무스메"
-      - "붕괴스타레일"
-      - "honkai star rail"
-      - "명일방주"
-      - "arknights"
-
-  - name: "GameGeneral"
-    display_name: "게임 일반"
-    keywords:
-      - "game"
-      - "games"
-      - "gaming"
-      - "gamer"
-      - "gamers"
-      - "play"
-      - "playing"
-      - "player"
-      - "players"
-      - "gameplay"
-      - "video game"
-      - "video games"
-      - "console"
-      - "consoles"
-      - "pc"
-      - "mobile"
-      - "handheld"
-      - "controller"
-      - "joystick"
-      - "level"
-      - "levels"
-      - "stage"
-      - "mission"
-      - "quest"
-      - "story"
-      - "campaign"
-      - "mode"
-      - "multiplayer"
-      - "singleplayer"
-      - "single player"
-      - "coop"
-      - "co-op"
-      - "online"
-      - "offline"
-      - "pvp"
-      - "pve"
-      - "character"
-      - "characters"
-      - "hero"
-      - "villain"
-      - "boss"
-      - "enemy"
-      - "npc"
-      - "skill"
-      - "skills"
-      - "ability"
-      - "abilities"
-      - "item"
-      - "items"
-      - "weapon"
-      - "weapons"
-      - "armor"
-      - "equipment"
-      - "inventory"
-      - "crafting"
-      - "loot"
-      - "drop"
-      - "drops"
-      - "reward"
-      - "rewards"
-      - "achievement"
-      - "achievements"
-      - "trophy"
-      - "trophies"
-      - "score"
-      - "highscore"
-      - "ranking"
-      - "leaderboard"
-      - "review"
-      - "reviews"
-      - "rating"
-      - "ratings"
-      - "metacritic"
-      - "critic"
-      - "critics"
-      - "게임"
-      - "플레이"
-      - "플레이어"
-      - "유저"
-      - "이용자"
-      - "콘솔"
-      - "모바일"
-      - "온라인"
-      - "오프라인"
-      - "멀티"
-      - "싱글"
-      - "캐릭터"
-      - "스킬"
-      - "아이템"
-      - "장비"
-      - "보상"
-      - "업적"
-      - "순위"
-      - "리뷰"
-      - "평점"
-      - "인기"
-      - "화제"
-      - "대작"
-      - "신작"
-      - "기대작"
-      # 추가 게임 관련 용어
-      - "출시"
-      - "런칭"
-      - "서비스"
-      - "업데이트"
-      - "패치"
-      - "이벤트"
-      - "시즌"
-      - "dlc"
-      - "확장팩"
+- name: Platform
+  display_name: 플랫폼
+  keywords:
+  - playstation
+  - 플레이스테이션
+  - ps5
+  - ps4
+  - xbox
+  - 엑스박스
+  - xbox series x
+  - xbox series s
+  - nintendo
+  - 닌텐도
+  - switch
+  - 스위치
+  - switch 2
+  - steam
+  - 스팀
+  - epic games
+  - 에픽게임즈
+  - gog
+  - pc gaming
+  - battle.net
+  - game pass
+  - 게임패스
+  - playstation plus
+  - ps plus
+  - nintendo switch online
+  - ea play
+  - ubisoft+
+  - xcloud
+  - geforce now
+  - ps now
+  - 클라우드 게이밍
+  - vr
+  - psvr
+  - quest
+  - 메타퀘스트
+- name: Studio
+  display_name: 스튜디오
+  keywords:
+  - activision
+  - 액티비전
+  - ea games
+  - 일렉트로닉아츠
+  - ubisoft
+  - 유비소프트
+  - rockstar
+  - 락스타
+  - bethesda
+  - 베데스다
+  - nintendo
+  - square enix
+  - 스퀘어에닉스
+  - capcom
+  - 캡콤
+  - fromsoftware
+  - 프롬소프트웨어
+  - valve
+  - 밸브
+  - blizzard
+  - 블리자드
+  - cd projekt
+  - bandai namco
+  - 반다이남코
+  - take-two
+  - microsoft gaming
+  - sony interactive
+  - sega
+  - 세가
+  - konami
+  - 코나미
+  - 넥슨
+  - nexon
+  - 엔씨소프트
+  - ncsoft
+  - 넷마블
+  - netmarble
+  - 크래프톤
+  - krafton
+  - 펄어비스
+  - pearl abyss
+  - 스마일게이트
+  - smilegate
+  - 카카오게임즈
+  - 컴투스
+  - 데브시스터즈
+  - mihoyo
+  - 호요버스
+  - atlus
+  - 아틀러스
+  - koei tecmo
+  - 코에이테크모
+  - level-5
+- name: Genre
+  display_name: 장르
+  keywords:
+  - action
+  - 액션
+  - adventure
+  - 어드벤처
+  - action rpg
+  - arpg
+  - hack and slash
+  - rpg
+  - jrpg
+  - 일본rpg
+  - western rpg
+  - mmorpg
+  - 온라인rpg
+  - fps
+  - tps
+  - 슈터
+  - shooter
+  - battle royale
+  - 배틀로얄
+  - simulation
+  - 시뮬레이션
+  - 경영
+  - farming
+  - life sim
+  - strategy
+  - 전략
+  - rts
+  - turn-based
+  - 턴제
+  - 4x
+  - horror
+  - 공포
+  - open world
+  - 오픈월드
+  - puzzle
+  - 퍼즐
+  - platformer
+  - 플랫포머
+  - roguelike
+  - 로그라이크
+  - souls-like
+  - 소울라이크
+  - metroidvania
+  - fighting
+  - 격투
+  - racing
+  - 레이싱
+  - sports
+  - 스포츠
+  - indie
+  - 인디
+  - gacha
+  - 가챠
+  - idle
+- name: Release
+  display_name: 출시 정보
+  keywords:
+  - launch
+  - 출시
+  - release date
+  - 발매일
+  - coming soon
+  - early access
+  - 얼리액세스
+  - announced
+  - 발표
+  - trailer
+  - 트레일러
+  - 예고편
+  - dlc
+  - expansion
+  - 확장팩
+  - update
+  - 업데이트
+  - patch
+  - 패치
+  - beta
+  - 베타
+  - preview
+  - 프리뷰
+  - demo
+  - 데모
+  - showcase
+  - state of play
+  - nintendo direct
+  - game awards
+  - e3
+  - gamescom
+  - tgs
+- name: Esports
+  display_name: e스포츠
+  keywords:
+  - esports
+  - 이스포츠
+  - tournament
+  - 토너먼트
+  - competitive
+  - 경쟁전
+  - 프로게이머
+  - 프로팀
+  - lck
+  - lpl
+  - worlds
+  - 월드챔피언십
+  - valorant champions
+  - owl
+  - 오버워치리그
+  - 상금
+  - prize pool
+  - 스크림
+  - 랭크
+- name: GameTitle
+  display_name: 인기 타이틀
+  keywords:
+  - 발더스게이트3
+  - baldurs gate 3
+  - 엘든링
+  - elden ring
+  - 젤다
+  - zelda
+  - gta
+  - 콜오브듀티
+  - call of duty
+  - 포트나이트
+  - fortnite
+  - 마인크래프트
+  - minecraft
+  - 리그오브레전드
+  - league of legends
+  - 발로란트
+  - valorant
+  - 원신
+  - genshin
+  - 호라이즌
+  - horizon
+  - 스파이더맨
+  - spiderman
+  - 갓오브워
+  - god of war
+  - 파이널판타지
+  - final fantasy
+  - 몬스터헌터
+  - monster hunter
+  - fifa
+  - fc
+  - ea sports fc
+  - 스타크래프트
+  - starcraft
+  - 디아블로
+  - diablo
+  - 오버워치
+  - overwatch
+  - 배틀그라운드
+  - pubg
+  - 로스트아크
+  - lost ark
+  - 메이플스토리
+  - maplestory
+  - 던전앤파이터
+  - dnf
+  - 블루아카이브
+  - blue archive
+  - 우마무스메
+  - 붕괴스타레일
+  - honkai star rail
+  - 명일방주
+  - arknights
+- name: GameGeneral
+  display_name: 게임 일반
+  keywords:
+  - game
+  - games
+  - gaming
+  - gamer
+  - gamers
+  - play
+  - playing
+  - player
+  - players
+  - gameplay
+  - video game
+  - video games
+  - console
+  - consoles
+  - pc
+  - mobile
+  - handheld
+  - controller
+  - joystick
+  - level
+  - levels
+  - stage
+  - mission
+  - quest
+  - story
+  - campaign
+  - mode
+  - multiplayer
+  - singleplayer
+  - single player
+  - coop
+  - co-op
+  - online
+  - offline
+  - pvp
+  - pve
+  - character
+  - characters
+  - hero
+  - villain
+  - boss
+  - enemy
+  - npc
+  - skill
+  - skills
+  - ability
+  - abilities
+  - item
+  - items
+  - weapon
+  - weapons
+  - armor
+  - equipment
+  - inventory
+  - crafting
+  - loot
+  - drop
+  - drops
+  - reward
+  - rewards
+  - achievement
+  - achievements
+  - trophy
+  - trophies
+  - score
+  - highscore
+  - ranking
+  - leaderboard
+  - review
+  - reviews
+  - rating
+  - ratings
+  - metacritic
+  - critic
+  - critics
+  - 게임
+  - 플레이
+  - 플레이어
+  - 유저
+  - 이용자
+  - 콘솔
+  - 모바일
+  - 온라인
+  - 오프라인
+  - 멀티
+  - 싱글
+  - 캐릭터
+  - 스킬
+  - 아이템
+  - 장비
+  - 보상
+  - 업적
+  - 순위
+  - 리뷰
+  - 평점
+  - 인기
+  - 화제
+  - 대작
+  - 신작
+  - 기대작
+  - 출시
+  - 런칭
+  - 서비스
+  - 업데이트
+  - 패치
+  - 이벤트
+  - 시즌
+  - dlc
+  - 확장팩

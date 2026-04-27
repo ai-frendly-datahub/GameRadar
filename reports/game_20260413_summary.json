@@ -1,0 +1,68 @@
+{
+  "date": "2026-04-13",
+  "category": "game",
+  "article_count": 56,
+  "source_count": 24,
+  "matched_count": 56,
+  "top_entities": [
+    {
+      "name": "GameGeneral",
+      "count": 99
+    },
+    {
+      "name": "SourceSignal",
+      "count": 62
+    },
+    {
+      "name": "GameTitle",
+      "count": 15
+    },
+    {
+      "name": "Platform",
+      "count": 13
+    },
+    {
+      "name": "Release",
+      "count": 12
+    },
+    {
+      "name": "Genre",
+      "count": 7
+    },
+    {
+      "name": "Studio",
+      "count": 5
+    },
+    {
+      "name": "Esports",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "r/VALORANT": 5,
+    "r/MapleStory": 5,
+    "r/leagueoflegends": 5,
+    "r/IndieGaming": 4,
+    "r/PS5": 3,
+    "r/Genshin_Impact": 4,
+    "게임톡": 2,
+    "r/gaming": 4,
+    "r/pcgaming": 3,
+    "r/NintendoSwitch": 1,
+    "r/Games": 3,
+    "게임조선": 1,
+    "r/lostarkgame": 2,
+    "Destructoid": 2,
+    "Push Square": 1,
+    "VGC": 1,
+    "Nintendo Life": 1,
+    "Dot Esports": 2,
+    "Pocket Gamer": 2,
+    "GamesIndustry.biz": 1,
+    "루리웹 뉴스": 1,
+    "Dexerto": 1,
+    "PC Gamer": 1,
+    "Kotaku": 1
+  },
+  "generated_at": "2026-04-13T18:48:45.623232+09:00"
+}

@@ -82,6 +82,15 @@ def _resolve_max_workers(max_workers: int | None = None) -> int:
     return max(1, min(parsed, 10))
 
 
+def _source_bypasses_crawl_health(source: Source) -> bool:
+    raw = source.config.get("bypass_crawl_health", False)
+    if isinstance(raw, bool):
+        return raw
+    if isinstance(raw, str):
+        return raw.strip().lower() in {"1", "true", "yes", "y", "on"}
+    return False
+
+
 def _create_session() -> requests.Session:
     session = requests.Session()
     session.headers.update(_DEFAULT_HEADERS)
@@ -189,11 +198,29 @@ def collect_sources(
     errors: list[str] = []
     manager = get_circuit_breaker_manager()
     workers = _resolve_max_workers(max_workers)
+    _js_types = {"javascript", "browser"}
+    _reddit_types = {"reddit"}
+    enabled_sources = [source for source in sources if source.enabled]
+    rss_sources = [s for s in enabled_sources if s.type.lower() == "rss"]
+    js_sources = [s for s in enabled_sources if s.type.lower() in _js_types]
+    reddit_sources = [s for s in enabled_sources if s.type.lower() in _reddit_types]
+    unsupported_sources = [
+        s
+        for s in enabled_sources
+        if s.type.lower() not in {"rss", *_js_types, *_reddit_types}
+    ]
+    errors.extend(
+        f"{source.name}: Unsupported source type '{source.type}'"
+        for source in unsupported_sources
+    )
     source_hosts: dict[str, str] = {
-        source.name: (urlparse(source.url).netloc.lower() or source.name) for source in sources
+        source.name: (urlparse(source.url).netloc.lower() or source.name) for source in rss_sources
     }
     rate_limiters: dict[str, RateLimiter] = {
         host: RateLimiter(min_interval=min_interval_per_host) for host in set(source_hosts.values())
+    }
+    host_locks: dict[str, threading.Lock] = {
+        host: threading.Lock() for host in set(source_hosts.values())
     }
     throttler = AdaptiveThrottler(min_delay=max(0.001, min_interval_per_host))
     health_store = CrawlHealthStore(
@@ -202,27 +229,23 @@ def collect_sources(
     _set_collection_controls(throttler, health_store)
     session = _create_session()
 
-    _js_types = {"javascript", "browser"}
-    rss_sources = [s for s in sources if s.type.lower() not in _js_types]
-    js_sources = [s for s in sources if s.type.lower() in _js_types]
-
     def _collect_for_source(source: Source) -> tuple[list[Article], list[str]]:
-        if health_store.is_disabled(source.name):
+        if not _source_bypasses_crawl_health(source) and health_store.is_disabled(source.name):
             return [], [f"{source.name}: Source disabled (crawl health threshold reached)"]
 
-        host = source_hosts[source.name]
-        rate_limiters[host].acquire()
-
         try:
-            breaker = manager.get_breaker(source.name)
-            result = breaker.call(
-                _collect_single,
-                source,
-                category=category,
-                limit=limit_per_source,
-                timeout=timeout,
-                session=session,
-            )
+            host = source_hosts[source.name]
+            with host_locks[host]:
+                rate_limiters[host].acquire()
+                breaker = manager.get_breaker(source.name)
+                result = breaker.call(
+                    _collect_single,
+                    source,
+                    category=category,
+                    limit=limit_per_source,
+                    timeout=timeout,
+                    session=session,
+                )
             return result, []
         except CircuitBreakerError:
             return [], [f"{source.name}: Circuit breaker open (source unavailable)"]
@@ -254,7 +277,12 @@ def collect_sources(
             try:
                 from .browser_collector import collect_browser_sources
 
-                js_articles, js_errors = collect_browser_sources(js_sources, category)
+                js_articles, js_errors = collect_browser_sources(
+                    js_sources,
+                    category,
+                    timeout=max(1_000, timeout * 1_000),
+                    health_db_path=health_db_path,
+                )
                 articles.extend(js_articles)
                 errors.extend(js_errors)
             except ImportError:
@@ -262,6 +290,32 @@ def collect_sources(
                     "playwright_unavailable",
                     js_source_count=len(js_sources),
                     hint="pip install 'radar-core[browser]'",
+                )
+
+        if reddit_sources:
+            try:
+                from radar_core import collect_reddit_sources
+
+                reddit_articles, reddit_errors = collect_reddit_sources(
+                    reddit_sources,
+                    category=category,
+                    limit=limit_per_source,
+                    timeout=timeout,
+                    health_db_path=health_db_path
+                    or os.environ.get("RADAR_CRAWL_HEALTH_DB_PATH", _DEFAULT_HEALTH_DB_PATH),
+                )
+                articles.extend(reddit_articles)
+                errors.extend(reddit_errors)
+                logger.info(
+                    "reddit_collection_complete",
+                    article_count=len(reddit_articles),
+                    error_count=len(reddit_errors),
+                )
+            except ImportError:
+                logger.warning(
+                    "reddit_collector_unavailable",
+                    reddit_source_count=len(reddit_sources),
+                    hint="Ensure radar-core is installed with reddit support",
                 )
     finally:
         session.close()
@@ -313,7 +367,7 @@ def _collect_single(
             items.append(
                 Article(
                     title=html.unescape(_entry_text(entry, "title").strip()) or "(no title)",
-                    link=_entry_text(entry, "link").strip(),
+                    link=_entry_link(entry, fallback_url=source.url),
                     summary=html.unescape(summary.strip()),
                     published=published,
                     source=source.name,
@@ -352,3 +406,29 @@ def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
 def _entry_text(entry: Mapping[str, Any], key: str) -> str:
     value = entry.get(key)
     return value if isinstance(value, str) else ""
+
+
+def _entry_link(entry: Mapping[str, Any], *, fallback_url: str) -> str:
+    direct_link = _entry_text(entry, "link").strip()
+    if direct_link:
+        return direct_link
+
+    entry_id = _entry_text(entry, "id").strip()
+    if _is_http_url(entry_id):
+        return entry_id
+
+    links = entry.get("links")
+    if isinstance(links, list):
+        for item in links:
+            if not isinstance(item, Mapping):
+                continue
+            href = item.get("href")
+            if isinstance(href, str) and _is_http_url(href.strip()):
+                return href.strip()
+
+    return fallback_url
+
+
+def _is_http_url(value: str) -> bool:
+    parsed = urlparse(value)
+    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)

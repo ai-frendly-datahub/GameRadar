@@ -1,0 +1,112 @@
+{
+  "date": "2026-04-24",
+  "category": "game",
+  "article_count": 300,
+  "source_count": 32,
+  "matched_count": 300,
+  "top_entities": [
+    {
+      "name": "GameGeneral",
+      "count": 576
+    },
+    {
+      "name": "SourceSignal",
+      "count": 410
+    },
+    {
+      "name": "Release",
+      "count": 190
+    },
+    {
+      "name": "Platform",
+      "count": 161
+    },
+    {
+      "name": "Genre",
+      "count": 93
+    },
+    {
+      "name": "Studio",
+      "count": 65
+    },
+    {
+      "name": "GameTitle",
+      "count": 46
+    },
+    {
+      "name": "Esports",
+      "count": 8
+    }
+  ],
+  "sources": {
+    "r/IndieGaming": 10,
+    "r/PS5": 10,
+    "r/Genshin_Impact": 10,
+    "r/gaming": 10,
+    "r/VALORANT": 10,
+    "r/Games": 10,
+    "r/leagueoflegends": 10,
+    "r/MapleStory": 10,
+    "r/lostarkgame": 10,
+    "r/pcgaming": 10,
+    "r/NintendoSwitch": 10,
+    "게임톡": 10,
+    "게임조선": 10,
+    "Xbox Wire": 10,
+    "Pure Xbox": 10,
+    "Dexerto": 4,
+    "GameSpot": 10,
+    "Destructoid": 10,
+    "Kotaku": 9,
+    "Nintendo Life": 10,
+    "GamesRadar": 9,
+    "Push Square": 10,
+    "PC Gamer": 6,
+    "Game Developer": 10,
+    "루리웹 뉴스": 10,
+    "Rock Paper Shotgun": 10,
+    "Pocket Gamer": 10,
+    "Dot Esports": 10,
+    "PlayStation Blog": 10,
+    "VGC": 10,
+    "GamesIndustry.biz": 10,
+    "IndieGames.com": 2
+  },
+  "generated_at": "2026-04-24T23:54:03.852924+09:00",
+  "ontology": {
+    "repo": "GameRadar",
+    "category": "game",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "game.patch_note",
+      "game.release_schedule",
+      "game.steam_chart",
+      "game.store_ranking"
+    ],
+    "event_model_mappings": {
+      "steam_chart": "game.steam_chart",
+      "store_ranking": "game.store_ranking",
+      "patch_note": "game.patch_note",
+      "release_schedule": "game.release_schedule"
+    },
+    "entity_type_hints": [
+      "game.title",
+      "organization.company"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence",
+      "primary_evidence"
+    ],
+    "source_role_mappings": {
+      "PlayStation Blog": "primary_evidence",
+      "Xbox Wire": "primary_evidence",
+      "Nintendo Life": "context_only",
+      "GamesIndustry.biz": "operational_evidence"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required",
+      "cross_reference_required"
+    ]
+  }
+}

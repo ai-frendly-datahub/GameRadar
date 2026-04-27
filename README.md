@@ -3,11 +3,11 @@
 **🌐 Live Report**: https://ai-frendly-datahub.github.io/GameRadar/
 
 
-게임 관련 뉴스, 출시 정보, 업데이트 소식을 수집하고 게임 장르별 트렌드를 분석합니다.
+게임 뉴스, 플랫폼 공지, 브라우저 기반 한국 게임 미디어, Reddit 커뮤니티까지 함께 수집해 출시/패치/흥행 신호를 분석합니다.
 
 ## 프로젝트 목표
 
-- **데이터 수집**: 게임 뉴스 RSS 및 API
+- **데이터 수집**: 게임 뉴스 RSS, JavaScript 페이지, Reddit 커뮤니티
 - **엔티티 분석**: 게임 장르별 키워드 매칭 (RPG, FPS, 모바일, 인디 등)
 - **트렌드 리포트**: DuckDB 저장 + HTML 리포트로 {domain} 동향 시각화
 - **자동화**: GitHub Actions 일일 수집 + GitHub Pages 리포트 자동 배포
@@ -50,9 +50,15 @@
 
 ## 동작 방식
 
-- **수집**: 카테고리 YAML에 정의된 소스를 수집합니다. 실행 시 DuckDB에 적재하고 보존 기간(`keep_days`)을 적용합니다.
+- **수집**: 카테고리 YAML에 정의된 `rss`, `javascript/browser`, `reddit` 소스를 수집합니다. 실행 시 DuckDB에 적재하고 보존 기간(`keep_days`)을 적용합니다.
 - **분석**: 엔티티별 키워드 매칭. 매칭된 키워드를 리포트에 칩으로 표시합니다.
 - **리포트**: `reports/<category>_report.html`을 생성하며, 최근 N일(기본 7일) 기사와 엔티티 히트 카운트, 수집 오류를 표시합니다.
+
+## 소스 전략
+
+- **Market**: 글로벌/국내 게임 미디어와 산업지
+- **Community**: Reddit 주요 게임 커뮤니티
+- **Operational**: PlayStation, Xbox, Steam 같은 플랫폼 공식 업데이트와 한국 게임 미디어의 출시/패치 신호
 
 ## 기본 경로
 
@@ -78,3 +84,15 @@ GameRadar/
     models.py             # 데이터 클래스
   .github/workflows/      # GitHub Actions (crawler + Pages 배포)
 ```
+
+<!-- DATAHUB-OPS-AUDIT:START -->
+## DataHub Operations
+
+- CI/CD workflows: `pr-checks.yml`, `radar-crawler.yml`, `release.yml`.
+- GitHub Pages visualization: `reports/index.html` (valid HTML); https://ai-frendly-datahub.github.io/GameRadar/.
+- Latest remote Pages check: HTTP 200, HTML.
+- Local workspace audit: 62 Python files parsed, 0 syntax errors.
+- Re-run audit from the workspace root: `python scripts/audit_ci_pages_readme.py --syntax-check --write`.
+- Latest audit report: `_workspace/2026-04-14_github_ci_pages_readme_audit.md`.
+- Latest Pages URL report: `_workspace/2026-04-14_github_pages_url_check.md`.
+<!-- DATAHUB-OPS-AUDIT:END -->

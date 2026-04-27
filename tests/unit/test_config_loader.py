@@ -13,6 +13,7 @@ from radar.config_loader import (
     _resolve_path,
     _string_value,
     load_category_config,
+    load_category_quality_config,
     load_settings,
 )
 
@@ -122,6 +123,38 @@ class TestLoadCategoryConfig:
             with pytest.raises(FileNotFoundError):
                 load_category_config("nonexistent", Path(tmpdir))
 
+    def test_real_game_config_uses_ruliweb_rss_and_disables_blocked_sources(self) -> None:
+        """Should keep smoke-warning sources out of the live collector path."""
+        config = load_category_config("game")
+        sources = {source.name: source for source in config.sources}
+
+        ruliweb = sources["루리웹 뉴스"]
+        assert ruliweb.type == "rss"
+        assert ruliweb.url == "https://bbs.ruliweb.com/news/rss"
+        assert ruliweb.collection_tier == "C1_rss"
+        assert ruliweb.config["bypass_crawl_health"] is True
+
+        assert sources["Eurogamer"].enabled is False
+        assert "connection reset" in sources["Eurogamer"].notes
+        assert sources["게임포커스"].enabled is False
+        assert "403/404" in sources["게임포커스"].notes
+        assert sources["VentureBeat Gaming"].enabled is False
+        assert "403" in sources["VentureBeat Gaming"].notes
+        assert sources["Esports Insider"].enabled is False
+        assert "resets" in sources["Esports Insider"].notes
+        assert sources["The Esports Observer"].enabled is False
+        assert "HTTP 500" in sources["The Esports Observer"].notes
+        assert sources["인벤 뉴스"].enabled is False
+        assert "404" in sources["인벤 뉴스"].notes
+        assert sources["디스이즈게임"].enabled is False
+        assert "403" in sources["디스이즈게임"].notes
+        assert sources["Famitsu"].enabled is False
+        assert "404" in sources["Famitsu"].notes
+        assert sources["4Gamer"].enabled is False
+        assert "404" in sources["4Gamer"].notes
+        assert sources["Kinda Funny Games Daily"].enabled is False
+        assert "404" in sources["Kinda Funny Games Daily"].notes
+
     def test_load_category_config_multiple_sources(self) -> None:
         """Should load multiple sources from config."""
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -228,6 +261,90 @@ class TestParseSource:
         source = _parse_source(entry)
 
         assert source.type == "rss"
+
+    def test_parse_source_preserves_metadata_and_config(self) -> None:
+        """Should preserve taxonomy metadata and browser config."""
+        entry = {
+            "name": "Steam News",
+            "type": "rss",
+            "url": "https://store.steampowered.com/feeds/news.xml",
+            "id": "steam_news",
+            "enabled": False,
+            "language": "en",
+            "country": "US",
+            "region": "NorthAmerica",
+            "trust_tier": "T1_authoritative",
+            "weight": 1.7,
+            "content_type": "patch_note",
+            "collection_tier": "C1_rss",
+            "producer_role": "platform",
+            "info_purpose": ["patch", "release"],
+            "notes": "Official patch feed",
+            "config": {"wait_for": ".newsHub"},
+        }
+
+        source = _parse_source(entry)
+
+        assert source.id == "steam_news"
+        assert source.enabled is False
+        assert source.language == "en"
+        assert source.country == "US"
+        assert source.region == "NorthAmerica"
+        assert source.trust_tier == "T1_authoritative"
+        assert source.weight == 1.7
+        assert source.content_type == "patch_note"
+        assert source.collection_tier == "C1_rss"
+        assert source.producer_role == "platform"
+        assert source.info_purpose == ["patch", "release"]
+        assert source.notes == "Official patch feed"
+        assert source.config == {"wait_for": ".newsHub"}
+
+    def test_parse_source_preserves_event_contract_metadata(self) -> None:
+        """Should preserve source-level event contract metadata in config."""
+        entry = {
+            "name": "Steam News",
+            "type": "rss",
+            "url": "https://store.steampowered.com/feeds/news.xml",
+            "event_model": "patch_note",
+            "canonical_key_fields": ["game_id", "platform", "version"],
+            "verification_role": "official_patch_reference",
+            "config": {"freshness_sla_days": 7},
+        }
+
+        source = _parse_source(entry)
+
+        assert source.config["event_model"] == "patch_note"
+        assert source.config["canonical_key_fields"] == ["game_id", "platform", "version"]
+        assert source.config["verification_role"] == "official_patch_reference"
+        assert source.config["freshness_sla_days"] == 7
+
+    def test_load_category_quality_config_returns_quality_contract(self) -> None:
+        """Should return quality contract sections from category YAML."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            categories_dir = Path(tmpdir)
+            config_file = categories_dir / "game.yaml"
+            config_file.write_text(
+                "category_name: game\n"
+                "data_quality:\n"
+                "  quality_outputs:\n"
+                "    tracked_event_models:\n"
+                "      - patch_note\n"
+                "source_backlog:\n"
+                "  operational_candidates:\n"
+                "    - id: steam_top_sellers\n"
+                "sources: []\n"
+                "entities: []\n",
+                encoding="utf-8",
+            )
+
+            quality = load_category_quality_config("game", categories_dir)
+
+        assert quality["data_quality"] == {
+            "quality_outputs": {"tracked_event_models": ["patch_note"]}
+        }
+        assert quality["source_backlog"] == {
+            "operational_candidates": [{"id": "steam_top_sellers"}]
+        }
 
 
 class TestParseEntity:

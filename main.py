@@ -8,7 +8,7 @@ from typing import cast
 from radar.analyzer import apply_entity_rules
 from radar.collector import collect_sources
 from radar.common.validators import validate_article
-from radar.config_loader import load_category_config, load_settings
+from radar.config_loader import load_category_config, load_category_quality_config, load_settings
 from radar.date_storage import apply_date_storage_policy
 from radar.logger import configure_logging, get_logger
 from radar.notifier import (
@@ -17,7 +17,9 @@ from radar.notifier import (
     NotificationPayload,
     WebhookNotifier,
 )
+from radar.quality_report import build_quality_report, write_quality_report
 from radar.raw_logger import RawLogger
+from radar.relevance import apply_source_context_entities, filter_relevant_articles
 from radar.reporter import generate_index_html, generate_report
 from radar.search_index import SearchIndex
 from radar.storage import RadarStorage
@@ -123,6 +125,7 @@ def run(
     configure_logging()
     settings = load_settings(config_path)
     category_cfg = load_category_config(category, categories_dir=categories_dir)
+    quality_cfg = load_category_quality_config(category, categories_dir=categories_dir)
 
     logger.info(
         "pipeline_start",
@@ -143,52 +146,77 @@ def run(
             _ = raw_logger.log(source_articles, source_name=source.name)
 
     analyzed = apply_entity_rules(collected, category_cfg.entities)
+    classified = apply_source_context_entities(analyzed, category_cfg.sources)
+    scoped_articles = filter_relevant_articles(classified, category_cfg.sources)
 
     # Validate articles for data quality
     validated_articles = []
     validation_errors = []
-    for article in analyzed:
-        is_valid, errors = validate_article(article)
+    for article in scoped_articles:
+        is_valid, article_errors = validate_article(article)
         if is_valid:
             validated_articles.append(article)
         else:
-            validation_errors.append(f"{article.link}: {', '.join(errors)}")
+            validation_errors.append(f"{article.link}: {', '.join(article_errors)}")
 
     storage = RadarStorage(settings.database_path)
     storage.upsert_articles(validated_articles)
-    errors.extend(validation_errors)
+    all_errors = errors + validation_errors
     _ = storage.delete_older_than(keep_days)
 
     with SearchIndex(settings.search_db_path) as search_idx:
-        # 배치 처리: 모든 기사를 한 번에 인덱싱
-        batch_items = [(article.link, article.title, article.summary) for article in analyzed]
+        batch_items = [
+            (article.link, article.title, article.summary) for article in validated_articles
+        ]
         search_idx.upsert_batch(batch_items)
 
-    recent_articles = storage.recent_articles(category_cfg.category_name, days=recent_days)
+    recent_articles = filter_relevant_articles(
+        apply_source_context_entities(
+            storage.recent_articles(category_cfg.category_name, days=recent_days, limit=1000),
+            category_cfg.sources,
+        ),
+        category_cfg.sources,
+    )
     storage.close()
 
-    matched_count = sum(1 for a in collected if a.matched_entities)
+    matched_count = sum(1 for a in scoped_articles if a.matched_entities)
+    recent_matched_count = sum(1 for a in recent_articles if a.matched_entities)
     logger.info(
         "collection_complete",
-        collected_count=len(collected),
-        errors_count=len(errors),
+        collected_count=len(scoped_articles),
+        errors_count=len(all_errors),
     )
     logger.info("analysis_complete", matched_count=matched_count)
 
     stats = {
         "sources": len(category_cfg.sources),
-        "collected": len(collected),
+        "collected": len(scoped_articles),
         "matched": matched_count,
         "window_days": recent_days,
+        "article_count": len(recent_articles),
+        "source_count": len({article.source for article in recent_articles}),
+        "matched_count": recent_matched_count,
     }
 
+    quality_report = build_quality_report(
+        category=category_cfg,
+        articles=recent_articles,
+        errors=all_errors,
+        quality_config=quality_cfg,
+    )
     output_path = settings.report_dir / f"{category_cfg.category_name}_report.html"
     _ = generate_report(
         category=category_cfg,
         articles=recent_articles,
         output_path=output_path,
         stats=stats,
-        errors=errors,
+        errors=all_errors,
+        quality_report=quality_report,
+    )
+    quality_paths = write_quality_report(
+        quality_report,
+        output_dir=settings.report_dir,
+        category_name=category_cfg.category_name,
     )
     # Generate index.html
     generate_index_html(settings.report_dir)
@@ -201,20 +229,21 @@ def run(
         snapshot_db=snapshot_db,
     )
     logger.info("report_generated", output_path=str(output_path))
+    logger.info("quality_report_generated", output_path=str(quality_paths["latest"]))
     snapshot_path = date_storage.get("snapshot_path")
     if isinstance(snapshot_path, str) and snapshot_path:
         logger.info("snapshot_saved", snapshot_path=snapshot_path)
-    if errors:
-        logger.warning("collection_errors", errors_count=len(errors))
+    if all_errors:
+        logger.warning("collection_errors", errors_count=len(all_errors))
 
     # Send notifications if configured
     _send_notifications(
         settings=settings,
         category_name=category_cfg.category_name,
         sources_count=len(category_cfg.sources),
-        collected_count=len(collected),
+        collected_count=len(scoped_articles),
         matched_count=matched_count,
-        errors_count=len(errors),
+        errors_count=len(all_errors),
         report_path=output_path,
     )
 

@@ -329,6 +329,67 @@ class TestGenerateReport:
             assert "python" in content
             assert "javascript" in content
 
+    def test_generate_report_includes_game_quality_panel(self) -> None:
+        """Should include game quality event and review details when provided."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            output_path = Path(tmpdir) / "game_report.html"
+            category = CategoryConfig(
+                category_name="game",
+                display_name="Game",
+                sources=[],
+                entities=[],
+            )
+            articles = [
+                Article(
+                    title="Elden Ring patch notes version 1.12",
+                    link="http://example.com/elden-ring",
+                    summary="Patch notes",
+                    published=datetime.now(UTC),
+                    source="Steam News",
+                    category="game",
+                    matched_entities={"GameTitle": ["Elden Ring"]},
+                )
+            ]
+            stats = {"sources": 1, "collected": 1, "matched": 1, "window_days": 7}
+
+            generate_report(
+                category=category,
+                articles=articles,
+                output_path=output_path,
+                stats=stats,
+                quality_report={
+                    "generated_at": "2026-04-13T00:00:00+00:00",
+                    "scope_note": "Game events are canonicalized.",
+                    "summary": {
+                        "actionable_game_event_count": 1,
+                        "canonical_game_key_present_count": 1,
+                        "missing_canonical_game_key_count": 0,
+                        "event_required_field_gap_count": 0,
+                        "daily_review_item_count": 1,
+                    },
+                    "events": [
+                        {
+                            "event_model": "patch_note",
+                            "canonical_game_key": "elden-ring:steam:base",
+                            "title": "Elden Ring patch notes version 1.12",
+                        }
+                    ],
+                    "daily_review_items": [
+                        {
+                            "reason": ["missing_required_fields"],
+                            "canonical_game_key": "elden-ring:steam:base",
+                            "title": "Elden Ring patch notes version 1.12",
+                        }
+                    ],
+                },
+            )
+
+            content = output_path.read_text(encoding="utf-8")
+            assert "Game Quality" in content
+            assert "patch_note" in content
+            assert "elden-ring:steam:base" in content
+            assert "missing_required_fields" in content
+
     def test_generate_report_empty_articles_list(self) -> None:
         """Should handle empty articles list gracefully."""
         with tempfile.TemporaryDirectory() as tmpdir:
