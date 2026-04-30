@@ -1,0 +1,62 @@
+{
+  "date": "2026-04-30",
+  "category": "game",
+  "article_count": 200,
+  "source_count": 22,
+  "matched_count": 168,
+  "top_entities": [
+    {
+      "name": "GameGeneral",
+      "count": 485
+    },
+    {
+      "name": "Platform",
+      "count": 112
+    },
+    {
+      "name": "Release",
+      "count": 85
+    },
+    {
+      "name": "Genre",
+      "count": 81
+    },
+    {
+      "name": "Studio",
+      "count": 55
+    },
+    {
+      "name": "GameTitle",
+      "count": 43
+    },
+    {
+      "name": "Esports",
+      "count": 11
+    }
+  ],
+  "sources": {
+    "게임포커스": 1,
+    "루리웹 뉴스": 1,
+    "게임톡": 26,
+    "Nintendo Life": 6,
+    "Push Square": 10,
+    "PC Gamer": 25,
+    "Dot Esports": 7,
+    "Dexerto": 16,
+    "Destructoid": 10,
+    "GameSpot": 15,
+    "VGC": 7,
+    "Pure Xbox": 6,
+    "Kotaku": 15,
+    "GamesRadar": 28,
+    "GamesIndustry.biz": 3,
+    "Game Developer": 3,
+    "Eurogamer": 7,
+    "게임조선": 2,
+    "Esports Insider": 2,
+    "Rock Paper Shotgun": 4,
+    "PlayStation Blog": 3,
+    "Pocket Gamer": 3
+  },
+  "generated_at": "2026-04-30T10:53:45.131310+09:00"
+}
