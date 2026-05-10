@@ -354,6 +354,7 @@ def _collect_single(
 
         for entry in feed.entries[:limit]:
             published = _extract_datetime(entry)
+            title = html.unescape(_entry_text(entry, "title").strip()) or "(no title)"
             summary = _entry_text(entry, "summary") or _entry_text(entry, "description")
             if not summary:
                 _content = entry.get("content", [])
@@ -363,10 +364,12 @@ def _collect_single(
                         value = first_item.get("value")
                         if isinstance(value, str):
                             summary = value
+            if not summary:
+                summary = title
 
             items.append(
                 Article(
-                    title=html.unescape(_entry_text(entry, "title").strip()) or "(no title)",
+                    title=title,
                     link=_entry_link(entry, fallback_url=source.url),
                     summary=html.unescape(summary.strip()),
                     published=published,

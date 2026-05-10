@@ -29,6 +29,29 @@ from radar_core.ontology import annotate_articles_with_ontology
 logger = get_logger(__name__)
 
 
+def _select_quality_articles(
+    storage: RadarStorage,
+    *,
+    category_cfg,
+    recent_days: int,
+    per_source_limit: int,
+):
+    """Use a wider window for source-quality coverage than the report body."""
+    quality_days = max(recent_days, 14)
+    quality_limit = max(1000, per_source_limit * max(len(category_cfg.sources), 1) * 3)
+    return filter_relevant_articles(
+        apply_source_context_entities(
+            storage.recent_articles(
+                category_cfg.category_name,
+                days=quality_days,
+                limit=quality_limit,
+            ),
+            category_cfg.sources,
+        ),
+        category_cfg.sources,
+    )
+
+
 def _send_notifications(
     *,
     settings: object,
@@ -187,6 +210,12 @@ def run(
         ),
         category_cfg.sources,
     )
+    quality_articles = _select_quality_articles(
+        storage,
+        category_cfg=category_cfg,
+        recent_days=recent_days,
+        per_source_limit=per_source_limit,
+    )
     storage.close()
 
     matched_count = sum(1 for a in scoped_articles if a.matched_entities)
@@ -210,7 +239,7 @@ def run(
 
     quality_report = build_quality_report(
         category=category_cfg,
-        articles=recent_articles,
+        articles=quality_articles,
         errors=all_errors,
         quality_config=quality_cfg,
     )

@@ -1,29 +1,29 @@
 {
   "category": "game",
-  "generated_at": "2026-04-28T00:40:46.019188+00:00",
+  "generated_at": "2026-04-28T14:57:30.689313+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
     "enabled_sources": 37,
     "tracked_sources": 6,
-    "fresh_sources": 4,
+    "fresh_sources": 1,
     "stale_sources": 0,
-    "missing_sources": 0,
-    "missing_event_sources": 0,
+    "missing_sources": 1,
+    "missing_event_sources": 2,
     "unknown_event_date_sources": 0,
     "not_tracked_sources": 33,
     "skipped_disabled_sources": 11,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 1,
-    "patch_note_events": 4,
-    "release_schedule_events": 13,
-    "actionable_game_event_count": 18,
+    "store_ranking_events": 0,
+    "patch_note_events": 0,
+    "release_schedule_events": 1,
+    "actionable_game_event_count": 1,
     "canonical_game_key_present_count": 0,
-    "missing_canonical_game_key_count": 18,
-    "official_or_trade_event_count": 16,
-    "event_required_field_gap_count": 16,
-    "daily_review_item_count": 10
+    "missing_canonical_game_key_count": 1,
+    "official_or_trade_event_count": 0,
+    "event_required_field_gap_count": 1,
+    "daily_review_item_count": 1
   },
   "sources": [
     {
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -69,18 +69,14 @@
         "release_schedule"
       ],
       "freshness_sla_days": 7.0,
-      "status": "fresh",
-      "article_count": 10,
-      "event_count": 13,
-      "latest_event_at": "2026-04-23T07:31:50+00:00",
-      "age_days": 4.71,
-      "latest_title": "Assassin’s Creed Black Flag Resynced: first details, launches on PS5 July 9",
-      "latest_url": "https://blog.playstation.com/2026/04/23/assassins-creed-black-flag-resynced-first-details-launches-on-ps5-july-9/",
-      "latest_source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
+      "status": "missing_event",
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
       "errors": []
     },
     {
@@ -102,19 +98,14 @@
         "release_schedule"
       ],
       "freshness_sla_days": 7.0,
-      "status": "fresh",
-      "article_count": 10,
-      "event_count": 2,
-      "latest_event_at": "2026-04-23T09:00:00+00:00",
-      "age_days": 4.65,
-      "latest_title": "ID@Xbox Spring Showcase – Check Out All of the Amazing Games Announced and Revealed",
-      "latest_url": "https://news.xbox.com/en-us/2026/04/23/idxbox-spring-showcase-recap/",
-      "latest_source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
+      "status": "missing",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
       "errors": []
     },
     {
@@ -163,7 +154,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +177,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +200,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 6,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +246,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +269,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +292,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +315,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +338,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +361,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +384,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +407,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -468,20 +459,14 @@
         "store_ranking"
       ],
       "freshness_sla_days": 7.0,
-      "status": "fresh",
-      "article_count": 11,
-      "event_count": 1,
-      "latest_event_at": "2026-04-22T05:09:22+00:00",
-      "age_days": 5.81,
-      "latest_title": "US hardware sales rose 69% in March 2026 following strong Switch 2 performance | US Monthly Charts",
-      "latest_url": "https://www.gamesindustry.biz/us-hardware-sales-rose-69-in-march-2026-following-strong-switch-2-performance-us-monthly-charts",
-      "latest_source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
+      "status": "missing_event",
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
       "errors": []
     },
     {
@@ -498,7 +483,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +529,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +598,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +690,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +713,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +743,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 10,
-      "event_count": 2,
-      "latest_event_at": "2026-04-23T04:08:58+00:00",
-      "age_days": 4.86,
-      "latest_title": "‘오비탈스(Orbitals)’, 개발진 코멘터리 플레이 영상 공개",
-      "latest_url": "https://bbs.ruliweb.com/news/read/223806",
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-04-28T05:51:19+00:00",
+      "age_days": 0.38,
+      "latest_title": "파이어샤인 게임즈 'Far Far West', 스팀 얼리 액세스 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/223991",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -885,7 +870,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +893,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -931,7 +916,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -977,7 +962,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1000,7 +985,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1023,7 +1008,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1046,7 +1031,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1069,7 +1054,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1092,7 +1077,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1115,7 +1100,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1138,7 +1123,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1184,7 +1169,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 1,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1196,175 +1181,14 @@
   ],
   "events": [
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "ID@Xbox Spring Showcase – Check Out All of the Amazing Games Announced and Revealed",
-      "url": "https://news.xbox.com/en-us/2026/04/23/idxbox-spring-showcase-recap/",
-      "event_at": "2026-04-23T09:00:00+00:00",
-      "event_date": "2026-04-23",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-04-23",
-      "genre": [],
-      "release": [
-        "announced",
-        "showcase"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Assassin’s Creed Black Flag Resynced: first details, launches on PS5 July 9",
-      "url": "https://blog.playstation.com/2026/04/23/assassins-creed-black-flag-resynced-first-details-launches-on-ps5-july-9/",
-      "event_at": "2026-04-23T07:31:50+00:00",
-      "event_date": "2026-04-23",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-23",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "ubisoft"
-      ],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Kiln: Let’s Get Started on Your Pottery Party Brawler Journey with These Launch Day Tips",
-      "url": "https://news.xbox.com/en-us/2026/04/23/kiln-get-started-pottery-party-brawler-journey-launch-day-tips/",
-      "event_at": "2026-04-23T06:00:00+00:00",
-      "event_date": "2026-04-23",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-04-23",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Zero Parades: For Dead Spies – Meet the whole sick cast of characters",
-      "url": "https://blog.playstation.com/2026/04/23/zero-parades-for-dead-spies-meet-the-whole-sick-cast-of-characters/",
-      "event_at": "2026-04-23T05:01:22+00:00",
-      "event_date": "2026-04-23",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-23",
-      "genre": [],
-      "release": [
-        "trailer",
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘오비탈스(Orbitals)’, 개발진 코멘터리 플레이 영상 공개",
-      "url": "https://bbs.ruliweb.com/news/read/223806",
-      "event_at": "2026-04-23T04:08:58+00:00",
-      "event_date": "2026-04-23",
+      "title": "파이어샤인 게임즈 'Far Far West', 스팀 얼리 액세스 출시",
+      "url": "https://bbs.ruliweb.com/news/read/223991",
+      "event_at": "2026-04-28T05:51:19+00:00",
+      "event_date": "2026-04-28",
       "platform": [
-        "닌텐도",
-        "스위치"
+        "스팀"
       ],
       "normalized_platform": "",
       "game_title": [],
@@ -1372,10 +1196,9 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-04-23",
+      "game_event_key": "release_schedule:base:2026-04-28",
       "genre": [
-        "액션",
-        "어드벤처"
+        "fps"
       ],
       "release": [
         "출시"
@@ -1399,677 +1222,25 @@
         "game_title",
         "platform"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Saros: gameplay modifiers, accessibility options, and more detailed",
-      "url": "https://blog.playstation.com/2026/04/23/saros-gameplay-modifiers-accessibility-options-and-more-detailed/",
-      "event_at": "2026-04-23T03:00:36+00:00",
-      "event_date": "2026-04-23",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-23",
-      "genre": [],
-      "release": [
-        "launch",
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "Aesthmaris Studio ‘여명촌’ 스팀 데모, 지난 22일(수) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/223802",
-      "event_at": "2026-04-22T23:18:37+00:00",
-      "event_date": "2026-04-22",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-04-22",
-      "genre": [
-        "전략",
-        "인디"
-      ],
-      "release": [
-        "출시",
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "US hardware sales rose 69% in March 2026 following strong Switch 2 performance | US Monthly Charts",
-      "url": "https://www.gamesindustry.biz/us-hardware-sales-rose-69-in-march-2026-following-strong-switch-2-performance-us-monthly-charts",
-      "event_at": "2026-04-22T05:09:22+00:00",
-      "event_date": "2026-04-22",
-      "platform": [
-        "switch",
-        "switch 2"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "store_ranking:nintendo:base:2026-04-22",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "5.3",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Gran Turismo 7 update 1.69 available today, first 2026 Gran Turismo World Series details",
-      "url": "https://blog.playstation.com/2026/04/22/gran-turismo-7-update-1-69-available-today-first-2026-gran-turismo-world-series-details/",
-      "event_at": "2026-04-22T04:00:28+00:00",
-      "event_date": "2026-04-22",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-04-22",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "1.69",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Gran Turismo 7 update 1.69 available today, first 2026 Gran Turismo World Series details",
-      "url": "https://blog.playstation.com/2026/04/22/gran-turismo-7-update-1-69-available-today-first-2026-gran-turismo-world-series-details/",
-      "event_at": "2026-04-22T04:00:28+00:00",
-      "event_date": "2026-04-22",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-22",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "1.69",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Palia’s Royal Highlands expansion launches May 12 on PS5",
-      "url": "https://blog.playstation.com/2026/04/21/palias-royal-highlands-expansion-launches-may-12-on-ps5/",
-      "event_at": "2026-04-21T08:00:19+00:00",
-      "event_date": "2026-04-21",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-21",
-      "genre": [],
-      "release": [
-        "expansion"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Ball x Pit: Shadow Update arrives April 27",
-      "url": "https://blog.playstation.com/2026/04/20/ball-x-pit-shadow-update-arrives-april-27/",
-      "event_at": "2026-04-20T07:00:22+00:00",
-      "event_date": "2026-04-20",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-04-20",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Ball x Pit: Shadow Update arrives April 27",
-      "url": "https://blog.playstation.com/2026/04/20/ball-x-pit-shadow-update-arrives-april-27/",
-      "event_at": "2026-04-20T07:00:22+00:00",
-      "event_date": "2026-04-20",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-20",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Infinity Nikki Version 2.5 launches April 23",
-      "url": "https://blog.playstation.com/2026/04/20/infinity-nikki-version-2-5-launches-april-23/",
-      "event_at": "2026-04-20T05:00:02+00:00",
-      "event_date": "2026-04-20",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-04-20",
-      "genre": [
-        "adventure"
-      ],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "2.5",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Infinity Nikki Version 2.5 launches April 23",
-      "url": "https://blog.playstation.com/2026/04/20/infinity-nikki-version-2-5-launches-april-23/",
-      "event_at": "2026-04-20T05:00:02+00:00",
-      "event_date": "2026-04-20",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-20",
-      "genre": [
-        "adventure"
-      ],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "2.5",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "NTE: Neverness to Everness out April 29, new gameplay details revealed",
-      "url": "https://blog.playstation.com/2026/04/20/nte-neverness-to-everness-out-april-29-new-gameplay-details-revealed/",
-      "event_at": "2026-04-20T04:00:07+00:00",
-      "event_date": "2026-04-20",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-20",
-      "genre": [
-        "adventure"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Dragon Ball Xenoverse 3 announced, coming to PS5 next year",
-      "url": "https://blog.playstation.com/2026/04/20/dragon-ball-xenoverse-3-announced-coming-to-ps5-next-year/",
-      "event_at": "2026-04-20T03:00:05+00:00",
-      "event_date": "2026-04-20",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-04-20",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "bandai namco"
-      ],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Dragon Ball Xenoverse 3 announced, coming to PS5 next year",
-      "url": "https://blog.playstation.com/2026/04/20/dragon-ball-xenoverse-3-announced-coming-to-ps5-next-year/",
-      "event_at": "2026-04-20T03:00:05+00:00",
-      "event_date": "2026-04-20",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-04-20",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "bandai namco"
-      ],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "ID@Xbox Spring Showcase – Check Out All of the Amazing Games Announced and Revealed",
-      "url": "https://news.xbox.com/en-us/2026/04/23/idxbox-spring-showcase-recap/",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-04-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Assassin’s Creed Black Flag Resynced: first details, launches on PS5 July 9",
-      "url": "https://blog.playstation.com/2026/04/23/assassins-creed-black-flag-resynced-first-details-launches-on-ps5-july-9/",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-04-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Kiln: Let’s Get Started on Your Pottery Party Brawler Journey with These Launch Day Tips",
-      "url": "https://news.xbox.com/en-us/2026/04/23/kiln-get-started-pottery-party-brawler-journey-launch-day-tips/",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-04-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Zero Parades: For Dead Spies – Meet the whole sick cast of characters",
-      "url": "https://blog.playstation.com/2026/04/23/zero-parades-for-dead-spies-meet-the-whole-sick-cast-of-characters/",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-04-23"
-    },
-    {
-      "reason": [
         "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘오비탈스(Orbitals)’, 개발진 코멘터리 플레이 영상 공개",
-      "url": "https://bbs.ruliweb.com/news/read/223806",
+      "title": "파이어샤인 게임즈 'Far Far West', 스팀 얼리 액세스 출시",
+      "url": "https://bbs.ruliweb.com/news/read/223991",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-04-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Saros: gameplay modifiers, accessibility options, and more detailed",
-      "url": "https://blog.playstation.com/2026/04/23/saros-gameplay-modifiers-accessibility-options-and-more-detailed/",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-04-23"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "Aesthmaris Studio ‘여명촌’ 스팀 데모, 지난 22일(수) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/223802",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-04-22"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "US hardware sales rose 69% in March 2026 following strong Switch 2 performance | US Monthly Charts",
-      "url": "https://www.gamesindustry.biz/us-hardware-sales-rose-69-in-march-2026-following-strong-switch-2-performance-us-monthly-charts",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:nintendo:base:2026-04-22"
-    },
-    {
-      "reason": [
-        "missing_game_title"
-      ],
-      "event_model": "patch_note",
-      "source": "PlayStation Blog",
-      "title": "Gran Turismo 7 update 1.69 available today, first 2026 Gran Turismo World Series details",
-      "url": "https://blog.playstation.com/2026/04/22/gran-turismo-7-update-1-69-available-today-first-2026-gran-turismo-world-series-details/",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [],
-      "game_event_key": "patch_note:playstation:base:2026-04-22"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Gran Turismo 7 update 1.69 available today, first 2026 Gran Turismo World Series details",
-      "url": "https://blog.playstation.com/2026/04/22/gran-turismo-7-update-1-69-available-today-first-2026-gran-turismo-world-series-details/",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-04-22"
+      "game_event_key": "release_schedule:base:2026-04-28"
     }
   ],
   "source_backlog": {

@@ -35,6 +35,8 @@ PATCH_TERMS = {
     "patch",
     "patch notes",
     "update",
+    "업데이트",
+    "패치",
     "version",
 }
 RELEASE_TERMS = {
@@ -52,6 +54,9 @@ RELEASE_TERMS = {
     "release date",
     "season",
     "trailer",
+    "예약판매",
+    "오픈",
+    "출시",
 }
 STORE_RANKING_TERMS = {
     "best-selling",

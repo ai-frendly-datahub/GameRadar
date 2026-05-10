@@ -224,9 +224,11 @@ sources:
   - release_schedule
   - market_analysis
   notes: Trade media source that frequently covers sales chart, release schedule,
-    and business performance signals.
+    and business performance signals; weekly market-chart quiet windows are
+    normal, so source freshness is evaluated on a 10-day cadence.
   config:
     event_model: editorial_coverage
+    freshness_sla_days: 10
 - name: Game Developer
   type: rss
   url: https://www.gamedeveloper.com/rss.xml

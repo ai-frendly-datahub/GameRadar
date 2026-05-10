@@ -69,6 +69,30 @@ class TestCollectorRetryLogic:
         assert len(articles) == 1
         assert articles[0].link == source.url
 
+    def test_collect_single_uses_title_when_entry_summary_missing(self) -> None:
+        """Should keep RSS entries valid when a feed item omits summary text."""
+        source = Source(name="games", type="rss", url="https://example.com/feed")
+
+        with patch("radar.collector.requests.get") as mock_get:
+            mock_response = Mock()
+            mock_response.content = b"""<?xml version="1.0"?>
+            <rss version="2.0">
+                <channel>
+                    <item>
+                        <title>Steam Controller restock announced</title>
+                        <link>https://example.com/article</link>
+                        <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+                    </item>
+                </channel>
+            </rss>"""
+            mock_response.raise_for_status = Mock()
+            mock_get.return_value = mock_response
+
+            articles = _collect_single(source, category="game", limit=10, timeout=15)
+
+        assert len(articles) == 1
+        assert articles[0].summary == "Steam Controller restock announced"
+
     def test_retry_on_5xx_error(self) -> None:
         """Should retry on 5xx server errors."""
         source = Source(name="test_feed", type="rss", url="http://example.com/feed")

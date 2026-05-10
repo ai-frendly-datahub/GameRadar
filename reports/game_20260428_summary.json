@@ -1,0 +1,354 @@
+{
+  "date": "2026-04-28",
+  "category": "game",
+  "article_count": 27,
+  "source_count": 27,
+  "matched_count": 27,
+  "top_entities": [
+    {
+      "name": "GameGeneral",
+      "count": 44
+    },
+    {
+      "name": "SourceSignal",
+      "count": 35
+    },
+    {
+      "name": "Release",
+      "count": 18
+    },
+    {
+      "name": "Platform",
+      "count": 13
+    },
+    {
+      "name": "Genre",
+      "count": 9
+    },
+    {
+      "name": "GameTitle",
+      "count": 5
+    },
+    {
+      "name": "Studio",
+      "count": 5
+    },
+    {
+      "name": "Esports",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "r/Genshin_Impact": 1,
+    "r/IndieGaming": 1,
+    "r/leagueoflegends": 1,
+    "r/VALORANT": 1,
+    "r/gaming": 1,
+    "r/pcgaming": 1,
+    "r/MapleStory": 1,
+    "r/PS5": 1,
+    "게임톡": 1,
+    "r/NintendoSwitch": 1,
+    "게임조선": 1,
+    "루리웹 뉴스": 1,
+    "PC Gamer": 1,
+    "Kotaku": 1,
+    "Dexerto": 1,
+    "Nintendo Life": 1,
+    "Pure Xbox": 1,
+    "Pocket Gamer": 1,
+    "VGC": 1,
+    "Game Developer": 1,
+    "PlayStation Blog": 1,
+    "GameSpot": 1,
+    "Push Square": 1,
+    "Dot Esports": 1,
+    "GamesIndustry.biz": 1,
+    "r/lostarkgame": 1,
+    "Rock Paper Shotgun": 1
+  },
+  "generated_at": "2026-04-28T23:57:31.024884+09:00",
+  "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "r/Genshin_Impact",
+        "headline": "Just too strong",
+        "source_url": "https://www.reddit.com/r/Genshin_Impact/comments/1sy3rof/just_too_strong/",
+        "published_at": "2026-04-28T14:55:47+00:00",
+        "summary": "[r/Genshin_Impact] by u/Vegetto_ssj | 1 points | 0 comments\n\nhttps://preview.redd.it/hw891ufn2yxg1.jpg?width=488&format=pjpg&auto=webp&s=b6d257c317d71c7c2cec658438dea21bbca8d58e"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/IndieGaming",
+        "headline": "In the apocalypse, the water ran out, but the booze didn’t",
+        "source_url": "https://www.reddit.com/r/IndieGaming/comments/1sy3qte/in_the_apocalypse_the_water_ran_out_but_the_booze/",
+        "published_at": "2026-04-28T14:54:55+00:00",
+        "summary": "[r/IndieGaming] by u/JackTheSurvivor | 2 points | 1 comments\n\nHey everyone!\n\nWe are working on a first-person survival and bar management game set in a desolate desert landscape with little clean water left, where player keep a lone bar running against the odds. Maybe some of you have seen our WIP screenshots here before and we finally have a trailer and our Steam page is live! We would love to hear from you!\n\nYou can wishlist it here: [https://store.steampowered.com/app/4149640/On\\_the\\_Rocks/](https://store.steampowered.com/app/4149640/On_the_Rocks/)"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/leagueoflegends",
+        "headline": "Got banned AGAIN because of client crash",
+        "source_url": "https://www.reddit.com/r/leagueoflegends/comments/1sy3q15/got_banned_again_because_of_client_crash/",
+        "published_at": "2026-04-28T14:54:08+00:00",
+        "summary": "[r/leagueoflegends] by u/Realistic-Job4947 | 3 points | 2 comments\n\nNow I have to wait again another day for them to answer and unban me; and my account still flagged because this time it is a 7 day ban. \n\nI couldn’t join the game from the beginning and someone reported me. \n\nAny help for a faster answer from the team??\n\nI have the video and the crash report I hope they unban me again."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/VALORANT",
+        "headline": "hard stuck silver with shit aim",
+        "source_url": "https://www.reddit.com/r/VALORANT/comments/1sy3mbj/hard_stuck_silver_with_shit_aim/",
+        "published_at": "2026-04-28T14:50:18+00:00",
+        "summary": "[r/VALORANT] by u/zgvislekvi | 0 points | 2 comments\n\nHello ive been playing valorant for about 3 months or so and im hard stuck silver.  \nin my own lobbies i cant do anything because every time i try to shoot i js get flicked and one tapped im not saying its not my fault i genuinely have bad aim and cant do anything about it so if yall got any tips i would be happy to hear"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/gaming",
+        "headline": "Studio Spiders Is Shutting Down Following Poor Sales Of Greedfall 2",
+        "source_url": "https://www.reddit.com/r/gaming/comments/1sy3i6p/studio_spiders_is_shutting_down_following_poor/",
+        "published_at": "2026-04-28T14:46:01+00:00",
+        "summary": "[r/gaming] by u/unscoredscore | 17 points | 19 comments\n\nLink: https://www.origami.ng/spiders-greedfall-steelrising-nacon-fermeture/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/pcgaming",
+        "headline": "Spiders (Steelrising, GreedFall) is reported to close soon - Nacon is unable to find a buyer for the studio",
+        "source_url": "https://www.reddit.com/r/pcgaming/comments/1sy3cp5/spiders_steelrising_greedfall_is_reported_to/",
+        "published_at": "2026-04-28T14:40:27+00:00",
+        "summary": "[r/pcgaming] by u/Turbostrider27 | 9 points | 5 comments\n\nLink: https://www.origami.ng/spiders-greedfall-steelrising-nacon-fermeture/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/MapleStory",
+        "headline": "KMS Zero's New Combo",
+        "source_url": "https://www.reddit.com/r/Maplestory/comments/1sy2ww7/kms_zeros_new_combo/",
+        "published_at": "2026-04-28T14:23:55+00:00",
+        "summary": "[r/Maplestory] by u/Background_Flow_8346 | 5 points | 7 comments\n\n1. Wind Cutter → Wind Strike → Storm Break\n\n2. Rolling Cutter → Down Burst Step → Rolling Assaulter (\\*Now, you can use other skills during the attack animation.)\n\n3. (\\*While using Rolling Assaulter) (\\*Reverse the arrow keys) Wind Cutter → Wind Strike → Storm Break\n\n4. (\\*Without pressing the arrow keys) Moon Strike → Pierce Thrust → Shadow Strike\n\n= Compared to the existing \\[W.Cutter → W.Strike → S.Break → M.Strike → P.Thrust → S.Strike → W.Cutter → W.Strike → S.Break\\] combo, the final damage increases by approximately 6%."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/PS5",
+        "headline": "\"The people in control would be mad not to consider him\" - 007 First Light actor is so \"fantastic\" as Bond, he should play him in the next movie, says co-star",
+        "source_url": "https://www.reddit.com/r/PS5/comments/1sy1b2d/the_people_in_control_would_be_mad_not_to/",
+        "published_at": "2026-04-28T13:22:04+00:00",
+        "summary": "[r/PS5] by u/Sam_27142317 | 161 points | 77 comments\n\nLink: https://www.eurogamer.net/007-first-light-patrick-gibson-james-bond-amazon-film-reboot"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "아이온2 “커피차 감사하지만 부담, 밸런스 패치 보류할 수도“",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=108126",
+        "published_at": "2026-04-28T12:54:27+00:00",
+        "summary": "엔씨 '아이온2' 개발진이 특정 클래스 유저들의 커피차에 대해 부담을 표했다. 이번 밸런스 조정은 기존 계획대로 진행된 것이며, 향후 유사 상황 시 업데이트를 보류할 수 있다고 전했다.엔씨는 28일 오후 7시 30분 아이온2 라이브 방송을 진행했다. 김남준 아이온2 개발PD와 소인섭 아이온2 사업실장이 금주 적용될 클래스 밸런스 조정과 향후 업데이트 일정을 공유했다.방송 전 특정 클래스 유저들이 보낸 커피차가 화제가 됐다. 개발진은 \"선의로 보내주신 마음은 감사하지만 이미 계획된 업데이트와 겹칠 경우 오해가 생길 수 있다\"며, 향후"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/NintendoSwitch",
+        "headline": "Amazon several first party Nintendo Switch games on sale 33% to 40% off",
+        "source_url": "https://www.reddit.com/r/NintendoSwitch/comments/1sxyyxf/amazon_several_first_party_nintendo_switch_games/",
+        "published_at": "2026-04-28T11:44:22+00:00",
+        "summary": "[r/NintendoSwitch] by u/Own_Willingness6599 | 102 points | 42 comments\n\n# [\\---AMAZON USA---DIGITAL ONLY---](https://www.amazon.com/stores/page/3F1C54C5-3D6D-4080-BE1E-1EB461847791?ingress=2&lp_context_asin=B09QQQZV29&visitId=0b77abe2-7574-4cad-b8ec-2efa7968987d&store_ref=bl_ast_dp_brandlogo_sto&ref_=ast_bln) <--- Link to store page\n\nMetroid Dread deal originally spotted by u/[Right-Breakfast444](https://www.reddit.com/user/Right-Breakfast444/) \\- [https://www.reddit.com/r/NintendoSwitch2/comments/1sxptdh/psa\\_metroid\\_dread\\_on\\_sale\\_for\\_3999\\_on\\_amazon/](https://www.reddit.com/r/NintendoSwitch2/comments/1sxptdh/psa_metroid_dread_on_sale_for_3999_on_amazon/)\n\nChecked the Nintendo Amazon store and found all these on sale as well\n\nBayonetta and Bayonetta 2 - Digital Bundle - Nintendo Switch \\[Digital Code\\] $39.98\n\nBayonetta 3 Standard - Nintendo Switch \\[Digital Code\\] $39.99\n\nBayonetta 2 - Nintendo Switch \\[Digital Code\\] $29.99\n\nBayonetta Origins: Cereza and the Lost Demon - Nintendo Switch \\[Digital Code\\] $39.99\n\nKirby Star Allies - Nintendo Switch \\[Digital Code\\] $39.99\n\nLIVE A LIVE Standard - Nintendo Switch \\[Digital Code\\] $29.99\n\nKirby’s Return to Dream Land Deluxe - Nintendo Switch \\[Digital Code\\]$39.99\n\nFire Emblem Engage Standard - Nintendo Switch \\[Digital Code\\] $39.99\n\nEmio – The Smiling Man: Famicom Detective Club Standard - Nintendo Switch \\[Digital Code\\] $29.99\n\nFire Emblem: Three Houses - Nintendo Switch \\[Digital Code\\] $39.99\n\nMetroid Dread - Standard - Nintendo Switch \\[Digital Code\\] $39.99\n\nFire Emblem Warriors: Three Hopes Standard - Nintendo Switch \\[Digital Code\\] $39.99\n\nFire Emblem Warriors - Nintendo Switch \\[Digital Code\\] $39.99\n\nHyrule Warriors Age of Calamity - Nintendo Switch \\[Digital Code\\] $39.99\n\nNintendo Advance Wars 1+2: Re-Boot Camp - Nintendo Switch \\[Digital Code\\] $39.99\n\nAstral Chain - Nintendo Nintendo Switch \\[Digital Code\\] $39.99"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임조선",
+        "headline": "'포르자-왕겜-007' 유명 IP가 기대를 높이는 5월 신작들",
+        "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36451",
+        "published_at": "2026-04-28T07:40:31+00:00",
+        "summary": "5월은 인기 IP를 중심에 둔 새로운 게임과 유명 시리즈의 후속작이 출시된다.인빈시블 세계관을 다루는 3대3 히어로 대전 격투게임 ‘인빈시블VS’를 시작으로 레이싱의 배경을 도쿄로 옮긴 ‘포르자 호라이즌6’, 인기 드라마 왕좌의 게임 세계관을 액션 RPG로 재해석한 ‘왕좌의 게임: 킹스로드’, 007 요원 제임스 본드의 활동 초창기를 그린 액션게임 ‘007 퍼스트 라이트’까지 유명 IP 기반의 게임들이 쏟아진다.매력적인 인디게임 역시 주목할 만하다. 카페를 운영하며 이야기의 매력을 더한 커피 토크는 도쿄를 배경으로 새로운 이야기가"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "파이어샤인 게임즈 'Far Far West', 스팀 얼리 액세스 출시",
+        "source_url": "https://bbs.ruliweb.com/news/read/223991",
+        "published_at": "2026-04-28T05:51:19+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/04/28/19dd492adda_dwctsh.webp\" width=\"90\" /> 프랑스 개발사 이블 랩터와 영국 파이어샤인 게임즈가 협동 카우보이 fps 'far far west'를 스팀 얼리 액세스로 출시하며, 플레이어는 로봇 카우보이 현상금 사냥꾼이 되어 최대 4인과 함께 기묘한 서부 개척지에서 사나운 위협을..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Fallout co-creator wants to make one last game before he retires 'for the second time'",
+        "source_url": "https://www.pcgamer.com/games/fallout/fallout-co-creator-wants-to-make-one-last-game-before-he-retires-for-the-second-time/",
+        "published_at": "2026-04-28T05:48:46+00:00",
+        "summary": "Tim Cain's considering dipping back into the industry for one last go."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Kotaku",
+        "headline": "The Next Nintendo Movie Is Coming In 2028, And It’s Probably Not Mario",
+        "source_url": "https://kotaku.com/nintendo-illumination-mario-galaxy-movie-donkey-kong-2028-2000691269",
+        "published_at": "2026-04-28T05:47:28+00:00",
+        "summary": "<img alt=\"Mario, Luigi, and Yoshi prepare for an adventure.\" class=\"attachment-full size-full wp-post-image\" height=\"730\" src=\"https://kotaku.com/app/uploads/2026/03/marios.jpg\" style=\"height: auto; margin: auto;\" width=\"1296\" /><br /><br />Universal Pictures Spain has confirmed a new Nintendo and Illumination film is just two years away"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dexerto",
+        "headline": "Playing League of Legends can improve your brain, study finds",
+        "source_url": "https://www.dexerto.com/gaming/playing-league-of-legends-can-improve-your-brain-study-finds-3357773/",
+        "published_at": "2026-04-28T05:42:58+00:00",
+        "summary": "A new study has suggested that playing League of Legends can improve brain function, with some effects still showing 10 weeks later."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Resident Evil Requiem's 'Minigame' Update May Be Just Around The Corner",
+        "source_url": "https://www.nintendolife.com/news/2026/04/resident-evil-requiems-minigame-update-may-be-just-around-the-corner",
+        "published_at": "2026-04-28T05:30:00+00:00",
+        "summary": "<p><strong>T[ease]-virus.</strong></p><p>Capcom isn't done with <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/resident-evil-requiem\">Resident Evil Requiem</a> just yet, with director Koshi Nakanishi confirming that both a minigame and a story expansion will be added as post-launch DLC. While the latter is still very much under wraps for the time being, the minigame is seemingly just around the corner.</p><p>According to an interview with <a href=\"https://news.denfaminicogamer.jp/interview/260428c\">Denfaminico Gamer</a> (thanks, <a href=\"https://www.pushsquare.com/news/2026/04/resident-evil-requiems-new-mini-game-update-seemingly-imminent\">Push Square</a>), Requiem producer Masato Kumazawa heavily implied that the minigame DLC will be added after Golden Week in Japan, which takes place from Wednesday, 29th April to Wednesday, 6th May, while also confirming that players will need to beat the main campaign to unlock it.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/04/resident-evil-requiems-minigame-update-may-be-just-around-the-corner\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Forza Horizon 6 Dev Reveals New Details On Events, Progression & Post-Launch Plans",
+        "source_url": "https://www.purexbox.com/news/2026/04/forza-horizon-6-dev-reveals-new-details-on-events-progression-and-post-launch-plans",
+        "published_at": "2026-04-28T05:30:00+00:00",
+        "summary": "<p><strong>Via a new Discord Q&A.</strong></p><p>Ahead of launch in just a few weeks' time, Playground Games has given us some new details on what we can expect from <a href=\"https://www.purexbox.com/games/xbox-series-x/forza_horizon_6\">Forza Horizon 6</a>, via an official Discord Q&A.</p><p>Thanks to <a class=\"external\" href=\"https://www.ign.com/articles/new-forza-horizon-6-details-discussed-in-developer-discord-qa\">IGN</a>, the major points from this Q&A have now been shared - including details one some of the game's new events, when certain features will be unlocked, and <a href=\"https://www.purexbox.com/news/2026/03/playground-games-says-ditching-xbox-one-will-help-forza-horizon-6s-post-launch-plans\">how the team is handling post-launch content</a> this time around.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/04/forza-horizon-6-dev-reveals-new-details-on-events-progression-and-post-launch-plans\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pocket Gamer",
+        "headline": "Guild Wars to make its mobile debut with the launch of Guild Wars Reforged this summer",
+        "source_url": "https://www.pocketgamer.com/guild-wars-reforged/launches-this-summer/",
+        "published_at": "2026-04-28T05:20:00+00:00",
+        "summary": "The great MMORPG wars of the 2000s produced many cult classics that sought to topple World of Warcraft from its throne. None succeeded, but while WoW has gone on to live something of a half-life, many still fondly recall its contemporaries, including Guild Wars!\n\nNow, for those of you who enjoyed this mid-2000s classic, you'll be able to take the Guild Wars experience on the go with you. Guild Wars Reforged resurrected the original with modern enhancements, and now it's set to make its way to mobile this summer! ... [<a href=\"https://www.pocketgamer.com/guild-wars-reforged/launches-this-summer/\">MORE</a>]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "VGC",
+        "headline": "A third Nintendo Illumination movie is set for 2028, according to Universal schedule",
+        "source_url": "https://www.videogameschronicle.com/news/a-third-nintendo-illumination-movie-is-set-for-2028-according-to-universal-schedule/",
+        "published_at": "2026-04-28T05:15:17+00:00",
+        "summary": "<img src=\"https://www.videogameschronicle.com/files/2023/01/mario-movie-dk.jpg\" /> A copyright previously suggested the pair are working on a Donkey Kong spin-off"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Game Developer",
+        "headline": "Sony to increase PlayStation hardware prices in Southeast Asia",
+        "source_url": "https://www.gamedeveloper.com/business/playstation-increases-hardware-prices-in-southeast-asia",
+        "published_at": "2026-04-28T05:14:20+00:00",
+        "summary": "The decision was made due to 'continued pressures in the global economic landscape.'"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PlayStation Blog",
+        "headline": "Marathon: Bungie shares official DualSense Edge controller setting recommendations",
+        "source_url": "https://blog.playstation.com/2026/04/28/marathon-bungie-shares-official-dualsense-edge-controller-setting-recommendations/",
+        "published_at": "2026-04-28T05:00:04+00:00",
+        "summary": "In Marathon, sharp aim matters, but so does healing, utility, movement, communication, and how you use your shell abilities. The DualSense Edge wireless controller gives you the flexibility to tailor the controls around your preferred playstyle, and save multiple custom profiles for your favourite shells and loadouts. Marathon’s default settings already gives you a strong […]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GameSpot",
+        "headline": "Surprise, We're Getting Even More Games Done Quick This Summer",
+        "source_url": "https://www.gamespot.com/articles/surprise-were-getting-even-more-games-done-quick-this-summer/1100-6539659/?ftag=CAD-01-10abi2f",
+        "published_at": "2026-04-28T05:00:00+00:00",
+        "summary": "<p>Charity organization <a href=\"https://crowd.gamesdonequick.com/\">Games Done Quick</a> has revealed it is partnering with the world's biggest gaming event, <a href=\"https://renaissancepr-dot-yamm-track.appspot.com/2tpDakYE0J47kylG-DWhSG9AxputslXNGoJsH4Bt01oFrgmLTnQGaTRbvb26fw93Nl7TRNxG2ED7S4_jH-uZBzXuDzdAj71d0YkQ2UBAv0eBrSZe_izjm3s4WE9B2AUJyoATkdt-F-MNOItd1LW-QsLvmwhV2oj-1oxc5JFfLK1bpd2nx83jgJm2FNqkUJKhYW7SUCjTkx2gsVzA-mUbtnXA\">Gamescom</a>, to bring GDQ to Europe for a new, three-day-long speedrunning spectacle. Announced earlier today, the upcoming Gamescom GDQ marathon will take place August 28-30 at Gamescom. Those attending the convention will get the exciting opportunity to watch the events live at Cologne, Germany's Koelnmesse, but rest assured that those at home will still be able to tune into both <a href=\"https://renaissancepr-dot-yamm-track.appspot.com/2m2NcDFWTP0wdL3ukLKWHpCMHANSDCzg-PENx7pel8vtagmLTnQFqkctyfEDl-VXDq_pTQ4pWTL1FYWvLGqZjoTViN9Gwq0XOwHTsHDABRieT4NhVppw0aaY1krL_Qy9a8HUoG_SvJ87IeUnXV61nWoqtaLOaOXWLLBt-if162b_K1E1XoOGhfzJoMJWnrfO2CvY\">Twitch</a> and <a href=\"https://renaissancepr-dot-yamm-track.appspot.com/2YFv656q3hZ631VlTeM-p6KDa5CthBq7HSxsZaHIswftdgmLTnQGmqm_fQiLvclQRQwRUDJfQYjPMBvZEKt1KrqLy3OOgjoCDYn7nvTBEn2hGPR-Ix6gc47E_nfbGvcyyRaW8RIZrpnepyTwFIt6mt5RLo1jj7gFpHWmR9QARfEdm1evyREvl54MC6A\">YouTube</a> to watch numerous highly-skilled speedrunners blaze through their favorite games.</p><p>For well over a decade, GDQ has served as an excellent way for the gaming community to raise money for charitable organizations while also providing viewers with over two weeks of thrilling, high-level speedruns to gawk at each year. In 2025 alone, the organization raised nearly $5.5 million across its two annual marathons--Awesome Games Done Quick and Summer Games Done Quick--and a handful of other special events, such as two, femme-focused Flame Fatales marathons. </p><p>Proceeds earned during Gamescom GDQ will be donated to Gaming for Democracy, a newly-founded initiative that supports \"civic engagement and democratic values through gaming culture.\" This marks the organization's first time donating to this cause, as well as the first time GDQ has taken place in Europe.</p><a href=\"https://www.gamespot.com/articles/surprise-were-getting-even-more-games-done-quick-this-summer/1100-6539659/?ftag=CAD-01-10abi2f/\">Continue Reading at GameSpot</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "Like a Dragon's Majima Brings Another Yakuza Icon to Sonic Racing: CrossWorlds on PS5, PS4",
+        "source_url": "https://www.pushsquare.com/news/2026/04/like-a-dragons-majima-brings-another-yakuza-icon-to-sonic-racing-crossworlds-on-ps5-ps4",
+        "published_at": "2026-04-28T05:00:00+00:00",
+        "summary": "<p><strong>Arrives tomorrow.</strong></p><p>The next free content update for <a href=\"https://www.pushsquare.com/games/ps5/sonic_racing_crossworlds\">Sonic Racing: CrossWorlds</a> is almost here, and it brings another playable character into the fold.</p><p>Namely, Goro Majima, in his <a href=\"https://www.pushsquare.com/games/ps5/like_a_dragon_pirate_yakuza_in_hawaii\">Like a Dragon: Pirate Yakuza in Hawaii</a> guise, joins the fun when the update arrives tomorrow, 29th April 2026.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/04/like-a-dragons-majima-brings-another-yakuza-icon-to-sonic-racing-crossworlds-on-ps5-ps4\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "LoL Patch 26.9 notes: Riot pushes bruiser Shyvana, tweaks Zeri and nerfs Ambessa ult",
+        "source_url": "https://dotesports.com/league-of-legends/news/lol-patch-26-9-notes",
+        "published_at": "2026-04-28T04:52:35+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/04/League-of-Legends-Prestige-Pandemonium-Shaco.jpg\" style=\"margin-bottom: 15px;\" /></div>Champion tweaks arrive."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesIndustry.biz",
+        "headline": "Magic: The Gathering Arena devs announce plans to unionise",
+        "source_url": "https://www.gamesindustry.biz/magic-the-gathering-arena-devs-announce-plans-to-unionise",
+        "published_at": "2026-04-28T04:39:24+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/MTG_Arena_01.webp?width=690&quality=85&format=jpg&auto=webp\" /> <p>A supermajority of Magic: The Gathering Arena developers have announced plans to unionise with the Communications Workers of America (CWA).</p> <p><a href=\"https://www.gamesindustry.biz/magic-the-gathering-arena-devs-announce-plans-to-unionise\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/lostarkgame",
+        "headline": "What is the skill point max in this game ?",
+        "source_url": "https://www.reddit.com/r/lostarkgame/comments/1sxp9uv/what_is_the_skill_point_max_in_this_game/",
+        "published_at": "2026-04-28T03:03:09+00:00",
+        "summary": "[r/lostarkgame] by u/MatchMakingPlease | 9 points | 8 comments\n\nIf you use powerpass I think it gives like 400 skill points or something like that, but can you get more skill points from the skill point potions ? Can you buy these skill point potions ?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Helldivers 2 isn't a cosy game, but the tranquil forests and beefed up exosuits of its latest patch might convince you it is",
+        "source_url": "https://www.rockpapershotgun.com/helldivers-2-isnt-a-cosy-game-but-the-tranquil-forests-and-beefed-up-exosuits-of-its-latest-patch-might-convince-you-it-is",
+        "published_at": "2026-04-28T02:50:57+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/helldivers-2-patch-forest-biomes-exosuit-rework-01.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Take a deep breath. Listen to some birds chirping. Watch some plants sway in the gentle breeze. Ahhhhhh. Life could be a dream. At least, it could be if the new forest biomes added by <a href=\"https://www.rockpapershotgun.com/games/helldivers-2\">Helldivers 2</a>'s latest patch were in a totally different game. Instead, they're in a frantic shooter about murderdeathing space monstrosities, now with sturdier mech suits and rebalanced melee weapons at your side.</p>\n <p><a href=\"https://www.rockpapershotgun.com/helldivers-2-isnt-a-cosy-game-but-the-tranquil-forests-and-beefed-up-exosuits-of-its-latest-patch-might-convince-you-it-is\">Read more</a></p>"
+      }
+    }
+  ],
+  "ontology": {
+    "repo": "GameRadar",
+    "category": "game",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "game.editorial_coverage",
+      "game.patch_note",
+      "game.release_schedule",
+      "game.steam_chart",
+      "game.store_ranking"
+    ],
+    "event_model_mappings": {
+      "steam_chart": "game.steam_chart",
+      "store_ranking": "game.store_ranking",
+      "patch_note": "game.patch_note",
+      "release_schedule": "game.release_schedule",
+      "editorial_coverage": "game.editorial_coverage"
+    },
+    "entity_type_hints": [
+      "game.title",
+      "organization.company"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence",
+      "primary_evidence"
+    ],
+    "source_role_mappings": {
+      "PlayStation Blog": "primary_evidence",
+      "Xbox Wire": "primary_evidence",
+      "Nintendo Life": "context_only",
+      "GamesIndustry.biz": "operational_evidence"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required",
+      "cross_reference_required"
+    ]
+  }
+}

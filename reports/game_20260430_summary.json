@@ -1,0 +1,655 @@
+{
+  "date": "2026-04-30",
+  "category": "game",
+  "article_count": 60,
+  "source_count": 31,
+  "matched_count": 60,
+  "top_entities": [
+    {
+      "name": "GameGeneral",
+      "count": 113
+    },
+    {
+      "name": "SourceSignal",
+      "count": 76
+    },
+    {
+      "name": "Platform",
+      "count": 26
+    },
+    {
+      "name": "Genre",
+      "count": 15
+    },
+    {
+      "name": "GameTitle",
+      "count": 12
+    },
+    {
+      "name": "Release",
+      "count": 10
+    },
+    {
+      "name": "Studio",
+      "count": 7
+    },
+    {
+      "name": "Esports",
+      "count": 2
+    }
+  ],
+  "sources": {
+    "r/NintendoSwitch": 2,
+    "r/IndieGaming": 4,
+    "r/leagueoflegends": 4,
+    "r/VALORANT": 3,
+    "r/Genshin_Impact": 3,
+    "게임톡": 2,
+    "r/Games": 2,
+    "r/MapleStory": 2,
+    "r/lostarkgame": 2,
+    "r/pcgaming": 1,
+    "r/gaming": 1,
+    "r/PS5": 1,
+    "루리웹 뉴스": 4,
+    "PC Gamer": 3,
+    "Dot Esports": 3,
+    "Dexerto": 2,
+    "Push Square": 2,
+    "Nintendo Life": 2,
+    "Destructoid": 2,
+    "GameSpot": 2,
+    "VGC": 2,
+    "Pure Xbox": 2,
+    "Kotaku": 1,
+    "GamesRadar": 1,
+    "GamesIndustry.biz": 1,
+    "Game Developer": 1,
+    "게임조선": 1,
+    "Rock Paper Shotgun": 1,
+    "PlayStation Blog": 1,
+    "Pocket Gamer": 1,
+    "IndieGames.com": 1
+  },
+  "generated_at": "2026-04-30T10:09:13.238123+09:00",
+  "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "r/NintendoSwitch",
+        "headline": "Animal Crossing: New Horizons updated to version 3.0.3 (25th anniversary statue added to Nook Shopping catalog)",
+        "source_url": "https://www.reddit.com/r/NintendoSwitch/comments/1szhgu2/animal_crossing_new_horizons_updated_to_version/",
+        "published_at": "2026-04-30T01:07:22+00:00",
+        "summary": "[r/NintendoSwitch] by u/OatmealDome | 1 points | 0 comments\n\nLink: https://en-americas-support.nintendo.com/app/answers/detail/a_id/49112"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/IndieGaming",
+        "headline": "505 - My game has reached a wishlist count equal to the title of my favorite song",
+        "source_url": "https://www.reddit.com/r/IndieGaming/comments/1szhg5g/505_my_game_has_reached_a_wishlist_count_equal_to/",
+        "published_at": "2026-04-30T01:06:34+00:00",
+        "summary": "[r/IndieGaming] by u/N2kStudio | 1 points | 2 comments\n\nI just wanted to share this milestone with you. I took a look and found an incredible coincidence.\n\nSong: \n\n**505 - Arctic Monkeys.**\n\nHas something like this ever happened to you that felt like a sign to keep going?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/leagueoflegends",
+        "headline": "Crit Olaf tanking 9k dmg with the only bruiser item being ravenous and the omnivamp boots.",
+        "source_url": "https://www.reddit.com/r/leagueoflegends/comments/1szhfbd/crit_olaf_tanking_9k_dmg_with_the_only_bruiser/",
+        "published_at": "2026-04-30T01:05:31+00:00",
+        "summary": "[r/leagueoflegends] by u/CritOlaf | 2 points | 0 comments\n\nLink: https://v.redd.it/bhfli78698yg1"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/VALORANT",
+        "headline": "Neuer Agent für Valorant (Idee)",
+        "source_url": "https://www.reddit.com/r/VALORANT/comments/1szhbs1/neuer_agent_für_valorant_idee/",
+        "published_at": "2026-04-30T01:00:54+00:00",
+        "summary": "[r/VALORANT] by u/Fun-Metal-6832 | 1 points | 0 comments\n\nLink: https://i.redd.it/rz83gmu288yg1"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/IndieGaming",
+        "headline": "Shadow Market 2040 is next up",
+        "source_url": "https://www.reddit.com/r/IndieGaming/comments/1szgvad/shadow_market_2040_is_next_up/",
+        "published_at": "2026-04-30T00:40:17+00:00",
+        "summary": "[r/IndieGaming] by u/Chance-Royal-221 | 1 points | 1 comments\n\nShadow Market 2040 is the new Dopewars and more worth checking out on Google Play Store."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/leagueoflegends",
+        "headline": "Something needs to be done about Anivia",
+        "source_url": "https://www.reddit.com/r/leagueoflegends/comments/1szgujl/something_needs_to_be_done_about_anivia/",
+        "published_at": "2026-04-30T00:39:22+00:00",
+        "summary": "[r/leagueoflegends] by u/KasumiGotoTriss | 0 points | 3 comments\n\nThe champion has always been toxic but very unpopular, but with the increasing priority in proplay, as well as the resurgence of Anivia support and top, I think it's time to nerf this monstrosity. The fact that Anivia is the best toplaner is insane. She deals tons of damage, is super tanky, has CC, insane catch potential with wall which is a gamewarping ability, great waveclear.. The list goes on. Feels like her kit is a little too good."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Genshin_Impact",
+        "headline": "i think he used too much delusion",
+        "source_url": "https://www.reddit.com/r/Genshin_Impact/comments/1szgru1/i_think_he_used_too_much_delusion/",
+        "published_at": "2026-04-30T00:36:02+00:00",
+        "summary": "[r/Genshin_Impact] by u/seleneaylward | 28 points | 2 comments\n\nI've been trying to make them besties in tomodachi so i can finally have all the harbingers (tea party goers) live together.. but Childe's taking it too far\n\nif anything, i think it's actually the other way around lol"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "카카오게임즈 “하반기 신작 개발 전념”",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=108164",
+        "published_at": "2026-04-30T00:33:41+00:00",
+        "summary": "카카오게임즈가 하반기 반등을 위한 신작 개발에 박차를 가하고 있다.카카오게임즈는 2026년 1분기 연결 기준 매출 약 829억 원, 영업손실 약 255억 원을 기록하며 6분기 연속 적자를 이어갔다. 매출은 전년 동기 대비 33%, 전분기 대비 16% 감소했다.사업 부문별로는 PC 온라인 게임 매출이 약 279억 원으로 전년 대비 4% 증가했지만, 모바일 게임 매출은 약 550억 원으로 전년 대비 43% 감소해 전체 실적 하락에 영향을 줬다. 기존 게임 매출 안정화와 신작 부재가 주요 원인으로 분석된다.카카오게임즈는 2분기부터 신작"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Games",
+        "headline": "Digital Bros. acquires Wuchang: Fallen Feathers IP for $4.6m",
+        "source_url": "https://www.reddit.com/r/Games/comments/1szgpkf/digital_bros_acquires_wuchang_fallen_feathers_ip/",
+        "published_at": "2026-04-30T00:33:12+00:00",
+        "summary": "[r/Games] by u/0xIAmGame | 16 points | 1 comments\n\nLink: https://www.gamesindustry.biz/digital-bros-acquires-wuchang-fallen-feathers-ip-for-46m"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/VALORANT",
+        "headline": "¿La Kuronami 2.0 está peor trabajada que la 1.0?",
+        "source_url": "https://www.reddit.com/r/VALORANT/comments/1szgp88/la_kuronami_20_está_peor_trabajada_que_la_10/",
+        "published_at": "2026-04-30T00:32:48+00:00",
+        "summary": "[r/VALORANT] by u/JulenCV | 0 points | 1 comments\n\nAbro debate porque llevo tiempo fijándome en esto y no sé si soy el único que lo ve así.\n\nSiento que la Kuronami 2.0 está peor diseñada que la 1.0, sobre todo en detalles clave como la recarga. En la 1.0 se nota muchísimo más el mimo: la compuerta abriéndose, las animaciones más marcadas, más “peso” visual… todo transmite más trabajo y personalidad.\n\nEn cambio, la 2.0, aunque sigue siendo estética, da la sensación de ser más genérica o menos cuidada en esos pequeños detalles que marcan la diferencia.\n\nY aquí viene otro punto: las armas de la 2.0 ya son muy populares y están súper vistas. Personalmente, creo que sería mucho más interesante que sacaran skins para armas más olvidadas en lugar de seguir dándole protagonismo a las mismas de siempre.\n\n¿Qué opináis vosotros?\n\n¿Soy yo o también notáis ese downgrade en detalles?\n\n¿Preferís nuevas versiones de líneas populares o que revivan armas olvidadas?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/leagueoflegends",
+        "headline": "Enemy Remakes not counting for Low Priority Queue feels bad.",
+        "source_url": "https://www.reddit.com/r/leagueoflegends/comments/1szgolh/enemy_remakes_not_counting_for_low_priority_queue/",
+        "published_at": "2026-04-30T00:31:59+00:00",
+        "summary": "[r/leagueoflegends] by u/neoboo | 1 points | 0 comments\n\nHad some unfortunate disconnects due to local internet provider outages and ended up in Low Priority Queue. Now Ive had 3 different games while trying to hit the 5 games played where the opponents remade, and I end up having to sit in another 5 minute pre-queue just to hope it doesnt happen next time. I get why your team Remakes dont count, but why not opppnent Remakes?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/IndieGaming",
+        "headline": "Stowaway, our latest project",
+        "source_url": "https://www.reddit.com/r/IndieGaming/comments/1szgo5g/stowaway_our_latest_project/",
+        "published_at": "2026-04-30T00:31:26+00:00",
+        "summary": "[r/IndieGaming] by u/Calm-You-4757 | 1 points | 1 comments\n\nLink: /r/IndieDev/comments/1szgnkz/stowaway_our_latest_project/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/MapleStory",
+        "headline": "How is Adele as a level 260 Ctene Mule?",
+        "source_url": "https://www.reddit.com/r/Maplestory/comments/1szgdqg/how_is_adele_as_a_level_260_ctene_mule/",
+        "published_at": "2026-04-30T00:18:26+00:00",
+        "summary": "[r/Maplestory] by u/SereneWinds | 0 points | 6 comments\n\nI was considering raw-dogging pushing an Adele to 260 from scratch since we got event stats; mainly solely for the Goddess Pass. Though I figured I should make them into another Ctene mule since it otherwise would be wasted resources if I don't.\n\nBut I wanted to know the community consensus of this before I burn myself out doing this.\n\nAssume Meso, Nodes, Hexa, etc isn't a limiting factor."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Genshin_Impact",
+        "headline": "Maurice, I cant move it move it anymore",
+        "source_url": "https://www.reddit.com/r/Genshin_Impact/comments/1szgde0/maurice_i_cant_move_it_move_it_anymore/",
+        "published_at": "2026-04-30T00:18:01+00:00",
+        "summary": "[r/Genshin_Impact] by u/fenix_105 | 2 points | 0 comments\n\n[I opened every echoes and have 4\\/4 and now cant get other 2 :sadface:](https://preview.redd.it/kous0ae708yg1.png?width=2560&format=png&auto=webp&s=ade5565dace0d4e316d0e9ba4af2b2a193a878d9)"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/lostarkgame",
+        "headline": "Question about next event",
+        "source_url": "https://www.reddit.com/r/lostarkgame/comments/1szfpsm/question_about_next_event/",
+        "published_at": "2026-04-29T23:49:53+00:00",
+        "summary": "[r/lostarkgame] by u/vexruh | 3 points | 5 comments\n\nI have a 1700 alt that has a ton of mats and i want to push it to 1710 so i can atleast kinda get some arc grid done, my issue though is i would like to use the event in June on it so i can fuse some 7s i have on it into 8s for my main. Does anyone think the event will be 1700 max like last event or do u think 1710 is a safe bet?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/leagueoflegends",
+        "headline": "The new Demon Boxes from the pass feel like a Scam tbh",
+        "source_url": "https://www.reddit.com/r/leagueoflegends/comments/1szesin/the_new_demon_boxes_from_the_pass_feel_like_a/",
+        "published_at": "2026-04-29T23:10:11+00:00",
+        "summary": "[r/leagueoflegends] by u/Sir_Septimus | 1 points | 0 comments\n\nSo I looked at the drop rates for these new boxes that replaced the pass skins (also purchasable for 850 RP). Supposedly they give you one of a Selection of \"fiendish\" skins but I noticed that none of the new Pandemonium skins are in the drop table. Which really begs the question, why makes these new themed boxes when the shiny new demons skins are not even in them and can only be purchased seperately? It feels somewhat deceptive that they share the same theme as the pass but you cant actually get any of the new stuff from them."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Genshin_Impact",
+        "headline": "Weekly boss",
+        "source_url": "https://www.reddit.com/r/Genshin_Impact/comments/1szes4j/weekly_boss/",
+        "published_at": "2026-04-29T23:09:42+00:00",
+        "summary": "[r/Genshin_Impact] by u/Informal-Respond3425 | 2 points | 0 comments\n\nSo I’m trying to get laumas skill and burst leveled but I can’t beat her weekly boss I tried coop every time we just lose I tried lower level and I still lost.\n\nWhat do I do.\n\nThank you"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/VALORANT",
+        "headline": "Agent with a different hitbox",
+        "source_url": "https://www.reddit.com/r/VALORANT/comments/1szeogl/agent_with_a_different_hitbox/",
+        "published_at": "2026-04-29T23:05:22+00:00",
+        "summary": "[r/VALORANT] by u/booyafafa | 1 points | 1 comments\n\nDo you think they’ll ever release a valorant agent with a different hitbox? Whether that be smaller, larger, fatter, taller, etc.\n\nThey’ve already released things like neon and iso who break the typical unspoken rules of a tactical shooter, so I personally haven’t totally writen it off as a possibility."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/IndieGaming",
+        "headline": "Anyone up to test a new game? Hey guys, I made hotelguessr.com which is like geoguesser but with hotels. I hope you like it, and if you have a look, please let me know what you think! Cheers",
+        "source_url": "https://www.reddit.com/r/IndieGaming/comments/1szejji/anyone_up_to_test_a_new_game_hey_guys_i_made/",
+        "published_at": "2026-04-29T22:59:50+00:00",
+        "summary": "[r/IndieGaming] by u/Plus_Test_2196 | 1 points | 1 comments\n\nLink: /r/geoguessr/comments/1szehog/anyone_up_to_test_a_new_game/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/pcgaming",
+        "headline": "Dice of Kalma 1.4. - Major Daily Dice Update is out!",
+        "source_url": "https://www.reddit.com/r/pcgaming/comments/1szee7m/dice_of_kalma_14_major_daily_dice_update_is_out/",
+        "published_at": "2026-04-29T22:53:42+00:00",
+        "summary": "[r/pcgaming] by u/mistermaximan | 0 points | 1 comments\n\n[https://store.steampowered.com/app/3885520/Dice\\_of\\_Kalma/](https://store.steampowered.com/app/3885520/Dice_of_Kalma/)\n\nHello again, wayward souls! The 1.4 \"Daily Dice\" update is out now on all platforms!\n\nThis update adds a daily challenge mode, new skulls, rebalanced skull looting logic, and much more!  \n\n\n# DAILY CHALLENGE GAME MODE:\n\n\\- A short 10-level challenge where the player starts with three mechanically different skulls, but eight skulls in total: two of the skulls are given as blue, red, and yellow, and the last one is given as blue and red.\n\n\\- All hand upgrades are locked to level 2, and no hand upgrades are offered during a daily challenge.\n\n\\- The player must reach level 15 at least once to unlock access to daily challenges.\n\n\\- A new daily challenge arrives every day at 10:00 or 11:00 UTC+0, depending on daylight saving time. The level changes globally at the same time, but the daily game mode description shows the localized time when a new daily challenge will arrive.\n\n\\- If a daily challenge hasn’t been finished by the time a new one arrives, that daily challenge can’t be continued, though if the player is playing a daily challenge at the moment a new daily challenge arrives, they are allowed to finish the ongoing run unless they close the game or return to the main menu.\n\n\\- Challenges and some achievements can’t be unlocked or used in daily runs.\n\n\\- When playing on daily mode, some statistics will not be tracked in the player’s statistics, records, and leaderboards.\n\n\\- Daily runs use the same music as endless mode past level 25.\n\n\\- Four new achievements related to completing daily challenges.\n\n# NEW SKULLS:\n\n\\- Knight skull: +10 bones / +2 mult / +1 reroll when playing a hand if the number of hands is even.\n\n\\- Inventor skull: +10 bones / +2 mult / +1 reroll when playing a hand if at least one die is equal to the difference of its two adjacent dice.\n\n\\- Spiked skull: +15 bones / +3 mult / +2 rerolls when playing a hand if the number of odd ..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/gaming",
+        "headline": "Injustice 3 Reportedly in Development at NetherRealm Studios",
+        "source_url": "https://www.reddit.com/r/gaming/comments/1sze9gi/injustice_3_reportedly_in_development_at/",
+        "published_at": "2026-04-29T22:48:13+00:00",
+        "summary": "[r/gaming] by u/PaiDuck | 193 points | 57 comments\n\nLink: https://mp1st.com/news/report-injustice-3-in-development-at-netherrealm-studios"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/NintendoSwitch",
+        "headline": "DRAGON QUEST XI S: Echoes of an Elusive Age for Switch 2 has been rated in Taiwan",
+        "source_url": "https://www.reddit.com/r/NintendoSwitch/comments/1sze8t8/dragon_quest_xi_s_echoes_of_an_elusive_age_for/",
+        "published_at": "2026-04-29T22:47:29+00:00",
+        "summary": "[r/NintendoSwitch] by u/Amiibofan101 | 91 points | 23 comments\n\nLink: https://www.resetera.com/threads/dragon-quest-xi-s-echoes-of-an-elusive-age-for-switch-2-has-been-rated-in-taiwan.1505899/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "베트남 다낭서 ‘레드포스 PC방 2026 상생 워크숍’ 성황",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=108163",
+        "published_at": "2026-04-29T22:46:39+00:00",
+        "summary": "비엔엠컴퍼니(대표 서희원)가 지난 4월 19~23일 베트남 다낭에서 진행한 ‘2026 비엔엠컴퍼니 상생 워크숍’을 성황리에 마무리했다. 이번 워크숍은 비엔엠컴퍼니에서 농심 이스포츠와 함께 운영하는 PC방 브랜드 ‘레드포스 PC방(레드포스 PC아레나)’ 점주들을 비롯해 비엔엠컴퍼니 임직원, 파트너사 관계자 약 110여 명이 참여해 지난해보다 더욱 큰 규모로 진행됐다. 비엔엠컴퍼니는 레드포스 PC방 업주들이 PC방 업계의 발전을 위해 노력해 온 점에 감사하는 마음을 담고, PC방 업계의 최신 트렌드를 공유하며 새로운 비전을 제시하기 위"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/lostarkgame",
+        "headline": "Honing and Advanced Honing",
+        "source_url": "https://www.reddit.com/r/lostarkgame/comments/1szdtr5/honing_and_advanced_honing/",
+        "published_at": "2026-04-29T22:30:07+00:00",
+        "summary": "[r/lostarkgame] by u/MatchMakingPlease | 0 points | 6 comments\n\nWhen you are at like CP of around 850, is the single best way to boost your dps and CP is through honing and advanced honing given you have the gold ?\n\nAlso what is the difference between honing and advanced honing ? ( In terms of making your gear stronger ). \n\nI want to quickly get out 850 CP to 1000 😧."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Games",
+        "headline": "Krafton begins hiring developers to produce Tera 2",
+        "source_url": "https://www.reddit.com/r/Games/comments/1szd9jo/krafton_begins_hiring_developers_to_produce_tera_2/",
+        "published_at": "2026-04-29T22:07:45+00:00",
+        "summary": "[r/Games] by u/DwingRD | 24 points | 8 comments\n\nLink: https://www.eurogamer.net/tera-2-hiring-krafton-mmorpg-unreal-engine-5"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/MapleStory",
+        "headline": "BLASTER ES VIABLE PARA CW3?",
+        "source_url": "https://www.reddit.com/r/Maplestory/comments/1szcpit/blaster_es_viable_para_cw3/",
+        "published_at": "2026-04-29T21:46:18+00:00",
+        "summary": "[r/Maplestory] by u/Acceptable_Spray_167 | 0 points | 14 comments\n\nHice db para cw1 y no lo recomiendo, hice CM mi Main en CW2 y lo amo pero en general Ren hacía más daño con menos. Llegué a diamante y está vez me gustaría ir más allá. BLASTER es fuerte? Los Main lo recomiendan para llegar a Challenger? \n\nLa opción más viable supongo que es el nuevo job Erel. \n\nLos leo, saludos"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/PS5",
+        "headline": "SIE spokesperson to GameSpot regarding the DRM: \"Players can continue to access and play their purchased games as usual. A one-time online check is required to confirm the game's license, after which no further check-ins are required.\"",
+        "source_url": "https://www.reddit.com/r/PS5/comments/1szbw9p/sie_spokesperson_to_gamespot_regarding_the_drm/",
+        "published_at": "2026-04-29T21:15:02+00:00",
+        "summary": "[r/PS5] by u/FitNectarine5779 | 1176 points | 297 comments\n\nLink: https://www.gamespot.com/articles/playstation-users-report-new-online-license-checks-for-digital-games/1100-6539651/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "‘명조:워더링 웨이브 PS®5 컬렉터즈 에디션’한국어 패키지, 오늘(30일) 정식 발매",
+        "source_url": "https://bbs.ruliweb.com/news/read/224085",
+        "published_at": "2026-04-29T16:01:03+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/04/30/19ddbe89e0f_wambsf.webp\" width=\"90\" /> 주식회사 코멧소프트는 'kuro games'와 협력하여 오픈월드 액션 rpg '명조:워더링 웨이브'의 ps5 컬렉터즈 에디션을 4월 30일 정식 발매하며, 이 작품은 포스트 아포칼립스 배경에서 자유로운 탐색과 고도화된 액션이 특징입니..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "스마일게이트, 제주도 서귀포시 고양이 테마파크 ‘돌코리숲’ 개장",
+        "source_url": "https://bbs.ruliweb.com/news/read/224084",
+        "published_at": "2026-04-29T15:52:26+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/04/30/19ddbdf643e_pkrxzs.webp\" width=\"90\" /> 스마일게이트가 제주 서귀포시에 1만 8000여 평 규모의 체험형 테마파크 '돌코리숲'을 개장하며, 제주 설화 '돌코냉이'를 현대적으로 재해석했다. 이곳은 고양이 테마를 중심으로 전시, 정원 산책, 예술 작품 감상, 식음 경험을 결합한..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Neverness to Everness tier list and best characters",
+        "source_url": "https://www.pcgamer.com/games/action/neverness-to-everness-tier-list-best-characters/",
+        "published_at": "2026-04-29T15:48:31+00:00",
+        "summary": "Your guide to the top tier characters and team compositions for Neverness to Everness."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "Does BakkesMod still work in Rocket League after the Easy Anti-Cheat update?",
+        "source_url": "https://dotesports.com/rocket-league/news/bakkesmod-rocket-league-anti-cheat-update",
+        "published_at": "2026-04-29T15:44:50+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/04/rl.png\" style=\"margin-bottom: 15px;\" /></div>Rocket League's Easy Anti-Cheat update makes EAC mandatory for online play, blocking BakkesMod in ranked and casual modes."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dexerto",
+        "headline": "ChatGPT can now run DOOM without leaving the browser",
+        "source_url": "https://www.dexerto.com/gaming/chatgpt-can-now-run-doom-without-leaving-the-browser-3358829/",
+        "published_at": "2026-04-29T15:43:58+00:00",
+        "summary": "One software engineer asked the age-old question: Can it run DOOM? The answer for ChatGPT is now yes."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "유베이스 그룹, 지난 16일(목) 임원진 대상 ‘AI 활용 심화 교육’ 진행",
+        "source_url": "https://bbs.ruliweb.com/news/read/224080",
+        "published_at": "2026-04-29T15:32:44+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/04/30/19ddbcd5fb5_zscjrh.webp\" width=\"90\" /> 유베이스 그룹이 aicc 시장 선도를 위해 임원진을 대상으로 'ai 활용 심화 교육'을 진행하며, 단순 트렌드 파악을 넘어 프롬프트 엔지니어링 등 고도화된 기술을 전략적 의사결정에 접목하는 역량 강화에 집중했다. 이번 교육에서는 챗g..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "You Can Now Install Linux on Your PS5, Transforming It into a Steam Machine",
+        "source_url": "https://www.pushsquare.com/news/2026/04/you-can-now-install-linux-on-your-ps5-transforming-it-into-a-steam-machine",
+        "published_at": "2026-04-29T15:30:00+00:00",
+        "summary": "<p><strong>But there's a catch.</strong></p><p>Fans of the <a href=\"https://www.pushsquare.com/news/2010/04/geohot_develops_custom_playstation_3_firmware_321oo_brings_otheros_support_back\">PS3’s infamous OtherOS feature</a> – which was axed from the console, leading to a class action lawsuit – may be excited to learn there’s now a way to install Linux on your PS5.</p><p>We saw <a href=\"https://www.pushsquare.com/news/2026/03/ps5-modder-successfully-installs-linux-boots-gta-5-at-60fps-with-ray-tracing\">footage of boffin Andy Nguyen’s custom installation</a> earlier in the year, where he managed to get <a href=\"https://www.pushsquare.com/games/ps5/grand_theft_auto_v\">GTA 5</a> running with enhanced ray tracing at 60fps via Ubuntu.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/04/you-can-now-install-linux-on-your-ps5-transforming-it-into-a-steam-machine\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Dragon Quest XI S: Echoes Of An Elusive Age - Definitive Edition Has Been Rated For Switch 2",
+        "source_url": "https://www.nintendolife.com/news/2026/04/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-has-been-rated-for-switch-2",
+        "published_at": "2026-04-29T15:25:00+00:00",
+        "summary": "<p><strong>Will the hero return?</strong></p><p>Ahead of <a href=\"https://www.nintendolife.com/games/switch-eshop/dragon_quest\">Dragon Quest</a> Day next month, it looks like another entry in the series could be on the way to the Switch 2.</p><p>A new classification for a Switch 2 version of <a href=\"https://www.nintendolife.com/games/nintendo-switch/dragon_quest_xi_s_echoes_of_an_elusive_age_-_definitive_edition\">Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition</a> has popped up on the classification board in Taiwan.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/04/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-has-been-rated-for-switch-2\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "All Collectables and Secrets locations in Far Far West and how to complete them (Secret Jokers)",
+        "source_url": "https://www.destructoid.com/all-collectables-and-secrets-locations-in-far-far-west-and-how-to-complete-them-secret-jokers/?utm_source=rss&utm_medium=rss&utm_campaign=all-collectables-and-secrets-locations-in-far-far-west-and-how-to-complete-them-secret-jokers",
+        "published_at": "2026-04-29T14:47:49+00:00",
+        "summary": "<p><img alt=\"Promo image for Far Far West from Steam.\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/far-far-west-featured.jpg\" width=\"1200\" /></p>\n<p><!-- wp:paragraph --></p>\n<p>The world of bounties in <em>Far Far West</em> has plenty of secrets and collectables for you to find on your journey. Completing them will get you unique rewards, and some are also tied to the in-game challenges. Unlike standard missions, the locations of these secrets won't be revealed, and that's where this guide comes in.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:yoast-seo/table-of-contents --></p>\n<div class=\"wp-block-yoast-seo-table-of-contents yoast-table-of-contents\">\n<h2>Table of contents</h2>\n<ul>\n<li><a href=\"#h-how-to-get-all-collectables-and-secrets-in-far-far-west\">How to get all collectables and secrets in Far Far West</a>\n<ul>\n<li><a href=\"#h-far-west\">Far West</a></li>\n<li><a href=\"#h-desert\">Desert</a></li>\n<li><a href=\"#h-canyon\">Canyon</a></li>\n<li><a href=\"#h-woodland\">Woodland</a></li>\n<li><a href=\"#h-area-41\">Area 41</a></li>\n<li><a href=\"#h-far-far-north\">Far Far North</a></li>\n</ul>\n</li>\n</ul>\n</div>\n<p><!-- /wp:yoast-seo/table-of-contents --></p>\n<p><!-- wp:heading --></p>\n<h2 class=\"wp-block-heading\" id=\"h-how-to-get-all-collectables-and-secrets-in-far-far-west\">How to get all collectables and secrets in Far Far West</h2>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:paragraph --></p>\n<p>The following sections have all the collectables and secrets I have come across on the maps. This is a work in progress, and there could be changes in future since <em>Far Far West</em> is in early access.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3 class=\"wp-block-heading\" id=\"h-far-west\">Far West</h3>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:image {\"id\":1211007,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"Far West Map\" class=\"wp-image-1211007\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/Passing-79-2026-04-30T041034.644.jpg?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot and remix by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:paragraph --></p>\n<p>There are three sets of secrets and collectables in this location.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li>The three locations with the logo outline in red have minigames where you can interact with the bells on the ground and shoot the ones in the sky (based on how they appear). You can interact with the bell on the ground to find the order. Once done, head to the location with the orange logo. Interact with the bell at the top of the building to complete the quest.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li>Go to the spot with the green logo to find one of the missions related to the quest that helps you unlock the Far Far North map.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li>Go to the spot with the purple logo to find a symbol tied with a secret for the Area 41 map.</li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3 class=\"wp-block-heading\" id=\"h-desert\">Desert</h3>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:image {\"id\":1211006,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"Desert map\" class=\"wp-image-1211006\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/Passing-79-2026-04-30T041817.016.jpg?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot and remix by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li>You'll find two types of logos with numbers on them. The ones with the red outline are the children who have lost their way. You have to return them to their parents, whose locations are the orange logos. To find the correct pair, refer to the numbers on the logos. There's no specific order to return the children.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li>The spot with the purple logo has a symbol related to the secret of Area 41.</li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3 class=\"wp-block-heading\" id=\"h-canyon\">Canyon</h3>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:image {\"id\":1211005,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"\" class=\"wp-image-1211005\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/Passing-79-2026-04-30T042009.400.jpg?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot and remix by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li>Go to the spots with logo outlines in red, and you'll find three minigames. Then, go to the spot with the 'F' logo, and you'll find a spot to place a medallion that you get by completing the minigames.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li>The spot with the orange logo features a mission for the quest that unlocks the Far Far North map.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li>The spot with the purple logo features a symbol for the secret on Area 41.</li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3 class=\"wp-block-heading\" id=\"h-woodland\">Woodland</h3>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:image {\"id\":1211009,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"Woodland map\" class=\"wp-image-1211009\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/Passing-79-2026-04-30T043654.875.jpg?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot and remix by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li>Go to the spots marked by the logos with a red outline to find mushrooms. You have to interact with them in order 1 to 7 before heading to the spot marked by the 'F' logo to complete the secret.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li>The spot with the purple logo has a symbol for the secret on Area 41. </li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3 class=\"wp-block-heading\" id=\"h-area-41\">Area 41</h3>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:image {\"id\":1211008,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"Area 41\" class=\"wp-image-1211008\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/Passing-79-2026-04-30T043836.932.jpg?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot and remix by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li>Head to the spot marked by the logo with a red outline, and you'll find the secret of Area 41. If you've followed my instructions with the previous maps, you'll have four secrets (one from each map). You have to input the symbols in the designated order. Enter the one you found in Far West where there is one dot. Then add the one you saw on the Desert map on the slab with two dots. Do this on all four, and you'll complete the quest.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li>Go to the spot with the purple logo, and you'll find a mission for the quest to get the Far Far North map. </li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3 class=\"wp-block-heading\" id=\"h-far-far-north\">Far Far North</h3>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:image {\"id\":1211010,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"Far Far North\" class=\"wp-image-1211010\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/Passing-79-2026-04-30T045634.756.jpg?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot and remix by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li>For the final map, head to the spots with the logos with the red outline to find parts of a snowman. Walk over to roll them to the spot highlighted by the 'F' logo to complete the task. </li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p>The post <a href=\"https://www.destructoid.com/all-collectables-and-secrets-locations-in-far-far-west-and-how-to-complete-them-secret-jokers/\">All Collectables and Secrets locations in Far Far West and how to complete them (Secret Jokers)</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "VCT 2026 EMEA Stage 1: Schedule, results, teams, format, more",
+        "source_url": "https://dotesports.com/valorant/news/vct-2026-emea-stage-1",
+        "published_at": "2026-04-29T14:41:00+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/03/VCT-EMEA-Stage-1.jpg\" style=\"margin-bottom: 15px;\" /></div>The first league phase for EMEA in 2026."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GameSpot",
+        "headline": "All The New Lego Sets Dropping May 1 - FIFA, Star Wars, Toy Story, And More",
+        "source_url": "https://www.gamespot.com/gallery/new-lego-sets-preorders/2900-7677/",
+        "published_at": "2026-04-29T14:34:00+00:00",
+        "summary": "<p><img src=\"https://www.gamespot.com/a/uploads/scale_large/1701/17013431/4690679-maylegopreorders.jpg\" /><br /><p>New Lego sets typically drop on the first day of each month, and May 2026 is no different--though there are a couple exceptions. The <a href=\"https://www.gamespot.com/articles/lego-mandalorian-n1-starfight-ucs-buying-guide/1100-6539423/\">Star Wars Mandalorian N-1 Starfighter</a> drops on May the 4th for $250, Star Wars Day, and on May 7 you can pick up the huge <a href=\"https://www.gamespot.com/articles/this-new-lego-set-recreates-jurassic-parks-most-famous-ride/1100-6539356/\">Jurassic Park Jeep Wrangler</a> for $200. But the sets you can expect to release May 1 include a new Minifigure Collection in Series 29 for $5 per pack (or a 6 pack for $30), a new Botanicals Rocking Plants set for $23, new F1 models like Lewis Hamilton's Helmet for $90, FIFA builds like like the Lionel Messi Soccer Highlights kit for $30, and even some new Toy Story sets like the adorable Slinky Dog Bookends for $150. Check out the full list of upcoming sets below.</p><p>What's better, Lego will often offer free gift sets with your purchase when you spend the qualifying amount of money, and until April 19 you can take advantage of two: <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%253A%252F%252Fwww.lego.com%252Fen-us%252Fproduct%252Frestaurants-of-the-world-mexico-40907&p=http%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Restaurants of the World: Mexico</a> (exclusive to <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fclick.linksynergy.com%2Fdeeplink%3Fid%3DVZfI20jEa0c%26mid%3D13923%26u1%3Dsubid_value%26murl%3Dhttps%253A%252F%252Fwww.lego.com%252Fen-us%252Finsiders&p=http%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Lego Insider members</a>) if you spend $180 or more, and the <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%253A%252F%252Fwww.lego.com%252Fen-us%252Fproduct%252Ftie-advanced-mini-build-30727&p=http%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">TIE Advanced Mini-Build</a> for anyone who spends $40 or more. So if you preorder any of these new May sets, you'll get at least one free gift.</p></p><br />     <p><h2>Toy Story Slinky Dog Bookends (1,311 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684177-slinkyfinal.jpg\" /><br /><p> <strong>$150 | Releases May 1</strong></p><p>Lego Toy Story sets aren't new, but these upcoming kit are taking cues from the larger model-style builds for adults, but are still good for kids. The Slinky Dog Bookends is a really cool modular build with plenty of hidden elements and moving parts. It function as a real bookend, but makes for great display with the rest of you Lego collection. You'll get two minifigures: </p><ul><li>Slinky Dog</li><li>Woody</li></ul><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Ftoy-story-slinky-dog-bookends-43301%3FCMP%3DAFC-AffiliateUK-JF2DY0n6uhs-3146997-1539294-10&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></div><div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Disney-Pixar-43301/dp/B0FMZRRJ4M/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></div></p><br />     <p><h2>Lotso (570 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684176-lotsofinal.jpg\" /><br /><p><strong>$40 | Releases May 1</strong></p><p>This 570-piece kit is an accurate recreation the unassuming villain. He stands at over 6.5in. high and his limbs are fully posable. You can even move his eyebrows to give him a more menacing look. </p><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Flotso-43306&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">See at Lego</a> </div></p><br />     <p><h2>Alien With Pizza Planet Rocket Ride (714 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684181-alienfinal.jpg\" /><br /><p> <strong>$60 | Releases May 1</strong></p><p>Crank mechanics are making a big splash in Lego sets over the last couple of years, and this Alien from Toy Story set is the next one. The full set is a fully brick-built Alien toy and Pizza Planet rocket ride, and you can turn the crank to make it move just like it would outside of a grocery store. You can even insert a coin into the slot for added immersion. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Falien-with-pizza-planet-rocket-ride-43307&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></div><div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Disney-Pixar-43307/dp/B0FQCSXJXZ/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></div></p><br />     <p><h2>Rocking Plans (253 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684151-plantsfinal.jpg\" /><br /><p><strong>$23 | Releases May 1</strong></p><p>The Lego Botanicals line is another popular and long running theme. The rocking plants build features two adorable planters with rounded bottoms to rock back and forth, hence the name. At 253 pieces it's not the biggest or most intricate build, but due to their size and design make for good decoration with their pastel colors.</p><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Frocking-plants-11506&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">See at Lego</a> </div></p><br />     <p><h2>Minifigures Series 29 (8 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684153-minifigsfinal.jpg\" /><br /><p> <strong>$5 per Minifigure | Releases May 1</strong></p><p>The collectible minifigures line is about to see its 29th iteration. These are blind box-style single minifigure bags where you have the chance to open one of 12 unique minifigures, and they all include minifigure components and pieces that are good for any Lego collection. With Series 29, you have a chance to open any of these: </p><ul><li>Bionicle Cosplayer</li><li>Boba Cup Fan</li><li>Chocolatier</li><li>Cute Witch</li><li>Marine Biologist</li><li>Monster Hunter</li><li>Mysterious Ronin</li><li>Robot T. Rex</li><li>Soccer Goalkeeper</li><li>Trash Monster</li><li>Tuba Player</li><li>Unicorn Elf</li></ul><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fseries-29-71052&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">See at Lego</a> </div></div></p><br />     <p><h2>Scuderia Ferrari HP Lewis Hamilton Helmet (884 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684174-hamiltonfinal.jpg\" /><br /><p><strong>$90 | Releases May 1</strong></p><p>Lewis Hamilton's Ferrari helmet is just as detailed as Leclerc's, complete with fully detailed sponsor-printed bricks, a display stand, and info plaque with Hamilton's signature on it. You'll also receive a Lewis Hamilton minifigure. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fscuderia-ferrari-hp-lewis-hamilton-helmet-43022&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></div><div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Special-2026-43022/dp/B0FMYWRNJJ/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></div></p><br />     <p><h2>Scuderia Ferrari HP Charles Leclerc Helmet (886 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684173-leclercfinal.jpg\" /><br /><p> <strong>$90 | Releases May 1</strong></p><p>Like the Star Wars helmet display models, the F1 helmets are just as detailed and accurate. The Scuderia Ferrari helmet is an 886-piece stands at over 7in. tall, surprising for its high brick count, and comes with a display stand and Charles Leclerc minifigure. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fscuderia-ferrari-hp-charles-leclerc-helmet-43014&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></div><div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Special-2026-43014/dp/B0FNXB6DWY/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></div></p><br />     <p><h2>2026 U.S. Soccer National Team Jersey (167 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684156-jerseyfinal.jpg\" /><br /><p> <strong>$25 | Releases May 1</strong></p><p>Lego has dozens upon dozens of original and licensed sets spanning the sci-fi and fantasy genres, but they'll often come out sets celebrating real life events. The U.S. Soccer National Team Jersey is a 167-piece kit with a framed brick-built #26 jersey and with a support stand to help it stand up on its own. It also includes two unnamed soccer player minifigures. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2F2026-us-soccer-national-team-jersey-43033&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></div></p><br />     <p><h2>FIFA World Cup 2026 Official Emblem (290 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684162-logofinal.jpg\" /><br /><p><strong>$25 | Releases May 1</strong></p><p>The 298-piece FIFA World Cup 2026 Logo is a pretty cool one-to-one recreation of the logo we've seen all year. The golden cup itself it set to the background of a multi-color \"26\" background, with a FIFA logo bring underneath it. It comes with an angled display stand to easily set it up on your shelf. </p><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Ffifa-world-cup-2026-official-emblem-43032&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></p><br />     <p><h2>Cristiano Ronaldo - Soccer Legend (854 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684160-ronaldo2final.jpg\" /><br /><p><strong> $80 | Releases May 1<br /></strong></p><p>The second Ronaldo set is a fully brick-built version of him. Similar to older Bionicle sets, his joins are posable and it's much larger than a regular minifigure. It's 854 pieces and stands at 10in. high, so if you're a big soccer fan this would make a great shelf piece. It comes with a display stand and plaque brick with Ronaldo's signature. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fcristiano-ronaldo-soccer-legend-43016&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">See at Lego</a> </div></div><div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Editions-Sports-43016/dp/B0FR64MCMN/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></div></p><br />     <p><h2>Cristiano Ronaldo - Soccer Highlights (490 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684157-ronaldo1.jpg\" /><br /><p><strong>$30 | Releases May 1</strong></p><p>I don't know anything about soccer, but even I'm aware of who Cristiano Ronaldo is. This tribute vignette celebrates some of the soccer legend's best moments, and the backflip kick build with fire coming off the ball is something straight out of an anime. You'll get a Cristiano Ronaldo minifigure and a logo plaque brick to go along with the rest of the kit. </p><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fcristiano-ronaldo-soccer-highlights-43012&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">See at Lego</a> </div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Editions-Sports-43012/dp/B0FNXM77MD/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></p><br />     <p><h2>Lional Messi - Soccer Legend (958 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684166-messi2final.jpg\" /><br /><p><strong> $80 | Releases May 1</strong></p><p>Lionel Messi's brick-built vignette is an almost 1,000-piece kit featuring the player's iconic celebration. The blue and gold colors really pop, and the figure is fully posable. The forearm tattoo brick is also a really cool and unique feature never quite done on a Lego kit before. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Flionel-messi-soccer-legend-43015&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">See at Lego</a> </div></div><div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Editions-Sports-43015/dp/B0FR5XN7CF/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></div></p><br />     <p><h2>Lional Messi - Soccer Highlights (500 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684163-messifinal.jpg\" /><br /><p><strong>$30 | Releases May 1</strong></p><p>Lionel Messi is another soccer legend getting a highlights vignette. His blue and gold jersey is represented throughout the whole set, both in the structure and the #10 jersey number in the back. You'll get a Messi minifigure and plaque brick with his name on it. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Flionel-messi-soccer-highlights-43011&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></div></p><br />     <p><h2>Kylian Mbappé - Soccer Highlights (490 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684161-mbappefinal%3B.jpg\" /><br /><p> <strong>$30 | Releases May 1 </strong></p><p>The next Soccer Highlights set is the 490-piece Kylian Mbappé build, with a big #10 as the centerpiece to celebrate the French player's jersey number. This one also comes with an information plaque brick with with players name and minifigure portrait, as well as a minifigure version of him. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fkylian-mbappe-soccer-highlights-43013&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">See at LEGO</a> </div></div><div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Editions-Sports-43013/dp/B0FNXBLVQL/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></div></p><br />     <p><h2>Vini Jr. - Soccer Highlights (510 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684167-vinifinal.jpg\" /><br /><p><strong>$30 | Releases May 1</strong></p><p>Brazilian soccer icon Vinicius Junior, or Vini Jr., is also a getting a sweet vignette set featuring his jersey number and colors. You'll get a Vini Jr. and info plaque with his name on it. </p><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fvini-jr-soccer-highlights-43027&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">See at Lego</a> </div></div><div><div class=\"norewrite\" title=\"\">           <a href=\"https://www.amazon.com/LEGO-TBD-Editions-Sports-43027/dp/B0FQCSLVRY/?tag=gamespot-preorders-20\">Preorder at Amazon</a> </div></div></p><br />     <p><h2>The Mandalorian's N-1 Starfighter (1,809 Pieces)</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684146-n1final.jpg\" /><br /><p> <strong>$250 | Releases May 4</strong></p><p>Big Star Wars display models are always fan favorite sets, and the converted Naboo Starfighter the The Mandalorian Din Djarin flies in the later seasons of the show of the same name is next in the long line of super detailed sets. At 1,809 pieces it's rather large, but it comes with a nice display stand and infographic brick to make it pop on your shelf. You'll also get two minifigures: </p><ul><li>The Mandalorian (Din Djarin)</li><li>Grogue</li></ul><div><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fthe-mandalorians-n-1-starfighter-75442&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></div></p><br />     <p><h2>Jurassic Park Jeep Wrangler (1,924 Pieces</h2><img src=\"https://www.gamespot.com/a/uploads/scale_large/1865/18658661/4684187-jpfinal.jpg\" /><br /><p><strong>$200 | Releases May 7</strong></p><p>One of my personal favorite upcoming sets, the massive Jeep Wrangler set from the first Jurassic Park film recreates the iconic scene from that fateful rainy night. It's a detailed brick-built recreation of an actual Wrangler, and comes with a Dennis Nedry minifigure with the shaving can and an infographic brick with display stand. </p><div class=\"norewrite\" title=\"\">           <a href=\"https://clicks.trx-hub.com/xid/fandom_32094_gamespot?fntitle=All+The+New+Lego+Sets+Dropping+May+1+-+FIFA%2C+Star+Wars%2C+Toy+Story%2C+And+More&fnauthor=mlobenza&fndate=2026-04-29+16%3A34%3A00&fnupdated=2026-04-29+16%3A34%3A41&fnarticle_id=7677&fntype1=Toys+%26+Collectibles&fntype2=Deals&fntype3=-&q=https%3A%2F%2Fredirect.viglink.com%3Fkey%3Dfbff19622bfc4d759c94ca50d964e98d%26u%3Dhttps%3A%2F%2Fwww.lego.com%2Fen-us%2Fproduct%2Fjurassic-park-jeep-wrangler-77984&p=https%3A%2F%2Fwww.gamespot.com%2Fgallery%2Fnew-lego-sets-preorders%2F2900-7677%2F&event_type=click\">Preorder at Lego</a> </div></p><br />"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "Classic PS1, PSP Tales Remaster Leaks, But It Might Be a Nintendo Switch Exclusive",
+        "source_url": "https://www.pushsquare.com/news/2026/04/classic-ps1-psp-tales-remaster-leaks-but-it-might-be-a-nintendo-switch-exclusive",
+        "published_at": "2026-04-29T14:30:00+00:00",
+        "summary": "<p><strong>It's been an Eternia.</strong></p><p>Is it finally happening? Is Bandai Namco actually remastering one of the oldest Tales games? Apparently so, because a PEGI (European) age rating for <a href=\"https://www.pushsquare.com/games/ps1/tales_of_eternia\">Tales of Eternia Remastered</a> has leaked online.</p><p>But there's a catch. Despite Eternia originally being a PS1 game from 2000, and then a PSP game a few years later, the age rating only lists Nintendo Switch as a platform.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/04/classic-ps1-psp-tales-remaster-leaks-but-it-might-be-a-nintendo-switch-exclusive\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "VGC",
+        "headline": "Saros Desecrated Fortress walkthrough and Architect Boss Guide",
+        "source_url": "https://www.videogameschronicle.com/guide/saros-desecrated-fortress-walkthrough-and-architect-boss-guide/",
+        "published_at": "2026-04-29T14:25:59+00:00",
+        "summary": "<img src=\"https://www.videogameschronicle.com/files/2026/04/Desecrated-Fortress-1.jpg\" /> Complete the Desecrated Fortress and defeat the Architect with this guide"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "This mod brings concussions back into Madden 26, including symptoms like blurred vision, dizziness, and slower reaction times",
+        "source_url": "https://www.pcgamer.com/games/sports/this-mod-brings-concussions-back-into-madden-26-including-symptoms-like-blurred-vision-dizziness-and-slower-reaction-times/",
+        "published_at": "2026-04-29T14:16:25+00:00",
+        "summary": "The mod was created by the Derek Sheely Foundation to bring more awareness to the dangers and warning signs of traumatic head injuries."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Microsoft CEO Says Xbox Is 'Recommitting To Our Core Fans' As Revenue Falls In FY26 Q3",
+        "source_url": "https://www.purexbox.com/news/2026/04/microsoft-ceo-says-xbox-is-recommitting-to-our-core-fans-as-revenue-falls-in-fy26-q3",
+        "published_at": "2026-04-29T14:12:00+00:00",
+        "summary": "<p><strong>Embarking on a new era.</strong></p><p>Microsoft has shared its earnings results today for the period between January 1st and March 31st of 2026 (referred to as FY26 Q3), and compared to the same time in 2025, Xbox revenue is down in both content & services and hardware.</p><p>The content and services revenue drop isn't significant — it's just <strong>5%</strong> — and Microsoft says it's the result of \"a prior year comparable that benefited from strong first-party performance\". <a href=\"https://www.purexbox.com/games/xbox-series-x/avowed\">Avowed</a> was the major release back in early 2025 for Xbox, while the brand was also building towards the launches of <a href=\"https://www.purexbox.com/games/xbox-series-x/south_of_midnight\">South of Midnight</a> and <a href=\"https://www.purexbox.com/games/xbox-series-x/doom_the_dark_ages\">DOOM: The Dark Ages</a>, and had just released some major titles at the end of 2024 including <a href=\"https://www.purexbox.com/games/xbox-series-x/indiana_jones_and_the_great_circle\">Indiana Jones and the Great Circle</a>.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/04/microsoft-ceo-says-xbox-is-recommitting-to-our-core-fans-as-revenue-falls-in-fy26-q3\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "Sony clarifies PSN license checks for PlayStation digital games",
+        "source_url": "https://dotesports.com/general/news/sony-psn-verification-statement",
+        "published_at": "2026-04-29T14:08:45+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2024/12/image-2024-12-09T132204.112.jpg\" style=\"margin-bottom: 15px;\" /></div>No regular online check-ins required."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Chinese-made soulslike Wuchang: Fallen Feathers, set in historical China, is now owned by... Italians?",
+        "source_url": "https://www.pcgamer.com/gaming-industry/chinese-made-soulslike-wuchang-fallen-feathers-set-in-historical-china-is-now-owned-by-italians/",
+        "published_at": "2026-04-29T14:08:44+00:00",
+        "summary": "The property was purchased by 505 Games parent company Digital Bros., following the reported dissolution of original developer Leenzee."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dexerto",
+        "headline": "All weapon buffs and nerfs in Black Ops 7 & Warzone Season 3 Reloaded",
+        "source_url": "https://www.dexerto.com/call-of-duty/all-weapon-buffs-and-nerfs-in-black-ops-7-warzone-season-3-reloaded-3358483/",
+        "published_at": "2026-04-29T14:07:18+00:00",
+        "summary": "Here are all of the weapon buffs and nerfs in the Warzone and Black Ops 7 Season 3 Reloaded update."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "마이크로소프트 애저 로컬, 소버린 프라이빗 클라우드 확장… 수천 대 서버 규모의 인프라 지원",
+        "source_url": "https://bbs.ruliweb.com/news/read/224065",
+        "published_at": "2026-04-29T14:07:15+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/04/30/19ddb7efaf2_nhmezv.webp\" width=\"90\" /> 마이크로소프트가 애저 로컬의 확장성을 강화하여, 단일 소버린 환경 내 최대 수천 대 서버 규모의 대규모 클라우드 인프라를 지원한다고 발표했다. 이는 데이터 통제권 유지가 필수적인 환경에서, 조직 소유 하드웨어 기반으로 보안 및 컴플라..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Kotaku",
+        "headline": "After Days Of Panic, Sony Sets The Record Straight On PlayStation DRM: ‘A One-Time Online Check Is Required’",
+        "source_url": "https://kotaku.com/after-days-of-panic-sony-sets-the-record-straight-on-playstation-drm-a-one-time-online-check-is-required-2000691803",
+        "published_at": "2026-04-29T13:25:43+00:00",
+        "summary": "<img alt=\"A PS5 appears in front of a grid.\" class=\"attachment-full size-full wp-post-image\" height=\"540\" src=\"https://kotaku.com/app/uploads/2025/08/PS5-grid.jpg\" style=\"height: auto; margin: auto;\" width=\"960\" /><br /><br />The recent change renewed debates over digital game ownership"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Far Far West weapons tier list: Best ones to use",
+        "source_url": "https://www.destructoid.com/far-far-west-weapons-tier-list-best-ones-to-use/?utm_source=rss&utm_medium=rss&utm_campaign=far-far-west-weapons-tier-list-best-ones-to-use",
+        "published_at": "2026-04-29T12:47:33+00:00",
+        "summary": "<p><img alt=\"Sheriff's Star in Far Far West\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1080\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/ss_06beed80ffd3560c3dcb89044b1c2c12f525b66d.1920x1080.jpg\" width=\"1920\" /></p>\n<p><!-- wp:paragraph --></p>\n<p><em>Far Far West</em> has five different primary weapons to use in the game, and they're all unique in their own ways. While I will certainly have loved more options, the guns completely change the gameplay, and more so once you learn to master the spells.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>But that said, let's look at which weapons are the more effective ones to use.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:yoast-seo/table-of-contents --></p>\n<div class=\"wp-block-yoast-seo-table-of-contents yoast-table-of-contents\">\n<h2>Table of contents</h2>\n<ul>\n<li><a href=\"#h-far-far-west-primary-weapons-tier-list\">Far Far West primary weapons tier list</a>\n<ul>\n<li><a href=\"#h-s-tier\">S-tier</a></li>\n<li><a href=\"#h-a-tier\">A-tier</a></li>\n</ul>\n</li>\n</ul>\n</div>\n<p><!-- /wp:yoast-seo/table-of-contents --></p>\n<p><!-- wp:heading --></p>\n<h2 class=\"wp-block-heading\" id=\"h-far-far-west-primary-weapons-tier-list\">Far Far West primary weapons tier list</h2>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:paragraph --></p>\n<p>Since there are five weapon choices, I have just used two tiers. None of the guns are bad, and they progressively get better when you upgrade them.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li>S-tier choices are the strongest options to consider. They're extremely lethal against all types of enemies.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li>A-tier choices are quite close to S-tier options. Once you get all the upgrades, they can be considered as S-tier.</li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:paragraph --></p>\n<p>Disclaimer: I have yet to unlock the <strong>Leveredge</strong>, and I will analyze it quickly and add to the tier list below.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:image {\"id\":1210999,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"The Long Ranger in Far Far West\" class=\"wp-image-1210999\" src=\"https://www.destructoid.com/wp-content/uploads/2026/04/3124540_1200.jpg?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3 class=\"wp-block-heading\" id=\"h-s-tier\">S-tier</h3>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li><strong>Minigun:</strong> The Minigun is an absolute nightmare for enemies of all kinds, provided you find the correct spot to fire from. It has a massive ammo capacity, great damage, fast firing rate, and pierces enemies with ease. The only limitation is the speed at which you move with the weapon. Just make sure to position yourself correctly so that enemies can't hit you from the back.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li><strong>Shotgun:</strong> <em>Far Far West</em> offers you different build options if you want to play aggro. The Shotgun is ideal for those who want to get as close as possible to the enemies. While the gun's accuracy isn't ideal, that becomes redundant once you're close to the enemies. You can one-shot most types of enemies and clear waves in quick time.</li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:heading {\"level\":3} --></p>\n<h3 class=\"wp-block-heading\" id=\"h-a-tier\">A-tier</h3>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:list --></p>\n<ul class=\"wp-block-list\"><!-- wp:list-item --></p>\n<li><strong>Quad Cylinder:</strong> As a starter choice, the Quad Cylinder isn't bad at all. It's accurate, shoots fast, and works with different types of builds. My major complaint is the lack of specialization with this gun. Yes, you can make it more focused by upgrading it accordingly, but it just feels like a Jack of all trades.</li>\n<p><!-- /wp:list-item --></p>\n<p><!-- wp:list-item --></p>\n<li><strong>Long Ranger:</strong> If you know how to manage enemies from a distance, the Long Ranger is the sniper rifle from the gods. It does an unholy amount of damage with each shot and clears the field without any problem. However, it doesn't suit my preferred playstyle. If you want to play as a Marksman, the Long Ranger is S-tier as well.</li>\n<p><!-- /wp:list-item --></ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:paragraph --></p>\n<p>There are several sidearms present as well, and they have different playstyles. So far, I haven't found much use for them. They're useful when you don't have primary ammo and are surrounded by enemies, but they all appear to belong on the same levels. Moreover, you'll be mostly spending time with your primary to kill the enemies.</p>\n<p><!-- /wp:paragraph --></p>\n<p>The post <a href=\"https://www.destructoid.com/far-far-west-weapons-tier-list-best-ones-to-use/\">Far Far West weapons tier list: Best ones to use</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesRadar",
+        "headline": "Neverness to Everness gives out S-class character selector after devs get \"an incredible amount of feedback and suggestions\" from launch players",
+        "source_url": "https://www.gamesradar.com/games/action-rpg/neverness-to-everness-gives-out-s-class-character-selector-after-devs-get-an-incredible-amount-of-feedback-and-suggestions-from-launch-players/",
+        "published_at": "2026-04-29T12:03:37+00:00",
+        "summary": "Neverness to Everness 1.0 players will also get 1600 Annulith for free"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "VGC",
+        "headline": "Nacon’s collapse claims first closure as RPG studio confirms it ‘no longer exists’",
+        "source_url": "https://www.videogameschronicle.com/news/nacons-collapse-claims-first-closure-as-rpg-studio-confirms-it-no-longer-exists/",
+        "published_at": "2026-04-29T11:21:40+00:00",
+        "summary": "<img src=\"https://www.videogameschronicle.com/files/2026/02/nacon.jpg\" /> Greedfall developer Spiders has shut down"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GameSpot",
+        "headline": "Where To Find Fertilizer In Arc Raiders",
+        "source_url": "https://www.gamespot.com/articles/where-to-find-fertilizer-in-arc-raiders/1100-6539708/?ftag=CAD-01-10abi2f",
+        "published_at": "2026-04-29T11:18:00+00:00",
+        "summary": "<p>Whether you're working on the <a href=\"https://www.gamespot.com/articles/arc-raiders-avian-alarm-project-all-steps-and-rewards/1100-6539648/\">Avian Alarm project</a>, or simply looking to break it down for Seeds, you may be searching for fertilizer. And if so, you've probably realized that it's not quite as common as many other materials in <a href=\"https://www.gamespot.com/games/arc-raiders/\">Arc Raiders</a>. Indeed, there are only a handful of spots in the game that have a high probability of providing some fertilizer to you, so you'll need to be pretty particular about where you do your farming. Luckily, we've got the best fertilizer farming spots for you down below.</p><div><span><strong>Table of Contents</strong> [<a href=\"https://www.gamespot.com\">hide</a>]</span><ul class=\"collapse in\" id=\"toc_list\"><li><a href=\"https://www.gamespot.com\">Where to get fertilizer in Arc Raiders</a><ul><li><a href=\"https://www.gamespot.com\">Dam Battlegrounds - Hydroponic Dome Complex</a></li></ul></div><h2 id=\"Where_to_get_fertilizer_in_Arc_Raiders\">Where to get fertilizer in Arc Raiders</h2><p>Finding fertilizer in Arc Raiders typically requires finding planters in specific areas of a map. While these planters have static locations, there's not always a guarantee that you'll find fertilizer within them, so it may take some time to farm up what you need. Also, you can find fertilizer in areas other than those listed below, but these are the spots with the highest concentration of planters, making them the best choices for farming this item.</p><h3 id=\"Dam_Battlegrounds___Hydroponic_Dome_Complex\">Dam Battlegrounds - Hydroponic Dome Complex</h3><p>The best place to find fertilizer in Arc Raiders is likely to be within one of the three domes in the Hydroponic Dome Complex on Dam Battlegrounds.</p><a href=\"https://www.gamespot.com/articles/where-to-find-fertilizer-in-arc-raiders/1100-6539708/?ftag=CAD-01-10abi2f/\">Continue Reading at GameSpot</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesIndustry.biz",
+        "headline": "Starbreeze to capitalize on Roblox success with second game",
+        "source_url": "https://www.gamesindustry.biz/starbreeze-to-capitalize-on-roblox-success-with-second-game",
+        "published_at": "2026-04-29T10:50:17+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/Notoriety-Roblox-3158123039.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Starbreeze is releasing a second game on Roblox.</p> <p><a href=\"https://www.gamesindustry.biz/starbreeze-to-capitalize-on-roblox-success-with-second-game\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Game Developer",
+        "headline": "The secret to Overwatch's revitalization? Over-communicating.",
+        "source_url": "https://www.gamedeveloper.com/production/the-secret-to-overwatch-s-revitalization-over-communicating-",
+        "published_at": "2026-04-29T10:22:44+00:00",
+        "summary": "'Our communication couldn't just be reactive or occasional. It really had to be continuous,' said game director Aaron Keller in a GDC 2026 talk."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임조선",
+        "headline": "[주간 스팀 동향] 뱀파이어 크롤러즈 인기, 다시 돌아온 '뱀서 열풍'",
+        "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36453",
+        "published_at": "2026-04-29T10:16:13+00:00",
+        "summary": "4월 넷째 주 스팀 인기 순위는 카운터 스트라이크2와 배틀그라운드 같은 무료게임이 꾸준한 인기를 이어가는 동시에 윈드로즈, 프래그마타, 뱀파이어 크롤러즈, 붉은사막 같은 신작들이 나란히 10위권 내에 자리 잡으며 저력을 과시했다.동시에 5월 출시를 앞둔 포르자 호라이즌6와 어쌔신 크리드 블랙 플래그 리싱크가 예약 판매로 순위에 이름을 올리는 등 출시 예정작에 기대가 이어졌다.<뱀파이어 크롤러즈, ‘압도적으로 긍정적’ 화려한 데뷔>뱀파이어 크롤러즈가 출시 이후 폭발적인 인기를 유지하면서 다시 한번 ‘뱀서 열풍’을 이끌고 있다.뱀파이어"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Talking Point: After Halo: Campaign Evolved, What Do You Want Xbox To Do With The Series?",
+        "source_url": "https://www.purexbox.com/features/talking-point-after-halo-campaign-evolved-what-do-you-want-xbox-to-do-with-the-series",
+        "published_at": "2026-04-29T09:30:00+00:00",
+        "summary": "<p><strong>Infinite sequel? Reboot? Come tell us!</strong></p><p>Following our <a href=\"https://www.purexbox.com/features/talking-point-with-forza-horizon-6-imminent-what-are-your-predictions-for-its-final-review-score\">chat yesterday about <strong>Forza Horizon 6</strong> and its imminent release</a>, we got thinking about the <em>rest</em> of Xbox's 2026 slate - with rumours pointing towards <a href=\"https://www.purexbox.com/games/xbox-series-x/halo_campaign_evolved\">Halo: Campaign Evolved</a> being the team's next major release for this year. Indeed, <a href=\"https://www.purexbox.com/news/2026/04/rumour-xbox-to-release-halo-campaign-evolved-in-july-2026-early-access-included\">we've heard that the upcoming remake could even launch this summer</a>, and it'd be pretty darn cool to get a brand-new Halo release in the next few months.</p><p><related ids=\"199640\"></p><p>Read the <a href=\"https://www.purexbox.com/features/talking-point-after-halo-campaign-evolved-what-do-you-want-xbox-to-do-with-the-series\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Review: Constance (Switch) - A Beautiful Metroidvania With Something To Say",
+        "source_url": "https://www.nintendolife.com/reviews/switch-eshop/constance",
+        "published_at": "2026-04-29T09:00:00+00:00",
+        "summary": "<p><strong>Constance craving.</strong></p><p>The idea of an indie Metroidvania exploring mental illness has become a bit of a cliche. The past decade has seen successes in the genre like the <a href=\"https://www.nintendolife.com/games/switch-eshop/hollow_knight\">Hollow Knight</a> and <a href=\"https://www.nintendolife.com/games/switch-eshop/ori_and_the_blind_forest_definitive_edition\">Ori</a> games, as well as titles like <a href=\"https://www.nintendolife.com/games/switch-eshop/celeste\">Celeste</a> that manifest their main character’s mental journey through their mechanics. <a href=\"https://www.nintendolife.com/games/switch-eshop/constance\">Constance</a> owes a lot to every game listed above, but uses those influences to say something profound, even if it doesn’t reinvent the wheel in any significant way.</p><p>Constance is a game about overstimulation and concentration, following the titular character as she escapes her overwhelming reality in favour of a fantasy realm of her own mind’s creation, manifesting both its charms and its horrors. Every now and again, we get a peek into Constance’s true reality, memories of her struggling to make deadlines at work, ignoring her loved ones and cracking under the pressure of day-to-day life.</p><p>Read the <a href=\"https://www.nintendolife.com/reviews/switch-eshop/constance\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "I'm enjoying the boreal cyborg world of spooky FPS Industria 2, which launches on PC today and also has an excellent diegetic crafting screen",
+        "source_url": "https://www.rockpapershotgun.com/im-enjoying-the-boreal-cyborg-world-of-spooky-fps-industria-2-which-launches-on-pc-today-and-also-has-an-excellent-diegetic-crafting-screen",
+        "published_at": "2026-04-29T07:45:00+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/industria-2a.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nIf your idea of great FPS level aesthetics is a hot mess of <a href=\"https://www.rockpapershotgun.com/games/black-mesa\">Black Mesa</a>, Penumbra and <a href=\"https://www.rockpapershotgun.com/games/get-even\">Get Even</a> – or you're just driven wild by the sight of porcelain tiles peeling flirtatiously away from mortar – you might get on with Industria 2, which launches today. I've not played the first one, but I admired its parallel dimension Cold War-era Berlin. The second game introduces a new parallel dimension, summarised by developers Bleakmill as a tug-of-war between \"industrial decay\", \"boreal nature\" and \"otherworldly sprawling machine structures\". Phwoar!\n</p> <p><a href=\"https://www.rockpapershotgun.com/im-enjoying-the-boreal-cyborg-world-of-spooky-fps-industria-2-which-launches-on-pc-today-and-also-has-an-excellent-diegetic-crafting-screen\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PlayStation Blog",
+        "headline": "NBA The Run comes to PS5 this June",
+        "source_url": "https://blog.playstation.com/2026/04/29/nba-the-run-comes-to-ps5-this-june/",
+        "published_at": "2026-04-29T07:03:09+00:00",
+        "summary": "Get ready to Run! Today, our team at Play by Play Studios is excited to drop our first gameplay trailer and to let PlayStation fans know NBA The Run will be releasing this June. Today, we wanted to break down some different parts of the game fans have been asking about, so let’s get to […]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pocket Gamer",
+        "headline": "Tennis Clash is set for the Final Stage of Roland-Garros eSeries by Renault 2026, with eight qualifiers now confirmed",
+        "source_url": "https://www.pocketgamer.com/tennis-clash/roland-garros-eseries-2026-finalists/",
+        "published_at": "2026-04-29T06:25:00+00:00",
+        "summary": "If you haven't been keeping up with all the latest in the fast-paced world of eTennis, all you really need to know is this: Roland-Garros eSeries by Renault 2026 has just hit a new participation record, and Tennis Clash is at the centre of it all.\n\nAs the official partner for the global tournament, Wildlife Studios' mobile tennis game has been running qualifying tournaments between April and March with a whopping 561,000 players across 221 countries to date. The virtual Philippe Chatrier Court has definitely seen its fair share of epic matches with the finalists now confirmed, all culminating in a final showdown on May 23rd at the Roland-Garros auditorium. ... [<a href=\"https://www.pocketgamer.com/tennis-clash/roland-garros-eseries-2026-finalists/\">MORE</a>]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "IndieGames.com",
+        "headline": "‘My Little Cafe Nightmare’ Serves Drinks to Creepy Patrons",
+        "source_url": "https://indiegamesplus.com/my-little-cafe-nightmare-review/",
+        "published_at": "2026-04-29T02:00:00+00:00",
+        "summary": "<p>My Little Cafe Nightmare has you serving up coffee and decorating a haunted cafe full of ghostly customers who want a drink. When it comes to cute and cozy, sometimes a spooky...</p>\n<p>The post <a href=\"https://indiegamesplus.com/my-little-cafe-nightmare-review/\">‘My Little Cafe Nightmare’ Serves Drinks to Creepy Patrons</a> appeared first on <a href=\"https://indiegamesplus.com\">Indie Games Plus</a>.</p>"
+      }
+    }
+  ],
+  "ontology": {
+    "repo": "GameRadar",
+    "category": "game",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "game.editorial_coverage",
+      "game.patch_note",
+      "game.release_schedule",
+      "game.steam_chart",
+      "game.store_ranking"
+    ],
+    "event_model_mappings": {
+      "steam_chart": "game.steam_chart",
+      "store_ranking": "game.store_ranking",
+      "patch_note": "game.patch_note",
+      "release_schedule": "game.release_schedule",
+      "editorial_coverage": "game.editorial_coverage"
+    },
+    "entity_type_hints": [
+      "game.title",
+      "organization.company"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence",
+      "primary_evidence"
+    ],
+    "source_role_mappings": {
+      "PlayStation Blog": "primary_evidence",
+      "Xbox Wire": "primary_evidence",
+      "Nintendo Life": "context_only",
+      "GamesIndustry.biz": "operational_evidence"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required",
+      "cross_reference_required"
+    ]
+  }
+}

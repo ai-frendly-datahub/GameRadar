@@ -164,6 +164,56 @@ def test_build_quality_report_requires_article_level_game_evidence() -> None:
     assert report["events"] == []
 
 
+def test_build_quality_report_accepts_korean_release_and_patch_terms() -> None:
+    now = datetime(2026, 5, 7, tzinfo=UTC)
+    category = CategoryConfig(
+        category_name="game",
+        display_name="Game",
+        sources=[
+            Source(
+                name="루리웹 뉴스",
+                type="rss",
+                url="https://bbs.ruliweb.com/news/rss",
+                content_type="news",
+                producer_role="community_media",
+                info_purpose=["patch", "release"],
+            )
+        ],
+        entities=[],
+    )
+    articles = [
+        _article(
+            source="루리웹 뉴스",
+            title="모바일 RPG 오늘 출시 및 업데이트",
+            published=now,
+            matched_entities={
+                "GameTitle": ["희비전 리버스"],
+                "Platform": ["android"],
+                "SourceSignal": ["patch", "release"],
+            },
+        )
+    ]
+
+    report = build_quality_report(
+        category=category,
+        articles=articles,
+        quality_config={
+            "data_quality": {
+                "quality_outputs": {
+                    "tracked_event_models": ["patch_note", "release_schedule"]
+                },
+                "freshness_sla": {"patch_note_days": 7, "release_schedule_days": 7},
+            }
+        },
+        generated_at=now,
+    )
+
+    summary = report["summary"]
+    assert summary["fresh_sources"] == 1
+    assert summary["patch_note_events"] == 1
+    assert summary["release_schedule_events"] == 1
+
+
 def test_build_quality_report_marks_missing_canonical_key_for_review() -> None:
     now = datetime(2026, 4, 13, tzinfo=UTC)
     category = CategoryConfig(
