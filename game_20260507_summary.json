@@ -1,61 +1,744 @@
 {
   "date": "2026-05-07",
   "category": "game",
-  "article_count": 200,
-  "source_count": 21,
-  "matched_count": 168,
+  "article_count": 70,
+  "source_count": 30,
+  "matched_count": 70,
   "top_entities": [
     {
       "name": "GameGeneral",
-      "count": 462
+      "count": 122
+    },
+    {
+      "name": "SourceSignal",
+      "count": 100
     },
     {
       "name": "Platform",
-      "count": 112
+      "count": 47
     },
     {
       "name": "Release",
-      "count": 91
+      "count": 20
     },
     {
       "name": "Genre",
-      "count": 70
+      "count": 18
     },
     {
       "name": "Studio",
-      "count": 60
+      "count": 13
     },
     {
       "name": "GameTitle",
-      "count": 27
+      "count": 11
     },
     {
       "name": "Esports",
-      "count": 2
+      "count": 1
     }
   ],
   "sources": {
-    "게임포커스": 1,
-    "루리웹 뉴스": 1,
-    "게임톡": 23,
-    "Pocket Gamer": 4,
-    "Nintendo Life": 7,
-    "Push Square": 10,
-    "PC Gamer": 21,
-    "Rock Paper Shotgun": 4,
-    "GameSpot": 15,
-    "Destructoid": 16,
-    "VGC": 10,
-    "Xbox Wire": 3,
-    "Pure Xbox": 4,
-    "Kotaku": 16,
-    "Dexerto": 22,
-    "Eurogamer": 3,
-    "GamesRadar": 31,
+    "r/PS5": 3,
+    "r/Genshin_Impact": 4,
+    "r/MapleStory": 3,
+    "r/IndieGaming": 3,
+    "r/Games": 2,
+    "게임톡": 3,
+    "r/gaming": 3,
+    "r/leagueoflegends": 3,
+    "r/VALORANT": 3,
+    "r/NintendoSwitch": 2,
+    "r/pcgaming": 2,
+    "r/lostarkgame": 1,
+    "루리웹 뉴스": 5,
+    "Pocket Gamer": 2,
+    "Nintendo Life": 3,
+    "Push Square": 2,
+    "PC Gamer": 2,
+    "Rock Paper Shotgun": 2,
+    "GameSpot": 2,
+    "Destructoid": 2,
+    "VGC": 2,
+    "Xbox Wire": 2,
+    "Pure Xbox": 2,
+    "Kotaku": 1,
+    "GamesRadar": 2,
     "Dot Esports": 2,
-    "GamesIndustry.biz": 4,
+    "GamesIndustry.biz": 2,
     "게임조선": 2,
-    "Steam News": 1
+    "Game Developer": 2,
+    "PlayStation Blog": 1
   },
-  "generated_at": "2026-05-07T10:52:49.156322+09:00"
+  "generated_at": "2026-05-07T10:57:50.813681+09:00",
+  "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "r/PS5",
+        "headline": "Join IGN tomorrow at 11:30am ET/8:30am PT for the exclusive reveal of Aliens: Fireteam Elite 2, the sequel to the hit PvE third-person shooter.",
+        "source_url": "https://www.reddit.com/r/PS5/comments/1t5wwsr/join_ign_tomorrow_at_1130am_et830am_pt_for_the/",
+        "published_at": "2026-05-07T01:56:52+00:00",
+        "summary": "[r/PS5] by u/Laughing__Man_ | 1 points | 0 comments\n\nLink: https://xcancel.com/IGN/status/2052048518555074728"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Genshin_Impact",
+        "headline": "Today’s discussion,rip off or not!",
+        "source_url": "https://www.reddit.com/r/Genshin_Impact/comments/1t5wvwh/todays_discussionrip_off_or_not/",
+        "published_at": "2026-05-07T01:55:44+00:00",
+        "summary": "[r/Genshin_Impact] by u/Substantial_South198 | 0 points | 0 comments"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/MapleStory",
+        "headline": "This typo hasn't been fixed since it was introduced in November",
+        "source_url": "https://www.reddit.com/r/Maplestory/comments/1t5wsmu/this_typo_hasnt_been_fixed_since_it_was/",
+        "published_at": "2026-05-07T01:51:29+00:00",
+        "summary": "[r/Maplestory] by u/AmoebaHewdraw | 3 points | 2 comments\n\nLink: https://i.redd.it/yxwxcbxofmzg1.png"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/PS5",
+        "headline": "Sweet Surrender - Update 16 Trailer | PS VR2 Games",
+        "source_url": "https://www.reddit.com/r/PS5/comments/1t5wp2a/sweet_surrender_update_16_trailer_ps_vr2_games/",
+        "published_at": "2026-05-07T01:47:04+00:00",
+        "summary": "[r/PS5] by u/ControlCAD | 1 points | 0 comments\n\n\\>Update 16 to Frenetic roguelike shooter Sweet Surrender is out now on PlayStation VR2!"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/IndieGaming",
+        "headline": "This was way harder to make that it looks",
+        "source_url": "https://www.reddit.com/r/IndieGaming/comments/1t5wk49/this_was_way_harder_to_make_that_it_looks/",
+        "published_at": "2026-05-07T01:40:57+00:00",
+        "summary": "[r/IndieGaming] by u/GutterspawnGames | 3 points | 2 comments\n\nMaking true fluid physics is hard. Turns out faking fluid physics is also hard"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Games",
+        "headline": "Street Fighter 6 - Ingrid Arrives! Fighting Pass | PS5 & PS4 Games",
+        "source_url": "https://www.reddit.com/r/Games/comments/1t5wfb0/street_fighter_6_ingrid_arrives_fighting_pass_ps5/",
+        "published_at": "2026-05-07T01:34:52+00:00",
+        "summary": "[r/Games] by u/rafikiknowsdeway1 | 6 points | 2 comments\n\nLink: https://www.youtube.com/watch?v=xfxndLfEi94"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "이터널 리턴 “비형 영어 성우 교체하겠다”",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=108315",
+        "published_at": "2026-05-07T01:33:10+00:00",
+        "summary": "넵튠 자회사 님블뉴런이 신규 실험체 ‘비형’의 영어 성우 교체를 진행한다고 밝혔다. 이에 따라 비형은 출시 시점에서 영어 음성이 제외되며, 신규 음성은 추후 업데이트를 통해 추가될 예정이다.개발진은 새로운 성우 선정과 음성 교체 일정 등 후속 작업 진행 상황에 대해서는 별도 공지를 통해 안내하겠다고 설명했다.님블뉴런에 따르면 현재 영미권 성우 캐스팅은 현지 언어의 자연스러운 연기를 위해 해외 파트너사를 통한 공개 모집 방식으로 진행되고 있다. 개발팀은 전달받은 지원자 음성 샘플을 기반으로 블라인드 테스트를 거쳐 최종 성우를 선정하는"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Genshin_Impact",
+        "headline": "Flins cosplay by @dearly.yun",
+        "source_url": "https://www.reddit.com/r/Genshin_Impact/comments/1t5wde7/flins_cosplay_by_dearlyyun/",
+        "published_at": "2026-05-07T01:32:26+00:00",
+        "summary": "[r/Genshin_Impact] by u/meively | 24 points | 0 comments"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/gaming",
+        "headline": "Father needs to announce his resignation for his racism. -Fallout 4",
+        "source_url": "https://www.reddit.com/r/gaming/comments/1t5wbtx/father_needs_to_announce_his_resignation_for_his/",
+        "published_at": "2026-05-07T01:30:27+00:00",
+        "summary": "[r/gaming] by u/moneyfish | 0 points | 4 comments\n\nLink: https://i.redd.it/pwsz13u0cmzg1.jpeg"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/gaming",
+        "headline": "What current games give the same feels as old call of duty? (Modern Warfare/World at War)",
+        "source_url": "https://www.reddit.com/r/gaming/comments/1t5w9i0/what_current_games_give_the_same_feels_as_old/",
+        "published_at": "2026-05-07T01:27:35+00:00",
+        "summary": "[r/gaming] by u/Jobles4 | 3 points | 6 comments\n\nI’ve been in the hunt for that classic shooter feel that nothing seems to fill. Is it just a sign of me getting old and doing the whole, “they don’t make em like they used to”?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/IndieGaming",
+        "headline": "It’s not just another roguelike deckbuilder - try clearing your mind with PsyUp. Try the demo now.",
+        "source_url": "https://www.reddit.com/r/IndieGaming/comments/1t5w7dp/its_not_just_another_roguelike_deckbuilder_try/",
+        "published_at": "2026-05-07T01:24:51+00:00",
+        "summary": "[r/IndieGaming] by u/N2kStudio | 1 points | 2 comments\n\n**Hey everyone, how are you? Good news!**\n\nI’ve released the demo of my game, **PsyUp**, on the Scirra website. If you check it out, please leave a comment to let me know what you think, and give me some honest feedback.\n\n**The game will be released later this month, so if you like it, add it to your wish list.**"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Genshin_Impact",
+        "headline": "Would Lohen fit in Sandrone team?",
+        "source_url": "https://www.reddit.com/r/Genshin_Impact/comments/1t5w6su/would_lohen_fit_in_sandrone_team/",
+        "published_at": "2026-05-07T01:24:05+00:00",
+        "summary": "[r/Genshin_Impact] by u/Double-Delivery-4964 | 0 points | 5 comments\n\nSince I've heard that Samdrone is a off field dsp and Lohen needs one of those..? I really want to build a good Lohen team but I don't really like his current premium and I think it’s dsp is low?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/leagueoflegends",
+        "headline": "Ezreal edit - week 4 of my journey learning to edit (this time: Ezreal gameplay + trap music)",
+        "source_url": "https://www.reddit.com/r/leagueoflegends/comments/1t5w1yv/ezreal_edit_week_4_of_my_journey_learning_to_edit/",
+        "published_at": "2026-05-07T01:18:11+00:00",
+        "summary": "[r/leagueoflegends] by u/pallas_br | 0 points | 0 comments\n\nWhat's up, guys!\n\nWe've reached week 4 of my personal project learning how to edit, and my focus this time was testing a slightly different vibe. I played Ezreal, had some really good moments, others not so much, but I managed to finish the game with 43k damage in 28 mins, so the raw footage was great for a montage.\n\nAfter the aggressiveness and frantic pace of my last few videos, I decided to take a breather with the editing so I wouldn't burn out, and I decided to test a new music genre for my videos: Brazilian Trap.\n\nI focused on the following points:\n\n* **Syncing with Brazilian Trap:** I swapped the usual Phonk/NCS for a track by Veigh (a Brazilian artist). The idea was to match the beat with the Qs and ultimates to give off that feeling of winning the game \"without breaking a sweat\".\n* **Minimalist Banter:** Since surviving a bot dive with 10 HP was kind of absurd, I used quick, small text on the screen (like a \"not even close...\") for some lighthearted humor, but without cluttering the gameplay like I did at the beginning of the project.\n* **Chill Pacing:** A slightly slower, more rhythmic edit, focusing on the quality of the cuts and just enjoying the process as a hobby.\n\nSince your feedback has been my best school here on Reddit, I'd really love to know your honest opinion on this change:\n\n1. Did the Trap rhythm fit well with Ezreal's kiting/spacing, or do you prefer the electronic/phonk vibe from my previous weeks?\n2. Did the edit maintain a professional and dynamic feel even with this more \"chill\" approach?\n\nIf you can watch it and drop your honest thoughts in the comments, I'd really appreciate it! Every tip helps me improve on this journey. Much love ❤️\n\n**Full video:** [https://www.youtube.com/watch?v=ASTEbQejRss](https://www.youtube.com/watch?v=ASTEbQejRss)"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/leagueoflegends",
+        "headline": "Life After League with Xmithie",
+        "source_url": "https://www.reddit.com/r/leagueoflegends/comments/1t5vwxc/life_after_league_with_xmithie/",
+        "published_at": "2026-05-07T01:11:47+00:00",
+        "summary": "[r/leagueoflegends] by u/stuntopolis | 19 points | 0 comments\n\nIf you guys are curious at all about what some of the ex-pros/league personalities are up to, I'm doing a series where I catch up with some of them!\n\n  \nIn this episode I talk with the goat NA JG Xmithie about his career in gaming, how lolesports has changed over the years, and the struggle of transitioning from an esports pro to a more normal lifestyle.\n\n  \nAny feedback is always appreciated!"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Genshin_Impact",
+        "headline": "if you really like a character and want to invest in them, would you pull for their cons or their teammates?",
+        "source_url": "https://www.reddit.com/r/Genshin_Impact/comments/1t5vkkw/if_you_really_like_a_character_and_want_to_invest/",
+        "published_at": "2026-05-07T00:56:29+00:00",
+        "summary": "[r/Genshin_Impact] by u/ShotYeMama | 1 points | 0 comments"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/leagueoflegends",
+        "headline": "How can i know which items to buy",
+        "source_url": "https://www.reddit.com/r/leagueoflegends/comments/1t5vh5k/how_can_i_know_which_items_to_buy/",
+        "published_at": "2026-05-07T00:52:21+00:00",
+        "summary": "[r/leagueoflegends] by u/Classic_Mechanic240 | 1 points | 0 comments\n\ni am quite new to the game and i dont play often but whenever i do i play nocturne and everytime i play i just buy the recommended items it shows me in the shop and have been doing that all my games. Is this okay or how can i find out about the correct items for the character."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/VALORANT",
+        "headline": "Help me buy SKIN!!!",
+        "source_url": "https://www.reddit.com/r/VALORANT/comments/1t5veu0/help_me_buy_skin/",
+        "published_at": "2026-05-07T00:49:30+00:00",
+        "summary": "[r/VALORANT] by u/Upset-Adagio-2330 | 0 points | 1 comments\n\nSo, guys, I have 2375 VP with me right now, and I'm confused between the Kuronami and Exo Vandal. Can you guys help me decide between the two, as there are mixed reviews for the Exo Vandal, but I find it good as well? Also, I had the Forsaken Vandal yesterday in my store, which I didn't buy \\[I know, L move\\], but I wanted to buy one of these two skins. However, today, the Dolmirs Revenge Vandal has come into my store, and I was thinking I could buy that as well because I've been waiting for a week for the Kuro/Exo to come into my store, and I don't know for how much longer I can ignore other good skins in my store."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/VALORANT",
+        "headline": "being silver sucks",
+        "source_url": "https://www.reddit.com/r/VALORANT/comments/1t5vd95/being_silver_sucks/",
+        "published_at": "2026-05-07T00:47:33+00:00",
+        "summary": "[r/VALORANT] by u/Overall-Albatross657 | 5 points | 9 comments\n\nbronze player is easy  but playing with gold players is too painful.  \nit feels like im iron when im compete with golds hahaha."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/VALORANT",
+        "headline": "How does the night market shop opening work?",
+        "source_url": "https://www.reddit.com/r/VALORANT/comments/1t5vbig/how_does_the_night_market_shop_opening_work/",
+        "published_at": "2026-05-07T00:45:28+00:00",
+        "summary": "[r/VALORANT] by u/DifficultySure6301 | 1 points | 3 comments\n\nFrom where I’m at, it’s already the 7th of May but night market hasn’t appear for me yet. What are the requirements for night market to open? Does it wait for other time zones?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/gaming",
+        "headline": "One of the biggest let downs.",
+        "source_url": "https://www.reddit.com/r/gaming/comments/1t5v6py/one_of_the_biggest_let_downs/",
+        "published_at": "2026-05-07T00:39:28+00:00",
+        "summary": "[r/gaming] by u/Casshern_VIII | 5 points | 2 comments\n\nI remember playing Star Fox Adventures and thinking this was such a cool villain and was so excited to fight him in an epic boss battle, just to have one of the biggest dissappointing fights. He doesn't hit you ever, he can be beat with 1 hit then he dies because the evil space monkey told him to."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/MapleStory",
+        "headline": "Better main",
+        "source_url": "https://www.reddit.com/r/Maplestory/comments/1t5v1ef/better_main/",
+        "published_at": "2026-05-07T00:33:01+00:00",
+        "summary": "[r/Maplestory] by u/Silver_Survey5283 | 0 points | 32 comments\n\nI'm trying to decide between Dual Blade and Night Lord as my main.\nI like the visuals of both classes, and at first I was leaning more toward Dual Blade, but I became worried because it seems weak, and that affects my motivation/excitement for the class.\nBut I also really like the gameplay style and skill visuals of Night Lord.\nSo, which one would be the better choice?\n\nHelp, Please! ;-;"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/MapleStory",
+        "headline": "Question about vac pet appearance",
+        "source_url": "https://www.reddit.com/r/Maplestory/comments/1t5uz8v/question_about_vac_pet_appearance/",
+        "published_at": "2026-05-07T00:30:22+00:00",
+        "summary": "[r/Maplestory] by u/Toons0907 | 1 points | 1 comments\n\nThis might be a dumb question but is it possible to change our vac pet’s appearance to the sweet spirit pet we get from events? Has anyone tried?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/Games",
+        "headline": "2K's NFL Game Is Dead, Take-Two CEO Rules Out Return to Baseball Games",
+        "source_url": "https://www.reddit.com/r/Games/comments/1t5ut73/2ks_nfl_game_is_dead_taketwo_ceo_rules_out_return/",
+        "published_at": "2026-05-07T00:23:03+00:00",
+        "summary": "[r/Games] by u/Comfortable-Pie56 | 50 points | 16 comments\n\nLink: https://www.ign.com/articles/2ks-nfl-game-is-dead-take-two-ceo-rules-out-return-to-baseball-games"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/IndieGaming",
+        "headline": "best friendslop games",
+        "source_url": "https://www.reddit.com/r/IndieGaming/comments/1t5urag/best_friendslop_games/",
+        "published_at": "2026-05-07T00:20:42+00:00",
+        "summary": "[r/IndieGaming] by u/Character-Artist6444 | 1 points | 1 comments\n\nme and my friend r looking for a new friendslop  game we have peak repo gamble with your friends yapyap"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/PS5",
+        "headline": "Stranger Than Heaven | Cast & Story Reveal Trailer",
+        "source_url": "https://www.reddit.com/r/PS5/comments/1t5uk1d/stranger_than_heaven_cast_story_reveal_trailer/",
+        "published_at": "2026-05-07T00:11:37+00:00",
+        "summary": "[r/PS5] by u/ShadowofaBlackWolf | 128 points | 35 comments\n\nLink: https://youtu.be/HUrFCyw5le4"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "넛츠피아캐시…캐시워크 돈버는퀴즈 5월 7일 정답 공개",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=108312",
+        "published_at": "2026-05-07T00:10:42+00:00",
+        "summary": "캐시워크 돈버는퀴즈는 많은 관심을 받고 있는 앱테크 이벤트로, 사용자들이 퀴즈에 참여하여 정답을 맞히면 다양한 보상을 받을 수 있다. 넛츠피아 캐시워크 정답을 공개한다.넛츠피아 캐시워크 돈버는퀴즈 문제는 '오직 캐시딜에 딱 1시간만 진행되는 넛츠피아 하루견과 선물세트가 역대급 할인으로 OOOO원'이다.넛츠피아 캐시 정답은 [ 6900 ]이다.캐시워크 돈버는퀴즈는 ‘캐시워크’ 리워드 앱을 이용해 참여할 수 있다. 정답을 맞혀서 캐시를 획득한 경우, 참여했던 캐시워크 정답 또는 돈버는퀴즈가 변경되더라도 다시 참여할 수 없다. 캐시워크는"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/NintendoSwitch",
+        "headline": "Star Fox will be $50 Digitally / $60 Physically",
+        "source_url": "https://www.reddit.com/r/NintendoSwitch/comments/1t5ugyq/star_fox_will_be_50_digitally_60_physically/",
+        "published_at": "2026-05-07T00:07:44+00:00",
+        "summary": "[r/NintendoSwitch] by u/Skullghost | 760 points | 290 comments\n\nLink: https://www.nintendo.com/us/store/products/star-fox-125676/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "CJ더마켓…캐시워크 퀴즈 정답 공개",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=108311",
+        "published_at": "2026-05-07T00:02:55+00:00",
+        "summary": "캐시워크 돈버는퀴즈는 많은 관심을 받고 있는 앱테크 이벤트로, 사용자들이 퀴즈에 참여하여 정답을 맞히면 다양한 보상을 받을 수 있다. CJ더마켓 캐시워크 정답을 공개한다.CJ더마켓 캐시워크 돈버는퀴즈 문제는 'CJ더마켓 상반기 최대 할인! 메가 더세페 기간에는 매일 OOO명분께 선착순 적립금을 드려요. 빈칸에 들어갈 숫자는 무엇일까요?'이다.CJ더마켓 캐시 정답은 [ 500 / 20 / 15 ]이다.넛츠피아 어버이날 견과류 캐시 정답은 [ 6900 ]이다.캐시워크 돈버는퀴즈는 ‘캐시워크’ 리워드 앱을 이용해 참여할 수 있다. 정답을"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/pcgaming",
+        "headline": "STRANGER THAN HEAVEN on Steam",
+        "source_url": "https://www.reddit.com/r/pcgaming/comments/1t5u0uz/stranger_than_heaven_on_steam/",
+        "published_at": "2026-05-06T23:48:38+00:00",
+        "summary": "[r/pcgaming] by u/lurkingdanger22 | 66 points | 16 comments\n\nLink: https://store.steampowered.com/app/4260840/STRANGER_THAN_HEAVEN/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/NintendoSwitch",
+        "headline": "For anyone disappointed (like me) that the new Star Fox game is yet another version of 64, I may offer a bit of copium",
+        "source_url": "https://www.reddit.com/r/NintendoSwitch/comments/1t5sy5t/for_anyone_disappointed_like_me_that_the_new_star/",
+        "published_at": "2026-05-06T23:03:02+00:00",
+        "summary": "[r/NintendoSwitch] by u/insertusernamehere51 | 0 points | 72 comments\n\nTo be clear, if you are disappointed, I get it. I don't think I've ever felt my hype for anything die so quickly. After Zero bombed so hard a lot of people were worried that we'd never see this series again, and then we heard the rumours and we all raised our hopes that this was finally going to be the comeback, and then to hear right from the start that it was going to be the ONE THING people begged it not to be (another remake) and then followed with those designs... it wasn't ideal.\n\nOf the 9 Star Fox releases, 5 are variations of the same game, with this being the third in a row (if you don't count SF2). It's especially baffling because Zero was poorly received in part because it felt like a retread of 64, and instead of veering away from that, they leaned into EVEN HARDER. \n\nBUT there is a bit of copium to be had here, at least I hope so. And that is Nintendo has a habit of testing revivals of long dormant series with remakes made by new studios.\n\nEssentially, Nintendo doesn't have the resources to develop all of tis series internally, so they prioritise the big ones and the smaller ones get left behind unless Nintendo can get a team or studio that can be that franchise's new home, like Kirby has HAL, Fire Emblem has IS, etc.\n\nSo when they do find a team that feel like they can take a certain series, Nintendo often gives them the task of doing a remake first to \"train them\" in how that series works, before they can develop a new one.\n\n2D Metroid was dead, so when Mercury Steam took it, they remade Metroid 2, and when that worked out, they made Dread\n\nFamicom Detective Club was dead, but then Mages took a shot at it with remakes, and when that worked out, they made Emio\n\n2D Zelda was never dead, but the same thing happened there, with how Grezzo did a Link's Awakening remake which was a big hit so they went on to make Echoes of Wisdom\n\nEven Metroid Prime technically had the same story. Retro Studios might be the same company, but the people there are completely ..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/pcgaming",
+        "headline": "Xbox Presents: A Special Look at STRANGER THAN HEAVEN",
+        "source_url": "https://www.reddit.com/r/pcgaming/comments/1t5sbxw/xbox_presents_a_special_look_at_stranger_than/",
+        "published_at": "2026-05-06T22:38:04+00:00",
+        "summary": "[r/pcgaming] by u/Turbostrider27 | 20 points | 3 comments\n\nLink: https://www.youtube.com/watch?v=I0R3m9woviA"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "r/lostarkgame",
+        "headline": "Supp dps meter",
+        "source_url": "https://www.reddit.com/r/lostarkgame/comments/1t5qboh/supp_dps_meter/",
+        "published_at": "2026-05-06T21:21:43+00:00",
+        "summary": "[r/lostarkgame] by u/Designer_Comparison3 | 8 points | 11 comments\n\nHello im new to support and i would like to understand what all the % mean on the dps meter and which number should i aim for to improve .\n\nSry if its hard to understand what i mean and Ty have a good day ."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "동성회는 어떻게 탄생했나, ‘스트레인저 댄 헤븐’ 올 겨울 발매",
+        "source_url": "https://bbs.ruliweb.com/news/read/224310",
+        "published_at": "2026-05-06T16:54:40+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/05/07/19e002453ba_sengji.webp\" width=\"90\" /> 용과 같이 스튜디오가 '용과 같이' 시리즈의 프리퀄 격인 '스트레인저 댄 헤븐'을 공개했으며, 이 작품은 1915년부터 1965년까지 다섯 시대를 배경으로 다이토 마코토의 동성회 기원을 그린다. 주인공 마코토는 음악적 재능으로 공동체..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "‘Bluey Quest: 황금펜을 위한 대 모험’ 패키지, 8일(금) 예약판매 개시",
+        "source_url": "https://bbs.ruliweb.com/news/read/224308",
+        "published_at": "2026-05-06T16:46:22+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/05/07/19e001d468d_cndtfz.webp\" width=\"90\" /> 게임피아㈜는 halfbrick studios가 개발한 애니메이션 '블루이' 기반의 어드벤처 게임 『bluey quest: 황금펜을 위한 대 모험』 패키지 제품의 예약판매를 2026년 5월 8일 개시한다고 밝혔다. 이 게임은 '황금 펜..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "나이언틱 ‘몬스터 헌터 나우’, 그룹 사냥 개선 업데이트",
+        "source_url": "https://bbs.ruliweb.com/news/read/224307",
+        "published_at": "2026-05-06T16:32:59+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/05/07/19e00110822_nqmcvw.webp\" width=\"90\" /> 나이언틱은 '몬스터 헌터 나우'의 그룹 사냥 경험 개선 업데이트를 실시하며, 친구 링크 사냥 시 토큰 차감 방식을 성공 시에만 적용하도록 변경해 고난도 몬스터 도전 부담을 완화했습니다. 또한, 4인 파티 그룹 사냥 시 기존 보수 외 ..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pocket Gamer",
+        "headline": "Caravan SandWitch brings a slower, no-combat road trip to iOS and Android soon",
+        "source_url": "https://www.pocketgamer.com/caravan-sandwitch/announcement/",
+        "published_at": "2026-05-06T16:30:00+00:00",
+        "summary": "A road trip through a quiet, sun-bleached sci-fi world isn’t something you’d usually expect on mobile. But that’s probably why Caravan SandWitch stands out straight away. It’s coming to iOS and Android soon, bringing with it a slower experience that isn’t super interested in rushing you anywhere.\n\nYou’re driving across Cigalo, a Provence-like landscape that’s been pushed into a harsher, desert state over time. The setup is simple enough. You’re looking for your missing sister, and the journey unfolds gradually as you move between locations, meet people, and piece things together. ... [<a href=\"https://www.pocketgamer.com/caravan-sandwitch/announcement/\">MORE</a>]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "엠게임 ‘귀혼M’, 신규 콘텐츠 ‘화신의 탑’ 오늘(7일) 업데이트 및 가정의 달 이벤트 진행 중",
+        "source_url": "https://bbs.ruliweb.com/news/read/224306",
+        "published_at": "2026-05-06T16:25:23+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/05/07/19e00097e69_pouijm.webp\" width=\"90\" /> 엠게임은 무협 mmorpg '귀혼m'에 캐릭터 조합을 활용하는 신규 월간 콘텐츠 '화신의 탑'을 업데이트하고, 가정의 달 기념 이벤트를 진행합니다. '화신의 탑'에서는 팀 시너지 효과를 극대화하며 전용 재화로 아이템을 구매할 수 있고..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "So, Will You Be Getting Star Fox For Switch 2?",
+        "source_url": "https://www.nintendolife.com/news/2026/05/so-will-you-be-getting-star-fox-for-switch-2",
+        "published_at": "2026-05-06T16:25:00+00:00",
+        "summary": "<p><strong>Go on, tell us.</strong></p><p>Next month, Fox McCloud and his team will return to the stars and skies to save the Lylat system once more.</p><p>Now that Nintendo has briefed us on what to expect, including the price <strong>£41.99 / $49.99</strong> (<em>or $10 more physically</em>), we're curious to know if you'll be picking up this new version of the game when it takes flight for the Switch 2 on <strong>25th June 2026</strong>.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/05/so-will-you-be-getting-star-fox-for-switch-2\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "Japanese Devs Think It May Be Impossible for Them to Make a Game Like NTE on PS5",
+        "source_url": "https://www.pushsquare.com/news/2026/05/japanese-devs-think-it-may-be-impossible-for-them-to-make-a-game-like-nte-on-ps5",
+        "published_at": "2026-05-06T16:00:00+00:00",
+        "summary": "<p><strong>\"There's simply not enough time\".</strong></p><p>With its anime character designs and references to real-life locations like Akihabara, newly released PS5 gacha phenomenon <a href=\"https://www.pushsquare.com/games/ps5/nte_neverness_to_everness\">NTE</a> is as Japanese as a game can be. But it’s made by Chinese dev Hotta Studio, under the Perfect World umbrella.</p><p>This has prompted plenty of consternation within Japanese development circles: why can’t Japan make an open world game like this?</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/05/japanese-devs-think-it-may-be-impossible-for-them-to-make-a-game-like-nte-on-ps5\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "루리웹 뉴스",
+        "headline": "위시인터랙티브, 모바일 시뮬레이션 RPG ‘희비전 리버스’ 오늘(7일)오픈",
+        "source_url": "https://bbs.ruliweb.com/news/read/224298",
+        "published_at": "2026-05-06T15:53:56+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/05/07/19dffec9095_zfxvrn.webp\" width=\"90\" /> 위시인터랙티브가 10주년 기념작인 고풍 스토리 시뮬레이션 rpg '희비전 리버스'를 7일 정식 오픈하며, 2d 그래픽 리뉴얼과 사용자 편의성을 강화했다. 사전예약자 30만 명 돌파 기념으로 모든 이용자에게 한정 코스튬과 칭호 등 특별..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "My most-anticipated but frequently delayed Zelda-like is finally releasing later this month after 6 years in development",
+        "source_url": "https://www.pcgamer.com/games/adventure/my-most-anticipated-but-frequently-delayed-zelda-like-is-finally-releasing-later-this-month-after-6-years-in-development/",
+        "published_at": "2026-05-06T15:34:41+00:00",
+        "summary": "It's not 2023, but it's still releasing before the apocalypse."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Starfox's Official Switch 2 Box Art, Price And Estimated File Size Revealed",
+        "source_url": "https://www.nintendolife.com/news/2026/05/starfoxs-official-switch-2-box-art-price-and-estimated-file-size-revealed",
+        "published_at": "2026-05-06T15:30:00+00:00",
+        "summary": "<p><strong>Pre-orders are now live.</strong></p><p></p><p>Nintendo has today lifted the lid on a remake of its N64 classic <a href=\"https://www.nintendolife.com/games/n64/star_fox_64\">Star Fox 64</a>, simply titled <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/star-fox\">Star Fox</a>, and it will be coming to the Switch 2 this June.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/05/starfoxs-official-switch-2-box-art-price-and-estimated-file-size-revealed\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Are you a real Sims series scholar? Put those decades of playing The Sims to the test with a quick round of trivia made for lifelong simmers",
+        "source_url": "https://www.pcgamer.com/games/the-sims/are-you-a-real-sims-series-scholar-put-those-decades-of-playing-the-sims-to-the-test-with-a-quick-round-of-trivia-made-for-lifelong-simmers/",
+        "published_at": "2026-05-06T15:11:51+00:00",
+        "summary": "No cheating, or I'm taking the ladder out of your pool."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Stranger than Heaven, out this winter, sees the Yakuza devs blend Snoop Dogg into a musical adventure/Tojo Clan origin story that looks fascinatingly quirky",
+        "source_url": "https://www.rockpapershotgun.com/stranger-than-heaven-out-this-winter-sees-the-yakuza-devs-blend-snoop-dogg-into-a-musical-adventuretojo-clan-origin-story-that-looks-fascinatingly-quirky",
+        "published_at": "2026-05-06T15:00:00+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/stranger-than-heaven-xbox-showcase-01.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Right. So. <a href=\"https://www.rockpapershotgun.com/games/stranger-than-heaven\">Stranger Than Heaven</a>, the Like A Dragon/Yakuza devs' hop through different decades of 20th century Japanese history? Snoop Dogg's in it. And, also, it's telling the story of how the Tojo Clan - the famous yakuza group Kazuma Kiryu belongs to - came to be founded. Oh, and it'll have you wandering around town sampling the sounds of brooms sweeping and steam trains chugging so that you can turn these into symphonies, as you plunge headlong into a career in band management.</p>\n<p>All of that and more has just been shown off in a fresh look at the game, which is out this winter.</p>\n <p><a href=\"https://www.rockpapershotgun.com/stranger-than-heaven-out-this-winter-sees-the-yakuza-devs-blend-snoop-dogg-into-a-musical-adventuretojo-clan-origin-story-that-looks-fascinatingly-quirky\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GameSpot",
+        "headline": "Lego Batman: Legacy Of The Dark Knight Includes Goofy Michael Caine Tweet Reference",
+        "source_url": "https://www.gamespot.com/articles/lego-batman-legacy-of-the-dark-knight-includes-goofy-michael-caine-tweet-reference/1100-6539828/?ftag=CAD-01-10abi2f",
+        "published_at": "2026-05-06T14:50:00+00:00",
+        "summary": "<p>Later this month, <a href=\"https://www.gamespot.com/games/lego-batman-legacy-of-the-dark-knight/\">Lego Batman: Legacy of the Dark Knight</a> is going to mash-up aspects of the iconic hero's comic book, TV, and movie incarnations into a single story. Christopher Nolan's Dark Knight trilogy is also heavily referenced in the game, including a callback to the first film by Michael Caine, the actor who portrayed Alfred Pennyworth.</p><p>In 2024, Caine shared a Tweet that quoted Alfred's line from Batman Begins: \"Why do we fall, sir? So we can learn to pick ourselves up.\" However, Caine mistakenly typed \"Batman Begin\" as the name of his film, and inadvertently created a meme. Both the quote and the typo have been retained for Legacy of the Dark Knight in a line spoken by Alfred himself.</p><figure style=\"width: 1080px;\"><a href=\"https://www.gamespot.com/a/uploads/original/1837/18375603/4692217-legobatmanlegacyofthedarkknightmichaelcainetweet.jpg\"><img alt=\"No Caption Provided\" src=\"https://www.gamespot.com/a/uploads/scale_super/1837/18375603/4692217-legobatmanlegacyofthedarkknightmichaelcainetweet.jpg\" /></a></figure><p>DC comic book artist <a href=\"https://x.com/millicay95/status/2052013762836640118\">Marcelo Millicay</a> was among the first to notice the in-game Easter egg for Caine's now-famous typo. Part of the game's story will actually explore Batman Begins' version of Bruce Wayne's origin, in which he was trained by the League of Shadows before ultimately rejecting their ways and becoming Batman.</p><a href=\"https://www.gamespot.com/articles/lego-batman-legacy-of-the-dark-knight-includes-goofy-michael-caine-tweet-reference/1100-6539828/?ftag=CAD-01-10abi2f/\">Continue Reading at GameSpot</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "How to import your own music and use custom songs in Dead as Disco",
+        "source_url": "https://www.destructoid.com/how-to-import-your-own-music-and-use-custom-songs-in-dead-as-disco/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-import-your-own-music-and-use-custom-songs-in-dead-as-disco",
+        "published_at": "2026-05-06T14:45:17+00:00",
+        "summary": "<p><img alt=\"Dead as Disco screenshot\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://www.destructoid.com/wp-content/uploads/2025/06/image-2025-06-12T144515.835.jpg\" width=\"1200\" /></p>\n<p><!-- wp:paragraph --></p>\n<p><em>Dead as Disco</em>'s early access offers you a steady list of jams to enjoy, but you can fine-tune the experience with the help of custom songs. This allows you to use your own set of tracks after adding them to the official in-game list.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>While the process might feel confusing at first, this guide will help you complete all the steps without errors.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:yoast-seo/table-of-contents --></p>\n<div class=\"wp-block-yoast-seo-table-of-contents yoast-table-of-contents\">\n<h2>Table of contents</h2>\n<ul>\n<li><a href=\"#h-how-to-add-custom-songs-in-dead-as-disco\">How to add custom songs in Dead as Disco</a></li>\n<li><a href=\"#h-how-to-calibrate-custom-music-in-dead-as-disco\">How to calibrate custom music in Dead as Disco</a></li>\n</ul>\n</div>\n<p><!-- /wp:yoast-seo/table-of-contents --></p>\n<p><!-- wp:heading --></p>\n<h2 class=\"wp-block-heading\" id=\"h-how-to-add-custom-songs-in-dead-as-disco\">How to add custom songs in Dead as Disco</h2>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:paragraph --></p>\n<p>The first task is to complete <em>Dead as Disco</em>'s tutorial since you'll need the <strong>Infinite Disco</strong> mode. Once available, you can select the mode from the main menu screen. Then, select the <strong>Free Play</strong> option.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>In Free Play, you'll find a tab on top of your screen titled <strong>\"Add My Music\"</strong>. Click on it to upload your own custom track. I have only tried files with the .mp3 extension at the end. However, the game accepts all standard formats like .m4a, .wma, .aac, and .wave, among others.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:image {\"id\":1214235,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"Adding songs to Dead as Disco \" class=\"wp-image-1214235\" src=\"https://www.destructoid.com/wp-content/uploads/2026/05/songs.png?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:paragraph --></p>\n<p>Once added, you can now play the song in Free Play mode.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:heading --></p>\n<h2 class=\"wp-block-heading\" id=\"h-how-to-calibrate-custom-music-in-dead-as-disco\">How to calibrate custom music in Dead as Disco</h2>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:image {\"id\":1214234,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"List of my music in the Infinite Disco mode\" class=\"wp-image-1214234\" src=\"https://www.destructoid.com/wp-content/uploads/2026/05/Advanced-Editor.png?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:paragraph --></p>\n<p>While adding your own music is pretty easy, chances are that it might not work as intended. This usually means that the song you added is out of sync, which largely has to do with its tempo, aka BPM. BPM decides how you and your enemies both react to the tunes of the track, so being calibrated is a must.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>If your track is not calibrated, here's how you can change that. For starters, you'll need to know the BPM of your song. You can either Google it or use a third-party website.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:image {\"id\":1214236,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"Using the songs editor in Dead as Disco\" class=\"wp-image-1214236\" src=\"https://www.destructoid.com/wp-content/uploads/2026/05/unnamed-4.png?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Image via Brain Jar Games</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:paragraph --></p>\n<p>You can now use the Advanced Editor available in the game to calibrate the music. Use the Tempo option to add your track's BPM. Adjust the waveforms carefully, and this will calibrate the track and get it ready to be used in the Infinite Disco mode. Unless there's a lag at the start of the track (when it starts), there won't be much need to manually adjust it using the editor. </p>\n<p><!-- /wp:paragraph --></p>\n<p>The post <a href=\"https://www.destructoid.com/how-to-import-your-own-music-and-use-custom-songs-in-dead-as-disco/\">How to import your own music and use custom songs in Dead as Disco</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "Stranger Than Heaven Is a Yakuza Series Origin Story, Out on PS5 This Winter",
+        "source_url": "https://www.pushsquare.com/news/2026/05/stranger-than-heaven-is-a-yakuza-series-origin-story-out-on-ps5-this-winter",
+        "published_at": "2026-05-06T14:45:00+00:00",
+        "summary": "<p><strong>Gameplay details revealed.</strong></p><p>Many <a href=\"https://www.pushsquare.com/games/ps5/yakuza_kiwami_3_and_dark_ties\">Yakuza</a> fans were thinking it, and now it's been confirmed: the mysterious <a href=\"https://www.pushsquare.com/games/ps5/stranger_than_heaven\">Stranger Than Heaven</a> is in fact an origin story for the series, in which the pivotal Tojo Clan is founded.</p><p>The game's story spans 50 years, and you'll be playing as the same character — Makoto Daito — throughout. RGG Studio's deep dive, which we've embedded below, has all the details.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/05/stranger-than-heaven-is-a-yakuza-series-origin-story-out-on-ps5-this-winter\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GameSpot",
+        "headline": "Pokemon Go: Choose Your Path Timed Research Rewards And Bonuses",
+        "source_url": "https://www.gamespot.com/articles/pokemon-go-choose-your-path-timed-research-rewards-and-bonuses/1100-6539826/?ftag=CAD-01-10abi2f",
+        "published_at": "2026-05-06T14:38:00+00:00",
+        "summary": "<p><a href=\"https://www.gamespot.com/games/pokemon-go/\">Pokemon Go</a>'s next week-long event, the Spring Marathon, doesn't kick off until May 12, but there's a new Timed Research quest to complete in the meantime. The Choose Your Path Timed Research is currently available until May 11, and it offers some enticing rewards, including a special bonus that will remain active for the remainder of the week.</p><p>However, the bonus you'll unlock will depend on which of the \"paths\" you choose when you begin the research. To help you decide, here's the full list of tasks and rewards for Pokemon Go's Choose Your Path Timed Research. And for a look at what else is happening in the game this month, be sure to check out our <a href=\"https://www.gamespot.com/articles/pokemon-go-may-2026-events-raid-bosses-community-days-spring-marathon-and-more/1100-6539502/\">May 2026 events roundup</a>.</p><div><span><strong>Table of Contents</strong> [<a href=\"https://www.gamespot.com\">hide</a>]</span><ul class=\"collapse in\" id=\"toc_list\"><li><a href=\"https://www.gamespot.com\">Choose Your Path Timed Research</a></li></ul></div><h2 id=\"Choose_Your_Path_Timed_Research\">Choose Your Path Timed Research</h2><p><strong>Ends May 11 at 8 PM local time</strong></p><a href=\"https://www.gamespot.com/articles/pokemon-go-choose-your-path-timed-research-rewards-and-bonuses/1100-6539826/?ftag=CAD-01-10abi2f/\">Continue Reading at GameSpot</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "VGC",
+        "headline": "Stranger Than Heaven presentation reveals cast and story details for Ryu Ga Gotoku Studio’s next game",
+        "source_url": "https://www.videogameschronicle.com/news/stranger-than-heaven-presentation-reveals-cast-and-story-details-for-ryu-ga-gotoku-studios-next-game/",
+        "published_at": "2026-05-06T14:34:53+00:00",
+        "summary": "<img src=\"https://www.videogameschronicle.com/files/2026/05/stranger-than-heaven.jpg\" /> The game will be released this winter, and will be available on Xbox Game Pass"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Xbox Wire",
+        "headline": "Xbox Presents: A Special Look at Stranger Than Heaven – Everything We Learned (Including Snoop Dogg’s Role!)",
+        "source_url": "https://news.xbox.com/en-us/2026/05/06/stranger-than-heaven-xbox-presents-details-recap-everything-announced/",
+        "published_at": "2026-05-06T14:31:43+00:00",
+        "summary": "<p>The post <a href=\"https://news.xbox.com/en-us/2026/05/06/stranger-than-heaven-xbox-presents-details-recap-everything-announced/\">Xbox Presents: A Special Look at Stranger Than Heaven – Everything We Learned (Including Snoop Dogg’s Role!)</a> appeared first on <a href=\"https://news.xbox.com/en-us\">Xbox Wire</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Xbox Dedicates Entire Showcase To Stranger Than Heaven, Releasing Winter 2026 On Game Pass",
+        "source_url": "https://www.purexbox.com/news/2026/05/xbox-dedicates-entire-showcase-to-stranger-than-heaven-releasing-winter-2026-on-game-pass",
+        "published_at": "2026-05-06T14:30:00+00:00",
+        "summary": "<p><strong>\"An epic saga of men battling through five eras and five cities.\".</strong></p><p>Today's first edition of the <a href=\"https://www.purexbox.com/news/2026/03/xbox-presents-is-a-new-type-of-showcase-debuting-this-may-for-stranger-than-heaven\">\"Xbox Presents\" showcase</a> has just finished, with this one being entirely focused on the new RGG Studio game known as <strong>Stranger Than Heaven</strong> - now confirmed to be releasing at some point in Winter 2026.</p><p>You can watch the entire showcase up above, which goes into detail about the backstory behind the game, some of the main characters in it (including an appearance from Snoop Dogg), and of course, how the gameplay works.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/05/xbox-dedicates-entire-showcase-to-stranger-than-heaven-releasing-winter-2026-on-game-pass\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Kotaku",
+        "headline": "Everything We Saw At The Surprise Star Fox Nintendo Direct",
+        "source_url": "https://kotaku.com/nintendo-direct-star-fox-switch-2-mario-galaxy-64-2000693715",
+        "published_at": "2026-05-06T13:22:42+00:00",
+        "summary": "<img alt=\"Star Fox\" class=\"attachment-full size-full wp-post-image\" height=\"576\" src=\"https://kotaku.com/app/uploads/2026/05/IMG_3348.jpg\" style=\"height: auto; margin: auto;\" width=\"1024\" /><br /><br />Nintendo shadow-dropped a Direct about the star of <em>The Super Mario Galaxy Movie</em>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "All challenges in Gamble with your Friends and how to complete them",
+        "source_url": "https://www.destructoid.com/all-challenges-in-gamble-with-your-friends-and-how-to-complete-them/?utm_source=rss&utm_medium=rss&utm_campaign=all-challenges-in-gamble-with-your-friends-and-how-to-complete-them",
+        "published_at": "2026-05-06T13:15:34+00:00",
+        "summary": "<p><img alt=\"Players playing Duck Race in Gamble with your Friends\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1080\" src=\"https://www.destructoid.com/wp-content/uploads/2026/05/ss_e3514d1723232a988324d08834e8784e6ad355c2.1920x1080.jpg\" width=\"1920\" /></p>\n<p><!-- wp:paragraph --></p>\n<p><em>Gamble with your Friends</em> has plenty of challenges to complete if you're looking to make extra money at the casino. You can get them from the loanshark; they are random in nature.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>This guide will help you complete all of them without any hassle so that you can get rich quickly.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:yoast-seo/table-of-contents --></p>\n<div class=\"wp-block-yoast-seo-table-of-contents yoast-table-of-contents\">\n<h2>Table of contents</h2>\n<ul>\n<li><a href=\"#h-how-to-complete-all-challenges-in-gamble-with-your-friends\">How to complete all challenges in Gamble with your Friends</a></li>\n<li><a href=\"#h-how-to-change-challenges-in-gamble-with-your-friends\">How to change challenges in Gamble with your Friends</a></li>\n</ul>\n</div>\n<p><!-- /wp:yoast-seo/table-of-contents --></p>\n<p><!-- wp:heading --></p>\n<h2 class=\"wp-block-heading\" id=\"h-how-to-complete-all-challenges-in-gamble-with-your-friends\">How to complete all challenges in Gamble with your Friends</h2>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:paragraph --></p>\n<p>The current build of the game offers 21 different challenges to undertake, and the following table has all the necessary information you'll need to complete them.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:image {\"id\":1211788,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --></p>\n<figure class=\"wp-block-image size-large\"><img alt=\"Wheel of Fortune in Gamble with your Friends\" class=\"wp-image-1211788\" src=\"https://www.destructoid.com/wp-content/uploads/2026/05/3892270_1208.jpg?quality=75&w=1024\" /><figcaption class=\"wp-element-caption\">Screenshot by Destructoid</figcaption></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:table --></p>\n<figure class=\"wp-block-table\">\n<table class=\"has-fixed-layout\">\n<thead>\n<tr>\n<th>Challenge</th>\n<th>Requirement</th>\n<th>How to Complete</th>\n<th>Rewards (Tickets)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>All on Red</td>\n<td>Bet at least $300 on Roulette and profit</td>\n<td>This is a pretty simple task, as you need to bet a 50/50 chance on games that have binary outcomes. </p>\n<p>So for Roulette, you can bet it on Red or Black. </td>\n<td>Four</td>\n</tr>\n<tr>\n<td>Big Spender</td>\n<td>Bet a total of $3,000 across all games</td>\n<td>Simple task where you simply have to bet a certain amount of money. </td>\n<td>Five</td>\n</tr>\n<tr>\n<td>Risky Move</td>\n<td>Win on Blackjack with a hand value less than 15</td>\n<td>Try to fake when you have less than 15 in total by choosing to stand. If the dealer busts, the challenge will be complete. </td>\n<td>Five</td>\n</tr>\n<tr>\n<td>High Roller</td>\n<td>Place a single bet of $750 or move</td>\n<td>You need to place a single bet on any game that's $750 or more</td>\n<td>Six</td>\n</tr>\n<tr>\n<td>Yarll!!!</td>\n<td>Bet on Yarl and win on Duck Race. </td>\n<td>Bet on Yarl and hope it finishes first. </td>\n<td>Six</td>\n</tr>\n<tr>\n<td>Lucky Roll</td>\n<td>Get 7 or 11 on your first roll on Street Craps</td>\n<td>Roll the dice and hope to get lucky. </td>\n<td>Six</td>\n</tr>\n<tr>\n<td>Lucky Streak</td>\n<td>Win 3 games in a row</td>\n<td>Just win any three games without a loss in the middle. </td>\n<td>Six</td>\n</tr>\n<tr>\n<td>Jackpot Hunter</td>\n<td>Win with 10x on the Slot Machine</td>\n<td>To complete the challenge, you'll need the following combination.<br />Eye: 0.5x<br />Ankh: 1.5x<br />Beetle: 2.5x<br />Lotus Flower: 3.5x</p>\n<p>Unfortunately, the process will be reliant on luck. </td>\n<td>Eight </td>\n</tr>\n<tr>\n<td>No Bust Run</td>\n<td>Win 4 games in a row on Blackjack</td>\n<td>Only stand when you have 16 or above. </td>\n<td>Eight</td>\n</tr>\n<tr>\n<td>Spot On</td>\n<td>Bet a total of $1 billion on Keno</td>\n<td>You'll need to earn a lot of cash before you get to complete this challenge. </td>\n<td>Eight</td>\n</tr>\n<tr>\n<td>Roll The Odds</td>\n<td>Profit a total of $2 billion on Hi Lo</td>\n<td>To do this, you'll need to have a lot of capital and bet big. Then, you'll need to ensure that you don't lose the money. </td>\n<td>Nine</td>\n</tr>\n<tr>\n<td>Winner Winner Penguin Dinner</td>\n<td>Win at least 3x two times in a row on Penguin Cross</td>\n<td>Don't fall on the ice and continue until you reach 3x</td>\n<td>Ten</td>\n</tr>\n<tr>\n<td>Spin Streak</td>\n<td>Win 3 games in a row with at least $100 million on Money Wheel</td>\n<td>You've to win three in a row. You should bet on green, as it has higher odds. </td>\n<td>Ten</td>\n</tr>\n<tr>\n<td>Natural Roller</td>\n<td>Win Street Craps on Point Phase</td>\n<td>Win a game of Street Craps. Relies on luck. </td>\n<td>Ten</td>\n</tr>\n<tr>\n<td>Clean Fall</td>\n<td>Win 24x on Pinko</td>\n<td>Bet the least across multiple amounts so that the ball can match your predictions. </td>\n<td>Eleven</td>\n</tr>\n<tr>\n<td>Traffic Monster</td>\n<td>Win at least 4x on Penguin Cross</td>\n<td>Go with smaller bets to complete the challenge quicker. </td>\n<td>Twelve</td>\n</tr>\n<tr>\n<td>Keep it Spinning</td>\n<td>Spend a total of  $6.5 billion on Wheel of Fortune</td>\n<td>Can be completed naturally by earning and spending the money on Wheel of Fortune. </td>\n<td>Twelve</td>\n</tr>\n<tr>\n<td>No Safe Rolls</td>\n<td>Win 20x on Dice</td>\n<td>Place a minimum bet so that you can reach the 20x value quicker. </td>\n<td>Twelve</td>\n</tr>\n<tr>\n<td>Step Into Fire</td>\n<td>Lose 4 times in a row with at least $650 million on Dragon Tower</td>\n<td>You've to simply lose on Dragon Tower. </td>\n<td>Fourteen</td>\n</tr>\n<tr>\n<td>Perfect Sweep</td>\n<td>Win at least 20x on Mine Sweeper</td>\n<td>Can be completed normally by playing Mine Sweeper. You've to uncover at least 19 tiles, assuming there are two mines. </td>\n<td>Fourteen</td>\n</tr>\n<tr>\n<td>Poker Face</td>\n<td>Don't lock cards and win with a hand equal to or better than Two Of A Kind on 1P Poker</td>\n<td>Win a hand but don't touch the cards. </td>\n<td>Fourteen</td>\n</tr>\n</tbody>\n</table>\n</figure>\n<p><!-- /wp:table --></p>\n<p><!-- wp:heading --></p>\n<h2 class=\"wp-block-heading\" id=\"h-how-to-change-challenges-in-gamble-with-your-friends\">How to change challenges in Gamble with your Friends</h2>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:paragraph --></p>\n<p>It could happen that an ongoing challenge might be unsuitable for you. You can change challenges with the <strong>help of tickets</strong>. You'll need to spend your tickets to draw a fresh challenge. Once done, a new challenge will be available. All these challenges mentioned above not only reward you with tickets, but you also get to complete <a href=\"https://www.destructoid.com/all-achievements-in-gamble-with-your-friends-and-how-to-complete-them/\" rel=\"noreferrer noopener\" target=\"_blank\">several achievements that are tied to them</a>. </p>\n<p><!-- /wp:paragraph --></p>\n<p>The post <a href=\"https://www.destructoid.com/all-challenges-in-gamble-with-your-friends-and-how-to-complete-them/\">All challenges in Gamble with your Friends and how to complete them</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesRadar",
+        "headline": "Star Fox 64 remake revealed for Switch 2 in surprise Nintendo Direct",
+        "source_url": "https://www.gamesradar.com/games/action/star-fox-64-remake-revealed-for-switch-2-in-surprise-nintendo-direct/",
+        "published_at": "2026-05-06T13:12:30+00:00",
+        "summary": "The barrel rolls have never looked better"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "VGC",
+        "headline": "Nintendo’s Switch 2 Star Fox game is a remake of Star Fox 64",
+        "source_url": "https://www.videogameschronicle.com/news/nintendos-switch-2-star-fox-game-is-a-remake-of-star-fox-64/",
+        "published_at": "2026-05-06T13:08:03+00:00",
+        "summary": "<img src=\"https://www.videogameschronicle.com/files/2026/05/Screenshot-2026-05-06-232442.jpg\" /> First Star Fox entry in a decade officially revealed for Nintendo Switch 2"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Star Fox Is Finally Getting Another Game, Out June 2026 Exclusively On Switch 2",
+        "source_url": "https://www.nintendolife.com/news/2026/05/star-fox-is-finally-getting-another-game-out-june-2026-exclusively-on-switch-2",
+        "published_at": "2026-05-06T13:08:00+00:00",
+        "summary": "<p><strong>Another 64 remake? Say it McClouder!</strong></p><p>It's official, everyone! Nintendo has today announced <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/star-fox\">Star Fox</a> for Switch 2, and it launches on <strong>25th June 2026</strong>.</p><p>And, yes, it is indeed another remake of <a href=\"https://www.nintendolife.com/games/n64/star_fox_64\">Star Fox 64</a>, with Nintendo calling it a \"cinematic take” on the classic. It’ll cost <strong>£41.99 / $49.99</strong> digitally on the eShop</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/05/star-fox-is-finally-getting-another-game-out-june-2026-exclusively-on-switch-2\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesRadar",
+        "headline": "I recruited Gothic 1 Remake's most notorious NPC and a pair of molerats for 4 hours of unbridled RPG chaos",
+        "source_url": "https://www.gamesradar.com/games/rpg/i-recruited-gothic-1-remakes-most-notorious-npc-and-a-pair-of-molerats-for-4-hours-of-unbridled-rpg-chaos/",
+        "published_at": "2026-05-06T13:01:00+00:00",
+        "summary": "Hands-on | Gothic 1 Remake is an unashamedly classic-feeling RPG revival"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "How to defeat Prophet boss in SAROS",
+        "source_url": "https://dotesports.com/saros/news/saros-prophet-boss-guide",
+        "published_at": "2026-05-06T12:47:40+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/05/Saros_Prophet_Cover.jpg\" style=\"margin-bottom: 15px;\" /></div>Patience and strategy beats chaos."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesIndustry.biz",
+        "headline": "Valve commits to restocking its Steam Controller after it \"ran out faster than we anticipated\" | News-in-brief",
+        "source_url": "https://www.gamesindustry.biz/valve-commits-to-restocking-its-steam-controller-after-it-ran-out-faster-than-we-anticipated-news-in-brief",
+        "published_at": "2026-05-06T11:47:46+00:00",
+        "summary": "Valve commits to restocking its Steam Controller after it \"ran out faster than we anticipated\" | News-in-brief"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesIndustry.biz",
+        "headline": "Supercell acquires Metacore to add Merge Mansion to its \"live games portfolio\"",
+        "source_url": "https://www.gamesindustry.biz/supercell-acquires-metacore-to-add-merge-mansion-to-its-live-games-portfolio",
+        "published_at": "2026-05-06T11:42:40+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/Screenshot-2026-05-06-at-21.29.11.png?width=690&quality=85&format=jpg&auto=webp\" /> <p>Supercell is set to acquire Metacore, pulling Merge Mansion \"into its live games portfolio.\"</p> <p><a href=\"https://www.gamesindustry.biz/supercell-acquires-metacore-to-add-merge-mansion-to-its-live-games-portfolio\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임조선",
+        "headline": "[장르 분석] 비폭력 저자극의 매력 '코지게임'이란 무엇인가",
+        "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36462",
+        "published_at": "2026-05-06T10:40:57+00:00",
+        "summary": "평온한 일상을 나만의 속도로 즐기는 ‘코지게임’은 힐링을 앞세워 폭발적인 성장을 이어가는 장르다.코지 게임은 ‘아늑하고 편안한’ 경험이 중심에 자리 잡는다. 자극적인 연출이나 폭력적인 요소를 배제하고 농사, 요리, 대화, 정리와 같은 일상적인 활동이 핵심을 차지하면서 현실에서 지친 심신을 달래는 디지털 휴양지의 모습을 갖추는 것.<경쟁 없는 세계에서 이어지는 나만의 휴식 방법>코지 게임은 ‘자유로운 방임’을 바탕으로 플레이의 스트레스를 최소화 하는 게임성을 보여준다.유저가 자신만의 속도로 즐기는 게임은 실패의 스트레스가 없거나 적은"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임조선",
+        "headline": "[주간 스팀 동향] HOMM-파 파 웨스트, 신작에 쏟아진 관심",
+        "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36461",
+        "published_at": "2026-05-06T10:36:28+00:00",
+        "summary": "연휴가 이어진 5월 첫째 주 스팀 인기 순위는 스팀 컨트롤러에 쏟아진 관심과 함께 명작의 귀환 및 신작의 등장 등 급격한 변동이 이어졌다.히어로즈 오브 마이트 앤 매직: 올든 에라는 출시와 동시에 동시접속자 6만 명을 돌파하며 인기 순위 1위에 올랐고 4인 협동 서부극 액션게임 파 파 웨스트는 독특한 분위기를 앞세워 예상을 뛰어넘는 성적을 거뒀다. 밸브가 공개한 게임 패드 스팀 컨트롤러는 신작 강세를 넘어 전체 인기 순위 1위에 올라 폭발적인 인기를 증명했다.<마이트 앤 매직의 화려한 귀환>히어로즈 오브 마이트 앤 매직: 올든 에라"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Elite Dangerous Players Warn Of Downsides With Console Version On Xbox Game Pass",
+        "source_url": "https://www.purexbox.com/news/2026/05/elite-dangerous-players-warn-of-downsides-with-console-version-on-xbox-game-pass",
+        "published_at": "2026-05-06T09:30:00+00:00",
+        "summary": "<p><strong>\"If you have a PC, it's defo better to play there\".</strong></p><p>When <a href=\"https://www.purexbox.com/news/2026/05/these-13-games-are-coming-to-xbox-game-pass-may-6-19\">Xbox announced its latest <em>massive</em> batch of new Xbox Game Pass titles</a>, one of the games that caught our eye was <a href=\"https://www.purexbox.com/games/xbox-one/elite_dangerous\">Elite Dangerous</a>, and unfortunately not for the best of reasons.</p><p>Don't get us wrong — Elite Dangerous is a great game! Unfortunately though, console development was cancelled all the way back in early 2022, meaning just \"critical updates\" would be issued to the Xbox version going forward.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/05/elite-dangerous-players-warn-of-downsides-with-console-version-on-xbox-game-pass\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "LoL Patch 26.10 preview: Zeri gets some power back, Lee Sin adjusted",
+        "source_url": "https://dotesports.com/uncategorized/news/lol-patch-26-10-preview",
+        "published_at": "2026-05-06T08:34:26+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/05/1280px-Anivia_VictoriousSkin_HD.jpg\" style=\"margin-bottom: 15px;\" /></div>The Bird is getting weaker."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Xbox Wire",
+        "headline": "Riding on Community Feedback, Descenders Next Gets Bigger with the Grand Tour Update",
+        "source_url": "https://news.xbox.com/en-us/2026/05/06/riding-community-feedback-descenders-next-grand-tour-update/",
+        "published_at": "2026-05-06T08:00:00+00:00",
+        "summary": "<p>The post <a href=\"https://news.xbox.com/en-us/2026/05/06/riding-community-feedback-descenders-next-grand-tour-update/\">Riding on Community Feedback, Descenders Next Gets Bigger with the Grand Tour Update</a> appeared first on <a href=\"https://news.xbox.com/en-us\">Xbox Wire</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pocket Gamer",
+        "headline": "Hearthstone introduces Class Sets for new, themed card packages",
+        "source_url": "https://www.pocketgamer.com/hearthstone/class-sets-introduced/",
+        "published_at": "2026-05-06T07:57:00+00:00",
+        "summary": "World of Warcraft's history, stretching back to the earliest days of tabletop gaming, is a pretty clear course to chart. After all, pretty much every fantasy property in some way owes a debt to Gary Gygax and Dave Arneson. Not least in the introduction of character classes to define your archetypal hero.\n\nNow, Hearthstone is set to get a major suite of new card sets themed after some of the most iconic classes from the mainline World of Warcraft setting. Rather than spreading cards across classes, you'll get a larger package intended to evoke the playstyle of the class. ... [<a href=\"https://www.pocketgamer.com/hearthstone/class-sets-introduced/\">MORE</a>]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Assassin's Creed is being adapted for theatre by a former Cirque du Soleil director, offering two hours of parkour across several eras",
+        "source_url": "https://www.rockpapershotgun.com/assassins-creed-is-being-adapted-for-theatre-by-a-former-cirque-du-soleil-director-offering-two-hours-of-parkour-across-several-eras",
+        "published_at": "2026-05-06T07:32:46+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/heredis.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nAssassin's Creed has left the scruffy underworld of Gaming behind and crept into the gilt-swigging realm of Theatre. Ubisoft have partnered with a former Cirque du Soleil and Olympics ceremony director to create Heredis: Echoes of the Past - a two hour stage production defined by \"acrobatics, urban parkour, choreographed combat, and physical feats within large-scale immersive visual environments\". It'll be set in different time periods, and is \"inspired by the world and themes\" of the videogame series, rather than being a work of AC canon. \n</p>\n<p>\nAlso involved for some reason: Behaviour Interactive, developers of <a href=\"https://www.rockpapershotgun.com/games/dead-by-daylight\">Dead by Daylight</a>. I guess they know a thing or two about adaptations, in the sense of making <a href=\"https://www.rockpapershotgun.com/dead-by-daylights-next-collabs-include-five-nights-at-freddys-and-for-some-reason-the-witcher\">very different licenses</a> stab each other with hooks.\n</p> <p><a href=\"https://www.rockpapershotgun.com/assassins-creed-is-being-adapted-for-theatre-by-a-former-cirque-du-soleil-director-offering-two-hours-of-parkour-across-several-eras\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Game Developer",
+        "headline": "EA boasts record year thanks to Battlefield 6 and EA Sports FC",
+        "source_url": "https://www.gamedeveloper.com/business/ea-boasts-record-year-thanks-to-battlefield-6-and-ea-sports-fc",
+        "published_at": "2026-05-06T05:10:45+00:00",
+        "summary": "EA is touting net bookings of $8 billion in FY26, a nine percent rise year-over-year."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PlayStation Blog",
+        "headline": "PlayStation Store: April 2026’s top downloads",
+        "source_url": "https://blog.playstation.com/2026/05/06/playstation-store-april-2026s-top-downloads/",
+        "published_at": "2026-05-06T05:00:03+00:00",
+        "summary": "It’s time to see which PS5, PS4, PS VR2, and free-to-play games topped last month’s download charts. In April, Pragmata landed in the top three on the US charts, while Little Nightmares VR: Altered Echoes debuted on the PS VR2 charts, and NTE made an appearance on free-to-play. Check out the full listings below. What […]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Game Developer",
+        "headline": "Former LucasArts, Ubisoft veteran Clint Hocking founds new studio",
+        "source_url": "https://www.gamedeveloper.com/business/former-lucasarts-ubisoft-veteran-clint-hocking-founds-new-studio",
+        "published_at": "2026-05-06T04:50:41+00:00",
+        "summary": "Build Machine Games wants to make 'socially relevant games that challenge players' perspectives.'"
+      }
+    }
+  ],
+  "ontology": {
+    "repo": "GameRadar",
+    "category": "game",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "game.editorial_coverage",
+      "game.patch_note",
+      "game.release_schedule",
+      "game.steam_chart",
+      "game.store_ranking"
+    ],
+    "event_model_mappings": {
+      "steam_chart": "game.steam_chart",
+      "store_ranking": "game.store_ranking",
+      "patch_note": "game.patch_note",
+      "release_schedule": "game.release_schedule",
+      "editorial_coverage": "game.editorial_coverage"
+    },
+    "entity_type_hints": [
+      "game.title",
+      "organization.company"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence",
+      "primary_evidence"
+    ],
+    "source_role_mappings": {
+      "PlayStation Blog": "primary_evidence",
+      "Xbox Wire": "primary_evidence",
+      "Nintendo Life": "context_only",
+      "GamesIndustry.biz": "operational_evidence"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required",
+      "cross_reference_required"
+    ]
+  }
 }
