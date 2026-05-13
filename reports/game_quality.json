@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-05-12T20:37:41.146171+00:00",
+  "generated_at": "2026-05-13T06:19:08.245164+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 4,
-    "patch_note_events": 4,
-    "release_schedule_events": 19,
-    "actionable_game_event_count": 27,
-    "canonical_game_key_present_count": 5,
-    "missing_canonical_game_key_count": 22,
-    "official_or_trade_event_count": 23,
-    "event_required_field_gap_count": 24,
+    "patch_note_events": 8,
+    "release_schedule_events": 27,
+    "actionable_game_event_count": 39,
+    "canonical_game_key_present_count": 9,
+    "missing_canonical_game_key_count": 30,
+    "official_or_trade_event_count": 32,
+    "event_required_field_gap_count": 34,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 11,
-      "event_count": 8,
+      "article_count": 21,
+      "event_count": 15,
       "latest_event_at": "2026-05-11T09:00:00+00:00",
-      "age_days": 1.48,
+      "age_days": 1.89,
       "latest_title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
       "latest_url": "https://blog.playstation.com/2026/05/11/20260511-gi/",
       "latest_source_signal": [
@@ -103,10 +103,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 12,
-      "event_count": 4,
+      "article_count": 22,
+      "event_count": 6,
       "latest_event_at": "2026-05-12T08:00:00+00:00",
-      "age_days": 0.53,
+      "age_days": 0.93,
       "latest_title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
       "latest_url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary/",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 54,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 8,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 51,
       "event_count": 11,
       "latest_event_at": "2026-05-12T02:16:44+00:00",
-      "age_days": 0.76,
+      "age_days": 1.17,
       "latest_title": "Discord Nitro subscribers to receive \"starter edition\" of Xbox Game Pass through new partnership",
       "latest_url": "https://www.gamesindustry.biz/discord-nitro-subscribers-to-receive-starter-edition-of-xbox-game-pass-through-new-partnership",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 24,
-      "event_count": 4,
-      "latest_event_at": "2026-05-06T16:46:22+00:00",
-      "age_days": 6.16,
-      "latest_title": "‘Bluey Quest: 황금펜을 위한 대 모험’ 패키지, 8일(금) 예약판매 개시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/224308",
+      "article_count": 39,
+      "event_count": 7,
+      "latest_event_at": "2026-05-12T21:07:06+00:00",
+      "age_days": 0.38,
+      "latest_title": "㈜엔씨 ‘아이온2’, 신규 던전 ‘붉은 연심의 거울’ 오늘(13일) 출시 ··· 6월 쇼케이스 예고",
+      "latest_url": "https://bbs.ruliweb.com/news/read/224523",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1196,10 +1196,180 @@
   ],
   "events": [
     {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜엔씨 ‘아이온2’, 신규 던전 ‘붉은 연심의 거울’ 오늘(13일) 출시 ··· 6월 쇼케이스 예고",
+      "url": "https://bbs.ruliweb.com/news/read/224523",
+      "event_at": "2026-05-12T21:07:06+00:00",
+      "event_date": "2026-05-12",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-12",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 8월 27일(목) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/224514",
+      "event_at": "2026-05-12T17:55:54+00:00",
+      "event_date": "2026-05-12",
+      "platform": [
+        "ps5",
+        "xbox",
+        "스위치"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-12",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [
+        "반다이남코"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "빅잼게임즈, 액션 RPG ‘최애캐와 파티가 되어버렸다’ 시즌3 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224512",
+      "event_at": "2026-05-12T16:46:23+00:00",
+      "event_date": "2026-05-12",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-12",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
       "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary/",
+      "event_at": "2026-05-12T08:00:00+00:00",
+      "event_date": "2026-05-12",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-12",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
+      "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary",
       "event_at": "2026-05-12T08:00:00+00:00",
       "event_date": "2026-05-12",
       "platform": [
@@ -1393,6 +1563,123 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
+      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
+      "event_at": "2026-05-11T09:00:00+00:00",
+      "event_date": "2026-05-11",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "genshin"
+      ],
+      "normalized_game_title": "genshin",
+      "edition": "base",
+      "canonical_game_key": "genshin:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "patch_note:genshin:playstation:base:2026-05-11",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
+      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
+      "event_at": "2026-05-11T09:00:00+00:00",
+      "event_date": "2026-05-11",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "genshin"
+      ],
+      "normalized_game_title": "genshin",
+      "edition": "base",
+      "canonical_game_key": "genshin:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:genshin:playstation:base:2026-05-11",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Arty-Facts: Why Two Point Museum’s New DLC is the Most Creative One Yet",
+      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch",
+      "event_at": "2026-05-08T06:00:00+00:00",
+      "event_date": "2026-05-08",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-08",
+      "genre": [],
+      "release": [
+        "launch",
+        "dlc"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
     },
     {
       "source": "Xbox Wire",
@@ -1936,6 +2223,49 @@
       ]
     },
     {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Myst and Riven Remakes launch on PS5 and PS VR2 May 19",
+      "url": "https://blog.playstation.com/2026/05/05/myst-and-riven-remakes-launch-on-ps5-and-ps-vr2-may-19",
+      "event_at": "2026-05-05T07:00:12+00:00",
+      "event_date": "2026-05-05",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-05",
+      "genre": [
+        "adventure",
+        "puzzle"
+      ],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "Pearl Abyss sells CCP back to its CEO for less than half what it paid, plus $20 million in crypto",
@@ -2095,6 +2425,120 @@
     },
     {
       "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "Horizon Hunters Gathering: Second Playtest, new Hunters, Episode, region revealed",
+      "url": "https://blog.playstation.com/2026/05/05/horizon-hunters-gathering-second-playtest-new-hunters-episode-region-revealed",
+      "event_at": "2026-05-05T03:00:11+00:00",
+      "event_date": "2026-05-05",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "horizon"
+      ],
+      "normalized_game_title": "horizon",
+      "edition": "base",
+      "canonical_game_key": "horizon:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "patch_note:horizon:playstation:base:2026-05-05",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Horizon Hunters Gathering: Second Playtest, new Hunters, Episode, region revealed",
+      "url": "https://blog.playstation.com/2026/05/05/horizon-hunters-gathering-second-playtest-new-hunters-episode-region-revealed",
+      "event_at": "2026-05-05T03:00:11+00:00",
+      "event_date": "2026-05-05",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "horizon"
+      ],
+      "normalized_game_title": "horizon",
+      "edition": "base",
+      "canonical_game_key": "horizon:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:horizon:playstation:base:2026-05-05",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Players’ Choice: Vote for April 2026’s best new game",
+      "url": "https://blog.playstation.com/2026/05/04/players-choice-vote-for-april-2026s-best-new-game",
+      "event_at": "2026-05-04T05:01:19+00:00",
+      "event_date": "2026-05-04",
+      "platform": [
+        "playstation",
+        "vr"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-04",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Players’ Choice: Vote for April 2026’s best new game",
       "url": "https://blog.playstation.com/2026/05/04/players-choice-vote-for-april-2026s-best-new-game/",
@@ -2136,6 +2580,46 @@
       "event_model": "release_schedule",
       "title": "Hulk and Black Panther join the fight for MARVEL Tōkon: Fighting Souls",
       "url": "https://blog.playstation.com/2026/05/02/hulk-and-black-panther-join-the-fight-for-marvel-tokon-fighting-souls/",
+      "event_at": "2026-05-02T16:26:11+00:00",
+      "event_date": "2026-05-02",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-02",
+      "genre": [
+        "fighting"
+      ],
+      "release": [
+        "announced",
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Hulk and Black Panther join the fight for MARVEL Tōkon: Fighting Souls",
+      "url": "https://blog.playstation.com/2026/05/02/hulk-and-black-panther-join-the-fight-for-marvel-tokon-fighting-souls",
       "event_at": "2026-05-02T16:26:11+00:00",
       "event_date": "2026-05-02",
       "platform": [],
@@ -2296,6 +2780,56 @@
   "daily_review_items": [
     {
       "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜엔씨 ‘아이온2’, 신규 던전 ‘붉은 연심의 거울’ 오늘(13일) 출시 ··· 6월 쇼케이스 예고",
+      "url": "https://bbs.ruliweb.com/news/read/224523",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-12"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 8월 27일(목) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/224514",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-05-12"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "빅잼게임즈, 액션 RPG ‘최애캐와 파티가 되어버렸다’ 시즌3 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224512",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-12"
+    },
+    {
+      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
@@ -2303,6 +2837,21 @@
       "source": "Xbox Wire",
       "title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
       "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary/",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-05-12"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
+      "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
@@ -2357,95 +2906,32 @@
     },
     {
       "reason": [
+        "missing_required_fields"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
+      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
+      "canonical_game_key": "genshin:playstation:base",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:genshin:playstation:base:2026-05-11"
+    },
+    {
+      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
       "title": "Arty-Facts: Why Two Point Museum’s New DLC is the Most Creative One Yet",
-      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch/",
+      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-05-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "PlayStation records $765m impairment loss from Bungie as operating income falls 41.6% in Q4",
-      "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:playstation:base:2026-05-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "PlayStation records $765m impairment loss from Bungie as operating income falls 41.6% in Q4",
-      "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Nintendo FY sales soar 98.6% to $14.6bn following launch of Switch 2",
-      "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:nintendo:base:2026-05-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Nintendo FY sales soar 98.6% to $14.6bn following launch of Switch 2",
-      "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:nintendo:base:2026-05-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Nintendo hikes Switch 2 prices, revises console costs in Japan, US, Canada, and Europe",
-      "url": "https://www.gamesindustry.biz/nintendo-hikes-switch-2-prices-revises-console-costs-in-japan-us-canada-and-europe",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:nintendo:base:2026-05-07"
     }
   ],
   "source_backlog": {
