@@ -1,65 +1,65 @@
 {
   "date": "2026-05-13",
   "category": "game",
-  "article_count": 525,
+  "article_count": 729,
   "source_count": 33,
-  "matched_count": 525,
+  "matched_count": 729,
   "top_entities": [
     {
       "name": "GameGeneral",
-      "count": 1131
+      "count": 1591
     },
     {
       "name": "SourceSignal",
-      "count": 733
+      "count": 990
     },
     {
       "name": "Platform",
-      "count": 264
+      "count": 331
     },
     {
       "name": "Release",
-      "count": 228
+      "count": 317
     },
     {
       "name": "Genre",
-      "count": 200
+      "count": 281
     },
     {
       "name": "Studio",
-      "count": 108
+      "count": 144
     },
     {
       "name": "GameTitle",
-      "count": 88
+      "count": 123
     },
     {
       "name": "Esports",
-      "count": 12
+      "count": 17
     }
   ],
   "sources": {
-    "게임톡": 53,
-    "Kotaku": 14,
-    "Dot Esports": 12,
-    "Rock Paper Shotgun": 52,
-    "GamesRadar": 33,
-    "Destructoid": 32,
-    "Dexerto": 18,
-    "Push Square": 27,
-    "GameSpot": 17,
+    "게임톡": 58,
+    "루리웹 뉴스": 35,
+    "Dot Esports": 17,
+    "Nintendo Life": 33,
+    "PC Gamer": 66,
+    "GamesRadar": 66,
+    "Push Square": 30,
+    "Kotaku": 16,
+    "Rock Paper Shotgun": 53,
+    "Destructoid": 62,
+    "Dexerto": 34,
+    "GameSpot": 32,
     "Pure Xbox": 27,
-    "게임조선": 13,
-    "PC Gamer": 34,
-    "Nintendo Life": 28,
-    "Game Developer": 24,
-    "Xbox Wire": 12,
-    "Pocket Gamer": 27,
-    "루리웹 뉴스": 20,
-    "VGC": 12,
-    "GamesIndustry.biz": 32,
-    "PlayStation Blog": 5,
-    "IndieGames.com": 3,
+    "게임조선": 12,
+    "Game Developer": 19,
+    "Xbox Wire": 22,
+    "Pocket Gamer": 52,
+    "VGC": 22,
+    "GamesIndustry.biz": 29,
+    "PlayStation Blog": 8,
+    "IndieGames.com": 6,
     "IGN Game Scoop": 1,
     "r/PS5": 3,
     "r/Genshin_Impact": 4,
@@ -73,7 +73,7 @@
     "r/pcgaming": 2,
     "r/lostarkgame": 1
   },
-  "generated_at": "2026-05-13T05:37:40.226591+09:00",
+  "generated_at": "2026-05-13T15:19:07.271260+09:00",
   "articles": [
     {
       "event_model_payload": {
