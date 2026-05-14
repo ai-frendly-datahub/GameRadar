@@ -1,37 +1,37 @@
 {
   "date": "2026-05-14",
   "category": "game",
-  "article_count": 898,
+  "article_count": 902,
   "source_count": 22,
-  "matched_count": 898,
+  "matched_count": 902,
   "top_entities": [
     {
       "name": "GameGeneral",
-      "count": 2036
+      "count": 2042
     },
     {
       "name": "SourceSignal",
-      "count": 1220
+      "count": 1236
     },
     {
       "name": "Platform",
-      "count": 437
+      "count": 438
     },
     {
       "name": "Release",
-      "count": 415
+      "count": 417
     },
     {
       "name": "Genre",
-      "count": 344
+      "count": 343
     },
     {
       "name": "Studio",
-      "count": 206
+      "count": 210
     },
     {
       "name": "GameTitle",
-      "count": 150
+      "count": 151
     },
     {
       "name": "Esports",
@@ -39,9 +39,9 @@
     }
   ],
   "sources": {
-    "게임톡": 77,
+    "게임톡": 79,
     "게임조선": 14,
-    "루리웹 뉴스": 60,
+    "루리웹 뉴스": 64,
     "Destructoid": 80,
     "Push Square": 44,
     "Nintendo Life": 47,
@@ -56,11 +56,11 @@
     "Pure Xbox": 33,
     "Xbox Wire": 24,
     "Game Developer": 16,
-    "Rock Paper Shotgun": 56,
+    "Rock Paper Shotgun": 54,
     "Pocket Gamer": 61,
     "PlayStation Blog": 7,
     "IndieGames.com": 4,
     "IGN Game Scoop": 1
   },
-  "generated_at": "2026-05-14T15:16:46.585105+09:00"
+  "generated_at": "2026-05-14T16:47:30.926650+09:00"
 }
