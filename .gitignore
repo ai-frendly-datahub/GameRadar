@@ -175,11 +175,11 @@ __marimo__/
 
 # Generated workflow artifacts
 .sisyphus/
+data/daily/*.duckdb
+!data/daily/.gitkeep
 data/raw/
 !data/raw/.gitkeep
-data/search_index.db
-data/search_index.db-wal
-data/search_index.db-shm
+data/search_index.db*
 reports/*.html
 !reports/.gitkeep
 docs/reports/*.html

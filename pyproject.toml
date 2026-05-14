@@ -5,7 +5,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "radar"
+name = "gameradar"
 version = "0.1.0"
 description = "게임 뉴스 및 트렌드 수집 분석"
 readme = "README.md"
