@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-05-14T02:29:45.204671+00:00",
+  "generated_at": "2026-05-14T06:16:47.649470+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,13 +15,13 @@
     "skipped_disabled_sources": 11,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 6,
-    "patch_note_events": 11,
-    "release_schedule_events": 29,
-    "actionable_game_event_count": 46,
-    "canonical_game_key_present_count": 9,
-    "missing_canonical_game_key_count": 37,
-    "official_or_trade_event_count": 35,
+    "store_ranking_events": 5,
+    "patch_note_events": 14,
+    "release_schedule_events": 24,
+    "actionable_game_event_count": 43,
+    "canonical_game_key_present_count": 4,
+    "missing_canonical_game_key_count": 39,
+    "official_or_trade_event_count": 23,
     "event_required_field_gap_count": 41,
     "daily_review_item_count": 10
   },
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 21,
-      "event_count": 15,
+      "article_count": 11,
+      "event_count": 5,
       "latest_event_at": "2026-05-13T06:30:11+00:00",
-      "age_days": 0.83,
+      "age_days": 0.99,
       "latest_title": "PlayStation Plus Game Catalog for May: Star Wars Outlaws, Red Dead Redemption 2, Bramble: The Mountain King, The Thaumaturge and more",
       "latest_url": "https://blog.playstation.com/2026/05/13/playstation-plus-game-catalog-for-may-star-wars-outlaws-red-dead-redemption-2-bramble-the-mountain-king-the-thaumaturge-and-more",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 26,
       "event_count": 7,
       "latest_event_at": "2026-05-13T06:00:06+00:00",
-      "age_days": 0.85,
+      "age_days": 1.01,
       "latest_title": "Available for Xbox Insiders: New Xbox Console Updates Bring Updated Boot Up, Gamerscore Badges and More",
       "latest_url": "https://news.xbox.com/en-us/2026/05/13/xbox-insiders-june-2026-console-features",
       "latest_source_signal": [
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 50,
-      "event_count": 13,
+      "article_count": 43,
+      "event_count": 11,
       "latest_event_at": "2026-05-13T08:28:53+00:00",
-      "age_days": 0.75,
+      "age_days": 0.91,
       "latest_title": "\"The old school publishing model is dead\" – Silver Lining Interactive joins the new wave of pick and mix publishers",
       "latest_url": "https://www.gamesindustry.biz/the-old-school-publishing-model-is-dead-silver-lining-interactive-joins-the-new-wave-of-pick-and-mix-publishers",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 74,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 50,
-      "event_count": 11,
-      "latest_event_at": "2026-05-13T16:46:19+00:00",
-      "age_days": 0.41,
-      "latest_title": "㈜넥슨 ‘서든어택’, ‘TAS’ 상향 등 2026 무기개편 2차 업데이트 오늘(14일) 적용",
-      "latest_url": "https://bbs.ruliweb.com/news/read/224560",
+      "article_count": 65,
+      "event_count": 20,
+      "latest_event_at": "2026-05-13T21:14:47+00:00",
+      "age_days": 0.38,
+      "latest_title": "‘목장이야기 Let’s! 바람의 그랜드 바자르’ 한국어판, 5월 28일 (목) 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/224589",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,381 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘목장이야기 Let’s! 바람의 그랜드 바자르’ 한국어판, 5월 28일 (목) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/224589",
+      "event_at": "2026-05-13T21:14:47+00:00",
+      "event_date": "2026-05-13",
+      "platform": [
+        "플레이스테이션",
+        "닌텐도",
+        "스위치"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-05-13",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜넥슨 ‘마비노기’ 22주년 판타지 파티 6월 27일 개최",
+      "url": "https://bbs.ruliweb.com/news/read/224588",
+      "event_at": "2026-05-13T21:05:04+00:00",
+      "event_date": "2026-05-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-13",
+      "genre": [],
+      "release": [
+        "발표",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "라인게임즈, 핵앤슬래시 ‘언디셈버’ 신규 시즌 ‘단조’ 업데이트 오늘(14일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224586",
+      "event_at": "2026-05-13T20:23:11+00:00",
+      "event_date": "2026-05-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-13",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜스튜디오비사이드 '스타세이비어', 메인스토리 EP.5 '날개가 머무는 거리' 오늘(14일) 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224585",
+      "event_at": "2026-05-13T20:15:56+00:00",
+      "event_date": "2026-05-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-13",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "넷마블 신작 ‘왕좌의 게임: 킹스로드’, 오늘(14일) 오후 6시 PC 플랫폼 선공개",
+      "url": "https://bbs.ruliweb.com/news/read/224584",
+      "event_at": "2026-05-13T20:06:25+00:00",
+      "event_date": "2026-05-13",
+      "platform": [
+        "스팀",
+        "에픽게임즈"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-05-13",
+      "genre": [
+        "액션",
+        "rpg",
+        "오픈월드"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "넷마블"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "엔비디아, ‘디렉티브 8020’ 등 최신 게임에 DLSS 적용 확대",
+      "url": "https://bbs.ruliweb.com/news/read/224575",
+      "event_at": "2026-05-13T19:50:00+00:00",
+      "event_date": "2026-05-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "호라이즌"
+      ],
+      "normalized_game_title": "호라이즌",
+      "edition": "base",
+      "canonical_game_key": "호라이즌:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:호라이즌:base:2026-05-13",
+      "genre": [],
+      "release": [
+        "출시",
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜반다이 남코 엔터테인먼트 ‘SD건담 지 제네레이션 이터널’, 지난 13일(수) 썬더볼트 ‘BANDIT FLOWER’ 스토리 이벤트 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224577",
+      "event_at": "2026-05-13T19:00:24+00:00",
+      "event_date": "2026-05-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-13",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "마이크로소프트 Xbox, 새로운 Xbox 콘솔 업데이트: 업데이트된 부팅 화면, 게이머스코어 배지 등 도입",
+      "url": "https://bbs.ruliweb.com/news/read/224576",
+      "event_at": "2026-05-13T19:00:23+00:00",
+      "event_date": "2026-05-13",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:xbox:base:2026-05-13",
+      "genre": [],
+      "release": [
+        "발표",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "마이크로소프트 Xbox, 새로운 Xbox 콘솔 업데이트: 업데이트된 부팅 화면, 게이머스코어 배지 등 도입",
+      "url": "https://bbs.ruliweb.com/news/read/224576",
+      "event_at": "2026-05-13T19:00:23+00:00",
+      "event_date": "2026-05-13",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-13",
+      "genre": [],
+      "release": [
+        "발표",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
@@ -1739,7 +2114,7 @@
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
-      "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary",
+      "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary/",
       "event_at": "2026-05-12T08:00:00+00:00",
       "event_date": "2026-05-12",
       "platform": [
@@ -1779,7 +2154,7 @@
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
-      "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary/",
+      "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary",
       "event_at": "2026-05-12T08:00:00+00:00",
       "event_date": "2026-05-12",
       "platform": [
@@ -1902,7 +2277,7 @@
       "source": "PlayStation Blog",
       "event_model": "patch_note",
       "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
-      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
+      "url": "https://blog.playstation.com/2026/05/11/20260511-gi/",
       "event_at": "2026-05-11T09:00:00+00:00",
       "event_date": "2026-05-11",
       "platform": [],
@@ -1941,7 +2316,7 @@
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
-      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
+      "url": "https://blog.playstation.com/2026/05/11/20260511-gi/",
       "event_at": "2026-05-11T09:00:00+00:00",
       "event_date": "2026-05-11",
       "platform": [],
@@ -1978,7 +2353,7 @@
       "source": "PlayStation Blog",
       "event_model": "patch_note",
       "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
-      "url": "https://blog.playstation.com/2026/05/11/20260511-gi/",
+      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
       "event_at": "2026-05-11T09:00:00+00:00",
       "event_date": "2026-05-11",
       "platform": [],
@@ -2017,7 +2392,7 @@
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
-      "url": "https://blog.playstation.com/2026/05/11/20260511-gi/",
+      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
       "event_at": "2026-05-11T09:00:00+00:00",
       "event_date": "2026-05-11",
       "platform": [],
@@ -2054,7 +2429,7 @@
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "Arty-Facts: Why Two Point Museum’s New DLC is the Most Creative One Yet",
-      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch",
+      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch/",
       "event_at": "2026-05-08T06:00:00+00:00",
       "event_date": "2026-05-08",
       "platform": [
@@ -2095,7 +2470,7 @@
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "Arty-Facts: Why Two Point Museum’s New DLC is the Most Creative One Yet",
-      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch/",
+      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch",
       "event_at": "2026-05-08T06:00:00+00:00",
       "event_date": "2026-05-08",
       "platform": [
@@ -2588,484 +2963,159 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Myst and Riven Remakes launch on PS5 and PS VR2 May 19",
-      "url": "https://blog.playstation.com/2026/05/05/myst-and-riven-remakes-launch-on-ps5-and-ps-vr2-may-19",
-      "event_at": "2026-05-05T07:00:12+00:00",
-      "event_date": "2026-05-05",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-05",
-      "genre": [
-        "adventure",
-        "puzzle"
-      ],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Myst and Riven Remakes launch on PS5 and PS VR2 May 19",
-      "url": "https://blog.playstation.com/2026/05/05/myst-and-riven-remakes-launch-on-ps5-and-ps-vr2-may-19/",
-      "event_at": "2026-05-05T07:00:12+00:00",
-      "event_date": "2026-05-05",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-05",
-      "genre": [
-        "adventure",
-        "puzzle"
-      ],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Pearl Abyss sells CCP back to its CEO for less than half what it paid, plus $20 million in crypto",
-      "url": "https://www.gamesindustry.biz/pearl-abyss-sells-ccp-back-to-its-ceo-for-less-than-half-what-it-paid-plus-20-million-in-crypto",
-      "event_at": "2026-05-05T05:35:06+00:00",
-      "event_date": "2026-05-05",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "store_ranking:base:2026-05-05",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "pearl abyss"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Epic and Disney launch largest IP toolset to date, allowing creators to build Star Wars games in Fortnite",
-      "url": "https://www.gamesindustry.biz/epic-and-disney-launch-largest-ip-toolset-to-date-allowing-devs-to-create-star-wars-games-in-fortnite",
-      "event_at": "2026-05-05T04:09:51+00:00",
-      "event_date": "2026-05-05",
-      "platform": [
-        "epic games"
-      ],
-      "normalized_platform": "epic",
-      "game_title": [
-        "fortnite"
-      ],
-      "normalized_game_title": "fortnite",
-      "edition": "base",
-      "canonical_game_key": "fortnite:epic:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:fortnite:epic:base:2026-05-05",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Horizon Hunters Gathering: Second Playtest, new Hunters, Episode, region revealed",
-      "url": "https://blog.playstation.com/2026/05/05/horizon-hunters-gathering-second-playtest-new-hunters-episode-region-revealed",
-      "event_at": "2026-05-05T03:00:11+00:00",
-      "event_date": "2026-05-05",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "horizon"
-      ],
-      "normalized_game_title": "horizon",
-      "edition": "base",
-      "canonical_game_key": "horizon:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "patch_note:horizon:playstation:base:2026-05-05",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Horizon Hunters Gathering: Second Playtest, new Hunters, Episode, region revealed",
-      "url": "https://blog.playstation.com/2026/05/05/horizon-hunters-gathering-second-playtest-new-hunters-episode-region-revealed",
-      "event_at": "2026-05-05T03:00:11+00:00",
-      "event_date": "2026-05-05",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "horizon"
-      ],
-      "normalized_game_title": "horizon",
-      "edition": "base",
-      "canonical_game_key": "horizon:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:horizon:playstation:base:2026-05-05",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Horizon Hunters Gathering: Second Playtest, new Hunters, Episode, region revealed",
-      "url": "https://blog.playstation.com/2026/05/05/horizon-hunters-gathering-second-playtest-new-hunters-episode-region-revealed/",
-      "event_at": "2026-05-05T03:00:11+00:00",
-      "event_date": "2026-05-05",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "horizon"
-      ],
-      "normalized_game_title": "horizon",
-      "edition": "base",
-      "canonical_game_key": "horizon:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "patch_note:horizon:playstation:base:2026-05-05",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Horizon Hunters Gathering: Second Playtest, new Hunters, Episode, region revealed",
-      "url": "https://blog.playstation.com/2026/05/05/horizon-hunters-gathering-second-playtest-new-hunters-episode-region-revealed/",
-      "event_at": "2026-05-05T03:00:11+00:00",
-      "event_date": "2026-05-05",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "horizon"
-      ],
-      "normalized_game_title": "horizon",
-      "edition": "base",
-      "canonical_game_key": "horizon:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:horizon:playstation:base:2026-05-05",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Players’ Choice – Pragmata voted April 2026’s top new game",
-      "url": "https://blog.playstation.com/2026/05/04/players-choice-vote-for-april-2026s-best-new-game",
-      "event_at": "2026-05-04T05:01:19+00:00",
-      "event_date": "2026-05-04",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-04",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "capcom"
-      ],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Players’ Choice: Vote for April 2026’s best new game",
-      "url": "https://blog.playstation.com/2026/05/04/players-choice-vote-for-april-2026s-best-new-game/",
-      "event_at": "2026-05-04T05:01:19+00:00",
-      "event_date": "2026-05-04",
-      "platform": [
-        "playstation",
-        "vr"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-04",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Hulk and Black Panther join the fight for MARVEL Tōkon: Fighting Souls",
-      "url": "https://blog.playstation.com/2026/05/02/hulk-and-black-panther-join-the-fight-for-marvel-tokon-fighting-souls",
-      "event_at": "2026-05-02T16:26:11+00:00",
-      "event_date": "2026-05-02",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-02",
-      "genre": [
-        "fighting"
-      ],
-      "release": [
-        "announced",
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Hulk and Black Panther join the fight for MARVEL Tōkon: Fighting Souls",
-      "url": "https://blog.playstation.com/2026/05/02/hulk-and-black-panther-join-the-fight-for-marvel-tokon-fighting-souls/",
-      "event_at": "2026-05-02T16:26:11+00:00",
-      "event_date": "2026-05-02",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-02",
-      "genre": [
-        "fighting"
-      ],
-      "release": [
-        "announced",
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘목장이야기 Let’s! 바람의 그랜드 바자르’ 한국어판, 5월 28일 (목) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/224589",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-05-13"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘마비노기’ 22주년 판타지 파티 6월 27일 개최",
+      "url": "https://bbs.ruliweb.com/news/read/224588",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-13"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "라인게임즈, 핵앤슬래시 ‘언디셈버’ 신규 시즌 ‘단조’ 업데이트 오늘(14일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224586",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-13"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜스튜디오비사이드 '스타세이비어', 메인스토리 EP.5 '날개가 머무는 거리' 오늘(14일) 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224585",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-13"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "넷마블 신작 ‘왕좌의 게임: 킹스로드’, 오늘(14일) 오후 6시 PC 플랫폼 선공개",
+      "url": "https://bbs.ruliweb.com/news/read/224584",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-05-13"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "엔비디아, ‘디렉티브 8020’ 등 최신 게임에 DLSS 적용 확대",
+      "url": "https://bbs.ruliweb.com/news/read/224575",
+      "canonical_game_key": "호라이즌:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:호라이즌:base:2026-05-13"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜반다이 남코 엔터테인먼트 ‘SD건담 지 제네레이션 이터널’, 지난 13일(수) 썬더볼트 ‘BANDIT FLOWER’ 스토리 이벤트 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224577",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-13"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "마이크로소프트 Xbox, 새로운 Xbox 콘솔 업데이트: 업데이트된 부팅 화면, 게이머스코어 배지 등 도입",
+      "url": "https://bbs.ruliweb.com/news/read/224576",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:xbox:base:2026-05-13"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "마이크로소프트 Xbox, 새로운 Xbox 콘솔 업데이트: 업데이트된 부팅 화면, 게이머스코어 배지 등 도입",
+      "url": "https://bbs.ruliweb.com/news/read/224576",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-05-13"
+    },
     {
       "reason": [
         "missing_game_title_platform",
@@ -3082,152 +3132,6 @@
         "version"
       ],
       "game_event_key": "patch_note:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘텀블팝: 메모리즈’ 닌텐도 스위치로 발매 예정",
-      "url": "https://bbs.ruliweb.com/news/read/224558",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜넥슨 '메이플스토리', 방탄소년단 진 컬래버 신규 이벤트 보스 오늘(14일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/224556",
-      "canonical_game_key": "메이플스토리:base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:메이플스토리:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "㈜넥슨 '메이플스토리', 방탄소년단 진 컬래버 신규 이벤트 보스 오늘(14일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/224556",
-      "canonical_game_key": "메이플스토리:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:메이플스토리:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "레벨 인피니트 ‘승리의 여신: 니케’, 신규 SSR 니케 ‘민트’ 추가 및 ‘스텔라 블레이드’ 콜라보레이션 캐릭터 기간 한정 복각 오늘(14일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/224554",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "\"The old school publishing model is dead\" – Silver Lining Interactive joins the new wave of pick and mix publishers",
-      "url": "https://www.gamesindustry.biz/the-old-school-publishing-model-is-dead-silver-lining-interactive-joins-the-new-wave-of-pick-and-mix-publishers",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "PlayStation Plus Game Catalog for May: Star Wars Outlaws, Red Dead Redemption 2, Bramble: The Mountain King, The Thaumaturge and more",
-      "url": "https://blog.playstation.com/2026/05/13/playstation-plus-game-catalog-for-may-star-wars-outlaws-red-dead-redemption-2-bramble-the-mountain-king-the-thaumaturge-and-more",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Available for Xbox Insiders: New Xbox Console Updates Bring Updated Boot Up, Gamerscore Badges and More",
-      "url": "https://news.xbox.com/en-us/2026/05/13/xbox-insiders-june-2026-console-features",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Bit Bot scales leadership team with AAA veteran Frank O'Connor as creative director",
-      "url": "https://www.gamesindustry.biz/bit-bot-scales-leadership-team-with-aaa-veteran-frank-oconnor-as-creative-director",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Capcom secures ninth consecutive year of profit boosted by Resident Evil Requiem",
-      "url": "https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:base:2026-05-13"
     }
   ],
   "source_backlog": {

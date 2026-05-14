@@ -1,37 +1,37 @@
 {
   "date": "2026-05-14",
   "category": "game",
-  "article_count": 880,
+  "article_count": 898,
   "source_count": 22,
-  "matched_count": 880,
+  "matched_count": 898,
   "top_entities": [
     {
       "name": "GameGeneral",
-      "count": 1971
+      "count": 2036
     },
     {
       "name": "SourceSignal",
-      "count": 1165
+      "count": 1220
     },
     {
       "name": "Platform",
-      "count": 427
+      "count": 437
     },
     {
       "name": "Release",
-      "count": 401
+      "count": 415
     },
     {
       "name": "Genre",
-      "count": 334
+      "count": 344
     },
     {
       "name": "Studio",
-      "count": 200
+      "count": 206
     },
     {
       "name": "GameTitle",
-      "count": 147
+      "count": 150
     },
     {
       "name": "Esports",
@@ -39,28 +39,28 @@
     }
   ],
   "sources": {
+    "게임톡": 77,
     "게임조선": 14,
-    "게임톡": 71,
-    "루리웹 뉴스": 45,
-    "Nintendo Life": 46,
-    "Push Square": 43,
+    "루리웹 뉴스": 60,
+    "Destructoid": 80,
+    "Push Square": 44,
+    "Nintendo Life": 47,
+    "Dot Esports": 22,
     "GameSpot": 44,
     "PC Gamer": 86,
     "Kotaku": 27,
     "GamesRadar": 95,
-    "GamesIndustry.biz": 31,
+    "GamesIndustry.biz": 29,
     "Dexerto": 44,
-    "Destructoid": 79,
-    "Dot Esports": 21,
     "VGC": 27,
     "Pure Xbox": 33,
     "Xbox Wire": 24,
-    "Game Developer": 18,
-    "Rock Paper Shotgun": 59,
+    "Game Developer": 16,
+    "Rock Paper Shotgun": 56,
     "Pocket Gamer": 61,
     "PlayStation Blog": 7,
     "IndieGames.com": 4,
     "IGN Game Scoop": 1
   },
-  "generated_at": "2026-05-14T11:29:44.232882+09:00"
+  "generated_at": "2026-05-14T15:16:46.585105+09:00"
 }
