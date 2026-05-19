@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-05-14T07:47:31.931657+00:00",
+  "generated_at": "2026-05-19T13:28:01.182979+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 11,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 5,
-    "patch_note_events": 16,
-    "release_schedule_events": 24,
-    "actionable_game_event_count": 45,
-    "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 41,
-    "official_or_trade_event_count": 22,
-    "event_required_field_gap_count": 43,
+    "store_ranking_events": 3,
+    "patch_note_events": 13,
+    "release_schedule_events": 21,
+    "actionable_game_event_count": 37,
+    "canonical_game_key_present_count": 3,
+    "missing_canonical_game_key_count": 34,
+    "official_or_trade_event_count": 14,
+    "event_required_field_gap_count": 34,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 11,
-      "event_count": 5,
-      "latest_event_at": "2026-05-13T06:30:11+00:00",
-      "age_days": 1.05,
-      "latest_title": "PlayStation Plus Game Catalog for May: Star Wars Outlaws, Red Dead Redemption 2, Bramble: The Mountain King, The Thaumaturge and more",
-      "latest_url": "https://blog.playstation.com/2026/05/13/playstation-plus-game-catalog-for-may-star-wars-outlaws-red-dead-redemption-2-bramble-the-mountain-king-the-thaumaturge-and-more",
+      "article_count": 8,
+      "event_count": 3,
+      "latest_event_at": "2026-05-18T05:00:08+00:00",
+      "age_days": 1.35,
+      "latest_title": "Time travel, trials, and treasure awaits in The Adventures of Elliot: The Millennium Tales",
+      "latest_url": "https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 26,
-      "event_count": 7,
-      "latest_event_at": "2026-05-13T06:00:06+00:00",
-      "age_days": 1.07,
-      "latest_title": "Available for Xbox Insiders: New Xbox Console Updates Bring Updated Boot Up, Gamerscore Badges and More",
-      "latest_url": "https://news.xbox.com/en-us/2026/05/13/xbox-insiders-june-2026-console-features",
+      "article_count": 17,
+      "event_count": 6,
+      "latest_event_at": "2026-05-19T04:00:00+00:00",
+      "age_days": 0.39,
+      "latest_title": "Coming to XBOX Game Pass: Forza Horizon 6, Escape Simulator, Jurassic World Evolution 3, and More",
+      "latest_url": "https://news.xbox.com/en-us/2026/05/19/xbox-game-pass-may-2026-wave-2",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 97,
+      "article_count": 117,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 6,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 39,
-      "event_count": 10,
-      "latest_event_at": "2026-05-13T08:28:53+00:00",
-      "age_days": 0.97,
-      "latest_title": "\"The old school publishing model is dead\" – Silver Lining Interactive joins the new wave of pick and mix publishers",
-      "latest_url": "https://www.gamesindustry.biz/the-old-school-publishing-model-is-dead-silver-lining-interactive-joins-the-new-wave-of-pick-and-mix-publishers",
+      "article_count": 31,
+      "event_count": 5,
+      "latest_event_at": "2026-05-19T03:51:12+00:00",
+      "age_days": 0.4,
+      "latest_title": "How Fireshine Games backed a winner with Far Far West",
+      "latest_url": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 69,
+      "article_count": 67,
       "event_count": 23,
-      "latest_event_at": "2026-05-13T21:54:29+00:00",
-      "age_days": 0.41,
-      "latest_title": "넥슨 ‘2026년 1분기 연결 실적’ 발표",
-      "latest_url": "https://bbs.ruliweb.com/news/read/224592",
+      "latest_event_at": "2026-05-18T20:08:29+00:00",
+      "age_days": 0.72,
+      "latest_title": "라인게임즈 ‘창세기전 모바일’, 신규 캐릭터 ‘알프레드 프레데릭’ 오늘(19일) 추가",
+      "latest_url": "https://bbs.ruliweb.com/news/read/224748",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -931,7 +931,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -977,7 +977,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1000,7 +1000,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1023,7 +1023,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1046,7 +1046,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1069,7 +1069,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1092,7 +1092,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1115,7 +1115,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 1,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1138,7 +1138,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1184,7 +1184,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 1,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1195,6 +1195,410 @@
     }
   ],
   "events": [
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Coming to XBOX Game Pass: Forza Horizon 6, Escape Simulator, Jurassic World Evolution 3, and More",
+      "url": "https://news.xbox.com/en-us/2026/05/19/xbox-game-pass-may-2026-wave-2",
+      "event_at": "2026-05-19T04:00:00+00:00",
+      "event_date": "2026-05-19",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "horizon"
+      ],
+      "normalized_game_title": "horizon",
+      "edition": "base",
+      "canonical_game_key": "horizon:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:horizon:xbox:base:2026-05-19",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "How Fireshine Games backed a winner with Far Far West",
+      "url": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
+      "event_at": "2026-05-19T03:51:12+00:00",
+      "event_date": "2026-05-19",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "early-access",
+      "canonical_game_key": "steam:early-access",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:early-access:2026-05-19",
+      "genre": [],
+      "release": [
+        "early access"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "라인게임즈 ‘창세기전 모바일’, 신규 캐릭터 ‘알프레드 프레데릭’ 오늘(19일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/224748",
+      "event_at": "2026-05-18T20:08:29+00:00",
+      "event_date": "2026-05-18",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-18",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘팜파스 & 셀레네(Pampas & Selene: The Maze of Demons)’ NS, PS5 한국어화 패키지 2026년 여름 발매",
+      "url": "https://bbs.ruliweb.com/news/read/224747",
+      "event_at": "2026-05-18T19:38:29+00:00",
+      "event_date": "2026-05-18",
+      "platform": [
+        "플레이스테이션",
+        "ps5",
+        "닌텐도",
+        "스위치"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-18",
+      "genre": [
+        "액션",
+        "어드벤처"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "샌디스크, 옵티머스·포터블 SSD와 ‘FIFA 에디션’ 간담회",
+      "url": "https://bbs.ruliweb.com/news/read/224744",
+      "event_at": "2026-05-18T19:00:00+00:00",
+      "event_date": "2026-05-18",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "fifa"
+      ],
+      "normalized_game_title": "fifa",
+      "edition": "base",
+      "canonical_game_key": "fifa:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:fifa:base:2026-05-18",
+      "genre": [],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "A Tourist’s Guide to Forza Horizon 6, From A Designer’s Perspective",
+      "url": "https://news.xbox.com/en-us/2026/05/18/forza-horizon-6-japan-landmarks-launch-xbox",
+      "event_at": "2026-05-18T06:00:00+00:00",
+      "event_date": "2026-05-18",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "horizon"
+      ],
+      "normalized_game_title": "horizon",
+      "edition": "base",
+      "canonical_game_key": "horizon:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:horizon:xbox:base:2026-05-18",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Time travel, trials, and treasure awaits in The Adventures of Elliot: The Millennium Tales",
+      "url": "https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales",
+      "event_at": "2026-05-18T05:00:08+00:00",
+      "event_date": "2026-05-18",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-18",
+      "genre": [
+        "adventure"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Share of the Week: EA Sports FC 26",
+      "url": "https://blog.playstation.com/2026/05/15/share-of-the-week-ea-sports-fc-26",
+      "event_at": "2026-05-15T07:02:53+00:00",
+      "event_date": "2026-05-15",
+      "platform": [
+        "playstation",
+        "playstation plus"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "fc",
+        "ea sports fc"
+      ],
+      "normalized_game_title": "fc",
+      "edition": "base",
+      "canonical_game_key": "fc:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:fc:playstation:base:2026-05-15",
+      "genre": [
+        "sports"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Square Enix FY26 operating income surges 34.9% despite net sales decline",
+      "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline",
+      "event_at": "2026-05-14T23:31:26+00:00",
+      "event_date": "2026-05-14",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "store_ranking:base:2026-05-14",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "square enix"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "34.9",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Ticket to Ride’s 10th Expansion Arrives, Plus an Exclusive Look to New Horizons!",
+      "url": "https://news.xbox.com/en-us/2026/05/14/ticket-to-ride-round-the-world",
+      "event_at": "2026-05-14T08:00:00+00:00",
+      "event_date": "2026-05-14",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-14",
+      "genre": [],
+      "release": [
+        "expansion"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -1988,7 +2392,7 @@
     {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
-      "title": "Available for Xbox Insiders: New Xbox Console Updates Bring Updated Boot Up, Gamerscore Badges and More",
+      "title": "Available for XBOX Insiders: New XBOX Console Updates Bring Updated Boot Up, Gamerscore Badges and More",
       "url": "https://news.xbox.com/en-us/2026/05/13/xbox-insiders-june-2026-console-features",
       "event_at": "2026-05-13T06:00:06+00:00",
       "event_date": "2026-05-13",
@@ -2314,742 +2718,120 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Discord Nitro subscribers to receive \"starter edition\" of Xbox Game Pass through new partnership",
-      "url": "https://www.gamesindustry.biz/discord-nitro-subscribers-to-receive-starter-edition-of-xbox-game-pass-through-new-partnership",
-      "event_at": "2026-05-12T02:16:44+00:00",
-      "event_date": "2026-05-12",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-12",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Sega reports $31.6m net loss during FY26, cancels 'Super Game' project amid strategic pivot",
-      "url": "https://www.gamesindustry.biz/sega-reports-316m-net-loss-during-fy26-cancels-super-game-project-amid-strategic-pivot",
-      "event_at": "2026-05-12T00:41:40+00:00",
-      "event_date": "2026-05-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "store_ranking:base:2026-05-12",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "sega"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "13.6",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
-      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
-      "event_at": "2026-05-11T09:00:00+00:00",
-      "event_date": "2026-05-11",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "genshin"
-      ],
-      "normalized_game_title": "genshin",
-      "edition": "base",
-      "canonical_game_key": "genshin:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "patch_note:genshin:playstation:base:2026-05-11",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
-      "url": "https://blog.playstation.com/2026/05/11/20260511-gi",
-      "event_at": "2026-05-11T09:00:00+00:00",
-      "event_date": "2026-05-11",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "genshin"
-      ],
-      "normalized_game_title": "genshin",
-      "edition": "base",
-      "canonical_game_key": "genshin:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:genshin:playstation:base:2026-05-11",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
-      "url": "https://blog.playstation.com/2026/05/11/20260511-gi/",
-      "event_at": "2026-05-11T09:00:00+00:00",
-      "event_date": "2026-05-11",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "genshin"
-      ],
-      "normalized_game_title": "genshin",
-      "edition": "base",
-      "canonical_game_key": "genshin:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "patch_note:genshin:playstation:base:2026-05-11",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "(For Southeast Asia) Genshin Impact Version “Luna VII” Introduces Nicole Reeyn, the First Playable Hexenzirkel Member, on May 20!",
-      "url": "https://blog.playstation.com/2026/05/11/20260511-gi/",
-      "event_at": "2026-05-11T09:00:00+00:00",
-      "event_date": "2026-05-11",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "genshin"
-      ],
-      "normalized_game_title": "genshin",
-      "edition": "base",
-      "canonical_game_key": "genshin:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:genshin:playstation:base:2026-05-11",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Arty-Facts: Why Two Point Museum’s New DLC is the Most Creative One Yet",
-      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch/",
-      "event_at": "2026-05-08T06:00:00+00:00",
-      "event_date": "2026-05-08",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-08",
-      "genre": [],
-      "release": [
-        "launch",
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Arty-Facts: Why Two Point Museum’s New DLC is the Most Creative One Yet",
-      "url": "https://news.xbox.com/en-us/2026/05/08/two-point-museum-arty-facts-dlc-launch",
-      "event_at": "2026-05-08T06:00:00+00:00",
-      "event_date": "2026-05-08",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-08",
-      "genre": [],
-      "release": [
-        "launch",
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "PlayStation records $765m impairment loss from Bungie as operating income falls 41.6% in Q4",
-      "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4",
-      "event_at": "2026-05-08T04:44:57+00:00",
-      "event_date": "2026-05-08",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "store_ranking:playstation:base:2026-05-08",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "41.6",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "PlayStation records $765m impairment loss from Bungie as operating income falls 41.6% in Q4",
-      "url": "https://www.gamesindustry.biz/playstation-records-765m-impairment-loss-from-bungie-as-operating-income-falls-416-in-q4",
-      "event_at": "2026-05-08T04:44:57+00:00",
-      "event_date": "2026-05-08",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-08",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "41.6",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Nintendo FY sales soar 98.6% to $14.6bn following launch of Switch 2",
-      "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2",
-      "event_at": "2026-05-08T01:11:17+00:00",
-      "event_date": "2026-05-08",
-      "platform": [
-        "nintendo",
-        "switch",
-        "switch 2"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "store_ranking:nintendo:base:2026-05-08",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "98.6",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Nintendo FY sales soar 98.6% to $14.6bn following launch of Switch 2",
-      "url": "https://www.gamesindustry.biz/nintendo-fy-sales-soar-986-to-146bn-following-launch-of-switch-2",
-      "event_at": "2026-05-08T01:11:17+00:00",
-      "event_date": "2026-05-08",
-      "platform": [
-        "nintendo",
-        "switch",
-        "switch 2"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-05-08",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "98.6",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Nintendo hikes Switch 2 prices, revises console costs in Japan, US, Canada, and Europe",
-      "url": "https://www.gamesindustry.biz/nintendo-hikes-switch-2-prices-revises-console-costs-in-japan-us-canada-and-europe",
-      "event_at": "2026-05-07T22:51:19+00:00",
-      "event_date": "2026-05-07",
-      "platform": [
-        "nintendo",
-        "switch",
-        "switch 2"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-05-07",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘Bluey Quest: 황금펜을 위한 대 모험’ 패키지, 8일(금) 예약판매 개시",
-      "url": "https://bbs.ruliweb.com/news/read/224308",
-      "event_at": "2026-05-06T16:46:22+00:00",
-      "event_date": "2026-05-06",
-      "platform": [
-        "quest"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-05-06",
-      "genre": [
-        "어드벤처"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "나이언틱 ‘몬스터 헌터 나우’, 그룹 사냥 개선 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/224307",
-      "event_at": "2026-05-06T16:32:59+00:00",
-      "event_date": "2026-05-06",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-06",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "엠게임 ‘귀혼M’, 신규 콘텐츠 ‘화신의 탑’ 오늘(7일) 업데이트 및 가정의 달 이벤트 진행 중",
-      "url": "https://bbs.ruliweb.com/news/read/224306",
-      "event_at": "2026-05-06T16:25:23+00:00",
-      "event_date": "2026-05-06",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-06",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Xbox Presents: A Special Look at Stranger Than Heaven – Everything We Learned (Including Snoop Dogg’s Role!)",
-      "url": "https://news.xbox.com/en-us/2026/05/06/stranger-than-heaven-xbox-presents-details-recap-everything-announced/",
-      "event_at": "2026-05-06T14:31:43+00:00",
-      "event_date": "2026-05-06",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-06",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Riding on Community Feedback, Descenders Next Gets Bigger with the Grand Tour Update",
-      "url": "https://news.xbox.com/en-us/2026/05/06/riding-community-feedback-descenders-next-grand-tour-update/",
-      "event_at": "2026-05-06T08:00:00+00:00",
-      "event_date": "2026-05-06",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-06",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "How Fireshine Games backed a winner with Far Far West",
+      "url": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
+      "canonical_game_key": "steam:early-access",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:early-access:2026-05-19"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "라인게임즈 ‘창세기전 모바일’, 신규 캐릭터 ‘알프레드 프레데릭’ 오늘(19일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/224748",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-18"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘팜파스 & 셀레네(Pampas & Selene: The Maze of Demons)’ NS, PS5 한국어화 패키지 2026년 여름 발매",
+      "url": "https://bbs.ruliweb.com/news/read/224747",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-05-18"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "샌디스크, 옵티머스·포터블 SSD와 ‘FIFA 에디션’ 간담회",
+      "url": "https://bbs.ruliweb.com/news/read/224744",
+      "canonical_game_key": "fifa:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:fifa:base:2026-05-18"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Time travel, trials, and treasure awaits in The Adventures of Elliot: The Millennium Tales",
+      "url": "https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-05-18"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "store_ranking",
+      "source": "GamesIndustry.biz",
+      "title": "Square Enix FY26 operating income surges 34.9% despite net sales decline",
+      "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ],
+      "game_event_key": "store_ranking:base:2026-05-14"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Ticket to Ride’s 10th Expansion Arrives, Plus an Exclusive Look to New Horizons!",
+      "url": "https://news.xbox.com/en-us/2026/05/14/ticket-to-ride-round-the-world",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-05-14"
+    },
     {
       "reason": [
         "missing_platform",
@@ -3093,124 +2875,6 @@
       "source": "루리웹 뉴스",
       "title": "라인게임즈 ‘대항해시대 오리진’, 투자 시즌6 ‘격돌하는 지중해’ 지난 13일(수) 업데이트",
       "url": "https://bbs.ruliweb.com/news/read/224590",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘목장이야기 Let’s! 바람의 그랜드 바자르’ 한국어판, 5월 28일 (목) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/224589",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜넥슨 ‘마비노기’ 22주년 판타지 파티 6월 27일 개최",
-      "url": "https://bbs.ruliweb.com/news/read/224588",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "라인게임즈, 핵앤슬래시 ‘언디셈버’ 신규 시즌 ‘단조’ 업데이트 오늘(14일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224586",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜스튜디오비사이드 '스타세이비어', 메인스토리 EP.5 '날개가 머무는 거리' 오늘(14일) 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/224585",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "넷마블 신작 ‘왕좌의 게임: 킹스로드’, 오늘(14일) 오후 6시 PC 플랫폼 선공개",
-      "url": "https://bbs.ruliweb.com/news/read/224584",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "엔비디아, ‘디렉티브 8020’ 등 최신 게임에 DLSS 적용 확대",
-      "url": "https://bbs.ruliweb.com/news/read/224575",
-      "canonical_game_key": "호라이즌:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:호라이즌:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜반다이 남코 엔터테인먼트 ‘SD건담 지 제네레이션 이터널’, 지난 13일(수) 썬더볼트 ‘BANDIT FLOWER’ 스토리 이벤트 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/224577",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
