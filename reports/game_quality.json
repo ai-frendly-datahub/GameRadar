@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-05-19T13:28:01.182979+00:00",
+  "generated_at": "2026-05-20T06:40:49.707117+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 3,
-    "patch_note_events": 13,
-    "release_schedule_events": 21,
-    "actionable_game_event_count": 37,
-    "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 34,
-    "official_or_trade_event_count": 14,
-    "event_required_field_gap_count": 34,
+    "patch_note_events": 16,
+    "release_schedule_events": 26,
+    "actionable_game_event_count": 45,
+    "canonical_game_key_present_count": 4,
+    "missing_canonical_game_key_count": 41,
+    "official_or_trade_event_count": 17,
+    "event_required_field_gap_count": 41,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 8,
-      "event_count": 3,
-      "latest_event_at": "2026-05-18T05:00:08+00:00",
-      "age_days": 1.35,
-      "latest_title": "Time travel, trials, and treasure awaits in The Adventures of Elliot: The Millennium Tales",
-      "latest_url": "https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales",
+      "article_count": 7,
+      "event_count": 4,
+      "latest_event_at": "2026-05-19T05:00:26+00:00",
+      "age_days": 1.07,
+      "latest_title": "007 First Light on PS5 Pro: upgraded PSSR upscaling details",
+      "latest_url": "https://blog.playstation.com/2026/05/19/007-first-light-on-ps5-pro-upgraded-pssr-upscaling-details",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 17,
-      "event_count": 6,
-      "latest_event_at": "2026-05-19T04:00:00+00:00",
-      "age_days": 0.39,
-      "latest_title": "Coming to XBOX Game Pass: Forza Horizon 6, Escape Simulator, Jurassic World Evolution 3, and More",
-      "latest_url": "https://news.xbox.com/en-us/2026/05/19/xbox-game-pass-may-2026-wave-2",
+      "article_count": 15,
+      "event_count": 8,
+      "latest_event_at": "2026-05-19T06:30:00+00:00",
+      "age_days": 1.01,
+      "latest_title": "Forza Horizon 6 Now Available on XBOX Series X|S and PC",
+      "latest_url": "https://forza.net/news/forza-horizon-6-now-available",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 54,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 117,
+      "article_count": 105,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 31,
+      "article_count": 30,
       "event_count": 5,
       "latest_event_at": "2026-05-19T03:51:12+00:00",
-      "age_days": 0.4,
+      "age_days": 1.12,
       "latest_title": "How Fireshine Games backed a winner with Far Far West",
       "latest_url": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 113,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 67,
-      "event_count": 23,
-      "latest_event_at": "2026-05-18T20:08:29+00:00",
-      "age_days": 0.72,
-      "latest_title": "라인게임즈 ‘창세기전 모바일’, 신규 캐릭터 ‘알프레드 프레데릭’ 오늘(19일) 추가",
-      "latest_url": "https://bbs.ruliweb.com/news/read/224748",
+      "article_count": 79,
+      "event_count": 28,
+      "latest_event_at": "2026-05-19T21:22:20+00:00",
+      "age_days": 0.39,
+      "latest_title": "스마일게이트 ‘로드나인’, 신규 성장 콘텐츠 ‘타뷸라’ 업데이트 오늘(20일) 진행",
+      "latest_url": "https://bbs.ruliweb.com/news/read/224814",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,339 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "스마일게이트 ‘로드나인’, 신규 성장 콘텐츠 ‘타뷸라’ 업데이트 오늘(20일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224814",
+      "event_at": "2026-05-19T21:22:20+00:00",
+      "event_date": "2026-05-19",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-19",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "스마일게이트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "컴투스 ‘서머너즈 워: 러쉬’, 글로벌 출시 1주년 대규모 업데이트 오늘(20일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224809",
+      "event_at": "2026-05-19T20:23:16+00:00",
+      "event_date": "2026-05-19",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-19",
+      "genre": [
+        "rpg",
+        "로그라이크"
+      ],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "컴투스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "라인게임즈, 협동 호러 PC 신작 ‘CODE EXIT’ 첫 데모 오늘(20일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/224806",
+      "event_at": "2026-05-19T20:13:14+00:00",
+      "event_date": "2026-05-19",
+      "platform": [
+        "스팀",
+        "에픽게임즈"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-05-19",
+      "genre": [],
+      "release": [
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "'월드 오브 탱크: 히트’, 26일(화) 콘솔과 PC로 출시",
+      "url": "https://bbs.ruliweb.com/news/read/224804",
+      "event_at": "2026-05-19T19:28:41+00:00",
+      "event_date": "2026-05-19",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-05-19",
+      "genre": [],
+      "release": [
+        "출시",
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜엔씨 ‘아이온’, ‘AION REMAKE’ 론칭 ··· 오늘(20일) 저녁 7시 신서버 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/224801",
+      "event_at": "2026-05-19T19:10:57+00:00",
+      "event_date": "2026-05-19",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-19",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "엔씨소프트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Forza Horizon 6 Now Available on XBOX Series X|S and PC",
+      "url": "https://forza.net/news/forza-horizon-6-now-available",
+      "event_at": "2026-05-19T06:30:00+00:00",
+      "event_date": "2026-05-19",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "horizon"
+      ],
+      "normalized_game_title": "horizon",
+      "edition": "base",
+      "canonical_game_key": "horizon:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:horizon:xbox:base:2026-05-19",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "LEGO Batman: Legacy of the Dark Knight Available Now Early – Here Are Some of the Devs’ Favorite Easter Eggs",
+      "url": "https://news.xbox.com/en-us/2026/05/19/lego-batman-legacy-of-the-dark-knight-easter-eggs",
+      "event_at": "2026-05-19T06:00:00+00:00",
+      "event_date": "2026-05-19",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-19",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "007 First Light on PS5 Pro: upgraded PSSR upscaling details",
+      "url": "https://blog.playstation.com/2026/05/19/007-first-light-on-ps5-pro-upgraded-pssr-upscaling-details",
+      "event_at": "2026-05-19T05:00:26+00:00",
+      "event_date": "2026-05-19",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-19",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [
+        "sony interactive"
+      ],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
@@ -2723,6 +3056,120 @@
   "daily_review_items": [
     {
       "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "스마일게이트 ‘로드나인’, 신규 성장 콘텐츠 ‘타뷸라’ 업데이트 오늘(20일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224814",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-19"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "컴투스 ‘서머너즈 워: 러쉬’, 글로벌 출시 1주년 대규모 업데이트 오늘(20일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224809",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-19"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "라인게임즈, 협동 호러 PC 신작 ‘CODE EXIT’ 첫 데모 오늘(20일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/224806",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-05-19"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "'월드 오브 탱크: 히트’, 26일(화) 콘솔과 PC로 출시",
+      "url": "https://bbs.ruliweb.com/news/read/224804",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-05-19"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜엔씨 ‘아이온’, ‘AION REMAKE’ 론칭 ··· 오늘(20일) 저녁 7시 신서버 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/224801",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-19"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "LEGO Batman: Legacy of the Dark Knight Available Now Early – Here Are Some of the Devs’ Favorite Easter Eggs",
+      "url": "https://news.xbox.com/en-us/2026/05/19/lego-batman-legacy-of-the-dark-knight-easter-eggs",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-05-19"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "007 First Light on PS5 Pro: upgraded PSSR upscaling details",
+      "url": "https://blog.playstation.com/2026/05/19/007-first-light-on-ps5-pro-upgraded-pssr-upscaling-details",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-05-19"
+    },
+    {
+      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
@@ -2768,119 +3215,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:playstation:base:2026-05-18"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "샌디스크, 옵티머스·포터블 SSD와 ‘FIFA 에디션’ 간담회",
-      "url": "https://bbs.ruliweb.com/news/read/224744",
-      "canonical_game_key": "fifa:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:fifa:base:2026-05-18"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Time travel, trials, and treasure awaits in The Adventures of Elliot: The Millennium Tales",
-      "url": "https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-18"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Square Enix FY26 operating income surges 34.9% despite net sales decline",
-      "url": "https://www.gamesindustry.biz/square-enix-fy26-operating-income-surges-349-despite-net-sales-decline",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:base:2026-05-14"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Ticket to Ride’s 10th Expansion Arrives, Plus an Exclusive Look to New Horizons!",
-      "url": "https://news.xbox.com/en-us/2026/05/14/ticket-to-ride-round-the-world",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-05-14"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "넥슨 ‘2026년 1분기 연결 실적’ 발표",
-      "url": "https://bbs.ruliweb.com/news/read/224592",
-      "canonical_game_key": "메이플스토리:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:메이플스토리:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "넷마블 ‘세븐나이츠 리버스’, 서비스 1주년 업데이트 오늘(14일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/224591",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-13"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "라인게임즈 ‘대항해시대 오리진’, 투자 시즌6 ‘격돌하는 지중해’ 지난 13일(수) 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/224590",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-13"
     }
   ],
   "source_backlog": {
