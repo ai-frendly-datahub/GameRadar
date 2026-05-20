@@ -138,8 +138,9 @@ class TestLoadCategoryConfig:
         assert "connection reset" in sources["Eurogamer"].notes
         assert sources["게임포커스"].enabled is False
         assert "403/404" in sources["게임포커스"].notes
-        assert sources["VentureBeat Gaming"].enabled is False
-        assert "403" in sources["VentureBeat Gaming"].notes
+        # VentureBeat Gaming was reactivated 2026-05-20 after URL probe confirmed
+        # the gamesbeat.com/feed redirect now returns HTTP 200; assertion removed
+        # so this guard only covers sources still blocked.
         assert sources["Esports Insider"].enabled is False
         assert "resets" in sources["Esports Insider"].notes
         assert sources["The Esports Observer"].enabled is False

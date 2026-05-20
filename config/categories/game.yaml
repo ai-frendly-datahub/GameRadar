@@ -236,10 +236,11 @@ sources:
     event_model: editorial_coverage
 - name: VentureBeat Gaming
   type: rss
-  url: https://venturebeat.com/category/games/feed/
-  enabled: false
-  notes: '2026-04-13 live smoke: current feed probe returns 403 after redirect to
-    GamesBeat. Keep cataloged until a stable public games feed is verified.'
+  url: https://gamesbeat.com/feed/
+  enabled: true
+  notes: '2026-05-20: URL updated to follow venturebeat.com -> gamesbeat.com redirect;
+    probe returned HTTP 200 with application/rss+xml. Previously disabled 2026-04-13
+    when the venturebeat path still resolved to a 403 wall.'
 - name: Dot Esports
   type: rss
   url: https://dotesports.com/feed
