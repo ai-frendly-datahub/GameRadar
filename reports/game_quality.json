@@ -1,28 +1,28 @@
 {
   "category": "game",
-  "generated_at": "2026-05-20T06:40:49.707117+00:00",
+  "generated_at": "2026-05-21T06:43:19.547660+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
-    "enabled_sources": 37,
+    "enabled_sources": 38,
     "tracked_sources": 6,
     "fresh_sources": 4,
     "stale_sources": 0,
     "missing_sources": 0,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
-    "not_tracked_sources": 33,
-    "skipped_disabled_sources": 11,
+    "not_tracked_sources": 34,
+    "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 3,
-    "patch_note_events": 16,
-    "release_schedule_events": 26,
-    "actionable_game_event_count": 45,
+    "store_ranking_events": 1,
+    "patch_note_events": 18,
+    "release_schedule_events": 25,
+    "actionable_game_event_count": 44,
     "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 41,
-    "official_or_trade_event_count": 17,
-    "event_required_field_gap_count": 41,
+    "missing_canonical_game_key_count": 40,
+    "official_or_trade_event_count": 13,
+    "event_required_field_gap_count": 40,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 7,
-      "event_count": 4,
-      "latest_event_at": "2026-05-19T05:00:26+00:00",
-      "age_days": 1.07,
-      "latest_title": "007 First Light on PS5 Pro: upgraded PSSR upscaling details",
-      "latest_url": "https://blog.playstation.com/2026/05/19/007-first-light-on-ps5-pro-upgraded-pssr-upscaling-details",
+      "event_count": 5,
+      "latest_event_at": "2026-05-20T03:00:14+00:00",
+      "age_days": 1.15,
+      "latest_title": "State of Play returns Tuesday, June 2",
+      "latest_url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,10 +103,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 15,
-      "event_count": 8,
+      "article_count": 10,
+      "event_count": 5,
       "latest_event_at": "2026-05-19T06:30:00+00:00",
-      "age_days": 1.01,
+      "age_days": 2.01,
       "latest_title": "Forza Horizon 6 Now Available on XBOX Series X|S and PC",
       "latest_url": "https://forza.net/news/forza-horizon-6-now-available",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 54,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 62,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 105,
+      "article_count": 104,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 30,
-      "event_count": 5,
+      "article_count": 33,
+      "event_count": 3,
       "latest_event_at": "2026-05-19T03:51:12+00:00",
-      "age_days": 1.12,
+      "age_days": 2.12,
       "latest_title": "How Fireshine Games backed a winner with Far Far West",
       "latest_url": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -510,7 +510,7 @@
     {
       "source": "VentureBeat Gaming",
       "source_type": "rss",
-      "enabled": false,
+      "enabled": true,
       "trust_tier": "T3_professional",
       "content_type": "news",
       "collection_tier": "C1_rss",
@@ -520,7 +520,7 @@
       "event_model": "",
       "tracked_event_models": [],
       "freshness_sla_days": null,
-      "status": "skipped_disabled",
+      "status": "not_tracked",
       "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 113,
+      "article_count": 126,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 79,
-      "event_count": 28,
-      "latest_event_at": "2026-05-19T21:22:20+00:00",
-      "age_days": 0.39,
-      "latest_title": "스마일게이트 ‘로드나인’, 신규 성장 콘텐츠 ‘타뷸라’ 업데이트 오늘(20일) 진행",
-      "latest_url": "https://bbs.ruliweb.com/news/read/224814",
+      "event_count": 31,
+      "latest_event_at": "2026-05-20T19:14:20+00:00",
+      "age_days": 0.48,
+      "latest_title": "블로믹스 ‘에오스 블랙’ 신규 성장 시스템 ‘넥클리스’ 도입 및 700일 기념 복구 이벤트 오늘(21일) 시작",
+      "latest_url": "https://bbs.ruliweb.com/news/read/224862",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,344 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "블로믹스 ‘에오스 블랙’ 신규 성장 시스템 ‘넥클리스’ 도입 및 700일 기념 복구 이벤트 오늘(21일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/224862",
+      "event_at": "2026-05-20T19:14:20+00:00",
+      "event_date": "2026-05-20",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-20",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "넷마블 ‘일곱 개의 대죄: GRAND CROSS’, 7주년 기념 ‘Perfect 7’ 레전드 페스티벌 업데이트 오늘(21일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224861",
+      "event_at": "2026-05-20T19:06:19+00:00",
+      "event_date": "2026-05-20",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-20",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넷마블"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘FZ: 포메이션 Z’ PS5, 닌텐도 스위치2, PC 한국어판 오늘(21일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/224858",
+      "event_at": "2026-05-20T17:56:33+00:00",
+      "event_date": "2026-05-20",
+      "platform": [
+        "ps5",
+        "닌텐도",
+        "스위치"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-20",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘테일즈 오브 어라이즈 - Beyond the Dawn 에디션’ 한국어판, 오늘(21일) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/224857",
+      "event_at": "2026-05-20T17:56:31+00:00",
+      "event_date": "2026-05-20",
+      "platform": [
+        "닌텐도",
+        "스위치"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-05-20",
+      "genre": [],
+      "release": [
+        "트레일러"
+      ],
+      "business_signal": [],
+      "studio": [
+        "반다이남코"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "스마일게이트 ‘이프선셋’, 출시 약 1년 만에 스팀 누적 판매량 10만 돌파",
+      "url": "https://bbs.ruliweb.com/news/read/224856",
+      "event_at": "2026-05-20T17:52:52+00:00",
+      "event_date": "2026-05-20",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-05-20",
+      "genre": [
+        "rpg",
+        "오픈월드"
+      ],
+      "release": [
+        "출시",
+        "얼리액세스"
+      ],
+      "business_signal": [],
+      "studio": [
+        "스마일게이트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "에이트스튜디오 ‘정령킹 키우기’, 점핑 월드 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224854",
+      "event_at": "2026-05-20T17:11:19+00:00",
+      "event_date": "2026-05-20",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-20",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "State of Play returns Tuesday, June 2",
+      "url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
+      "event_at": "2026-05-20T03:00:14+00:00",
+      "event_date": "2026-05-20",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-05-20",
+      "genre": [
+        "action",
+        "adventure"
+      ],
+      "release": [
+        "state of play"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "State of Play returns Tuesday, June 2",
+      "url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
+      "event_at": "2026-05-20T03:00:14+00:00",
+      "event_date": "2026-05-20",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-20",
+      "genre": [
+        "action",
+        "adventure"
+      ],
+      "release": [
+        "state of play"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
@@ -2681,379 +3019,140 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "PlayStation Plus Game Catalog for May: Star Wars Outlaws, Red Dead Redemption 2, Bramble: The Mountain King, The Thaumaturge and more",
-      "url": "https://blog.playstation.com/2026/05/13/playstation-plus-game-catalog-for-may-star-wars-outlaws-red-dead-redemption-2-bramble-the-mountain-king-the-thaumaturge-and-more",
-      "event_at": "2026-05-13T06:30:11+00:00",
-      "event_date": "2026-05-13",
-      "platform": [
-        "playstation",
-        "playstation plus"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-13",
-      "genre": [
-        "shooter"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Available for XBOX Insiders: New XBOX Console Updates Bring Updated Boot Up, Gamerscore Badges and More",
-      "url": "https://news.xbox.com/en-us/2026/05/13/xbox-insiders-june-2026-console-features",
-      "event_at": "2026-05-13T06:00:06+00:00",
-      "event_date": "2026-05-13",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-13",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Bit Bot scales leadership team with AAA veteran Frank O'Connor as creative director",
-      "url": "https://www.gamesindustry.biz/bit-bot-scales-leadership-team-with-aaa-veteran-frank-oconnor-as-creative-director",
-      "event_at": "2026-05-13T05:00:00+00:00",
-      "event_date": "2026-05-13",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "store_ranking:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "expansion"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Capcom secures ninth consecutive year of profit boosted by Resident Evil Requiem",
-      "url": "https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem",
-      "event_at": "2026-05-13T00:47:03+00:00",
-      "event_date": "2026-05-13",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "store_ranking:base:2026-05-13",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "capcom"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜엔씨 ‘아이온2’, 신규 던전 ‘붉은 연심의 거울’ 오늘(13일) 출시 ··· 6월 쇼케이스 예고",
-      "url": "https://bbs.ruliweb.com/news/read/224523",
-      "event_at": "2026-05-12T21:07:06+00:00",
-      "event_date": "2026-05-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-12",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 8월 27일(목) 발매",
-      "url": "https://bbs.ruliweb.com/news/read/224514",
-      "event_at": "2026-05-12T17:55:54+00:00",
-      "event_date": "2026-05-12",
-      "platform": [
-        "ps5",
-        "xbox",
-        "스위치"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-12",
-      "genre": [
-        "액션"
-      ],
-      "release": [
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [
-        "반다이남코"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "빅잼게임즈, 액션 RPG ‘최애캐와 파티가 되어버렸다’ 시즌3 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/224512",
-      "event_at": "2026-05-12T16:46:23+00:00",
-      "event_date": "2026-05-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-12",
-      "genre": [
-        "액션",
-        "rpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
-      "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary",
-      "event_at": "2026-05-12T08:00:00+00:00",
-      "event_date": "2026-05-12",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-12",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Little Kitty, Big City Celebrates Two Years of Feline Mischief with a Delightful Birthday Update",
-      "url": "https://news.xbox.com/en-us/2026/05/12/little-kitty-big-city-anniversary/",
-      "event_at": "2026-05-12T08:00:00+00:00",
-      "event_date": "2026-05-12",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-12",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "블로믹스 ‘에오스 블랙’ 신규 성장 시스템 ‘넥클리스’ 도입 및 700일 기념 복구 이벤트 오늘(21일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/224862",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-20"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "넷마블 ‘일곱 개의 대죄: GRAND CROSS’, 7주년 기념 ‘Perfect 7’ 레전드 페스티벌 업데이트 오늘(21일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224861",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-20"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘FZ: 포메이션 Z’ PS5, 닌텐도 스위치2, PC 한국어판 오늘(21일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/224858",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-05-20"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘테일즈 오브 어라이즈 - Beyond the Dawn 에디션’ 한국어판, 오늘(21일) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/224857",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-05-20"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "스마일게이트 ‘이프선셋’, 출시 약 1년 만에 스팀 누적 판매량 10만 돌파",
+      "url": "https://bbs.ruliweb.com/news/read/224856",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-05-20"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "에이트스튜디오 ‘정령킹 키우기’, 점핑 월드 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224854",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-20"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "State of Play returns Tuesday, June 2",
+      "url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:playstation:base:2026-05-20"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "State of Play returns Tuesday, June 2",
+      "url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-05-20"
+    },
     {
       "reason": [
         "missing_game_title_platform",
@@ -3087,134 +3186,6 @@
         "version"
       ],
       "game_event_key": "patch_note:base:2026-05-19"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "라인게임즈, 협동 호러 PC 신작 ‘CODE EXIT’ 첫 데모 오늘(20일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/224806",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-05-19"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "'월드 오브 탱크: 히트’, 26일(화) 콘솔과 PC로 출시",
-      "url": "https://bbs.ruliweb.com/news/read/224804",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-05-19"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜엔씨 ‘아이온’, ‘AION REMAKE’ 론칭 ··· 오늘(20일) 저녁 7시 신서버 오픈",
-      "url": "https://bbs.ruliweb.com/news/read/224801",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-19"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "LEGO Batman: Legacy of the Dark Knight Available Now Early – Here Are Some of the Devs’ Favorite Easter Eggs",
-      "url": "https://news.xbox.com/en-us/2026/05/19/lego-batman-legacy-of-the-dark-knight-easter-eggs",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-05-19"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "007 First Light on PS5 Pro: upgraded PSSR upscaling details",
-      "url": "https://blog.playstation.com/2026/05/19/007-first-light-on-ps5-pro-upgraded-pssr-upscaling-details",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-19"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "How Fireshine Games backed a winner with Far Far West",
-      "url": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
-      "canonical_game_key": "steam:early-access",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:early-access:2026-05-19"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "라인게임즈 ‘창세기전 모바일’, 신규 캐릭터 ‘알프레드 프레데릭’ 오늘(19일) 추가",
-      "url": "https://bbs.ruliweb.com/news/read/224748",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-18"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘팜파스 & 셀레네(Pampas & Selene: The Maze of Demons)’ NS, PS5 한국어화 패키지 2026년 여름 발매",
-      "url": "https://bbs.ruliweb.com/news/read/224747",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-18"
     }
   ],
   "source_backlog": {
