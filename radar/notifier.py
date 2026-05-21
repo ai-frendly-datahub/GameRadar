@@ -9,7 +9,6 @@ from typing import Protocol
 import requests
 import structlog
 
-
 logger = structlog.get_logger(__name__)
 
 
@@ -202,7 +201,7 @@ class WebhookNotifier:
 class CompositeNotifier:
     """Send notifications to multiple notifiers."""
 
-    def __init__(self, notifiers: list[object]) -> None:
+    def __init__(self, notifiers: list[Notifier]) -> None:
         """Initialize composite notifier.
 
         Args:

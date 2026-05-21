@@ -4,7 +4,6 @@ from collections.abc import Iterable
 
 from .models import Article, Source
 
-
 OPERATIONAL_EVENT_MODELS = {
     "patch_note",
     "release_schedule",

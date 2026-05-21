@@ -10,7 +10,6 @@ from typing import Any
 
 from .models import Article, CategoryConfig, Source
 
-
 TRACKED_EVENT_MODEL_ORDER = [
     "steam_chart",
     "store_ranking",
@@ -226,11 +225,8 @@ def _build_event_rows(
         if source is None:
             continue
         event_models = _article_event_models(article, source, tracked_event_models)
-        event_at = (
-            _as_utc(article.published or article.collected_at)
-            if (article.published or article.collected_at)
-            else None
-        )
+        raw_event_at = article.published or article.collected_at
+        event_at = _as_utc(raw_event_at) if raw_event_at is not None else None
         for event_model in event_models:
             rows.append(_event_row(article, source, event_model, event_at, event_contracts))
     return rows
@@ -300,7 +296,9 @@ def _build_source_row(
         if row["source"] == source.name and row["event_model"] in event_models
     ]
     latest_event = _latest_event(source_event_rows)
-    latest_event_at = _parse_datetime(str(latest_event.get("event_at") or "")) if latest_event else None
+    latest_event_at = (
+        _parse_datetime(str(latest_event.get("event_at") or "")) if latest_event else None
+    )
     sla_days = _source_sla_days(source, event_model, freshness_sla)
     age_days = _age_days(generated_at, latest_event_at) if latest_event_at else None
     status = _source_status(
@@ -449,9 +447,9 @@ def _has_event_evidence(article: Article, source: Source, event_model: str) -> b
             return True
         return bool(_matches(article, "GameTitle") or _matches(article, "Platform"))
     if event_model == "store_ranking":
-        return (
-            _has_any_term(haystack, STORE_RANKING_TERMS)
-            and (source.producer_role in {"trade_media", "platform"} or "sales_chart" in source.info_purpose)
+        return _has_any_term(haystack, STORE_RANKING_TERMS) and (
+            source.producer_role in {"trade_media", "platform"}
+            or "sales_chart" in source.info_purpose
         )
     if event_model == "steam_chart":
         return "steam" in haystack and _has_any_term(haystack, STEAM_CHART_TERMS)
@@ -462,11 +460,7 @@ def _event_contracts(quality: Mapping[str, object]) -> Mapping[str, Mapping[str,
     raw = quality.get("event_models")
     if not isinstance(raw, Mapping):
         return {}
-    return {
-        str(key): value
-        for key, value in raw.items()
-        if isinstance(value, Mapping)
-    }
+    return {str(key): value for key, value in raw.items() if isinstance(value, Mapping)}
 
 
 def _daily_review_items(event_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -588,12 +582,16 @@ def _event_key(event_model: str, canonical_game_key: str, event_at: datetime | N
 
 
 def _extract_version(article: Article) -> str:
-    match = re.search(r"\b(?:v(?:ersion)?\s*)?(\d+\.\d+(?:\.\d+)?)\b", _haystack(article), re.IGNORECASE)
+    match = re.search(
+        r"\b(?:v(?:ersion)?\s*)?(\d+\.\d+(?:\.\d+)?)\b", _haystack(article), re.IGNORECASE
+    )
     return match.group(1) if match else ""
 
 
 def _extract_rank(article: Article) -> int | None:
-    match = re.search(r"(?:#|no\.\s*|rank(?:ed|ing)?\s*)(\d{1,3})\b", _haystack(article), re.IGNORECASE)
+    match = re.search(
+        r"(?:#|no\.\s*|rank(?:ed|ing)?\s*)(\d{1,3})\b", _haystack(article), re.IGNORECASE
+    )
     if not match:
         return None
     try:

@@ -39,6 +39,7 @@ def test_select_quality_articles_uses_wider_quality_window() -> None:
     selected = _select_quality_articles(
         storage,
         category_cfg=category_cfg,
+        effective_sources=[source],
         recent_days=1,
         per_source_limit=1,
     )

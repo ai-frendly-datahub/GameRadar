@@ -5,7 +5,7 @@ from collections.abc import Iterable, Mapping
 from datetime import UTC, datetime
 from html import escape
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 from radar_core.ontology import build_summary_ontology_metadata
 from radar_core.report_utils import (
@@ -41,7 +41,7 @@ def generate_report(
     output_path: Path,
     stats: dict[str, int],
     errors: list[str] | None = None,
-    store=None,
+    store: Any = None,
     quality_report: Mapping[str, Any] | None = None,
 ) -> Path:
     """Generate HTML report (delegates to radar-core)."""
@@ -72,7 +72,7 @@ def generate_report(
         output_path=output_path,
         stats=stats,
         errors=errors,
-        plugin_charts=plugin_charts if plugin_charts else None,
+        plugin_charts=cast(Any, plugin_charts if plugin_charts else None),
         ontology_metadata=build_summary_ontology_metadata(
             "GameRadar",
             category_name=category.category_name,

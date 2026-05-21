@@ -1,0 +1,81 @@
+{
+  "repo": "GameRadar",
+  "category": "game",
+  "ontology_version": "0.1.0",
+  "event_model_mappings": {
+    "editorial_coverage": "game.editorial_coverage",
+    "patch_note": "game.patch_note",
+    "release_schedule": "game.release_schedule",
+    "steam_chart": "game.steam_chart",
+    "store_ranking": "game.store_ranking"
+  },
+  "event_model_field_specs": {
+    "editorial_coverage": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags"],
+      "field_enums": {}
+    },
+    "patch_note": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags", "game_id", "platform", "version"],
+      "field_enums": {}
+    },
+    "release_schedule": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags", "game_title", "platform", "release_date"],
+      "field_enums": {}
+    },
+    "steam_chart": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags", "game_id", "platform", "concurrent_players"],
+      "field_enums": {}
+    },
+    "store_ranking": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags", "game_id", "platform", "rank", "market"],
+      "field_enums": {}
+    }
+  },
+  "entity_type_hints": [
+    "game.platform",
+    "game.genre",
+    "game.studio",
+    "game.title",
+    "game.release_signal",
+    "game.esports_signal"
+  ],
+  "source_role_mappings": {
+    "PlayStation Blog": "primary_evidence",
+    "Xbox Wire": "primary_evidence",
+    "Steam News": "primary_evidence",
+    "Nintendo Life": "context_only",
+    "GameSpot": "context_only",
+    "Kotaku": "context_only",
+    "PC Gamer": "context_only",
+    "GamesIndustry.biz": "context_only",
+    "Game Developer": "context_only",
+    "VentureBeat Gaming": "context_only",
+    "게임메카": "context_only",
+    "게임조선": "context_only",
+    "게임톡": "context_only",
+    "루리웹 뉴스": "community_signal",
+    "r/gaming": "community_signal",
+    "r/Games": "community_signal",
+    "r/PS5": "community_signal",
+    "r/XboxSeriesX": "community_signal",
+    "r/NintendoSwitch": "community_signal",
+    "r/pcgaming": "community_signal",
+    "r/IndieGaming": "community_signal",
+    "r/leagueoflegends": "community_signal",
+    "r/VALORANT": "community_signal",
+    "r/Genshin_Impact": "community_signal",
+    "r/lostarkgame": "community_signal",
+    "r/MapleStory": "community_signal"
+  },
+  "evidence_policy_ids": [
+    "game.platform_official_primary",
+    "game.editorial_context_only",
+    "game.community_signal_auxiliary_only",
+    "game.traceable_url_required"
+  ]
+}

@@ -6,7 +6,6 @@ import time
 from unittest.mock import Mock, patch
 
 import pytest
-
 from radar_core import CrawlHealthStore
 
 from radar.collector import RateLimiter, collect_sources
@@ -32,6 +31,9 @@ def _pass_through_manager() -> Mock:
 def test_parallel_collection_reduces_runtime() -> None:
     sources = _build_sources(5)
     manager = _pass_through_manager()
+    active_count = 0
+    max_active_count = 0
+    active_lock = threading.Lock()
 
     def delayed_collect(
         source: Source,
@@ -41,7 +43,15 @@ def test_parallel_collection_reduces_runtime() -> None:
         timeout: int,
         session: object | None = None,
     ) -> list[Article]:
-        time.sleep(0.5)
+        nonlocal active_count, max_active_count
+        with active_lock:
+            active_count += 1
+            max_active_count = max(max_active_count, active_count)
+        try:
+            time.sleep(0.5)
+        finally:
+            with active_lock:
+                active_count -= 1
         return [
             Article(
                 title=f"article-{source.name}",
@@ -64,7 +74,8 @@ def test_parallel_collection_reduces_runtime() -> None:
 
     assert len(articles) == 5
     assert errors == []
-    assert elapsed < 1.4
+    assert max_active_count > 1
+    assert elapsed < 2.8
 
 
 def test_parallel_collection_isolates_source_errors() -> None:

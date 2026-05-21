@@ -5,16 +5,27 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import cast
 
+from radar_core.config_loader import filter_sources
+from radar_core.models import StandardNotificationConfig
+from radar_core.ontology import annotate_articles_with_ontology
+
 from radar.analyzer import apply_entity_rules
 from radar.collector import collect_sources
 from radar.common.validators import validate_article
-from radar.config_loader import load_category_config, load_category_quality_config, load_settings
+from radar.config_loader import (
+    load_category_config,
+    load_category_quality_config,
+    load_notification_config,
+    load_settings,
+)
 from radar.date_storage import apply_date_storage_policy
 from radar.logger import configure_logging, get_logger
+from radar.models import Article, CategoryConfig, Source
 from radar.notifier import (
     CompositeNotifier,
     EmailNotifier,
     NotificationPayload,
+    Notifier,
     WebhookNotifier,
 )
 from radar.quality_report import build_quality_report, write_quality_report
@@ -23,9 +34,6 @@ from radar.relevance import apply_source_context_entities, filter_relevant_artic
 from radar.reporter import generate_index_html, generate_report
 from radar.search_index import SearchIndex
 from radar.storage import RadarStorage
-from radar_core.ontology import annotate_articles_with_ontology
-from radar_core.config_loader import filter_sources
-
 
 logger = get_logger(__name__)
 
@@ -33,11 +41,11 @@ logger = get_logger(__name__)
 def _select_quality_articles(
     storage: RadarStorage,
     *,
-    category_cfg,
-    effective_sources,
+    category_cfg: CategoryConfig,
+    effective_sources: list[Source],
     recent_days: int,
     per_source_limit: int,
-):
+) -> list[Article]:
     """Use a wider window for source-quality coverage than the report body."""
     quality_days = max(recent_days, 14)
     quality_limit = max(1000, per_source_limit * max(len(effective_sources), 1) * 3)
@@ -56,7 +64,7 @@ def _select_quality_articles(
 
 def _send_notifications(
     *,
-    settings: object,
+    notification_config: StandardNotificationConfig,
     category_name: str,
     sources_count: int,
     collected_count: int,
@@ -67,7 +75,7 @@ def _send_notifications(
     """Send notifications if configured.
 
     Args:
-        settings: RadarSettings object with notification config
+        notification_config: Standard notification config
         category_name: Category name
         sources_count: Number of sources
         collected_count: Number of collected articles
@@ -75,38 +83,30 @@ def _send_notifications(
         errors_count: Number of errors
         report_path: Path to generated report
     """
-    from radar.models import RadarSettings
-
-    if not isinstance(settings, RadarSettings):
+    if not notification_config.enabled:
         return
 
-    if (
-        not hasattr(settings, "notifications")
-        or not settings.notifications
-        or not settings.notifications.enabled
-    ):
-        return
+    notifiers: list[Notifier] = []
+    enabled_channels = {channel.lower() for channel in notification_config.channels}
 
-    notifiers: list[object] = []
-
-    # Add email notifier if enabled
-    if settings.notifications.email.enabled:
-        email_notifier: object = EmailNotifier(
-            smtp_host=settings.notifications.email.smtp_host,
-            smtp_port=settings.notifications.email.smtp_port,
-            smtp_user=settings.notifications.email.smtp_user,
-            smtp_password=settings.notifications.email.smtp_password,
-            from_addr=settings.notifications.email.from_addr,
-            to_addrs=settings.notifications.email.to_addrs,
+    email_config = notification_config.email
+    if email_config is not None and (email_config.enabled or "email" in enabled_channels):
+        email_notifier = EmailNotifier(
+            smtp_host=email_config.smtp_host,
+            smtp_port=email_config.smtp_port,
+            smtp_user=email_config.smtp_user,
+            smtp_password=email_config.smtp_password,
+            from_addr=email_config.from_addr,
+            to_addrs=email_config.to_addrs,
         )
         notifiers.append(email_notifier)
 
-    # Add webhook notifier if enabled
-    if settings.notifications.webhook.enabled:
-        webhook_notifier: object = WebhookNotifier(
-            url=settings.notifications.webhook.url,
-            method=settings.notifications.webhook.method,
-            headers=settings.notifications.webhook.headers,
+    webhook_config = notification_config.webhook
+    if webhook_config is not None and (webhook_config.enabled or "webhook" in enabled_channels):
+        webhook_notifier = WebhookNotifier(
+            url=webhook_config.url,
+            method=webhook_config.method,
+            headers=webhook_config.headers,
         )
         notifiers.append(webhook_notifier)
 
@@ -152,6 +152,9 @@ def run(
     """Execute the lightweight collect -> analyze -> report pipeline."""
     configure_logging()
     settings = load_settings(config_path)
+    notification_config = load_notification_config(
+        config_path.parent / "notifications.yaml" if config_path is not None else None
+    )
     category_cfg = load_category_config(category, categories_dir=categories_dir)
     quality_cfg = load_category_quality_config(category, categories_dir=categories_dir)
 
@@ -288,7 +291,7 @@ def run(
 
     # Send notifications if configured
     _send_notifications(
-        settings=settings,
+        notification_config=notification_config,
         category_name=category_cfg.category_name,
         sources_count=len(effective_sources),
         collected_count=len(scoped_articles),
@@ -339,7 +342,7 @@ def parse_args() -> argparse.Namespace:
         "--generate-report",
         action="store_true",
         default=False,
-        help="Generate HTML report after collection",
+        help="Backward-compatible no-op; reports are always generated",
     )
     _ = parser.add_argument(
         "--max-sources",
@@ -376,8 +379,6 @@ def _to_int(value: object, default: int) -> int:
     return default
 
 
-
-
 def _to_optional_int(value: object) -> int | None:
     if value is None:
         return None
@@ -397,6 +398,8 @@ def _to_str_list(value: object) -> list[str]:
     if isinstance(value, list):
         return [str(item) for item in cast(list[object], value) if isinstance(item, str)]
     return []
+
+
 if __name__ == "__main__":
     args = cast(dict[str, object], vars(parse_args()))
     _ = run(

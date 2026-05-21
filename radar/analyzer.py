@@ -8,7 +8,6 @@ from radar_core.common.korean_analyzer import KoreanAnalyzer
 
 from .models import Article, EntityDefinition
 
-
 _korean_analyzer = KoreanAnalyzer()
 
 
@@ -40,9 +39,9 @@ def apply_entity_rules(
     articles: Iterable[Article], entities: list[EntityDefinition]
 ) -> list[Article]:
     analyzed: list[Article] = []
-    normalized_entities: list[
-        tuple[EntityDefinition, list[tuple[str, re.Pattern[str] | None]]]
-    ] = []
+    normalized_entities: list[tuple[EntityDefinition, list[tuple[str, re.Pattern[str] | None]]]] = (
+        []
+    )
     for entity in entities:
         normalized_keywords: list[tuple[str, re.Pattern[str] | None]] = []
         for keyword in entity.keywords:

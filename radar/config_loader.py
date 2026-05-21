@@ -8,13 +8,10 @@ import yaml
 from .models import (
     CategoryConfig,
     EmailConfig,
-    EmailSettings,
     EntityDefinition,
-    NotificationConfig,
     RadarSettings,
     Source,
     StandardNotificationConfig,
-    TelegramSettings,
     WebhookConfig,
 )
 
@@ -151,12 +148,6 @@ def load_settings(config_path: Path | None = None) -> RadarSettings:
         _string_value(raw, "search_db_path", "data/search_index.db"), project_root=project_root
     )
 
-    _ = None
-    notif_raw = raw.get("notifications")
-    if isinstance(notif_raw, dict):
-        notif_dict = cast(dict[object, object], notif_raw)
-        _ = _parse_notifications({str(k): v for k, v in notif_dict.items()})
-
     return RadarSettings(
         database_path=db_path,
         report_dir=report_dir,
@@ -270,11 +261,13 @@ def _parse_entity(entry: dict[str, object]) -> EntityDefinition:
     return EntityDefinition(name=name, display_name=display_name, keywords=keyword_list)
 
 
-def _parse_notifications(raw: dict[str, object]) -> NotificationConfig:
+def _parse_notifications(raw: dict[str, object]) -> StandardNotificationConfig:
     """Parse notification configuration from YAML."""
     enabled = raw.get("enabled", False)
     if not isinstance(enabled, bool):
         enabled = False
+
+    channels = _string_list_value(raw, "channels")
 
     # Parse email config
     email_raw = raw.get("email")
@@ -304,13 +297,21 @@ def _parse_notifications(raw: dict[str, object]) -> NotificationConfig:
     if isinstance(smtp_port_raw, int):
         smtp_port = smtp_port_raw
 
-    _ = EmailConfig(
+    email_config = EmailConfig(
         enabled=email_enabled,
         smtp_host=_string_value(email_dict, "smtp_host", ""),
         smtp_port=smtp_port,
-        smtp_user=_string_value(email_dict, "smtp_user", ""),
+        smtp_user=_string_value(
+            email_dict,
+            "smtp_user",
+            _string_value(email_dict, "username", ""),
+        ),
         smtp_password=email_smtp_password,
-        from_addr=_string_value(email_dict, "from_addr", ""),
+        from_addr=_string_value(
+            email_dict,
+            "from_addr",
+            _string_value(email_dict, "from_address", ""),
+        ),
         to_addrs=email_to_addrs,
     )
 
@@ -333,15 +334,20 @@ def _parse_notifications(raw: dict[str, object]) -> NotificationConfig:
 
     webhook_config = WebhookConfig(
         enabled=webhook_enabled,
-        url=_string_value(webhook_dict, "url", ""),
+        url=_string_value(
+            webhook_dict,
+            "url",
+            _string_value(raw, "webhook_url", ""),
+        ),
         method=_string_value(webhook_dict, "method", "POST"),
         headers=webhook_headers,
     )
 
-    return NotificationConfig(
+    return StandardNotificationConfig(
         enabled=enabled,
-        channels=[],
-        webhook_url=webhook_config.url if webhook_config.enabled else None,
+        channels=channels,
+        email=email_config,
+        webhook=webhook_config,
     )
 
 
@@ -375,56 +381,70 @@ def load_notification_config(
     channels_raw = notifications_dict.get("channels", [])
     channels = [str(c) for c in cast(list[object], channels_raw) if isinstance(c, str)]
 
-    email_settings = None
+    email_config = None
     email_raw = notifications_dict.get("email")
     if isinstance(email_raw, dict):
         email_dict = cast(dict[str, object], _resolve_env_refs(email_raw))
         try:
             smtp_port_raw = email_dict.get("smtp_port", 587)
             smtp_port = int(smtp_port_raw) if isinstance(smtp_port_raw, (int, str)) else 587
-            email_settings = EmailSettings(
+            email_to_addresses = [
+                str(addr)
+                for addr in cast(list[object], email_dict.get("to_addresses", []))
+                if isinstance(addr, str) and addr.strip()
+            ]
+            email_config = EmailConfig(
+                enabled=_bool_value(email_dict, "enabled", "email" in channels),
                 smtp_host=_string_value(email_dict, "smtp_host", ""),
                 smtp_port=smtp_port,
-                username=_string_value(email_dict, "username", ""),
-                password=_string_value(email_dict, "password", ""),
-                from_address=_string_value(email_dict, "from_address", ""),
-                to_addresses=[
-                    str(addr)
-                    for addr in cast(list[object], email_dict.get("to_addresses", []))
-                    if isinstance(addr, str)
-                ],
+                smtp_user=_string_value(
+                    email_dict, "smtp_user", _string_value(email_dict, "username", "")
+                ),
+                smtp_password=_string_value(
+                    email_dict,
+                    "smtp_password",
+                    _string_value(email_dict, "password", ""),
+                ),
+                from_addr=_string_value(
+                    email_dict,
+                    "from_addr",
+                    _string_value(email_dict, "from_address", ""),
+                ),
+                to_addrs=email_to_addresses,
             )
         except (ValueError, KeyError):
-            email_settings = None
+            email_config = None
 
-    webhook_url = None
+    webhook_config = None
     webhook_raw = notifications_dict.get("webhook_url")
     if isinstance(webhook_raw, str):
         resolved = _resolve_env_refs(webhook_raw)
-        webhook_url = str(resolved) if resolved else None
+        webhook_url = str(resolved) if resolved else ""
+        webhook_config = WebhookConfig(
+            enabled="webhook" in channels and bool(webhook_url),
+            url=webhook_url,
+        )
 
-    telegram_settings = None
-    telegram_raw = notifications_dict.get("telegram")
-    if isinstance(telegram_raw, dict):
-        telegram_dict = cast(dict[str, object], _resolve_env_refs(telegram_raw))
-        try:
-            telegram_settings = TelegramSettings(
-                bot_token=_string_value(telegram_dict, "bot_token", ""),
-                chat_id=_string_value(telegram_dict, "chat_id", ""),
-            )
-        except (ValueError, KeyError):
-            telegram_settings = None
-
-    rules_raw = notifications_dict.get("rules", {})
-    rules = (
-        cast(dict[str, object], _resolve_env_refs(rules_raw)) if isinstance(rules_raw, dict) else {}
-    )
+    webhook_object_raw = notifications_dict.get("webhook")
+    if isinstance(webhook_object_raw, dict):
+        webhook_dict = cast(dict[str, object], _resolve_env_refs(webhook_object_raw))
+        webhook_config = WebhookConfig(
+            enabled=_bool_value(webhook_dict, "enabled", "webhook" in channels),
+            url=_string_value(webhook_dict, "url", ""),
+            method=_string_value(webhook_dict, "method", "POST"),
+            headers=(
+                {
+                    str(k): str(v)
+                    for k, v in cast(dict[object, object], webhook_dict.get("headers", {})).items()
+                }
+                if isinstance(webhook_dict.get("headers"), dict)
+                else {}
+            ),
+        )
 
     return StandardNotificationConfig(
         enabled=enabled,
         channels=channels,
-        email=email_settings,
-        webhook_url=webhook_url,
-        telegram=telegram_settings,
-        rules=rules,
+        email=email_config,
+        webhook=webhook_config,
     )

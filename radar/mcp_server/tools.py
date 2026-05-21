@@ -14,7 +14,6 @@ import duckdb
 from radar.nl_query import parse_query
 from radar.search_index import SearchIndex
 
-
 _ALLOWED_SQL = re.compile(r"^\s*(SELECT|WITH|EXPLAIN)\b", re.IGNORECASE)
 
 
@@ -172,8 +171,8 @@ def search_fulltext(
         return f"No articles found matching '{query}'."
 
     lines = [f"Found {len(results)} result(s) for '{query}':"]
-    for idx, result in enumerate(results, 1):
-        lines.append(f"\n{idx}. {result.title}")
+    for result_number, result in enumerate(results, 1):
+        lines.append(f"\n{result_number}. {result.title}")
         lines.append(f"   Link: {result.link}")
         lines.append(f"   Snippet: {result.snippet}")
 

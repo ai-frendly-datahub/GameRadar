@@ -14,6 +14,7 @@ from radar.config_loader import (
     _string_value,
     load_category_config,
     load_category_quality_config,
+    load_notification_config,
     load_settings,
 )
 
@@ -85,6 +86,40 @@ class TestLoadSettings:
 
             assert "radar_data.duckdb" in str(settings.database_path)
             assert "reports" in str(settings.report_dir)
+
+
+class TestLoadNotificationConfig:
+    def test_load_notification_config_parses_standard_yaml(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_file = Path(tmpdir) / "notifications.yaml"
+            config_file.write_text(
+                "notifications:\n"
+                "  enabled: true\n"
+                "  channels: [email, webhook]\n"
+                "  email:\n"
+                "    smtp_host: smtp.example.com\n"
+                "    smtp_port: 2525\n"
+                "    username: bot\n"
+                "    password: secret\n"
+                "    from_address: from@example.com\n"
+                "    to_addresses:\n"
+                "      - to@example.com\n"
+                "  webhook_url: https://example.com/hook\n",
+                encoding="utf-8",
+            )
+
+            config = load_notification_config(config_file)
+
+        assert config.enabled is True
+        assert config.channels == ["email", "webhook"]
+        assert config.email is not None
+        assert config.email.enabled is True
+        assert config.email.smtp_user == "bot"
+        assert config.email.from_addr == "from@example.com"
+        assert config.email.to_addrs == ["to@example.com"]
+        assert config.webhook is not None
+        assert config.webhook.enabled is True
+        assert config.webhook.url == "https://example.com/hook"
 
 
 class TestLoadCategoryConfig:

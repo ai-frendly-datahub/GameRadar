@@ -38,7 +38,7 @@
 ## GitHub Actions & GitHub Pages
 
 - 워크플로: `.github/workflows/radar-crawler.yml`
-  - 스케줄: 매일 00:00 UTC (KST 09:00), 수동 실행도 지원.
+  - 스케줄: 매일 03:00 UTC (KST 12:00), 수동 실행도 지원.
   - 환경 변수 `RADAR_CATEGORY` 값은 `game`입니다.
   - 리포트 배포 디렉터리: `reports` → `gh-pages` 브랜치로 배포.
   - DuckDB 경로: `data/radar_data.duckdb` (Pages에 올라가지 않음). 아티팩트로 7일 보관.

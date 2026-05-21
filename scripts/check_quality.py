@@ -3,14 +3,14 @@
 
 from __future__ import annotations
 
-from datetime import UTC, date, datetime
+import argparse
 import sys
+from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Any
 
 import duckdb
 import yaml
-
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -32,7 +32,9 @@ def _project_path(project_root: Path, raw_path: str | Path) -> Path:
 
 
 def _load_runtime_config(project_root: Path) -> dict[str, Any]:
-    raw = yaml.safe_load((project_root / "config" / "config.yaml").read_text(encoding="utf-8")) or {}
+    raw = (
+        yaml.safe_load((project_root / "config" / "config.yaml").read_text(encoding="utf-8")) or {}
+    )
     return raw if isinstance(raw, dict) else {}
 
 
@@ -123,10 +125,28 @@ def generate_quality_artifacts(
     return paths, report
 
 
-def main() -> None:
-    runtime_config = _load_runtime_config(PROJECT_ROOT)
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run GameRadar DuckDB data quality checks.")
+    parser.add_argument(
+        "--category",
+        default="game",
+        help="Category name to build quality artifacts for.",
+    )
+    parser.add_argument(
+        "--project-root",
+        type=Path,
+        default=PROJECT_ROOT,
+        help="Project root containing config/ and data/ directories.",
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> None:
+    args = parse_args([] if argv is None else argv)
+    project_root = args.project_root.resolve()
+    runtime_config = _load_runtime_config(project_root)
     db_path = _project_path(
-        PROJECT_ROOT,
+        project_root,
         str(runtime_config.get("database_path", "data/radar_data.duckdb")),
     )
     if not db_path.exists():
@@ -148,7 +168,7 @@ def main() -> None:
             date_column="published",
         )
 
-    paths, report = generate_quality_artifacts(PROJECT_ROOT)
+    paths, report = generate_quality_artifacts(project_root, category_name=str(args.category))
     summary = report["summary"]
     print(f"quality_report={paths['latest']}")
     print(f"tracked_sources={summary['tracked_sources']}")
@@ -160,4 +180,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

@@ -23,7 +23,6 @@ from .exceptions import NetworkError, ParseError, SourceError
 from .models import Article, Source
 from .resilience import get_circuit_breaker_manager
 
-
 logger = structlog.get_logger(__name__)
 
 _DEFAULT_HEADERS: dict[str, str] = {
@@ -205,13 +204,10 @@ def collect_sources(
     js_sources = [s for s in enabled_sources if s.type.lower() in _js_types]
     reddit_sources = [s for s in enabled_sources if s.type.lower() in _reddit_types]
     unsupported_sources = [
-        s
-        for s in enabled_sources
-        if s.type.lower() not in {"rss", *_js_types, *_reddit_types}
+        s for s in enabled_sources if s.type.lower() not in {"rss", *_js_types, *_reddit_types}
     ]
     errors.extend(
-        f"{source.name}: Unsupported source type '{source.type}'"
-        for source in unsupported_sources
+        f"{source.name}: Unsupported source type '{source.type}'" for source in unsupported_sources
     )
     source_hosts: dict[str, str] = {
         source.name: (urlparse(source.url).netloc.lower() or source.name) for source in rss_sources

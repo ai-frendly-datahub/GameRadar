@@ -140,12 +140,12 @@ def _call_tool_handler(name: str, arguments: object) -> str:
         category_val = args.get("category")
         category: str | None = str(category_val) if category_val else None
         date_range_val = args.get("date_range_days")
-        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
+        query_date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
         return query_articles(
             db_path=db_path,
             source=source,
             category=category,
-            date_range_days=date_range if date_range and date_range > 0 else None,
+            date_range_days=query_date_range if query_date_range and query_date_range > 0 else None,
             limit=_as_int(args.get("limit"), 50),
         )
     if name == "search_fulltext":
@@ -157,10 +157,10 @@ def _call_tool_handler(name: str, arguments: object) -> str:
         )
     if name == "get_entity_stats":
         date_range_val = args.get("date_range_days")
-        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
+        stats_date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
         return get_entity_stats(
             db_path=db_path,
-            date_range_days=date_range if date_range and date_range > 0 else None,
+            date_range_days=stats_date_range if stats_date_range and stats_date_range > 0 else None,
             limit=_as_int(args.get("limit"), 20),
         )
     if name == "recent_articles":
@@ -171,11 +171,13 @@ def _call_tool_handler(name: str, arguments: object) -> str:
         )
     if name == "export_data":
         date_range_val = args.get("date_range_days")
-        date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
+        export_date_range: int | None = _as_int(date_range_val, -1) if date_range_val else None
         return export_data(
             db_path=db_path,
             format=str(args.get("format", "json")),
-            date_range_days=date_range if date_range and date_range > 0 else None,
+            date_range_days=(
+                export_date_range if export_date_range and export_date_range > 0 else None
+            ),
             limit=_as_int(args.get("limit"), 1000),
         )
     return f"Unknown tool: {name}"

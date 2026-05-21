@@ -148,9 +148,7 @@ def test_build_quality_report_requires_article_level_game_evidence() -> None:
         articles=articles,
         quality_config={
             "data_quality": {
-                "quality_outputs": {
-                    "tracked_event_models": ["patch_note", "release_schedule"]
-                },
+                "quality_outputs": {"tracked_event_models": ["patch_note", "release_schedule"]},
                 "freshness_sla": {"patch_note_days": 7, "release_schedule_days": 7},
             }
         },
@@ -199,9 +197,7 @@ def test_build_quality_report_accepts_korean_release_and_patch_terms() -> None:
         articles=articles,
         quality_config={
             "data_quality": {
-                "quality_outputs": {
-                    "tracked_event_models": ["patch_note", "release_schedule"]
-                },
+                "quality_outputs": {"tracked_event_models": ["patch_note", "release_schedule"]},
                 "freshness_sla": {"patch_note_days": 7, "release_schedule_days": 7},
             }
         },

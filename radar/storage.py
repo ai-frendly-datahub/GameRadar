@@ -3,7 +3,6 @@ from __future__ import annotations
 from pathlib import Path
 
 import duckdb
-
 from radar_core.exceptions import StorageError
 from radar_core.storage import RadarStorage as _CoreRadarStorage
 
@@ -11,7 +10,7 @@ from .date_storage import cleanup_date_directories, snapshot_database
 
 
 class RadarStorage(_CoreRadarStorage):
-    def create_daily_snapshot(self, snapshot_dir: str | None = None):
+    def create_daily_snapshot(self, snapshot_dir: str | None = None) -> Path | None:
         snapshot_root = Path(snapshot_dir) if snapshot_dir else self.db_path.parent / "daily"
         _ = self.conn.execute("CHECKPOINT")
         self.conn.close()

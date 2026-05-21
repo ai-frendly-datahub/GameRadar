@@ -64,9 +64,7 @@ def test_report_generation(
     assert "새로운 AAA 게임" in content
     assert "FPS 게임" in content
 
-    summary_path = next(
-        tmp_path.glob("game_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_summary.json")
-    )
+    summary_path = next(tmp_path.glob("game_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_summary.json"))
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
     assert summary["ontology"]["repo"] == "GameRadar"
     assert summary["ontology"]["ontology_version"] == "0.1.0"

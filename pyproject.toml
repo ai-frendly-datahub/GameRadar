@@ -38,7 +38,7 @@ dependencies = [
     "mcp>=1.0.0",
     "pybreaker>=1.0.0",
     "plotly>=5.14.0",
-    "radar-core",
+    "radar-core>=0.4.0",
 ]
 
 [project.optional-dependencies]
@@ -116,7 +116,6 @@ ignore = [
 [tool.ruff.lint.isort]
 known-first-party = ["radar"]
 force-single-line = false
-lines-after-imports = 2
 
 # Pytest configuration
 [tool.pytest.ini_options]
@@ -178,7 +177,6 @@ show_error_context = true
 [[tool.mypy.overrides]]
 module = [
     "feedparser.*",
-    "bs4.*",
     "duckdb.*",
 ]
 ignore_missing_imports = true

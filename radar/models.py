@@ -15,7 +15,6 @@ from radar_core.models import (
     WebhookConfig,
 )
 
-
 __all__ = [
     "Article",
     "CategoryConfig",
