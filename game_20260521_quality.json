@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-05-21T06:43:19.547660+00:00",
+  "generated_at": "2026-05-21T15:45:42.457173+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 18,
-    "release_schedule_events": 25,
-    "actionable_game_event_count": 44,
+    "patch_note_events": 14,
+    "release_schedule_events": 24,
+    "actionable_game_event_count": 39,
     "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 40,
-    "official_or_trade_event_count": 13,
-    "event_required_field_gap_count": 40,
+    "missing_canonical_game_key_count": 35,
+    "official_or_trade_event_count": 14,
+    "event_required_field_gap_count": 35,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 7,
+      "article_count": 8,
       "event_count": 5,
       "latest_event_at": "2026-05-20T03:00:14+00:00",
-      "age_days": 1.15,
+      "age_days": 1.53,
       "latest_title": "State of Play returns Tuesday, June 2",
       "latest_url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
       "latest_source_signal": [
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 10,
-      "event_count": 5,
-      "latest_event_at": "2026-05-19T06:30:00+00:00",
-      "age_days": 2.01,
-      "latest_title": "Forza Horizon 6 Now Available on XBOX Series X|S and PC",
-      "latest_url": "https://forza.net/news/forza-horizon-6-now-available",
+      "article_count": 11,
+      "event_count": 6,
+      "latest_event_at": "2026-05-21T04:00:00+00:00",
+      "age_days": 0.49,
+      "latest_title": "House Flipper 2: Sakura DLC Offers a Trip to Japan",
+      "latest_url": "https://news.xbox.com/en-us/2026/05/21/house-flipper-2-sakura-dlc",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 33,
+      "article_count": 34,
       "event_count": 3,
-      "latest_event_at": "2026-05-19T03:51:12+00:00",
-      "age_days": 2.12,
-      "latest_title": "How Fireshine Games backed a winner with Far Far West",
-      "latest_url": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
+      "latest_event_at": "2026-05-21T06:03:29+00:00",
+      "age_days": 0.4,
+      "latest_title": "The big Strauss Zelnick interview: GTA, AI, Roblox and building the biggest entertainment company in the world",
+      "latest_url": "https://www.gamesindustry.biz/the-big-strauss-zelnick-interview-gta-ai-roblox-and-building-the-biggest-entertainment-company-in-the-world",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 126,
+      "article_count": 132,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 79,
-      "event_count": 31,
-      "latest_event_at": "2026-05-20T19:14:20+00:00",
-      "age_days": 0.48,
-      "latest_title": "블로믹스 ‘에오스 블랙’ 신규 성장 시스템 ‘넥클리스’ 도입 및 700일 기념 복구 이벤트 오늘(21일) 시작",
-      "latest_url": "https://bbs.ruliweb.com/news/read/224862",
+      "article_count": 68,
+      "event_count": 25,
+      "latest_event_at": "2026-05-21T01:00:00+00:00",
+      "age_days": 0.62,
+      "latest_title": "‘언레일드 2: 백 온 트랙’ 한국어 지원 1.0 버전, 6월 11일(목) 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/224866",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,174 @@
     }
   ],
   "events": [
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "The big Strauss Zelnick interview: GTA, AI, Roblox and building the biggest entertainment company in the world",
+      "url": "https://www.gamesindustry.biz/the-big-strauss-zelnick-interview-gta-ai-roblox-and-building-the-biggest-entertainment-company-in-the-world",
+      "event_at": "2026-05-21T06:03:29+00:00",
+      "event_date": "2026-05-21",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "gta"
+      ],
+      "normalized_game_title": "gta",
+      "edition": "base",
+      "canonical_game_key": "gta:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:gta:base:2026-05-21",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "ubisoft",
+        "take-two"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "House Flipper 2: Sakura DLC Offers a Trip to Japan",
+      "url": "https://news.xbox.com/en-us/2026/05/21/house-flipper-2-sakura-dlc",
+      "event_at": "2026-05-21T04:00:00+00:00",
+      "event_date": "2026-05-21",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-21",
+      "genre": [],
+      "release": [
+        "dlc"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘언레일드 2: 백 온 트랙’ 한국어 지원 1.0 버전, 6월 11일(목) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/224866",
+      "event_at": "2026-05-21T01:00:00+00:00",
+      "event_date": "2026-05-21",
+      "platform": [
+        "nintendo",
+        "switch",
+        "switch 2",
+        "steam"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-05-21",
+      "genre": [
+        "인디"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.0",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "퍼펙트월드 ‘페르소나5: 더 팬텀 X’ P5FES 콜라보 버전 ‘별빛 아래의 모험’ 업데이트 오늘(21일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224873",
+      "event_at": "2026-05-21T00:01:33+00:00",
+      "event_date": "2026-05-21",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-21",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
@@ -2648,380 +2816,72 @@
       "required_field_gaps": [
         "platform"
       ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜반다이 남코 엔터테인먼트 ‘SD건담 지 제네레이션 이터널’, 지난 13일(수) 썬더볼트 ‘BANDIT FLOWER’ 스토리 이벤트 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/224577",
-      "event_at": "2026-05-13T19:00:24+00:00",
-      "event_date": "2026-05-13",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "마이크로소프트 Xbox, 새로운 Xbox 콘솔 업데이트: 업데이트된 부팅 화면, 게이머스코어 배지 등 도입",
-      "url": "https://bbs.ruliweb.com/news/read/224576",
-      "event_at": "2026-05-13T19:00:23+00:00",
-      "event_date": "2026-05-13",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:xbox:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "발표",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "마이크로소프트 Xbox, 새로운 Xbox 콘솔 업데이트: 업데이트된 부팅 화면, 게이머스코어 배지 등 도입",
-      "url": "https://bbs.ruliweb.com/news/read/224576",
-      "event_at": "2026-05-13T19:00:23+00:00",
-      "event_date": "2026-05-13",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "발표",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜넥슨 ‘서든어택’, ‘TAS’ 상향 등 2026 무기개편 2차 업데이트 오늘(14일) 적용",
-      "url": "https://bbs.ruliweb.com/news/read/224560",
-      "event_at": "2026-05-13T16:46:19+00:00",
-      "event_date": "2026-05-13",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-13",
-      "genre": [
-        "fps"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘텀블팝: 메모리즈’ 닌텐도 스위치로 발매 예정",
-      "url": "https://bbs.ruliweb.com/news/read/224558",
-      "event_at": "2026-05-13T16:38:21+00:00",
-      "event_date": "2026-05-13",
-      "platform": [
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜넥슨 '메이플스토리', 방탄소년단 진 컬래버 신규 이벤트 보스 오늘(14일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/224556",
-      "event_at": "2026-05-13T16:28:27+00:00",
-      "event_date": "2026-05-13",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "메이플스토리"
-      ],
-      "normalized_game_title": "메이플스토리",
-      "edition": "base",
-      "canonical_game_key": "메이플스토리:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "patch_note:메이플스토리:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "㈜넥슨 '메이플스토리', 방탄소년단 진 컬래버 신규 이벤트 보스 오늘(14일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/224556",
-      "event_at": "2026-05-13T16:28:27+00:00",
-      "event_date": "2026-05-13",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "메이플스토리"
-      ],
-      "normalized_game_title": "메이플스토리",
-      "edition": "base",
-      "canonical_game_key": "메이플스토리:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:메이플스토리:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "레벨 인피니트 ‘승리의 여신: 니케’, 신규 SSR 니케 ‘민트’ 추가 및 ‘스텔라 블레이드’ 콜라보레이션 캐릭터 기간 한정 복각 오늘(14일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/224554",
-      "event_at": "2026-05-13T16:19:27+00:00",
-      "event_date": "2026-05-13",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "\"The old school publishing model is dead\" – Silver Lining Interactive joins the new wave of pick and mix publishers",
-      "url": "https://www.gamesindustry.biz/the-old-school-publishing-model-is-dead-silver-lining-interactive-joins-the-new-wave-of-pick-and-mix-publishers",
-      "event_at": "2026-05-13T08:28:53+00:00",
-      "event_date": "2026-05-13",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-05-13",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "1.5",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "The big Strauss Zelnick interview: GTA, AI, Roblox and building the biggest entertainment company in the world",
+      "url": "https://www.gamesindustry.biz/the-big-strauss-zelnick-interview-gta-ai-roblox-and-building-the-biggest-entertainment-company-in-the-world",
+      "canonical_game_key": "gta:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:gta:base:2026-05-21"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "House Flipper 2: Sakura DLC Offers a Trip to Japan",
+      "url": "https://news.xbox.com/en-us/2026/05/21/house-flipper-2-sakura-dlc",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-05-21"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘언레일드 2: 백 온 트랙’ 한국어 지원 1.0 버전, 6월 11일(목) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/224866",
+      "canonical_game_key": "nintendo:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:nintendo:base:2026-05-21"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "퍼펙트월드 ‘페르소나5: 더 팬텀 X’ P5FES 콜라보 버전 ‘별빛 아래의 모험’ 업데이트 오늘(21일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/224873",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-21"
+    },
     {
       "reason": [
         "missing_game_title_platform",
@@ -3122,70 +2982,6 @@
         "version"
       ],
       "game_event_key": "patch_note:base:2026-05-20"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "patch_note",
-      "source": "PlayStation Blog",
-      "title": "State of Play returns Tuesday, June 2",
-      "url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "version"
-      ],
-      "game_event_key": "patch_note:playstation:base:2026-05-20"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "State of Play returns Tuesday, June 2",
-      "url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-20"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘로드나인’, 신규 성장 콘텐츠 ‘타뷸라’ 업데이트 오늘(20일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224814",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-19"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "컴투스 ‘서머너즈 워: 러쉬’, 글로벌 출시 1주년 대규모 업데이트 오늘(20일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224809",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-19"
     }
   ],
   "source_backlog": {
