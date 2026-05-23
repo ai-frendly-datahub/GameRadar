@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-05-22T06:41:01.124750+00:00",
+  "generated_at": "2026-05-23T05:59:23.446626+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 0,
-    "patch_note_events": 11,
-    "release_schedule_events": 20,
-    "actionable_game_event_count": 31,
+    "patch_note_events": 12,
+    "release_schedule_events": 21,
+    "actionable_game_event_count": 33,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 28,
-    "official_or_trade_event_count": 11,
-    "event_required_field_gap_count": 28,
+    "missing_canonical_game_key_count": 30,
+    "official_or_trade_event_count": 13,
+    "event_required_field_gap_count": 30,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 4,
-      "event_count": 4,
-      "latest_event_at": "2026-05-20T03:00:14+00:00",
-      "age_days": 2.15,
-      "latest_title": "State of Play returns Tuesday, June 2",
-      "latest_url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
+      "article_count": 7,
+      "event_count": 5,
+      "latest_event_at": "2026-05-22T06:00:56+00:00",
+      "age_days": 1.0,
+      "latest_title": "13 must-play open-world games available with PlayStation Plus Game Catalog",
+      "latest_url": "https://blog.playstation.com/2026/05/22/13-must-play-open-world-games-available-with-playstation-plus-game-catalog",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 11,
-      "event_count": 5,
-      "latest_event_at": "2026-05-21T04:00:00+00:00",
-      "age_days": 1.11,
-      "latest_title": "House Flipper 2: Sakura DLC Offers a Trip to Japan",
-      "latest_url": "https://news.xbox.com/en-us/2026/05/21/house-flipper-2-sakura-dlc",
+      "article_count": 13,
+      "event_count": 6,
+      "latest_event_at": "2026-05-22T09:01:30+00:00",
+      "age_days": 0.87,
+      "latest_title": "Introducing Call of Duty: Mobile Season 5 — Revenge",
+      "latest_url": "https://www.callofduty.com/blog/2026/05/call-of-duty-mobile-season-5-2026-revenge-the-boys",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 122,
+      "article_count": 136,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 2,
       "latest_event_at": "2026-05-21T06:03:29+00:00",
-      "age_days": 1.03,
+      "age_days": 2.0,
       "latest_title": "The big Strauss Zelnick interview: GTA, AI, Roblox and building the biggest entertainment company in the world",
       "latest_url": "https://www.gamesindustry.biz/the-big-strauss-zelnick-interview-gta-ai-roblox-and-building-the-biggest-entertainment-company-in-the-world",
       "latest_source_signal": [
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 121,
+      "article_count": 114,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 71,
+      "article_count": 63,
       "event_count": 20,
-      "latest_event_at": "2026-05-21T20:40:37+00:00",
-      "age_days": 0.42,
-      "latest_title": "스마일게이트 ‘로스트아크’, 세 번째 프리미엄 피규어 ‘니나브’ 오늘(22일) 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/224925",
+      "latest_event_at": "2026-05-22T00:20:00+00:00",
+      "age_days": 1.24,
+      "latest_title": "붉은사막, 1.08.00 패치…신규 시설 ‘연못’",
+      "latest_url": "https://bbs.ruliweb.com/news/read/224931",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,285 @@
     }
   ],
   "events": [
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Introducing Call of Duty: Mobile Season 5 — Revenge",
+      "url": "https://www.callofduty.com/blog/2026/05/call-of-duty-mobile-season-5-2026-revenge-the-boys",
+      "event_at": "2026-05-22T09:01:30+00:00",
+      "event_date": "2026-05-22",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "season-5",
+      "canonical_game_key": "call-of-duty:xbox:season-5",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:season-5:2026-05-22",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Bubsy Returns in Bubsy 4D, A Modern Intergalactic Platforming Adventure, Out Today",
+      "url": "https://news.xbox.com/en-us/2026/05/22/bubsy-4d-xbox-launch",
+      "event_at": "2026-05-22T07:00:00+00:00",
+      "event_date": "2026-05-22",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-22",
+      "genre": [
+        "adventure"
+      ],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "13 must-play open-world games available with PlayStation Plus Game Catalog",
+      "url": "https://blog.playstation.com/2026/05/22/13-must-play-open-world-games-available-with-playstation-plus-game-catalog",
+      "event_at": "2026-05-22T06:00:56+00:00",
+      "event_date": "2026-05-22",
+      "platform": [
+        "playstation",
+        "playstation plus"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-22",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "The sound of the Eclipse: Sam Slater on scoring Saros",
+      "url": "https://blog.playstation.com/2026/05/22/the-sound-of-the-eclipse-sam-slater-on-scoring-saros",
+      "event_at": "2026-05-22T03:00:40+00:00",
+      "event_date": "2026-05-22",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-22",
+      "genre": [
+        "action"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "붉은사막, 1.08.00 패치…신규 시설 ‘연못’",
+      "url": "https://bbs.ruliweb.com/news/read/224931",
+      "event_at": "2026-05-22T00:20:00+00:00",
+      "event_date": "2026-05-22",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-22",
+      "genre": [],
+      "release": [
+        "패치"
+      ],
+      "business_signal": [],
+      "studio": [
+        "펄어비스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.08.00",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "스마일게이트 ‘에픽세븐’, 지난 21일(목) 신규 영웅 ‘이바나’ 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224930",
+      "event_at": "2026-05-21T22:20:47+00:00",
+      "event_date": "2026-05-21",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-05-21",
+      "genre": [
+        "rpg",
+        "턴제"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "스마일게이트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "콘솔 게임 주간 판매 순위 : 26.05.11~26.05.17",
+      "url": "https://bbs.ruliweb.com/news/read/224883",
+      "event_at": "2026-05-21T22:00:00+00:00",
+      "event_date": "2026-05-21",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "마인크래프트"
+      ],
+      "normalized_game_title": "마인크래프트",
+      "edition": "base",
+      "canonical_game_key": "마인크래프트:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:마인크래프트:base:2026-05-21",
+      "genre": [],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "26.05.11",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -2280,211 +2559,103 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "라인게임즈 ‘창세기전 모바일’, 신규 캐릭터 ‘알프레드 프레데릭’ 오늘(19일) 추가",
-      "url": "https://bbs.ruliweb.com/news/read/224748",
-      "event_at": "2026-05-18T20:08:29+00:00",
-      "event_date": "2026-05-18",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-18",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘팜파스 & 셀레네(Pampas & Selene: The Maze of Demons)’ NS, PS5 한국어화 패키지 2026년 여름 발매",
-      "url": "https://bbs.ruliweb.com/news/read/224747",
-      "event_at": "2026-05-18T19:38:29+00:00",
-      "event_date": "2026-05-18",
-      "platform": [
-        "플레이스테이션",
-        "ps5",
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-18",
-      "genre": [
-        "액션",
-        "어드벤처"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "샌디스크, 옵티머스·포터블 SSD와 ‘FIFA 에디션’ 간담회",
-      "url": "https://bbs.ruliweb.com/news/read/224744",
-      "event_at": "2026-05-18T19:00:00+00:00",
-      "event_date": "2026-05-18",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "fifa"
-      ],
-      "normalized_game_title": "fifa",
-      "edition": "base",
-      "canonical_game_key": "fifa:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:fifa:base:2026-05-18",
-      "genre": [],
-      "release": [
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "A Tourist’s Guide to Forza Horizon 6, From A Designer’s Perspective",
-      "url": "https://news.xbox.com/en-us/2026/05/18/forza-horizon-6-japan-landmarks-launch-xbox",
-      "event_at": "2026-05-18T06:00:00+00:00",
-      "event_date": "2026-05-18",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "horizon"
-      ],
-      "normalized_game_title": "horizon",
-      "edition": "base",
-      "canonical_game_key": "horizon:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:horizon:xbox:base:2026-05-18",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Time travel, trials, and treasure awaits in The Adventures of Elliot: The Millennium Tales",
-      "url": "https://blog.playstation.com/2026/05/18/time-travel-trials-and-treasure-awaits-in-the-adventures-of-elliot-the-millennium-tales",
-      "event_at": "2026-05-18T05:00:08+00:00",
-      "event_date": "2026-05-18",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-18",
-      "genre": [
-        "adventure"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Bubsy Returns in Bubsy 4D, A Modern Intergalactic Platforming Adventure, Out Today",
+      "url": "https://news.xbox.com/en-us/2026/05/22/bubsy-4d-xbox-launch",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-05-22"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "13 must-play open-world games available with PlayStation Plus Game Catalog",
+      "url": "https://blog.playstation.com/2026/05/22/13-must-play-open-world-games-available-with-playstation-plus-game-catalog",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-05-22"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "The sound of the Eclipse: Sam Slater on scoring Saros",
+      "url": "https://blog.playstation.com/2026/05/22/the-sound-of-the-eclipse-sam-slater-on-scoring-saros",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-05-22"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "붉은사막, 1.08.00 패치…신규 시설 ‘연못’",
+      "url": "https://bbs.ruliweb.com/news/read/224931",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "patch_note:base:2026-05-22"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "스마일게이트 ‘에픽세븐’, 지난 21일(목) 신규 영웅 ‘이바나’ 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/224930",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-05-21"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "콘솔 게임 주간 판매 순위 : 26.05.11~26.05.17",
+      "url": "https://bbs.ruliweb.com/news/read/224883",
+      "canonical_game_key": "마인크래프트:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:마인크래프트:base:2026-05-21"
+    },
     {
       "reason": [
         "missing_platform",
@@ -2550,103 +2721,6 @@
         "version"
       ],
       "game_event_key": "patch_note:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "The big Strauss Zelnick interview: GTA, AI, Roblox and building the biggest entertainment company in the world",
-      "url": "https://www.gamesindustry.biz/the-big-strauss-zelnick-interview-gta-ai-roblox-and-building-the-biggest-entertainment-company-in-the-world",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "House Flipper 2: Sakura DLC Offers a Trip to Japan",
-      "url": "https://news.xbox.com/en-us/2026/05/21/house-flipper-2-sakura-dlc",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘언레일드 2: 백 온 트랙’ 한국어 지원 1.0 버전, 6월 11일(목) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/224866",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:nintendo:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "퍼펙트월드 ‘페르소나5: 더 팬텀 X’ P5FES 콜라보 버전 ‘별빛 아래의 모험’ 업데이트 오늘(21일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224873",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "블로믹스 ‘에오스 블랙’ 신규 성장 시스템 ‘넥클리스’ 도입 및 700일 기념 복구 이벤트 오늘(21일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/224862",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-20"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "넷마블 ‘일곱 개의 대죄: GRAND CROSS’, 7주년 기념 ‘Perfect 7’ 레전드 페스티벌 업데이트 오늘(21일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224861",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-20"
     }
   ],
   "source_backlog": {
