@@ -1,13 +1,13 @@
 {
   "category": "game",
-  "generated_at": "2026-05-23T05:59:23.446626+00:00",
+  "generated_at": "2026-06-01T08:25:06.995173+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
     "enabled_sources": 38,
     "tracked_sources": 6,
-    "fresh_sources": 4,
-    "stale_sources": 0,
+    "fresh_sources": 3,
+    "stale_sources": 1,
     "missing_sources": 0,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 0,
-    "patch_note_events": 12,
-    "release_schedule_events": 21,
-    "actionable_game_event_count": 33,
-    "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 30,
-    "official_or_trade_event_count": 13,
-    "event_required_field_gap_count": 30,
+    "store_ranking_events": 3,
+    "patch_note_events": 9,
+    "release_schedule_events": 26,
+    "actionable_game_event_count": 38,
+    "canonical_game_key_present_count": 4,
+    "missing_canonical_game_key_count": 34,
+    "official_or_trade_event_count": 23,
+    "event_required_field_gap_count": 34,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 7,
-      "event_count": 5,
-      "latest_event_at": "2026-05-22T06:00:56+00:00",
-      "age_days": 1.0,
-      "latest_title": "13 must-play open-world games available with PlayStation Plus Game Catalog",
-      "latest_url": "https://blog.playstation.com/2026/05/22/13-must-play-open-world-games-available-with-playstation-plus-game-catalog",
+      "article_count": 15,
+      "event_count": 8,
+      "latest_event_at": "2026-05-28T07:00:34+00:00",
+      "age_days": 4.06,
+      "latest_title": "Play NBA The Run open beta on PS5 this weekend",
+      "latest_url": "https://blog.playstation.com/2026/05/28/play-nba-the-run-open-beta-on-ps5-this-weekend",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 13,
-      "event_count": 6,
-      "latest_event_at": "2026-05-22T09:01:30+00:00",
-      "age_days": 0.87,
-      "latest_title": "Introducing Call of Duty: Mobile Season 5 — Revenge",
-      "latest_url": "https://www.callofduty.com/blog/2026/05/call-of-duty-mobile-season-5-2026-revenge-the-boys",
+      "article_count": 20,
+      "event_count": 7,
+      "latest_event_at": "2026-05-29T07:58:06+00:00",
+      "age_days": 3.02,
+      "latest_title": "Matt Booty Talks Games Showcase, Forza, CoD, and More – Official XBOX Podcast",
+      "latest_url": "https://youtu.be/BwYglyND1EA?si=v8seL5QHTv4GsAUr",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 136,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 0,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 24,
-      "event_count": 2,
-      "latest_event_at": "2026-05-21T06:03:29+00:00",
-      "age_days": 2.0,
-      "latest_title": "The big Strauss Zelnick interview: GTA, AI, Roblox and building the biggest entertainment company in the world",
-      "latest_url": "https://www.gamesindustry.biz/the-big-strauss-zelnick-interview-gta-ai-roblox-and-building-the-biggest-entertainment-company-in-the-world",
+      "article_count": 38,
+      "event_count": 8,
+      "latest_event_at": "2026-05-29T00:25:29+00:00",
+      "age_days": 3.33,
+      "latest_title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
+      "latest_url": "https://www.gamesindustry.biz/witcher-3-surpasses-65m-lifetime-sales-as-cd-projekt-announces-third-expansion",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 114,
+      "article_count": 106,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -757,11 +757,11 @@
         "release_schedule"
       ],
       "freshness_sla_days": 7.0,
-      "status": "fresh",
-      "article_count": 63,
-      "event_count": 20,
+      "status": "stale",
+      "article_count": 61,
+      "event_count": 15,
       "latest_event_at": "2026-05-22T00:20:00+00:00",
-      "age_days": 1.24,
+      "age_days": 10.34,
       "latest_title": "붉은사막, 1.08.00 패치…신규 시설 ‘연못’",
       "latest_url": "https://bbs.ruliweb.com/news/read/224931",
       "latest_source_signal": [
@@ -1184,7 +1184,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 1,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1195,6 +1195,697 @@
     }
   ],
   "events": [
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Matt Booty Talks Games Showcase, Forza, CoD, and More – Official XBOX Podcast",
+      "url": "https://youtu.be/BwYglyND1EA?si=v8seL5QHTv4GsAUr",
+      "event_at": "2026-05-29T07:58:06+00:00",
+      "event_date": "2026-05-29",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-29",
+      "genre": [],
+      "release": [
+        "showcase"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Available for XBOX Insiders: Personalize Your Experience with New Color Options, Controller on Screen Settings and More",
+      "url": "https://news.xbox.com/en-us/2026/05/29/xbox-insiders-july-2026-console-features",
+      "event_at": "2026-05-29T07:00:34+00:00",
+      "event_date": "2026-05-29",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-29",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
+      "url": "https://www.gamesindustry.biz/witcher-3-surpasses-65m-lifetime-sales-as-cd-projekt-announces-third-expansion",
+      "event_at": "2026-05-29T00:25:29+00:00",
+      "event_date": "2026-05-29",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "store_ranking:base:2026-05-29",
+      "genre": [],
+      "release": [
+        "announced",
+        "expansion"
+      ],
+      "business_signal": [],
+      "studio": [
+        "cd projekt"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "52.5",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Xbox CEO says it's already seeing positive impacts following Game Pass price cuts",
+      "url": "https://www.gamesindustry.biz/xbox-ceo-says-its-already-seeing-positive-impacts-following-game-pass-price-cuts",
+      "event_at": "2026-05-28T23:17:22+00:00",
+      "event_date": "2026-05-28",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-05-28",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "FIFA announces new \"Digital Football\" vision, an ecosystem of games from multiple publishers and developers",
+      "url": "https://www.gamesindustry.biz/fifa-announces-new-digital-football-vision-an-ecosystem-of-games-from-multiple-publishers-and-developers",
+      "event_at": "2026-05-28T07:24:55+00:00",
+      "event_date": "2026-05-28",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "fifa"
+      ],
+      "normalized_game_title": "fifa",
+      "edition": "base",
+      "canonical_game_key": "fifa:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:fifa:base:2026-05-28",
+      "genre": [
+        "strategy"
+      ],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Watch the Call of Duty: Modern Warfare 4 Reveal Trailer",
+      "url": "https://www.youtube.com/watch?v=xixym-ICJrg",
+      "event_at": "2026-05-28T07:04:56+00:00",
+      "event_date": "2026-05-28",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:base:2026-05-28",
+      "genre": [],
+      "release": [
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Play NBA The Run open beta on PS5 this weekend",
+      "url": "https://blog.playstation.com/2026/05/28/play-nba-the-run-open-beta-on-ps5-this-weekend",
+      "event_at": "2026-05-28T07:00:34+00:00",
+      "event_date": "2026-05-28",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "preview",
+      "canonical_game_key": "playstation:preview",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:preview:2026-05-28",
+      "genre": [],
+      "release": [
+        "beta"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Call of Duty: Modern Warfare 4 — Campaign, Multiplayer, and DMZ launches October 23",
+      "url": "https://blog.playstation.com/2026/05/28/call-of-duty-modern-warfare-4-campaign-multiplayer-and-dmz-launches-october-23",
+      "event_at": "2026-05-28T06:22:12+00:00",
+      "event_date": "2026-05-28",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:playstation:base:2026-05-28",
+      "genre": [
+        "fps"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Call of Duty: Modern Warfare 4 – All Game Editions and Pre-order Benefits Detailed",
+      "url": "https://www.callofduty.com/blog/2026/05/call-of-duty-modern-warfare-4-preorder-benefits-game-editions-details",
+      "event_at": "2026-05-28T06:15:00+00:00",
+      "event_date": "2026-05-28",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:base:2026-05-28",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Valve raises Steam Deck OLED prices by over 40%",
+      "url": "https://www.gamesindustry.biz/valve-raises-steam-deck-oled-prices-by-over-40",
+      "event_at": "2026-05-27T22:41:47+00:00",
+      "event_date": "2026-05-27",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-05-27",
+      "genre": [],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [
+        "valve"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "No Man’s Sky: The Swarm update launches today",
+      "url": "https://blog.playstation.com/2026/05/27/no-mans-sky-the-swarm-update-launches-today",
+      "event_at": "2026-05-27T04:00:44+00:00",
+      "event_date": "2026-05-27",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-05-27",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "No Man’s Sky: The Swarm update launches today",
+      "url": "https://blog.playstation.com/2026/05/27/no-mans-sky-the-swarm-update-launches-today",
+      "event_at": "2026-05-27T04:00:44+00:00",
+      "event_date": "2026-05-27",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-27",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "(For Southeast Asia) Days of Play 2026 begins May 27",
+      "url": "https://blog.playstation.com/2026/05/26/20260527-dop",
+      "event_at": "2026-05-26T17:02:57+00:00",
+      "event_date": "2026-05-26",
+      "platform": [
+        "playstation",
+        "playstation plus"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-26",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "MLB The Show Mobile launches globally today",
+      "url": "https://blog.playstation.com/2026/05/26/mlb-the-show-mobile-launches-globally-today",
+      "event_at": "2026-05-26T08:30:47+00:00",
+      "event_date": "2026-05-26",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-05-26",
+      "genre": [
+        "action"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Nintendo reportedly planning 20% production increase for Switch 2",
+      "url": "https://www.gamesindustry.biz/nintendo-reportedly-planning-20-production-increase-for-switch-2",
+      "event_at": "2026-05-26T00:51:47+00:00",
+      "event_date": "2026-05-26",
+      "platform": [
+        "nintendo",
+        "switch",
+        "switch 2"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "store_ranking:nintendo:base:2026-05-26",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "16.9",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Nintendo reportedly planning 20% production increase for Switch 2",
+      "url": "https://www.gamesindustry.biz/nintendo-reportedly-planning-20-production-increase-for-switch-2",
+      "event_at": "2026-05-26T00:51:47+00:00",
+      "event_date": "2026-05-26",
+      "platform": [
+        "nintendo",
+        "switch",
+        "switch 2"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-05-26",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "16.9",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Microsoft agrees to pay $250m to settle lawsuit over Activision Blizzard deal",
+      "url": "https://www.gamesindustry.biz/microsoft-agrees-to-pay-250m-to-settle-lawsuit-over-activision-blizzard-deal",
+      "event_at": "2026-05-25T23:46:24+00:00",
+      "event_date": "2026-05-25",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "store_ranking:base:2026-05-25",
+      "genre": [
+        "action"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "activision",
+        "blizzard"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ]
+    },
     {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
@@ -2066,499 +2757,6 @@
         "platform",
         "version"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "State of Play returns Tuesday, June 2",
-      "url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
-      "event_at": "2026-05-20T03:00:14+00:00",
-      "event_date": "2026-05-20",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-05-20",
-      "genre": [
-        "action",
-        "adventure"
-      ],
-      "release": [
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "State of Play returns Tuesday, June 2",
-      "url": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2",
-      "event_at": "2026-05-20T03:00:14+00:00",
-      "event_date": "2026-05-20",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-20",
-      "genre": [
-        "action",
-        "adventure"
-      ],
-      "release": [
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "스마일게이트 ‘로드나인’, 신규 성장 콘텐츠 ‘타뷸라’ 업데이트 오늘(20일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224814",
-      "event_at": "2026-05-19T21:22:20+00:00",
-      "event_date": "2026-05-19",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-19",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "스마일게이트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "컴투스 ‘서머너즈 워: 러쉬’, 글로벌 출시 1주년 대규모 업데이트 오늘(20일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224809",
-      "event_at": "2026-05-19T20:23:16+00:00",
-      "event_date": "2026-05-19",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-19",
-      "genre": [
-        "rpg",
-        "로그라이크"
-      ],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "컴투스"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "라인게임즈, 협동 호러 PC 신작 ‘CODE EXIT’ 첫 데모 오늘(20일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/224806",
-      "event_at": "2026-05-19T20:13:14+00:00",
-      "event_date": "2026-05-19",
-      "platform": [
-        "스팀",
-        "에픽게임즈"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-05-19",
-      "genre": [],
-      "release": [
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "'월드 오브 탱크: 히트’, 26일(화) 콘솔과 PC로 출시",
-      "url": "https://bbs.ruliweb.com/news/read/224804",
-      "event_at": "2026-05-19T19:28:41+00:00",
-      "event_date": "2026-05-19",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-05-19",
-      "genre": [],
-      "release": [
-        "출시",
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜엔씨 ‘아이온’, ‘AION REMAKE’ 론칭 ··· 오늘(20일) 저녁 7시 신서버 오픈",
-      "url": "https://bbs.ruliweb.com/news/read/224801",
-      "event_at": "2026-05-19T19:10:57+00:00",
-      "event_date": "2026-05-19",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-19",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "엔씨소프트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Forza Horizon 6 Now Available on XBOX Series X|S and PC",
-      "url": "https://forza.net/news/forza-horizon-6-now-available",
-      "event_at": "2026-05-19T06:30:00+00:00",
-      "event_date": "2026-05-19",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "horizon"
-      ],
-      "normalized_game_title": "horizon",
-      "edition": "base",
-      "canonical_game_key": "horizon:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:horizon:xbox:base:2026-05-19",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "LEGO Batman: Legacy of the Dark Knight Available Now Early – Here Are Some of the Devs’ Favorite Easter Eggs",
-      "url": "https://news.xbox.com/en-us/2026/05/19/lego-batman-legacy-of-the-dark-knight-easter-eggs",
-      "event_at": "2026-05-19T06:00:00+00:00",
-      "event_date": "2026-05-19",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-19",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "007 First Light on PS5 Pro: upgraded PSSR upscaling details",
-      "url": "https://blog.playstation.com/2026/05/19/007-first-light-on-ps5-pro-upgraded-pssr-upscaling-details",
-      "event_at": "2026-05-19T05:00:26+00:00",
-      "event_date": "2026-05-19",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-19",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "sony interactive"
-      ],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Coming to XBOX Game Pass: Forza Horizon 6, Escape Simulator, Jurassic World Evolution 3, and More",
-      "url": "https://news.xbox.com/en-us/2026/05/19/xbox-game-pass-may-2026-wave-2",
-      "event_at": "2026-05-19T04:00:00+00:00",
-      "event_date": "2026-05-19",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "horizon"
-      ],
-      "normalized_game_title": "horizon",
-      "edition": "base",
-      "canonical_game_key": "horizon:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:horizon:xbox:base:2026-05-19",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "How Fireshine Games backed a winner with Far Far West",
-      "url": "https://www.gamesindustry.biz/how-fireshine-games-backed-a-winner-with-far-far-west",
-      "event_at": "2026-05-19T03:51:12+00:00",
-      "event_date": "2026-05-19",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "early-access",
-      "canonical_game_key": "steam:early-access",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:early-access:2026-05-19",
-      "genre": [],
-      "release": [
-        "early access"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2569,13 +2767,75 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Bubsy Returns in Bubsy 4D, A Modern Intergalactic Platforming Adventure, Out Today",
-      "url": "https://news.xbox.com/en-us/2026/05/22/bubsy-4d-xbox-launch",
+      "title": "Matt Booty Talks Games Showcase, Forza, CoD, and More – Official XBOX Podcast",
+      "url": "https://youtu.be/BwYglyND1EA?si=v8seL5QHTv4GsAUr",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-05-22"
+      "game_event_key": "release_schedule:xbox:base:2026-05-29"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Available for XBOX Insiders: Personalize Your Experience with New Color Options, Controller on Screen Settings and More",
+      "url": "https://news.xbox.com/en-us/2026/05/29/xbox-insiders-july-2026-console-features",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-05-29"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "store_ranking",
+      "source": "GamesIndustry.biz",
+      "title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
+      "url": "https://www.gamesindustry.biz/witcher-3-surpasses-65m-lifetime-sales-as-cd-projekt-announces-third-expansion",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ],
+      "game_event_key": "store_ranking:base:2026-05-29"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Xbox CEO says it's already seeing positive impacts following Game Pass price cuts",
+      "url": "https://www.gamesindustry.biz/xbox-ceo-says-its-already-seeing-positive-impacts-following-game-pass-price-cuts",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-05-28"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "FIFA announces new \"Digital Football\" vision, an ecosystem of games from multiple publishers and developers",
+      "url": "https://www.gamesindustry.biz/fifa-announces-new-digital-football-vision-an-ecosystem-of-games-from-multiple-publishers-and-developers",
+      "canonical_game_key": "fifa:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:fifa:base:2026-05-28"
     },
     {
       "reason": [
@@ -2584,13 +2844,43 @@
       ],
       "event_model": "release_schedule",
       "source": "PlayStation Blog",
-      "title": "13 must-play open-world games available with PlayStation Plus Game Catalog",
-      "url": "https://blog.playstation.com/2026/05/22/13-must-play-open-world-games-available-with-playstation-plus-game-catalog",
-      "canonical_game_key": "playstation:base",
+      "title": "Play NBA The Run open beta on PS5 this weekend",
+      "url": "https://blog.playstation.com/2026/05/28/play-nba-the-run-open-beta-on-ps5-this-weekend",
+      "canonical_game_key": "playstation:preview",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-22"
+      "game_event_key": "release_schedule:playstation:preview:2026-05-28"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Valve raises Steam Deck OLED prices by over 40%",
+      "url": "https://www.gamesindustry.biz/valve-raises-steam-deck-oled-prices-by-over-40",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-05-27"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "No Man’s Sky: The Swarm update launches today",
+      "url": "https://blog.playstation.com/2026/05/27/no-mans-sky-the-swarm-update-launches-today",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:playstation:base:2026-05-27"
     },
     {
       "reason": [
@@ -2599,128 +2889,28 @@
       ],
       "event_model": "release_schedule",
       "source": "PlayStation Blog",
-      "title": "The sound of the Eclipse: Sam Slater on scoring Saros",
-      "url": "https://blog.playstation.com/2026/05/22/the-sound-of-the-eclipse-sam-slater-on-scoring-saros",
+      "title": "No Man’s Sky: The Swarm update launches today",
+      "url": "https://blog.playstation.com/2026/05/27/no-mans-sky-the-swarm-update-launches-today",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-22"
+      "game_event_key": "release_schedule:playstation:base:2026-05-27"
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "붉은사막, 1.08.00 패치…신규 시설 ‘연못’",
-      "url": "https://bbs.ruliweb.com/news/read/224931",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "patch_note:base:2026-05-22"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘에픽세븐’, 지난 21일(목) 신규 영웅 ‘이바나’ 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/224930",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_game_title",
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "콘솔 게임 주간 판매 순위 : 26.05.11~26.05.17",
-      "url": "https://bbs.ruliweb.com/news/read/224883",
-      "canonical_game_key": "마인크래프트:base",
+      "source": "PlayStation Blog",
+      "title": "(For Southeast Asia) Days of Play 2026 begins May 27",
+      "url": "https://blog.playstation.com/2026/05/26/20260527-dop",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
-        "platform"
+        "game_title"
       ],
-      "game_event_key": "release_schedule:마인크래프트:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘로스트아크’, 세 번째 프리미엄 피규어 ‘니나브’ 오늘(22일) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/224925",
-      "canonical_game_key": "로스트아크:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:로스트아크:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜카카오게임즈 ‘우마무스메 프리티 더비’ 밸런타인 의상 육성 우마무스메 업데이트 오늘(22일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224922",
-      "canonical_game_key": "우마무스메:base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:우마무스메:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "㈜카카오게임즈 ‘우마무스메 프리티 더비’ 밸런타인 의상 육성 우마무스메 업데이트 오늘(22일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224922",
-      "canonical_game_key": "우마무스메:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:우마무스메:base:2026-05-21"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜빅픽처인터렉티브 PC방 관리 프로그램, PC방 관리 프로그램 ‘월드클래스’ 사업 강화",
-      "url": "https://bbs.ruliweb.com/news/read/224919",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-05-21"
+      "game_event_key": "release_schedule:playstation:base:2026-05-26"
     }
   ],
   "source_backlog": {
