@@ -1,13 +1,13 @@
 {
   "category": "game",
-  "generated_at": "2026-06-01T08:25:06.995173+00:00",
+  "generated_at": "2026-06-02T07:17:22.322840+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
     "enabled_sources": 38,
     "tracked_sources": 6,
-    "fresh_sources": 3,
-    "stale_sources": 1,
+    "fresh_sources": 4,
+    "stale_sources": 0,
     "missing_sources": 0,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 3,
-    "patch_note_events": 9,
-    "release_schedule_events": 26,
-    "actionable_game_event_count": 38,
+    "patch_note_events": 12,
+    "release_schedule_events": 29,
+    "actionable_game_event_count": 44,
     "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 34,
-    "official_or_trade_event_count": 23,
-    "event_required_field_gap_count": 34,
+    "missing_canonical_game_key_count": 40,
+    "official_or_trade_event_count": 30,
+    "event_required_field_gap_count": 40,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 15,
-      "event_count": 8,
-      "latest_event_at": "2026-05-28T07:00:34+00:00",
-      "age_days": 4.06,
-      "latest_title": "Play NBA The Run open beta on PS5 this weekend",
-      "latest_url": "https://blog.playstation.com/2026/05/28/play-nba-the-run-open-beta-on-ps5-this-weekend",
+      "article_count": 20,
+      "event_count": 16,
+      "latest_event_at": "2026-06-01T17:01:55+00:00",
+      "age_days": 0.59,
+      "latest_title": "(For Southeast Asia) FlexStrike wireless fight stick launching in August,  followed by Pulse Elevate wireless speakers later this year",
+      "latest_url": "https://blog.playstation.com/2026/06/01/20260602-flexstrike",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 20,
+      "article_count": 18,
       "event_count": 7,
-      "latest_event_at": "2026-05-29T07:58:06+00:00",
-      "age_days": 3.02,
-      "latest_title": "Matt Booty Talks Games Showcase, Forza, CoD, and More – Official XBOX Podcast",
-      "latest_url": "https://youtu.be/BwYglyND1EA?si=v8seL5QHTv4GsAUr",
+      "latest_event_at": "2026-06-01T04:00:00+00:00",
+      "age_days": 1.14,
+      "latest_title": "How to Watch the XBOX Games Showcase and Gears of War: E-Day Direct on Sunday",
+      "latest_url": "https://news.xbox.com/en-us/2026/06/01/xbox-games-showcase-2026-gears-of-war-e-day-direct-how-to-watch",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 61,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 38,
-      "event_count": 8,
+      "article_count": 40,
+      "event_count": 7,
       "latest_event_at": "2026-05-29T00:25:29+00:00",
-      "age_days": 3.33,
+      "age_days": 4.29,
       "latest_title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
       "latest_url": "https://www.gamesindustry.biz/witcher-3-surpasses-65m-lifetime-sales-as-cd-projekt-announces-third-expansion",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 106,
+      "article_count": 110,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -757,13 +757,13 @@
         "release_schedule"
       ],
       "freshness_sla_days": 7.0,
-      "status": "stale",
-      "article_count": 61,
-      "event_count": 15,
-      "latest_event_at": "2026-05-22T00:20:00+00:00",
-      "age_days": 10.34,
-      "latest_title": "붉은사막, 1.08.00 패치…신규 시설 ‘연못’",
-      "latest_url": "https://bbs.ruliweb.com/news/read/224931",
+      "status": "fresh",
+      "article_count": 50,
+      "event_count": 14,
+      "latest_event_at": "2026-06-01T22:07:10+00:00",
+      "age_days": 0.38,
+      "latest_title": "붉은사막, ‘재봉쇄’ 새변화 등 3분기 업데이트 예고",
+      "latest_url": "https://bbs.ruliweb.com/news/read/225295",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,649 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "붉은사막, ‘재봉쇄’ 새변화 등 3분기 업데이트 예고",
+      "url": "https://bbs.ruliweb.com/news/read/225295",
+      "event_at": "2026-06-01T22:07:10+00:00",
+      "event_date": "2026-06-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-06-01",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "펄어비스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "IMC게임즈 ‘트리 오브 세이비어’, 신규 클래스 ‘샤드브링어’ 오늘(2일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/225293",
+      "event_at": "2026-06-01T21:06:42+00:00",
+      "event_date": "2026-06-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-06-01",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘감마’ 오늘(2일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/225288",
+      "event_at": "2026-06-01T20:16:57+00:00",
+      "event_date": "2026-06-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-06-01",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "‘패스 오브 엑자일 2’ 신규 확장팩 ‘고대의 귀환’ 호평 속 인기 상승세",
+      "url": "https://bbs.ruliweb.com/news/read/225287",
+      "event_at": "2026-06-01T20:07:43+00:00",
+      "event_date": "2026-06-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-06-01",
+      "genre": [],
+      "release": [
+        "확장팩",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "카카오게임즈"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "JL studio ‘Slots & Sword & Magic’ 스팀 데모 오늘(2일) 출시 및 6월 ‘Steam Next Fest’ 참가",
+      "url": "https://bbs.ruliweb.com/news/read/225285",
+      "event_at": "2026-06-01T19:40:08+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "steam",
+        "스팀"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-06-01",
+      "genre": [
+        "턴제",
+        "로그라이크",
+        "인디"
+      ],
+      "release": [
+        "출시",
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "판 스튜디오 ‘듀엣 나이트 어비스’, 신규 버전 ‘질주하는 별들’ 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/225283",
+      "event_at": "2026-06-01T19:00:29+00:00",
+      "event_date": "2026-06-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-06-01",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "SingKeys, 하이스피드 액션 RPG ‘번영의 서(The Book of Prosperity)’ 무료 데모 오늘(2일) 배포 시작",
+      "url": "https://bbs.ruliweb.com/news/read/225282",
+      "event_at": "2026-06-01T19:00:26+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-06-01",
+      "genre": [
+        "액션",
+        "rpg",
+        "indie",
+        "인디"
+      ],
+      "release": [
+        "데모",
+        "showcase"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "(For Southeast Asia) FlexStrike wireless fight stick launching in August,  followed by Pulse Elevate wireless speakers later this year",
+      "url": "https://blog.playstation.com/2026/06/01/20260602-flexstrike",
+      "event_at": "2026-06-01T17:01:55+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-06-01",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "(For Southeast Asia) FlexStrike wireless fight stick launching in August,  followed by Pulse Elevate wireless speakers later this year",
+      "url": "https://blog.playstation.com/2026/06/01/20260602-flexstrike",
+      "event_at": "2026-06-01T17:01:55+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-06-01",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "(For Southeast Asia) Hands-on report: FlexStrike wireless fight stick and Pulse Elevate wireless speakers",
+      "url": "https://blog.playstation.com/2026/06/01/20260602-flexstrike2",
+      "event_at": "2026-06-01T17:01:52+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-06-01",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Hands-on report: FlexStrike wireless fight stick, Pulse Elevate wireless speakers, PlayStation’s 27” Gaming Monitor",
+      "url": "https://blog.playstation.com/2026/06/01/hands-on-report-flexstrike-wireless-fight-stick-pulse-elevate-wireless-speakers-playstations-27-gaming-monitor",
+      "event_at": "2026-06-01T06:00:12+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-06-01",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "FlexStrike wireless fight stick, 27’’ Gaming Monitor launching in August, followed by Pulse Elevate wireless speakers later this year",
+      "url": "https://blog.playstation.com/2026/06/01/flexstrike-wireless-fight-stick-27-gaming-monitor-launching-in-august-followed-by-pulse-elevate-wireless-speakers-later-this-year",
+      "event_at": "2026-06-01T06:00:06+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-06-01",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "EA Sports F1 25: Enhanced PSSR available alongside 2026 Season Pack",
+      "url": "https://blog.playstation.com/2026/06/01/ea-sports-f1-25-enhanced-pssr-available-alongside-2026-season-pack",
+      "event_at": "2026-06-01T05:00:25+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "playstation:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:premium-edition:2026-06-01",
+      "genre": [
+        "action",
+        "racing",
+        "sports"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "EA Sports F1 25: Enhanced PSSR available alongside 2026 Season Pack",
+      "url": "https://blog.playstation.com/2026/06/01/ea-sports-f1-25-enhanced-pssr-available-alongside-2026-season-pack",
+      "event_at": "2026-06-01T05:00:25+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "playstation:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:premium-edition:2026-06-01",
+      "genre": [
+        "action",
+        "racing",
+        "sports"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Players’ Choice: Vote for May 2026’s best new game",
+      "url": "https://blog.playstation.com/2026/06/01/players-choice-vote-for-may-2026s-best-new-game",
+      "event_at": "2026-06-01T04:00:16+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-06-01",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "How to Watch the XBOX Games Showcase and Gears of War: E-Day Direct on Sunday",
+      "url": "https://news.xbox.com/en-us/2026/06/01/xbox-games-showcase-2026-gears-of-war-e-day-direct-how-to-watch",
+      "event_at": "2026-06-01T04:00:00+00:00",
+      "event_date": "2026-06-01",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-06-01",
+      "genre": [],
+      "release": [
+        "showcase"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
@@ -2331,541 +2974,126 @@
         "platform",
         "version"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "The big Strauss Zelnick interview: GTA, AI, Roblox and building the biggest entertainment company in the world",
-      "url": "https://www.gamesindustry.biz/the-big-strauss-zelnick-interview-gta-ai-roblox-and-building-the-biggest-entertainment-company-in-the-world",
-      "event_at": "2026-05-21T06:03:29+00:00",
-      "event_date": "2026-05-21",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-05-21",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "ubisoft",
-        "take-two"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "House Flipper 2: Sakura DLC Offers a Trip to Japan",
-      "url": "https://news.xbox.com/en-us/2026/05/21/house-flipper-2-sakura-dlc",
-      "event_at": "2026-05-21T04:00:00+00:00",
-      "event_date": "2026-05-21",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-05-21",
-      "genre": [],
-      "release": [
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘언레일드 2: 백 온 트랙’ 한국어 지원 1.0 버전, 6월 11일(목) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/224866",
-      "event_at": "2026-05-21T01:00:00+00:00",
-      "event_date": "2026-05-21",
-      "platform": [
-        "nintendo",
-        "switch",
-        "switch 2",
-        "steam"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-05-21",
-      "genre": [
-        "인디"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "1.0",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "퍼펙트월드 ‘페르소나5: 더 팬텀 X’ P5FES 콜라보 버전 ‘별빛 아래의 모험’ 업데이트 오늘(21일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224873",
-      "event_at": "2026-05-21T00:01:33+00:00",
-      "event_date": "2026-05-21",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-21",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "블로믹스 ‘에오스 블랙’ 신규 성장 시스템 ‘넥클리스’ 도입 및 700일 기념 복구 이벤트 오늘(21일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/224862",
-      "event_at": "2026-05-20T19:14:20+00:00",
-      "event_date": "2026-05-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-20",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "넷마블 ‘일곱 개의 대죄: GRAND CROSS’, 7주년 기념 ‘Perfect 7’ 레전드 페스티벌 업데이트 오늘(21일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/224861",
-      "event_at": "2026-05-20T19:06:19+00:00",
-      "event_date": "2026-05-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-20",
-      "genre": [
-        "rpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넷마블"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘FZ: 포메이션 Z’ PS5, 닌텐도 스위치2, PC 한국어판 오늘(21일) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/224858",
-      "event_at": "2026-05-20T17:56:33+00:00",
-      "event_date": "2026-05-20",
-      "platform": [
-        "ps5",
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-05-20",
-      "genre": [],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘테일즈 오브 어라이즈 - Beyond the Dawn 에디션’ 한국어판, 오늘(21일) 발매",
-      "url": "https://bbs.ruliweb.com/news/read/224857",
-      "event_at": "2026-05-20T17:56:31+00:00",
-      "event_date": "2026-05-20",
-      "platform": [
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-05-20",
-      "genre": [],
-      "release": [
-        "트레일러"
-      ],
-      "business_signal": [],
-      "studio": [
-        "반다이남코"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "스마일게이트 ‘이프선셋’, 출시 약 1년 만에 스팀 누적 판매량 10만 돌파",
-      "url": "https://bbs.ruliweb.com/news/read/224856",
-      "event_at": "2026-05-20T17:52:52+00:00",
-      "event_date": "2026-05-20",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-05-20",
-      "genre": [
-        "rpg",
-        "오픈월드"
-      ],
-      "release": [
-        "출시",
-        "얼리액세스"
-      ],
-      "business_signal": [],
-      "studio": [
-        "스마일게이트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "에이트스튜디오 ‘정령킹 키우기’, 점핑 월드 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/224854",
-      "event_at": "2026-05-20T17:11:19+00:00",
-      "event_date": "2026-05-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-05-20",
-      "genre": [
-        "rpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title",
-        "missing_required_fields"
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Matt Booty Talks Games Showcase, Forza, CoD, and More – Official XBOX Podcast",
-      "url": "https://youtu.be/BwYglyND1EA?si=v8seL5QHTv4GsAUr",
-      "canonical_game_key": "xbox:base",
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "붉은사막, ‘재봉쇄’ 새변화 등 3분기 업데이트 예고",
+      "url": "https://bbs.ruliweb.com/news/read/225295",
+      "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title"
+        "platform",
+        "version"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-05-29"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Available for XBOX Insiders: Personalize Your Experience with New Color Options, Controller on Screen Settings and More",
-      "url": "https://news.xbox.com/en-us/2026/05/29/xbox-insiders-july-2026-console-features",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-05-29"
+      "game_event_key": "patch_note:base:2026-06-01"
     },
     {
       "reason": [
         "missing_game_title_platform",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Witcher 3 surpasses 65m lifetime sales as CD Projekt announces third expansion",
-      "url": "https://www.gamesindustry.biz/witcher-3-surpasses-65m-lifetime-sales-as-cd-projekt-announces-third-expansion",
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "IMC게임즈 ‘트리 오브 세이비어’, 신규 클래스 ‘샤드브링어’ 오늘(2일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/225293",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
-        "rank",
-        "market"
+        "version"
       ],
-      "game_event_key": "store_ranking:base:2026-05-29"
+      "game_event_key": "patch_note:base:2026-06-01"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘감마’ 오늘(2일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/225288",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-06-01"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "‘패스 오브 엑자일 2’ 신규 확장팩 ‘고대의 귀환’ 호평 속 인기 상승세",
+      "url": "https://bbs.ruliweb.com/news/read/225287",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-06-01"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Xbox CEO says it's already seeing positive impacts following Game Pass price cuts",
-      "url": "https://www.gamesindustry.biz/xbox-ceo-says-its-already-seeing-positive-impacts-following-game-pass-price-cuts",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-05-28"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "FIFA announces new \"Digital Football\" vision, an ecosystem of games from multiple publishers and developers",
-      "url": "https://www.gamesindustry.biz/fifa-announces-new-digital-football-vision-an-ecosystem-of-games-from-multiple-publishers-and-developers",
-      "canonical_game_key": "fifa:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:fifa:base:2026-05-28"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Play NBA The Run open beta on PS5 this weekend",
-      "url": "https://blog.playstation.com/2026/05/28/play-nba-the-run-open-beta-on-ps5-this-weekend",
-      "canonical_game_key": "playstation:preview",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:preview:2026-05-28"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Valve raises Steam Deck OLED prices by over 40%",
-      "url": "https://www.gamesindustry.biz/valve-raises-steam-deck-oled-prices-by-over-40",
+      "source": "루리웹 뉴스",
+      "title": "JL studio ‘Slots & Sword & Magic’ 스팀 데모 오늘(2일) 출시 및 6월 ‘Steam Next Fest’ 참가",
+      "url": "https://bbs.ruliweb.com/news/read/225285",
       "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-05-27"
+      "game_event_key": "release_schedule:steam:base:2026-06-01"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "판 스튜디오 ‘듀엣 나이트 어비스’, 신규 버전 ‘질주하는 별들’ 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/225283",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-06-01"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "SingKeys, 하이스피드 액션 RPG ‘번영의 서(The Book of Prosperity)’ 무료 데모 오늘(2일) 배포 시작",
+      "url": "https://bbs.ruliweb.com/news/read/225282",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-06-01"
     },
     {
       "reason": [
@@ -2874,13 +3102,13 @@
       ],
       "event_model": "patch_note",
       "source": "PlayStation Blog",
-      "title": "No Man’s Sky: The Swarm update launches today",
-      "url": "https://blog.playstation.com/2026/05/27/no-mans-sky-the-swarm-update-launches-today",
+      "title": "(For Southeast Asia) FlexStrike wireless fight stick launching in August,  followed by Pulse Elevate wireless speakers later this year",
+      "url": "https://blog.playstation.com/2026/06/01/20260602-flexstrike",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "version"
       ],
-      "game_event_key": "patch_note:playstation:base:2026-05-27"
+      "game_event_key": "patch_note:playstation:base:2026-06-01"
     },
     {
       "reason": [
@@ -2889,13 +3117,13 @@
       ],
       "event_model": "release_schedule",
       "source": "PlayStation Blog",
-      "title": "No Man’s Sky: The Swarm update launches today",
-      "url": "https://blog.playstation.com/2026/05/27/no-mans-sky-the-swarm-update-launches-today",
+      "title": "(For Southeast Asia) FlexStrike wireless fight stick launching in August,  followed by Pulse Elevate wireless speakers later this year",
+      "url": "https://blog.playstation.com/2026/06/01/20260602-flexstrike",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-27"
+      "game_event_key": "release_schedule:playstation:base:2026-06-01"
     },
     {
       "reason": [
@@ -2904,13 +3132,13 @@
       ],
       "event_model": "release_schedule",
       "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Days of Play 2026 begins May 27",
-      "url": "https://blog.playstation.com/2026/05/26/20260527-dop",
+      "title": "(For Southeast Asia) Hands-on report: FlexStrike wireless fight stick and Pulse Elevate wireless speakers",
+      "url": "https://blog.playstation.com/2026/06/01/20260602-flexstrike2",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-05-26"
+      "game_event_key": "release_schedule:playstation:base:2026-06-01"
     }
   ],
   "source_backlog": {
