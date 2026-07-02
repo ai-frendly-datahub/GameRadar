@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-07-01T07:04:22.089339+00:00",
+  "generated_at": "2026-07-02T06:31:19.315102+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 3,
-    "patch_note_events": 6,
-    "release_schedule_events": 19,
-    "actionable_game_event_count": 28,
+    "store_ranking_events": 4,
+    "patch_note_events": 11,
+    "release_schedule_events": 26,
+    "actionable_game_event_count": 41,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 27,
-    "official_or_trade_event_count": 23,
-    "event_required_field_gap_count": 27,
+    "missing_canonical_game_key_count": 40,
+    "official_or_trade_event_count": 31,
+    "event_required_field_gap_count": 40,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 10,
-      "event_count": 5,
-      "latest_event_at": "2026-06-29T06:00:27+00:00",
-      "age_days": 2.04,
-      "latest_title": "Assassin’s Creed Black Flag Resynced: PS5 Pro enhancements detailed",
-      "latest_url": "https://blog.playstation.com/2026/06/29/assassins-creed-black-flag-resynced-ps5-pro-enhancements-detailed",
+      "article_count": 13,
+      "event_count": 8,
+      "latest_event_at": "2026-07-01T02:58:05+00:00",
+      "age_days": 1.15,
+      "latest_title": "An update on PlayStation Store for PS3 and PS Vita",
+      "latest_url": "https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 10,
-      "event_count": 6,
-      "latest_event_at": "2026-06-30T08:00:00+00:00",
-      "age_days": 0.96,
-      "latest_title": "Hunt the Death Cult in Diablo IV Season 14",
-      "latest_url": "https://news.blizzard.com/en-us/article/24268702/hunt-the-death-cult-in-season-of-death-awakening",
+      "article_count": 12,
+      "event_count": 7,
+      "latest_event_at": "2026-07-01T05:00:00+00:00",
+      "age_days": 1.06,
+      "latest_title": "DOOM: The Dark Ages Goes Supersonic With New DLC Chain Spear",
+      "latest_url": "https://news.xbox.com/en-us/2026/07/01/doom-the-dark-ages-revelations-chain-spear-preview",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 56,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 50,
-      "event_count": 12,
-      "latest_event_at": "2026-06-29T23:00:00+00:00",
-      "age_days": 1.34,
-      "latest_title": "nDreams founder launches new studio Atmospheric to create \"original IP across games and music\"",
-      "latest_url": "https://www.gamesindustry.biz/ndreams-founder-launches-new-studio-atmospheric-to-create-original-ip-across-games-and-music",
+      "article_count": 62,
+      "event_count": 16,
+      "latest_event_at": "2026-07-01T12:27:46+00:00",
+      "age_days": 0.75,
+      "latest_title": "Sony to close down PlayStation Store on PS3 and PS Vita by July 2027",
+      "latest_url": "https://www.gamesindustry.biz/sony-to-close-down-ps3-and-ps-vita-online-store-globally-by-july-2027",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 47,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -544,7 +544,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 15,
-      "event_count": 5,
-      "latest_event_at": "2026-06-30T21:38:09+00:00",
+      "article_count": 30,
+      "event_count": 10,
+      "latest_event_at": "2026-07-01T21:14:41+00:00",
       "age_days": 0.39,
-      "latest_title": "넷마블 ‘RF 온라인 넥스트’, 신규 지역 ‘라바론’ 등 업데이트 오늘(1일) 실시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/226512",
+      "latest_title": "‘퍼스트 디센던트’ 하반기 업데이트 로드맵 공개",
+      "latest_url": "https://bbs.ruliweb.com/news/read/226562",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,534 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "‘퍼스트 디센던트’ 하반기 업데이트 로드맵 공개",
+      "url": "https://bbs.ruliweb.com/news/read/226562",
+      "event_at": "2026-07-01T21:14:41+00:00",
+      "event_date": "2026-07-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-07-01",
+      "genre": [
+        "슈터"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘Back to the Dawn ～브레이크 더 애니멀 프리즌～’, PlayStation®5 버전 2026년 10월 22일 발매",
+      "url": "https://bbs.ruliweb.com/news/read/226555",
+      "event_at": "2026-07-01T17:42:07+00:00",
+      "event_date": "2026-07-01",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-07-01",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "데브시스터즈㈜ ‘쿠키런: 킹덤’, ‘용언의 노래’ 업데이트 오늘(2일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/226553",
+      "event_at": "2026-07-01T17:07:33+00:00",
+      "event_date": "2026-07-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-07-01",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "데브시스터즈"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "알비온 침공으로 시작하는 '대격전'이 온다 - 퍼스트 디센던트 2주년 쇼케이스",
+      "url": "https://bbs.ruliweb.com/news/read/226548",
+      "event_at": "2026-07-01T17:00:00+00:00",
+      "event_date": "2026-07-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-07-01",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜넥슨 ‘서든어택’ 2026 시즌3 ‘패러독스’ 업데이트 오늘(2일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/226550",
+      "event_at": "2026-07-01T16:39:34+00:00",
+      "event_date": "2026-07-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-07-01",
+      "genre": [
+        "fps"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Sony to close down PlayStation Store on PS3 and PS Vita by July 2027",
+      "url": "https://www.gamesindustry.biz/sony-to-close-down-ps3-and-ps-vita-online-store-globally-by-july-2027",
+      "event_at": "2026-07-01T12:27:46+00:00",
+      "event_date": "2026-07-01",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-07-01",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "DOOM: The Dark Ages Goes Supersonic With New DLC Chain Spear",
+      "url": "https://news.xbox.com/en-us/2026/07/01/doom-the-dark-ages-revelations-chain-spear-preview",
+      "event_at": "2026-07-01T05:00:00+00:00",
+      "event_date": "2026-07-01",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-07-01",
+      "genre": [],
+      "release": [
+        "dlc",
+        "preview"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Sony to discontinue physical discs for new games launching on PS consoles from January 2028",
+      "url": "https://www.gamesindustry.biz/sony-to-discontinue-physical-discs-for-new-games-launching-on-ps-consoles-from-january-2028",
+      "event_at": "2026-07-01T04:48:56+00:00",
+      "event_date": "2026-07-01",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-07-01",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "An update on PlayStation Store for PS3 and PS Vita",
+      "url": "https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita",
+      "event_at": "2026-07-01T02:58:05+00:00",
+      "event_date": "2026-07-01",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-07-01",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "An update on PlayStation Store for PS3 and PS Vita",
+      "url": "https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita",
+      "event_at": "2026-07-01T02:58:05+00:00",
+      "event_date": "2026-07-01",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-07-01",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Physical disc production ending in January 2028 for new games releasing on PlayStation consoles",
+      "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles",
+      "event_at": "2026-07-01T02:58:03+00:00",
+      "event_date": "2026-07-01",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-07-01",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Rokky launches unofficial Steam tool for checking if bundle and press keys have been used",
+      "url": "https://www.gamesindustry.biz/rokky-launches-unofficial-steam-tool-for-checking-if-bundle-and-press-keys-have-been-used",
+      "event_at": "2026-06-30T23:00:00+00:00",
+      "event_date": "2026-06-30",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "store_ranking:steam:base:2026-06-30",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Rokky launches unofficial Steam tool for checking if bundle and press keys have been used",
+      "url": "https://www.gamesindustry.biz/rokky-launches-unofficial-steam-tool-for-checking-if-bundle-and-press-keys-have-been-used",
+      "event_at": "2026-06-30T23:00:00+00:00",
+      "event_date": "2026-06-30",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-06-30",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
@@ -2357,98 +2885,81 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘RF 온라인 넥스트’, 신규 지역 ‘라바론’ 등 업데이트 오늘(1일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/226512",
+      "title": "‘퍼스트 디센던트’ 하반기 업데이트 로드맵 공개",
+      "url": "https://bbs.ruliweb.com/news/read/226562",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-06-30"
+      "game_event_key": "patch_note:base:2026-07-01"
     },
     {
       "reason": [
-        "missing_game_title_platform",
+        "missing_game_title",
         "missing_required_fields",
         "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜엔씨 ‘아이온2’, ‘Chapter 1. 모래와 서리의 땅’ 업데이트 오늘(1일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/226509",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-06-30"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜엔씨 ‘리니지 리마스터’, ‘무한나선: 정복자의 첨탑’ 업데이트 오늘(1일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/226505",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-06-30"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "드림에이지 ‘아키텍트: 랜드 오브 엑자일’ 신규 지역 ‘뒤틀린 도원향’ 파트1 업데이트 오늘(1일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/226501",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-06-30"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "하이스코어게임즈, ‘머지 메이드 카페’ 신규 콘텐츠 ‘카페 인 러브’ 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/226498",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-06-30"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "nDreams founder launches new studio Atmospheric to create \"original IP across games and music\"",
-      "url": "https://www.gamesindustry.biz/ndreams-founder-launches-new-studio-atmospheric-to-create-original-ip-across-games-and-music",
+      "source": "루리웹 뉴스",
+      "title": "‘Back to the Dawn ～브레이크 더 애니멀 프리즌～’, PlayStation®5 버전 2026년 10월 22일 발매",
+      "url": "https://bbs.ruliweb.com/news/read/226555",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-07-01"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "데브시스터즈㈜ ‘쿠키런: 킹덤’, ‘용언의 노래’ 업데이트 오늘(2일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/226553",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ],
-      "game_event_key": "release_schedule:base:2026-06-29"
+      "game_event_key": "patch_note:base:2026-07-01"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "알비온 침공으로 시작하는 '대격전'이 온다 - 퍼스트 디센던트 2주년 쇼케이스",
+      "url": "https://bbs.ruliweb.com/news/read/226548",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-07-01"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘서든어택’ 2026 시즌3 ‘패러독스’ 업데이트 오늘(2일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/226550",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-07-01"
     },
     {
       "reason": [
@@ -2456,14 +2967,14 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Assassin’s Creed Black Flag Resynced: PS5 Pro enhancements detailed",
-      "url": "https://blog.playstation.com/2026/06/29/assassins-creed-black-flag-resynced-ps5-pro-enhancements-detailed",
+      "source": "GamesIndustry.biz",
+      "title": "Sony to close down PlayStation Store on PS3 and PS Vita by July 2027",
+      "url": "https://www.gamesindustry.biz/sony-to-close-down-ps3-and-ps-vita-online-store-globally-by-july-2027",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-06-29"
+      "game_event_key": "release_schedule:playstation:base:2026-07-01"
     },
     {
       "reason": [
@@ -2472,13 +2983,43 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "From North Star to South Town – Kenshiro Is Coming to FATAL FURY: City of the Wolves!",
-      "url": "https://news.xbox.com/en-us/2026/06/29/fatal-fury-fist-of-the-north-star-kenshiro",
+      "title": "DOOM: The Dark Ages Goes Supersonic With New DLC Chain Spear",
+      "url": "https://news.xbox.com/en-us/2026/07/01/doom-the-dark-ages-revelations-chain-spear-preview",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-06-29"
+      "game_event_key": "release_schedule:xbox:base:2026-07-01"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Sony to discontinue physical discs for new games launching on PS consoles from January 2028",
+      "url": "https://www.gamesindustry.biz/sony-to-discontinue-physical-discs-for-new-games-launching-on-ps-consoles-from-january-2028",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-07-01"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "An update on PlayStation Store for PS3 and PS Vita",
+      "url": "https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:playstation:base:2026-07-01"
     },
     {
       "reason": [
@@ -2487,28 +3028,13 @@
       ],
       "event_model": "release_schedule",
       "source": "PlayStation Blog",
-      "title": "Avatar Legends: The Fighting Game Spirit Wilds stage revealed",
-      "url": "https://blog.playstation.com/2026/06/29/avatar-legends-the-fighting-game-spirit-wilds-stage-revealed",
+      "title": "An update on PlayStation Store for PS3 and PS Vita",
+      "url": "https://blog.playstation.com/2026/07/01/an-update-on-playstation-store-for-ps3-and-ps-vita",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-06-29"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Blade, Loki, Deadpool announced for MARVEL Tōkon: Fighting Souls",
-      "url": "https://blog.playstation.com/2026/06/28/blade-loki-deadpool-announced-for-marvel-tokon-fighting-souls",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-06-28"
+      "game_event_key": "release_schedule:playstation:base:2026-07-01"
     }
   ],
   "source_backlog": {
