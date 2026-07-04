@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-07-03T06:21:11.484588+00:00",
+  "generated_at": "2026-07-04T06:10:01.359373+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 4,
-    "patch_note_events": 13,
-    "release_schedule_events": 30,
-    "actionable_game_event_count": 47,
+    "store_ranking_events": 2,
+    "patch_note_events": 12,
+    "release_schedule_events": 20,
+    "actionable_game_event_count": 34,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 46,
-    "official_or_trade_event_count": 34,
-    "event_required_field_gap_count": 46,
+    "missing_canonical_game_key_count": 33,
+    "official_or_trade_event_count": 21,
+    "event_required_field_gap_count": 33,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 56,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 15,
-      "event_count": 10,
+      "article_count": 13,
+      "event_count": 8,
       "latest_event_at": "2026-07-02T06:00:04+00:00",
-      "age_days": 1.01,
+      "age_days": 2.01,
       "latest_title": "Players’ Choice: Vote for June 2026’s best new game",
       "latest_url": "https://blog.playstation.com/2026/07/02/players-choice-vote-for-june-2026s-best-new-game",
       "latest_source_signal": [
@@ -103,10 +103,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 17,
-      "event_count": 8,
+      "article_count": 13,
+      "event_count": 4,
       "latest_event_at": "2026-07-02T10:00:00+00:00",
-      "age_days": 0.85,
+      "age_days": 1.84,
       "latest_title": "Microsoft Flight Simulator Releases World Update 22: United States National Parks",
       "latest_url": "https://www.flightsimulator.com/world-update-22",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 47,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 6,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 63,
-      "event_count": 16,
-      "latest_event_at": "2026-07-01T12:27:46+00:00",
-      "age_days": 1.75,
-      "latest_title": "Sony to close down PlayStation Store on PS3 and PS Vita by July 2027",
-      "latest_url": "https://www.gamesindustry.biz/sony-to-close-down-ps3-and-ps-vita-online-store-globally-by-july-2027",
+      "article_count": 41,
+      "event_count": 9,
+      "latest_event_at": "2026-07-03T03:22:42+00:00",
+      "age_days": 1.12,
+      "latest_title": "\"We are profoundly disappointed by Sony's decision\" – Game companies express dismay at the end of PlayStation disc production",
+      "latest_url": "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 95,
+      "article_count": 112,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -761,7 +761,7 @@
       "article_count": 45,
       "event_count": 13,
       "latest_event_at": "2026-07-02T20:27:41+00:00",
-      "age_days": 0.41,
+      "age_days": 1.4,
       "latest_title": "시프트업 '승리의 여신: 니케', 신규 업데이트 'WAVE TO YOU' 소개",
       "latest_url": "https://bbs.ruliweb.com/news/read/226608",
       "latest_source_signal": [
@@ -1184,7 +1184,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1195,6 +1195,48 @@
     }
   ],
   "events": [
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "\"We are profoundly disappointed by Sony's decision\" – Game companies express dismay at the end of PlayStation disc production",
+      "url": "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
+      "event_at": "2026-07-03T03:22:42+00:00",
+      "event_date": "2026-07-03",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-07-03",
+      "genre": [],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
@@ -2536,590 +2578,24 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Updated XBOX Console Prices",
-      "url": "https://news.xbox.com/en-us/2026/06/25/xbox-console-price-update",
-      "event_at": "2026-06-25T07:35:15+00:00",
-      "event_date": "2026-06-25",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-06-25",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Tencent, Xbox, Game Angels, Ansible and Flick to speak on Game Republic New Horizons investor stage",
-      "url": "https://www.gamesindustry.biz/tencent-xbox-game-angels-ansible-and-flick-to-speak-on-game-republic-new-horizons-investor-stage",
-      "event_at": "2026-06-25T01:24:03+00:00",
-      "event_date": "2026-06-25",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-06-25",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Pre-Order Grand Theft Auto VI Now. Coming to XBOX Series X|S November 19, 2026",
-      "url": "https://www.xbox.com/en-US/games/store/grand-theft-auto-vi/9NNZSNHLR63L",
-      "event_at": "2026-06-24T19:06:35+00:00",
-      "event_date": "2026-06-24",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-06-24",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Age of Empires Mobile: PC Edition Available Now!",
-      "url": "https://www.ageofempires.com/news/age-of-empires-mobile-pc-edition-available-now",
-      "event_at": "2026-06-24T09:00:00+00:00",
-      "event_date": "2026-06-24",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-06-24",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "The Story Behind Mousebusters’ Pixel-Art Ghost Hunting, Out Now on XBOX",
-      "url": "https://news.xbox.com/en-us/2026/06/24/mousebusters-apartment-inspiration",
-      "event_at": "2026-06-24T08:00:00+00:00",
-      "event_date": "2026-06-24",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-06-24",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "GTA 6: Will $80 be the new standard, and will more publishers start to skip physical releases?",
-      "url": "https://www.gamesindustry.biz/gta-6-will-80-be-the-new-standard-and-will-more-publishers-start-to-skip-physical-releases",
-      "event_at": "2026-06-24T07:48:42+00:00",
-      "event_date": "2026-06-24",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "premium-edition",
-      "canonical_game_key": "gta:premium-edition",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "store_ranking:gta:premium-edition:2026-06-24",
-      "genre": [],
-      "release": [
-        "launch",
-        "release date"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "79.99",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "GTA 6: Will $80 be the new standard, and will more publishers start to skip physical releases?",
-      "url": "https://www.gamesindustry.biz/gta-6-will-80-be-the-new-standard-and-will-more-publishers-start-to-skip-physical-releases",
-      "event_at": "2026-06-24T07:48:42+00:00",
-      "event_date": "2026-06-24",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "premium-edition",
-      "canonical_game_key": "gta:premium-edition",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:premium-edition:2026-06-24",
-      "genre": [],
-      "release": [
-        "launch",
-        "release date"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "79.99",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "GTA 6 sales predictions: how many copies will Rockstar sell at $80?",
-      "url": "https://www.gamesindustry.biz/gta-6-sales-predictions-how-many-copies-will-rockstar-sell-at-80",
-      "event_at": "2026-06-24T07:35:53+00:00",
-      "event_date": "2026-06-24",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "store_ranking:gta:base:2026-06-24",
-      "genre": [],
-      "release": [
-        "launch",
-        "release date"
-      ],
-      "business_signal": [],
-      "studio": [
-        "rockstar"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "79.99",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "GTA 6 sales predictions: how many copies will Rockstar sell at $80?",
-      "url": "https://www.gamesindustry.biz/gta-6-sales-predictions-how-many-copies-will-rockstar-sell-at-80",
-      "event_at": "2026-06-24T07:35:53+00:00",
-      "event_date": "2026-06-24",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-06-24",
-      "genre": [],
-      "release": [
-        "launch",
-        "release date"
-      ],
-      "business_signal": [],
-      "studio": [
-        "rockstar"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "79.99",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Upgraded PSSR comes to Doom: The Dark Ages on PS5 Pro",
-      "url": "https://blog.playstation.com/2026/06/24/upgraded-pssr-comes-to-doom-the-dark-ages-on-ps5-pro",
-      "event_at": "2026-06-24T06:00:06+00:00",
-      "event_date": "2026-06-24",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-06-24",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Upgraded PSSR comes to Doom: The Dark Ages on PS5 Pro",
-      "url": "https://blog.playstation.com/2026/06/24/upgraded-pssr-comes-to-doom-the-dark-ages-on-ps5-pro",
-      "event_at": "2026-06-24T06:00:06+00:00",
-      "event_date": "2026-06-24",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-06-24",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "GTA 6 will launch at $79.99 and will be download only",
-      "url": "https://www.gamesindustry.biz/gta-6-will-launch-at-7999-and-will-be-download-only",
-      "event_at": "2026-06-24T02:18:38+00:00",
-      "event_date": "2026-06-24",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "premium-edition",
-      "canonical_game_key": "gta:premium-edition",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:premium-edition:2026-06-24",
-      "genre": [],
-      "release": [
-        "launch",
-        "announced",
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "79.99",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "\"This is going to be a niche device\" – Analysts react to the $1,000+ Steam Machine price reveal",
-      "url": "https://www.gamesindustry.biz/this-is-going-to-be-a-niche-device-analysts-react-to-the-1000-steam-machine-price-reveal",
-      "event_at": "2026-06-23T02:01:40+00:00",
-      "event_date": "2026-06-23",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-06-23",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "valve"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Valve's Steam Machine price starts at $1049 / £879; original pricing \"no longer viable\" due to hardware supply issues",
-      "url": "https://www.gamesindustry.biz/valves-steam-machine-price-starts-at-1049-879-original-pricing-no-longer-viable-due-to-hardware-supply-issues",
-      "event_at": "2026-06-22T08:00:00+00:00",
-      "event_date": "2026-06-22",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-06-22",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "valve"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "\"We are profoundly disappointed by Sony's decision\" – Game companies express dismay at the end of PlayStation disc production",
+      "url": "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-07-03"
+    },
     {
       "reason": [
         "missing_game_title_platform",
@@ -3259,23 +2735,6 @@
       "source": "루리웹 뉴스",
       "title": "데브시스터즈㈜ ‘쿠키런: 킹덤’, ‘용언의 노래’ 업데이트 오늘(2일) 진행",
       "url": "https://bbs.ruliweb.com/news/read/226553",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-07-01"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "알비온 침공으로 시작하는 '대격전'이 온다 - 퍼스트 디센던트 2주년 쇼케이스",
-      "url": "https://bbs.ruliweb.com/news/read/226548",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
