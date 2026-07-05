@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-07-04T06:10:01.359373+00:00",
+  "generated_at": "2026-07-05T06:30:46.856061+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,12 +16,12 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 2,
-    "patch_note_events": 12,
+    "patch_note_events": 13,
     "release_schedule_events": 20,
-    "actionable_game_event_count": 34,
+    "actionable_game_event_count": 35,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 33,
-    "official_or_trade_event_count": 21,
+    "missing_canonical_game_key_count": 34,
+    "official_or_trade_event_count": 20,
     "event_required_field_gap_count": 33,
     "daily_review_item_count": 10
   },
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 56,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 13,
+      "article_count": 11,
       "event_count": 8,
       "latest_event_at": "2026-07-02T06:00:04+00:00",
-      "age_days": 2.01,
+      "age_days": 3.02,
       "latest_title": "Players’ Choice: Vote for June 2026’s best new game",
       "latest_url": "https://blog.playstation.com/2026/07/02/players-choice-vote-for-june-2026s-best-new-game",
       "latest_source_signal": [
@@ -103,10 +103,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 13,
+      "article_count": 12,
       "event_count": 4,
       "latest_event_at": "2026-07-02T10:00:00+00:00",
-      "age_days": 1.84,
+      "age_days": 2.85,
       "latest_title": "Microsoft Flight Simulator Releases World Update 22: United States National Parks",
       "latest_url": "https://www.flightsimulator.com/world-update-22",
       "latest_source_signal": [
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 54,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 41,
-      "event_count": 9,
+      "article_count": 36,
+      "event_count": 8,
       "latest_event_at": "2026-07-03T03:22:42+00:00",
-      "age_days": 1.12,
+      "age_days": 2.13,
       "latest_title": "\"We are profoundly disappointed by Sony's decision\" – Game companies express dismay at the end of PlayStation disc production",
       "latest_url": "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 112,
+      "article_count": 117,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 45,
-      "event_count": 13,
-      "latest_event_at": "2026-07-02T20:27:41+00:00",
-      "age_days": 1.4,
-      "latest_title": "시프트업 '승리의 여신: 니케', 신규 업데이트 'WAVE TO YOU' 소개",
-      "latest_url": "https://bbs.ruliweb.com/news/read/226608",
+      "event_count": 15,
+      "latest_event_at": "2026-07-04T03:30:00+00:00",
+      "age_days": 1.13,
+      "latest_title": "붉은사막, 1.13.00 패치…웅카·데미안이 ‘어비스’로",
+      "latest_url": "https://bbs.ruliweb.com/news/read/226614",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,84 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "붉은사막, 1.13.00 패치…웅카·데미안이 ‘어비스’로",
+      "url": "https://bbs.ruliweb.com/news/read/226614",
+      "event_at": "2026-07-04T03:30:00+00:00",
+      "event_date": "2026-07-04",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-07-04",
+      "genre": [],
+      "release": [
+        "패치"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.13.00",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "붉은사막, 1.13.00 패치…웅카·데미안이 ‘어비스’로",
+      "url": "https://bbs.ruliweb.com/news/read/226614",
+      "event_at": "2026-07-04T03:30:00+00:00",
+      "event_date": "2026-07-04",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-07-04",
+      "genre": [],
+      "release": [
+        "패치"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.13.00",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
@@ -2537,50 +2615,38 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Microsoft significantly increases Xbox prices worldwide and withdraws 2TB model citing \"components crisis\"",
-      "url": "https://www.gamesindustry.biz/microsoft-significantly-increases-xbox-prices-worldwide-and-withdraws-2tb-model-citing-components-crisis",
-      "event_at": "2026-06-25T09:20:07+00:00",
-      "event_date": "2026-06-25",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-06-25",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "붉은사막, 1.13.00 패치…웅카·데미안이 ‘어비스’로",
+      "url": "https://bbs.ruliweb.com/news/read/226614",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [],
+      "game_event_key": "patch_note:playstation:base:2026-07-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "붉은사막, 1.13.00 패치…웅카·데미안이 ‘어비스’로",
+      "url": "https://bbs.ruliweb.com/news/read/226614",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-07-04"
+    },
     {
       "reason": [
         "missing_game_title",
@@ -2702,39 +2768,6 @@
       "source": "루리웹 뉴스",
       "title": "‘퍼스트 디센던트’ 하반기 업데이트 로드맵 공개",
       "url": "https://bbs.ruliweb.com/news/read/226562",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-07-01"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘Back to the Dawn ～브레이크 더 애니멀 프리즌～’, PlayStation®5 버전 2026년 10월 22일 발매",
-      "url": "https://bbs.ruliweb.com/news/read/226555",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-07-01"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "데브시스터즈㈜ ‘쿠키런: 킹덤’, ‘용언의 노래’ 업데이트 오늘(2일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/226553",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
