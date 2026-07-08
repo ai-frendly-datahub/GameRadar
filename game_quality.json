@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-07-07T06:37:00.945606+00:00",
+  "generated_at": "2026-07-08T05:41:56.220569+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 1,
-    "patch_note_events": 11,
-    "release_schedule_events": 23,
-    "actionable_game_event_count": 35,
+    "store_ranking_events": 2,
+    "patch_note_events": 14,
+    "release_schedule_events": 24,
+    "actionable_game_event_count": 40,
     "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 33,
-    "official_or_trade_event_count": 21,
-    "event_required_field_gap_count": 33,
+    "missing_canonical_game_key_count": 38,
+    "official_or_trade_event_count": 24,
+    "event_required_field_gap_count": 38,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 10,
-      "event_count": 7,
+      "article_count": 9,
+      "event_count": 5,
       "latest_event_at": "2026-07-02T06:00:04+00:00",
-      "age_days": 5.03,
+      "age_days": 5.99,
       "latest_title": "Players’ Choice: Vote for June 2026’s best new game",
       "latest_url": "https://blog.playstation.com/2026/07/02/players-choice-vote-for-june-2026s-best-new-game",
       "latest_source_signal": [
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 14,
-      "event_count": 4,
-      "latest_event_at": "2026-07-02T10:00:00+00:00",
-      "age_days": 4.86,
-      "latest_title": "Microsoft Flight Simulator Releases World Update 22: United States National Parks",
-      "latest_url": "https://www.flightsimulator.com/world-update-22",
+      "article_count": 15,
+      "event_count": 6,
+      "latest_event_at": "2026-07-07T08:30:00+00:00",
+      "age_days": 0.88,
+      "latest_title": "DOOM: The Dark Ages | Revelations – Available Now",
+      "latest_url": "https://slayersclub.bethesda.net/en-US/article/doom-the-dark-ages-revelations-available-now",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 38,
-      "event_count": 10,
-      "latest_event_at": "2026-07-06T12:42:55+00:00",
-      "age_days": 0.75,
-      "latest_title": "Compulsion Games and Double Fine confirm \"Independence Day\" from Xbox",
-      "latest_url": "https://www.gamesindustry.biz/compulsion-games-and-double-fine-confirm-independence-day-from-xbox",
+      "article_count": 45,
+      "event_count": 13,
+      "latest_event_at": "2026-07-07T04:14:50+00:00",
+      "age_days": 1.06,
+      "latest_title": "\"We simply spread ourselves too thin\" – Xbox's Asha Sharma on firm's restructuring plans",
+      "latest_url": "https://www.gamesindustry.biz/we-simply-spread-ourselves-too-thin-xboxs-asha-sharma-on-firms-restructuring-plans",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 45,
-      "event_count": 14,
-      "latest_event_at": "2026-07-06T19:00:04+00:00",
-      "age_days": 0.48,
-      "latest_title": "닌텐도, 배터리 교체 가능한 유럽 스위치 2 사양…2027년 2월 유럽 내 스위치 판매 중단",
-      "latest_url": "https://bbs.ruliweb.com/news/read/226679",
+      "event_count": 16,
+      "latest_event_at": "2026-07-07T20:05:19+00:00",
+      "age_days": 0.4,
+      "latest_title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 원스토어 매출 순위 1위",
+      "latest_url": "https://bbs.ruliweb.com/news/read/226736",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,21 +1198,18 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "닌텐도, 배터리 교체 가능한 유럽 스위치 2 사양…2027년 2월 유럽 내 스위치 판매 중단",
-      "url": "https://bbs.ruliweb.com/news/read/226679",
-      "event_at": "2026-07-06T19:00:04+00:00",
-      "event_date": "2026-07-06",
-      "platform": [
-        "닌텐도",
-        "스위치"
-      ],
+      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 원스토어 매출 순위 1위",
+      "url": "https://bbs.ruliweb.com/news/read/226736",
+      "event_at": "2026-07-07T20:05:19+00:00",
+      "event_date": "2026-07-07",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-07-06",
+      "game_event_key": "patch_note:base:2026-07-07",
       "genre": [],
       "release": [
         "업데이트"
@@ -1240,21 +1237,100 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "닌텐도, 배터리 교체 가능한 유럽 스위치 2 사양…2027년 2월 유럽 내 스위치 판매 중단",
-      "url": "https://bbs.ruliweb.com/news/read/226679",
-      "event_at": "2026-07-06T19:00:04+00:00",
-      "event_date": "2026-07-06",
-      "platform": [
-        "닌텐도",
-        "스위치"
+      "title": "㈜크래프톤 ‘펍지 성수’ 오픈 1주년 기념 팬 페스티벌 ‘1 YEAR LOADED’, 오는 11일(토) 개최",
+      "url": "https://bbs.ruliweb.com/news/read/226734",
+      "event_at": "2026-07-07T19:39:35+00:00",
+      "event_date": "2026-07-07",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "pubg"
       ],
+      "normalized_game_title": "pubg",
+      "edition": "base",
+      "canonical_game_key": "pubg:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:pubg:base:2026-07-07",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "크래프톤"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "넷마블 ‘신의 탑: 새로운 세계’, 신규 SSR+ 등급 동료 '[갯뱀의 자손] 리랼' 업데이트 오늘(8일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/226730",
+      "event_at": "2026-07-07T17:43:51+00:00",
+      "event_date": "2026-07-07",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-07-06",
+      "game_event_key": "patch_note:base:2026-07-07",
+      "genre": [],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넷마블"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’, 홍시호 성우와 최연규 디렉터 특별 인터뷰 오늘(8일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/226729",
+      "event_at": "2026-07-07T17:12:56+00:00",
+      "event_date": "2026-07-07",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-07-07",
       "genre": [],
       "release": [
         "업데이트"
@@ -1275,76 +1351,30 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ]
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "㈜넥슨-블리자드 엔터테인먼트, ‘오버워치’ 8월 12일 국내 서비스 시작 예고 및 사전 계정연동 개시",
-      "url": "https://bbs.ruliweb.com/news/read/226677",
-      "event_at": "2026-07-06T17:11:46+00:00",
-      "event_date": "2026-07-06",
+      "event_model": "patch_note",
+      "title": "㈜위메이드플레이 ‘애니팡3’ 인기 콘텐츠 ‘카드 플레이’, 정규 콘텐츠로 서비스 확대",
+      "url": "https://bbs.ruliweb.com/news/read/226725",
+      "event_at": "2026-07-07T16:40:16+00:00",
+      "event_date": "2026-07-07",
       "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "오버워치"
-      ],
-      "normalized_game_title": "오버워치",
-      "edition": "base",
-      "canonical_game_key": "오버워치:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:오버워치:base:2026-07-06",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "블리자드",
-        "넥슨"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "팀42 ‘슬라임의 세계’, 지난주 3일(금) 플레이 트레일러 공개",
-      "url": "https://bbs.ruliweb.com/news/read/226674",
-      "event_at": "2026-07-06T16:47:39+00:00",
-      "event_date": "2026-07-06",
-      "platform": [
-        "스팀"
-      ],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-07-06",
+      "game_event_key": "patch_note:base:2026-07-07",
       "genre": [
-        "mmorpg"
+        "퍼즐"
       ],
       "release": [
-        "출시",
-        "발표",
-        "트레일러",
-        "데모"
+        "업데이트"
       ],
       "business_signal": [],
       "studio": [],
@@ -1362,8 +1392,293 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "에이플러스엑스, T1 ‘carpe’ 선수와 협업 ‘Pulsar PRO Series CARPE-X’ 마우스 출시",
+      "url": "https://bbs.ruliweb.com/news/read/226723",
+      "event_at": "2026-07-07T16:32:27+00:00",
+      "event_date": "2026-07-07",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "발로란트"
+      ],
+      "normalized_game_title": "발로란트",
+      "edition": "base",
+      "canonical_game_key": "발로란트:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:발로란트:base:2026-07-07",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
         "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "DOOM: The Dark Ages | Revelations – Available Now",
+      "url": "https://slayersclub.bethesda.net/en-US/article/doom-the-dark-ages-revelations-available-now",
+      "event_at": "2026-07-07T08:30:00+00:00",
+      "event_date": "2026-07-07",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-07-07",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "bethesda"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "The Blood of Dawnwalker: Dead and Loving It",
+      "url": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview",
+      "event_at": "2026-07-07T07:00:00+00:00",
+      "event_date": "2026-07-07",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-07-07",
+      "genre": [],
+      "release": [
+        "preview"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "\"We simply spread ourselves too thin\" – Xbox's Asha Sharma on firm's restructuring plans",
+      "url": "https://www.gamesindustry.biz/we-simply-spread-ourselves-too-thin-xboxs-asha-sharma-on-firms-restructuring-plans",
+      "event_at": "2026-07-07T04:14:50+00:00",
+      "event_date": "2026-07-07",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-07-07",
+      "genre": [],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Coming to XBOX Game Pass: Tony Hawk’s Pro Skater 1+ 2, The Planet Crafter, Palworld 1.0, and More",
+      "url": "https://news.xbox.com/en-us/2026/07/07/xbox-game-pass-july-2026-wave-1",
+      "event_at": "2026-07-07T04:00:00+00:00",
+      "event_date": "2026-07-07",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-07-07",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "1.0",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Original Switch console lineup to be discontinued in Europe by mid-February 2027",
+      "url": "https://www.gamesindustry.biz/original-switch-console-lineup-to-be-discontinued-in-europe-by-mid-february-2027",
+      "event_at": "2026-07-06T22:59:59+00:00",
+      "event_date": "2026-07-06",
+      "platform": [
+        "nintendo",
+        "switch"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "store_ranking:nintendo:base:2026-07-06",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Original Switch console lineup to be discontinued in Europe by mid-February 2027",
+      "url": "https://www.gamesindustry.biz/original-switch-console-lineup-to-be-discontinued-in-europe-by-mid-february-2027",
+      "event_at": "2026-07-06T22:59:59+00:00",
+      "event_date": "2026-07-06",
+      "platform": [
+        "nintendo",
+        "switch"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-07-06",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1448,7 +1763,7 @@
     {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
-      "title": "Xbox layoffs: jobs lost at Obsidian, Bethesda, Id and Zenimax Online Studios",
+      "title": "Xbox layoffs: Jobs lost at Obsidian, Bethesda, Id and Zenimax Online Studios",
       "url": "https://www.gamesindustry.biz/xbox-layoffs-july-2026",
       "event_at": "2026-07-06T07:45:32+00:00",
       "event_date": "2026-07-06",
@@ -2506,123 +2821,6 @@
         "game_title",
         "platform"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Assassin’s Creed Black Flag Resynced: PS5 Pro enhancements detailed",
-      "url": "https://blog.playstation.com/2026/06/29/assassins-creed-black-flag-resynced-ps5-pro-enhancements-detailed",
-      "event_at": "2026-06-29T06:00:27+00:00",
-      "event_date": "2026-06-29",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-06-29",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "From North Star to South Town – Kenshiro Is Coming to FATAL FURY: City of the Wolves!",
-      "url": "https://news.xbox.com/en-us/2026/06/29/fatal-fury-fist-of-the-north-star-kenshiro",
-      "event_at": "2026-06-29T06:00:00+00:00",
-      "event_date": "2026-06-29",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-06-29",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Avatar Legends: The Fighting Game Spirit Wilds stage revealed",
-      "url": "https://blog.playstation.com/2026/06/29/avatar-legends-the-fighting-game-spirit-wilds-stage-revealed",
-      "event_at": "2026-06-29T03:01:12+00:00",
-      "event_date": "2026-06-29",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-06-29",
-      "genre": [
-        "fighting"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2634,31 +2832,14 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "닌텐도, 배터리 교체 가능한 유럽 스위치 2 사양…2027년 2월 유럽 내 스위치 판매 중단",
-      "url": "https://bbs.ruliweb.com/news/read/226679",
+      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 원스토어 매출 순위 1위",
+      "url": "https://bbs.ruliweb.com/news/read/226736",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-07-06"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "닌텐도, 배터리 교체 가능한 유럽 스위치 2 사양…2027년 2월 유럽 내 스위치 판매 중단",
-      "url": "https://bbs.ruliweb.com/news/read/226679",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-07-06"
+      "game_event_key": "patch_note:base:2026-07-07"
     },
     {
       "reason": [
@@ -2668,13 +2849,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "㈜넥슨-블리자드 엔터테인먼트, ‘오버워치’ 8월 12일 국내 서비스 시작 예고 및 사전 계정연동 개시",
-      "url": "https://bbs.ruliweb.com/news/read/226677",
-      "canonical_game_key": "오버워치:base",
+      "title": "㈜크래프톤 ‘펍지 성수’ 오픈 1주년 기념 팬 페스티벌 ‘1 YEAR LOADED’, 오는 11일(토) 개최",
+      "url": "https://bbs.ruliweb.com/news/read/226734",
+      "canonical_game_key": "pubg:base",
       "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:오버워치:base:2026-07-06"
+      "game_event_key": "release_schedule:pubg:base:2026-07-07"
     },
     {
       "reason": [
@@ -2682,76 +2863,66 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "팀42 ‘슬라임의 세계’, 지난주 3일(금) 플레이 트레일러 공개",
-      "url": "https://bbs.ruliweb.com/news/read/226674",
+      "title": "넷마블 ‘신의 탑: 새로운 세계’, 신규 SSR+ 등급 동료 '[갯뱀의 자손] 리랼' 업데이트 오늘(8일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/226730",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-07-07"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’, 홍시호 성우와 최연규 디렉터 특별 인터뷰 오늘(8일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/226729",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-07-07"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜위메이드플레이 ‘애니팡3’ 인기 콘텐츠 ‘카드 플레이’, 정규 콘텐츠로 서비스 확대",
+      "url": "https://bbs.ruliweb.com/news/read/226725",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-07-07"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "에이플러스엑스, T1 ‘carpe’ 선수와 협업 ‘Pulsar PRO Series CARPE-X’ 마우스 출시",
+      "url": "https://bbs.ruliweb.com/news/read/226723",
+      "canonical_game_key": "발로란트:base",
+      "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-07-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Compulsion Games and Double Fine confirm \"Independence Day\" from Xbox",
-      "url": "https://www.gamesindustry.biz/compulsion-games-and-double-fine-confirm-independence-day-from-xbox",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Xbox layoffs: jobs lost at Obsidian, Bethesda, Id and Zenimax Online Studios",
-      "url": "https://www.gamesindustry.biz/xbox-layoffs-july-2026",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Xbox announces plans to lay off 3,200 staff and divest five studios",
-      "url": "https://www.gamesindustry.biz/xbox-to-reduce-workforce-by-3200-five-studios-to-be-divested",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "\"We are profoundly disappointed by Sony's decision\" – Game companies express dismay at the end of PlayStation disc production",
-      "url": "https://www.gamesindustry.biz/we-are-profoundly-disappointed-by-sonys-decision-game-companies-express-dismay-at-the-end-of-playstation-disc-production",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-07-03"
+      "game_event_key": "release_schedule:발로란트:base:2026-07-07"
     },
     {
       "reason": [
@@ -2760,13 +2931,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Microsoft Flight Simulator Releases World Update 22: United States National Parks",
-      "url": "https://www.flightsimulator.com/world-update-22",
+      "title": "DOOM: The Dark Ages | Revelations – Available Now",
+      "url": "https://slayersclub.bethesda.net/en-US/article/doom-the-dark-ages-revelations-available-now",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-02"
+      "game_event_key": "release_schedule:xbox:base:2026-07-07"
     },
     {
       "reason": [
@@ -2774,14 +2945,44 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Players’ Choice: Vote for June 2026’s best new game",
-      "url": "https://blog.playstation.com/2026/07/02/players-choice-vote-for-june-2026s-best-new-game",
-      "canonical_game_key": "playstation:base",
+      "source": "Xbox Wire",
+      "title": "The Blood of Dawnwalker: Dead and Loving It",
+      "url": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview",
+      "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-07-02"
+      "game_event_key": "release_schedule:xbox:base:2026-07-07"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "\"We simply spread ourselves too thin\" – Xbox's Asha Sharma on firm's restructuring plans",
+      "url": "https://www.gamesindustry.biz/we-simply-spread-ourselves-too-thin-xboxs-asha-sharma-on-firms-restructuring-plans",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-07-07"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Coming to XBOX Game Pass: Tony Hawk’s Pro Skater 1+ 2, The Planet Crafter, Palworld 1.0, and More",
+      "url": "https://news.xbox.com/en-us/2026/07/07/xbox-game-pass-july-2026-wave-1",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-07-07"
     }
   ],
   "source_backlog": {
