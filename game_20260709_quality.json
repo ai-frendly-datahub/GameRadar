@@ -1,13 +1,13 @@
 {
   "category": "game",
-  "generated_at": "2026-07-08T05:41:56.220569+00:00",
+  "generated_at": "2026-07-09T06:36:41.422194+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
     "enabled_sources": 38,
     "tracked_sources": 6,
-    "fresh_sources": 4,
-    "stale_sources": 0,
+    "fresh_sources": 3,
+    "stale_sources": 1,
     "missing_sources": 0,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 2,
-    "patch_note_events": 14,
-    "release_schedule_events": 24,
-    "actionable_game_event_count": 40,
+    "store_ranking_events": 3,
+    "patch_note_events": 15,
+    "release_schedule_events": 27,
+    "actionable_game_event_count": 45,
     "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 38,
-    "official_or_trade_event_count": 24,
-    "event_required_field_gap_count": 38,
+    "missing_canonical_game_key_count": 43,
+    "official_or_trade_event_count": 25,
+    "event_required_field_gap_count": 43,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 56,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -69,12 +69,12 @@
         "release_schedule"
       ],
       "freshness_sla_days": 7.0,
-      "status": "fresh",
+      "status": "stale",
       "article_count": 9,
       "event_count": 5,
       "latest_event_at": "2026-07-02T06:00:04+00:00",
-      "age_days": 5.99,
-      "latest_title": "Players’ Choice: Vote for June 2026’s best new game",
+      "age_days": 7.03,
+      "latest_title": "Players’ Choice – The Adventures of Elliot: The Millennium Tales voted June 2026’s top new game",
       "latest_url": "https://blog.playstation.com/2026/07/02/players-choice-vote-for-june-2026s-best-new-game",
       "latest_source_signal": [
         "patch",
@@ -103,10 +103,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 15,
-      "event_count": 6,
+      "article_count": 14,
+      "event_count": 5,
       "latest_event_at": "2026-07-07T08:30:00+00:00",
-      "age_days": 0.88,
+      "age_days": 1.92,
       "latest_title": "DOOM: The Dark Ages | Revelations – Available Now",
       "latest_url": "https://slayersclub.bethesda.net/en-US/article/doom-the-dark-ages-revelations-available-now",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 51,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 45,
-      "event_count": 13,
-      "latest_event_at": "2026-07-07T04:14:50+00:00",
-      "age_days": 1.06,
-      "latest_title": "\"We simply spread ourselves too thin\" – Xbox's Asha Sharma on firm's restructuring plans",
-      "latest_url": "https://www.gamesindustry.biz/we-simply-spread-ourselves-too-thin-xboxs-asha-sharma-on-firms-restructuring-plans",
+      "article_count": 51,
+      "event_count": 15,
+      "latest_event_at": "2026-07-08T09:17:11+00:00",
+      "age_days": 0.89,
+      "latest_title": "Nintendo confirms Switch 1 consoles will be withdrawn from Europe following EU law change on batteries",
+      "latest_url": "https://www.gamesindustry.biz/nintendo-confirms-switch-1-consoles-will-be-withdrawn-from-europe-following-eu-law-change-on-batteries",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 45,
-      "event_count": 16,
-      "latest_event_at": "2026-07-07T20:05:19+00:00",
-      "age_days": 0.4,
-      "latest_title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 원스토어 매출 순위 1위",
-      "latest_url": "https://bbs.ruliweb.com/news/read/226736",
+      "event_count": 20,
+      "latest_event_at": "2026-07-08T21:08:10+00:00",
+      "age_days": 0.39,
+      "latest_title": "㈜넥슨 ‘마비노기’ 여름 캠페인 ‘RE:ACTION’ 1차 대규모 업데이트 오늘(9일) 실시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/226792",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,10 +1198,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 원스토어 매출 순위 1위",
-      "url": "https://bbs.ruliweb.com/news/read/226736",
-      "event_at": "2026-07-07T20:05:19+00:00",
-      "event_date": "2026-07-07",
+      "title": "㈜넥슨 ‘마비노기’ 여름 캠페인 ‘RE:ACTION’ 1차 대규모 업데이트 오늘(9일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/226792",
+      "event_at": "2026-07-08T21:08:10+00:00",
+      "event_date": "2026-07-08",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1209,8 +1209,100 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-07-07",
-      "genre": [],
+      "game_event_key": "patch_note:base:2026-07-08",
+      "genre": [
+        "action",
+        "mmorpg",
+        "전략"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘Riviera ~약속의 땅 리비에라~’ Nintendo Switch™ 리마스터 한국어 패키지판, 오는 8월 6일 (목) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/226790",
+      "event_at": "2026-07-08T20:29:20+00:00",
+      "event_date": "2026-07-08",
+      "platform": [
+        "nintendo",
+        "switch"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-07-08",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "그라비티 ‘라그나로크 오리진 클래식’ 신규 지역 ‘고성’ 및 신규 직업 ‘건슬링거’ 업데이트 오늘(9일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/226789",
+      "event_at": "2026-07-08T20:18:11+00:00",
+      "event_date": "2026-07-08",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-07-08",
+      "genre": [
+        "mmorpg"
+      ],
       "release": [
         "업데이트"
       ],
@@ -1236,51 +1328,11 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "㈜크래프톤 ‘펍지 성수’ 오픈 1주년 기념 팬 페스티벌 ‘1 YEAR LOADED’, 오는 11일(토) 개최",
-      "url": "https://bbs.ruliweb.com/news/read/226734",
-      "event_at": "2026-07-07T19:39:35+00:00",
-      "event_date": "2026-07-07",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "pubg"
-      ],
-      "normalized_game_title": "pubg",
-      "edition": "base",
-      "canonical_game_key": "pubg:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:pubg:base:2026-07-07",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "크래프톤"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "넷마블 ‘신의 탑: 새로운 세계’, 신규 SSR+ 등급 동료 '[갯뱀의 자손] 리랼' 업데이트 오늘(8일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/226730",
-      "event_at": "2026-07-07T17:43:51+00:00",
-      "event_date": "2026-07-07",
+      "title": "넷마블 ‘세븐나이츠 리버스’ 각성 영웅 ‘루디’ 등 업데이트 오늘(9일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/226785",
+      "event_at": "2026-07-08T20:06:54+00:00",
+      "event_date": "2026-07-08",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1288,10 +1340,9 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-07-07",
+      "game_event_key": "patch_note:base:2026-07-08",
       "genre": [],
       "release": [
-        "출시",
         "업데이트"
       ],
       "business_signal": [],
@@ -1318,25 +1369,69 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’, 홍시호 성우와 최연규 디렉터 특별 인터뷰 오늘(8일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/226729",
-      "event_at": "2026-07-07T17:12:56+00:00",
-      "event_date": "2026-07-07",
+      "event_model": "release_schedule",
+      "title": "스마일게이트 ‘로스트아크’, 무신사 '모코코 스트릿 팝업 in 성수’ 22일 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/226784",
+      "event_at": "2026-07-08T20:02:24+00:00",
+      "event_date": "2026-07-08",
       "platform": [],
       "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
+      "game_title": [
+        "로스트아크"
+      ],
+      "normalized_game_title": "로스트아크",
       "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-07-07",
+      "canonical_game_key": "로스트아크:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:로스트아크:base:2026-07-08",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "스마일게이트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, ‘나루토 질풍전(NARUTO SHIPPUDEN)’과 컬래버레이션 진행 중",
+      "url": "https://bbs.ruliweb.com/news/read/226783",
+      "event_at": "2026-07-08T19:52:14+00:00",
+      "event_date": "2026-07-08",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "배틀그라운드"
+      ],
+      "normalized_game_title": "배틀그라운드",
+      "edition": "base",
+      "canonical_game_key": "배틀그라운드:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "patch_note:배틀그라운드:base:2026-07-08",
       "genre": [],
       "release": [
         "업데이트"
       ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "크래프톤"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1357,11 +1452,53 @@
     },
     {
       "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, ‘나루토 질풍전(NARUTO SHIPPUDEN)’과 컬래버레이션 진행 중",
+      "url": "https://bbs.ruliweb.com/news/read/226783",
+      "event_at": "2026-07-08T19:52:14+00:00",
+      "event_date": "2026-07-08",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "배틀그라운드"
+      ],
+      "normalized_game_title": "배틀그라운드",
+      "edition": "base",
+      "canonical_game_key": "배틀그라운드:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:배틀그라운드:base:2026-07-08",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "크래프톤"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "㈜위메이드플레이 ‘애니팡3’ 인기 콘텐츠 ‘카드 플레이’, 정규 콘텐츠로 서비스 확대",
-      "url": "https://bbs.ruliweb.com/news/read/226725",
-      "event_at": "2026-07-07T16:40:16+00:00",
-      "event_date": "2026-07-07",
+      "title": "㈜스튜디오비사이드 '스타세이비어', 메인스토리 EP.6 '부러지지 않은 검들의 광상곡' 오늘(9일) 업데이트 실시",
+      "url": "https://bbs.ruliweb.com/news/read/226780",
+      "event_at": "2026-07-08T19:00:48+00:00",
+      "event_date": "2026-07-08",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1369,9 +1506,9 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-07-07",
+      "game_event_key": "patch_note:base:2026-07-08",
       "genre": [
-        "퍼즐"
+        "rpg"
       ],
       "release": [
         "업데이트"
@@ -1399,21 +1536,27 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "에이플러스엑스, T1 ‘carpe’ 선수와 협업 ‘Pulsar PRO Series CARPE-X’ 마우스 출시",
-      "url": "https://bbs.ruliweb.com/news/read/226723",
-      "event_at": "2026-07-07T16:32:27+00:00",
-      "event_date": "2026-07-07",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "발로란트"
+      "title": "‘그랑블루 판타지 리링크 - 엔드리스 라그나로크’ 오늘(9일) 정식 출시",
+      "url": "https://bbs.ruliweb.com/news/read/226779",
+      "event_at": "2026-07-08T19:00:46+00:00",
+      "event_date": "2026-07-08",
+      "platform": [
+        "ps4",
+        "닌텐도",
+        "스위치",
+        "스팀"
       ],
-      "normalized_game_title": "발로란트",
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "발로란트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:발로란트:base:2026-07-07",
-      "genre": [],
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-07-08",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
       "release": [
         "출시"
       ],
@@ -1433,7 +1576,135 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "파우프린트 스튜디오, 오픈월드 몬스터 포획 RPG ‘애니모’, PC·스팀·모바일 글로벌 CBT 오늘(9일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/226778",
+      "event_at": "2026-07-08T17:29:53+00:00",
+      "event_date": "2026-07-08",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-07-08",
+      "genre": [
+        "rpg",
+        "오픈월드"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
         "platform"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Nintendo confirms Switch 1 consoles will be withdrawn from Europe following EU law change on batteries",
+      "url": "https://www.gamesindustry.biz/nintendo-confirms-switch-1-consoles-will-be-withdrawn-from-europe-following-eu-law-change-on-batteries",
+      "event_at": "2026-07-08T09:17:11+00:00",
+      "event_date": "2026-07-08",
+      "platform": [
+        "nintendo",
+        "switch"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "store_ranking:nintendo:base:2026-07-08",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Mario Kart Tour to shut down in September 2026",
+      "url": "https://www.gamesindustry.biz/mario-kart-tour-to-shut-down-in-september-2026",
+      "event_at": "2026-07-08T04:44:23+00:00",
+      "event_date": "2026-07-08",
+      "platform": [
+        "nintendo"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-07-08",
+      "genre": [],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1887,55 +2158,13 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Microsoft Flight Simulator Releases World Update 22: United States National Parks",
-      "url": "https://www.flightsimulator.com/world-update-22",
-      "event_at": "2026-07-02T10:00:00+00:00",
-      "event_date": "2026-07-02",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-07-02",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
-      "title": "Players’ Choice: Vote for June 2026’s best new game",
+      "title": "Players’ Choice – The Adventures of Elliot: The Millennium Tales voted June 2026’s top new game",
       "url": "https://blog.playstation.com/2026/07/02/players-choice-vote-for-june-2026s-best-new-game",
       "event_at": "2026-07-02T06:00:04+00:00",
       "event_date": "2026-07-02",
-      "platform": [
-        "playstation"
-      ],
+      "platform": [],
       "normalized_platform": "playstation",
       "game_title": [],
       "normalized_game_title": "",
@@ -1950,7 +2179,9 @@
       ],
       "release": [],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "square enix"
+      ],
       "source_signal": [
         "patch",
         "platform_update",
@@ -2832,14 +3063,64 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 원스토어 매출 순위 1위",
-      "url": "https://bbs.ruliweb.com/news/read/226736",
+      "title": "㈜넥슨 ‘마비노기’ 여름 캠페인 ‘RE:ACTION’ 1차 대규모 업데이트 오늘(9일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/226792",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-07-07"
+      "game_event_key": "patch_note:base:2026-07-08"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘Riviera ~약속의 땅 리비에라~’ Nintendo Switch™ 리마스터 한국어 패키지판, 오는 8월 6일 (목) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/226790",
+      "canonical_game_key": "nintendo:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:nintendo:base:2026-07-08"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "그라비티 ‘라그나로크 오리진 클래식’ 신규 지역 ‘고성’ 및 신규 직업 ‘건슬링거’ 업데이트 오늘(9일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/226789",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-07-08"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "넷마블 ‘세븐나이츠 리버스’ 각성 영웅 ‘루디’ 등 업데이트 오늘(9일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/226785",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-07-08"
     },
     {
       "reason": [
@@ -2849,64 +3130,30 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "㈜크래프톤 ‘펍지 성수’ 오픈 1주년 기념 팬 페스티벌 ‘1 YEAR LOADED’, 오는 11일(토) 개최",
-      "url": "https://bbs.ruliweb.com/news/read/226734",
-      "canonical_game_key": "pubg:base",
+      "title": "스마일게이트 ‘로스트아크’, 무신사 '모코코 스트릿 팝업 in 성수’ 22일 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/226784",
+      "canonical_game_key": "로스트아크:base",
       "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:pubg:base:2026-07-07"
+      "game_event_key": "release_schedule:로스트아크:base:2026-07-08"
     },
     {
       "reason": [
-        "missing_game_title_platform",
+        "missing_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘신의 탑: 새로운 세계’, 신규 SSR+ 등급 동료 '[갯뱀의 자손] 리랼' 업데이트 오늘(8일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/226730",
-      "canonical_game_key": "base",
+      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, ‘나루토 질풍전(NARUTO SHIPPUDEN)’과 컬래버레이션 진행 중",
+      "url": "https://bbs.ruliweb.com/news/read/226783",
+      "canonical_game_key": "배틀그라운드:base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-07-07"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’, 홍시호 성우와 최연규 디렉터 특별 인터뷰 오늘(8일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/226729",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-07-07"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜위메이드플레이 ‘애니팡3’ 인기 콘텐츠 ‘카드 플레이’, 정규 콘텐츠로 서비스 확대",
-      "url": "https://bbs.ruliweb.com/news/read/226725",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-07-07"
+      "game_event_key": "patch_note:배틀그라운드:base:2026-07-08"
     },
     {
       "reason": [
@@ -2916,73 +3163,63 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "에이플러스엑스, T1 ‘carpe’ 선수와 협업 ‘Pulsar PRO Series CARPE-X’ 마우스 출시",
-      "url": "https://bbs.ruliweb.com/news/read/226723",
-      "canonical_game_key": "발로란트:base",
+      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, ‘나루토 질풍전(NARUTO SHIPPUDEN)’과 컬래버레이션 진행 중",
+      "url": "https://bbs.ruliweb.com/news/read/226783",
+      "canonical_game_key": "배틀그라운드:base",
       "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:발로란트:base:2026-07-07"
+      "game_event_key": "release_schedule:배틀그라운드:base:2026-07-08"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜스튜디오비사이드 '스타세이비어', 메인스토리 EP.6 '부러지지 않은 검들의 광상곡' 오늘(9일) 업데이트 실시",
+      "url": "https://bbs.ruliweb.com/news/read/226780",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-07-08"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "DOOM: The Dark Ages | Revelations – Available Now",
-      "url": "https://slayersclub.bethesda.net/en-US/article/doom-the-dark-ages-revelations-available-now",
-      "canonical_game_key": "xbox:base",
+      "source": "루리웹 뉴스",
+      "title": "‘그랑블루 판타지 리링크 - 엔드리스 라그나로크’ 오늘(9일) 정식 출시",
+      "url": "https://bbs.ruliweb.com/news/read/226779",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-07"
+      "game_event_key": "release_schedule:playstation:base:2026-07-08"
     },
     {
       "reason": [
-        "missing_game_title",
-        "missing_required_fields"
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "The Blood of Dawnwalker: Dead and Loving It",
-      "url": "https://news.xbox.com/en-us/2026/07/07/the-blood-of-dawnwalker-hands-on-preview",
-      "canonical_game_key": "xbox:base",
+      "source": "루리웹 뉴스",
+      "title": "파우프린트 스튜디오, 오픈월드 몬스터 포획 RPG ‘애니모’, PC·스팀·모바일 글로벌 CBT 오늘(9일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/226778",
+      "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "\"We simply spread ourselves too thin\" – Xbox's Asha Sharma on firm's restructuring plans",
-      "url": "https://www.gamesindustry.biz/we-simply-spread-ourselves-too-thin-xboxs-asha-sharma-on-firms-restructuring-plans",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Coming to XBOX Game Pass: Tony Hawk’s Pro Skater 1+ 2, The Planet Crafter, Palworld 1.0, and More",
-      "url": "https://news.xbox.com/en-us/2026/07/07/xbox-game-pass-july-2026-wave-1",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-07"
+      "game_event_key": "release_schedule:base:2026-07-08"
     }
   ],
   "source_backlog": {
