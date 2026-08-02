@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-01T05:45:57.997127+00:00",
+  "generated_at": "2026-08-02T05:46:43.858988+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 5,
-    "patch_note_events": 4,
+    "patch_note_events": 5,
     "release_schedule_events": 16,
-    "actionable_game_event_count": 25,
+    "actionable_game_event_count": 26,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 24,
+    "missing_canonical_game_key_count": 25,
     "official_or_trade_event_count": 21,
-    "event_required_field_gap_count": 24,
+    "event_required_field_gap_count": 25,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 8,
       "latest_event_at": "2026-07-30T06:00:00+00:00",
-      "age_days": 1.99,
+      "age_days": 2.99,
       "latest_title": "Silent Hill: Townfall Developers discuss the Scottish setting, retro technology, first-person combat",
       "latest_url": "https://blog.playstation.com/2026/07/30/silent-hill-townfall-developers-discuss-the-scottish-setting-retro-technology-first-person-combat",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 5,
       "latest_event_at": "2026-07-31T13:00:00+00:00",
-      "age_days": 0.7,
+      "age_days": 1.7,
       "latest_title": "Hard Work Pays off as Shard Squad Comes to XBOX",
       "latest_url": "https://news.xbox.com/en-us/2026/07/31/hard-work-pays-off-as-shard-squad-comes-to-xbox",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 8,
       "latest_event_at": "2026-07-31T02:21:17+00:00",
-      "age_days": 1.14,
+      "age_days": 2.14,
       "latest_title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
       "latest_url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 4,
-      "latest_event_at": "2026-07-31T03:31:21+00:00",
-      "age_days": 1.09,
-      "latest_title": "서클프롬닷 ‘쿠산: 늑대들의 도시’, 장르적 영감 준 ‘핫라인 마이애미’와 특별 번들 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/227626",
+      "event_count": 5,
+      "latest_event_at": "2026-08-01T00:50:00+00:00",
+      "age_days": 1.21,
+      "latest_title": "붉은사막, 1.16.00 패치…무역 콘텐츠 개선",
+      "latest_url": "https://bbs.ruliweb.com/news/read/227628",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,49 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "붉은사막, 1.16.00 패치…무역 콘텐츠 개선",
+      "url": "https://bbs.ruliweb.com/news/read/227628",
+      "event_at": "2026-08-01T00:50:00+00:00",
+      "event_date": "2026-08-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-01",
+      "genre": [
+        "액션",
+        "어드벤처"
+      ],
+      "release": [
+        "패치"
+      ],
+      "business_signal": [],
+      "studio": [
+        "펄어비스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.16.00",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
     {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
@@ -2228,6 +2271,22 @@
   "daily_review_items": [
     {
       "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "붉은사막, 1.16.00 패치…무역 콘텐츠 개선",
+      "url": "https://bbs.ruliweb.com/news/read/227628",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "patch_note:base:2026-08-01"
+    },
+    {
+      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
@@ -2368,21 +2427,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-07-30"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Silent Hill: Townfall Developers discuss the Scottish setting, retro technology, first-person combat",
-      "url": "https://blog.playstation.com/2026/07/30/silent-hill-townfall-developers-discuss-the-scottish-setting-retro-technology-first-person-combat",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-07-30"
     }
   ],
   "source_backlog": {
