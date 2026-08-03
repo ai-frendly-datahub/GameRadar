@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-02T05:46:43.858988+00:00",
+  "generated_at": "2026-08-03T06:10:17.109113+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 5,
-    "patch_note_events": 5,
-    "release_schedule_events": 16,
-    "actionable_game_event_count": 26,
+    "patch_note_events": 2,
+    "release_schedule_events": 18,
+    "actionable_game_event_count": 25,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 25,
+    "missing_canonical_game_key_count": 24,
     "official_or_trade_event_count": 21,
-    "event_required_field_gap_count": 25,
+    "event_required_field_gap_count": 24,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 8,
       "latest_event_at": "2026-07-30T06:00:00+00:00",
-      "age_days": 2.99,
+      "age_days": 4.01,
       "latest_title": "Silent Hill: Townfall Developers discuss the Scottish setting, retro technology, first-person combat",
       "latest_url": "https://blog.playstation.com/2026/07/30/silent-hill-townfall-developers-discuss-the-scottish-setting-retro-technology-first-person-combat",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 5,
       "latest_event_at": "2026-07-31T13:00:00+00:00",
-      "age_days": 1.7,
+      "age_days": 2.72,
       "latest_title": "Hard Work Pays off as Shard Squad Comes to XBOX",
       "latest_url": "https://news.xbox.com/en-us/2026/07/31/hard-work-pays-off-as-shard-squad-comes-to-xbox",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 8,
       "latest_event_at": "2026-07-31T02:21:17+00:00",
-      "age_days": 2.14,
+      "age_days": 3.16,
       "latest_title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
       "latest_url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 5,
-      "latest_event_at": "2026-08-01T00:50:00+00:00",
-      "age_days": 1.21,
-      "latest_title": "붉은사막, 1.16.00 패치…무역 콘텐츠 개선",
-      "latest_url": "https://bbs.ruliweb.com/news/read/227628",
+      "event_count": 4,
+      "latest_event_at": "2026-08-02T20:32:51+00:00",
+      "age_days": 0.4,
+      "latest_title": "SpaceJazz Games, Astro Prospector 개발팀의 신작 ‘Hole Is Mine’ 8월 10일 Steam 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/227671",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1197,29 +1197,155 @@
   "events": [
     {
       "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "붉은사막, 1.16.00 패치…무역 콘텐츠 개선",
-      "url": "https://bbs.ruliweb.com/news/read/227628",
-      "event_at": "2026-08-01T00:50:00+00:00",
-      "event_date": "2026-08-01",
-      "platform": [],
+      "event_model": "release_schedule",
+      "title": "SpaceJazz Games, Astro Prospector 개발팀의 신작 ‘Hole Is Mine’ 8월 10일 Steam 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227671",
+      "event_at": "2026-08-02T20:32:51+00:00",
+      "event_date": "2026-08-02",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-08-02",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "오리엔조이, 모바일 파밍 MMORPG ‘히어로 랜드M’ 오는 7일(금) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227668",
+      "event_at": "2026-08-02T19:07:58+00:00",
+      "event_date": "2026-08-02",
+      "platform": [
+        "스팀"
+      ],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-01",
+      "game_event_key": "release_schedule:base:2026-08-02",
       "genre": [
-        "액션",
-        "어드벤처"
+        "mmorpg"
       ],
       "release": [
-        "패치"
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "유니티, 넷플릭스와 손잡고 모바일·TV 멀티플랫폼 게임 생태계 지원 나서",
+      "url": "https://bbs.ruliweb.com/news/read/227667",
+      "event_at": "2026-08-02T18:50:22+00:00",
+      "event_date": "2026-08-02",
+      "platform": [
+        "클라우드 게이밍"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-08-02",
+      "genre": [],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘엘든 링: 빛바랜 자 에디션’ Nintendo Switch2 버전 패키지 선주문 판매, 8월 5일(수) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227665",
+      "event_at": "2026-08-02T17:56:18+00:00",
+      "event_date": "2026-08-02",
+      "platform": [
+        "nintendo",
+        "switch"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-08-02",
+      "genre": [],
+      "release": [
+        "발표",
+        "확장팩"
       ],
       "business_signal": [],
       "studio": [
-        "펄어비스"
+        "nintendo",
+        "반다이남코"
       ],
       "source_signal": [
         "community_reaction",
@@ -1230,12 +1356,12 @@
       "authority_role": "community_media",
       "trust_tier": "T3_professional",
       "producer_role": "community_media",
-      "version": "1.16.00",
+      "version": "",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "platform"
+        "game_title"
       ]
     },
     {
@@ -1399,51 +1525,6 @@
       ]
     },
     {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "서클프롬닷 ‘쿠산: 늑대들의 도시’, 장르적 영감 준 ‘핫라인 마이애미’와 특별 번들 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227626",
-      "event_at": "2026-07-31T03:31:21+00:00",
-      "event_date": "2026-07-31",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-07-31",
-      "genre": [
-        "액션",
-        "인디"
-      ],
-      "release": [
-        "출시",
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
@@ -1482,137 +1563,6 @@
       "required_field_gaps": [
         "rank",
         "market"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "매직큐브 ‘머지 앤 블레이드(Merge & Blade)’, 지난 30일(목) '온라인 대전' 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/227622",
-      "event_at": "2026-07-30T21:22:49+00:00",
-      "event_date": "2026-07-30",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-07-30",
-      "genre": [
-        "퍼즐",
-        "인디"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘판타지스타 아스카 크리스탈 콤비 컬렉션’ NS 합본 패키지 오늘(31일) 출시 및 기념 이벤트 개최",
-      "url": "https://bbs.ruliweb.com/news/read/227620",
-      "event_at": "2026-07-30T20:24:36+00:00",
-      "event_date": "2026-07-30",
-      "platform": [
-        "nintendo",
-        "switch"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-07-30",
-      "genre": [
-        "액션",
-        "시뮬레이션"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜카카오게임즈 ‘오딘: 발할라 라이징’, 지난 30일(수) 2026년 하반기 업데이트 미리보기 공개",
-      "url": "https://bbs.ruliweb.com/news/read/227618",
-      "event_at": "2026-07-30T20:06:30+00:00",
-      "event_date": "2026-07-30",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-07-30",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "카카오게임즈"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
       ]
     },
     {
@@ -2271,19 +2221,69 @@
   "daily_review_items": [
     {
       "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "SpaceJazz Games, Astro Prospector 개발팀의 신작 ‘Hole Is Mine’ 8월 10일 Steam 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227671",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-08-02"
+    },
+    {
+      "reason": [
         "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "patch_note",
+      "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "붉은사막, 1.16.00 패치…무역 콘텐츠 개선",
-      "url": "https://bbs.ruliweb.com/news/read/227628",
+      "title": "오리엔조이, 모바일 파밍 MMORPG ‘히어로 랜드M’ 오는 7일(금) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227668",
       "canonical_game_key": "base",
       "required_field_gaps": [
+        "game_title",
         "platform"
       ],
-      "game_event_key": "patch_note:base:2026-08-01"
+      "game_event_key": "release_schedule:base:2026-08-02"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "유니티, 넷플릭스와 손잡고 모바일·TV 멀티플랫폼 게임 생태계 지원 나서",
+      "url": "https://bbs.ruliweb.com/news/read/227667",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-08-02"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘엘든 링: 빛바랜 자 에디션’ Nintendo Switch2 버전 패키지 선주문 판매, 8월 5일(수) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227665",
+      "canonical_game_key": "nintendo:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:nintendo:base:2026-08-02"
     },
     {
       "reason": [
@@ -2332,23 +2332,6 @@
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "서클프롬닷 ‘쿠산: 늑대들의 도시’, 장르적 영감 준 ‘핫라인 마이애미’와 특별 번들 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227626",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-07-31"
-    },
-    {
-      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
@@ -2365,56 +2348,6 @@
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "매직큐브 ‘머지 앤 블레이드(Merge & Blade)’, 지난 30일(목) '온라인 대전' 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/227622",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-07-30"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘판타지스타 아스카 크리스탈 콤비 컬렉션’ NS 합본 패키지 오늘(31일) 출시 및 기념 이벤트 개최",
-      "url": "https://bbs.ruliweb.com/news/read/227620",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:nintendo:base:2026-07-30"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜카카오게임즈 ‘오딘: 발할라 라이징’, 지난 30일(수) 2026년 하반기 업데이트 미리보기 공개",
-      "url": "https://bbs.ruliweb.com/news/read/227618",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-07-30"
-    },
-    {
-      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
@@ -2427,6 +2360,21 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-07-30"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Silent Hill: Townfall Developers discuss the Scottish setting, retro technology, first-person combat",
+      "url": "https://blog.playstation.com/2026/07/30/silent-hill-townfall-developers-discuss-the-scottish-setting-retro-technology-first-person-combat",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-07-30"
     }
   ],
   "source_backlog": {
