@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-03T06:10:17.109113+00:00",
+  "generated_at": "2026-08-04T05:38:41.522671+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 5,
-    "patch_note_events": 2,
-    "release_schedule_events": 18,
-    "actionable_game_event_count": 25,
+    "store_ranking_events": 4,
+    "patch_note_events": 4,
+    "release_schedule_events": 13,
+    "actionable_game_event_count": 21,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 24,
-    "official_or_trade_event_count": 21,
-    "event_required_field_gap_count": 24,
+    "missing_canonical_game_key_count": 20,
+    "official_or_trade_event_count": 18,
+    "event_required_field_gap_count": 20,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -72,10 +72,10 @@
       "status": "fresh",
       "article_count": 10,
       "event_count": 8,
-      "latest_event_at": "2026-07-30T06:00:00+00:00",
-      "age_days": 4.01,
-      "latest_title": "Silent Hill: Townfall Developers discuss the Scottish setting, retro technology, first-person combat",
-      "latest_url": "https://blog.playstation.com/2026/07/30/silent-hill-townfall-developers-discuss-the-scottish-setting-retro-technology-first-person-combat",
+      "latest_event_at": "2026-08-03T05:00:25+00:00",
+      "age_days": 1.03,
+      "latest_title": "Players’ Choice: Vote for July 2026’s best new game",
+      "latest_url": "https://blog.playstation.com/2026/08/03/players-choice-vote-for-july-2026s-best-new-game",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,9 +104,9 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 5,
+      "event_count": 3,
       "latest_event_at": "2026-07-31T13:00:00+00:00",
-      "age_days": 2.72,
+      "age_days": 3.69,
       "latest_title": "Hard Work Pays off as Shard Squad Comes to XBOX",
       "latest_url": "https://news.xbox.com/en-us/2026/07/31/hard-work-pays-off-as-shard-squad-comes-to-xbox",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 8,
-      "latest_event_at": "2026-07-31T02:21:17+00:00",
-      "age_days": 3.16,
-      "latest_title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
-      "latest_url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production",
+      "event_count": 7,
+      "latest_event_at": "2026-08-02T23:22:06+00:00",
+      "age_days": 1.26,
+      "latest_title": "Microsoft confirms increased Xbox prices in the UK and Europe",
+      "latest_url": "https://www.gamesindustry.biz/microsoft-confirms-increased-xbox-prices-in-the-uk-and-europe",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 4,
-      "latest_event_at": "2026-08-02T20:32:51+00:00",
-      "age_days": 0.4,
-      "latest_title": "SpaceJazz Games, Astro Prospector 개발팀의 신작 ‘Hole Is Mine’ 8월 10일 Steam 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/227671",
+      "event_count": 3,
+      "latest_event_at": "2026-08-03T16:37:52+00:00",
+      "age_days": 0.54,
+      "latest_title": "‘Beast of Reincarnation -윤회의 짐승-’ PlayStation®5 패키지, 오늘(4일) 발매",
+      "latest_url": "https://bbs.ruliweb.com/news/read/227703",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,23 +1198,26 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "SpaceJazz Games, Astro Prospector 개발팀의 신작 ‘Hole Is Mine’ 8월 10일 Steam 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227671",
-      "event_at": "2026-08-02T20:32:51+00:00",
-      "event_date": "2026-08-02",
+      "title": "‘Beast of Reincarnation -윤회의 짐승-’ PlayStation®5 패키지, 오늘(4일) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/227703",
+      "event_at": "2026-08-03T16:37:52+00:00",
+      "event_date": "2026-08-03",
       "platform": [
-        "steam"
+        "playstation"
       ],
-      "normalized_platform": "steam",
+      "normalized_platform": "playstation",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "steam:base",
+      "canonical_game_key": "playstation:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-08-02",
-      "genre": [],
+      "game_event_key": "release_schedule:playstation:base:2026-08-03",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
       "release": [
-        "출시"
+        "발표"
       ],
       "business_signal": [],
       "studio": [],
@@ -1237,26 +1240,26 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "오리엔조이, 모바일 파밍 MMORPG ‘히어로 랜드M’ 오는 7일(금) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227668",
-      "event_at": "2026-08-02T19:07:58+00:00",
-      "event_date": "2026-08-02",
-      "platform": [
-        "스팀"
-      ],
+      "event_model": "patch_note",
+      "title": "‘타워 오브 판타지’ 6.2 신규 버전 업데이트, 한정 레플리카 ‘겔피인’ 오늘(4일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/227698",
+      "event_at": "2026-08-03T16:07:41+00:00",
+      "event_date": "2026-08-03",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-08-02",
+      "game_event_key": "patch_note:base:2026-08-03",
       "genre": [
-        "mmorpg"
+        "rpg",
+        "오픈월드"
       ],
       "release": [
-        "출시"
+        "출시",
+        "업데이트"
       ],
       "business_signal": [],
       "studio": [],
@@ -1269,35 +1272,34 @@
       "authority_role": "community_media",
       "trust_tier": "T3_professional",
       "producer_role": "community_media",
-      "version": "",
+      "version": "6.2",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
         "platform"
       ]
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "유니티, 넷플릭스와 손잡고 모바일·TV 멀티플랫폼 게임 생태계 지원 나서",
-      "url": "https://bbs.ruliweb.com/news/read/227667",
-      "event_at": "2026-08-02T18:50:22+00:00",
-      "event_date": "2026-08-02",
-      "platform": [
-        "클라우드 게이밍"
-      ],
+      "event_model": "patch_note",
+      "title": "비피엠지(BPMG) ‘마이리틀셰프’ '오늘의 감자' 테마 레스토랑 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/227697",
+      "event_at": "2026-08-03T16:03:51+00:00",
+      "event_date": "2026-08-03",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-08-02",
-      "genre": [],
+      "game_event_key": "patch_note:base:2026-08-03",
+      "genre": [
+        "시뮬레이션"
+      ],
       "release": [
-        "발표"
+        "업데이트"
       ],
       "business_signal": [],
       "studio": [],
@@ -1315,47 +1317,84 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ]
     },
     {
-      "source": "루리웹 뉴스",
+      "source": "PlayStation Blog",
       "event_model": "release_schedule",
-      "title": "‘엘든 링: 빛바랜 자 에디션’ Nintendo Switch2 버전 패키지 선주문 판매, 8월 5일(수) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227665",
-      "event_at": "2026-08-02T17:56:18+00:00",
-      "event_date": "2026-08-02",
+      "title": "Players’ Choice: Vote for July 2026’s best new game",
+      "url": "https://blog.playstation.com/2026/08/03/players-choice-vote-for-july-2026s-best-new-game",
+      "event_at": "2026-08-03T05:00:25+00:00",
+      "event_date": "2026-08-03",
       "platform": [
-        "nintendo",
-        "switch"
+        "playstation"
       ],
-      "normalized_platform": "nintendo",
+      "normalized_platform": "playstation",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "nintendo:base",
+      "canonical_game_key": "playstation:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-08-02",
+      "game_event_key": "release_schedule:playstation:base:2026-08-03",
+      "genre": [
+        "action",
+        "fighting",
+        "sports"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Microsoft confirms increased Xbox prices in the UK and Europe",
+      "url": "https://www.gamesindustry.biz/microsoft-confirms-increased-xbox-prices-in-the-uk-and-europe",
+      "event_at": "2026-08-02T23:22:06+00:00",
+      "event_date": "2026-08-02",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-08-02",
       "genre": [],
       "release": [
-        "발표",
-        "확장팩"
+        "announced"
       ],
       "business_signal": [],
-      "studio": [
-        "nintendo",
-        "반다이남코"
-      ],
+      "studio": [],
       "source_signal": [
-        "community_reaction",
         "game_media_context",
-        "patch",
-        "release"
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
       ],
-      "authority_role": "community_media",
+      "authority_role": "trade_media",
       "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "producer_role": "trade_media",
       "version": "",
       "rank": null,
       "market": "",
@@ -1483,48 +1522,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Next Week on XBOX: New Games for August 3 to 7",
-      "url": "https://news.xbox.com/en-us/2026/07/31/next-week-on-xbox-new-games-for-august-3-to-7",
-      "event_at": "2026-07-31T05:00:00+00:00",
-      "event_date": "2026-07-31",
-      "platform": [
-        "xbox",
-        "xbox series x",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-07-31",
-      "genre": [],
-      "release": [
-        "coming soon"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
@@ -1563,44 +1560,6 @@
       "required_field_gaps": [
         "rank",
         "market"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "A Microsoft Flight Simulator Cinderella Story: Building the A220 Airliner",
-      "url": "https://news.xbox.com/en-us/2026/07/30/microsoft-flight-simulator-cinderella-story-building-a220-airliner",
-      "event_at": "2026-07-30T10:00:00+00:00",
-      "event_date": "2026-07-30",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-07-30",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
       ]
     },
     {
@@ -2096,126 +2055,6 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Dragon Ball: Sparking Zero’s Super Limit-Breaking Neo DLC out July 30",
-      "url": "https://blog.playstation.com/2026/07/23/dragon-ball-sparking-zeros-super-limit-breaking-neo-dlc-out-july-30",
-      "event_at": "2026-07-23T05:00:41+00:00",
-      "event_date": "2026-07-23",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-07-23",
-      "genre": [],
-      "release": [
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Delphi Interactive's fan-first strategy draws major IP interest following success of James Bond and FIFA",
-      "url": "https://www.gamesindustry.biz/delphi-interactives-fan-first-strategy-draws-major-ip-interest-following-success-of-james-bond-and-fifa",
-      "event_at": "2026-07-23T01:34:37+00:00",
-      "event_date": "2026-07-23",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "fifa"
-      ],
-      "normalized_game_title": "fifa",
-      "edition": "base",
-      "canonical_game_key": "fifa:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:fifa:base:2026-07-23",
-      "genre": [
-        "strategy"
-      ],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Despite Xbox console sales doubling YoY, hardware sales across the US are down 62% | US Monthly Charts",
-      "url": "https://www.gamesindustry.biz/despite-xbox-console-sales-doubling-yoy-hardware-sales-across-the-us-are-down-62-us-monthly-charts",
-      "event_at": "2026-07-22T08:26:25+00:00",
-      "event_date": "2026-07-22",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "store_ranking:xbox:base:2026-07-22",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "5.7",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2227,13 +2066,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "SpaceJazz Games, Astro Prospector 개발팀의 신작 ‘Hole Is Mine’ 8월 10일 Steam 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227671",
-      "canonical_game_key": "steam:base",
+      "title": "‘Beast of Reincarnation -윤회의 짐승-’ PlayStation®5 패키지, 오늘(4일) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/227703",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-08-02"
+      "game_event_key": "release_schedule:playstation:base:2026-08-03"
     },
     {
       "reason": [
@@ -2241,16 +2080,15 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "오리엔조이, 모바일 파밍 MMORPG ‘히어로 랜드M’ 오는 7일(금) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227668",
+      "title": "‘타워 오브 판타지’ 6.2 신규 버전 업데이트, 한정 레플리카 ‘겔피인’ 오늘(4일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/227698",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-08-02"
+      "game_event_key": "patch_note:base:2026-08-03"
     },
     {
       "reason": [
@@ -2258,32 +2096,46 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "유니티, 넷플릭스와 손잡고 모바일·TV 멀티플랫폼 게임 생태계 지원 나서",
-      "url": "https://bbs.ruliweb.com/news/read/227667",
+      "title": "비피엠지(BPMG) ‘마이리틀셰프’ '오늘의 감자' 테마 레스토랑 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/227697",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ],
-      "game_event_key": "release_schedule:base:2026-08-02"
+      "game_event_key": "patch_note:base:2026-08-03"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘엘든 링: 빛바랜 자 에디션’ Nintendo Switch2 버전 패키지 선주문 판매, 8월 5일(수) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227665",
-      "canonical_game_key": "nintendo:base",
+      "source": "PlayStation Blog",
+      "title": "Players’ Choice: Vote for July 2026’s best new game",
+      "url": "https://blog.playstation.com/2026/08/03/players-choice-vote-for-july-2026s-best-new-game",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:nintendo:base:2026-08-02"
+      "game_event_key": "release_schedule:playstation:base:2026-08-03"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Microsoft confirms increased Xbox prices in the UK and Europe",
+      "url": "https://www.gamesindustry.biz/microsoft-confirms-increased-xbox-prices-in-the-uk-and-europe",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-08-02"
     },
     {
       "reason": [
@@ -2320,21 +2172,6 @@
         "missing_game_title",
         "missing_required_fields"
       ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Next Week on XBOX: New Games for August 3 to 7",
-      "url": "https://news.xbox.com/en-us/2026/07/31/next-week-on-xbox-new-games-for-august-3-to-7",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-31"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
       "event_model": "store_ranking",
       "source": "GamesIndustry.biz",
       "title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
@@ -2352,21 +2189,6 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "A Microsoft Flight Simulator Cinderella Story: Building the A220 Airliner",
-      "url": "https://news.xbox.com/en-us/2026/07/30/microsoft-flight-simulator-cinderella-story-building-a220-airliner",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-30"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
       "source": "PlayStation Blog",
       "title": "Silent Hill: Townfall Developers discuss the Scottish setting, retro technology, first-person combat",
       "url": "https://blog.playstation.com/2026/07/30/silent-hill-townfall-developers-discuss-the-scottish-setting-retro-technology-first-person-combat",
@@ -2375,6 +2197,21 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:playstation:base:2026-07-30"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "GTA 6 download codes will expire 170 days after launch in Japan",
+      "url": "https://www.gamesindustry.biz/gta-6-download-codes-to-expire-170-days-after-launch-in-japan",
+      "canonical_game_key": "gta:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:gta:base:2026-07-30"
     }
   ],
   "source_backlog": {
