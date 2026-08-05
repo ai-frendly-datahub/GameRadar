@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-04T05:38:41.522671+00:00",
+  "generated_at": "2026-08-05T05:36:41.589124+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 4,
     "patch_note_events": 4,
-    "release_schedule_events": 13,
-    "actionable_game_event_count": 21,
+    "release_schedule_events": 15,
+    "actionable_game_event_count": 23,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 20,
-    "official_or_trade_event_count": 18,
-    "event_required_field_gap_count": 20,
+    "missing_canonical_game_key_count": 22,
+    "official_or_trade_event_count": 19,
+    "event_required_field_gap_count": 22,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 8,
-      "latest_event_at": "2026-08-03T05:00:25+00:00",
-      "age_days": 1.03,
-      "latest_title": "Players’ Choice: Vote for July 2026’s best new game",
-      "latest_url": "https://blog.playstation.com/2026/08/03/players-choice-vote-for-july-2026s-best-new-game",
+      "event_count": 7,
+      "latest_event_at": "2026-08-04T07:00:48+00:00",
+      "age_days": 0.94,
+      "latest_title": "Crimson Moon battles demonic corruption on September 1",
+      "latest_url": "https://blog.playstation.com/2026/08/04/crimson-moon-battles-demonic-corruption-on-september-1",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 3,
-      "latest_event_at": "2026-07-31T13:00:00+00:00",
-      "age_days": 3.69,
-      "latest_title": "Hard Work Pays off as Shard Squad Comes to XBOX",
-      "latest_url": "https://news.xbox.com/en-us/2026/07/31/hard-work-pays-off-as-shard-squad-comes-to-xbox",
+      "event_count": 4,
+      "latest_event_at": "2026-08-04T04:00:00+00:00",
+      "age_days": 1.07,
+      "latest_title": "Coming to XBOX Game Pass: Gears of War: E-Day Open Beta, Cricket 26, Date Everything!, and More",
+      "latest_url": "https://news.xbox.com/en-us/2026/08/04/xbox-game-pass-august-2026-wave-1",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 7,
-      "latest_event_at": "2026-08-02T23:22:06+00:00",
-      "age_days": 1.26,
-      "latest_title": "Microsoft confirms increased Xbox prices in the UK and Europe",
-      "latest_url": "https://www.gamesindustry.biz/microsoft-confirms-increased-xbox-prices-in-the-uk-and-europe",
+      "event_count": 8,
+      "latest_event_at": "2026-08-03T11:15:39+00:00",
+      "age_days": 1.76,
+      "latest_title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
+      "latest_url": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 3,
-      "latest_event_at": "2026-08-03T16:37:52+00:00",
-      "age_days": 0.54,
-      "latest_title": "‘Beast of Reincarnation -윤회의 짐승-’ PlayStation®5 패키지, 오늘(4일) 발매",
-      "latest_url": "https://bbs.ruliweb.com/news/read/227703",
+      "event_count": 4,
+      "latest_event_at": "2026-08-04T17:58:35+00:00",
+      "age_days": 0.48,
+      "latest_title": "마상소프트, 액션 슈팅 게임 ‘건즈: 더 듀얼(GunZ: The Duel)’ 오는 14일(금) 스팀(Steam) 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/227750",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,25 +1198,26 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘Beast of Reincarnation -윤회의 짐승-’ PlayStation®5 패키지, 오늘(4일) 발매",
-      "url": "https://bbs.ruliweb.com/news/read/227703",
-      "event_at": "2026-08-03T16:37:52+00:00",
-      "event_date": "2026-08-03",
+      "title": "마상소프트, 액션 슈팅 게임 ‘건즈: 더 듀얼(GunZ: The Duel)’ 오는 14일(금) 스팀(Steam) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227750",
+      "event_at": "2026-08-04T17:58:35+00:00",
+      "event_date": "2026-08-04",
       "platform": [
-        "playstation"
+        "steam",
+        "스팀"
       ],
-      "normalized_platform": "playstation",
+      "normalized_platform": "steam",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "playstation:base",
+      "canonical_game_key": "steam:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-03",
+      "game_event_key": "release_schedule:steam:base:2026-08-04",
       "genre": [
-        "액션",
-        "rpg"
+        "액션"
       ],
       "release": [
+        "출시",
         "발표"
       ],
       "business_signal": [],
@@ -1241,10 +1242,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "‘타워 오브 판타지’ 6.2 신규 버전 업데이트, 한정 레플리카 ‘겔피인’ 오늘(4일) 추가",
-      "url": "https://bbs.ruliweb.com/news/read/227698",
-      "event_at": "2026-08-03T16:07:41+00:00",
-      "event_date": "2026-08-03",
+      "title": "넷마블 ‘신의 탑: 새로운 세계’, 3주년 업데이트 오늘(5일) 실시…신규 가주 '연 이랑' 추가",
+      "url": "https://bbs.ruliweb.com/news/read/227749",
+      "event_at": "2026-08-04T17:58:14+00:00",
+      "event_date": "2026-08-04",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1252,57 +1253,18 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-03",
+      "game_event_key": "patch_note:base:2026-08-04",
       "genre": [
-        "rpg",
-        "오픈월드"
+        "rpg"
       ],
       "release": [
         "출시",
         "업데이트"
       ],
       "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
+      "studio": [
+        "넷마블"
       ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "6.2",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "비피엠지(BPMG) ‘마이리틀셰프’ '오늘의 감자' 테마 레스토랑 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/227697",
-      "event_at": "2026-08-03T16:03:51+00:00",
-      "event_date": "2026-08-03",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-03",
-      "genre": [
-        "시뮬레이션"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1319,6 +1281,253 @@
       "required_field_gaps": [
         "platform",
         "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜엔씨 ‘블레이드 & 소울 NEO’, ‘열혈강호’ IP 컬래버레이션 업데이트 사전예약 오늘(5일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227744",
+      "event_at": "2026-08-04T17:09:48+00:00",
+      "event_date": "2026-08-04",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-04",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "엔씨소프트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "펄어비스 ‘검은사막’, ‘길드 명성 시스템’ 오늘(5일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/227743",
+      "event_at": "2026-08-04T16:53:54+00:00",
+      "event_date": "2026-08-04",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-04",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "펄어비스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Crimson Moon battles demonic corruption on September 1",
+      "url": "https://blog.playstation.com/2026/08/04/crimson-moon-battles-demonic-corruption-on-september-1",
+      "event_at": "2026-08-04T07:00:48+00:00",
+      "event_date": "2026-08-04",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-04",
+      "genre": [
+        "action",
+        "action rpg",
+        "rpg"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Gameplay first look – Mafia: The Old Country’s Man of Honor expansion",
+      "url": "https://blog.playstation.com/2026/08/04/gameplay-first-look-mafia-the-old-countrys-man-of-honor-expansion",
+      "event_at": "2026-08-04T06:00:49+00:00",
+      "event_date": "2026-08-04",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-04",
+      "genre": [],
+      "release": [
+        "dlc",
+        "expansion"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Coming to XBOX Game Pass: Gears of War: E-Day Open Beta, Cricket 26, Date Everything!, and More",
+      "url": "https://news.xbox.com/en-us/2026/08/04/xbox-game-pass-august-2026-wave-1",
+      "event_at": "2026-08-04T04:00:00+00:00",
+      "event_date": "2026-08-04",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "early-access",
+      "canonical_game_key": "xbox:early-access",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:early-access:2026-08-04",
+      "genre": [],
+      "release": [
+        "coming soon",
+        "early access",
+        "beta"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
+      "url": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
+      "event_at": "2026-08-03T11:15:39+00:00",
+      "event_date": "2026-08-03",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "fifa"
+      ],
+      "normalized_game_title": "fifa",
+      "edition": "base",
+      "canonical_game_key": "fifa:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:fifa:base:2026-08-03",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
       ]
     },
     {
@@ -1936,125 +2145,6 @@
         "rank",
         "market"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Phoenix Cyclops revealed as MARVEL Tōkon: Fighting Souls First Year 1 DLC character",
-      "url": "https://blog.playstation.com/2026/07/23/phoenix-cyclops-revealed-as-marvel-tokon-fighting-souls-first-year-1-dlc-character",
-      "event_at": "2026-07-23T10:46:05+00:00",
-      "event_date": "2026-07-23",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-07-23",
-      "genre": [
-        "fighting"
-      ],
-      "release": [
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Phoenix Cyclops revealed as MARVEL Tōkon: Fighting Souls First Year 1 DLC character",
-      "url": "https://blog.playstation.com/2026/07/23/phoenix-cyclops-revealed-as-marvel-tokon-fighting-souls-first-year-1-dlc-character",
-      "event_at": "2026-07-23T10:46:05+00:00",
-      "event_date": "2026-07-23",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-07-23",
-      "genre": [
-        "fighting"
-      ],
-      "release": [
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Marvel’s Wolverine: Story Trailer, new art, composer details, and more",
-      "url": "https://blog.playstation.com/2026/07/23/marvels-wolverine-story-trailer-new-art-composer-details-and-more",
-      "event_at": "2026-07-23T10:14:35+00:00",
-      "event_date": "2026-07-23",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-07-23",
-      "genre": [],
-      "release": [
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2066,13 +2156,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘Beast of Reincarnation -윤회의 짐승-’ PlayStation®5 패키지, 오늘(4일) 발매",
-      "url": "https://bbs.ruliweb.com/news/read/227703",
-      "canonical_game_key": "playstation:base",
+      "title": "마상소프트, 액션 슈팅 게임 ‘건즈: 더 듀얼(GunZ: The Duel)’ 오는 14일(금) 스팀(Steam) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227750",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-03"
+      "game_event_key": "release_schedule:steam:base:2026-08-04"
     },
     {
       "reason": [
@@ -2082,30 +2172,108 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "‘타워 오브 판타지’ 6.2 신규 버전 업데이트, 한정 레플리카 ‘겔피인’ 오늘(4일) 추가",
-      "url": "https://bbs.ruliweb.com/news/read/227698",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "patch_note:base:2026-08-03"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "비피엠지(BPMG) ‘마이리틀셰프’ '오늘의 감자' 테마 레스토랑 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/227697",
+      "title": "넷마블 ‘신의 탑: 새로운 세계’, 3주년 업데이트 오늘(5일) 실시…신규 가주 '연 이랑' 추가",
+      "url": "https://bbs.ruliweb.com/news/read/227749",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-08-03"
+      "game_event_key": "patch_note:base:2026-08-04"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜엔씨 ‘블레이드 & 소울 NEO’, ‘열혈강호’ IP 컬래버레이션 업데이트 사전예약 오늘(5일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227744",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-08-04"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "펄어비스 ‘검은사막’, ‘길드 명성 시스템’ 오늘(5일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/227743",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-08-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Crimson Moon battles demonic corruption on September 1",
+      "url": "https://blog.playstation.com/2026/08/04/crimson-moon-battles-demonic-corruption-on-september-1",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-08-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Gameplay first look – Mafia: The Old Country’s Man of Honor expansion",
+      "url": "https://blog.playstation.com/2026/08/04/gameplay-first-look-mafia-the-old-countrys-man-of-honor-expansion",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-08-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Coming to XBOX Game Pass: Gears of War: E-Day Open Beta, Cricket 26, Date Everything!, and More",
+      "url": "https://news.xbox.com/en-us/2026/08/04/xbox-game-pass-august-2026-wave-1",
+      "canonical_game_key": "xbox:early-access",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:early-access:2026-08-04"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
+      "url": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
+      "canonical_game_key": "fifa:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:fifa:base:2026-08-03"
     },
     {
       "reason": [
@@ -2136,82 +2304,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-08-02"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Hard Work Pays off as Shard Squad Comes to XBOX",
-      "url": "https://news.xbox.com/en-us/2026/07/31/hard-work-pays-off-as-shard-squad-comes-to-xbox",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-31"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "A New Look for Reforj: Explore the World’s Stunning Rixel Transformation",
-      "url": "https://news.xbox.com/en-us/2026/07/31/a-new-look-for-reforj-explore-the-worlds-stunning-rixel-transformation",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-07-31"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
-      "url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:playstation:base:2026-07-31"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Silent Hill: Townfall Developers discuss the Scottish setting, retro technology, first-person combat",
-      "url": "https://blog.playstation.com/2026/07/30/silent-hill-townfall-developers-discuss-the-scottish-setting-retro-technology-first-person-combat",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-07-30"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "GTA 6 download codes will expire 170 days after launch in Japan",
-      "url": "https://www.gamesindustry.biz/gta-6-download-codes-to-expire-170-days-after-launch-in-japan",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-07-30"
     }
   ],
   "source_backlog": {
