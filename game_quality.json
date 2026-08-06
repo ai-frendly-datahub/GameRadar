@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-05T05:36:41.589124+00:00",
+  "generated_at": "2026-08-06T05:38:52.497621+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 4,
-    "patch_note_events": 4,
-    "release_schedule_events": 15,
+    "store_ranking_events": 2,
+    "patch_note_events": 5,
+    "release_schedule_events": 16,
     "actionable_game_event_count": 23,
-    "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 22,
-    "official_or_trade_event_count": 19,
-    "event_required_field_gap_count": 22,
+    "canonical_game_key_present_count": 0,
+    "missing_canonical_game_key_count": 23,
+    "official_or_trade_event_count": 15,
+    "event_required_field_gap_count": 23,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 7,
       "latest_event_at": "2026-08-04T07:00:48+00:00",
-      "age_days": 0.94,
+      "age_days": 1.94,
       "latest_title": "Crimson Moon battles demonic corruption on September 1",
       "latest_url": "https://blog.playstation.com/2026/08/04/crimson-moon-battles-demonic-corruption-on-september-1",
       "latest_source_signal": [
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 4,
-      "latest_event_at": "2026-08-04T04:00:00+00:00",
-      "age_days": 1.07,
-      "latest_title": "Coming to XBOX Game Pass: Gears of War: E-Day Open Beta, Cricket 26, Date Everything!, and More",
-      "latest_url": "https://news.xbox.com/en-us/2026/08/04/xbox-game-pass-august-2026-wave-1",
+      "event_count": 3,
+      "latest_event_at": "2026-08-05T06:55:02+00:00",
+      "age_days": 0.95,
+      "latest_title": "Available for XBOX Insiders: More Control Over Captures, Saves, and Wishlists",
+      "latest_url": "https://news.xbox.com/en-us/2026/08/05/xbox-insiders-october-2026-console-features",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,9 +470,9 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 8,
+      "event_count": 5,
       "latest_event_at": "2026-08-03T11:15:39+00:00",
-      "age_days": 1.76,
+      "age_days": 2.77,
       "latest_title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
       "latest_url": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 4,
-      "latest_event_at": "2026-08-04T17:58:35+00:00",
-      "age_days": 0.48,
-      "latest_title": "마상소프트, 액션 슈팅 게임 ‘건즈: 더 듀얼(GunZ: The Duel)’ 오는 14일(금) 스팀(Steam) 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/227750",
+      "event_count": 8,
+      "latest_event_at": "2026-08-05T19:40:30+00:00",
+      "age_days": 0.42,
+      "latest_title": "YUMEXE, 숨바꼭질 게임 ‘FAKE ME’ Steam 페이지 및 게임플레이 트레일러 공개",
+      "latest_url": "https://bbs.ruliweb.com/news/read/227809",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,13 +1198,12 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "마상소프트, 액션 슈팅 게임 ‘건즈: 더 듀얼(GunZ: The Duel)’ 오는 14일(금) 스팀(Steam) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227750",
-      "event_at": "2026-08-04T17:58:35+00:00",
-      "event_date": "2026-08-04",
+      "title": "YUMEXE, 숨바꼭질 게임 ‘FAKE ME’ Steam 페이지 및 게임플레이 트레일러 공개",
+      "url": "https://bbs.ruliweb.com/news/read/227809",
+      "event_at": "2026-08-05T19:40:30+00:00",
+      "event_date": "2026-08-05",
       "platform": [
-        "steam",
-        "스팀"
+        "steam"
       ],
       "normalized_platform": "steam",
       "game_title": [],
@@ -1212,13 +1211,10 @@
       "edition": "base",
       "canonical_game_key": "steam:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-08-04",
-      "genre": [
-        "액션"
-      ],
+      "game_event_key": "release_schedule:steam:base:2026-08-05",
+      "genre": [],
       "release": [
-        "출시",
-        "발표"
+        "트레일러"
       ],
       "business_signal": [],
       "studio": [],
@@ -1242,10 +1238,138 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "넷마블 ‘신의 탑: 새로운 세계’, 3주년 업데이트 오늘(5일) 실시…신규 가주 '연 이랑' 추가",
-      "url": "https://bbs.ruliweb.com/news/read/227749",
-      "event_at": "2026-08-04T17:58:14+00:00",
-      "event_date": "2026-08-04",
+      "title": "㈜넥슨 ‘던전앤파이터’ 신규 레이드 ‘무너진 성자 미카엘라’ 업데이트 오늘(6일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/227808",
+      "event_at": "2026-08-05T19:34:42+00:00",
+      "event_date": "2026-08-05",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "던전앤파이터"
+      ],
+      "normalized_game_title": "던전앤파이터",
+      "edition": "base",
+      "canonical_game_key": "던전앤파이터:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "patch_note:던전앤파이터:base:2026-08-05",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "㈜넥슨 ‘던전앤파이터’ 신규 레이드 ‘무너진 성자 미카엘라’ 업데이트 오늘(6일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/227808",
+      "event_at": "2026-08-05T19:34:42+00:00",
+      "event_date": "2026-08-05",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "던전앤파이터"
+      ],
+      "normalized_game_title": "던전앤파이터",
+      "edition": "base",
+      "canonical_game_key": "던전앤파이터:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:던전앤파이터:base:2026-08-05",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘스튜피드 네버 다이즈(Stupid Never Dies)’ 패키지판 예약판매 오늘(6일) 개시",
+      "url": "https://bbs.ruliweb.com/news/read/227807",
+      "event_at": "2026-08-05T19:23:52+00:00",
+      "event_date": "2026-08-05",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-05",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "세가"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "넷마블 ‘세븐나이츠 리버스’, 서머 바캉스 업데이트 오늘(6일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/227805",
+      "event_at": "2026-08-05T19:10:10+00:00",
+      "event_date": "2026-08-05",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1253,12 +1377,11 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-04",
+      "game_event_key": "patch_note:base:2026-08-05",
       "genre": [
         "rpg"
       ],
       "release": [
-        "출시",
         "업데이트"
       ],
       "business_signal": [],
@@ -1286,10 +1409,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "㈜엔씨 ‘블레이드 & 소울 NEO’, ‘열혈강호’ IP 컬래버레이션 업데이트 사전예약 오늘(5일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227744",
-      "event_at": "2026-08-04T17:09:48+00:00",
-      "event_date": "2026-08-04",
+      "title": "㈜WFS 'Another Eden 시공을 넘는 고양이', Ver 3.16.50 업데이트에서 외사 ‘망향의 혼과 역성의 여행자 제3탄’ 및‘환령의 검과 퇴색의 등불’ 공개",
+      "url": "https://bbs.ruliweb.com/news/read/227804",
+      "event_at": "2026-08-05T19:00:13+00:00",
+      "event_date": "2026-08-05",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1297,7 +1420,91 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-04",
+      "game_event_key": "patch_note:base:2026-08-05",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "3.16.50",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "스마일게이트 ‘로스트아크’, 지난 5일(수) ‘맘스터치 모코코 썸머 바캉스 세트’ 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227803",
+      "event_at": "2026-08-05T17:21:57+00:00",
+      "event_date": "2026-08-05",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "로스트아크"
+      ],
+      "normalized_game_title": "로스트아크",
+      "edition": "base",
+      "canonical_game_key": "로스트아크:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:로스트아크:base:2026-08-05",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [
+        "스마일게이트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "레드랩게임즈 '롬(ROM: Remember Of Majesty)', 오늘(6일) 코스튬, 가디언 소환 개편",
+      "url": "https://bbs.ruliweb.com/news/read/227802",
+      "event_at": "2026-08-05T17:17:42+00:00",
+      "event_date": "2026-08-05",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-05",
       "genre": [
         "mmorpg"
       ],
@@ -1305,9 +1512,7 @@
         "업데이트"
       ],
       "business_signal": [],
-      "studio": [
-        "엔씨소프트"
-      ],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1327,44 +1532,41 @@
       ]
     },
     {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "펄어비스 ‘검은사막’, ‘길드 명성 시스템’ 오늘(5일) 추가",
-      "url": "https://bbs.ruliweb.com/news/read/227743",
-      "event_at": "2026-08-04T16:53:54+00:00",
-      "event_date": "2026-08-04",
-      "platform": [],
-      "normalized_platform": "",
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Available for XBOX Insiders: More Control Over Captures, Saves, and Wishlists",
+      "url": "https://news.xbox.com/en-us/2026/08/05/xbox-insiders-october-2026-console-features",
+      "event_at": "2026-08-05T06:55:02+00:00",
+      "event_date": "2026-08-05",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-04",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-08-05",
       "genre": [],
-      "release": [
-        "업데이트"
-      ],
+      "release": [],
       "business_signal": [],
-      "studio": [
-        "펄어비스"
-      ],
+      "studio": [],
       "source_signal": [
-        "community_reaction",
         "game_media_context",
-        "patch",
-        "release"
+        "game_pass",
+        "platform_update",
+        "release_schedule"
       ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
       "version": "",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title"
       ]
     },
     {
@@ -1653,84 +1855,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "A New Look for Reforj: Explore the World’s Stunning Rixel Transformation",
-      "url": "https://news.xbox.com/en-us/2026/07/31/a-new-look-for-reforj-explore-the-worlds-stunning-rixel-transformation",
-      "event_at": "2026-07-31T09:00:00+00:00",
-      "event_date": "2026-07-31",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-07-31",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Introducing Call of Duty: Mobile Season 7 — Terminated",
-      "url": "https://news.xbox.com/en-us/2026/07/31/introducing-call-of-duty-mobile-season-7-terminated",
-      "event_at": "2026-07-31T07:00:00+00:00",
-      "event_date": "2026-07-31",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "call of duty"
-      ],
-      "normalized_game_title": "call-of-duty",
-      "edition": "season-7",
-      "canonical_game_key": "call-of-duty:xbox:season-7",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:call-of-duty:xbox:season-7:2026-07-31",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
@@ -2013,138 +2137,6 @@
         "rank",
         "market"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "After half a decade of job losses, there is no \"business as usual\" | Opinion",
-      "url": "https://www.gamesindustry.biz/after-half-a-decade-of-job-losses-there-is-no-business-as-usual-opinion",
-      "event_at": "2026-07-24T07:23:28+00:00",
-      "event_date": "2026-07-24",
-      "platform": [
-        "xbox",
-        "steam"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "store_ranking:xbox:base:2026-07-24",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "ubisoft"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "After half a decade of job losses, there is no \"business as usual\" | Opinion",
-      "url": "https://www.gamesindustry.biz/after-half-a-decade-of-job-losses-there-is-no-business-as-usual-opinion",
-      "event_at": "2026-07-24T07:23:28+00:00",
-      "event_date": "2026-07-24",
-      "platform": [
-        "xbox",
-        "steam"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-07-24",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "ubisoft"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Meccha Chameleon ranks second behind Fortnite in PC revenue for June | Newzoo charts",
-      "url": "https://www.gamesindustry.biz/meccha-chameleon-ranks-second-behind-fortnite-in-pc-revenue-for-june-newzoo-charts",
-      "event_at": "2026-07-24T01:50:17+00:00",
-      "event_date": "2026-07-24",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "fortnite"
-      ],
-      "normalized_game_title": "fortnite",
-      "edition": "base",
-      "canonical_game_key": "fortnite:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "store_ranking:fortnite:base:2026-07-24",
-      "genre": [
-        "indie"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2156,13 +2148,62 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "마상소프트, 액션 슈팅 게임 ‘건즈: 더 듀얼(GunZ: The Duel)’ 오는 14일(금) 스팀(Steam) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227750",
+      "title": "YUMEXE, 숨바꼭질 게임 ‘FAKE ME’ Steam 페이지 및 게임플레이 트레일러 공개",
+      "url": "https://bbs.ruliweb.com/news/read/227809",
       "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-08-04"
+      "game_event_key": "release_schedule:steam:base:2026-08-05"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘던전앤파이터’ 신규 레이드 ‘무너진 성자 미카엘라’ 업데이트 오늘(6일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/227808",
+      "canonical_game_key": "던전앤파이터:base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:던전앤파이터:base:2026-08-05"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘던전앤파이터’ 신규 레이드 ‘무너진 성자 미카엘라’ 업데이트 오늘(6일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/227808",
+      "canonical_game_key": "던전앤파이터:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:던전앤파이터:base:2026-08-05"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘스튜피드 네버 다이즈(Stupid Never Dies)’ 패키지판 예약판매 오늘(6일) 개시",
+      "url": "https://bbs.ruliweb.com/news/read/227807",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-08-05"
     },
     {
       "reason": [
@@ -2172,14 +2213,14 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘신의 탑: 새로운 세계’, 3주년 업데이트 오늘(5일) 실시…신규 가주 '연 이랑' 추가",
-      "url": "https://bbs.ruliweb.com/news/read/227749",
+      "title": "넷마블 ‘세븐나이츠 리버스’, 서머 바캉스 업데이트 오늘(6일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/227805",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-08-04"
+      "game_event_key": "patch_note:base:2026-08-05"
     },
     {
       "reason": [
@@ -2189,14 +2230,29 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "㈜엔씨 ‘블레이드 & 소울 NEO’, ‘열혈강호’ IP 컬래버레이션 업데이트 사전예약 오늘(5일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227744",
+      "title": "㈜WFS 'Another Eden 시공을 넘는 고양이', Ver 3.16.50 업데이트에서 외사 ‘망향의 혼과 역성의 여행자 제3탄’ 및‘환령의 검과 퇴색의 등불’ 공개",
+      "url": "https://bbs.ruliweb.com/news/read/227804",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "platform"
       ],
-      "game_event_key": "patch_note:base:2026-08-04"
+      "game_event_key": "patch_note:base:2026-08-05"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "스마일게이트 ‘로스트아크’, 지난 5일(수) ‘맘스터치 모코코 썸머 바캉스 세트’ 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227803",
+      "canonical_game_key": "로스트아크:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:로스트아크:base:2026-08-05"
     },
     {
       "reason": [
@@ -2206,14 +2262,29 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "펄어비스 ‘검은사막’, ‘길드 명성 시스템’ 오늘(5일) 추가",
-      "url": "https://bbs.ruliweb.com/news/read/227743",
+      "title": "레드랩게임즈 '롬(ROM: Remember Of Majesty)', 오늘(6일) 코스튬, 가디언 소환 개편",
+      "url": "https://bbs.ruliweb.com/news/read/227802",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-08-04"
+      "game_event_key": "patch_note:base:2026-08-05"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Available for XBOX Insiders: More Control Over Captures, Saves, and Wishlists",
+      "url": "https://news.xbox.com/en-us/2026/08/05/xbox-insiders-october-2026-console-features",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-08-05"
     },
     {
       "reason": [
@@ -2229,81 +2300,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:playstation:base:2026-08-04"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Gameplay first look – Mafia: The Old Country’s Man of Honor expansion",
-      "url": "https://blog.playstation.com/2026/08/04/gameplay-first-look-mafia-the-old-countrys-man-of-honor-expansion",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-04"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Coming to XBOX Game Pass: Gears of War: E-Day Open Beta, Cricket 26, Date Everything!, and More",
-      "url": "https://news.xbox.com/en-us/2026/08/04/xbox-game-pass-august-2026-wave-1",
-      "canonical_game_key": "xbox:early-access",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:early-access:2026-08-04"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
-      "url": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
-      "canonical_game_key": "fifa:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:fifa:base:2026-08-03"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Players’ Choice: Vote for July 2026’s best new game",
-      "url": "https://blog.playstation.com/2026/08/03/players-choice-vote-for-july-2026s-best-new-game",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-03"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Microsoft confirms increased Xbox prices in the UK and Europe",
-      "url": "https://www.gamesindustry.biz/microsoft-confirms-increased-xbox-prices-in-the-uk-and-europe",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-08-02"
     }
   ],
   "source_backlog": {
