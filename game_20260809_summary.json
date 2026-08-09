@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-08",
+  "date": "2026-08-09",
   "category": "game",
-  "article_count": 475,
+  "article_count": 470,
   "source_count": 22,
-  "matched_count": 475,
+  "matched_count": 470,
   "top_entities": [
     {
       "name": "GameGeneral",
@@ -11,59 +11,608 @@
     },
     {
       "name": "SourceSignal",
-      "count": 671
+      "count": 669
     },
     {
       "name": "Platform",
-      "count": 242
+      "count": 241
     },
     {
       "name": "Release",
-      "count": 214
+      "count": 213
     },
     {
       "name": "Genre",
-      "count": 178
+      "count": 174
     },
     {
       "name": "Studio",
-      "count": 133
+      "count": 129
     },
     {
       "name": "GameTitle",
-      "count": 89
+      "count": 93
     },
     {
       "name": "Esports",
-      "count": 9
+      "count": 11
     }
   ],
   "sources": {
     "게임톡": 50,
-    "Nintendo Life": 25,
+    "Destructoid": 30,
+    "Pocket Gamer": 25,
     "PC Gamer": 38,
     "Dot Esports": 10,
-    "Kotaku": 15,
-    "GamesRadar": 32,
+    "Push Square": 25,
+    "Rock Paper Shotgun": 49,
+    "VGC": 10,
+    "Kotaku": 12,
+    "Nintendo Life": 25,
+    "GamesRadar": 33,
+    "Pure Xbox": 25,
+    "Dexerto": 17,
     "GameSpot": 12,
     "게임조선": 18,
     "Xbox Wire": 10,
     "IGN Game Scoop": 1,
-    "Destructoid": 30,
-    "Push Square": 25,
-    "Dexerto": 20,
-    "Pure Xbox": 25,
     "Game Developer": 22,
-    "Rock Paper Shotgun": 49,
     "GamesIndustry.biz": 32,
-    "Pocket Gamer": 25,
     "PlayStation Blog": 9,
-    "VGC": 10,
     "루리웹 뉴스": 15,
     "IndieGames.com": 2
   },
-  "generated_at": "2026-08-08T13:04:33.870043+09:00",
+  "generated_at": "2026-08-09T13:10:00.894387+09:00",
   "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "[금값시세] 국제 금시세 상승",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110531",
+        "published_at": "2026-08-09T02:57:40+00:00",
+        "summary": "8월 9일 국내 금시세가 상승세를 이어갔다. 한국금거래소에 따르면 이날 순금 한 돈인 3.75g 기준 금시세는 살 때 86만2000원, 팔 때 71만6000원으로 집계됐다.순금 3.75g 기준 살 때 가격은 전 거래일보다 4000원 오른 86만2000원으로 0.46% 상승했다. 팔 때 가격 역시 4000원 오른 71만6000원으로 0.56% 상승했다.18K 금시세는 3.75g 기준 팔 때 52만6300원으로 전 거래일보다 2900원 오른 0.55% 상승했다. 14K 금시세는 팔 때 40만8200원으로 2300원 올라 0.56% 상승"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "카카오뱅크 AI 이모지 퀴즈 정답(8월9일)",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110529",
+        "published_at": "2026-08-08T23:01:57+00:00",
+        "summary": "‘카카오뱅크 AI 이모지 퀴즈’는 정답을 맞힌 이용자에게 보상을 제공하는 방식으로 진행되며, 지급된 혜택은 설정한 대표계좌 또는 보유 중인 입출금 계좌를 통해 받을 수 있다.8월 9일 출제된 카카오뱅크 AI 이모지 퀴즈 정답을 공개한다.오늘 오전 8시 정답은 [ 이율 ]이다. 오후 12시 정답은 [ 천체관측 ]이다.AI 키워드 퀴즈 서비스의 보상 혜택은 카카오뱅크의 사정에 따라 변경될 수 있다.최근 스마트폰 앱을 활용해 포인트나 현금성 혜택을 얻는 이른바 ‘앱테크’가 꾸준한 인기를 이어가고 있는 가운데, 카카오뱅크가 운영하는 참여형"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "울산은 실패했지만 드라그노프는 EWC 3연속 우승",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110527",
+        "published_at": "2026-08-08T20:50:57+00:00",
+        "summary": "파키스탄에 철권 괴물이 등장했다. 9일 e스포츠 월드컵 2026 철권8 결승전이 진행됐다. 철권에서 EWC는 선수들 사이에서 가장 권위 있고 중요한 대회로 꼽힌다. EVO, 철권 월드 투어가 전통적인 메이저 대회이지만 평가가 달라졌다. 상금 규모에서 EWC가 압도적이기 때문이다. 그만큼 전 세계 철권 팬들의 시선도 EWC에 한껏 집중된다.이번 EWC도 선수들의 치열한 경쟁이 눈길을 사로잡았다. 시즌3 밸런스 패치로 이전보다 다양한 캐릭터가 등장하니까 보는 맛도 쏠쏠했다. 그리고 플레이오프로 갈수록 한국 대 파키스탄의 구도가 펼쳐졌다"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Madden NFL 27 release countdown: Exact date and time",
+        "source_url": "https://www.destructoid.com/madden-nfl-27-release-countdown-exact-date-and-time/",
+        "published_at": "2026-08-08T19:06:48+00:00",
+        "summary": "<p>Couldn't come sooner! </p>\n<p>The post <a href=\"https://www.destructoid.com/madden-nfl-27-release-countdown-exact-date-and-time/\">Madden NFL 27 release countdown: Exact date and time</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pocket Gamer",
+        "headline": "Take That Hill teaches real military tactics through turn-based battles on Android",
+        "source_url": "https://www.pocketgamer.com/take-that-hill/android-launch/",
+        "published_at": "2026-08-08T19:00:00+00:00",
+        "summary": "I've never got on with a wargame's rulebook. Something about the sheer thickness of them puts me off before I've even opened the box. Decades of jargon stacked on top of decades more, and the nagging sense that everyone else in the room already knows whatever a “ZOC” is. Take That Hill exists specifically to sort that out, and it turns up with a fairly serious pedigree behind it.\n\nThe primer itself comes from Fight Club International, a wargaming network whose membership stretches across serving military, the defence industry and the games industry itself. Not the usual credential list for a mobile strategy release.  ... [<a href=\"https://www.pocketgamer.com/take-that-hill/android-launch/\">MORE</a>]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Warhammer 40,000: Battlesector has a roadmap of upcoming additions, including a new narrative DLC",
+        "source_url": "https://www.pcgamer.com/games/strategy/warhammer-40-000-battlesector-has-a-roadmap-of-upcoming-additions-including-a-new-narrative-dlc/",
+        "published_at": "2026-08-08T18:49:46+00:00",
+        "summary": "And another playable faction."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pocket Gamer",
+        "headline": "Nitelore brings anti-gravity racing back to iOS this month",
+        "source_url": "https://www.pocketgamer.com/nitelore/announcement/",
+        "published_at": "2026-08-08T18:30:00+00:00",
+        "summary": "Some genres fade out. The anti-gravity racer did not fade - it just stopped, somewhere around the point where everybody decided a racer needed a licensing deal with a real manufacturer. I’ve been annoyed about that for years and Nitelore is the first thing in a while to do anything about it.\n\nI put a rather embarrassing share of my PSP's battery life into Wipeout. Not the racing, particularly. The feeling of it, air brakes biting into a corner hard enough to shove you sideways, the ship carrying weight it had no business carrying, tracks you end up learning in your hands before your head. That is a very specific sensation and almost nothing has offered it since. ... [<a href=\"https://www.pocketgamer.com/nitelore/announcement/\">MORE</a>]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "The GTA 3D trilogy fanpatch has its biggest update, with over 100 new fixes including restored dialogue for San Andreas",
+        "source_url": "https://www.pcgamer.com/games/grand-theft-auto/the-gta-3d-trilogy-fanpatch-has-its-biggest-update-with-over-100-new-fixes-including-restored-dialogue-for-san-andreas/",
+        "published_at": "2026-08-08T17:34:05+00:00",
+        "summary": "Here we go again."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "[오늘날씨] 곳곳 비 또는 소나기...낮 기온 35도 '후텁지근'",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110525",
+        "published_at": "2026-08-08T15:00:00+00:00",
+        "summary": "오늘(9일) 날씨는 전국이 가끔 구름 많겠으나, 동해안과 제주도는 대체로 흐리겠다. 새벽부터 그 밖의 제주도와 부산.울산.경남중.동부내륙에 비가 확대되어 밤에 대부분 그치겠다. 다만 강원동해안.산지와 경북동해안, 부산.울산.경남중.동부내륙, 제주도는 내일(10일) 오전까지 이어지는 곳이 있겠다.오후에 경기남부내륙와 강원남부내륙, 충청내륙, 전북북동부, 경상권내륙에 소나기가 내리는 곳이 있겠다.비나 소나기가 내리는 동안에는 기온이 일시적으로 내려가겠지만, 그친 뒤에는 높은 습도 속에 다시 기온이 올라 무덥겠다.낮 최고기온이 35도를"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "A real-life Freddy Fazbear’s Pizzeria is opening in 2027",
+        "source_url": "https://dotesports.com/fnaf/news/fnaf-five-nights-at-freddys-real-restaurant-location-pizza",
+        "published_at": "2026-08-08T14:11:04+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/08/freddy-fazbear-pizza-restaurant-fnaf-real.webp\" style=\"margin-bottom: 15px;\" /></div>Join us for a bite!"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "'It's Really Sh*t': Disaster for Marvel Tokon as FGC Icon Uninstalls Botched PC Port Live on Stream",
+        "source_url": "https://www.pushsquare.com/news/2026/08/its-really-sht-disaster-for-marvel-tokon-as-fgc-icon-uninstalls-botched-pc-port-live-on-stream",
+        "published_at": "2026-08-08T14:00:00+00:00",
+        "summary": "<p><strong>\"It's Dragon Ball PTSD all over again\".</strong></p><p>Of all the nightmare scenarios for <a href=\"https://www.pushsquare.com/games/ps5/marvel_tokon_fighting_souls\">Marvel Tokon: Fighting Souls</a>, this was probably top of the list.</p><p>Fighting game community icon <a href=\"https://www.reddit.com/r/MarvelTokon/comments/1viwbx5/maxdood_uninstalls_tokon_pc_after_2_days_of/\">MaximilianDood</a> has uninstalled the botched PC version of Sony’s highly anticipated superhero brawler live on air, declaring its <a href=\"https://www.pushsquare.com/news/2026/08/marvel-tokon-launches-to-mixed-reviews-on-pc-ps5-players-encouraged-to-disable-crossplay\">documented issues</a> “too frustrating”.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/its-really-sht-disaster-for-marvel-tokon-as-fgc-icon-uninstalls-botched-pc-port-live-on-stream\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Come for Beastfolk Barber's cute, furry hairdressing, but stay for its thoughtful approach to worldbuilding",
+        "source_url": "https://www.rockpapershotgun.com/come-for-beastfolk-barbers-cute-furry-hairdressing-but-stay-for-its-thoughtful-approach-to-worldbuilding",
+        "published_at": "2026-08-08T12:51:32+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/beastfolk-barber.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nIs there anything more fear-inducing in this world than a haircut? Whether it be the need to endure a cacophony of sensory nightmares, or the knowledge that a stylist who doesn't quite care enough could turn your split ends into the split end of your social life, the whole process is dredged in anxiety. So how about a game where you have to play as a hairstylist that must take all of this into consideration, where all of your customers are beastfolk and you've made a deal with a demon? Enter Beastfolk Barber.\n</p> <p><a href=\"https://www.rockpapershotgun.com/come-for-beastfolk-barbers-cute-furry-hairdressing-but-stay-for-its-thoughtful-approach-to-worldbuilding\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "VGC",
+        "headline": "THQ Nordic says it has 12 unannounced games in development",
+        "source_url": "https://www.videogameschronicle.com/news/thq-nordic-says-it-has-12-unannounced-games-in-development/",
+        "published_at": "2026-08-08T12:50:21+00:00",
+        "summary": "<img src=\"https://www.videogameschronicle.com/files/2026/08/video_backup.jpg\" /> The publisher says it currently has 29 games in the works, but has only revealed 17 of them"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Kotaku",
+        "headline": "Just About Everything Other Than The Music Sells Out In NIN’s 30th Anniversary Quake Collection",
+        "source_url": "https://kotaku.com/just-about-everything-other-than-the-music-sells-out-in-nins-30th-anniversary-quake-collection-2000722712",
+        "published_at": "2026-08-08T12:21:18+00:00",
+        "summary": "Commemorating three decades of the transformative 3D shooter, id Software releases a surprise new expansion and limited merch collection with composer Trent Reznor"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Best team build to use in How Many Dudes?",
+        "source_url": "https://www.destructoid.com/best-team-build-to-use-in-how-many-dudes/",
+        "published_at": "2026-08-08T11:58:48+00:00",
+        "summary": "<p>Nothing but the best! </p>\n<p>The post <a href=\"https://www.destructoid.com/best-team-build-to-use-in-how-many-dudes/\">Best team build to use in How Many Dudes?</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Danchi Days, out this October, brings the Hamtaro: Ham-Ham Heartbreak vibes I've been desperately craving since childhood",
+        "source_url": "https://www.rockpapershotgun.com/danchi-days-out-this-october-brings-the-hamtaro-ham-ham-heartbreak-vibes-ive-been-desperately-craving-since-childhood",
+        "published_at": "2026-08-08T11:36:44+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/danchi-days.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nI think about Hamtaro: Ham-Ham Heartbreak, a GBA game that has never seen a release outside of that platform, probably more than I should. That's primarily because my experience of it is solely relegated to occasionally (very occasionally) playing a friend's copy on the way to school, I never actually owned it. There's just something so vibey and hangoutable about it that I've never really seen captured in another game before, except for maybe the upcoming <a href=\"https://www.rockpapershotgun.com/games/danchi-days\">Danchi Days</a>. Which, thankfully, has a release date at long last!\n</p> <p><a href=\"https://www.rockpapershotgun.com/danchi-days-out-this-october-brings-the-hamtaro-ham-ham-heartbreak-vibes-ive-been-desperately-craving-since-childhood\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "All Gold medal requirements in IRON NEST: Heavy Turret Simulator",
+        "source_url": "https://www.destructoid.com/all-gold-medal-requirements-in-iron-nest-heavy-turret-simulator/",
+        "published_at": "2026-08-08T10:47:01+00:00",
+        "summary": "<p>Some of these are stiff! </p>\n<p>The post <a href=\"https://www.destructoid.com/all-gold-medal-requirements-in-iron-nest-heavy-turret-simulator/\">All Gold medal requirements in IRON NEST: Heavy Turret Simulator</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "After programmers and artists, QA testers are next: Google’s new AI can play and test in-development games, and some publishers are all over it",
+        "source_url": "https://www.destructoid.com/ai-qa-program/",
+        "published_at": "2026-08-08T10:14:11+00:00",
+        "summary": "<p>Fear the reaper. </p>\n<p>The post <a href=\"https://www.destructoid.com/ai-qa-program/\">After programmers and artists, QA testers are next: Google’s new AI can play and test in-development games, and some publishers are all over it</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "id co-founder John Carmack revisits Doom at QuakeCon: 'Still a great game after all these years!'",
+        "source_url": "https://www.pcgamer.com/games/fps/id-co-founder-john-carmack-revisits-doom-at-quakecon-still-a-great-game-after-all-these-years/",
+        "published_at": "2026-08-08T10:08:08+00:00",
+        "summary": "Not a controversial opinion, by any means."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Round Up: Every Switch 1 & 2 Game At THQ Nordic's 2026 Showcase",
+        "source_url": "https://www.nintendolife.com/news/2026/08/round-up-every-switch-1-and-2-game-at-thq-nordics-2026-showcase",
+        "published_at": "2026-08-08T10:00:00+00:00",
+        "summary": "<p><strong>Reanimal DLC, Eternal Life of Goldman and more.</strong></p><p>THQ Nordic hosted its 2026 Showcase this week, and if you haven't already watched it, we've now got a recap covering all the announcements and trailers for Switch 1 & 2. As well as a <a href=\"https://www.nintendolife.com/news/2026/03/epic-mickey-rebrushed-joins-a-trio-of-thq-nordic-titles-getting-the-switch-2-treatment\">reminder of some other titles</a> coming soon.</p><p>At the very end of the broadcast, THQ Nordic shared the following message about the games it's currently got in development, including unannounced titles:</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/round-up-every-switch-1-and-2-game-at-thq-nordics-2026-showcase\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "Feature: Going Platinum: Dreams on PS4 Might Be My Most Bittersweet Plat",
+        "source_url": "https://www.pushsquare.com/features/going-platinum-dreams-on-ps4-might-be-my-most-bittersweet-plat",
+        "published_at": "2026-08-08T10:00:00+00:00",
+        "summary": "<p><strong>Wake up.</strong></p><p><strong>Platinum Trophy #33:</strong> <a href=\"https://www.pushsquare.com/games/ps4/dreams\">Dreams</a></p><p><strong>Date Earned:</strong> 9th October 2021</p><p>Read the <a href=\"https://www.pushsquare.com/features/going-platinum-dreams-on-ps4-might-be-my-most-bittersweet-plat\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "An extraction shooter is offering a pay-in gameplay loop where you can earn money for each kill",
+        "source_url": "https://www.destructoid.com/extraction-shooter-pay-to-play-and-earn-per-kill/",
+        "published_at": "2026-08-08T09:43:40+00:00",
+        "summary": "<p>Cool concept. Really sketchy, though. </p>\n<p>The post <a href=\"https://www.destructoid.com/extraction-shooter-pay-to-play-and-earn-per-kill/\">An extraction shooter is offering a pay-in gameplay loop where you can earn money for each kill</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "VCT EMEA Stage 2 2026: Schedule, results, teams, and how to watch",
+        "source_url": "https://dotesports.com/valorant/guides/vct-2026-emea-stage-2",
+        "published_at": "2026-08-08T09:41:00+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/07/vct-emea-stage-2-2026.jpg\" style=\"margin-bottom: 15px;\" /></div>Find all VCT 2026 EMEA Stage 2 details here."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "VCT Pacific Stage 2 2026: Schedule, results, teams, and how to watch",
+        "source_url": "https://dotesports.com/valorant/guides/vct-2026-pacific-stage-2",
+        "published_at": "2026-08-08T09:40:00+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/07/vct-2026-pacific-stage-2.jpg\" style=\"margin-bottom: 15px;\" /></div>Find all VCT 2026 Pacific Stage 2 details here."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "Rainbow 6 Siege at Esports World Cup 2026: Schedule, results, bracket, teams, and how to watch",
+        "source_url": "https://dotesports.com/rainbow-6/guides/r6s-ewc-2026-schedule-results-bracket",
+        "published_at": "2026-08-08T09:38:00+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/08/Rainbow-6-Esports-World-Cup-2026.webp\" style=\"margin-bottom: 15px;\" /></div>Find everything about R6 at EWC 2026 here."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Bethesda 40th anniversary sale knocks 50% off Doom: The Dark Ages - Revelations just a month after launch",
+        "source_url": "https://www.pcgamer.com/games/fps/bethesda-40th-anniversary-sale-knocks-50-percent-off-doom-the-dark-ages-revelations-just-a-month-after-launch/",
+        "published_at": "2026-08-08T09:30:55+00:00",
+        "summary": "The whole catalogue is discounted, but this one really stood out to me."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Polyzonia is an ecosystem sim about breathing life into the Amazon rainforest until it can look after itself",
+        "source_url": "https://www.rockpapershotgun.com/polyzonia-is-an-ecosystem-sim-about-breathing-life-into-the-amazon-rainforest-until-it-can-look-after-itself",
+        "published_at": "2026-08-08T09:05:43+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/polyzonia.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nHow about we get in our digital grass touching for the day? Well, I suppose we can't just yet, as Polyzonia, an ecosystem <a href=\"https://www.rockpapershotgun.com/best-simulation-games\">sim</a> set in the Amazon rainforest, isn't out just yet, but it has caught my eye at the very least.\n</p> <p><a href=\"https://www.rockpapershotgun.com/polyzonia-is-an-ecosystem-sim-about-breathing-life-into-the-amazon-rainforest-until-it-can-look-after-itself\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Somebody get Robert Pattinson a video game role already",
+        "source_url": "https://www.destructoid.com/somebody-get-robert-pattinson-a-video-game-role-already/",
+        "published_at": "2026-08-08T08:47:21+00:00",
+        "summary": "<p>Sparkling vampire no more.</p>\n<p>The post <a href=\"https://www.destructoid.com/somebody-get-robert-pattinson-a-video-game-role-already/\">Somebody get Robert Pattinson a video game role already</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Best players for FC 26 Fullback Force Evolution",
+        "source_url": "https://www.destructoid.com/best-players-for-fc-26-fullback-force-evolution/",
+        "published_at": "2026-08-08T08:42:23+00:00",
+        "summary": "<p>A bit of a strange one! </p>\n<p>The post <a href=\"https://www.destructoid.com/best-players-for-fc-26-fullback-force-evolution/\">Best players for FC 26 Fullback Force Evolution</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "The indie parkour game from one of the French brothers behind 2024's best FPS is coming out in just two weeks",
+        "source_url": "https://www.pcgamer.com/games/action/the-indie-parkour-game-from-one-of-the-french-brothers-behind-2024s-best-fps-is-coming-out-in-just-two-weeks/",
+        "published_at": "2026-08-08T08:25:52+00:00",
+        "summary": "Mirror's Edge, Hot Lava, and surf map enjoyers may want to keep an eye on Vholume."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Big Walk's voice chat volume issue has been resolved with its latest patch, but House House are sticking to their guns on its overall design",
+        "source_url": "https://www.rockpapershotgun.com/big-walks-voice-chat-volume-issue-has-been-resolved-with-its-latest-patch-but-house-house-are-sticking-to-their-guns-on-its-overall-design",
+        "published_at": "2026-08-08T08:08:58+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/big-walk_BXkyV72.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nWe've all been there. You're out on a hike with some friends, solving some abstract puzzles for a purpose that's not immediately clear, when you get two feet away from your pals and they're as quiet as a dormouse. Or at least, that's been the case for a bunch of folks playing <a href=\"https://www.rockpapershotgun.com/games/big-walk\">Big Walk</a>, Untitled Goose Game studio House House's latest, as the <a href=\"https://www.rockpapershotgun.com/big-walk-isnt-an-open-world-hangout-sim-its-a-secret-predator-game-or-it-would-be-if-house-house-would-quit-fixing-the-voice-volume\">secret Predator</a> game's approach to proximity chat has made it a little difficult to hear your friends. But an update seemingly fixing the issue is here! Just don't expect to be able to hear anyone from any distance.\n</p> <p><a href=\"https://www.rockpapershotgun.com/big-walks-voice-chat-volume-issue-has-been-resolved-with-its-latest-patch-but-house-house-are-sticking-to-their-guns-on-its-overall-design\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Take-Two chief says GTA 6 Netflix preview is a ‘must-see event’ akin to a real TV show",
+        "source_url": "https://www.destructoid.com/t2-chief-talks-gta-6-netflix-preview/",
+        "published_at": "2026-08-08T08:03:28+00:00",
+        "summary": "<p>It's a big month for GTA fans. </p>\n<p>The post <a href=\"https://www.destructoid.com/t2-chief-talks-gta-6-netflix-preview/\">Take-Two chief says GTA 6 Netflix preview is a ‘must-see event’ akin to a real TV show</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "WoW developers reflect on Midnight's first season—a world without AddOns, task overload, and Prey",
+        "source_url": "https://www.pcgamer.com/games/world-of-warcraft/wow-developers-reflect-on-midnights-first-season-a-world-without-addons-task-overload-and-prey/",
+        "published_at": "2026-08-08T08:00:00+00:00",
+        "summary": "Curse of Ul'atek comes out next week, but how has Midnight's first season gone in the eyes of its devs?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "How to shoot without the Elevation Calculating Computer in IRON NEST: Heavy Turret Simulator",
+        "source_url": "https://www.destructoid.com/how-to-shoot-without-the-elevation-calculating-computer-in-iron-nest-heavy-turret-simulator/",
+        "published_at": "2026-08-08T07:14:35+00:00",
+        "summary": "<p>Let the shells flow! </p>\n<p>The post <a href=\"https://www.destructoid.com/how-to-shoot-without-the-elevation-calculating-computer-in-iron-nest-heavy-turret-simulator/\">How to shoot without the Elevation Calculating Computer in IRON NEST: Heavy Turret Simulator</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Two months after revealing Crossfire, That's No Moon have seemingly laid off 14 members of staff",
+        "source_url": "https://www.rockpapershotgun.com/two-months-after-revealing-crossfire-thats-no-moon-have-seemingly-laid-off-14-members-of-staff",
+        "published_at": "2026-08-08T07:09:41+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/crossfire_NPJWQSG.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nTwo months ago, That's No Moon, a studio made up of former Naughty Dog and Infinity Ward devs, revealed Crossfire, a cinematic military <a href=\"https://www.rockpapershotgun.com/best-fps-games\">shooter</a> with a sci-fi flair. The team first formed around five years ago, but now it appears that there's layoffs before they've even managed to get their first game out the door.\n</p> <p><a href=\"https://www.rockpapershotgun.com/two-months-after-revealing-crossfire-thats-no-moon-have-seemingly-laid-off-14-members-of-staff\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Forget Quake, Worms: The Director's Cut just got a free expansion for the series' 30th anniversary",
+        "source_url": "https://www.pcgamer.com/games/strategy/forget-quake-worms-the-directors-cut-just-got-a-free-expansion-for-the-series-30th-anniversary/",
+        "published_at": "2026-08-08T07:00:29+00:00",
+        "summary": "Creator Andy Davidson hopes it gives the game \"a new lease on life.\""
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Stop waiting for the Game of Thrones CRPG of your dreams and settle for the pleasant eurojank compromise instead",
+        "source_url": "https://www.pcgamer.com/games/rpg/stop-waiting-for-the-game-of-thrones-crpg-of-your-dreams-and-settle-for-the-pleasant-eurojank-compromise-instead/",
+        "published_at": "2026-08-08T07:00:00+00:00",
+        "summary": "It's rough, dated and still probably one of the better GoT games."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pocket Gamer",
+        "headline": "Restoria has you restoring historical artefacts with care and attention to detail",
+        "source_url": "https://www.pocketgamer.com/restoria/free-prologue-now-available/",
+        "published_at": "2026-08-08T07:00:00+00:00",
+        "summary": "Now, I won't deny being a Brit that we have what I'd dub a contentious relationship with historical preservation. Fortunately, there are plenty of places around the world taking a slightly less, let's call it grabby approach to history. And it's their work that the upcoming 3D restoration puzzler sim, Restoria, helps to honour.\n\nRestoria sees you take on the role of, surprise, a historical preservation expert. It's described as being influenced by Power Wash Simulator, and you can definitely see why. You're handed a dirty, ruined artefact and have to make use of your own precision and specialised tools to restore it to a state worthy of display in a museum. ... [<a href=\"https://www.pocketgamer.com/restoria/free-prologue-now-available/\">MORE</a>]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesRadar",
+        "headline": "Baldur's Gate 3, Clair Obscur: Expedition 33 star didn't believe she was in Space Marine 2 until fan messages sent her sleuthing through receipts",
+        "source_url": "https://www.gamesradar.com/games/action/baldurs-gate-3-clair-obscur-expedition-33-star-didnt-believe-she-was-in-space-marine-2-until-fan-messages-sent-her-sleuthing-through-receipts/",
+        "published_at": "2026-08-08T06:44:40+00:00",
+        "summary": "\"I guess I kind of forgot about it\""
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "데브시스터즈 “하반기 실적 성장 확신한다”",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110524",
+        "published_at": "2026-08-08T06:15:28+00:00",
+        "summary": "데브시스터즈가 K-IFRS 연결 기준 2026년도 2분기 잠정 실적을 발표했다. 2026년 2분기 매출 527억 원, 영업손실 160억 원, 당기순손실 150억 원을 기록했다. 해당 분기 재정비 구간에 진입한 라이브 게임으로 인해 단기적 매출 감소가 발생한 반면, 경영 쇄신 작업이 진행됨에 따라 손실 규모는 소폭 완화됐다. 영업비용에는 조직 정비로 인한 일시적인 인건비 증가 및 사전 체결된 마케팅비 집행 등 일회성 비용이 반영된 것으로, 3분기부터는 고정비 관리 및 고강도 비용 통제에 따른 본격적인 재무 환경 개선이 이뤄질 전망이다"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "Video: 2027 Is Already a Stacked Year for PS5",
+        "source_url": "https://www.pushsquare.com/features/video-2027-is-already-a-stacked-year-for-ps5",
+        "published_at": "2026-08-08T06:00:00+00:00",
+        "summary": "<p><strong>Delays, delays, delays.</strong></p><p>I know we’re only in August 2026, but I’ve been thinking a lot about 2027.</p><p>After a bunch of delays to avoid <a href=\"https://www.pushsquare.com/games/ps5/grand_theft_auto_6\">GTA 6</a>, 2027 is already steadily becoming a massively stacked year for PS5. I mean we’re getting a new <a href=\"https://www.pushsquare.com/games/ps5/god_of_war_laufey\">God of War</a> game six weeks into the new year.</p><p>Read the <a href=\"https://www.pushsquare.com/features/video-2027-is-already-a-stacked-year-for-ps5\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Talking Point: Which Developer Is Working On The Zelda: Ocarina Of Time Remake?",
+        "source_url": "https://www.nintendolife.com/features/talking-point-which-developer-is-working-on-the-zelda-ocarina-of-time-remake",
+        "published_at": "2026-08-08T06:00:00+00:00",
+        "summary": "<p><strong>Who's driving the boat?</strong></p><p></p><p>Since the announcement of the <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/legend-of-zelda-ocarina-of-time\">Zelda: Ocarina of Time</a> remake in this year's <a href=\"https://www.nintendolife.com/guides/nintendo-direct-june-2026-every-announcement-game-reveal-and-trailer\">June Nintendo Direct</a>, we've had two main questions, with only a sliver of teaser footage and some narration to go on:</p><p>Read the <a href=\"https://www.nintendolife.com/features/talking-point-which-developer-is-working-on-the-zelda-ocarina-of-time-remake\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Talking Point: Xbox Is Getting Its Own Platinum Trophy, But What Will Make It Different?",
+        "source_url": "https://www.purexbox.com/news/2026/08/talking-point-xbox-is-getting-its-own-platinum-trophy-but-what-will-make-it-different",
+        "published_at": "2026-08-08T06:00:00+00:00",
+        "summary": "<p><strong>What would we call them? Diamond Achievements?</strong></p><p>Cheevos - or Xbox Achievements, as they've been dubbed since debuting on the Xbox 360 - have become a quintessential Xbox feature. These are earnable in-game challenges that reward you with points and tally up to display your overall gamerscore.</p><p>They became so popular back in the 360 days that Sony had to whip up its own system and call it Trophies. PlayStation had the advantage of rolling out their version after learning what made cheevos so moreish, understanding player motives to go after 'em, and innovating on ways to make it better.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/talking-point-xbox-is-getting-its-own-platinum-trophy-but-what-will-make-it-different\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesRadar",
+        "headline": "As PS5 and Xbox prices endlessly balloon, Take-Two CEO says rising console costs are good for no one, but won't hurt the company as GTA 6 approaches",
+        "source_url": "https://www.gamesradar.com/games/grand-theft-auto/as-ps5-and-xbox-prices-endlessly-balloon-take-two-ceo-says-rising-console-costs-are-good-for-no-one-but-wont-hurt-the-company-as-gta-6-approaches/",
+        "published_at": "2026-08-08T05:00:31+00:00",
+        "summary": "\"I don't think it will slow us down any because... we're delivering experiences that people want\""
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "[인터뷰] TFT “플레이어가 늘 최우선입니다”",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110522",
+        "published_at": "2026-08-08T04:43:44+00:00",
+        "summary": "라이엇 게임즈 '전략적 팀 전투(이하 TFT)'의 역대 최대 규모 오프라인 행사 'TFT 와일드 팬페스트 in 서울'은 규모만큼이나 많은 방문객이 찾아와 TFT의 인기를 실감하게 만들었다.사전 예약은 10분 만에 마감됐고, 현장 추가 등록도 조기 마감되며 폭발적인 인기를 자랑했다. 7년이라는 시간 동안 TFT는 플레이어들의 삶에 자연스럽게 녹아들며 이렇게 사랑받는 IP로 거듭났다.현장에는 방문객들 외에도 유저들의 반응과 피드백을 직접 살펴보기 위해 박성만 라이엇 게임즈 브랜드 매니저와 김희찬 TFT 브랜드 매니저 등 이번 와일드 팬"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Here's What Might Leave Xbox Game Pass In September 2026",
+        "source_url": "https://www.purexbox.com/news/2026/08/heres-what-might-leave-xbox-game-pass-in-september-2026",
+        "published_at": "2026-08-08T04:30:00+00:00",
+        "summary": "<p><strong>Some early predictions!</strong></p><p>What's leaving Xbox Game Pass in September 2026? Well, Microsoft hasn't confirmed anything just yet, but based on some games that were added to the service this time last year, we can at least make a few predictions ahead of time.</p><p>We know that a lot of Xbox users want more advance notice of games leaving Xbox Game Pass, but <a href=\"https://www.purexbox.com/news/2026/08/four-games-are-leaving-xbox-game-pass-in-early-august-2026\">Microsoft usually gives us around two weeks right now</a> - and don't forget, publishers sometimes secure late deals with Microsoft to keep their games on Game Pass, even after they've been announced to be leaving!</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/heres-what-might-leave-xbox-game-pass-in-september-2026\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임톡",
+        "headline": "스마일게이트 신작 MMORPG 9월 10일에 나온다",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110518",
+        "published_at": "2026-08-08T04:03:58+00:00",
+        "summary": "스마일게이트가 엔픽셀이 개발한 MMORPG 신작 ‘이클립스: 더 어웨이크닝(이하 이클립스)’​을 오는 9월 10일 정식 출시한다.이클립스는 신의 축복 아래 번영한 세계 에데리온과 이면의 세계 오르테아를 배경으로 인간의 자유 의지와 각성을 그린 MMORPG다. MMORPG의 성장과 경쟁 요소는 유지하면서 플레이 부담을 낮춘 ‘MMOLite’​를 지향한다.게임에는 시간 기반 성장 콘텐츠 ‘성소’, 무기 선택과 스킬 융합을 활용한 전략적 전투, 선택형 PvP 등 차별화된 콘텐츠가 마련된다.스마일게이트는 정식 출시를 앞두고 공식 홈페이지와"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesRadar",
+        "headline": "Doom developer slams Xbox after layoffs hit id Software: \"They fundamentally don't understand art. They don't understand games\"",
+        "source_url": "https://www.gamesradar.com/games/fps/doom-developer-slams-xbox-after-layoffs-hit-id-software-they-fundamentally-dont-understand-art-they-dont-understand-games/",
+        "published_at": "2026-08-08T04:00:35+00:00",
+        "summary": "\"We're not the same iD, we're half the same iD.\""
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Blocky zombie survival sim Unturned releases its source code so players can build a 'lasting legacy' for the game 'regardless of the changes we make'",
+        "source_url": "https://www.pcgamer.com/games/survival-crafting/blocky-zombie-survival-sim-unturned-releases-its-source-code-so-players-can-build-a-lasting-legacy-for-the-game-regardless-of-the-changes-we-make/",
+        "published_at": "2026-08-08T04:00:00+00:00",
+        "summary": "The source files are freely available for non-commercial use."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesRadar",
+        "headline": "Soulslike prince Lies of P added difficulty settings after its own developers struggled to beat it: \"Most couldn't even make it halfway\"",
+        "source_url": "https://www.gamesradar.com/games/rpg/soulslike-prince-lies-of-p-added-difficulty-settings-after-its-own-developers-struggled-to-beat-it-most-couldnt-even-make-it-halfway/",
+        "published_at": "2026-08-08T03:10:01+00:00",
+        "summary": "\"We received a lot of positive feedback\""
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Feature: These 20+ Games Are Coming To Xbox Next Week (August 10-14)",
+        "source_url": "https://www.purexbox.com/features/these-20plus-games-are-coming-to-xbox-next-week-august-10-14",
+        "published_at": "2026-08-08T03:00:00+00:00",
+        "summary": "<p><strong>Including multiple new Game Pass titles.</strong></p><p>Welcome to your Xbox games roundup for <strong>August 10-14</strong>! We've got loads of interesting stuff releasing on Xbox over the next few days, including indie highlights such as No More Room in Hell 2 and Wild Blue Skies, the big release of <a href=\"https://www.purexbox.com/news/2026/07/hell-let-loose-vietnam-is-free-to-play-on-xbox-for-the-first-time-this-weekend\">Hell Let Loose: Vietnam</a>, and a busy few days for new Xbox Game Pass additions across various tiers.</p><p>Here's what's coming to Xbox next week:</p><p>Read the <a href=\"https://www.purexbox.com/features/these-20plus-games-are-coming-to-xbox-next-week-august-10-14\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "God of War TV series sees further recasts as Amazon seeks older actors for Atreus and Thrud",
+        "source_url": "https://www.pcgamer.com/movies-tv/god-of-war-tv-series-sees-further-recasts-as-amazon-seeks-older-actors-for-atreus-and-thrud/",
+        "published_at": "2026-08-08T03:00:00+00:00",
+        "summary": "The series will have different actors in these roles for Season 2."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dexerto",
+        "headline": "Chicken Farm codes (August 2026)",
+        "source_url": "https://www.dexerto.com/roblox/chicken-farm-codes-3395955/",
+        "published_at": "2026-08-08T02:40:13+00:00",
+        "summary": "Here are all the latest Chicken Farm codes for August 2026, including Egg Multipliers, Cash Boosts, Lucky Blocks, and other free rewards."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "PC Gamer",
+        "headline": "Tencent's cyberpunk rival to Grand Theft Auto is in trouble as its developer lays off 80 people",
+        "source_url": "https://www.pcgamer.com/games/action/tencents-cyberpunk-rival-to-grand-theft-auto-is-in-trouble-as-its-developer-lays-off-80-people/",
+        "published_at": "2026-08-08T02:00:00+00:00",
+        "summary": "Lightspeed LA says it will \"shift the creative and development direction\" of Last Sentinel."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Pure Xbox",
+        "headline": "Talking Point: What Are You Playing This Weekend? (August 8-9)",
+        "source_url": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-august-8-9",
+        "published_at": "2026-08-08T02:00:00+00:00",
+        "summary": "<p><strong>How about some Beast of Reincarnation?</strong></p><p>Welcome to another weekend! This week treated us to the huge release of <a href=\"https://www.purexbox.com/games/xbox-series-x/beast_of_reincarnation\">Beast of Reincarnation</a> on Xbox Game Pass, and don't forget about the <a href=\"https://www.purexbox.com/news/2026/08/free-play-days-try-these-xbox-games-for-free-august-6-9\">Free Play Days</a> offering, not to mention the hundreds of the sales on the Xbox Store too.</p><p>Here's what we're playing on Xbox this weekend:</p><p>Read the <a href=\"https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-august-8-9\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "GamesRadar",
+        "headline": "These devs have been building the perfect platformer for 22 years, and the Steam apocalypse won't stop them now: \"Video games have always been about a small team of sickos doing something\"",
+        "source_url": "https://www.gamesradar.com/games/platformer/these-devs-have-been-building-the-perfect-platformer-for-22-years-and-the-steam-apocalypse-wont-stop-them-now-video-games-have-always-been-about-a-small-team-of-sickos-doing-something/",
+        "published_at": "2026-08-08T02:00:00+00:00",
+        "summary": "For this week's Saturday Read, the devs behind Metanet Software tell us about the decades-long road that's led to N Plus Infinity Times Two"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "Guide: These 18+ PS5 Games Are Coming Out Next Week (10th-16th August)",
+        "source_url": "https://www.pushsquare.com/guides/these-18plus-ps5-games-are-coming-out-next-week-10th-16th-august",
+        "published_at": "2026-08-08T02:00:00+00:00",
+        "summary": "<p><strong>Madden NFL! Pro Jank Football! Hell Let Loose!</strong></p><p>Historically, the release of <a href=\"https://www.pushsquare.com/games/ps5/madden_nfl_27\">Madden NFL 27</a> always signalled the start of the video game release onslaught.</p><p>Things are different in this digital era, of course, as the <a href=\"https://www.pushsquare.com/tags/ps-store\"><strong>PS Store</strong></a> never really takes a break. However, there's no doubt a ton of games are due after next week.</p><p>Read the <a href=\"https://www.pushsquare.com/guides/these-18plus-ps5-games-are-coming-out-next-week-10th-16th-august\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Complete Big Walk walkthrough: All puzzle solutions",
+        "source_url": "https://www.destructoid.com/complete-big-walk-walkthrough-all-puzzle-solutions/",
+        "published_at": "2026-08-08T00:39:43+00:00",
+        "summary": "<p>Lots and lots and lots of puzzles....</p>\n<p>The post <a href=\"https://www.destructoid.com/complete-big-walk-walkthrough-all-puzzle-solutions/\">Complete Big Walk walkthrough: All puzzle solutions</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "VGC",
+        "headline": "A ‘new look’ at Final Fantasy 7 Revelation, hosted by its director, will take place at Gamescom’s Opening Night Live",
+        "source_url": "https://www.videogameschronicle.com/news/a-new-look-at-final-fantasy-7-revelation-hosted-by-its-director-will-take-place-at-gamescoms-opening-night-live/",
+        "published_at": "2026-08-08T00:21:23+00:00",
+        "summary": "<img src=\"https://www.videogameschronicle.com/files/2026/06/final-fantasy-7-revelation.jpg\" /> Naoki Hamaguchi will take to the stage to show more of the game"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "Talking Point: What Are You Playing This Weekend? - Issue 645",
+        "source_url": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-645",
+        "published_at": "2026-08-08T00:00:00+00:00",
+        "summary": "<p><strong>Assemble.</strong></p><p>That's another week in the can, then, folks — and this one was a lot less eventful. Fortunately, that means we can all relax with some good old fashioned video games. Here's what we're playing.</p><h2>Aaron Bayne</h2><p>I'm doing that thing where I want to play too many games and will probably end up playing none of them, but I'm hoping to check out <a href=\"https://www.pushsquare.com/games/ps5/tom_clancys_ghost_recon_wildlands\">Ghost Recon Wildlands</a> with the new 60fps update, <a href=\"https://www.pushsquare.com/games/ps4/red_dead_redemption_2\">Red Dead Redemption 2</a> a little more, and potentially some of <a href=\"https://www.pushsquare.com/games/ps5/big_walk\">Big Walk</a> with some mates.</p><p>Read the <a href=\"https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-645\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Talking Point: What Are You Playing This Weekend? (8th August)",
+        "source_url": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-8th-august",
+        "published_at": "2026-08-08T00:00:00+00:00",
+        "summary": "<p><strong>What's this I detect?</strong></p><p>Welcome, weary traveller. You have made it to the weekend. Please, sit and partake in some gaming.</p><p>But wait! Allow us to regale you with some newz. First up, we had a <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/fire-emblem-fortunes-weave\">Fire Emblem: Fortune's Weave</a> Direct <a href=\"https://www.nintendolife.com/features/talking-point-so-what-did-you-think-of-the-fire-emblem-fortunes-weave-nintendo-direct\">this week</a>, showcasing many of the game's mechanics and characters, so that was cool. <a href=\"https://www.nintendolife.com/news/2026/08/two-cancelled-virtual-boy-games-join-nintendo-classics-today\">Two cancelled Virtual Boy games</a> also joined the NSO line-up, while confirmation was provided that <a href=\"https://www.nintendolife.com/news/2026/08/sam-neill-will-reportedly-appear-posthumously-in-the-legend-of-zelda\">the legendary Sam Neill</a> will be appearing posthumously in the <strong>Legend of Zelda</strong> movie.</p><p>Read the <a href=\"https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-8th-august\">full article on nintendolife.com</a></p>"
+      }
+    },
     {
       "event_model_payload": {
         "source_name": "게임톡",
@@ -75,11 +624,74 @@
     },
     {
       "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Best players for FC 26 Sunny Innit? Evolution",
+        "source_url": "https://www.destructoid.com/best-players-for-fc-26-sunny-innit-evolution/",
+        "published_at": "2026-08-07T23:33:18+00:00",
+        "summary": "<p>Sunny side up! </p>\n<p>The post <a href=\"https://www.destructoid.com/best-players-for-fc-26-sunny-innit-evolution/\">Best players for FC 26 Sunny Innit? Evolution</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
         "source_name": "게임톡",
         "headline": "카카오뱅크 AI 이모지 퀴즈 정답(8월8일)",
         "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110519",
         "published_at": "2026-08-07T23:05:21+00:00",
         "summary": "‘카카오뱅크 AI 이모지 퀴즈’는 정답을 맞힌 이용자에게 보상을 제공하는 방식으로 진행되며, 지급된 혜택은 설정한 대표계좌 또는 보유 중인 입출금 계좌를 통해 받을 수 있다.8월 8일 출제된 카카오뱅크 AI 이모지 퀴즈 정답을 공개한다.오늘 오전 8시 정답은 [ 무공해 ]이다. 오후 12시 정답은 [ 청각 ]이다.AI 키워드 퀴즈 서비스의 보상 혜택은 카카오뱅크의 사정에 따라 변경될 수 있다.최근 스마트폰 앱을 활용해 포인트나 현금성 혜택을 얻는 이른바 ‘앱테크’가 꾸준한 인기를 이어가고 있는 가운데, 카카오뱅크가 운영하는 참여형"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "VCT Americas Stage 2 2026: Schedule, results, teams, and how to watch",
+        "source_url": "https://dotesports.com/valorant/guides/vct-americas-stage-2-2026-schedule-results",
+        "published_at": "2026-08-07T22:18:00+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/07/VCT-Americas-Stage-2-2026.jpg\" style=\"margin-bottom: 15px;\" /></div>Find all VCT 2026 Americas Stage 2 details here."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "What are we all playing this weekend?",
+        "source_url": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-394",
+        "published_at": "2026-08-07T22:01:00+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/aqueduct-diocletian-1600.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>It’s been a manageable, some might even say <em>calm</em> week for Team RPS, so we’re rewarding ourselves for a productive five days of PC games with some PC games. Or barbecue. Actually, that sounds better. Is it too late to switch?</p>\n <p><a href=\"https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-394\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Fire Emblem: Fortune's Weave Will Allow You To Strategise With Mouse Controls",
+        "source_url": "https://www.nintendolife.com/news/2026/08/fire-emblem-fortunes-weave-will-allow-you-to-strategise-with-mouse-controls",
+        "published_at": "2026-08-07T21:30:00+00:00",
+        "summary": "<p><strong>\"Intuitively move units across the battlefield\".</strong></p><p></p><p>Nintendo has confirmed <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/fire-emblem-fortunes-weave\">Fire Emblem: Fortune's Weave</a> will allow you to strategise with Joy-Con 2 mouse controls.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/fire-emblem-fortunes-weave-will-allow-you-to-strategise-with-mouse-controls\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Destructoid",
+        "headline": "Best players for FC 26 Posture Check Evolution",
+        "source_url": "https://www.destructoid.com/best-players-for-fc-26-posture-check-evolution/",
+        "published_at": "2026-08-07T20:40:11+00:00",
+        "summary": "<p>Keep the back straight! </p>\n<p>The post <a href=\"https://www.destructoid.com/best-players-for-fc-26-posture-check-evolution/\">Best players for FC 26 Posture Check Evolution</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "Final Fantasy VII Revelation \"New Look\" Announced For Opening Night Live",
+        "source_url": "https://www.nintendolife.com/news/2026/08/final-fantasy-vii-revelation-new-look-announced-for-opening-night-live",
+        "published_at": "2026-08-07T20:30:00+00:00",
+        "summary": "<p><strong>\"Mark your calendars\".</strong></p><p></p><p>Gamescom is taking place later this month in Germany, and if you're a fan of <a href=\"https://www.nintendolife.com/games/switch-eshop/final_fantasy\">Final Fantasy</a>, you'll apparently want to mark your calendar.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/final-fantasy-vii-revelation-new-look-announced-for-opening-night-live\">full article on nintendolife.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Dot Esports",
+        "headline": "Black Ops 7 at Esports World Cup 2026: Schedule, results, bracket, teams, and how to watch",
+        "source_url": "https://dotesports.com/call-of-duty/news/bo7-ewc-2026-schedule-results-bracket",
+        "published_at": "2026-08-07T20:00:00+00:00",
+        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/08/optic-gaming-bo6-ewc-2025-champions.webp\" style=\"margin-bottom: 15px;\" /></div>Battle for the final crown of the BO7 era."
       }
     },
     {
@@ -300,6 +912,15 @@
     },
     {
       "event_model_payload": {
+        "source_name": "Dexerto",
+        "headline": "GTA 6’s Netflix special will ‘feel like a show’ and target people who aren’t buying it day one",
+        "source_url": "https://www.dexerto.com/gta/gta-6s-netflix-special-is-targeting-people-who-arent-buying-it-day-one-3396080/",
+        "published_at": "2026-08-07T11:52:09+00:00",
+        "summary": "Take-Two says GTA 6’s upcoming Netflix special will feel like watching a show as Rockstar attempts to reach beyond its established gaming audience."
+      }
+    },
+    {
+      "event_model_payload": {
         "source_name": "게임조선",
         "headline": "제우스: 오만의 신, 계층을 넘는 '경쟁의 재미 확장'",
         "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36693",
@@ -417,11 +1038,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "GameSpot",
-        "headline": "THQ Nordic Showcase 2026: All The News, Trailers, And Reveals",
-        "source_url": "https://www.gamespot.com/articles/thq-nordic-showcase-2026-all-the-news-trailers-and-reveals/",
+        "source_name": "Xbox Wire",
+        "headline": "THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts",
+        "source_url": "https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026/",
         "published_at": "2026-08-07T10:30:00+00:00",
-        "summary": "<p class=\"wp-block-paragraph\">Since the Not-E3 blitz of summer gaming showcases, things have been relatively quiet since then. Amidst that break, THQ Nordic dropped a new showcase full of trailers to show what the publisher has on the way from its various studios. While it wasn't focused on big-name games like the ones you'd find in dedicated Xbox and PlayStation showcases, THQ Nordic instead has titles in very specific niche genres and IP.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://youtu.be/ToLh5Ruefxk\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Several of them are already available via early access or are already out and have post-launch plans in place, so if you're a fan of games that scratch a very specific itch for interactive entertainment, then you'll want to check out the list below of all the announcements.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-let-s-sing-2027-and-let-s-sing-abba\"><strong>Let's Sing 2027 and Let’s Sing ABBA</strong></h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img alt=\"\" class=\"wp-image-1843215\" height=\"576\" src=\"https://www.gamespot.com/wp-content/uploads/2026/08/THQ-Nordic-showcase-2026-8.jpg?w=636\" style=\"cursor: zoom-in;\" width=\"1024\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Revealed in the preshow, Let's Sing 2027 is shaping up to conquer the karaoke video game space. This year's installment features 35 songs from artists such as Ariana Grande and Chappell Roan, and you can join in on singing radio-friendly love songs with or without the original vocals. On top of that, an ABBA pack is also coming to the game on November 3, just in time for the 50th anniversary of Dancing Queen. It includes 32 tracks that your great-grandparents will appreciate, from Waterloo to Mamma Mia. Don't be surprised if they tell you to \"gimme gimme gimme\" the microphone, Fernando.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-pinball-fx\"><strong>Pinball FX</strong></h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img alt=\"\" class=\"wp-image-1843216\" height=\"576\" src=\"https://www.gamespot.com/wp-content/uploads/2026/08/THQ-Nordic-showcase-2026-14.jpg?w=636\" style=\"cursor: zoom-in;\" width=\"1024\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Another preshow video, Zen Studios showed off its collection of Pinball FX tables that it has assembled over the years. The studio has locked down an impressive number of IP for the game, ranging from Peanuts to Star Wars, and if you're looking for some pinball fun, you can find the game on just about every PC and console.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-reanimal-the-prisoner\"><strong>Reanimal: The Prisoner</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=M05D1Ynuxfg\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">New DLC is on the way for Reanimal in the form of The Prisoner. While it sadly isn't a crossover with the groovy counter-culture '60s TV show that starred Patrick McGoohan, fans of the Little Nightmares-inspired game can look forward to new environmental puzzles and challenges set within a battle-scarred landscape. You can grab it right now.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-expeditions-samurai\"><strong>Expeditions: Samurai</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=ophpG_hgKns\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Developer Campfire Cabal dropped a new trailer for Expeditions: Samurai, its upcoming tactical turn-based-combat game set in feudal Japan. Now out in early access on PC, the developer says that the game will receive three major updates while it works on fine-tuning the experience for players, and it'll be focusing on polishing gameplay balance, exploration, stealth, combat, and more.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-titan-quest-2\"><strong>Titan Quest 2</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=pred8p-zN_Q&pp=0gcJCcQLAYcqIYzv\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Now that The Odyssey is the hot new thing in cinemas, it might be the perfect time to check out how the Greek-inspired ARPG Titan Quest 2 is shaping up. Still in early access, today's trailer for the game showed off gameplay for the new Spirit Mastery skills that players can wield in combat. Built around mastering the powers of the Underworld, these powers will allow you to manipulate the forces of life and death to summon spirits and cast spells.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-call-to-arms-panzer-elite\"><strong>Call to Arms: Panzer Elite</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=VYzv5ll7GUE\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">World of Tanks doesn't have a monopoly on armored fighting vehicles, as Call to Arms: Panzer Elite also offers a pretty good spin on the lumbering war machines. A new update is now out for the game on PC, adding two new missions and two new tanks in the form of the M18 Hellcat and the M24 Chaffee. </p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-way-of-the-hunter-2\"><strong>Way of the Hunter 2</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=l0hkJ6naYQ4\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Oh deer, local wildlife has no idea what's in store for it when Way of the Hunter 2 launches on September 29 for PS5 and Xbox Series X|S.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-the-eternal-life-of-goldman\"><strong>The Eternal Life of Goldman</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=Mz6dr8xrU5Y\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The Eternal Life of Goldman continues to look impressive with every new trailer, and this latest look at the game went behind the scenes of its beautiful handcrafted art, boss fights, and level design. It still doesn't have a release date, but The Eternal Life of Goldman is coming to PC, PS5, and Xbox Series X|S.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-the-guild-europa-1410\"><strong>The Guild: Europa </strong>1410</h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=u0nBzCb2zeg\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Do you think that you have what it takes to keep the local peasants under control and establish a mighty kingdom during medieval times? Then you'll want to check out The Guild: Europa 1410 and see just how long your dynasty will last while you juggle your responsibilities as a noble in this feudal management game. You can choose to make your fortune through legitimate means or through some less-than-legal methods, and the game will be hitting early access in September.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-wreckfest-2\"><strong>Wreckfest 2</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=7rALY2BE-eI\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Wreckfest 2 has grown throughout its early-access journey, and this new trailer was essentially a sizzle reel for the destruction derby racing game.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-gothic-1-remake\"><strong>Gothic 1 Remake</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=UFQ8EMaV_M4&pp=0gcJCcQLAYcqIYzv\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Gothic 1 Remake launched earlier this year, and developer Alkimia Interactive outlined its post-launch plans for the game. This will include various updates and new features like photo mode, mod support, alternative progression, and more.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-gothic-classic-trilogy\"><strong>Gothic Classic Trilogy</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=LqnfudVwoHI\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">In case that's not enough Gothic for you, then you can look forward to playing through the original trilogy of games on console soon. Gothic Classic is now available, Gothic 2: Complete Classic launches on September 29, and Gothic 3 Classic will launch on November 24.  </p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-gothi-c-a-shadow-s-quest\"><strong>Gothi</strong>c: A Shadow's Quest</h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=aEb5i_lZj7w\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Rounding out the Gothic announcements was the reveal of Gothic: A Shadow's Quest, which will launch through the tabletop crowdfunding platform Gamefound on September 30.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-upcoming-games-on-nintendo-switch-compilation\"><strong>Upcoming Games on Nintendo Switch compilation</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=tZi-I_5TWFA\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Finishing up the livestream was a quick reminder that several THQ Nordic games like Disney Epic Mickey: Rebrushed, Sacred 2 Remaster, SpongeBob SquarePants: Titans of the Tide, and the Destroy All Humans 2 Remakes are available for--or coming to--Switch consoles.</p>"
+        "summary": "<p>The 2026 instalment of the THQ Nordic Digital Showcase took place today, offering gamers first and fresh looks at many upcoming titles.  During the showcase, we released the highly anticipated, first chapter in the REANIMAL DLC campaign and kicked off the pre-order campaign for Way of the Hunter 2! In addition, we showed off new […]</p>\n<p>The post <a href=\"https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026/\">THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts</a> appeared first on <a href=\"https://news.xbox.com/en-us\">XBOX Wire</a>.</p>"
       }
     },
     {
@@ -435,11 +1056,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Xbox Wire",
-        "headline": "THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts",
-        "source_url": "https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026/",
+        "source_name": "GameSpot",
+        "headline": "THQ Nordic Showcase 2026: All The News, Trailers, And Reveals",
+        "source_url": "https://www.gamespot.com/articles/thq-nordic-showcase-2026-all-the-news-trailers-and-reveals/",
         "published_at": "2026-08-07T10:30:00+00:00",
-        "summary": "<p>The 2026 instalment of the THQ Nordic Digital Showcase took place today, offering gamers first and fresh looks at many upcoming titles.  During the showcase, we released the highly anticipated, first chapter in the REANIMAL DLC campaign and kicked off the pre-order campaign for Way of the Hunter 2! In addition, we showed off new […]</p>\n<p>The post <a href=\"https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026/\">THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts</a> appeared first on <a href=\"https://news.xbox.com/en-us\">XBOX Wire</a>.</p>"
+        "summary": "<p class=\"wp-block-paragraph\">Since the Not-E3 blitz of summer gaming showcases, things have been relatively quiet since then. Amidst that break, THQ Nordic dropped a new showcase full of trailers to show what the publisher has on the way from its various studios. While it wasn't focused on big-name games like the ones you'd find in dedicated Xbox and PlayStation showcases, THQ Nordic instead has titles in very specific niche genres and IP.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://youtu.be/ToLh5Ruefxk\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Several of them are already available via early access or are already out and have post-launch plans in place, so if you're a fan of games that scratch a very specific itch for interactive entertainment, then you'll want to check out the list below of all the announcements.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-let-s-sing-2027-and-let-s-sing-abba\"><strong>Let's Sing 2027 and Let’s Sing ABBA</strong></h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img alt=\"\" class=\"wp-image-1843215\" height=\"576\" src=\"https://www.gamespot.com/wp-content/uploads/2026/08/THQ-Nordic-showcase-2026-8.jpg?w=636\" style=\"cursor: zoom-in;\" width=\"1024\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Revealed in the preshow, Let's Sing 2027 is shaping up to conquer the karaoke video game space. This year's installment features 35 songs from artists such as Ariana Grande and Chappell Roan, and you can join in on singing radio-friendly love songs with or without the original vocals. On top of that, an ABBA pack is also coming to the game on November 3, just in time for the 50th anniversary of Dancing Queen. It includes 32 tracks that your great-grandparents will appreciate, from Waterloo to Mamma Mia. Don't be surprised if they tell you to \"gimme gimme gimme\" the microphone, Fernando.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-pinball-fx\"><strong>Pinball FX</strong></h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img alt=\"\" class=\"wp-image-1843216\" height=\"576\" src=\"https://www.gamespot.com/wp-content/uploads/2026/08/THQ-Nordic-showcase-2026-14.jpg?w=636\" style=\"cursor: zoom-in;\" width=\"1024\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Another preshow video, Zen Studios showed off its collection of Pinball FX tables that it has assembled over the years. The studio has locked down an impressive number of IP for the game, ranging from Peanuts to Star Wars, and if you're looking for some pinball fun, you can find the game on just about every PC and console.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-reanimal-the-prisoner\"><strong>Reanimal: The Prisoner</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=M05D1Ynuxfg\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">New DLC is on the way for Reanimal in the form of The Prisoner. While it sadly isn't a crossover with the groovy counter-culture '60s TV show that starred Patrick McGoohan, fans of the Little Nightmares-inspired game can look forward to new environmental puzzles and challenges set within a battle-scarred landscape. You can grab it right now.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-expeditions-samurai\"><strong>Expeditions: Samurai</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=ophpG_hgKns\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Developer Campfire Cabal dropped a new trailer for Expeditions: Samurai, its upcoming tactical turn-based-combat game set in feudal Japan. Now out in early access on PC, the developer says that the game will receive three major updates while it works on fine-tuning the experience for players, and it'll be focusing on polishing gameplay balance, exploration, stealth, combat, and more.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-titan-quest-2\"><strong>Titan Quest 2</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=pred8p-zN_Q&pp=0gcJCcQLAYcqIYzv\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Now that The Odyssey is the hot new thing in cinemas, it might be the perfect time to check out how the Greek-inspired ARPG Titan Quest 2 is shaping up. Still in early access, today's trailer for the game showed off gameplay for the new Spirit Mastery skills that players can wield in combat. Built around mastering the powers of the Underworld, these powers will allow you to manipulate the forces of life and death to summon spirits and cast spells.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-call-to-arms-panzer-elite\"><strong>Call to Arms: Panzer Elite</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=VYzv5ll7GUE\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">World of Tanks doesn't have a monopoly on armored fighting vehicles, as Call to Arms: Panzer Elite also offers a pretty good spin on the lumbering war machines. A new update is now out for the game on PC, adding two new missions and two new tanks in the form of the M18 Hellcat and the M24 Chaffee. </p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-way-of-the-hunter-2\"><strong>Way of the Hunter 2</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=l0hkJ6naYQ4\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Oh deer, local wildlife has no idea what's in store for it when Way of the Hunter 2 launches on September 29 for PS5 and Xbox Series X|S.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-the-eternal-life-of-goldman\"><strong>The Eternal Life of Goldman</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=Mz6dr8xrU5Y\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The Eternal Life of Goldman continues to look impressive with every new trailer, and this latest look at the game went behind the scenes of its beautiful handcrafted art, boss fights, and level design. It still doesn't have a release date, but The Eternal Life of Goldman is coming to PC, PS5, and Xbox Series X|S.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-the-guild-europa-1410\"><strong>The Guild: Europa </strong>1410</h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=u0nBzCb2zeg\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Do you think that you have what it takes to keep the local peasants under control and establish a mighty kingdom during medieval times? Then you'll want to check out The Guild: Europa 1410 and see just how long your dynasty will last while you juggle your responsibilities as a noble in this feudal management game. You can choose to make your fortune through legitimate means or through some less-than-legal methods, and the game will be hitting early access in September.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-wreckfest-2\"><strong>Wreckfest 2</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=7rALY2BE-eI\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Wreckfest 2 has grown throughout its early-access journey, and this new trailer was essentially a sizzle reel for the destruction derby racing game.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-gothic-1-remake\"><strong>Gothic 1 Remake</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=UFQ8EMaV_M4&pp=0gcJCcQLAYcqIYzv\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Gothic 1 Remake launched earlier this year, and developer Alkimia Interactive outlined its post-launch plans for the game. This will include various updates and new features like photo mode, mod support, alternative progression, and more.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-gothic-classic-trilogy\"><strong>Gothic Classic Trilogy</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=LqnfudVwoHI\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">In case that's not enough Gothic for you, then you can look forward to playing through the original trilogy of games on console soon. Gothic Classic is now available, Gothic 2: Complete Classic launches on September 29, and Gothic 3 Classic will launch on November 24.  </p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-gothi-c-a-shadow-s-quest\"><strong>Gothi</strong>c: A Shadow's Quest</h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=aEb5i_lZj7w\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Rounding out the Gothic announcements was the reveal of Gothic: A Shadow's Quest, which will launch through the tabletop crowdfunding platform Gamefound on September 30.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"h-upcoming-games-on-nintendo-switch-compilation\"><strong>Upcoming Games on Nintendo Switch compilation</strong></h2>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=tZi-I_5TWFA\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Finishing up the livestream was a quick reminder that several THQ Nordic games like Disney Epic Mickey: Rebrushed, Sacred 2 Remaster, SpongeBob SquarePants: Titans of the Tide, and the Destroy All Humans 2 Remakes are available for--or coming to--Switch consoles.</p>"
       }
     },
     {
@@ -777,20 +1398,20 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Nintendo Life",
-        "headline": "\"You Won't Be Disappointed\" - Lies Of P Director Teases Its Sequel",
-        "source_url": "https://www.nintendolife.com/news/2026/08/you-wont-be-disappointed-lies-of-p-director-teases-its-sequel",
-        "published_at": "2026-08-07T07:30:00+00:00",
-        "summary": "<p><strong>\"This is the truth, not a lie\".</strong></p><p>Developers NEOWIZ and NOUGH Studio (an internal team at Round8) have shared a new documentary exploring the production of <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/lies-of-p-complete-edition\">Lies of P</a>.</p><p>The majority of it focuses on the first game, but the ending includes a brief tease from director Choi Ji-won regarding the sequel, which is currently in development.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/you-wont-be-disappointed-lies-of-p-director-teases-its-sequel\">full article on nintendolife.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Push Square",
         "headline": "PS5 Is the USA's Most Popular Console, and It's Not Particularly Close",
         "source_url": "https://www.pushsquare.com/news/2026/08/ps5-is-the-usas-most-popular-console-and-its-not-particularly-close",
         "published_at": "2026-08-07T07:30:00+00:00",
         "summary": "<p><strong>According to new survey.</strong></p><p>A recent survey has shed light on the popularity of console platforms in the United States, and the PS5 is front of the pack with a pretty considerable lead.</p><p>The information comes from consumer data analyst group <a class=\"external\" href=\"https://www.statista.com/chart/amp/36498/share-of-us-respondents-who-regularly-play-video-games-on-the-following-consoles/\">Statista</a>, which recently shared a graph presenting the results from the survey.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/ps5-is-the-usas-most-popular-console-and-its-not-particularly-close\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Nintendo Life",
+        "headline": "\"You Won't Be Disappointed\" - Lies Of P Director Teases Its Sequel",
+        "source_url": "https://www.nintendolife.com/news/2026/08/you-wont-be-disappointed-lies-of-p-director-teases-its-sequel",
+        "published_at": "2026-08-07T07:30:00+00:00",
+        "summary": "<p><strong>\"This is the truth, not a lie\".</strong></p><p>Developers NEOWIZ and NOUGH Studio (an internal team at Round8) have shared a new documentary exploring the production of <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/lies-of-p-complete-edition\">Lies of P</a>.</p><p>The majority of it focuses on the first game, but the ending includes a brief tease from director Choi Ji-won regarding the sequel, which is currently in development.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/you-wont-be-disappointed-lies-of-p-director-teases-its-sequel\">full article on nintendolife.com</a></p>"
       }
     },
     {
@@ -894,20 +1515,20 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Xbox Wire",
-        "headline": "HELLDIVERS 2 x Warhammer 40,000 Legendary Warbond, Launching August 12",
-        "source_url": "https://news.xbox.com/en-us/2026/08/07/helldivers-2-x-warhammer-40000-warbond-xbox/",
-        "published_at": "2026-08-07T07:00:00+00:00",
-        "summary": "<p>The die is cast. The unstoppable force of Freedom is advancing where others fear to tread, emboldened and equipped with Super Earth’s latest instruments of Liberation – and secure in the knowledge that approved replacements are standing by for deployment. Helldivers, prepare to paint the galaxy all the colours of Freedom, one righteous basecoat of […]</p>\n<p>The post <a href=\"https://news.xbox.com/en-us/2026/08/07/helldivers-2-x-warhammer-40000-warbond-xbox/\">HELLDIVERS 2 x Warhammer 40,000 Legendary Warbond, Launching August 12</a> appeared first on <a href=\"https://news.xbox.com/en-us\">XBOX Wire</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Pure Xbox",
         "headline": "A Year Later, Grounded 2 Is Preparing For A Major Week Across Multiple Platforms",
         "source_url": "https://www.purexbox.com/news/2026/08/a-year-later-grounded-2-is-preparing-for-a-major-week-across-multiple-platforms",
         "published_at": "2026-08-07T07:00:00+00:00",
         "summary": "<p><strong>What do you think of the Xbox first-party title?</strong></p><p>It's been a while since we last talked about <a href=\"https://www.purexbox.com/games/xbox-series-x/grounded_2\">Grounded 2</a> here at Pure Xbox, but the Xbox first-party title has been progressing nicely ever since its initial release back in late July of 2025, and now it's preparing for a major week ahead.</p><p>August 11th marks the \"Into The Abyss\" update for the game, which focuses on one of the largest areas of Brookhollow Park in the form of the pond, which now allows for deep underwater exploration. We recently had a chance to view some behind-closed-doors footage of Into The Abyss, and it certainly looks a great addition to the game.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/a-year-later-grounded-2-is-preparing-for-a-major-week-across-multiple-platforms\">full article on purexbox.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Xbox Wire",
+        "headline": "HELLDIVERS 2 x Warhammer 40,000 Legendary Warbond, Launching August 12",
+        "source_url": "https://news.xbox.com/en-us/2026/08/07/helldivers-2-x-warhammer-40000-warbond-xbox/",
+        "published_at": "2026-08-07T07:00:00+00:00",
+        "summary": "<p>The die is cast. The unstoppable force of Freedom is advancing where others fear to tread, emboldened and equipped with Super Earth’s latest instruments of Liberation – and secure in the knowledge that approved replacements are standing by for deployment. Helldivers, prepare to paint the galaxy all the colours of Freedom, one righteous basecoat of […]</p>\n<p>The post <a href=\"https://news.xbox.com/en-us/2026/08/07/helldivers-2-x-warhammer-40000-warbond-xbox/\">HELLDIVERS 2 x Warhammer 40,000 Legendary Warbond, Launching August 12</a> appeared first on <a href=\"https://news.xbox.com/en-us\">XBOX Wire</a>.</p>"
       }
     },
     {
@@ -1074,15 +1695,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "게임조선",
-        "headline": "TFT, 역대 최대 오프라인 축제 '와일드 팬페스트' 개최",
-        "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36692",
-        "published_at": "2026-08-07T06:00:00+00:00",
-        "summary": "라이엇게임즈가 전략적 팀 전투의 신규 시즌 출시를 앞두고 오프라인 이벤트 ‘와일드 팬페스트’를 개최한다.와일드 팬페스트는 TFT 신규 세트 ‘신비의 숲’ 출시를 기념해 라이엇게임즈와 현대백화점이 함께 개최하는 역대 최대 규모의 오프라인 행사로, 더현대 서울과 현대백화점 판교점에서 순서대로 약 한 달 동안 특별 체험존이 마련된다.더현대 서울의 체험존은 5층 ‘사운즈 포레스트’에 7일 오픈되어 17일까지 약 열흘 동안 운영된다. 이번 행사는 단일 게임 IP가 더현대 서울 5층 사운즈 포레스트를 장식한 첫 사례로, 사전 예약 시작 10분"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Nintendo Life",
         "headline": "Opinion: A Short Walk In Metroid Prime That's More Fun Than Most Whole Games",
         "source_url": "https://www.nintendolife.com/features/opinion-a-short-walk-in-metroid-prime-thats-more-fun-than-most-whole-games",
@@ -1097,6 +1709,15 @@
         "source_url": "https://www.gamesradar.com/games/co-op/game-of-the-week-august-3-7-big-walk/",
         "published_at": "2026-08-07T06:00:00+00:00",
         "summary": "You've got a weekend free to play video games? Here's why Big Walk is worth your time"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "게임조선",
+        "headline": "TFT, 역대 최대 오프라인 축제 '와일드 팬페스트' 개최",
+        "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36692",
+        "published_at": "2026-08-07T06:00:00+00:00",
+        "summary": "라이엇게임즈가 전략적 팀 전투의 신규 시즌 출시를 앞두고 오프라인 이벤트 ‘와일드 팬페스트’를 개최한다.와일드 팬페스트는 TFT 신규 세트 ‘신비의 숲’ 출시를 기념해 라이엇게임즈와 현대백화점이 함께 개최하는 역대 최대 규모의 오프라인 행사로, 더현대 서울과 현대백화점 판교점에서 순서대로 약 한 달 동안 특별 체험존이 마련된다.더현대 서울의 체험존은 5층 ‘사운즈 포레스트’에 7일 오픈되어 17일까지 약 열흘 동안 운영된다. 이번 행사는 단일 게임 IP가 더현대 서울 5층 사운즈 포레스트를 장식한 첫 사례로, 사전 예약 시작 10분"
       }
     },
     {
@@ -1227,6 +1848,15 @@
     },
     {
       "event_model_payload": {
+        "source_name": "Push Square",
+        "headline": "GTA 6 Pre-Orders Are 'Exceptional' So Far, Says Take-Two Boss",
+        "source_url": "https://www.pushsquare.com/news/2026/08/gta-6-pre-orders-are-exceptional-so-far-says-take-two-boss",
+        "published_at": "2026-08-07T05:00:00+00:00",
+        "summary": "<p><strong>The people are ready.</strong></p><p>It looks as though <a href=\"https://www.pushsquare.com/games/ps5/grand_theft_auto_6\">GTA 6</a> is already performing very well for Rockstar and Take-Two.</p><p>As reported by <a class=\"external\" href=\"https://variety.com/2026/gaming/news/gta-6-preorder-sales-take-two-earnings-1236829396/\">Variety</a>, the publisher recently had an earnings call with analysts about the last quarter, and it reports total net bookings of $1.39 billion.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/gta-6-pre-orders-are-exceptional-so-far-says-take-two-boss\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
         "source_name": "Xbox Wire",
         "headline": "Next Week on XBOX: New Games for August 10 to 14",
         "source_url": "https://news.xbox.com/en-us/2026/08/07/next-week-on-xbox-new-games-for-august-10-to-14/",
@@ -1241,15 +1871,6 @@
         "source_url": "https://www.gamesradar.com/games/grand-theft-auto/gta-3s-back-to-the-future-hill-valley-mod-is-taking-us-to-vice-city-before-gta-6/",
         "published_at": "2026-08-07T05:00:00+00:00",
         "summary": "With GTA 6's release inching closer, there's a Vice City mod that I've been playing since 2009. Here's how it came to be"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Push Square",
-        "headline": "GTA 6 Pre-Orders Are 'Exceptional' So Far, Says Take-Two Boss",
-        "source_url": "https://www.pushsquare.com/news/2026/08/gta-6-pre-orders-are-exceptional-so-far-says-take-two-boss",
-        "published_at": "2026-08-07T05:00:00+00:00",
-        "summary": "<p><strong>The people are ready.</strong></p><p>It looks as though <a href=\"https://www.pushsquare.com/games/ps5/grand_theft_auto_6\">GTA 6</a> is already performing very well for Rockstar and Take-Two.</p><p>As reported by <a class=\"external\" href=\"https://variety.com/2026/gaming/news/gta-6-preorder-sales-take-two-earnings-1236829396/\">Variety</a>, the publisher recently had an earnings call with analysts about the last quarter, and it reports total net bookings of $1.39 billion.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/gta-6-pre-orders-are-exceptional-so-far-says-take-two-boss\">full article on pushsquare.com</a></p>"
       }
     },
     {
@@ -1308,24 +1929,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Kotaku",
-        "headline": "Rockstar’s Parent Company Says ‘Discs Don’t Really Make Sense For The Consumer’",
-        "source_url": "https://kotaku.com/take-two-ceo-on-the-industry-going-all-digital-discs-dont-really-make-sense-for-the-consumer-2000722446",
-        "published_at": "2026-08-07T04:35:09+00:00",
-        "summary": "CEO Strauss Zelnick thinks Take-Two will still produce some physical games 'now and then'"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Kotaku",
-        "headline": "Here’s Why GTA 6 Is $80, But NBA 2K27 Is Only $70",
-        "source_url": "https://kotaku.com/gta-6-grand-theft-auto-price-80-70-nba-2k27-take-two-2k-strauss-zelnick-2000722431",
-        "published_at": "2026-08-07T04:34:03+00:00",
-        "summary": "'Given the hype around this title, I think we could have made any number of other pricing choices,' said Strauss Zelnick"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Pure Xbox",
         "headline": "Feature: 30 Xbox Series X|S Games To Look Forward To In August-December 2026",
         "source_url": "https://www.purexbox.com/features/30-xbox-series-xs-games-to-look-forward-to-in-august-december-2026",
@@ -1349,24 +1952,6 @@
         "source_url": "https://www.rockpapershotgun.com/ideas-like-this-usually-just-die-inside-generative-ais-effect-on-modding-and-how-host-sites-struggle-to-maintain-transparency",
         "published_at": "2026-08-07T04:19:46+00:00",
         "summary": "<img src=\"https://assetsio.gnwcdn.com/skyrim-modding-ai-feature-01.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>I’ve been scrolling through Nexus Mods near enough every weekday morning for three or four years now. On a good day, I might spot a couple of new mods potentially worth writing news about and a couple, usually <a href=\"https://www.rockpapershotgun.com/games/the-elder-scrolls-v-skyrim\">Skyrim</a> player homes, I might fancy checking out in my free time.</p>\n<p>Historically, browsing for mods was largely just a matter of gauging which looked complex or unique enough to be worth investigating further, and making sure nothing about them appeared offensive or otherwise dodgy. Usually, new quests, new mechanics, or substantial overhauls which can turn a game on its head got the nod. Then, a few years ago, AI-generated voices started popping up in the former. Skyrim, being the most actively modded game, was ground zero.</p>\n <p><a href=\"https://www.rockpapershotgun.com/ideas-like-this-usually-just-die-inside-generative-ais-effect-on-modding-and-how-host-sites-struggle-to-maintain-transparency\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Kotaku",
-        "headline": "Marvel Tōkon Launches To Abysmal 44% Rating On Steam: ‘They Should Have Pushed The PC Release Date Back Until They Figured This Out’",
-        "source_url": "https://kotaku.com/marvel-tokon-fighting-souls-pc-steam-performance-reviews-2000722437",
-        "published_at": "2026-08-07T04:16:09+00:00",
-        "summary": "Arc System Works says it’s ‘actively investigating’ reports of performance issues on PC"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Dot Esports",
-        "headline": "All Marvel Rivals achievements and rewards",
-        "source_url": "https://dotesports.com/marvel/news/all-marvel-rivals-achievements-rewards",
-        "published_at": "2026-08-07T04:11:46+00:00",
-        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2024/12/Marvel-Rivals-Storm-Ivory-Breeze-1.jpg\" style=\"margin-bottom: 15px;\" /></div>Tick them off."
       }
     },
     {
@@ -1421,15 +2006,6 @@
         "source_url": "https://www.pushsquare.com/news/2026/08/marvel-tokon-launches-to-mixed-reviews-on-pc-ps5-players-encouraged-to-disable-crossplay",
         "published_at": "2026-08-07T03:30:00+00:00",
         "summary": "<p><strong>\"Of course Sony has to ruin everything\".</strong></p><p><a href=\"https://www.pushsquare.com/games/ps5/marvel_tokon_fighting_souls\">Marvel Tokon: Fighting Souls</a> has launched to ‘Mixed’ reviews on PC storefront <a href=\"https://store.steampowered.com/app/3787240/MARVEL_Tkon_Fighting_Souls/?curator_clanid=4777282#app_reviews_hash\">Steam</a>, despite dev Arc System Works <a href=\"https://www.pushsquare.com/news/2026/08/marvel-tokons-day-one-update-promises-a-much-smoother-experience-on-pc-ps5\">prioritising various improvements after the game’s open beta</a>.</p><p>The criticisms are broad and varied, but largely pertain to performance issues as opposed to the core game itself. (Which runs great on the PS5, by the way.)</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/marvel-tokon-launches-to-mixed-reviews-on-pc-ps5-players-encouraged-to-disable-crossplay\">full article on pushsquare.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Dot Esports",
-        "headline": "GiantX westside on Champions 2026 path: “We need to start strong from the very first round”",
-        "source_url": "https://dotesports.com/general/news/giantx-westside-valorant-champions",
-        "published_at": "2026-08-07T03:24:31+00:00",
-        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/08/giantx-westside-on-champions-2026-path-we-need-to-start-stro-1.webp\" style=\"margin-bottom: 15px;\" /></div>After beating Eintracht Frankfurt in VCT EMEA Stage 2 Play-Ins, GiantX's westside says the team is moving in the right direction but can't afford another sluggish start."
       }
     },
     {
@@ -1524,20 +2100,20 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "\"Credible military storytelling\": Ubisoft announce playtests for new Ghost Recon game alongside a sizeable Wildlands update and a Future Soldier giveaway",
-        "source_url": "https://www.rockpapershotgun.com/credible-military-storytelling-ubisoft-announce-playtests-for-new-ghost-recon-game-alongside-a-sizeable-wildlands-update-and-a-future-soldier-giveaway",
-        "published_at": "2026-08-07T02:15:00+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/Ghost-Recon-Wildlands-Last-Rites.png?width=690&quality=85&format=jpg&auto=webp\" /> <p>Much like the CIA spreading misinformation ahead of a cheeky little regime change, Ubisoft have begun talking about their next proper Ghost Recon game. According to live producer Irina-Gabriela Popa, it'll be \"a fun, fresh experience that stays true to everything that defines Ghost Recon – tactical action, large scale operations, credible military storytelling and, of course, the Ghost Unit.”</p> <p><a href=\"https://www.rockpapershotgun.com/credible-military-storytelling-ubisoft-announce-playtests-for-new-ghost-recon-game-alongside-a-sizeable-wildlands-update-and-a-future-soldier-giveaway\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Push Square",
         "headline": "Free 4K, 60fps PS5 Update for Ghost Recon Wildlands Out Now, Included with PS Plus Extra",
         "source_url": "https://www.pushsquare.com/news/2026/08/free-4k-60fps-ps5-update-for-ghost-recon-wildlands-out-now-included-with-ps-plus-extra",
         "published_at": "2026-08-07T02:15:00+00:00",
         "summary": "<p><strong>Or everyone can try until 10th August.</strong></p><p><a href=\"https://www.pushsquare.com/games/ps4/tom_clancys_ghost_recon_wildlands\">Ghost Recon Wildlands</a>, the 2017 third-person shooter from Ubisoft, will get its free 4K, 60fps native PS5 upgrade from tomorrow, 6th August.</p><p>That’s according to a leaked <a href=\"https://store.playstation.com/en-gb/product/EP0001-CUSA02819_00-GRWEMEANORMAL000\"><strong>PS Store</strong></a> listing, which also confirms support for 3D audio, DualSense haptic feedback, and faster SSD loading times.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/free-4k-60fps-ps5-update-for-ghost-recon-wildlands-out-now-included-with-ps-plus-extra\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "\"Credible military storytelling\": Ubisoft announce playtests for new Ghost Recon game alongside a sizeable Wildlands update and a Future Soldier giveaway",
+        "source_url": "https://www.rockpapershotgun.com/credible-military-storytelling-ubisoft-announce-playtests-for-new-ghost-recon-game-alongside-a-sizeable-wildlands-update-and-a-future-soldier-giveaway",
+        "published_at": "2026-08-07T02:15:00+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/Ghost-Recon-Wildlands-Last-Rites.png?width=690&quality=85&format=jpg&auto=webp\" /> <p>Much like the CIA spreading misinformation ahead of a cheeky little regime change, Ubisoft have begun talking about their next proper Ghost Recon game. According to live producer Irina-Gabriela Popa, it'll be \"a fun, fresh experience that stays true to everything that defines Ghost Recon – tactical action, large scale operations, credible military storytelling and, of course, the Ghost Unit.”</p> <p><a href=\"https://www.rockpapershotgun.com/credible-military-storytelling-ubisoft-announce-playtests-for-new-ghost-recon-game-alongside-a-sizeable-wildlands-update-and-a-future-soldier-giveaway\">Read more</a></p>"
       }
     },
     {
@@ -1556,15 +2132,6 @@
         "source_url": "https://bbs.ruliweb.com/news/read/227875",
         "published_at": "2026-08-07T02:06:06+00:00",
         "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/08/07/19fdbe961e7_jfivtu.webp\" width=\"90\" /> qualiarts와 커버 주식회사는 공식 게임 'hololive dreams'에서 2026년 8월 7일부터 신규 이벤트 '하나로 어우러지는 여름의 스파클'을 개최한다고 밝혔다. 이번 이벤트에서는 사쿠라 미코와 호시마치 스이세이의 수영..."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "How to get Phione in Pokopia Bubbly Basin",
-        "source_url": "https://www.destructoid.com/how-to-get-phione-in-pokopia-bubbly-basin/",
-        "published_at": "2026-08-07T02:05:29+00:00",
-        "summary": "<p>It all comes down to luck. </p>\n<p>The post <a href=\"https://www.destructoid.com/how-to-get-phione-in-pokopia-bubbly-basin/\">How to get Phione in Pokopia Bubbly Basin</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
       }
     },
     {
@@ -1677,29 +2244,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Dot Esports",
-        "headline": "How to complete Week 3 challenges in BO7 & Warzone Season 5",
-        "source_url": "https://dotesports.com/call-of-duty/guides/black-ops-7-warzone-season-5-week-3-challenges",
-        "published_at": "2026-08-07T01:27:40+00:00",
-        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/08/Week-3-challenges-BO7-Warzone-Season-5.webp\" style=\"margin-bottom: 15px;\" /></div>Find all Season 5 Week 3 Challenges here."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "GamesRadar",
         "headline": "Another look at Kingdom Hearts 4 seems even more likely this month after co-director is confirmed to appear at Disney D23 event",
         "source_url": "https://www.gamesradar.com/games/kingdom-hearts/another-look-at-kingdom-hearts-4-seems-even-more-likely-this-month-after-co-director-is-confirmed-to-appear-at-disney-d23-event/",
         "published_at": "2026-08-07T01:25:34+00:00",
         "summary": "Sora, Donald and Goofy will be getting plenty of attention at the conference"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "How to get Windup Inkay in Pokopia Bubbly Basin",
-        "source_url": "https://www.destructoid.com/how-to-get-windup-inkay-in-pokopia-bubbly-basin/",
-        "published_at": "2026-08-07T01:18:53+00:00",
-        "summary": "<p>Quite a tough item to find. </p>\n<p>The post <a href=\"https://www.destructoid.com/how-to-get-windup-inkay-in-pokopia-bubbly-basin/\">How to get Windup Inkay in Pokopia Bubbly Basin</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
       }
     },
     {
@@ -1758,6 +2307,15 @@
     },
     {
       "event_model_payload": {
+        "source_name": "Rock Paper Shotgun",
+        "headline": "The makers of the glorious Othercide have another tactics RPG bloodbath out in September, with a playtest live now",
+        "source_url": "https://www.rockpapershotgun.com/the-makers-of-the-glorious-othercide-have-another-tactics-rpg-bloodbath-out-in-september-with-a-playtest-live-now",
+        "published_at": "2026-08-07T01:00:00+00:00",
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/Ex-Sanguis.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nLightbulb Crew's <a href=\"https://www.rockpapershotgun.com/games/othercide\">Othercide</a> was a melancholy meatgrinder of an XCOM-style tactics RPG, <a href=\"https://www.rockpapershotgun.com/othercide-is-a-tactical-rougelite-about-the-worlds-pushiest-mother\">featuring the world's worst mum</a>. It saw you leading squads of sorrowful, blade and pistol-wielding clones into stark geographical projections of anguish. With the odds generally against you, the game put a huge emphasis on initiative, running order and acting outside your turn. Lightbulb's new game Ex Sanguis looks an awful lot like Othercide, from the porcelain beauty of the characters to the grotesque and gloopy metaphysicality of the battlespace, and I couldn't be happier.\n</p> <p><a href=\"https://www.rockpapershotgun.com/the-makers-of-the-glorious-othercide-have-another-tactics-rpg-bloodbath-out-in-september-with-a-playtest-live-now\">Read more</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
         "source_name": "Pure Xbox",
         "headline": "Gears Of War: E-Day Players Share Their Initial Thoughts On The Multiplayer Beta",
         "source_url": "https://www.purexbox.com/news/2026/08/gears-of-war-e-day-players-share-their-initial-thoughts-on-the-multiplayer-beta",
@@ -1776,15 +2334,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "The makers of the glorious Othercide have another tactics RPG bloodbath out in September, with a playtest live now",
-        "source_url": "https://www.rockpapershotgun.com/the-makers-of-the-glorious-othercide-have-another-tactics-rpg-bloodbath-out-in-september-with-a-playtest-live-now",
-        "published_at": "2026-08-07T01:00:00+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/Ex-Sanguis.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\nLightbulb Crew's <a href=\"https://www.rockpapershotgun.com/games/othercide\">Othercide</a> was a melancholy meatgrinder of an XCOM-style tactics RPG, <a href=\"https://www.rockpapershotgun.com/othercide-is-a-tactical-rougelite-about-the-worlds-pushiest-mother\">featuring the world's worst mum</a>. It saw you leading squads of sorrowful, blade and pistol-wielding clones into stark geographical projections of anguish. With the odds generally against you, the game put a huge emphasis on initiative, running order and acting outside your turn. Lightbulb's new game Ex Sanguis looks an awful lot like Othercide, from the porcelain beauty of the characters to the grotesque and gloopy metaphysicality of the battlespace, and I couldn't be happier.\n</p> <p><a href=\"https://www.rockpapershotgun.com/the-makers-of-the-glorious-othercide-have-another-tactics-rpg-bloodbath-out-in-september-with-a-playtest-live-now\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "루리웹 뉴스",
         "headline": "Minimum Studio ‘슬라임 대소동’ PS5, XSX, NS 버전 발매 예정",
         "source_url": "https://bbs.ruliweb.com/news/read/227872",
@@ -1799,15 +2348,6 @@
         "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110488",
         "published_at": "2026-08-07T00:44:59+00:00",
         "summary": "최근 앱테크의 인기가 급격히 상승하고 있으며, 사용자가 앱을 통해 광고를 시청하거나 특정 활동을 완료하면 보상을 받을 수 있는 형태의 서비스가 확산되고 있다. 많은 앱이 사용자 참여를 유도하기 위해 퀴즈 형식의 이벤트를 진행하고 있다. '토스 행운퀴즈'는 그중에서도 많은 관심을 받고 있는 이벤트로, 사용자들이 퀴즈에 참여하여 정답을 맞히면 다양한 보상을 받을 수 있는 방식이다. 토스 행운퀴즈 정답을 공개한다.'H포인트 9주년 이벤트' 관련 토스 행운퀴즈 이벤트의 문제는 '1억원 상당의 혜택이 있는 OOOOO 이벤트를 진행하고 있어요"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "How to get Frillish in Pokopia Bubbly Basin",
-        "source_url": "https://www.destructoid.com/how-to-get-frillish-in-pokopia-bubbly-basin/",
-        "published_at": "2026-08-07T00:43:54+00:00",
-        "summary": "<p>Quite an important friend to meet. </p>\n<p>The post <a href=\"https://www.destructoid.com/how-to-get-frillish-in-pokopia-bubbly-basin/\">How to get Frillish in Pokopia Bubbly Basin</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
       }
     },
     {
@@ -1848,15 +2388,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "All achievements in ReStory: Chill Electronics Repairs and how to unlock them",
-        "source_url": "https://www.destructoid.com/all-achievements-in-restory-chill-electronics-repairs-and-how-to-unlock-them/",
-        "published_at": "2026-08-07T00:04:55+00:00",
-        "summary": "<p>Becoming a master! </p>\n<p>The post <a href=\"https://www.destructoid.com/all-achievements-in-restory-chill-electronics-repairs-and-how-to-unlock-them/\">All achievements in ReStory: Chill Electronics Repairs and how to unlock them</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "VGC",
         "headline": "More Zelda movie cast members reported, including Sam Neill and the actor playing Ganondorf",
         "source_url": "https://www.videogameschronicle.com/news/more-zelda-movie-cast-members-reported-including-sam-neill-and-the-actor-playing-ganondorf/",
@@ -1880,15 +2411,6 @@
         "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110468",
         "published_at": "2026-08-06T23:46:24+00:00",
         "summary": "블리자드 ‘하스스톤’ 36.2 패치를 통해 밸런스 패치가 적용됐다. 지난 패치 이후 메타의 중심축으로 군림하던 ‘공허 영혼 악마사냥꾼’의 위력을 조정하는 것이 이번 패치의 목적이다. 이번 패치에서는 핵심 하수인 단 한 장만 수술대에 올랐지만, 메타에는 큰 영향을 미쳤다.'공허 영혼 악사'라는 중심축이 사라지자 판도는 즉각적으로 변동했다. 패치 직후 집계된 데이터에 따르면, 공허 영혼 악사는 지표에서 모습을 감췄다. 그리고 그 자리를 주술사와 도적, 그리고 사냥꾼, 죽음의 기사가 차지한 모습을 확인할 수 있다. 더불어 패치와 함께 등"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "루리웹 뉴스",
-        "headline": "백화점에서 TFT로 놀기, TFT '와일드 팬페스트' 쇼케이스&풍경",
-        "source_url": "https://bbs.ruliweb.com/news/read/227868",
-        "published_at": "2026-08-06T23:30:00+00:00",
-        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/08/07/19fdb37f9f3_bqwghf.webp\" width=\"90\" /> 라이엇 게임즈는 8월 7일부터 여의도 더현대 서울에서 'tft 와일드 팬페스트'를 개최하며 한국 팬들과 소통에 나섰다. 이번 행사에서는 글로벌 선수들이 참여하는 인비테이셔널 대회와 미니 게임, 개발자 간담회가 진행되었으며, 라이엇은 ..."
       }
     },
     {
@@ -1947,11 +2469,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "Track Upcoming Roblox Games on Blox Informer",
-        "source_url": "https://www.destructoid.com/bloxinformer-launches-roblox-release-hub/",
-        "published_at": "2026-08-06T23:01:40+00:00",
-        "summary": "<p>BloxInformer launches Roblox Release HUB, a detailed list of release dates of upcoming games.</p>\n<p>The post <a href=\"https://www.destructoid.com/bloxinformer-launches-roblox-release-hub/\">Track Upcoming Roblox Games on Blox Informer</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
+        "source_name": "루리웹 뉴스",
+        "headline": "백화점에서 TFT로 놀기, TFT '와일드 팬페스트' 쇼케이스&풍경",
+        "source_url": "https://bbs.ruliweb.com/news/read/227868",
+        "published_at": "2026-08-06T23:00:00+00:00",
+        "summary": "<img height=\"75\" src=\"//img.ruliweb.com/data/news/tn/26/08/07/19fdb37f9f3_bqwghf.webp\" width=\"90\" /> 라이엇 게임즈는 8월 7일부터 여의도 더현대 서울에서 'tft 와일드 팬페스트'를 개최하며 한국 팬들과 소통에 나섰다. 이번 행사에서는 글로벌 선수들이 참여하는 인비테이셔널 대회와 미니 게임, 개발자 간담회가 진행되었으며, 라이엇은 ..."
       }
     },
     {
@@ -2019,15 +2541,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "IRON NEST: Heavy Turret Simulator Speedrun guide: How to kill the king",
-        "source_url": "https://www.destructoid.com/iron-nest-heavy-turret-simulator-speedrun-guide-how-to-kill-the-king/",
-        "published_at": "2026-08-06T20:49:09+00:00",
-        "summary": "<p>King killer! </p>\n<p>The post <a href=\"https://www.destructoid.com/iron-nest-heavy-turret-simulator-speedrun-guide-how-to-kill-the-king/\">IRON NEST: Heavy Turret Simulator Speedrun guide: How to kill the king</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "PC Gamer",
         "headline": "Sam Neill will reportedly star in the forthcoming The Legend of Zelda film",
         "source_url": "https://www.pcgamer.com/movies-tv/sam-neill-will-reportedly-star-in-the-forthcoming-the-legend-of-zelda-film/",
@@ -2069,33 +2582,6 @@
         "source_url": "https://www.nintendolife.com/news/2026/08/lies-of-p-switch-2-update-adds-new-handheld-graphics-option-and-fixes-other-issues",
         "published_at": "2026-08-06T17:00:00+00:00",
         "summary": "<p><strong>Quick fix.</strong></p><p><a href=\"https://www.nintendolife.com/games/nintendo-switch-2/lies-of-p-complete-edition\">Lies of P: Complete Edition</a> arrived on the Switch 2 this week, and if you've read our review, you'll know there were some performance issues in this build of the game.</p><p>Fortunately, the teams at Neowiz and Round8 Studio have already rolled out the patch, which should improve the overall experience on Nintendo's hybrid platform.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/lies-of-p-switch-2-update-adds-new-handheld-graphics-option-and-fixes-other-issues\">full article on nintendolife.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Dot Esports",
-        "headline": "Forza Horizon 6 Festival Playlist Series 3 Week 4 treasure location",
-        "source_url": "https://dotesports.com/forza/guides/forza-horizon-6-italian-exotics-week-4-treasure",
-        "published_at": "2026-08-06T16:46:26+00:00",
-        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/08/Forza-Horizon-6-Screenshot-2026.08.06-23.23.44.51.jpg\" style=\"margin-bottom: 15px;\" /></div>Climb above Nachi Falls for the chest."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Dot Esports",
-        "headline": "Where to find Horizon Stadium in Forza Horizon 6",
-        "source_url": "https://dotesports.com/forza/guides/forza-horizon-6-horizon-stadium-location",
-        "published_at": "2026-08-06T16:27:20+00:00",
-        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/08/fh6-horizon-stadium-1.jpg\" style=\"margin-bottom: 15px;\" /></div>Take a photo of your car inside the stadium."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Dot Esports",
-        "headline": "Where to find Sotoyama Ski Resort in Forza Horizon 6",
-        "source_url": "https://dotesports.com/forza/guides/forza-horizon-6-sotoyama-ski-resort-location",
-        "published_at": "2026-08-06T16:01:07+00:00",
-        "summary": "<div><img class=\"type:primaryImage\" src=\"https://media.dotesports.com/wp-content/uploads/2026/08/fh6-sotoyama-ski-resort-2.jpg\" style=\"margin-bottom: 15px;\" /></div>Take any Lamborghini into the mountains."
       }
     },
     {
@@ -2217,15 +2703,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "All DragonSword: Awakening Sudden Mission locations",
-        "source_url": "https://www.destructoid.com/all-dragonsword-awakening-sudden-mission-locations/",
-        "published_at": "2026-08-06T12:54:13+00:00",
-        "summary": "<p>Cross all targets in one go.</p>\n<p>The post <a href=\"https://www.destructoid.com/all-dragonsword-awakening-sudden-mission-locations/\">All DragonSword: Awakening Sudden Mission locations</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "게임톡",
         "headline": "세나 리버스, 출석으로 5성 전설 반지 준다",
         "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110484",
@@ -2280,47 +2757,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "Microsoft is finally bringing Platinum Achievements to the Xbox",
-        "source_url": "https://www.destructoid.com/microsoft-is-finally-bringing-platinum-achievements-to-the-xbox/",
-        "published_at": "2026-08-06T12:20:29+00:00",
-        "summary": "<p>Kept you waiting, huh?</p>\n<p>The post <a href=\"https://www.destructoid.com/microsoft-is-finally-bringing-platinum-achievements-to-the-xbox/\">Microsoft is finally bringing Platinum Achievements to the Xbox</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "PC Gamer",
         "headline": "Capcom says it wants Monster Hunter Wilds to outsell World 'over the medium to long term,' but it'll need to muster a lot of sales momentum to get there",
         "source_url": "https://www.pcgamer.com/games/action/capcom-says-it-wants-monster-hunter-wilds-to-outsell-world-over-the-medium-to-long-term-but-itll-need-to-muster-a-lot-of-sales-momentum-to-get-there/",
         "published_at": "2026-08-06T12:14:46+00:00",
         "summary": "Wilds didn't rank in Capcom's quarterly best sellers, but the company hopes to turn that around."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "GamesRadar",
-        "headline": "BioWare vets' new X Files-like mystery game could \"not exist in the AAA space\" that would rather \"throw money at a problem\" than experiment",
-        "source_url": "https://www.gamesradar.com/games/adventure/bioware-vets-new-x-files-like-mystery-game-could-not-exist-in-the-aaa-space-that-would-rather-throw-money-at-a-problem-than-experiment/",
-        "published_at": "2026-08-06T12:11:44+00:00",
-        "summary": "The Eventide is proudly indie"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "GamesRadar",
-        "headline": "\"If FromSoftware released the full Dark Souls design document, no one would be debating the lore\": Creator of one of the highest-rated new roguelikes on Steam says hands-off storytelling was key",
-        "source_url": "https://www.gamesradar.com/games/roguelike/if-fromsoftware-released-the-full-dark-souls-design-document-no-one-would-be-debating-the-lore-creator-of-one-of-the-highest-rated-new-roguelikes-on-steam-says-hands-off-storytelling-was-key/",
-        "published_at": "2026-08-06T12:10:44+00:00",
-        "summary": "Their deceptively simple action-strategy game's launch went \"way beyond my wildest expectations,\" dev says"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Kotaku",
-        "headline": "Preservationist Spent $900 And Strung Together 90 GPUs To Save A Lost Final Fantasy 7 Spinoff",
-        "source_url": "https://kotaku.com/final-fantasy-7-dirge-of-cerberus-mobile-game-restored-2000722267",
-        "published_at": "2026-08-06T12:00:50+00:00",
-        "summary": "<i>Dirge of Cerberus: Lost Episode</i> was a fully voiced mobile game that shut down in 2018"
       }
     },
     {
@@ -2370,38 +2811,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "I think I’ve finally seen one too many of these ‘simulator’ games on Steam",
-        "source_url": "https://www.destructoid.com/finally-seen-one-too-many-simulator-games-steam/",
-        "published_at": "2026-08-06T11:17:52+00:00",
-        "summary": "<p>Oh.</p>\n<p>The post <a href=\"https://www.destructoid.com/finally-seen-one-too-many-simulator-games-steam/\">I think I’ve finally seen one too many of these ‘simulator’ games on Steam</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "게임톡",
         "headline": "컷슬린데일리 보리한잔…캐시워크 돈버는퀴즈 정답 공개",
         "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110456",
         "published_at": "2026-08-06T11:07:08+00:00",
         "summary": "캐시워크 돈버는퀴즈는 많은 관심을 받고 있는 앱테크 이벤트로, 사용자들이 퀴즈에 참여하여 정답을 맞히면 다양한 보상을 받을 수 있다. 컷슬린데일리 보리한잔 캐시워크 정답을 공개한다.컷슬린데일리 보리한잔 캐시워크 돈버는퀴즈 문제는 '컷슬린 데일리 보리한잔은 ~ 1병당 칼로리는 단 ㅇkcal! 부담 없이 매일 마실 수 있습니다. ㅇ에 들어갈 숫자는 무엇일까요?'이다.컷슬린데일리 보리한잔 캐시 정답은 [ ]이다.캐시워크 돈버는퀴즈는 각 회차마다 1회만 참여할 수 있으며, 한 번 정답을 맞혀 캐시를 획득한 경우에는 동일한 퀴즈가 수정되거나"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "How to marry in Fields of Mistria? All options and more",
-        "source_url": "https://www.destructoid.com/how-to-marry-in-fields-of-mistria-all-options-and-more/",
-        "published_at": "2026-08-06T11:02:50+00:00",
-        "summary": "<p>Till the next save do us apart! </p>\n<p>The post <a href=\"https://www.destructoid.com/how-to-marry-in-fields-of-mistria-all-options-and-more/\">How to marry in Fields of Mistria? All options and more</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "GamesRadar",
-        "headline": "Google AI leaks \"scarily accurate and very specific\" game detail from private documents, says indie dev: \"I had never told the name to anyone\"",
-        "source_url": "https://www.gamesradar.com/games/google-ai-leaks-scarily-accurate-and-very-specific-game-detail-from-private-documents-says-indie-dev-i-had-never-told-the-name-to-anyone/",
-        "published_at": "2026-08-06T11:00:36+00:00",
-        "summary": "\"I have no idea how it knew all this\""
       }
     },
     {
@@ -2424,15 +2838,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "Folks are not happy about Rockstar’s decision to stream GTA 6 preview on Netflix: ‘Next-level greed, scum and villainy’",
-        "source_url": "https://www.destructoid.com/gta-6-netflix-reactions/",
-        "published_at": "2026-08-06T10:23:53+00:00",
-        "summary": "<p>Can't fault them for raking in the big money from Netflix. </p>\n<p>The post <a href=\"https://www.destructoid.com/gta-6-netflix-reactions/\">Folks are not happy about Rockstar’s decision to stream GTA 6 preview on Netflix: ‘Next-level greed, scum and villainy’</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "PC Gamer",
         "headline": "Ghost Recon marks 25 years with a major update and free new missions for Wildlands, and a Ghost Recon: Future Soldier giveaway",
         "source_url": "https://www.pcgamer.com/games/third-person-shooter/ghost-recon-marks-25-years-with-a-major-update-and-free-new-missions-for-wildlands-and-a-ghost-recon-future-soldier-giveaway/",
@@ -2451,29 +2856,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Destructoid",
-        "headline": "How to find and customize your cat in IRON NEST: Heavy Turret Simulator",
-        "source_url": "https://www.destructoid.com/how-to-find-and-customize-your-cat-in-iron-nest-heavy-turret-simulator/",
-        "published_at": "2026-08-06T09:55:25+00:00",
-        "summary": "<p>Dear catto!!</p>\n<p>The post <a href=\"https://www.destructoid.com/how-to-find-and-customize-your-cat-in-iron-nest-heavy-turret-simulator/\">How to find and customize your cat in IRON NEST: Heavy Turret Simulator</a> appeared first on <a href=\"https://www.destructoid.com\">Destructoid</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Dexerto",
         "headline": "Magic Loot codes (August 2026)",
         "source_url": "https://www.dexerto.com/roblox/magic-loot-codes-3395653/",
         "published_at": "2026-08-06T09:50:28+00:00",
         "summary": "Here are all the latest Magic Loot codes for August 2026, along with their current status and everything you need to know about redeeming them."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "GamesRadar",
-        "headline": "If you want to see what's actually ruining games, read why Devolver Digital doesn't want to be a publicly traded company anymore",
-        "source_url": "https://www.gamesradar.com/games/devolver-digital-decides-video-games-and-publicly-traded-companies-dont-mix-announces-plan-to-go-private-once-again-to-save-it-some-money-and-headache/",
-        "published_at": "2026-08-06T09:47:00+00:00",
-        "summary": "Infinite growth and satisfying shareholders doesn't make good games, it turns out"
       }
     },
     {
@@ -2658,24 +3045,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "VGC",
-        "headline": "Ghost Recon Wildlands gets free update adding Last Rites mission, 4K60 support and Predator content removed in 2020",
-        "source_url": "https://www.videogameschronicle.com/news/ghost-recon-wildlands-gets-free-update-adding-last-rites-mission-4k60-support-and-predator-content-removed-in-2020/",
-        "published_at": "2026-08-06T07:15:55+00:00",
-        "summary": "<img src=\"https://www.videogameschronicle.com/files/2026/08/ghost-recon-wildlands-last-rites.jpg\" /> Hundreds of in-game items are also now available for free for the first time"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "VGC",
-        "headline": "Ghost Recon: Future Soldier is free to claim on PC for the next week",
-        "source_url": "https://www.videogameschronicle.com/news/ghost-recon-future-soldier-is-free-to-claim-on-pc-for-the-next-week/",
-        "published_at": "2026-08-06T07:15:49+00:00",
-        "summary": "<img src=\"https://www.videogameschronicle.com/files/2026/08/ghost-recon-future-soldier.jpg\" /> Ubisoft is giving away the PC version to mark the series' 25th anniversary"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "게임조선",
         "headline": "소니, 유저들의 큰 반발에도 '디스크 생산 중단 결정 번복 없다'",
         "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36691",
@@ -2703,20 +3072,20 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Xbox Wire",
-        "headline": "Ghost Recon Wildlands: Last Rites – A Major Free Update Powered by Community Feedback and Player Insights",
-        "source_url": "https://news.xbox.com/en-us/2026/08/06/ghost-recon-wildlands-last-rites-community-feedback/",
-        "published_at": "2026-08-06T07:00:00+00:00",
-        "summary": "<p>Ghost Recon Wildlands: Last Rites is out now for XBOX Series X|S. As a major free update, Last Rites refreshes the gameplay experience of Ghost Recon Wildlands, delivering a new story-driven mission in which the Ghosts must face off against a new antagonist, La Llorona, and Los Penitentes, her fanatic cult following. They have nothing […]</p>\n<p>The post <a href=\"https://news.xbox.com/en-us/2026/08/06/ghost-recon-wildlands-last-rites-community-feedback/\">Ghost Recon Wildlands: Last Rites – A Major Free Update Powered by Community Feedback and Player Insights</a> appeared first on <a href=\"https://news.xbox.com/en-us\">XBOX Wire</a>.</p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Push Square",
         "headline": "Devolver's Brilliant Roguelite Dopamine Factory, Ball X Pit, Is a Smash Hit at 2 Million Sales",
         "source_url": "https://www.pushsquare.com/news/2026/08/devolvers-brilliant-roguelite-dopamine-factory-ball-x-pit-is-a-smash-hit-at-2-million-sales",
         "published_at": "2026-08-06T07:00:00+00:00",
         "summary": "<p><strong>Final free DLC out now.</strong></p><p><a href=\"https://www.pushsquare.com/games/ps5/ball_x_pit\">Ball X Pit</a>, the <a href=\"https://www.pushsquare.com/games/ps1/breakout\">Breakout</a>-esque arcade action roguelite from Devolver Digital, is not only a fantastic game — it's also a big hit.</p><p>The publisher launched the unusual title in October of last year, and since then, it's sold over 2 million copies, the company confirms in a new press release.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/devolvers-brilliant-roguelite-dopamine-factory-ball-x-pit-is-a-smash-hit-at-2-million-sales\">full article on pushsquare.com</a></p>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Xbox Wire",
+        "headline": "Ghost Recon Wildlands: Last Rites – A Major Free Update Powered by Community Feedback and Player Insights",
+        "source_url": "https://news.xbox.com/en-us/2026/08/06/ghost-recon-wildlands-last-rites-community-feedback/",
+        "published_at": "2026-08-06T07:00:00+00:00",
+        "summary": "<p>Ghost Recon Wildlands: Last Rites is out now for XBOX Series X|S. As a major free update, Last Rites refreshes the gameplay experience of Ghost Recon Wildlands, delivering a new story-driven mission in which the Ghosts must face off against a new antagonist, La Llorona, and Los Penitentes, her fanatic cult following. They have nothing […]</p>\n<p>The post <a href=\"https://news.xbox.com/en-us/2026/08/06/ghost-recon-wildlands-last-rites-community-feedback/\">Ghost Recon Wildlands: Last Rites – A Major Free Update Powered by Community Feedback and Player Insights</a> appeared first on <a href=\"https://news.xbox.com/en-us\">XBOX Wire</a>.</p>"
       }
     },
     {
@@ -2776,19 +3145,19 @@
     {
       "event_model_payload": {
         "source_name": "게임톡",
-        "headline": "던파 미카엘라 “레이드 이렇게 잘 만들면서 왜 그랬어”",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110469",
+        "headline": "히간 이루실 신캐 ‘벨로티아’ 너무 예쁘네",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110470",
         "published_at": "2026-08-06T06:14:05+00:00",
-        "summary": "미카엘라 레이드 하드 난도 퍼스트 클리어에 성공한 오형짱 (출처= 오형짱 유튜브)최근 민심이 좋지 않던 넥슨 '던전앤파이터'가 미카엘라 레이드로 반전 분위기를 만들었다.넥슨은 6일 던전앤파이터의 신규 레이드 '무너진 성자 미카엘라'를 출시했다. 최대 12인 공격대가 그릇된 신념으로 타락한 성자 '미카엘라'를 저지하는 최상위 레이드 콘텐츠다.플레이어는 미카엘라를 지키는 대천사들의 공세에 맞서 싸워야 한다. 레이드 클리어 시 115레벨 에픽 방어구를 '축성' 장비로 강화할 수 있기 때문에 스펙업 측면에서도 도전할 가치가 충분하다.미카엘"
+        "summary": "넥슨의 서브컬처 RPG '히간: 이루실'​이 신규 업데이트를 통해 선보인 SSR 캐릭터 '벨로티아'​가 아름다운 외모와 매력적인 섹시미로 이용자들의 관심을 모으고 있다.8월 6일 진행된 업데이트에서는 신규 서버 'world3'​가 추가됐다. 점검 이후 오픈된 신규 서버에서는 새롭게 게임을 시작하는 이용자들이 보다 쾌적하게 성장할 수 있는 환경이 마련됐다.신규 SSR 캐릭터 '벨로티아'​는 황금 연방 소속의 혈야 서큐버스(마녀) 콘셉트 전사로, 화려한 외형과 함께 강력한 전투 성능을 갖춘 것이 특징이다.포지션은 적에게 막대한 피해를"
       }
     },
     {
       "event_model_payload": {
         "source_name": "게임톡",
-        "headline": "히간 이루실 신캐 ‘벨로티아’ 너무 예쁘네",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110470",
+        "headline": "던파 미카엘라 호평 “레이드 이렇게 잘 만들면서 왜 그랬어”",
+        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110469",
         "published_at": "2026-08-06T06:14:05+00:00",
-        "summary": "넥슨의 서브컬처 RPG '히간: 이루실'​이 신규 업데이트를 통해 선보인 SSR 캐릭터 '벨로티아'​가 아름다운 외모와 매력적인 섹시미로 이용자들의 관심을 모으고 있다.8월 6일 진행된 업데이트에서는 신규 서버 'world3'​가 추가됐다. 점검 이후 오픈된 신규 서버에서는 새롭게 게임을 시작하는 이용자들이 보다 쾌적하게 성장할 수 있는 환경이 마련됐다.신규 SSR 캐릭터 '벨로티아'​는 황금 연방 소속의 혈야 서큐버스(마녀) 콘셉트 전사로, 화려한 외형과 함께 강력한 전투 성능을 갖춘 것이 특징이다.포지션은 적에게 막대한 피해를"
+        "summary": "미카엘라 레이드 하드 난도 퍼스트 클리어에 성공한 오형짱 (출처= 오형짱 유튜브)최근 민심이 좋지 않던 넥슨 '던전앤파이터'가 미카엘라 레이드로 반전 분위기를 만들었다.넥슨은 6일 던전앤파이터의 신규 레이드 '무너진 성자 미카엘라'를 출시했다. 최대 12인 공격대가 그릇된 신념으로 타락한 성자 '미카엘라'를 저지하는 최상위 레이드 콘텐츠다.플레이어는 미카엘라를 지키는 대천사들의 공세에 맞서 싸워야 한다. 레이드 클리어 시 115레벨 에픽 방어구를 '축성' 장비로 강화할 수 있기 때문에 스펙업 측면에서도 도전할 가치가 충분하다.미카엘"
       }
     },
     {
@@ -2802,20 +3171,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "Fear not, samurai masochists, Onimusha: Way of the Sword's flashiness hasn't replaced its challenge",
-        "source_url": "https://www.rockpapershotgun.com/fear-not-samurai-masochists-onimusha-way-of-the-swords-flashiness-hasnt-replaced-its-challenge",
+        "source_name": "Xbox Wire",
+        "headline": "Free Play Days – NBA 2K26, Tom Clancy’s Ghost Recon Breakpoint, Wax Heads, and More",
+        "source_url": "https://news.xbox.com/en-us/2026/08/06/free-play-days-08-06-2026/",
         "published_at": "2026-08-06T06:00:00+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/toshiro-mifune-as-miyamoto-musashi.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Last month, I played an extended preview of upcoming action slasher Onimusha: Way of the Sword, and came away impressed - if a bit sore in the fingers. Though the samurai action genre is a crowded one these days, with <a href=\"https://www.rockpapershotgun.com/nioh-3-review-a-superb-blend-of-soulslike-splendour\">Nioh 3 doing an excellent job</a> of claiming the current throne, Onimusha has more than a few intriguing tricks up its yukata sleeve.</p> <p><a href=\"https://www.rockpapershotgun.com/fear-not-samurai-masochists-onimusha-way-of-the-swords-flashiness-hasnt-replaced-its-challenge\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Nintendo Life",
-        "headline": "Preview: Onimusha: Way Of The Sword Is Capcom's Next Banger",
-        "source_url": "https://www.nintendolife.com/previews/onimusha-way-of-the-sword-is-capcoms-next-banger",
-        "published_at": "2026-08-06T06:00:00+00:00",
-        "summary": "<p><strong>Play as Miyamoto on Switch 2 (not that one).</strong></p><p>Capcom is having a massive 2026, with hits like <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/pragmata\">Pragmata</a>, <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/resident-evil-requiem\">Resident Evil Requiem</a>, and <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/monster-hunter-stories-3-twisted-reflection\">Monster Hunter Stories 3</a>. The studio is now closing out the year with another highly anticipated game, <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/onimusha-way-of-the-sword\">Onimusha: Way of the Sword</a>.</p><p>I spent almost three hours playing Way of the Sword, splitting my time between the PS5 and Nintendo Switch 2 versions. I came away incredibly impressed by the feel of the game, as well as the performance on Nintendo’s handheld.</p><p>Read the <a href=\"https://www.nintendolife.com/previews/onimusha-way-of-the-sword-is-capcoms-next-banger\">full article on nintendolife.com</a></p>"
+        "summary": "<p>Dive into the action with Free Play Days this weekend, where sports, strategy, and all-out firefights collide for an unforgettable gaming spree! Sports Renovations is available this weekend for XBOX Game Pass Ultimate, Premium and Essential members to play from Thursday, August 6 until Sunday, August 9. Tom Clancy’s Ghost Recon Wildlands and Tom Clancy’s Ghost Recon […]</p>\n<p>The post <a href=\"https://news.xbox.com/en-us/2026/08/06/free-play-days-08-06-2026/\">Free Play Days – NBA 2K26, Tom Clancy’s Ghost Recon Breakpoint, Wax Heads, and More</a> appeared first on <a href=\"https://news.xbox.com/en-us\">XBOX Wire</a>.</p>"
       }
     },
     {
@@ -2829,11 +3189,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Xbox Wire",
-        "headline": "Free Play Days – NBA 2K26, Tom Clancy’s Ghost Recon Breakpoint, Wax Heads, and More",
-        "source_url": "https://news.xbox.com/en-us/2026/08/06/free-play-days-08-06-2026/",
+        "source_name": "Rock Paper Shotgun",
+        "headline": "Fear not, samurai masochists, Onimusha: Way of the Sword's flashiness hasn't replaced its challenge",
+        "source_url": "https://www.rockpapershotgun.com/fear-not-samurai-masochists-onimusha-way-of-the-swords-flashiness-hasnt-replaced-its-challenge",
         "published_at": "2026-08-06T06:00:00+00:00",
-        "summary": "<p>Dive into the action with Free Play Days this weekend, where sports, strategy, and all-out firefights collide for an unforgettable gaming spree! Sports Renovations is available this weekend for XBOX Game Pass Ultimate, Premium and Essential members to play from Thursday, August 6 until Sunday, August 9. Tom Clancy’s Ghost Recon Wildlands and Tom Clancy’s Ghost Recon […]</p>\n<p>The post <a href=\"https://news.xbox.com/en-us/2026/08/06/free-play-days-08-06-2026/\">Free Play Days – NBA 2K26, Tom Clancy’s Ghost Recon Breakpoint, Wax Heads, and More</a> appeared first on <a href=\"https://news.xbox.com/en-us\">XBOX Wire</a>.</p>"
+        "summary": "<img src=\"https://assetsio.gnwcdn.com/toshiro-mifune-as-miyamoto-musashi.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Last month, I played an extended preview of upcoming action slasher Onimusha: Way of the Sword, and came away impressed - if a bit sore in the fingers. Though the samurai action genre is a crowded one these days, with <a href=\"https://www.rockpapershotgun.com/nioh-3-review-a-superb-blend-of-soulslike-splendour\">Nioh 3 doing an excellent job</a> of claiming the current throne, Onimusha has more than a few intriguing tricks up its yukata sleeve.</p> <p><a href=\"https://www.rockpapershotgun.com/fear-not-samurai-masochists-onimusha-way-of-the-swords-flashiness-hasnt-replaced-its-challenge\">Read more</a></p>"
       }
     },
     {
@@ -2874,15 +3234,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Nintendo Life",
-        "headline": "Out Now: Obakeidoro 2 Brings Spoopy Asymmetric Multiplayer To Switch 1 & 2",
-        "source_url": "https://www.nintendolife.com/news/2026/08/out-now-obakeidoro-2-brings-spoopy-asymmetric-multiplayer-to-switch-1-and-2",
-        "published_at": "2026-08-06T05:30:00+00:00",
-        "summary": "<p><strong>Chase & Seek.</strong></p><p>If you're in the market for some asymmetric multiplayer horror gaming but things like <a href=\"https://www.nintendolife.com/games/nintendo-switch/dead_by_daylight\">Dead By Daylight</a> come on a little strong/terrifying for your taste, Free Style's <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/obakeidoro-2-chase-and-seek\">Obakeidoro 2: Chase & Seek</a> might be more up your street. Far fewer chainsaws and the like in this one.</p><p>It launched in Japan last year, but today it's coming to Switches 1 and 2 in the West. Obakeidoro casts you as either Monster or Human and gives the Monster(s) three minutes to chase and catch everyone else in a take on hide-and-seek that forgoes blood and guts in favour of cutesy, spoopy tension.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/out-now-obakeidoro-2-brings-spoopy-asymmetric-multiplayer-to-switch-1-and-2\">full article on nintendolife.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Game Developer",
         "headline": "Halo Studios jettisons long-serving contractors after launch of Halo: Campaign Evolved",
         "source_url": "https://www.gamedeveloper.com/production/halo-studios-jettisons-long-serving-contractors-after-launch-of-halo-campaign-evolved",
@@ -2906,15 +3257,6 @@
         "source_url": "https://www.pushsquare.com/news/2026/08/this-sequel-to-one-of-ps5s-secret-best-indie-games-deserves-a-better-release-date",
         "published_at": "2026-08-06T05:15:00+00:00",
         "summary": "<p><strong>Toem 2 sent to die.</strong></p><p><a href=\"https://www.pushsquare.com/games/ps5/toem\">Toem</a> is one of my personal favourite indie games on PS5, so I'm really looking forward to the sequel, which has just received a release date at last.</p><p>Unfortunately, that release date is slap bang in the middle of an incredibly busy schedule; <a href=\"https://www.pushsquare.com/games/ps5/toem_2\">Toem 2</a> launches on 29th September, 2026.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/this-sequel-to-one-of-ps5s-secret-best-indie-games-deserves-a-better-release-date\">full article on pushsquare.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Nintendo Life",
-        "headline": "Japanese Charts: Splatoon Raiders Sales Drop 84%, But It Still Leads The Pack",
-        "source_url": "https://www.nintendolife.com/news/2026/08/japanese-charts-splatoon-raiders-sales-drop-84percent-but-it-still-leads-the-pack",
-        "published_at": "2026-08-06T05:00:00+00:00",
-        "summary": "<p><strong>Ooh, Big Man are we?</strong></p><p><a href=\"https://www.famitsu.com/article/202608/83747\">Famitsu</a> has provided the latest look at the Japanese boxed charts, and despite dropping down from 474,684 units during its launch week to 73,542 units this week (roughly 84% decrease), <a href=\"https://www.nintendolife.com/games/nintendo-switch-2/splatoon-raiders\">Splatoon Raiders</a> is still commanding a pretty healthy lead.</p><p>This is followed by <a href=\"https://www.nintendolife.com/games/nintendo-switch/rhythm_heaven_groove\">Rhythm Heaven Groove</a> at 59,884, and we honestly wouldn't be surprised to see both titles hit 1 million in the region over the coming weeks and months. Elsewhere, we've got a <em>lot</em> of new titles this week, but <a href=\"https://www.nintendolife.com/games/nintendo-switch/tomodachi_life_living_the_dream\">Tomodachi Life: Living the Dream</a> has nestled in nicely with another 18,306, contributing to its running total of over <a href=\"https://www.nintendolife.com/news/2026/08/tomodachi-life-living-the-dream-has-already-sold-over-8-million-units\">8 million units sold worldwide</a>.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/japanese-charts-splatoon-raiders-sales-drop-84percent-but-it-still-leads-the-pack\">full article on nintendolife.com</a></p>"
       }
     },
     {
@@ -2973,24 +3315,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Push Square",
-        "headline": "Marvel Tokon Release Times: Here's When You Can Start Playing Sony's Fighter on PS5, PC",
-        "source_url": "https://www.pushsquare.com/news/2026/08/marvel-tokon-release-times-heres-when-you-can-start-playing-sonys-fighter-on-ps5-pc",
-        "published_at": "2026-08-06T04:15:00+00:00",
-        "summary": "<p><strong>Next stop: the lab.</strong></p><p><a href=\"https://www.pushsquare.com/games/ps5/marvel_tokon_fighting_souls\">Marvel Tokon: Fighting Souls</a> launches today, but depending on where you live, its servers will go online at different times.</p><p>If you’ve already got your physical copy in-hand, or your digital purchase pre-loaded, you may be wondering when you can start playing.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/marvel-tokon-release-times-heres-when-you-can-start-playing-sonys-fighter-on-ps5-pc\">full article on pushsquare.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Push Square",
-        "headline": "This May Be the Best Looking PS5 Game I've Ever Seen, And It's Out Next Week",
-        "source_url": "https://www.pushsquare.com/news/2026/08/this-may-be-the-best-looking-ps5-game-ive-ever-seen-and-its-out-next-week",
-        "published_at": "2026-08-06T04:00:00+00:00",
-        "summary": "<p><strong>LCD sound.</strong></p><p>Allow me to introduce you to <a href=\"https://www.pushsquare.com/games/ps5/future_knight\">Future Knight</a>, quite possibly the best looking PS5 and PS4 game I’ve ever seen. It’s due out next week, on 13th August.</p><p>Inspired by old LCD handhelds manufactured by Tiger Electronics (or even Nintendo’s own Game & Watch), this side-scrolling shooter has one of the most unique aesthetics I think I’ve ever seen.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/this-may-be-the-best-looking-ps5-game-ive-ever-seen-and-its-out-next-week\">full article on pushsquare.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Rock Paper Shotgun",
         "headline": "Big Walk simulates the strange, childlike sensation of being unexpectedly separated from your friends, and the joy and relief of finding your way back",
         "source_url": "https://www.rockpapershotgun.com/big-walk-simulates-the-strange-childlike-sensation-of-being-unexpectedly-separated-from-your-friends-and-the-joy-and-relief-of-finding-your-way-back",
@@ -3005,15 +3329,6 @@
         "source_url": "https://www.purexbox.com/news/2026/08/new-gta-6-footage-to-be-revealed-in-special-extended-look-this-month",
         "published_at": "2026-08-06T03:42:00+00:00",
         "summary": "<p><strong>In partnership with Netflix.</strong></p><p>Ready for a proper glimpse at what <a href=\"https://www.purexbox.com/games/xbox-series-x/gta_6\">GTA 6</a> has to offer?! Rockstar Games has announced today that it has partnered with Netflix to unveil an \"Extended Look\" of the next Grand Theft Auto at the end of the month.</p><p>Specifically, the reveal will take place on Thursday, August 27th at the following times:</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/new-gta-6-footage-to-be-revealed-in-special-extended-look-this-month\">full article on purexbox.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "게임톡",
-        "headline": "‘차이나조이 2026’ 콘진원 한국공동관...10개사 약 3만명 손님맞이",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110462",
-        "published_at": "2026-08-06T03:38:22+00:00",
-        "summary": "문화체육관광부(장관 최휘영)와 한국콘텐츠진흥원(원장 김윤지, 이하 콘진원)은 지난 7월 31일부터 8월 3일까지 중국 상하이 신국제엑스포센터에서 열린 ‘차이나조이 2026(ChinaJoy 2026, 이하 차이나조이)’에 참가해 한국공동관을 성공적으로 운영하며 국내 게임기업의 해외 진출 기반을 확대했다. 차이나조이는 중국 시장 진출을 모색하는 세계 각국의 게임 기업이 참여하는 중국 최대 규모의 게임 전시회다. 올해는 ‘인공지능(AI)과 함께 즐기다(与AI同游)’를 주제로, 7월 31일부터 8월 2일까지 기업 간 거래(B2B) 전시와"
       }
     },
     {
@@ -3036,15 +3351,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "게임톡",
-        "headline": "카카오, 2026년 2분기 매출액 2조 985억 원 ‘분기 기준 역대 최대’",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110461",
-        "published_at": "2026-08-06T03:19:58+00:00",
-        "summary": "“톡비즈 매출액은 전년 동기 대비 12% 증가한 6,432억 원입니다.”카카오(대표이사 정신아)는 K-IFRS(한국채택국제회계기준) 연결 기준 2026년 2분기 매출 2조 985억 원, 영업이익 2,770억 원을 기록했다고 밝혔다. 전년 동기 대비 매출은 9%, 영업이익은 36% 증가했으며, 매출과 영업이익 모두 역대 분기 기준 최대치다. 사업 영역별로 보면 2분기 플랫폼 부문 매출액은 1조 2,303억 원으로 전년 동기 대비 17% 증가했다. 플랫폼 부문 중 톡비즈 매출액은 전년 동기 대비 12% 증가한 6,432억 원을 기록했다"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Dexerto",
         "headline": "Rockstar breaks silence on GTA 6 trailer 3 with Netflix reveal confirmed",
         "source_url": "https://www.dexerto.com/gta/rockstar-breaks-silence-on-gta-6-trailer-3-with-netflix-reveal-confirmed-3395544/",
@@ -3063,33 +3369,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "게임톡",
-        "headline": "이재한 카카오엔터프라이즈 신임 대표이사 “AI전환 선도하겠다”",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110460",
-        "published_at": "2026-08-06T03:07:12+00:00",
-        "summary": "카카오엔터프라이즈(대표 이재한)가 6일, 임시 주주총회 및 이사회를 열어 이재한 대표이사를 신규 선임했다고 밝혔다. 이 신임 대표는 기술에 대한 깊은 이해를 바탕으로 클라우드인프라/디지털전환(DX)부문장, 사업부문장을 역임하며, 전략 수립부터 사업화까지 유기적으로 연결해 카카오엔터프라이즈의 성장을 이끌어왔다. 카카오엔터프라이즈에 합류하기 전에는 카카오의 시스템엔지니어링 리더로서 카카오톡의 인프라 아키텍처 설계 및 운영을 담당한 바 있다. 이 대표는 카카오엔터프라이즈의 주력 사업인 AI 인프라, 하이브리드 GPUaaS를 필두로 사업"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Push Square",
-        "headline": "GTA 6 PS5 Gameplay Coming This Month, Here's When to See It First on Netflix",
-        "source_url": "https://www.pushsquare.com/news/2026/08/gta-6-ps5-gameplay-coming-this-month-heres-when-to-see-it-first-on-netflix",
-        "published_at": "2026-08-06T03:05:00+00:00",
-        "summary": "<p><strong>It's happening.</strong></p><p>Publisher and developer Rockstar Games has announced it'll be showing off more of <a href=\"https://www.pushsquare.com/games/ps5/grand_theft_auto_6\">GTA 6</a> very soon.</p><p>Later this month, on 27th August 2026, an official extended look will debut via Netflix, as teased in the below post.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/gta-6-ps5-gameplay-coming-this-month-heres-when-to-see-it-first-on-netflix\">full article on pushsquare.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Pocket Gamer",
-        "headline": "Bloodless is a fast-paced retro brawler about a samurai who ditches swords in favour of fists",
-        "source_url": "https://www.pocketgamer.com/bloodless/coming-soon/",
-        "published_at": "2026-08-06T03:00:00+00:00",
-        "summary": "Looking for a fast-paced retro brawler on mobile? Then you're in luck, because something passed across my desk earlier today that meets all those criteria. And Bloodless, set to arrive in early September on Google Play, also offers an intriguing twist on the usual revenge story.\n\nSet in the fictional world of Bakugawa, you play as the renegade samurai Tomoe, who used to loyally serve Shogun Akechi. Naturally, things have turned sour, and Tomoe has sworn to defeat him and his army. Notice I said 'defeat' and not 'kill', because Tomoe has pledged not to take another life; although it's a bit less specific about breaking kneecaps. ... [<a href=\"https://www.pocketgamer.com/bloodless/coming-soon/\">MORE</a>]"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Pure Xbox",
         "headline": "Ghost Recon Wildlands Goes Stupidly Cheap On Xbox Alongside Free Next-Gen Upgrade",
         "source_url": "https://www.purexbox.com/news/2026/08/ghost-recon-wildlands-goes-stupidly-cheap-on-xbox-alongside-free-next-gen-upgrade",
@@ -3099,20 +3378,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Nintendo Life",
-        "headline": "Guide: Best Metroid Games Of All Time",
-        "source_url": "https://www.nintendolife.com/guides/best-metroid-games-of-all-time",
+        "source_name": "Pocket Gamer",
+        "headline": "Bloodless is a fast-paced retro brawler about a samurai who ditches swords in favour of fists",
+        "source_url": "https://www.pocketgamer.com/bloodless/coming-soon/",
         "published_at": "2026-08-06T03:00:00+00:00",
-        "summary": "<p><strong>Every Metroid ranked.</strong></p><p><em>The original Famicom Disk System <a href=\"https://www.nintendolife.com/games/nes/metroid\">Metroid</a> turns 40 today. To celebrate this milestone, we're publishing <a href=\"https://www.nintendolife.com/tags/metroid-40th\">various Metroid articles</a> this week discussing Samus' past, present, and future. Today we're republishing this ranked list of the bounty hunter's best (and <del>worst</del> least-best) games.</em></p><p><em>Remember, this ranking is based on the games' User Ratings in our database and is subject to real-time change even now. If you haven't rated your Metroid collection, feel free to add your scores and potentially influence the order below. Enjoy!</em></p><p>Read the <a href=\"https://www.nintendolife.com/guides/best-metroid-games-of-all-time\">full article on nintendolife.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Push Square",
-        "headline": "Marvel Tokon's Day One Update Promises a Much Smoother Experience on PC, PS5",
-        "source_url": "https://www.pushsquare.com/news/2026/08/marvel-tokons-day-one-update-promises-a-much-smoother-experience-on-pc-ps5",
-        "published_at": "2026-08-06T03:00:00+00:00",
-        "summary": "<p><strong>Beta feedback implemented.</strong></p><p>While the reception to <a href=\"https://www.pushsquare.com/games/ps5/marvel_tokon_fighting_souls\">Marvel Tokon: Fighting Souls</a> during its open beta was largely very positive, some users — especially on PC — were experiencing some pretty serious issues with the game.</p><p>A handful of problems were causing some significant performance hitches, and it's something developer Arc System Works <a href=\"https://www.pushsquare.com/news/2026/07/to-our-pc-players-message-received-marvel-tokon-promises-huge-improvements-day-one\">promised</a> to address.</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/marvel-tokons-day-one-update-promises-a-much-smoother-experience-on-pc-ps5\">full article on pushsquare.com</a></p>"
+        "summary": "Looking for a fast-paced retro brawler on mobile? Then you're in luck, because something passed across my desk earlier today that meets all those criteria. And Bloodless, set to arrive in early September on Google Play, also offers an intriguing twist on the usual revenge story.\n\nSet in the fictional world of Bakugawa, you play as the renegade samurai Tomoe, who used to loyally serve Shogun Akechi. Naturally, things have turned sour, and Tomoe has sworn to defeat him and his army. Notice I said 'defeat' and not 'kill', because Tomoe has pledged not to take another life; although it's a bit less specific about breaking kneecaps. ... [<a href=\"https://www.pocketgamer.com/bloodless/coming-soon/\">MORE</a>]"
       }
     },
     {
@@ -3144,51 +3414,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Dexerto",
-        "headline": "Baldur’s Gate 3 devs’ stream gets shut down because of nude scene in their own game",
-        "source_url": "https://www.dexerto.com/baldurs-gate/baldurs-gate-3-devs-stream-gets-shut-down-because-of-nude-scene-in-their-own-game-3395497/",
-        "published_at": "2026-08-06T02:30:05+00:00",
-        "summary": "Larian Studios just had its own playthrough of Baldur’s Gate 3 taken down on both YouTube and TikTok after triggering a nude scene."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Push Square",
-        "headline": "New PS5 Beta Firmware Is Available Now, Here Are All the Patch Notes",
-        "source_url": "https://www.pushsquare.com/news/2026/08/new-ps5-beta-firmware-is-available-now-here-are-all-the-patch-notes",
-        "published_at": "2026-08-06T02:30:00+00:00",
-        "summary": "<p><strong>Making things beta.</strong></p><p>Sony has emailed out about a new public beta branch of the PS5 system software, allowing participants to trial upcoming new features before they launch for everyone.</p><p>If you're part of the beta programme, you can download and install the new version right now. But what does it do?</p><p>Read the <a href=\"https://www.pushsquare.com/news/2026/08/new-ps5-beta-firmware-is-available-now-here-are-all-the-patch-notes\">full article on pushsquare.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Nintendo Life",
-        "headline": "Capcom Isn't Fussed About A Potential All-Digital Future",
-        "source_url": "https://www.nintendolife.com/news/2026/08/capcom-isnt-fussed-about-a-potential-all-digital-future",
-        "published_at": "2026-08-06T02:30:00+00:00",
-        "summary": "<p><strong>\"Approximately 90% of our unit sales are digital\".</strong></p><p>The idea of a potential all-digital future is still very much doing the rounds at the moment, with Sony confirming that it will be ceasing the production of PS5 discs from January 2028 (and if you thought it might reverse course, <a href=\"https://www.pushsquare.com/news/2026/08/disc-based-ps5s-now-warn-buyers-about-the-impending-death-of-physical-games\">think again</a>).</p><p>One company that doesn't seem too fussed about such an eventuality is Capcom. During a <a href=\"https://www.capcom.co.jp/ir/english/data/pdf/explanation/2026/1st/explanation_2026_1st_02.pdf\">Q&A session</a> for its latest financial release, it was asked what kind of impact it anticipates from the shrinking physical media market. The answer? Basically no impact at all.</p><p>Read the <a href=\"https://www.nintendolife.com/news/2026/08/capcom-isnt-fussed-about-a-potential-all-digital-future\">full article on nintendolife.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "게임톡",
-        "headline": "슈퍼패스트, 상반기 매출 1,065억 원…“38% 성장”",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110458",
-        "published_at": "2026-08-06T02:27:58+00:00",
-        "summary": "모바일 게임 111퍼센트의 지주사 슈퍼패스트(Superfast, 대표 김강안)가 상반기 매출 1,065억 원을 기록하며 전년 동기 대비 38.4% 성장했다고 6일 밝혔다.111퍼센트 대표작 '운빨존많겜'이 매출 629억 원으로 올 상반기에 안정적 흐름을 이어간 가운데, '협타디’가 329억 원으로 전년 동기 대비 약 8.7배로 가파른 성장세를 보였다. 기존 흥행작과 후속작이 고르게 성장하며 게임 포트폴리오도 한층 안정화됐다. 6월 말 기준 주요 게임 글로벌 누적 다운로드 수는 '랜덤다이스: 디펜스' 2,156만 건, '운빨존많겜'"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "게임톡",
-        "headline": "카카오, 과기부 ‘AI 에이전트 마켓플레이스 개발 사업’ 수행자 선정",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110457",
-        "published_at": "2026-08-06T02:15:35+00:00",
-        "summary": "카카오(대표이사 정신아)가 과학기술정보통신부가 주관하고 한국지능정보사회진흥원(NIA)이 전담하는 ‘AI 에이전트 마켓플레이스 개발 지원 사업’의 수행 사업자로 선정됐다고 6일 밝혔다. 카카오는 카카오엔터프라이즈와 컨소시엄을 구성해 오는 2027년 12월까지 민간 주도의 개방형 생태계 구축에 나선다. 이번 사업은 정부출연금과 민간부담금을 합쳐 약 110억 원의 규모로 추진할 예정이다. ‘AI 에이전트 마켓플레이스’는 AI 에이전트 서비스부터 에이전틱 AI 도구까지 한곳에서 검색하고 활용할 수 있는 플랫폼이다. 카카오 컨소시엄은 에이전"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "GamesIndustry.biz",
         "headline": "UK Employment Rights Act 2025: Harassment law is getting tougher – and games companies need to be ready",
         "source_url": "https://www.gamesindustry.biz/uk-employment-rights-act-2025-harassment-law-is-getting-tougher-and-games-companies-need-to-be-ready",
@@ -3203,15 +3428,6 @@
         "source_url": "https://www.purexbox.com/news/2026/08/xbox-set-to-announce-beautiful-new-controller-for-gears-of-war-e-day",
         "published_at": "2026-08-06T02:00:00+00:00",
         "summary": "<p><strong>Known as \"Storm King\".</strong></p><p>It looks like we've got another limited edition Xbox controller on the way! Following the <a href=\"https://www.purexbox.com/news/2026/04/xbox-unveils-new-controller-and-headset-for-forza-horizon-6\">positive reception to the Forza Horizon 6 controller</a> a few months ago, <a href=\"https://www.purexbox.com/games/xbox-series-x/gears_of_war_e-day\">Gears of War: E-Day</a> is set to receive the same treatment in the near future.</p><p>This is being shared by the very reliable <a href=\"https://www.dealabs.com/magazine/exclusif-xbox-prepare-une-manette-storm-king-aux-couleurs-de-gears-of-war-e-day-61640\">Dealabs</a>, which says that the controller is known as \"Storm King\" and will cost £84.99 / $89.99 when it releases. They estimate that it'll be announced within the next couple of weeks.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/xbox-set-to-announce-beautiful-new-controller-for-gears-of-war-e-day\">full article on purexbox.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "게임톡",
-        "headline": "토스 행운퀴즈 '불꽃축제 골든티켓이벤트' 정답…8월 6일",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110455",
-        "published_at": "2026-08-06T01:47:48+00:00",
-        "summary": "최근 앱테크의 인기가 급격히 상승하고 있으며, 사용자가 앱을 통해 광고를 시청하거나 특정 활동을 완료하면 보상을 받을 수 있는 형태의 서비스가 확산되고 있다. 많은 앱이 사용자 참여를 유도하기 위해 퀴즈 형식의 이벤트를 진행하고 있다. '토스 행운퀴즈'는 그중에서도 많은 관심을 받고 있는 이벤트로, 사용자들이 퀴즈에 참여하여 정답을 맞히면 다양한 보상을 받을 수 있는 방식이다. 토스 행운퀴즈 정답을 공개한다.'불꽃축제 골든티켓이벤트' 관련 토스 행운퀴즈 이벤트의 문제는 'PLUS 트라이브 앱에서 서울세계OOOO 골든티켓을 총 400"
       }
     },
     {
@@ -3252,20 +3468,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Dexerto",
-        "headline": "Warzone devs confirm divisive Grappling Hooks are being removed",
-        "source_url": "https://www.dexerto.com/call-of-duty/warzone-devs-confirm-divisive-grappling-hooks-are-being-removed-3395432/",
-        "published_at": "2026-08-06T01:04:29+00:00",
-        "summary": "Warzone’s divisive Grappling Hooks will be removed from both Battle Royale and Resurgence playlists in a future update."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Dexerto",
-        "headline": "Target is now opening sealed Pokemon boxes to combat scalpers",
-        "source_url": "https://www.dexerto.com/pokemon/target-is-now-opening-sealed-pokemon-boxes-to-combat-scalpers-3395441/",
-        "published_at": "2026-08-06T01:01:06+00:00",
-        "summary": "As Target continues its battle against Pokemon scalpers, employees have been spotted removing the plastic before the boxes are sold."
+        "source_name": "Pure Xbox",
+        "headline": "Two Games Are Available Today Across Various Tiers Of Xbox Game Pass (August 6)",
+        "source_url": "https://www.purexbox.com/news/2026/08/two-games-are-available-today-across-various-tiers-of-xbox-game-pass-august-6",
+        "published_at": "2026-08-06T01:00:00+00:00",
+        "summary": "<p><strong>Here's a look at what's joining Game Pass today!</strong></p><p>We're back with your latest <a href=\"https://www.purexbox.com/guides/xbox-game-pass-in-2026-the-full-list-of-everything-announced-so-far\">Xbox Game Pass</a> update for August. Two more games join the subscription service today across various tiers, including a bonus third title if you're willing to count a 10-hour trial as an extra game.</p><p>Truth be told, August is shaping up to be a Premium-heavy month for Game Pass, with <a href=\"https://www.purexbox.com/games/xbox-series-x/powerwash_simulator_2\">PowerWash Simulator 2</a> scrubbing its way to the middle-tier subscription. Ultimate members do at least get <a href=\"https://www.purexbox.com/games/xbox-for-pc/monsters_are_coming_rock_and_road\">Monsters Are Coming!</a> and, as mentioned, a 10-hour trial for <a href=\"https://www.purexbox.com/games/xbox-series-x/ea_sports_madden_nfl_27\">Madden NFL 27</a>. Hip-hip hooray!</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/two-games-are-available-today-across-various-tiers-of-xbox-game-pass-august-6\">full article on purexbox.com</a></p>"
       }
     },
     {
@@ -3275,15 +3482,6 @@
         "source_url": "https://www.gamesindustry.biz/kudos-games-services-expands-leadership-team-with-testronic-and-team17-execs",
         "published_at": "2026-08-06T01:00:00+00:00",
         "summary": "<img src=\"https://assetsio.gnwcdn.com/Goldenhour.145-(1)-(1).jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Kudos Games Services has expanded its senior leadership team by appointing Michael Hanna as chief operating officer and Ann Hurley as board advisor.</p> <p><a href=\"https://www.gamesindustry.biz/kudos-games-services-expands-leadership-team-with-testronic-and-team17-execs\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Pure Xbox",
-        "headline": "Two Games Are Available Today Across Various Tiers Of Xbox Game Pass (August 6)",
-        "source_url": "https://www.purexbox.com/news/2026/08/two-games-are-available-today-across-various-tiers-of-xbox-game-pass-august-6",
-        "published_at": "2026-08-06T01:00:00+00:00",
-        "summary": "<p><strong>Here's a look at what's joining Game Pass today!</strong></p><p>We're back with your latest <a href=\"https://www.purexbox.com/guides/xbox-game-pass-in-2026-the-full-list-of-everything-announced-so-far\">Xbox Game Pass</a> update for August. Two more games join the subscription service today across various tiers, including a bonus third title if you're willing to count a 10-hour trial as an extra game.</p><p>Truth be told, August is shaping up to be a Premium-heavy month for Game Pass, with <a href=\"https://www.purexbox.com/games/xbox-series-x/powerwash_simulator_2\">PowerWash Simulator 2</a> scrubbing its way to the middle-tier subscription. Ultimate members do at least get <a href=\"https://www.purexbox.com/games/xbox-for-pc/monsters_are_coming_rock_and_road\">Monsters Are Coming!</a> and, as mentioned, a 10-hour trial for <a href=\"https://www.purexbox.com/games/xbox-series-x/ea_sports_madden_nfl_27\">Madden NFL 27</a>. Hip-hip hooray!</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/two-games-are-available-today-across-various-tiers-of-xbox-game-pass-august-6\">full article on purexbox.com</a></p>"
       }
     },
     {
@@ -3306,15 +3504,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Dexerto",
-        "headline": "Roll Anime to Fight codes (August 2026)",
-        "source_url": "https://www.dexerto.com/roblox/roll-anime-to-fight-codes-3395416/",
-        "published_at": "2026-08-05T23:50:50+00:00",
-        "summary": "Here are all the latest Roll Anime to Fight codes for August 2026, offering free Gold, rare fighters, Potions, Trading Tickets, and other useful rewards."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "GamesIndustry.biz",
         "headline": "Nintendo Q1 sales drop 9.5%; operating profit soars following higher software sales and $300m in US tariff refunds",
         "source_url": "https://www.gamesindustry.biz/nintendo-q1-sales-drop-95-operating-profit-soars-following-higher-software-sales-and-300m-in-us-tariff-refunds",
@@ -3333,15 +3522,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "게임톡",
-        "headline": "카카오뱅크 AI 이모지 퀴즈 정답(8월6일)",
-        "source_url": "https://www.gametoc.co.kr/news/articleView.html?idxno=110454",
-        "published_at": "2026-08-05T23:00:42+00:00",
-        "summary": "‘카카오뱅크 AI 이모지 퀴즈’는 정답을 맞힌 이용자에게 보상을 제공하는 방식으로 진행되며, 지급된 혜택은 설정한 대표계좌 또는 보유 중인 입출금 계좌를 통해 받을 수 있다.8월 6일 출제된 카카오뱅크 AI 이모지 퀴즈 정답을 공개한다.오늘 오전 8시 정답은 [ 풍경화 ]이다. 오후 12시 정답은 [ 우승 ]이다.AI 키워드 퀴즈 서비스의 보상 혜택은 카카오뱅크의 사정에 따라 변경될 수 있다.최근 스마트폰 앱을 활용해 포인트나 현금성 혜택을 얻는 이른바 ‘앱테크’가 꾸준한 인기를 이어가고 있는 가운데, 카카오뱅크가 운영하는 참여형"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Pocket Gamer",
         "headline": "My Talking Angela 2 launches Creator Studio with an in-game content feed and Creative Challenges",
         "source_url": "https://www.pocketgamer.com/my-talking-angela-2/creator-studio-update/",
@@ -3351,119 +3531,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Dexerto",
-        "headline": "Baddies codes (August 2026)",
-        "source_url": "https://www.dexerto.com/roblox/baddies-codes-3395408/",
-        "published_at": "2026-08-05T21:56:43+00:00",
-        "summary": "Here are the latest Baddies codes for August 2026 to unlock exclusive cosmetic items and give your in-game look some extra personality."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "PC Gamer",
         "headline": "Grab shopkeeper-dungeoncrawler Moonlighter free on Steam for a limited time",
         "source_url": "https://www.pcgamer.com/games/roguelike/grab-shopkeeper-dungeoncrawler-moonlighter-free-on-steam-for-a-limited-time/",
         "published_at": "2026-08-05T19:04:30+00:00",
         "summary": "Two jobs for the price of none."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "Can you play Big Walk alone or with randoms?",
-        "source_url": "https://www.pcgamer.com/games/adventure/can-you-play-big-walk-alone-or-with-randoms/",
-        "published_at": "2026-08-05T18:40:16+00:00",
-        "summary": "The most widely adored co-op game of 2026 is a bit tough on loners."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "Former Bethesda lead artist is looking forward to Fallout 3's remaster because the game they released was '100% not what we intended, and it was very, very constrained'",
-        "source_url": "https://www.pcgamer.com/games/fallout/former-bethesda-lead-artist-is-looking-forward-to-fallout-3s-remaster-because-the-game-they-released-was-100-percent-not-what-we-intended-and-it-was-very-very-constrained/",
-        "published_at": "2026-08-05T16:32:44+00:00",
-        "summary": "\"And you could only place so many lights.\""
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "What happens after GTA 6?",
-        "source_url": "https://www.pcgamer.com/games/grand-theft-auto/what-happens-after-gta-6/",
-        "published_at": "2026-08-05T14:41:08+00:00",
-        "summary": "With the industry in flux, will Rockstar's big one create more chaos or calm things down? Probably neither."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "Kingdom Come: Deliverance star is opening a real 'medieval-inspired bar' in Prague",
-        "source_url": "https://www.pcgamer.com/games/rpg/kingdom-come-deliverance-star-is-opening-a-real-medieval-inspired-bar-in-prague/",
-        "published_at": "2026-08-05T13:04:18+00:00",
-        "summary": "Nobleman—proprietor Hans Capon, aka Luke Dale—will open to the public in October."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "The guy in charge of EA Sports is now in charge of EA everything",
-        "source_url": "https://www.pcgamer.com/gaming-industry/the-guy-in-charge-of-ea-sports-is-now-in-charge-of-ea-everything/",
-        "published_at": "2026-08-05T12:53:04+00:00",
-        "summary": "With EA's acquisition by Saudi Arabia now complete, there have been a couple changes at the top."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "Path of Exile devs are planning 'an extreme shakeup' in the next major update to address concerns over its stale endgame and lack of exciting loot drops",
-        "source_url": "https://www.pcgamer.com/games/rpg/path-of-exile-devs-are-planning-an-extreme-shakeup-in-the-next-major-update-to-address-concerns-over-its-stale-endgame-and-lack-of-exciting-loot-drops/",
-        "published_at": "2026-08-05T12:20:18+00:00",
-        "summary": "The action RPG's endgame won't look the same in patch 3.30."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "Destiny 2 players are learning how to crack into its infamous content vault by tinkering with old game builds",
-        "source_url": "https://www.pcgamer.com/games/fps/destiny-2-players-are-learning-how-to-crack-into-its-infamous-content-vault-by-tinkering-with-old-builds/",
-        "published_at": "2026-08-05T11:12:21+00:00",
-        "summary": "Two months after it entered purgatory, Destiny 2's community archaeologists are creating tools for exploring its long-absent worlds."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "You should really get Ace Combat 7 while it's 80% off on Steam, because AC8 might be one of the year's best games",
-        "source_url": "https://www.pcgamer.com/games/action/you-should-really-get-ace-combat-7-while-its-80-percent-off-on-steam-because-ac8-might-be-one-of-the-years-best-games/",
-        "published_at": "2026-08-05T11:09:21+00:00",
-        "summary": "Now this is dogfighting."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "Fields of Mistria officially becomes the best farm sim since Stardew Valley with its 1.0 update today",
-        "source_url": "https://www.pcgamer.com/games/life-sim/fields-of-mistria-officially-becomes-the-best-farm-sim-since-stardew-valley-now-that-its-launched-a-1-0-update-today/",
-        "published_at": "2026-08-05T11:02:24+00:00",
-        "summary": "I'm joining the stampede to the altar now that I can get married in Mistria."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "Black Library veteran Toby Longworth gives us his tips for voicing the perfect Space Marine",
-        "source_url": "https://www.pcgamer.com/games/board-games/black-library-veteran-toby-longworth-gives-us-his-tips-for-voicing-the-perfect-space-marine/",
-        "published_at": "2026-08-05T11:00:00+00:00",
-        "summary": "\"I AM ENORMOUS AND WILL BE A DREADNOUGHT ONE DAY.\""
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "PC Gamer",
-        "headline": "Something big is coming to Helldivers 2 next week: Squid is back on the menu",
-        "source_url": "https://www.pcgamer.com/games/third-person-shooter/something-big-is-coming-to-helldivers-2-next-week-squid-is-back-on-the-menu/",
-        "published_at": "2026-08-05T10:55:52+00:00",
-        "summary": "Poor teddy."
       }
     },
     {
@@ -3540,15 +3612,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Pure Xbox",
-        "headline": "Xbox Announces Four More Console Features, Including Two Highly-Requested Ones",
-        "source_url": "https://www.purexbox.com/news/2026/08/xbox-announces-four-more-console-features-including-two-highly-requested-ones",
-        "published_at": "2026-08-05T07:35:00+00:00",
-        "summary": "<p><strong>Amazing stuff!</strong></p><p>The folks on the Xbox team are back with yet another set of console improvements today, the majority of which are rolling out to the <a href=\"https://www.purexbox.com/guides/how-to-join-the-xbox-insider-program\">Xbox Insider program</a> first before eventually going public in the weeks and/or months to come.</p><p>There are four improvements mentioned in here, but two that are particularly noteworthy due to how highly-requested they've been. The first of these is the ability to include Party Chat in your video captures, which Xbox boss Asha Sharma described as something \"players have been asking for for a long time\".</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/xbox-announces-four-more-console-features-including-two-highly-requested-ones\">full article on purexbox.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "게임조선",
         "headline": "[장르 분석] 좌절과 분노의 연쇄 '분통 유발 장르'란 무엇인가",
         "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36686",
@@ -3576,15 +3639,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Pure Xbox",
-        "headline": "Beast Of Reincarnation Dev Outlines Five Improvements Coming In First Major Xbox Update",
-        "source_url": "https://www.purexbox.com/news/2026/08/beast-of-reincarnation-dev-outlines-five-improvements-coming-in-first-major-xbox-update",
-        "published_at": "2026-08-05T07:00:00+00:00",
-        "summary": "<p><strong>\"We take your feedback to heart\".</strong></p><p>It's only been just over 24 hours since <a href=\"https://www.purexbox.com/games/xbox-series-x/beast_of_reincarnation\">Beast of Reincarnation</a> made its debut across multiple platforms (and on Xbox Game Pass), but the development team at Game Freak are already busy preparing its first update.</p><p>That update will arrive at some point over the next week, and will feature five specific types of improvements that have been outlined on social media. These are as follows:</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/beast-of-reincarnation-dev-outlines-five-improvements-coming-in-first-major-xbox-update\">full article on purexbox.com</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Rock Paper Shotgun",
         "headline": "Even after 200 hours, Marathon's greatest secret is still deciphering the rhythms of rival players",
         "source_url": "https://www.rockpapershotgun.com/even-after-200-hours-marathons-greatest-secret-is-still-deciphering-the-rhythms-of-rival-players",
@@ -3599,15 +3653,6 @@
         "source_url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=36685",
         "published_at": "2026-08-05T06:28:12+00:00",
         "summary": "컴투스가 7일 신작 MMORPG '제우스: 오만의 신'의 쇼케이스를 열고 출시 준비에 돌입한다.게임은 국내 유저들에게 익숙한 그리스 신화를 배경으로, 언리얼엔진5 기반의 고품질 그래픽과 MMORPG의 핵심 재미인 경쟁 및 협력 등의 재미를 추구한다. 경쟁의 피로도는 간접 경쟁 콘텐츠로 낮춰 성장의 재미에 집중한다. 에이버튼의 김대훤 대표는 \"MMORPG는 굉장히 재미있는 장르인데 다소 침체되어 있는게 안타까운 상황이다. MMORPG는 경쟁의 피로도가 존재해 이를 완화해 누구나 즐길 수 있는 MMORPG 본질을 제우스에 담기 위해 노"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Pure Xbox",
-        "headline": "'It Would Make Folks Happy' - Larian Exec On Why Baldur's Gate 3 Now Supports Xbox Play Anywhere",
-        "source_url": "https://www.purexbox.com/news/2026/08/it-would-make-folks-happy-larian-exec-on-why-baldurs-gate-3-now-supports-xbox-play-anywhere",
-        "published_at": "2026-08-05T06:05:00+00:00",
-        "summary": "<p><strong>\"We just did it because it's a pretty cool part of the Xbox ecosystem\".</strong></p><p>I've been pretty vocal here at Pure Xbox about my admiration for the <a href=\"https://www.purexbox.com/news/2026/07/30-games-have-just-been-added-to-xbox-play-anywhere\">Xbox Play Anywhere</a> program. About the ability to access my Xbox library across console, desktop, and handheld devices, and how it's arguably Microsoft's defining feature right now. It's the reason I stick around.</p><p>It feels like Xbox Play Anywhere is finally getting the flowers it deserves, both from fans and developers alike. Speaking with Jez from <a href=\"https://www.windowscentral.com/gaming/xbox/its-a-pretty-cool-part-of-the-xbox-ecosystem-larian-explains-why-baldurs-gate-3-hits-play-anywhere-as-the-service-grows-faster-than-ever\">Windows Central</a>, Larian's publishing lead Michael Douse shared why the team decided to add XPA support to <a href=\"https://www.purexbox.com/games/xbox-series-x/baldurs_gate_3\">Baldur's Gate 3</a>, the critically acclaimed RPG, several years after its original launch on Xbox Series X|S.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/it-would-make-folks-happy-larian-exec-on-why-baldurs-gate-3-now-supports-xbox-play-anywhere\">full article on purexbox.com</a></p>"
       }
     },
     {
@@ -3653,15 +3698,6 @@
         "source_url": "https://www.rockpapershotgun.com/beast-of-reincarnation-is-getting-some-story-pacing-improvements-in-its-first-patch-as-part-of-ongoing-adjustments-from-game-freak",
         "published_at": "2026-08-05T04:45:17+00:00",
         "summary": "<img src=\"https://assetsio.gnwcdn.com/beast-of-reincarnation-emma-running-from-malefact.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p><a href=\"https://www.rockpapershotgun.com/games/beast-of-reincarnation\">Beast of Reincarnation</a>, the soulslike about a girl and her dog battling an array of beasties in post-apocalyptic Japan, came out yesterday, August 4th. Developers Game Freak are already hard at work on patches for it, with the first set to include some \"story pacing improvements\" that should hopefully help address some of the gripes our Callum highlighted in his freshly published <a href=\"https://www.rockpapershotgun.com/beast-of-reincarnation-review\">Beast of Reincarnation review</a>.</p>\n <p><a href=\"https://www.rockpapershotgun.com/beast-of-reincarnation-is-getting-some-story-pacing-improvements-in-its-first-patch-as-part-of-ongoing-adjustments-from-game-freak\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Pure Xbox",
-        "headline": "Xbox Announces Tokyo Game Show 2026 Broadcast, Following Massive Reveal At Last Year's Event",
-        "source_url": "https://www.purexbox.com/news/2026/08/xbox-announces-tokyo-game-show-2026-broadcast-following-massive-reveal-at-last-years-event",
-        "published_at": "2026-08-05T04:15:00+00:00",
-        "summary": "<p><strong>One of our favourite showcases on the calendar.</strong></p><p>We've got another Xbox showcase to look forward to in the near future! In addition to the <a href=\"https://www.purexbox.com/news/2026/07/xbox-announces-big-list-of-games-and-broadcast-schedule-for-gamescom-2026\">Gamescom festivities that Xbox is hosting in August</a>, we now know Xbox's Tokyo Game Show 2026 broadcast will take place on <strong>September 17th</strong>.</p><p>This was announced by Xbox Japan earlier today, along with sweepstakes signups for the <a href=\"https://www.purexbox.com/news/2026/08/xbox-reveals-dates-for-six-more-fanfest-events-taking-place-in-2026\">Xbox FanFest</a> event that will be happening in Tokyo on the same date. The start time of the broadcast will be 7pm JST, which translates to 5am PT / 8am ET / 11am BST on September 17th.</p><p>Read the <a href=\"https://www.purexbox.com/news/2026/08/xbox-announces-tokyo-game-show-2026-broadcast-following-massive-reveal-at-last-years-event\">full article on purexbox.com</a></p>"
       }
     },
     {
@@ -3999,15 +4035,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Pocket Gamer",
-        "headline": "Lords Mobile launches massive Transformers crossover with Cybertron Pinball event",
-        "source_url": "https://www.pocketgamer.com/lords-mobile/transformers-crossover-event/",
-        "published_at": "2026-08-04T03:27:00+00:00",
-        "summary": "Lords Mobile is known for going all-out with its big crossover events but there’s definitely more than meets the eye to its latest collaboration. \n\nIGG, the studio behind the popular strategy MMO, has teamed up with Hasbro, a leading games, IP and toy company, to bring the world of Transformers to the Lords Mobile game for a special event that’s packed with cybernetic action. ... [<a href=\"https://www.pocketgamer.com/lords-mobile/transformers-crossover-event/\">MORE</a>]"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "GamesIndustry.biz",
         "headline": "Ex-Sumo Group CEO Carl Cavers joins co-dev studio Vertpaint as non-exec director and shareholder",
         "source_url": "https://www.gamesindustry.biz/ex-sumo-group-ceo-carl-cavers-joins-co-dev-studio-vertpaint-as-non-exec-director-and-shareholder",
@@ -4017,29 +4044,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Pocket Gamer",
-        "headline": "Caravan SandWitch offers a cosier take on the world after the end",
-        "source_url": "https://www.pocketgamer.com/caravan-sandwitch/out-now-on-mobile/",
-        "published_at": "2026-08-04T03:13:00+00:00",
-        "summary": "The idea of a cosy apocalypse is a strangely common one. Something about abdicating responsibility, in the face of an utterly unstoppable series of events, and just trying to survive in the aftermath, seems to speak to humanity. And in Caravan SandWitch, that's combined with story, exploration and general cosiness.\n\nCaravan SandWitch sees you exploring the vast, desertified world of Cigalo, a once green planet now ravaged by ecological exploitation. But while wider humanity may have abandoned it, there are still other humans, the Reinetos natives and robots, who all need a helping hand surviving in the aftermath of the planet's transformation. ... [<a href=\"https://www.pocketgamer.com/caravan-sandwitch/out-now-on-mobile/\">MORE</a>]"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "GamesIndustry.biz",
         "headline": "FirstLook launches creator-first platform Creators.gg with launch partners IO Interactive and Brain Jar Games",
         "source_url": "https://www.gamesindustry.biz/firstlook-launches-creator-first-platform-creatorsgg-with-launch-partners-io-interactive-and-brain-jar-games",
         "published_at": "2026-08-04T03:00:00+00:00",
         "summary": "<img src=\"https://assetsio.gnwcdn.com/creators.gg.png?width=690&quality=85&format=jpg&auto=webp\" /> <p>Player relationship and marketing platform FirstLook has launched <a href=\"http://creators.gg/\">Creators.gg</a> to connect studios with creators of any size, rather than limiting opportunities to those with the largest audiences.</p> <p><a href=\"https://www.gamesindustry.biz/firstlook-launches-creator-first-platform-creatorsgg-with-launch-partners-io-interactive-and-brain-jar-games\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Pocket Gamer",
-        "headline": "Dynasty Warriors: Overlord brings the hack 'n slash epic to mobile",
-        "source_url": "https://www.pocketgamer.com/dynasty-warriors-overlord/now-available/",
-        "published_at": "2026-08-04T02:15:00+00:00",
-        "summary": "Dynasty Warriors has been the watchword of high camp and over-the-top action in gaming for more than two decades now. So it seems high time we get another entry of the series on mobile, and that's precisely what the newly released Dynasty Warriors: Overlord purports to offer as the series returns to smartphones for the first time since 2017.\n\nDynasty Warriors: Overlord translates the hack 'n slash action of the series to mobile, seeing you take on the role of one of the many (and I do mean many) characters in the Three Kingdoms period of Chinese history. You'll slice and dice your way through hordes of nameless mooks, occasionally taking on the more powerful, named characters throughout your journey. ... [<a href=\"https://www.pocketgamer.com/dynasty-warriors-overlord/now-available/\">MORE</a>]"
       }
     },
     {
@@ -4242,29 +4251,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "The Soulslike genre has grown stale after Elden Ring, and only FromSoftware can take it to strange new places",
-        "source_url": "https://www.rockpapershotgun.com/the-soulslike-genre-has-grown-stale-after-elden-ring-and-only-fromsoftware-can-take-it-to-strange-new-places",
-        "published_at": "2026-08-03T03:59:49+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/dark-souls-2-iron-king.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Sometimes I have to remind myself that I’m a cliché, a person first compelled to write about games because I slew <a href=\"https://www.rockpapershotgun.com/games/dark-souls\">Dark Souls</a>’ Gwynn, Lord Of Cinder and sat quietly for a moment before thinking to myself, “Hit me, come on, <em>hit</em> me!”. No, I was not okay. But my understanding of games shifted in that tiny university room: they could be overcome, not just completed. FromSoftware’s dark fantasy lands, with their puzzle-box intricacy and dribbly residents, ushered in the \"Soulslike\" as other developers sought to cash in on masochists like me.</p>\n<p>Here I am, still a masochist, still someone who adores a Souls and/or ‘like, but who stares at the offerings nowadays and thinks, \"Please, <em>someone</em> hit me\". These games have stagnated, to the point where it feels like we’re all waiting for FromSoftware to emerge from the fog and beat our asses in a way we’ve not quite seen before.</p>\n <p><a href=\"https://www.rockpapershotgun.com/the-soulslike-genre-has-grown-stale-after-elden-ring-and-only-fromsoftware-can-take-it-to-strange-new-places\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "GamesIndustry.biz",
         "headline": "Rokky teams up with Revolution Software to bring Broken Sword franchise to China",
         "source_url": "https://www.gamesindustry.biz/rokky-teams-up-with-revolution-software-to-bring-broken-sword-franchise-to-china",
         "published_at": "2026-08-03T03:45:46+00:00",
         "summary": "<img src=\"https://assetsio.gnwcdn.com/Paris_KeyArt_BS1-R_Simplified_Chinese_MASTER_Landscape.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Game distributor Rokky has partnered with Revolution Software to co-publish its Broken Sword franchise in China.</p> <p><a href=\"https://www.gamesindustry.biz/rokky-teams-up-with-revolution-software-to-bring-broken-sword-franchise-to-china\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "Making Baldur’s Gate 4 would be \"a great challenge\" for Rogue Trader devs Owlcat, co-founder says, as the studio reiterate their commitment to CRPGs",
-        "source_url": "https://www.rockpapershotgun.com/making-baldurs-gate-4-would-be-a-great-challenge-for-rogue-trader-devs-owlcat-co-founder-says-as-the-studio-reiterate-their-commitment-to-crpgs",
-        "published_at": "2026-08-03T02:52:09+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/baldurs-gate-4-owlcat-games-challenge-01.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>I'm not saying you've got to be making a vaguely Mass Effecty RPG starting with Ex to be considered as a successor to Larian on the <a href=\"https://www.rockpapershotgun.com/games/baldurs-gate\">Baldur's Gate</a> series, but it certainly doesn't seem to hurt. <a href=\"https://www.rockpapershotgun.com/games/exodus-2027\">Exodus</a> devs Archetype Entertainment <a href=\"https://www.rockpapershotgun.com/were-talking-about-at-least-half-a-decade-of-horror-former-exodus-lead-explains-why-he-wasnt-keen-on-doing-a-baldurs-gate-4-despite-hasbro-offering-the-chance\">were offered such a chance</a> according to former studio head James Ohlen, and while <a href=\"https://www.rockpapershotgun.com/games/the-expanse-osiris-reborn\">The Expanse: Osiris Reborn</a> devs Owlcat might not have been yet, their co-founder has said it would be a \"great honour\" if they were.</p>\n <p><a href=\"https://www.rockpapershotgun.com/making-baldurs-gate-4-would-be-a-great-challenge-for-rogue-trader-devs-owlcat-co-founder-says-as-the-studio-reiterate-their-commitment-to-crpgs\">Read more</a></p>"
       }
     },
     {
@@ -4278,29 +4269,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "This week in PC games: Beast of Reincarnation, Big Walk, and Marvel Tōkon, plus a round table RPG, some flammable robots, and a flock of lovestruck pigeons",
-        "source_url": "https://www.rockpapershotgun.com/this-week-in-pc-games-beast-of-reincarnation-big-walk-and-marvel-tokon-plus-a-round-table-rpg-some-flammable-robots-and-a-flock-of-lovestruck-pigeons",
-        "published_at": "2026-08-03T01:48:17+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/grain-rot.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Ugh, morning has come again. The sultry undergrowth of night has yielded to the obnoxious leaf blower of wakefulness. Another week tumbles pendulously from the unzipped flies of the future. My bed beseeches me: Son of Man, do not waste your time in the upright world. Crawl back under the covers. Embrace your pillow. Forget the sun. But I can't do that, bed, because I have already checked my inbox in a fit of self-loathing, and would you believe there are new PC games to write about???</p> <p><a href=\"https://www.rockpapershotgun.com/this-week-in-pc-games-beast-of-reincarnation-big-walk-and-marvel-tokon-plus-a-round-table-rpg-some-flammable-robots-and-a-flock-of-lovestruck-pigeons\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "GamesIndustry.biz",
         "headline": "Last Sentinel developer Lightspeed LA conducts layoffs, 80 roles reportedly cut",
         "source_url": "https://www.gamesindustry.biz/last-sentinel-developer-lightspeed-la-conducts-layoffs-80-roles-reportedly-cut",
         "published_at": "2026-08-03T00:57:28+00:00",
         "summary": "<img src=\"https://assetsio.gnwcdn.com/last-sentinel-(1).jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Tencent-owned Lightspeed LA has undergone layoffs as it \"shifts the creative and development direction\" of its debut title, Last Sentinel.</p> <p><a href=\"https://www.gamesindustry.biz/last-sentinel-developer-lightspeed-la-conducts-layoffs-80-roles-reportedly-cut\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "American Truck Simulator trundles off to a land of enchanted highways and giant bovines with a freshly announced North Dakota expansion",
-        "source_url": "https://www.rockpapershotgun.com/american-truck-simulator-trundles-off-to-a-land-of-enchanted-highways-and-giant-bovines-with-a-freshly-announced-north-dakota-expansion",
-        "published_at": "2026-08-03T00:26:03+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/american-truck-simulator-north-dakota-dlc-01.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>Fresh off a <a href=\"https://www.rockpapershotgun.com/american-truck-simulator-cruises-into-illinois-with-a-fresh-expansion-releasing-mid-may-as-scs-also-tease-a-new-truck\">trip to Illinois</a> back in May, <a href=\"https://www.rockpapershotgun.com/games/american-truck-simulator\">American Truck Simulator</a> devs SCS Software have <a href=\"https://store.steampowered.com/news/app/270880/view/707778917650400865?l=english\">revealed another expansion</a> they've got in the works. North Dakota's on the way as the big rig roadtrip continues to gradually make its way eastwards.</p>\n <p><a href=\"https://www.rockpapershotgun.com/american-truck-simulator-trundles-off-to-a-land-of-enchanted-highways-and-giant-bovines-with-a-freshly-announced-north-dakota-expansion\">Read more</a></p>"
       }
     },
     {
@@ -4319,24 +4292,6 @@
         "source_url": "https://blog.playstation.com/2026/08/03/beast-of-reincarnation-hands-on-parry-rich-combat-and-the-cutest-mutant-pup/",
         "published_at": "2026-08-02T23:00:10+00:00",
         "summary": "Even from its first full reveal in 2025, Beast of Reincarnation was making all the right noises. Roaring through the crowd of impressive action role-playing games, Game Freak’s trek into a post-apocalyptic Japan blends the mythological with the mechanized into something fresh – helped by a “one woman and her dog saving the world”’ narrative. […]"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "The Sunday Papers",
-        "source_url": "https://www.rockpapershotgun.com/the-sunday-papers-821",
-        "published_at": "2026-08-01T21:13:39+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/the-sunday-papers-big.jpg?width=690&quality=85&format=jpg&auto=webp\" /> \n<p>Sundays are for looking back at the week and honestly just thinking, yeesh, what are you <em>doing</em>, working in an industry that’s succumbed so deeply and so wilfully to moral decay. The <a href=\"https://www.rockpapershotgun.com/ea-expect-their-55-billion-sale-to-saudi-arabia-and-private-equity-firms-to-close-next-week-with-all-regulatory-approvals-required-in-place\">publishers sold to executioners</a>. The <a href=\"https://www.rockpapershotgun.com/our-business-did-not-grow-with-our-audience-post-layoffs-xbox-execs-are-trying-to-sell-a-gaming-division-bounce-back-by-summer-2027\">naked attempts at thought manipulation</a>. The constant, miserable hum of distrust and paranoia produced by a technology that even bedroom modders, once the poster children of earnest DIY enthusiasm, are now using to <a href=\"https://www.rockpapershotgun.com/halo-on-helium-has-arrived-less-than-a-week-after-modders-got-their-hands-on-campaign-evolved-just-in-case-you-prefer-chipmunked-chief-and-cortana\">cut corners and mislead players</a>. God, it's awful.</p>\n<p>Thus, in honour of my dire need to spend this weekend thinking about something else – hopefully that being enough time to reset and rediscover some of the medium’s lingering pleasures – here are some quality reads from the past week, absolutely none of which concern games.</p>\n <p><a href=\"https://www.rockpapershotgun.com/the-sunday-papers-821\">Read more</a></p>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Rock Paper Shotgun",
-        "headline": "Manage a cafe by day, go to bed and fight in your dreams in a world without sleep by night in Hips N Noses",
-        "source_url": "https://www.rockpapershotgun.com/manage-a-cafe-by-day-go-to-bed-and-fight-in-your-dreams-in-a-world-without-sleep-by-night-in-hips-n-noses",
-        "published_at": "2026-08-01T12:53:20+00:00",
-        "summary": "<img src=\"https://assetsio.gnwcdn.com/hips-n-noses.jpg?width=690&quality=85&format=jpg&auto=webp\" /> <p>\n\"Don't even talk to me before I've had my coffee that restores my lost memories!\" This is a line I imagine that the general public would oft repeat in the world of Hips N Noses, a cafe management sim/<a href=\"https://www.rockpapershotgun.com/games/vampire-survivors\">Vampire Survivors</a>-esque <a href=\"https://www.rockpapershotgun.com/best-roguelike-games-pc\">roguelike</a> that's set in a world where no one but you can sleep, and everyone's suffering from a touch of amnesia.\n</p> <p><a href=\"https://www.rockpapershotgun.com/manage-a-cafe-by-day-go-to-bed-and-fight-in-your-dreams-in-a-world-without-sleep-by-night-in-hips-n-noses\">Read more</a></p>"
       }
     }
   ],

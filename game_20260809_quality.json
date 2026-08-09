@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-08T04:04:34.846728+00:00",
+  "generated_at": "2026-08-09T04:10:01.884111+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 8,
       "latest_event_at": "2026-08-06T09:15:30+00:00",
-      "age_days": 1.78,
+      "age_days": 2.79,
       "latest_title": "Celebrate 30 years of Quake with a brand-new episode, available today",
       "latest_url": "https://blog.playstation.com/2026/08/06/celebrate-30-years-of-quake-with-a-brand-new-episode-available-today",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 9,
       "latest_event_at": "2026-08-07T10:30:00+00:00",
-      "age_days": 0.73,
+      "age_days": 1.74,
       "latest_title": "THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts",
       "latest_url": "https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 8,
       "latest_event_at": "2026-08-07T07:26:16+00:00",
-      "age_days": 0.86,
+      "age_days": 1.86,
       "latest_title": "Strauss Zelnick: Netflix debut is merely \"one of the hors d'oeuvres\" for full GTA 6 launch; pre-order numbers are \"unprecedented and astonishing\"",
       "latest_url": "https://www.gamesindustry.biz/strauss-zelnick-netflix-debut-is-merely-one-of-the-hors-doeuvres-for-full-gta-6-launch-pre-order-numbers-are-unprecedented-and-astonishing",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -761,7 +761,7 @@
       "article_count": 15,
       "event_count": 4,
       "latest_event_at": "2026-08-07T00:48:42+00:00",
-      "age_days": 1.14,
+      "age_days": 2.14,
       "latest_title": "Minimum Studio ‘슬라임 대소동’ PS5, XSX, NS 버전 발매 예정",
       "latest_url": "https://bbs.ruliweb.com/news/read/227872",
       "latest_source_signal": [
