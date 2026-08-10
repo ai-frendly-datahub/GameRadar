@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-09T04:10:01.884111+00:00",
+  "generated_at": "2026-08-10T04:22:54.536998+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 2,
     "patch_note_events": 3,
-    "release_schedule_events": 24,
-    "actionable_game_event_count": 29,
+    "release_schedule_events": 26,
+    "actionable_game_event_count": 31,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 28,
+    "missing_canonical_game_key_count": 30,
     "official_or_trade_event_count": 25,
-    "event_required_field_gap_count": 28,
+    "event_required_field_gap_count": 30,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 8,
       "latest_event_at": "2026-08-06T09:15:30+00:00",
-      "age_days": 2.79,
+      "age_days": 3.8,
       "latest_title": "Celebrate 30 years of Quake with a brand-new episode, available today",
       "latest_url": "https://blog.playstation.com/2026/08/06/celebrate-30-years-of-quake-with-a-brand-new-episode-available-today",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 9,
       "latest_event_at": "2026-08-07T10:30:00+00:00",
-      "age_days": 1.74,
+      "age_days": 2.75,
       "latest_title": "THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts",
       "latest_url": "https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 8,
       "latest_event_at": "2026-08-07T07:26:16+00:00",
-      "age_days": 1.86,
+      "age_days": 2.87,
       "latest_title": "Strauss Zelnick: Netflix debut is merely \"one of the hors d'oeuvres\" for full GTA 6 launch; pre-order numbers are \"unprecedented and astonishing\"",
       "latest_url": "https://www.gamesindustry.biz/strauss-zelnick-netflix-debut-is-merely-one-of-the-hors-doeuvres-for-full-gta-6-launch-pre-order-numbers-are-unprecedented-and-astonishing",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 4,
-      "latest_event_at": "2026-08-07T00:48:42+00:00",
-      "age_days": 2.14,
-      "latest_title": "Minimum Studio ‘슬라임 대소동’ PS5, XSX, NS 버전 발매 예정",
-      "latest_url": "https://bbs.ruliweb.com/news/read/227872",
+      "event_count": 6,
+      "latest_event_at": "2026-08-09T17:39:15+00:00",
+      "age_days": 0.45,
+      "latest_title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 패키지 선주문 판매 8월 11일(화) 시작",
+      "latest_url": "https://bbs.ruliweb.com/news/read/227912",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1196,6 +1196,263 @@
   ],
   "events": [
     {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 패키지 선주문 판매 8월 11일(화) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227912",
+      "event_at": "2026-08-09T17:39:15+00:00",
+      "event_date": "2026-08-09",
+      "platform": [
+        "ps5",
+        "닌텐도",
+        "스위치"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-09",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [
+        "반다이남코"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "'시리어스 샘: 섀터버스' PS5, XSX. PC 8월 31일 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227909",
+      "event_at": "2026-08-09T17:09:18+00:00",
+      "event_date": "2026-08-09",
+      "platform": [
+        "ps5",
+        "xbox"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-09",
+      "genre": [
+        "슈터"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘SUPER BOMBERMAN COLLECTION’ 한국어판 패키지 예약판매 11일(화) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227907",
+      "event_at": "2026-08-09T16:49:41+00:00",
+      "event_date": "2026-08-09",
+      "platform": [
+        "playstation",
+        "nintendo",
+        "switch"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-09",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "SOOP, AI 기반 자동 채팅 번역 업데이트 운영 중",
+      "url": "https://bbs.ruliweb.com/news/read/227906",
+      "event_at": "2026-08-09T16:39:36+00:00",
+      "event_date": "2026-08-09",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-09",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜넥슨 ‘오버워치’ 사전 다운로드 개시 및 신규 영웅 ‘디몬(D.Mon)’ 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/227905",
+      "event_at": "2026-08-09T16:35:44+00:00",
+      "event_date": "2026-08-09",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "오버워치"
+      ],
+      "normalized_game_title": "오버워치",
+      "edition": "base",
+      "canonical_game_key": "오버워치:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "patch_note:오버워치:base:2026-08-09",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "㈜넥슨 ‘오버워치’ 사전 다운로드 개시 및 신규 영웅 ‘디몬(D.Mon)’ 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/227905",
+      "event_at": "2026-08-09T16:35:44+00:00",
+      "event_date": "2026-08-09",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "오버워치"
+      ],
+      "normalized_game_title": "오버워치",
+      "edition": "base",
+      "canonical_game_key": "오버워치:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:오버워치:base:2026-08-09",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts",
@@ -1479,182 +1736,6 @@
       "trust_tier": "T3_professional",
       "producer_role": "trade_media",
       "version": "8.2",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "Minimum Studio ‘슬라임 대소동’ PS5, XSX, NS 버전 발매 예정",
-      "url": "https://bbs.ruliweb.com/news/read/227872",
-      "event_at": "2026-08-07T00:48:42+00:00",
-      "event_date": "2026-08-07",
-      "platform": [
-        "ps5",
-        "nintendo",
-        "switch",
-        "steam"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-07",
-      "genre": [
-        "액션"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "Canada Scavengers Studio ‘Darwin Project’ 새로운 1대1 결투 모드 구현 및 한국어 정식 지원",
-      "url": "https://bbs.ruliweb.com/news/read/227866",
-      "event_at": "2026-08-06T22:32:15+00:00",
-      "event_date": "2026-08-06",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:steam:base:2026-08-06",
-      "genre": [
-        "배틀로얄"
-      ],
-      "release": [
-        "출시",
-        "발표",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "Canada Scavengers Studio ‘Darwin Project’ 새로운 1대1 결투 모드 구현 및 한국어 정식 지원",
-      "url": "https://bbs.ruliweb.com/news/read/227866",
-      "event_at": "2026-08-06T22:32:15+00:00",
-      "event_date": "2026-08-06",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-08-06",
-      "genre": [
-        "배틀로얄"
-      ],
-      "release": [
-        "출시",
-        "발표",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "‘WoW: 한밤’ 시즌 2와 함께, 울라텍의 저주로 무엇이 바뀌나",
-      "url": "https://bbs.ruliweb.com/news/read/227864",
-      "event_at": "2026-08-06T21:00:00+00:00",
-      "event_date": "2026-08-06",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-06",
-      "genre": [],
-      "release": [
-        "업데이트",
-        "패치"
-      ],
-      "business_signal": [],
-      "studio": [
-        "블리자드"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "12.1",
       "rank": null,
       "market": "",
       "concurrent_players": null,
@@ -2403,6 +2484,104 @@
     {
       "reason": [
         "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 패키지 선주문 판매 8월 11일(화) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227912",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-08-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "'시리어스 샘: 섀터버스' PS5, XSX. PC 8월 31일 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227909",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-08-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘SUPER BOMBERMAN COLLECTION’ 한국어판 패키지 예약판매 11일(화) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227907",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-08-09"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "SOOP, AI 기반 자동 채팅 번역 업데이트 운영 중",
+      "url": "https://bbs.ruliweb.com/news/read/227906",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-08-09"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘오버워치’ 사전 다운로드 개시 및 신규 영웅 ‘디몬(D.Mon)’ 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/227905",
+      "canonical_game_key": "오버워치:base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:오버워치:base:2026-08-09"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘오버워치’ 사전 다운로드 개시 및 신규 영웅 ‘디몬(D.Mon)’ 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/227905",
+      "canonical_game_key": "오버워치:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:오버워치:base:2026-08-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
@@ -2459,100 +2638,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-08-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Next Week on XBOX: New Games for August 10 to 14",
-      "url": "https://news.xbox.com/en-us/2026/08/07/next-week-on-xbox-new-games-for-august-10-to-14",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-08-07"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Take-Two Q1 results include net bookings ahead of guidance, a slight increase in revenue, and cancellation of unannounced \"new core IP\" game",
-      "url": "https://www.gamesindustry.biz/take-two-q1-results-include-net-bookings-ahead-of-guidance-a-slight-increase-in-revenue-and-cancellation-of-unannounced-game",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-08-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "Minimum Studio ‘슬라임 대소동’ PS5, XSX, NS 버전 발매 예정",
-      "url": "https://bbs.ruliweb.com/news/read/227872",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "Canada Scavengers Studio ‘Darwin Project’ 새로운 1대1 결투 모드 구현 및 한국어 정식 지원",
-      "url": "https://bbs.ruliweb.com/news/read/227866",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "version"
-      ],
-      "game_event_key": "patch_note:steam:base:2026-08-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "Canada Scavengers Studio ‘Darwin Project’ 새로운 1대1 결투 모드 구현 및 한국어 정식 지원",
-      "url": "https://bbs.ruliweb.com/news/read/227866",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-08-06"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "‘WoW: 한밤’ 시즌 2와 함께, 울라텍의 저주로 무엇이 바뀌나",
-      "url": "https://bbs.ruliweb.com/news/read/227864",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "patch_note:base:2026-08-06"
     }
   ],
   "source_backlog": {
