@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-10T04:22:54.536998+00:00",
+  "generated_at": "2026-08-11T04:11:19.042276+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 2,
+    "store_ranking_events": 4,
     "patch_note_events": 3,
-    "release_schedule_events": 26,
-    "actionable_game_event_count": 31,
+    "release_schedule_events": 23,
+    "actionable_game_event_count": 30,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 30,
-    "official_or_trade_event_count": 25,
-    "event_required_field_gap_count": 30,
+    "missing_canonical_game_key_count": 29,
+    "official_or_trade_event_count": 24,
+    "event_required_field_gap_count": 29,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,9 +71,9 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 8,
+      "event_count": 7,
       "latest_event_at": "2026-08-06T09:15:30+00:00",
-      "age_days": 3.8,
+      "age_days": 4.79,
       "latest_title": "Celebrate 30 years of Quake with a brand-new episode, available today",
       "latest_url": "https://blog.playstation.com/2026/08/06/celebrate-30-years-of-quake-with-a-brand-new-episode-available-today",
       "latest_source_signal": [
@@ -104,9 +104,9 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 9,
+      "event_count": 8,
       "latest_event_at": "2026-08-07T10:30:00+00:00",
-      "age_days": 2.75,
+      "age_days": 3.74,
       "latest_title": "THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts",
       "latest_url": "https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 6,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 8,
-      "latest_event_at": "2026-08-07T07:26:16+00:00",
-      "age_days": 2.87,
-      "latest_title": "Strauss Zelnick: Netflix debut is merely \"one of the hors d'oeuvres\" for full GTA 6 launch; pre-order numbers are \"unprecedented and astonishing\"",
-      "latest_url": "https://www.gamesindustry.biz/strauss-zelnick-netflix-debut-is-merely-one-of-the-hors-doeuvres-for-full-gta-6-launch-pre-order-numbers-are-unprecedented-and-astonishing",
+      "event_count": 9,
+      "latest_event_at": "2026-08-10T01:07:24+00:00",
+      "age_days": 1.13,
+      "latest_title": "Bandai Namco achieves record Q1 sales, but Digital segment operating profit drops 30.9%",
+      "latest_url": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -760,10 +760,10 @@
       "status": "fresh",
       "article_count": 15,
       "event_count": 6,
-      "latest_event_at": "2026-08-09T17:39:15+00:00",
-      "age_days": 0.45,
-      "latest_title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 패키지 선주문 판매 8월 11일(화) 시작",
-      "latest_url": "https://bbs.ruliweb.com/news/read/227912",
+      "latest_event_at": "2026-08-10T19:01:05+00:00",
+      "age_days": 0.38,
+      "latest_title": "‘레조넌스: 플래그 테일 레거시’ PS5 한국어판 패키지 8월 27일 정식 출시 및 오늘(11일)부터 예약 판매 시작",
+      "latest_url": "https://bbs.ruliweb.com/news/read/227952",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,14 +1198,12 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 패키지 선주문 판매 8월 11일(화) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227912",
-      "event_at": "2026-08-09T17:39:15+00:00",
-      "event_date": "2026-08-09",
+      "title": "‘레조넌스: 플래그 테일 레거시’ PS5 한국어판 패키지 8월 27일 정식 출시 및 오늘(11일)부터 예약 판매 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227952",
+      "event_at": "2026-08-10T19:01:05+00:00",
+      "event_date": "2026-08-10",
       "platform": [
-        "ps5",
-        "닌텐도",
-        "스위치"
+        "ps5"
       ],
       "normalized_platform": "playstation",
       "game_title": [],
@@ -1213,54 +1211,10 @@
       "edition": "base",
       "canonical_game_key": "playstation:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-09",
+      "game_event_key": "release_schedule:playstation:base:2026-08-10",
       "genre": [
-        "액션"
-      ],
-      "release": [
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [
-        "반다이남코"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "'시리어스 샘: 섀터버스' PS5, XSX. PC 8월 31일 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227909",
-      "event_at": "2026-08-09T17:09:18+00:00",
-      "event_date": "2026-08-09",
-      "platform": [
-        "ps5",
-        "xbox"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-09",
-      "genre": [
-        "슈터"
+        "액션",
+        "어드벤처"
       ],
       "release": [
         "출시"
@@ -1287,29 +1241,29 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘SUPER BOMBERMAN COLLECTION’ 한국어판 패키지 예약판매 11일(화) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227907",
-      "event_at": "2026-08-09T16:49:41+00:00",
-      "event_date": "2026-08-09",
+      "title": "‘귀멸의 칼날 히노카미 혈풍담2 Nintendo Switch™ 2 Edition + '무한성편 제1장' 캐릭터 패스’ 패키지 예약판매 오늘(11일) 개시",
+      "url": "https://bbs.ruliweb.com/news/read/227951",
+      "event_at": "2026-08-10T19:01:03+00:00",
+      "event_date": "2026-08-10",
       "platform": [
-        "playstation",
         "nintendo",
         "switch"
       ],
-      "normalized_platform": "playstation",
+      "normalized_platform": "nintendo",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "playstation:base",
+      "canonical_game_key": "nintendo:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-09",
-      "genre": [],
-      "release": [
-        "출시"
+      "game_event_key": "release_schedule:nintendo:base:2026-08-10",
+      "genre": [
+        "액션"
       ],
+      "release": [],
       "business_signal": [],
       "studio": [
-        "nintendo"
+        "nintendo",
+        "세가"
       ],
       "source_signal": [
         "community_reaction",
@@ -1330,10 +1284,220 @@
     },
     {
       "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "어셈블 엔터테인먼트, 서바이벌 호러 JRPG '신 오어 서퍼' 공개, 2027년 스팀 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227950",
+      "event_at": "2026-08-10T19:01:00+00:00",
+      "event_date": "2026-08-10",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-08-10",
+      "genre": [
+        "jrpg",
+        "턴제"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "SOOP, AI 기반 자동 채팅 번역 업데이트 운영 중",
-      "url": "https://bbs.ruliweb.com/news/read/227906",
-      "event_at": "2026-08-09T16:39:36+00:00",
+      "title": "라인게임즈 ‘대항해시대 오리진’, 지난 10일(월) 신규 투자 시즌7 ‘황금 군도의 파도’ 개막",
+      "url": "https://bbs.ruliweb.com/news/read/227947",
+      "event_at": "2026-08-10T17:07:14+00:00",
+      "event_date": "2026-08-10",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-10",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "하이스코어게임즈, ‘머지 메이드 카페’ 신규 메이드 ‘린’ 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/227945",
+      "event_at": "2026-08-10T16:44:11+00:00",
+      "event_date": "2026-08-10",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-10",
+      "genre": [
+        "퍼즐"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "빅 워크, 출시 후 6일 만에 100만 장 돌파",
+      "url": "https://bbs.ruliweb.com/news/read/227937",
+      "event_at": "2026-08-10T16:00:00+00:00",
+      "event_date": "2026-08-10",
+      "platform": [
+        "ps5",
+        "닌텐도",
+        "스위치",
+        "스팀"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-10",
+      "genre": [
+        "어드벤처"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Bandai Namco achieves record Q1 sales, but Digital segment operating profit drops 30.9%",
+      "url": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309",
+      "event_at": "2026-08-10T01:07:24+00:00",
+      "event_date": "2026-08-10",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "store_ranking:base:2026-08-10",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "bandai namco"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "30.9",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Sega reports 17.3% rise in Q3 net sales; games segment exceeds expectations",
+      "url": "https://www.gamesindustry.biz/sega-reports-173-rise-in-q3-net-sales-games-segment-exceeds-expectations",
+      "event_at": "2026-08-09T22:50:16+00:00",
       "event_date": "2026-08-09",
       "platform": [],
       "normalized_platform": "",
@@ -1342,114 +1506,31 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-09",
+      "game_event_key": "store_ranking:base:2026-08-09",
       "genre": [],
-      "release": [
-        "업데이트"
-      ],
+      "release": [],
       "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
+      "studio": [
+        "sega"
       ],
-      "authority_role": "community_media",
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
       "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
+      "producer_role": "trade_media",
+      "version": "17.3",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
         "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜넥슨 ‘오버워치’ 사전 다운로드 개시 및 신규 영웅 ‘디몬(D.Mon)’ 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/227905",
-      "event_at": "2026-08-09T16:35:44+00:00",
-      "event_date": "2026-08-09",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "오버워치"
-      ],
-      "normalized_game_title": "오버워치",
-      "edition": "base",
-      "canonical_game_key": "오버워치:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "patch_note:오버워치:base:2026-08-09",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "㈜넥슨 ‘오버워치’ 사전 다운로드 개시 및 신규 영웅 ‘디몬(D.Mon)’ 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/227905",
-      "event_at": "2026-08-09T16:35:44+00:00",
-      "event_date": "2026-08-09",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "오버워치"
-      ],
-      "normalized_game_title": "오버워치",
-      "edition": "base",
-      "canonical_game_key": "오버워치:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:오버워치:base:2026-08-09",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
+        "rank",
+        "market"
       ]
     },
     {
@@ -2070,49 +2151,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Free Play Days – NBA 2K26, Tom Clancy’s Ghost Recon Breakpoint, Wax Heads, and More",
-      "url": "https://news.xbox.com/en-us/2026/08/06/free-play-days-08-06-2026",
-      "event_at": "2026-08-06T06:00:00+00:00",
-      "event_date": "2026-08-06",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "xbox:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-08-06",
-      "genre": [
-        "action",
-        "strategy",
-        "sports"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "Nintendo Q1 sales drop 9.5%; operating profit soars following higher software sales and $300m in US tariff refunds",
@@ -2396,88 +2434,6 @@
         "rank",
         "market"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Silent Hill: Townfall Developers discuss the Scottish setting, retro technology, first-person combat",
-      "url": "https://blog.playstation.com/2026/07/30/silent-hill-townfall-developers-discuss-the-scottish-setting-retro-technology-first-person-combat",
-      "event_at": "2026-07-30T06:00:00+00:00",
-      "event_date": "2026-07-30",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-07-30",
-      "genre": [
-        "horror"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "konami"
-      ],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "GTA 6 download codes will expire 170 days after launch in Japan",
-      "url": "https://www.gamesindustry.biz/gta-6-download-codes-to-expire-170-days-after-launch-in-japan",
-      "event_at": "2026-07-30T00:41:04+00:00",
-      "event_date": "2026-07-30",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-07-30",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2489,13 +2445,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘캡틴 츠바사 2 월드 파이터즈’ 한국어판 패키지 선주문 판매 8월 11일(화) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227912",
+      "title": "‘레조넌스: 플래그 테일 레거시’ PS5 한국어판 패키지 8월 27일 정식 출시 및 오늘(11일)부터 예약 판매 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227952",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-09"
+      "game_event_key": "release_schedule:playstation:base:2026-08-10"
     },
     {
       "reason": [
@@ -2505,29 +2461,30 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "'시리어스 샘: 섀터버스' PS5, XSX. PC 8월 31일 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227909",
-      "canonical_game_key": "playstation:base",
+      "title": "‘귀멸의 칼날 히노카미 혈풍담2 Nintendo Switch™ 2 Edition + '무한성편 제1장' 캐릭터 패스’ 패키지 예약판매 오늘(11일) 개시",
+      "url": "https://bbs.ruliweb.com/news/read/227951",
+      "canonical_game_key": "nintendo:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-09"
+      "game_event_key": "release_schedule:nintendo:base:2026-08-10"
     },
     {
       "reason": [
-        "missing_game_title",
+        "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘SUPER BOMBERMAN COLLECTION’ 한국어판 패키지 예약판매 11일(화) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227907",
-      "canonical_game_key": "playstation:base",
+      "title": "어셈블 엔터테인먼트, 서바이벌 호러 JRPG '신 오어 서퍼' 공개, 2027년 스팀 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227950",
+      "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-09"
+      "game_event_key": "release_schedule:base:2026-08-10"
     },
     {
       "reason": [
@@ -2537,47 +2494,81 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "SOOP, AI 기반 자동 채팅 번역 업데이트 운영 중",
-      "url": "https://bbs.ruliweb.com/news/read/227906",
+      "title": "라인게임즈 ‘대항해시대 오리진’, 지난 10일(월) 신규 투자 시즌7 ‘황금 군도의 파도’ 개막",
+      "url": "https://bbs.ruliweb.com/news/read/227947",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-08-09"
+      "game_event_key": "patch_note:base:2026-08-10"
     },
     {
       "reason": [
-        "missing_platform",
+        "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "㈜넥슨 ‘오버워치’ 사전 다운로드 개시 및 신규 영웅 ‘디몬(D.Mon)’ 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/227905",
-      "canonical_game_key": "오버워치:base",
+      "title": "하이스코어게임즈, ‘머지 메이드 카페’ 신규 메이드 ‘린’ 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/227945",
+      "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:오버워치:base:2026-08-09"
+      "game_event_key": "patch_note:base:2026-08-10"
     },
     {
       "reason": [
-        "missing_platform",
+        "missing_game_title",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "㈜넥슨 ‘오버워치’ 사전 다운로드 개시 및 신규 영웅 ‘디몬(D.Mon)’ 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/227905",
-      "canonical_game_key": "오버워치:base",
+      "title": "빅 워크, 출시 후 6일 만에 100만 장 돌파",
+      "url": "https://bbs.ruliweb.com/news/read/227937",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
-        "platform"
+        "game_title"
       ],
-      "game_event_key": "release_schedule:오버워치:base:2026-08-09"
+      "game_event_key": "release_schedule:playstation:base:2026-08-10"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "store_ranking",
+      "source": "GamesIndustry.biz",
+      "title": "Bandai Namco achieves record Q1 sales, but Digital segment operating profit drops 30.9%",
+      "url": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ],
+      "game_event_key": "store_ranking:base:2026-08-10"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "store_ranking",
+      "source": "GamesIndustry.biz",
+      "title": "Sega reports 17.3% rise in Q3 net sales; games segment exceeds expectations",
+      "url": "https://www.gamesindustry.biz/sega-reports-173-rise-in-q3-net-sales-games-segment-exceeds-expectations",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ],
+      "game_event_key": "store_ranking:base:2026-08-09"
     },
     {
       "reason": [
@@ -2603,36 +2594,6 @@
       "source": "Xbox Wire",
       "title": "Dinos Collide in Explosive On-Rails Shooter Tailbreak, Out Now",
       "url": "https://news.xbox.com/en-us/2026/08/07/dinos-collide-in-explosive-on-rails-shootertailbreak",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-08-07"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Strauss Zelnick: Netflix debut is merely \"one of the hors d'oeuvres\" for full GTA 6 launch; pre-order numbers are \"unprecedented and astonishing\"",
-      "url": "https://www.gamesindustry.biz/strauss-zelnick-netflix-debut-is-merely-one-of-the-hors-doeuvres-for-full-gta-6-launch-pre-order-numbers-are-unprecedented-and-astonishing",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-08-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "HELLDIVERS 2 x Warhammer 40,000 Legendary Warbond, Launching August 12",
-      "url": "https://news.xbox.com/en-us/2026/08/07/helldivers-2-x-warhammer-40000-warbond-xbox",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
