@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-11T04:11:19.042276+00:00",
+  "generated_at": "2026-08-12T04:41:27.691754+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 4,
-    "patch_note_events": 3,
-    "release_schedule_events": 23,
-    "actionable_game_event_count": 30,
-    "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 29,
-    "official_or_trade_event_count": 24,
-    "event_required_field_gap_count": 29,
+    "store_ranking_events": 3,
+    "patch_note_events": 5,
+    "release_schedule_events": 21,
+    "actionable_game_event_count": 29,
+    "canonical_game_key_present_count": 3,
+    "missing_canonical_game_key_count": 26,
+    "official_or_trade_event_count": 22,
+    "event_required_field_gap_count": 26,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 7,
-      "latest_event_at": "2026-08-06T09:15:30+00:00",
-      "age_days": 4.79,
-      "latest_title": "Celebrate 30 years of Quake with a brand-new episode, available today",
-      "latest_url": "https://blog.playstation.com/2026/08/06/celebrate-30-years-of-quake-with-a-brand-new-episode-available-today",
+      "event_count": 5,
+      "latest_event_at": "2026-08-11T17:00:02+00:00",
+      "age_days": 0.49,
+      "latest_title": "Watch the Phantom Blade Zero gameplay deep dive State of Play on August 17, pre-orders live today",
+      "latest_url": "https://blog.playstation.com/2026/08/11/watch-the-phantom-blade-zero-gameplay-deep-dive-state-of-play-on-august-17-pre-orders-live-today",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -105,10 +105,10 @@
       "status": "fresh",
       "article_count": 10,
       "event_count": 8,
-      "latest_event_at": "2026-08-07T10:30:00+00:00",
-      "age_days": 3.74,
-      "latest_title": "THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts",
-      "latest_url": "https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026",
+      "latest_event_at": "2026-08-11T09:44:24+00:00",
+      "age_days": 0.79,
+      "latest_title": "D. Mon Enters the Fight in Overwatch Season 4",
+      "latest_url": "https://news.xbox.com/en-us/2026/08/11/d-mon-enters-the-fight-in-overwatch-season-4",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 6,
+      "article_count": 5,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -471,10 +471,10 @@
       "status": "fresh",
       "article_count": 50,
       "event_count": 9,
-      "latest_event_at": "2026-08-10T01:07:24+00:00",
-      "age_days": 1.13,
-      "latest_title": "Bandai Namco achieves record Q1 sales, but Digital segment operating profit drops 30.9%",
-      "latest_url": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309",
+      "latest_event_at": "2026-08-10T23:26:52+00:00",
+      "age_days": 1.22,
+      "latest_title": "Square Enix Q1 profit soars following Final Fantasy 7 Rebirth launch on Switch 2 and Xbox",
+      "latest_url": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 6,
-      "latest_event_at": "2026-08-10T19:01:05+00:00",
-      "age_days": 0.38,
-      "latest_title": "‘레조넌스: 플래그 테일 레거시’ PS5 한국어판 패키지 8월 27일 정식 출시 및 오늘(11일)부터 예약 판매 시작",
-      "latest_url": "https://bbs.ruliweb.com/news/read/227952",
+      "event_count": 7,
+      "latest_event_at": "2026-08-11T19:09:37+00:00",
+      "age_days": 0.4,
+      "latest_title": "㈜엔씨 ‘리니지2M’, ‘SANCTUARY: 전장을 되살리는 기적’ 업데이트 예고",
+      "latest_url": "https://bbs.ruliweb.com/news/read/227998",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1197,30 +1197,29 @@
   "events": [
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘레조넌스: 플래그 테일 레거시’ PS5 한국어판 패키지 8월 27일 정식 출시 및 오늘(11일)부터 예약 판매 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227952",
-      "event_at": "2026-08-10T19:01:05+00:00",
-      "event_date": "2026-08-10",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
+      "event_model": "patch_note",
+      "title": "㈜엔씨 ‘리니지2M’, ‘SANCTUARY: 전장을 되살리는 기적’ 업데이트 예고",
+      "url": "https://bbs.ruliweb.com/news/read/227998",
+      "event_at": "2026-08-11T19:09:37+00:00",
+      "event_date": "2026-08-11",
+      "platform": [],
+      "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-10",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-11",
       "genre": [
-        "액션",
-        "어드벤처"
+        "mmorpg"
       ],
       "release": [
-        "출시"
+        "업데이트"
       ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "엔씨소프트"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1235,19 +1234,21 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title"
+        "platform",
+        "version"
       ]
     },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘귀멸의 칼날 히노카미 혈풍담2 Nintendo Switch™ 2 Edition + '무한성편 제1장' 캐릭터 패스’ 패키지 예약판매 오늘(11일) 개시",
-      "url": "https://bbs.ruliweb.com/news/read/227951",
-      "event_at": "2026-08-10T19:01:03+00:00",
-      "event_date": "2026-08-10",
+      "title": "‘메타포: 리판타지오’ 한국어판 NS2 패키지 예약판매 오늘(12일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227996",
+      "event_at": "2026-08-11T19:00:54+00:00",
+      "event_date": "2026-08-11",
       "platform": [
         "nintendo",
-        "switch"
+        "switch",
+        "switch 2"
       ],
       "normalized_platform": "nintendo",
       "game_title": [],
@@ -1255,9 +1256,9 @@
       "edition": "base",
       "canonical_game_key": "nintendo:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-08-10",
+      "game_event_key": "release_schedule:nintendo:base:2026-08-11",
       "genre": [
-        "액션"
+        "rpg"
       ],
       "release": [],
       "business_signal": [],
@@ -1285,149 +1286,22 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "어셈블 엔터테인먼트, 서바이벌 호러 JRPG '신 오어 서퍼' 공개, 2027년 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227950",
-      "event_at": "2026-08-10T19:01:00+00:00",
-      "event_date": "2026-08-10",
+      "title": "Circle KEN, 마작 스타일의 단어 게임 ‘WORJONG / 워드작’ 한국어 지원",
+      "url": "https://bbs.ruliweb.com/news/read/227995",
+      "event_at": "2026-08-11T19:00:52+00:00",
+      "event_date": "2026-08-11",
       "platform": [
-        "스팀"
+        "steam"
       ],
-      "normalized_platform": "",
+      "normalized_platform": "steam",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-08-10",
-      "genre": [
-        "jrpg",
-        "턴제"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "라인게임즈 ‘대항해시대 오리진’, 지난 10일(월) 신규 투자 시즌7 ‘황금 군도의 파도’ 개막",
-      "url": "https://bbs.ruliweb.com/news/read/227947",
-      "event_at": "2026-08-10T17:07:14+00:00",
-      "event_date": "2026-08-10",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-10",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "하이스코어게임즈, ‘머지 메이드 카페’ 신규 메이드 ‘린’ 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/227945",
-      "event_at": "2026-08-10T16:44:11+00:00",
-      "event_date": "2026-08-10",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-10",
-      "genre": [
-        "퍼즐"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "빅 워크, 출시 후 6일 만에 100만 장 돌파",
-      "url": "https://bbs.ruliweb.com/news/read/227937",
-      "event_at": "2026-08-10T16:00:00+00:00",
-      "event_date": "2026-08-10",
-      "platform": [
-        "ps5",
-        "닌텐도",
-        "스위치",
-        "스팀"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
+      "canonical_game_key": "steam:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-10",
+      "game_event_key": "release_schedule:steam:base:2026-08-11",
       "genre": [
-        "어드벤처"
+        "인디"
       ],
       "release": [
         "출시"
@@ -1450,6 +1324,379 @@
       "required_field_gaps": [
         "game_title"
       ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "한량스튜디오, 2D 액션 플랫포머 ‘SURA: Shattered Star’ 오는 14일(금) Steam 무료 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227994",
+      "event_at": "2026-08-11T19:00:50+00:00",
+      "event_date": "2026-08-11",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-08-11",
+      "genre": [
+        "액션",
+        "플랫포머",
+        "인디"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜엔씨 ‘리니지W’, ‘Titan Heart’ 업데이트 오늘(12일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/227990",
+      "event_at": "2026-08-11T17:05:35+00:00",
+      "event_date": "2026-08-11",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-11",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "엔씨소프트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Watch the Phantom Blade Zero gameplay deep dive State of Play on August 17, pre-orders live today",
+      "url": "https://blog.playstation.com/2026/08/11/watch-the-phantom-blade-zero-gameplay-deep-dive-state-of-play-on-august-17-pre-orders-live-today",
+      "event_at": "2026-08-11T17:00:02+00:00",
+      "event_date": "2026-08-11",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-11",
+      "genre": [],
+      "release": [
+        "state of play"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "펄어비스 ‘검은사막’, ‘에다니아 파트 2’ 업데이트 오늘(12일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/227988",
+      "event_at": "2026-08-11T16:46:15+00:00",
+      "event_date": "2026-08-11",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-11",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "펄어비스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜메이저나인 ‘아우터플레인’, 신규 동료 ‘데미우르고스 세이란’ 오늘(12일) 출시… 이관 1주년 기념 대형 업데이트 예고",
+      "url": "https://bbs.ruliweb.com/news/read/227987",
+      "event_at": "2026-08-11T16:24:02+00:00",
+      "event_date": "2026-08-11",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-11",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "출시",
+        "발표",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "D. Mon Enters the Fight in Overwatch Season 4",
+      "url": "https://news.xbox.com/en-us/2026/08/11/d-mon-enters-the-fight-in-overwatch-season-4",
+      "event_at": "2026-08-11T09:44:24+00:00",
+      "event_date": "2026-08-11",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "overwatch"
+      ],
+      "normalized_game_title": "overwatch",
+      "edition": "season-4",
+      "canonical_game_key": "overwatch:xbox:season-4",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:overwatch:xbox:season-4:2026-08-11",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Dive Beneath the Surface in Grounded 2’s Biggest Update Yet: Into the Abyss",
+      "url": "https://news.xbox.com/en-us/2026/08/11/grounded-2-into-the-abyss-update-xbox",
+      "event_at": "2026-08-11T08:00:00+00:00",
+      "event_date": "2026-08-11",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-08-11",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Star Wars Zero Company: A New Hope for Turn-Based Tactics",
+      "url": "https://news.xbox.com/en-us/2026/08/11/star-wars-zero-company-preview",
+      "event_at": "2026-08-11T05:00:00+00:00",
+      "event_date": "2026-08-11",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-08-11",
+      "genre": [
+        "turn-based"
+      ],
+      "release": [
+        "preview"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Square Enix Q1 profit soars following Final Fantasy 7 Rebirth launch on Switch 2 and Xbox",
+      "url": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox",
+      "event_at": "2026-08-10T23:26:52+00:00",
+      "event_date": "2026-08-10",
+      "platform": [
+        "xbox",
+        "switch",
+        "switch 2"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "final fantasy"
+      ],
+      "normalized_game_title": "final-fantasy",
+      "edition": "base",
+      "canonical_game_key": "final-fantasy:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:final-fantasy:xbox:base:2026-08-10",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [
+        "square enix"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "175.5",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
     },
     {
       "source": "GamesIndustry.biz",
@@ -1904,87 +2151,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Quake: Dawn of the Machine – Available Today",
-      "url": "https://news.xbox.com/en-us/2026/08/06/quake-dawn-of-the-machine-available-today",
-      "event_at": "2026-08-06T09:15:00+00:00",
-      "event_date": "2026-08-06",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-06",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "EA SPORTS Madden NFL 27 Early Access Trial Available Now With EA Play",
-      "url": "https://news.xbox.com/en-us/2026/08/06/ea-play-august",
-      "event_at": "2026-08-06T09:00:00+00:00",
-      "event_date": "2026-08-06",
-      "platform": [
-        "xbox",
-        "ea play"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "early-access",
-      "canonical_game_key": "xbox:early-access",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:early-access:2026-08-06",
-      "genre": [
-        "sports"
-      ],
-      "release": [
-        "early access"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "patch_note",
       "title": "Ghost Recon Wildlands: Last Rites – Everything you need to know",
@@ -2058,47 +2224,6 @@
       ],
       "source_signal": [
         "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Ghost Recon Wildlands: Last Rites – A Major Free Update Powered by Community Feedback and Player Insights",
-      "url": "https://news.xbox.com/en-us/2026/08/06/ghost-recon-wildlands-last-rites-community-feedback",
-      "event_at": "2026-08-06T07:00:00+00:00",
-      "event_date": "2026-08-06",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-06",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
         "platform_update",
         "release_schedule"
       ],
@@ -2193,85 +2318,6 @@
       ]
     },
     {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Crimson Moon battles demonic corruption on September 1",
-      "url": "https://blog.playstation.com/2026/08/04/crimson-moon-battles-demonic-corruption-on-september-1",
-      "event_at": "2026-08-04T07:00:48+00:00",
-      "event_date": "2026-08-04",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-04",
-      "genre": [
-        "action",
-        "action rpg",
-        "rpg"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Gameplay first look – Mafia: The Old Country’s Man of Honor expansion",
-      "url": "https://blog.playstation.com/2026/08/04/gameplay-first-look-mafia-the-old-countrys-man-of-honor-expansion",
-      "event_at": "2026-08-04T06:00:49+00:00",
-      "event_date": "2026-08-04",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-04",
-      "genre": [],
-      "release": [
-        "dlc",
-        "expansion"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
       "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
@@ -2310,47 +2356,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "platform"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Players’ Choice: Vote for July 2026’s best new game",
-      "url": "https://blog.playstation.com/2026/08/03/players-choice-vote-for-july-2026s-best-new-game",
-      "event_at": "2026-08-03T05:00:25+00:00",
-      "event_date": "2026-08-03",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-03",
-      "genre": [
-        "action",
-        "fighting",
-        "sports"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
       ]
     },
     {
@@ -2393,65 +2398,25 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "PlayStation reports flat Q1 sales, says it's \"cautiously moving forward\" with halting physical disc production",
-      "url": "https://www.gamesindustry.biz/playstation-reports-flat-q1-sales-says-its-cautiously-moving-forward-with-halting-physical-disc-production",
-      "event_at": "2026-07-31T02:21:17+00:00",
-      "event_date": "2026-07-31",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "store_ranking:playstation:base:2026-07-31",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title",
+        "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "‘레조넌스: 플래그 테일 레거시’ PS5 한국어판 패키지 8월 27일 정식 출시 및 오늘(11일)부터 예약 판매 시작",
-      "url": "https://bbs.ruliweb.com/news/read/227952",
-      "canonical_game_key": "playstation:base",
+      "title": "㈜엔씨 ‘리니지2M’, ‘SANCTUARY: 전장을 되살리는 기적’ 업데이트 예고",
+      "url": "https://bbs.ruliweb.com/news/read/227998",
+      "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title"
+        "platform",
+        "version"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-10"
+      "game_event_key": "patch_note:base:2026-08-11"
     },
     {
       "reason": [
@@ -2461,64 +2426,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘귀멸의 칼날 히노카미 혈풍담2 Nintendo Switch™ 2 Edition + '무한성편 제1장' 캐릭터 패스’ 패키지 예약판매 오늘(11일) 개시",
-      "url": "https://bbs.ruliweb.com/news/read/227951",
+      "title": "‘메타포: 리판타지오’ 한국어판 NS2 패키지 예약판매 오늘(12일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/227996",
       "canonical_game_key": "nintendo:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:nintendo:base:2026-08-10"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "어셈블 엔터테인먼트, 서바이벌 호러 JRPG '신 오어 서퍼' 공개, 2027년 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/227950",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-08-10"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "라인게임즈 ‘대항해시대 오리진’, 지난 10일(월) 신규 투자 시즌7 ‘황금 군도의 파도’ 개막",
-      "url": "https://bbs.ruliweb.com/news/read/227947",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-08-10"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "하이스코어게임즈, ‘머지 메이드 카페’ 신규 메이드 ‘린’ 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/227945",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-08-10"
+      "game_event_key": "release_schedule:nintendo:base:2026-08-11"
     },
     {
       "reason": [
@@ -2528,47 +2442,95 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "빅 워크, 출시 후 6일 만에 100만 장 돌파",
-      "url": "https://bbs.ruliweb.com/news/read/227937",
+      "title": "Circle KEN, 마작 스타일의 단어 게임 ‘WORJONG / 워드작’ 한국어 지원",
+      "url": "https://bbs.ruliweb.com/news/read/227995",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-08-11"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "한량스튜디오, 2D 액션 플랫포머 ‘SURA: Shattered Star’ 오는 14일(금) Steam 무료 출시",
+      "url": "https://bbs.ruliweb.com/news/read/227994",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-08-11"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜엔씨 ‘리니지W’, ‘Titan Heart’ 업데이트 오늘(12일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/227990",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-08-11"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Watch the Phantom Blade Zero gameplay deep dive State of Play on August 17, pre-orders live today",
+      "url": "https://blog.playstation.com/2026/08/11/watch-the-phantom-blade-zero-gameplay-deep-dive-state-of-play-on-august-17-pre-orders-live-today",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-10"
+      "game_event_key": "release_schedule:playstation:base:2026-08-11"
     },
     {
       "reason": [
         "missing_game_title_platform",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Bandai Namco achieves record Q1 sales, but Digital segment operating profit drops 30.9%",
-      "url": "https://www.gamesindustry.biz/bandai-namco-achieves-record-q1-sales-but-digital-segment-operating-profit-drops-309",
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "펄어비스 ‘검은사막’, ‘에다니아 파트 2’ 업데이트 오늘(12일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/227988",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
-        "rank",
-        "market"
+        "version"
       ],
-      "game_event_key": "store_ranking:base:2026-08-10"
+      "game_event_key": "patch_note:base:2026-08-11"
     },
     {
       "reason": [
         "missing_game_title_platform",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Sega reports 17.3% rise in Q3 net sales; games segment exceeds expectations",
-      "url": "https://www.gamesindustry.biz/sega-reports-173-rise-in-q3-net-sales-games-segment-exceeds-expectations",
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜메이저나인 ‘아우터플레인’, 신규 동료 ‘데미우르고스 세이란’ 오늘(12일) 출시… 이관 1주년 기념 대형 업데이트 예고",
+      "url": "https://bbs.ruliweb.com/news/read/227987",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
-        "rank",
-        "market"
+        "version"
       ],
-      "game_event_key": "store_ranking:base:2026-08-09"
+      "game_event_key": "patch_note:base:2026-08-11"
     },
     {
       "reason": [
@@ -2577,13 +2539,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "THQ Nordic Showcase 2026: New Worlds, New Stories, New Games, and New Discounts",
-      "url": "https://news.xbox.com/en-us/2026/08/07/thq-nordic-showcase-2026",
+      "title": "Dive Beneath the Surface in Grounded 2’s Biggest Update Yet: Into the Abyss",
+      "url": "https://news.xbox.com/en-us/2026/08/11/grounded-2-into-the-abyss-update-xbox",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-08-07"
+      "game_event_key": "release_schedule:xbox:base:2026-08-11"
     },
     {
       "reason": [
@@ -2592,13 +2554,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Dinos Collide in Explosive On-Rails Shooter Tailbreak, Out Now",
-      "url": "https://news.xbox.com/en-us/2026/08/07/dinos-collide-in-explosive-on-rails-shootertailbreak",
+      "title": "Star Wars Zero Company: A New Hope for Turn-Based Tactics",
+      "url": "https://news.xbox.com/en-us/2026/08/11/star-wars-zero-company-preview",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-08-07"
+      "game_event_key": "release_schedule:xbox:base:2026-08-11"
     }
   ],
   "source_backlog": {
