@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-08-13T04:44:34.811526+00:00",
+  "generated_at": "2026-08-14T04:42:21.189362+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 3,
     "patch_note_events": 6,
-    "release_schedule_events": 24,
-    "actionable_game_event_count": 33,
+    "release_schedule_events": 23,
+    "actionable_game_event_count": 32,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 30,
-    "official_or_trade_event_count": 26,
-    "event_required_field_gap_count": 30,
+    "missing_canonical_game_key_count": 29,
+    "official_or_trade_event_count": 28,
+    "event_required_field_gap_count": 29,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 10,
-      "latest_event_at": "2026-08-12T19:24:15+00:00",
-      "age_days": 0.39,
-      "latest_title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
-      "latest_url": "https://blog.playstation.com/2026/08/12/20260813-goy",
+      "event_count": 11,
+      "latest_event_at": "2026-08-13T06:00:03+00:00",
+      "age_days": 0.95,
+      "latest_title": "Hands-on report: Marvel’s Wolverine",
+      "latest_url": "https://blog.playstation.com/2026/08/13/hands-on-report-marvels-wolverine",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 8,
-      "latest_event_at": "2026-08-12T10:30:00+00:00",
-      "age_days": 0.76,
-      "latest_title": "Kinetic Publishing Showcase Recap: Every Reveal, Including the New Sam Barlow Game",
-      "latest_url": "https://news.xbox.com/en-us/2026/08/12/kinetic-publishing-showcase-recap-sam-barlow",
+      "event_count": 9,
+      "latest_event_at": "2026-08-13T10:00:00+00:00",
+      "age_days": 0.78,
+      "latest_title": "The Gears of War: E-Day Open Beta is Available Now for Everyone",
+      "latest_url": "https://www.xbox.com/en-US/games/store/gears-of-war-e-day-multiplayer-beta/9nhlzs3g6d8h",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -471,10 +471,10 @@
       "status": "fresh",
       "article_count": 50,
       "event_count": 8,
-      "latest_event_at": "2026-08-10T23:26:52+00:00",
-      "age_days": 2.22,
-      "latest_title": "Square Enix Q1 profit soars following Final Fantasy 7 Rebirth launch on Switch 2 and Xbox",
-      "latest_url": "https://www.gamesindustry.biz/square-enix-q1-profit-soars-following-final-fantasy-7-rebirth-launch-on-switch-2-and-xbox",
+      "latest_event_at": "2026-08-12T04:07:48+00:00",
+      "age_days": 2.02,
+      "latest_title": "Amazon steps back from MMOs, transfers operations of Throne and Liberty and Lost Art to NC and Smilegate",
+      "latest_url": "https://www.gamesindustry.biz/mmorpg-throne-and-liberty-transitions-from-amazon-game-studios-to-nc-formerly-ncsoft",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 7,
-      "latest_event_at": "2026-08-12T19:00:22+00:00",
-      "age_days": 0.41,
-      "latest_title": "‘파밍 캠프(Farming Camp)’ Nintendo Switch 패키지 예약판매 오늘(23일) 개시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/228063",
+      "event_count": 4,
+      "latest_event_at": "2026-08-13T19:25:21+00:00",
+      "age_days": 0.39,
+      "latest_title": "에이트스튜디오, ‘블라이트 워 : 사후 처리국’ 첫 업데이트 힘입어 스토어 순위 역주행",
+      "latest_url": "https://bbs.ruliweb.com/news/read/228118",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1196,280 +1196,28 @@
   ],
   "events": [
     {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
-      "url": "https://blog.playstation.com/2026/08/12/20260813-goy",
-      "event_at": "2026-08-12T19:24:15+00:00",
-      "event_date": "2026-08-12",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-08-12",
-      "genre": [],
-      "release": [
-        "expansion"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
-      "url": "https://blog.playstation.com/2026/08/12/20260813-goy",
-      "event_at": "2026-08-12T19:24:15+00:00",
-      "event_date": "2026-08-12",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-12",
-      "genre": [],
-      "release": [
-        "expansion"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "(For Southeast Asia) Helldivers 2 joins PlayStation Plus Game Catalog today, Devoid of Liberty update out now",
-      "url": "https://blog.playstation.com/2026/08/12/20260813-helldivers2",
-      "event_at": "2026-08-12T19:13:22+00:00",
-      "event_date": "2026-08-12",
-      "platform": [
-        "playstation",
-        "playstation plus"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-08-12",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "(For Southeast Asia) Helldivers 2 joins PlayStation Plus Game Catalog today, Devoid of Liberty update out now",
-      "url": "https://blog.playstation.com/2026/08/12/20260813-helldivers2",
-      "event_at": "2026-08-12T19:13:22+00:00",
-      "event_date": "2026-08-12",
-      "platform": [
-        "playstation",
-        "playstation plus"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-12",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘파밍 캠프(Farming Camp)’ Nintendo Switch 패키지 예약판매 오늘(23일) 개시",
-      "url": "https://bbs.ruliweb.com/news/read/228063",
-      "event_at": "2026-08-12T19:00:22+00:00",
-      "event_date": "2026-08-12",
-      "platform": [
-        "nintendo",
-        "switch"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-08-12",
-      "genre": [
-        "시뮬레이션",
-        "경영",
-        "farming"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "nintendo",
-        "세가"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘투 포인트 호스피탈 완전 회복 컬렉션’ 패키지 예약판매 오늘(13일) 개시",
-      "url": "https://bbs.ruliweb.com/news/read/228062",
-      "event_at": "2026-08-12T19:00:20+00:00",
-      "event_date": "2026-08-12",
-      "platform": [
-        "스위치"
-      ],
+      "event_model": "patch_note",
+      "title": "에이트스튜디오, ‘블라이트 워 : 사후 처리국’ 첫 업데이트 힘입어 스토어 순위 역주행",
+      "url": "https://bbs.ruliweb.com/news/read/228118",
+      "event_at": "2026-08-13T19:25:21+00:00",
+      "event_date": "2026-08-13",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-08-12",
+      "game_event_key": "patch_note:base:2026-08-13",
       "genre": [
-        "시뮬레이션",
-        "경영"
+        "rpg"
       ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [
-        "세가"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜넥슨 '던전앤파이터 모바일', 신규 시즌 ‘마계’ 및 최고 레벨 확장 업데이트 오늘(13일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/228054",
-      "event_at": "2026-08-12T17:39:19+00:00",
-      "event_date": "2026-08-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "던전앤파이터"
-      ],
-      "normalized_game_title": "던전앤파이터",
-      "edition": "base",
-      "canonical_game_key": "던전앤파이터:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "patch_note:던전앤파이터:base:2026-08-12",
-      "genre": [],
       "release": [
         "업데이트"
       ],
       "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1491,28 +1239,68 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "㈜넥슨 '던전앤파이터 모바일', 신규 시즌 ‘마계’ 및 최고 레벨 확장 업데이트 오늘(13일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/228054",
-      "event_at": "2026-08-12T17:39:19+00:00",
-      "event_date": "2026-08-12",
+      "title": "Laputa Games, 2D 호러 어드벤처 ‘고독방송: 심’ 오늘(14일) 스팀 정식 출시",
+      "url": "https://bbs.ruliweb.com/news/read/228117",
+      "event_at": "2026-08-13T19:10:55+00:00",
+      "event_date": "2026-08-13",
+      "platform": [
+        "steam",
+        "스팀"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-08-13",
+      "genre": [
+        "어드벤처",
+        "인디"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "오픈AI(OpenAI), ‘오픈AI 게임 빌더스 서울’에 ‘리니지’·‘메이플스토리’·‘애니팡’·‘쿠키런’ 개발자가 멘토로 참여",
+      "url": "https://bbs.ruliweb.com/news/read/228112",
+      "event_at": "2026-08-13T17:00:27+00:00",
+      "event_date": "2026-08-13",
       "platform": [],
       "normalized_platform": "",
       "game_title": [
-        "던전앤파이터"
+        "메이플스토리"
       ],
-      "normalized_game_title": "던전앤파이터",
+      "normalized_game_title": "메이플스토리",
       "edition": "base",
-      "canonical_game_key": "던전앤파이터:base",
+      "canonical_game_key": "메이플스토리:base",
       "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:던전앤파이터:base:2026-08-12",
+      "game_event_key": "release_schedule:메이플스토리:base:2026-08-13",
       "genre": [],
-      "release": [
-        "업데이트"
-      ],
+      "release": [],
       "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1532,36 +1320,75 @@
     },
     {
       "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "엔비디아, ‘헬 렛 루즈: 베트남’ 등 최신 게임에 DLSS 적용 확대",
+      "url": "https://bbs.ruliweb.com/news/read/228111",
+      "event_at": "2026-08-13T16:18:39+00:00",
+      "event_date": "2026-08-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-08-13",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
       "event_model": "release_schedule",
-      "title": "내 패드에 E-홀 터졌다!? ‘기어스 오브 워: E-데이’ XBOX 컨트롤러 2종 공개",
-      "url": "https://bbs.ruliweb.com/news/read/228045",
-      "event_at": "2026-08-12T17:20:00+00:00",
-      "event_date": "2026-08-12",
+      "title": "The Gears of War: E-Day Open Beta is Available Now for Everyone",
+      "url": "https://www.xbox.com/en-US/games/store/gears-of-war-e-day-multiplayer-beta/9nhlzs3g6d8h",
+      "event_at": "2026-08-13T10:00:00+00:00",
+      "event_date": "2026-08-13",
       "platform": [
         "xbox"
       ],
       "normalized_platform": "xbox",
       "game_title": [],
       "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
+      "edition": "preview",
+      "canonical_game_key": "xbox:preview",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-12",
+      "game_event_key": "release_schedule:xbox:preview:2026-08-13",
       "genre": [],
       "release": [
-        "출시"
+        "beta"
       ],
       "business_signal": [],
       "studio": [],
       "source_signal": [
-        "community_reaction",
         "game_media_context",
-        "patch",
-        "release"
+        "game_pass",
+        "platform_update",
+        "release_schedule"
       ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
       "version": "",
       "rank": null,
       "market": "",
@@ -1571,85 +1398,243 @@
       ]
     },
     {
-      "source": "루리웹 뉴스",
+      "source": "PlayStation Blog",
       "event_model": "release_schedule",
-      "title": "SPM, 'PL108W 아라'의 텐키리스 버전 'ARA 87' 화이트·베이지 2종  출시",
-      "url": "https://bbs.ruliweb.com/news/read/228053",
-      "event_at": "2026-08-12T17:15:13+00:00",
-      "event_date": "2026-08-12",
+      "title": "Hands-on report: Marvel’s Wolverine",
+      "url": "https://blog.playstation.com/2026/08/13/hands-on-report-marvels-wolverine",
+      "event_at": "2026-08-13T06:00:03+00:00",
+      "event_date": "2026-08-13",
       "platform": [
-        "스위치"
+        "ps5"
       ],
-      "normalized_platform": "",
+      "normalized_platform": "playstation",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-08-12",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-13",
       "genre": [],
       "release": [
-        "출시"
+        "launch"
       ],
       "business_signal": [],
       "studio": [],
       "source_signal": [
-        "community_reaction",
-        "game_media_context",
         "patch",
-        "release"
+        "platform_update",
+        "release_schedule"
       ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
       "version": "",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "game_title"
       ]
     },
     {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "컴투스홀딩스 '소울 스트라이크', 커스텀 픽업 상시 운영 중",
-      "url": "https://bbs.ruliweb.com/news/read/228052",
-      "event_at": "2026-08-12T17:11:41+00:00",
-      "event_date": "2026-08-12",
-      "platform": [],
-      "normalized_platform": "",
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Free Play Days – Gears of War: E-Day Open Beta, Sunderfolk and Asdivine Cross",
+      "url": "https://news.xbox.com/en-us/2026/08/13/template-free-play-days-08-13-2026",
+      "event_at": "2026-08-13T06:00:00+00:00",
+      "event_date": "2026-08-13",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
       "game_title": [],
       "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-08-12",
-      "genre": [],
+      "edition": "preview",
+      "canonical_game_key": "xbox:preview",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:preview:2026-08-13",
+      "genre": [
+        "adventure"
+      ],
       "release": [
-        "업데이트"
+        "beta"
       ],
       "business_signal": [],
-      "studio": [
-        "컴투스"
-      ],
+      "studio": [],
       "source_signal": [
-        "community_reaction",
         "game_media_context",
-        "patch",
-        "release"
+        "game_pass",
+        "platform_update",
+        "release_schedule"
       ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
       "version": "",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "platform",
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
+      "url": "https://blog.playstation.com/2026/08/12/20260813-goy",
+      "event_at": "2026-08-12T19:24:15+00:00",
+      "event_date": "2026-08-12",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-08-12",
+      "genre": [],
+      "release": [
+        "expansion"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
         "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
+      "url": "https://blog.playstation.com/2026/08/12/20260813-goy",
+      "event_at": "2026-08-12T19:24:15+00:00",
+      "event_date": "2026-08-12",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-12",
+      "genre": [],
+      "release": [
+        "expansion"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "(For Southeast Asia) Helldivers 2 joins PlayStation Plus Game Catalog today, Devoid of Liberty update out now",
+      "url": "https://blog.playstation.com/2026/08/12/20260813-helldivers2",
+      "event_at": "2026-08-12T19:13:22+00:00",
+      "event_date": "2026-08-12",
+      "platform": [
+        "playstation",
+        "playstation plus"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-08-12",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "(For Southeast Asia) Helldivers 2 joins PlayStation Plus Game Catalog today, Devoid of Liberty update out now",
+      "url": "https://blog.playstation.com/2026/08/12/20260813-helldivers2",
+      "event_at": "2026-08-12T19:13:22+00:00",
+      "event_date": "2026-08-12",
+      "platform": [
+        "playstation",
+        "playstation plus"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-08-12",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1937,6 +1922,52 @@
       ]
     },
     {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Amazon steps back from MMOs, transfers operations of Throne and Liberty and Lost Art to NC and Smilegate",
+      "url": "https://www.gamesindustry.biz/mmorpg-throne-and-liberty-transitions-from-amazon-game-studios-to-nc-formerly-ncsoft",
+      "event_at": "2026-08-12T04:07:48+00:00",
+      "event_date": "2026-08-12",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "lost ark"
+      ],
+      "normalized_game_title": "lost-ark",
+      "edition": "base",
+      "canonical_game_key": "lost-ark:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:lost-ark:base:2026-08-12",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [
+        "ncsoft",
+        "smilegate"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
       "source": "PlayStation Blog",
       "event_model": "patch_note",
       "title": "Helldivers 2 joins PlayStation Plus Game Catalog today, Devoid of Liberty update out now",
@@ -2151,48 +2182,6 @@
       "genre": [],
       "release": [
         "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Star Wars Zero Company: A New Hope for Turn-Based Tactics",
-      "url": "https://news.xbox.com/en-us/2026/08/11/star-wars-zero-company-preview",
-      "event_at": "2026-08-11T05:00:00+00:00",
-      "event_date": "2026-08-11",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-11",
-      "genre": [
-        "turn-based"
-      ],
-      "release": [
-        "preview"
       ],
       "business_signal": [],
       "studio": [],
@@ -2507,175 +2496,25 @@
         "rank",
         "market"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "FIFA World Cup developer Refactor Games cuts 85% of staff",
-      "url": "https://www.gamesindustry.biz/fifa-world-cup-developer-refactor-games-reportedly-shuttered-by-delphi-interactive",
-      "event_at": "2026-08-03T11:15:39+00:00",
-      "event_date": "2026-08-03",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "fifa"
-      ],
-      "normalized_game_title": "fifa",
-      "edition": "base",
-      "canonical_game_key": "fifa:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:fifa:base:2026-08-03",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "patch_note",
-      "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
-      "url": "https://blog.playstation.com/2026/08/12/20260813-goy",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "version"
-      ],
-      "game_event_key": "patch_note:playstation:base:2026-08-12"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
-      "url": "https://blog.playstation.com/2026/08/12/20260813-goy",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-12"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "patch_note",
-      "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Helldivers 2 joins PlayStation Plus Game Catalog today, Devoid of Liberty update out now",
-      "url": "https://blog.playstation.com/2026/08/12/20260813-helldivers2",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "version"
-      ],
-      "game_event_key": "patch_note:playstation:base:2026-08-12"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Helldivers 2 joins PlayStation Plus Game Catalog today, Devoid of Liberty update out now",
-      "url": "https://blog.playstation.com/2026/08/12/20260813-helldivers2",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-08-12"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘파밍 캠프(Farming Camp)’ Nintendo Switch 패키지 예약판매 오늘(23일) 개시",
-      "url": "https://bbs.ruliweb.com/news/read/228063",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:nintendo:base:2026-08-12"
-    },
-    {
-      "reason": [
         "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘투 포인트 호스피탈 완전 회복 컬렉션’ 패키지 예약판매 오늘(13일) 개시",
-      "url": "https://bbs.ruliweb.com/news/read/228062",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-08-12"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "㈜넥슨 '던전앤파이터 모바일', 신규 시즌 ‘마계’ 및 최고 레벨 확장 업데이트 오늘(13일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/228054",
-      "canonical_game_key": "던전앤파이터:base",
+      "title": "에이트스튜디오, ‘블라이트 워 : 사후 처리국’ 첫 업데이트 힘입어 스토어 순위 역주행",
+      "url": "https://bbs.ruliweb.com/news/read/228118",
+      "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:던전앤파이터:base:2026-08-12"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "㈜넥슨 '던전앤파이터 모바일', 신규 시즌 ‘마계’ 및 최고 레벨 확장 업데이트 오늘(13일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/228054",
-      "canonical_game_key": "던전앤파이터:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:던전앤파이터:base:2026-08-12"
+      "game_event_key": "patch_note:base:2026-08-13"
     },
     {
       "reason": [
@@ -2685,13 +2524,29 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "내 패드에 E-홀 터졌다!? ‘기어스 오브 워: E-데이’ XBOX 컨트롤러 2종 공개",
-      "url": "https://bbs.ruliweb.com/news/read/228045",
-      "canonical_game_key": "xbox:base",
+      "title": "Laputa Games, 2D 호러 어드벤처 ‘고독방송: 심’ 오늘(14일) 스팀 정식 출시",
+      "url": "https://bbs.ruliweb.com/news/read/228117",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-08-12"
+      "game_event_key": "release_schedule:steam:base:2026-08-13"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "오픈AI(OpenAI), ‘오픈AI 게임 빌더스 서울’에 ‘리니지’·‘메이플스토리’·‘애니팡’·‘쿠키런’ 개발자가 멘토로 참여",
+      "url": "https://bbs.ruliweb.com/news/read/228112",
+      "canonical_game_key": "메이플스토리:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:메이플스토리:base:2026-08-13"
     },
     {
       "reason": [
@@ -2699,16 +2554,106 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "SPM, 'PL108W 아라'의 텐키리스 버전 'ARA 87' 화이트·베이지 2종  출시",
-      "url": "https://bbs.ruliweb.com/news/read/228053",
+      "title": "엔비디아, ‘헬 렛 루즈: 베트남’ 등 최신 게임에 DLSS 적용 확대",
+      "url": "https://bbs.ruliweb.com/news/read/228111",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ],
-      "game_event_key": "release_schedule:base:2026-08-12"
+      "game_event_key": "patch_note:base:2026-08-13"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "The Gears of War: E-Day Open Beta is Available Now for Everyone",
+      "url": "https://www.xbox.com/en-US/games/store/gears-of-war-e-day-multiplayer-beta/9nhlzs3g6d8h",
+      "canonical_game_key": "xbox:preview",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:preview:2026-08-13"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Hands-on report: Marvel’s Wolverine",
+      "url": "https://blog.playstation.com/2026/08/13/hands-on-report-marvels-wolverine",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-08-13"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Free Play Days – Gears of War: E-Day Open Beta, Sunderfolk and Asdivine Cross",
+      "url": "https://news.xbox.com/en-us/2026/08/13/template-free-play-days-08-13-2026",
+      "canonical_game_key": "xbox:preview",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:preview:2026-08-13"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
+      "url": "https://blog.playstation.com/2026/08/12/20260813-goy",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:playstation:base:2026-08-12"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "(For Southeast Asia) Ghost of Yōtei Complete Edition Comes to PS5 October 2",
+      "url": "https://blog.playstation.com/2026/08/12/20260813-goy",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-08-12"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "(For Southeast Asia) Helldivers 2 joins PlayStation Plus Game Catalog today, Devoid of Liberty update out now",
+      "url": "https://blog.playstation.com/2026/08/12/20260813-helldivers2",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:playstation:base:2026-08-12"
     }
   ],
   "source_backlog": {
