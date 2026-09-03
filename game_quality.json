@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-02T07:25:45.905788+00:00",
+  "generated_at": "2026-09-03T07:28:58.282375+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 5,
-    "release_schedule_events": 21,
-    "actionable_game_event_count": 27,
-    "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 25,
-    "official_or_trade_event_count": 22,
-    "event_required_field_gap_count": 26,
+    "patch_note_events": 6,
+    "release_schedule_events": 22,
+    "actionable_game_event_count": 29,
+    "canonical_game_key_present_count": 3,
+    "missing_canonical_game_key_count": 26,
+    "official_or_trade_event_count": 23,
+    "event_required_field_gap_count": 27,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -72,10 +72,10 @@
       "status": "fresh",
       "article_count": 10,
       "event_count": 6,
-      "latest_event_at": "2026-08-31T07:00:17+00:00",
-      "age_days": 2.02,
-      "latest_title": "Live TV on PS5 launches today, bringing free ad-supported TV to PS5 players in the U.S.",
-      "latest_url": "https://blog.playstation.com/2026/08/31/live-tv-on-ps5-launches-today-bringing-free-ad-supported-tv-to-ps5-players-in-the-u-s",
+      "latest_event_at": "2026-09-02T06:30:32+00:00",
+      "age_days": 1.04,
+      "latest_title": "Players’ Choice: Vote for August’s best new game",
+      "latest_url": "https://blog.playstation.com/2026/09/02/players-choice-vote-for-augusts-best-new-game-3",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -105,10 +105,10 @@
       "status": "fresh",
       "article_count": 10,
       "event_count": 8,
-      "latest_event_at": "2026-09-01T08:00:00+00:00",
-      "age_days": 0.98,
-      "latest_title": "Settle In and Get Comfortable with the Designed for XBOX Cozy Collection",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/01/designed-for-xbox-cozy-collection",
+      "latest_event_at": "2026-09-02T11:00:00+00:00",
+      "age_days": 0.85,
+      "latest_title": "Strategy and Gameplay Tips for Warshift 2 Machines of Madness, Out Now",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/02/strategy-and-gameplay-tips-for-warshift-2-machines-of-madness-out-now",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 8,
-      "latest_event_at": "2026-08-28T05:27:12+00:00",
-      "age_days": 5.08,
-      "latest_title": "GTA 6 will have a halo effect for the entire industry | Opinion",
-      "latest_url": "https://www.gamesindustry.biz/gta-6-will-have-a-halo-effect-for-the-entire-industry-opinion",
+      "event_count": 9,
+      "latest_event_at": "2026-09-02T00:55:59+00:00",
+      "age_days": 1.27,
+      "latest_title": "Over 700 games launched on Steam in one week for the first time, though 74% had fewer than 10 reviews",
+      "latest_url": "https://www.gamesindustry.biz/over-700-games-launched-on-steam-in-one-week-for-the-first-time-though-74-had-fewer-than-10-reviews",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 5,
-      "latest_event_at": "2026-09-01T20:07:00+00:00",
-      "age_days": 0.47,
-      "latest_title": "넷마블 ‘아스달 연대기: 세 개의 세력’, ‘뉴월드’ 시즌2 오는 8일(화) 시작",
-      "latest_url": "https://bbs.ruliweb.com/news/read/228889",
+      "event_count": 6,
+      "latest_event_at": "2026-09-02T20:37:30+00:00",
+      "age_days": 0.45,
+      "latest_title": "컴투스 ‘낚시의 신’, 루나리움 ‘지중해’ 신규 오픈 등 업데이트 오늘(3일) 실시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/228942",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,10 +1198,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "넷마블 ‘아스달 연대기: 세 개의 세력’, ‘뉴월드’ 시즌2 오는 8일(화) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/228889",
-      "event_at": "2026-09-01T20:07:00+00:00",
-      "event_date": "2026-09-01",
+      "title": "컴투스 ‘낚시의 신’, 루나리움 ‘지중해’ 신규 오픈 등 업데이트 오늘(3일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/228942",
+      "event_at": "2026-09-02T20:37:30+00:00",
+      "event_date": "2026-09-02",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1209,16 +1209,14 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-01",
-      "genre": [
-        "mmorpg"
-      ],
+      "game_event_key": "patch_note:base:2026-09-02",
+      "genre": [],
       "release": [
         "업데이트"
       ],
       "business_signal": [],
       "studio": [
-        "넷마블"
+        "컴투스"
       ],
       "source_signal": [
         "community_reaction",
@@ -1241,10 +1239,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "넷마블 ‘신의 탑: 새로운 세계’, 신규 SSR+ 동료 ‘선우 나래’ 업데이트 오늘(2일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/228885",
-      "event_at": "2026-09-01T19:00:46+00:00",
-      "event_date": "2026-09-01",
+      "title": "넷마블 ‘세븐나이츠 리버스’, 신규 영웅 ‘하연’ 추가 등 대규모 업데이트 오늘(3일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/228941",
+      "event_at": "2026-09-02T20:22:57+00:00",
+      "event_date": "2026-09-02",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1252,10 +1250,8 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-01",
-      "genre": [
-        "rpg"
-      ],
+      "game_event_key": "patch_note:base:2026-09-02",
+      "genre": [],
       "release": [
         "업데이트"
       ],
@@ -1263,47 +1259,6 @@
       "studio": [
         "넷마블"
       ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "IMC게임즈 ‘트리 오브 세이비어’, '사울레' 시즌 등 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/228883",
-      "event_at": "2026-09-01T19:00:43+00:00",
-      "event_date": "2026-09-01",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-01",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1325,26 +1280,70 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘레고 해리 포터 콜렉션’, NS2 디지털 버전 출시 예정",
-      "url": "https://bbs.ruliweb.com/news/read/228880",
-      "event_at": "2026-09-01T17:50:28+00:00",
-      "event_date": "2026-09-01",
+      "title": "‘아르티스 임팩트’ 한국어판 Nintendo Switch 버전 오는 17일(목) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/228939",
+      "event_at": "2026-09-02T19:32:55+00:00",
+      "event_date": "2026-09-02",
       "platform": [
-        "닌텐도",
-        "스위치"
+        "nintendo",
+        "switch"
       ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-09-02",
+      "genre": [
+        "어드벤처",
+        "rpg",
+        "인디"
+      ],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜웹젠 ‘뮤 온라인’, 전투 밸런스 개선 업데이트 사전 이벤트 오늘(3일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/228938",
+      "event_at": "2026-09-02T19:25:34+00:00",
+      "event_date": "2026-09-02",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-01",
-      "genre": [],
+      "game_event_key": "patch_note:base:2026-09-02",
+      "genre": [
+        "mmorpg"
+      ],
       "release": [
-        "출시",
-        "발표",
-        "dlc"
+        "업데이트"
       ],
       "business_signal": [],
       "studio": [],
@@ -1362,17 +1361,17 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ]
     },
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "넷마블 ‘뱀피르’, 신규 이벤트 던전 ‘잔몽의 끝’ 등 대규모 업데이트 오늘(2일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/228879",
-      "event_at": "2026-09-01T17:42:58+00:00",
-      "event_date": "2026-09-01",
+      "title": "㈜넥슨 ‘메이플 키우기’ 신규 보스 레이드 ‘핑크빈’ 업데이트 오늘(3일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/228936",
+      "event_at": "2026-09-02T19:04:48+00:00",
+      "event_date": "2026-09-02",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1380,15 +1379,16 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-01",
-      "genre": [],
+      "game_event_key": "patch_note:base:2026-09-02",
+      "genre": [
+        "rpg"
+      ],
       "release": [
-        "출시",
         "업데이트"
       ],
       "business_signal": [],
       "studio": [
-        "넷마블"
+        "넥슨"
       ],
       "source_signal": [
         "community_reaction",
@@ -1406,6 +1406,376 @@
       "required_field_gaps": [
         "platform",
         "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜스튜디오비사이드 '스타세이비어', 메인스토리 EP.7 '마녀의 장막' 오늘(3일) 업데이트 진행",
+      "url": "https://bbs.ruliweb.com/news/read/228935",
+      "event_at": "2026-09-02T19:00:26+00:00",
+      "event_date": "2026-09-02",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-02",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Strategy and Gameplay Tips for Warshift 2 Machines of Madness, Out Now",
+      "url": "https://news.xbox.com/en-us/2026/09/02/strategy-and-gameplay-tips-for-warshift-2-machines-of-madness-out-now",
+      "event_at": "2026-09-02T11:00:00+00:00",
+      "event_date": "2026-09-02",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-02",
+      "genre": [
+        "fps",
+        "strategy"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Discover the Secrets Waiting Inside Norček Industries in We Were Here Tomorrow",
+      "url": "https://news.xbox.com/en-us/2026/09/02/discover-the-secrets-waiting-inside-norcek-industries-in-we-were-here-tomorrow",
+      "event_at": "2026-09-02T09:00:00+00:00",
+      "event_date": "2026-09-02",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "horizon"
+      ],
+      "normalized_game_title": "horizon",
+      "edition": "base",
+      "canonical_game_key": "horizon:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:horizon:xbox:base:2026-09-02",
+      "genre": [
+        "adventure"
+      ],
+      "release": [
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "BlizzCon 2026 Preview: We’re So Back! | Official XBOX Podcast",
+      "url": "https://news.xbox.com/en-us/2026/09/02/blizzcon-2026-preview-were-so-back-official-xbox-podcast",
+      "event_at": "2026-09-02T08:05:00+00:00",
+      "event_date": "2026-09-02",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-02",
+      "genre": [],
+      "release": [
+        "preview"
+      ],
+      "business_signal": [],
+      "studio": [
+        "blizzard"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Players’ Choice: Vote for August’s best new game",
+      "url": "https://blog.playstation.com/2026/09/02/players-choice-vote-for-augusts-best-new-game-3",
+      "event_at": "2026-09-02T06:30:32+00:00",
+      "event_date": "2026-09-02",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-02",
+      "genre": [
+        "fighting"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Spooky cute puzzler Fangtopia launches on PS5 October 26",
+      "url": "https://blog.playstation.com/2026/09/02/spooky-cute-puzzler-fangtopia-launches-on-ps5-october-26",
+      "event_at": "2026-09-02T05:00:02+00:00",
+      "event_date": "2026-09-02",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-02",
+      "genre": [
+        "puzzle"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "RuneScape Arrives on XBOX for the First Time in 25 Years with Survival Adventure RuneScape: Dragonwilds!",
+      "url": "https://news.xbox.com/en-us/2026/09/02/runescape-dragonwilds-release-date",
+      "event_at": "2026-09-02T05:00:00+00:00",
+      "event_date": "2026-09-02",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-02",
+      "genre": [
+        "adventure",
+        "rpg"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Over 700 games launched on Steam in one week for the first time, though 74% had fewer than 10 reviews",
+      "url": "https://www.gamesindustry.biz/over-700-games-launched-on-steam-in-one-week-for-the-first-time-though-74-had-fewer-than-10-reviews",
+      "event_at": "2026-09-02T00:55:59+00:00",
+      "event_date": "2026-09-02",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-09-02",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "ONTOS: This Horrifying, Tantalizing Thriller Feels Like an Immersive Sim for Puzzle Gaming",
+      "url": "https://news.xbox.com/en-us/2026/09/02/ontos-preview-details-demo",
+      "event_at": "2026-09-02T00:00:00+00:00",
+      "event_date": "2026-09-02",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "preview",
+      "canonical_game_key": "xbox:preview",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:preview:2026-09-02",
+      "genre": [
+        "puzzle"
+      ],
+      "release": [
+        "preview",
+        "demo"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1511,87 +1881,6 @@
         "preview",
         "gamescom"
       ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Rebuilding Better Together for the 1.0 Launch of Young Suns",
-      "url": "https://news.xbox.com/en-us/2026/08/31/rebuilding-better-together-for-the-1-0-launch-of-young-suns",
-      "event_at": "2026-08-31T15:00:00+00:00",
-      "event_date": "2026-08-31",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-31",
-      "genre": [
-        "life sim"
-      ],
-      "release": [
-        "launch",
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "1.0",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Serious Sam: Shatterverse – A Brand New Take on a Classic",
-      "url": "https://news.xbox.com/en-us/2026/08/31/serious-sam-shatterverse",
-      "event_at": "2026-08-31T09:00:00+00:00",
-      "event_date": "2026-08-31",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-31",
-      "genre": [],
-      "release": [],
       "business_signal": [],
       "studio": [],
       "source_signal": [
@@ -1735,88 +2024,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "The Witcher 3: Songs of the Past Will Give Us a Unique Way to Revisit This Beloved World",
-      "url": "https://news.xbox.com/en-us/2026/08/29/the-witcher-3-songs-of-the-past-preview",
-      "event_at": "2026-08-29T03:19:42+00:00",
-      "event_date": "2026-08-29",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-29",
-      "genre": [],
-      "release": [
-        "expansion",
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Fable: Watch Brand New Quest Gameplay from gamescom 2026",
-      "url": "https://news.xbox.com/en-us/2026/08/28/fable-watch-brand-new-quest-gameplay-from-gamescom-2026",
-      "event_at": "2026-08-28T07:00:00+00:00",
-      "event_date": "2026-08-28",
-      "platform": [
-        "xbox",
-        "quest"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-28",
-      "genre": [],
-      "release": [
-        "gamescom"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Official PlayStation Podcast Episode 546: Path of Gamescom",
@@ -1892,85 +2099,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "platform"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Next Week on XBOX: New Games for August 31 to September 4",
-      "url": "https://news.xbox.com/en-us/2026/08/28/next-week-on-xbox-new-games-for-august-31-to-september-4",
-      "event_at": "2026-08-28T05:00:00+00:00",
-      "event_date": "2026-08-28",
-      "platform": [
-        "xbox",
-        "xbox series x",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-28",
-      "genre": [],
-      "release": [
-        "coming soon"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Marvel’s Wolverine: Details on Logan’s mutant abilities, game features, and more",
-      "url": "https://blog.playstation.com/2026/08/28/marvels-wolverine-details-on-logans-mutant-abilities-game-features-and-more",
-      "event_at": "2026-08-28T03:00:54+00:00",
-      "event_date": "2026-08-28",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-28",
-      "genre": [],
-      "release": [
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
       ]
     },
     {
@@ -2097,43 +2225,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "platform"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Scott Pilgrim EX: Bringing three new heroes to life in Back in the Band DLC",
-      "url": "https://blog.playstation.com/2026/08/27/scott-pilgrim-ex-bringing-three-new-heroes-to-life-in-back-in-the-band-dlc",
-      "event_at": "2026-08-27T06:00:41+00:00",
-      "event_date": "2026-08-27",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-08-27",
-      "genre": [],
-      "release": [
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
       ]
     },
     {
@@ -2314,14 +2405,14 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘아스달 연대기: 세 개의 세력’, ‘뉴월드’ 시즌2 오는 8일(화) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/228889",
+      "title": "컴투스 ‘낚시의 신’, 루나리움 ‘지중해’ 신규 오픈 등 업데이트 오늘(3일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/228942",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-09-01"
+      "game_event_key": "patch_note:base:2026-09-02"
     },
     {
       "reason": [
@@ -2331,14 +2422,30 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘신의 탑: 새로운 세계’, 신규 SSR+ 동료 ‘선우 나래’ 업데이트 오늘(2일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/228885",
+      "title": "넷마블 ‘세븐나이츠 리버스’, 신규 영웅 ‘하연’ 추가 등 대규모 업데이트 오늘(3일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/228941",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-09-01"
+      "game_event_key": "patch_note:base:2026-09-02"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘아르티스 임팩트’ 한국어판 Nintendo Switch 버전 오는 17일(목) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/228939",
+      "canonical_game_key": "nintendo:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:nintendo:base:2026-09-02"
     },
     {
       "reason": [
@@ -2348,31 +2455,14 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "IMC게임즈 ‘트리 오브 세이비어’, '사울레' 시즌 등 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/228883",
+      "title": "㈜웹젠 ‘뮤 온라인’, 전투 밸런스 개선 업데이트 사전 이벤트 오늘(3일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/228938",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-09-01"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘레고 해리 포터 콜렉션’, NS2 디지털 버전 출시 예정",
-      "url": "https://bbs.ruliweb.com/news/read/228880",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-09-01"
+      "game_event_key": "patch_note:base:2026-09-02"
     },
     {
       "reason": [
@@ -2382,14 +2472,31 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘뱀피르’, 신규 이벤트 던전 ‘잔몽의 끝’ 등 대규모 업데이트 오늘(2일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/228879",
+      "title": "㈜넥슨 ‘메이플 키우기’ 신규 보스 레이드 ‘핑크빈’ 업데이트 오늘(3일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/228936",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-09-01"
+      "game_event_key": "patch_note:base:2026-09-02"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜스튜디오비사이드 '스타세이비어', 메인스토리 EP.7 '마녀의 장막' 오늘(3일) 업데이트 진행",
+      "url": "https://bbs.ruliweb.com/news/read/228935",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-02"
     },
     {
       "reason": [
@@ -2398,13 +2505,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Settle In and Get Comfortable with the Designed for XBOX Cozy Collection",
-      "url": "https://news.xbox.com/en-us/2026/09/01/designed-for-xbox-cozy-collection",
+      "title": "Strategy and Gameplay Tips for Warshift 2 Machines of Madness, Out Now",
+      "url": "https://news.xbox.com/en-us/2026/09/02/strategy-and-gameplay-tips-for-warshift-2-machines-of-madness-out-now",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-01"
+      "game_event_key": "release_schedule:xbox:base:2026-09-02"
     },
     {
       "reason": [
@@ -2413,28 +2520,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Coming to XBOX Game Pass: RuneScape: Dragonwilds, SpeedRunners 2: King of Speed, The Royal Writ, and More",
-      "url": "https://news.xbox.com/en-us/2026/09/01/xbox-game-pass-update-september-wave-1",
-      "canonical_game_key": "xbox:premium-edition",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-01"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Turok: Origins – A Classic, Arcade-Style Shooter That Celebrates What Shooters Do Best",
-      "url": "https://news.xbox.com/en-us/2026/09/01/turok-origins-gamescom-2026-preview-xbox",
+      "title": "BlizzCon 2026 Preview: We’re So Back! | Official XBOX Podcast",
+      "url": "https://news.xbox.com/en-us/2026/09/02/blizzcon-2026-preview-were-so-back-official-xbox-podcast",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-01"
+      "game_event_key": "release_schedule:xbox:base:2026-09-02"
     },
     {
       "reason": [
@@ -2442,14 +2534,14 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Rebuilding Better Together for the 1.0 Launch of Young Suns",
-      "url": "https://news.xbox.com/en-us/2026/08/31/rebuilding-better-together-for-the-1-0-launch-of-young-suns",
-      "canonical_game_key": "xbox:base",
+      "source": "PlayStation Blog",
+      "title": "Players’ Choice: Vote for August’s best new game",
+      "url": "https://blog.playstation.com/2026/09/02/players-choice-vote-for-augusts-best-new-game-3",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-08-31"
+      "game_event_key": "release_schedule:playstation:base:2026-09-02"
     },
     {
       "reason": [
@@ -2457,14 +2549,14 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Serious Sam: Shatterverse – A Brand New Take on a Classic",
-      "url": "https://news.xbox.com/en-us/2026/08/31/serious-sam-shatterverse",
-      "canonical_game_key": "xbox:base",
+      "source": "PlayStation Blog",
+      "title": "Spooky cute puzzler Fangtopia launches on PS5 October 26",
+      "url": "https://blog.playstation.com/2026/09/02/spooky-cute-puzzler-fangtopia-launches-on-ps5-october-26",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-08-31"
+      "game_event_key": "release_schedule:playstation:base:2026-09-02"
     }
   ],
   "source_backlog": {
