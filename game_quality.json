@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-04T07:31:11.955346+00:00",
+  "generated_at": "2026-09-05T07:12:17.634632+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 0,
-    "patch_note_events": 1,
-    "release_schedule_events": 30,
-    "actionable_game_event_count": 31,
-    "canonical_game_key_present_count": 2,
+    "store_ranking_events": 1,
+    "patch_note_events": 2,
+    "release_schedule_events": 29,
+    "actionable_game_event_count": 32,
+    "canonical_game_key_present_count": 3,
     "missing_canonical_game_key_count": 29,
-    "official_or_trade_event_count": 26,
-    "event_required_field_gap_count": 29,
+    "official_or_trade_event_count": 25,
+    "event_required_field_gap_count": 30,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,9 +71,9 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 11,
+      "event_count": 8,
       "latest_event_at": "2026-09-03T20:00:58+00:00",
-      "age_days": 0.48,
+      "age_days": 1.47,
       "latest_title": "(For Southeast Asia) Jin Sakai returns in Ghost of Yōtei: Most Wanted",
       "latest_url": "https://blog.playstation.com/2026/09/03/20260904-goy",
       "latest_source_signal": [
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 7,
-      "latest_event_at": "2026-09-03T07:58:00+00:00",
-      "age_days": 0.98,
-      "latest_title": "Upcoming Changes to XBOX Cloud Gaming",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/03/xbox-cloud-gaming-changes",
+      "event_count": 9,
+      "latest_event_at": "2026-09-04T09:30:00+00:00",
+      "age_days": 0.9,
+      "latest_title": "Rack up Points in Arcade Hit Railbreak DX, Out Now on XBOX Series X|S & XPA",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/04/rack-up-points-in-arcade-hit-railbreak-dx",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -471,10 +471,10 @@
       "status": "fresh",
       "article_count": 50,
       "event_count": 8,
-      "latest_event_at": "2026-09-02T00:55:59+00:00",
-      "age_days": 2.27,
-      "latest_title": "Over 700 games launched on Steam in one week for the first time, though 74% had fewer than 10 reviews",
-      "latest_url": "https://www.gamesindustry.biz/over-700-games-launched-on-steam-in-one-week-for-the-first-time-though-74-had-fewer-than-10-reviews",
+      "latest_event_at": "2026-09-04T00:09:47+00:00",
+      "age_days": 1.29,
+      "latest_title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
+      "latest_url": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 5,
-      "latest_event_at": "2026-09-03T22:14:04+00:00",
-      "age_days": 0.39,
-      "latest_title": "팀 뱁새, 인크리멘탈 액션 게임 모트렛 '스팀' 론칭",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229018",
+      "event_count": 7,
+      "latest_event_at": "2026-09-04T07:00:00+00:00",
+      "age_days": 1.01,
+      "latest_title": "한국형 워프레임 나린과 타우, 한국팬과 함께한 '워프레임' 텐노 VIP 서울",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229024",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1184,7 +1184,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 1,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1195,6 +1195,547 @@
     }
   ],
   "events": [
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Rack up Points in Arcade Hit Railbreak DX, Out Now on XBOX Series X|S & XPA",
+      "url": "https://news.xbox.com/en-us/2026/09/04/rack-up-points-in-arcade-hit-railbreak-dx",
+      "event_at": "2026-09-04T09:30:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-04",
+      "genre": [
+        "shooter"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Play the Wreck Runners September Update Early with XBOX Insiders",
+      "url": "https://news.xbox.com/en-us/2026/09/04/play-the-wreck-runners-september-update-early-with-xbox-insiders",
+      "event_at": "2026-09-04T09:00:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-04",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Start Your EA SPORTS NHL 27 Season Now With EA Play",
+      "url": "https://news.xbox.com/en-us/2026/09/04/ea-play-september",
+      "event_at": "2026-09-04T08:00:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "xbox",
+        "ea play"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "early-access",
+      "canonical_game_key": "xbox:early-access",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:early-access:2026-09-04",
+      "genre": [
+        "sports"
+      ],
+      "release": [
+        "early access"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "한국형 워프레임 나린과 타우, 한국팬과 함께한 '워프레임' 텐노 VIP 서울",
+      "url": "https://bbs.ruliweb.com/news/read/229024",
+      "event_at": "2026-09-04T07:00:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-04",
+      "genre": [],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Gears of War: E-Day Campaign – Brotherhood and Hope in a Hopeless World | Official XBOX Podcast",
+      "url": "https://news.xbox.com/en-us/2026/09/04/gears-of-war-e-day-campaign-brotherhood-and-hope-in-a-hopeless-world-official-xbox-podcast",
+      "event_at": "2026-09-04T07:00:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-04",
+      "genre": [],
+      "release": [
+        "trailer",
+        "gamescom"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Next Week on XBOX: New Games for September 7 to 11",
+      "url": "https://news.xbox.com/en-us/2026/09/04/next-week-on-xbox-new-games-for-september-7-to-11",
+      "event_at": "2026-09-04T05:00:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-04",
+      "genre": [
+        "sports"
+      ],
+      "release": [
+        "coming soon"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Exodus: Going Hands-on With This Wild Interactive Space Opera",
+      "url": "https://news.xbox.com/en-us/2026/09/04/exodus-preview-hands-on",
+      "event_at": "2026-09-04T04:30:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-04",
+      "genre": [
+        "action"
+      ],
+      "release": [
+        "preview"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "디지털 익스트림즈, 한국 특별 데브스트림 생방송에서 ‘워프레임’ 및 ‘소울프레임’ 신규 업데이트 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229023",
+      "event_at": "2026-09-04T04:17:50+00:00",
+      "event_date": "2026-09-04",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-04",
+      "genre": [],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "XBOX and TCL Partner to Bring XBOX App to TCL Smart TVs",
+      "url": "https://news.xbox.com/en-us/2026/09/04/xbox-app-tcl-smart-tv",
+      "event_at": "2026-09-04T04:00:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-04",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "페이트/엑스트라 레코드, 게임 소개 및 최신 정보",
+      "url": "https://bbs.ruliweb.com/news/read/229022",
+      "event_at": "2026-09-04T03:00:00+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "ps5",
+        "스팀"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-04",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
+      "url": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
+      "event_at": "2026-09-04T00:09:47+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "playstation",
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "gta"
+      ],
+      "normalized_game_title": "gta",
+      "edition": "base",
+      "canonical_game_key": "gta:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "store_ranking:gta:playstation:base:2026-09-04",
+      "genre": [],
+      "release": [
+        "preview"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
+      "url": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
+      "event_at": "2026-09-04T00:09:47+00:00",
+      "event_date": "2026-09-04",
+      "platform": [
+        "playstation",
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "gta"
+      ],
+      "normalized_game_title": "gta",
+      "edition": "base",
+      "canonical_game_key": "gta:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:gta:playstation:base:2026-09-04",
+      "genre": [],
+      "release": [
+        "preview"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "OP.GG, 엔씨(NC) 신작 '타임 테이커즈' 전적 검색 서비스 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/229020",
+      "event_at": "2026-09-03T23:34:36+00:00",
+      "event_date": "2026-09-03",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-09-03",
+      "genre": [
+        "슈터"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -1241,7 +1782,7 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘파이널 판타지 레조넌스’, 체험판 오늘(4일) 배포 및 트레일러 공개",
+      "title": "‘파이널 판타지 레조넌스’ 체험판, 오늘(4일) 배포 및 트레일러 공개",
       "url": "https://bbs.ruliweb.com/news/read/229014",
       "event_at": "2026-09-03T20:45:38+00:00",
       "event_date": "2026-09-03",
@@ -1362,90 +1903,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘칼라드리우스2/다크 엘레멘트’ PS5 및 NS 패키지 예약 판매 오늘(4일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/229008",
-      "event_at": "2026-09-03T19:51:32+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "ps5",
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-03",
-      "genre": [],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "에픽게임즈 , 포트나이트, ·런처·모바일 넘나드는 크로스 플랫폼 음성 채팅 '에픽 파티' 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229006",
-      "event_at": "2026-09-03T19:29:20+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "에픽게임즈"
-      ],
-      "normalized_platform": "",
-      "game_title": [
-        "포트나이트"
-      ],
-      "normalized_game_title": "포트나이트",
-      "edition": "base",
-      "canonical_game_key": "포트나이트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:포트나이트:base:2026-09-03",
-      "genre": [],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
       ]
     },
     {
@@ -1726,49 +2183,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "The Blood of Dawnwalker: Feed Your Hunger Today!",
-      "url": "https://news.xbox.com/en-us/2026/09/03/the-blood-of-dawnwalker-available-today",
-      "event_at": "2026-09-03T05:00:00+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-03",
-      "genre": [
-        "action"
-      ],
-      "release": [
-        "launch",
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Final Fantasy VII Revelation launches on PS5 April 8, 2027",
@@ -1836,284 +2250,6 @@
       "studio": [],
       "source_signal": [
         "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Until Dawn 2 launches January 28",
-      "url": "https://blog.playstation.com/2026/09/03/until-dawn-2-launches-january-28",
-      "event_at": "2026-09-03T04:42:04+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-03",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Gran Turismo 7 Spec  IV update launching in two parts later this year",
-      "url": "https://blog.playstation.com/2026/09/03/gran-turismo-7-spec-iv-update-launching-in-two-parts-later-this-year",
-      "event_at": "2026-09-03T04:39:54+00:00",
-      "event_date": "2026-09-03",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-09-03",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Gran Turismo 7 Spec  IV update launching in two parts later this year",
-      "url": "https://blog.playstation.com/2026/09/03/gran-turismo-7-spec-iv-update-launching-in-two-parts-later-this-year",
-      "event_at": "2026-09-03T04:39:54+00:00",
-      "event_date": "2026-09-03",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-03",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Onimusha: Way of the Sword – The Many Means of Mastery",
-      "url": "https://news.xbox.com/en-us/2026/09/03/onimusha-way-of-the-sword-tips-guide-combat",
-      "event_at": "2026-09-03T03:00:00+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-03",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Strategy and Gameplay Tips for Warshift 2 Machines of Madness, Out Now",
-      "url": "https://news.xbox.com/en-us/2026/09/02/strategy-and-gameplay-tips-for-warshift-2-machines-of-madness-out-now",
-      "event_at": "2026-09-02T11:00:00+00:00",
-      "event_date": "2026-09-02",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-02",
-      "genre": [
-        "fps",
-        "strategy"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Discover the Secrets Waiting Inside Norček Industries in We Were Here Tomorrow",
-      "url": "https://news.xbox.com/en-us/2026/09/02/discover-the-secrets-waiting-inside-norcek-industries-in-we-were-here-tomorrow",
-      "event_at": "2026-09-02T09:00:00+00:00",
-      "event_date": "2026-09-02",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "horizon"
-      ],
-      "normalized_game_title": "horizon",
-      "edition": "base",
-      "canonical_game_key": "horizon:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:horizon:xbox:base:2026-09-02",
-      "genre": [
-        "adventure"
-      ],
-      "release": [
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "BlizzCon 2026 Preview: We’re So Back! | Official XBOX Podcast",
-      "url": "https://news.xbox.com/en-us/2026/09/02/blizzcon-2026-preview-were-so-back-official-xbox-podcast",
-      "event_at": "2026-09-02T08:05:00+00:00",
-      "event_date": "2026-09-02",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-02",
-      "genre": [],
-      "release": [
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [
-        "blizzard"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
         "platform_update",
         "release_schedule"
       ],
@@ -2372,220 +2508,23 @@
       "required_field_gaps": [
         "platform"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "The highlights of Gamescom Opening Night Live 2026",
-      "url": "https://www.gamesindustry.biz/the-highlights-of-gamescom-opening-night-live-2026",
-      "event_at": "2026-08-25T14:23:11+00:00",
-      "event_date": "2026-08-25",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-08-25",
-      "genre": [],
-      "release": [
-        "showcase",
-        "gamescom"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Nvidia announces ray-traced Nanite, native anti-cheat, and DLSS 4.5 at Gamescom 2026",
-      "url": "https://www.gamesindustry.biz/nvidia-brings-ray-traced-nanite-native-anti-cheat-and-dlss-45-to-gamescom-2026-lineup",
-      "event_at": "2026-08-25T09:44:44+00:00",
-      "event_date": "2026-08-25",
-      "platform": [
-        "geforce now"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-08-25",
-      "genre": [],
-      "release": [
-        "gamescom"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "4.5",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "팀 뱁새, 인크리멘탈 액션 게임 모트렛 '스팀' 론칭",
-      "url": "https://bbs.ruliweb.com/news/read/229018",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-09-03"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘파이널 판타지 레조넌스’, 체험판 오늘(4일) 배포 및 트레일러 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229014",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-09-03"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "SUPERTHUMb ‘플레밍 저택의 죽음’ 한국어판, 오늘(4일) 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229013",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-09-03"
-    },
-    {
-      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Jin Sakai returns in Ghost of Yōtei: Most Wanted",
-      "url": "https://blog.playstation.com/2026/09/03/20260904-goy",
-      "canonical_game_key": "playstation:base",
+      "source": "Xbox Wire",
+      "title": "Rack up Points in Arcade Hit Railbreak DX, Out Now on XBOX Series X|S & XPA",
+      "url": "https://news.xbox.com/en-us/2026/09/04/rack-up-points-in-arcade-hit-railbreak-dx",
+      "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-03"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘칼라드리우스2/다크 엘레멘트’ PS5 및 NS 패키지 예약 판매 오늘(4일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/229008",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-03"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "에픽게임즈 , 포트나이트, ·런처·모바일 넘나드는 크로스 플랫폼 음성 채팅 '에픽 파티' 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229006",
-      "canonical_game_key": "포트나이트:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:포트나이트:base:2026-09-03"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Until Dawn 2 launches January 28",
-      "url": "https://blog.playstation.com/2026/09/03/20260904-ud",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-03"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) First look at the Grand Theft Auto VI Limited-Edition DualSense Wireless Controllers",
-      "url": "https://blog.playstation.com/2026/09/03/20260904-gta",
-      "canonical_game_key": "playstation:premium-edition",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:premium-edition:2026-09-03"
+      "game_event_key": "release_schedule:xbox:base:2026-09-04"
     },
     {
       "reason": [
@@ -2594,13 +2533,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Upcoming Changes to XBOX Cloud Gaming",
-      "url": "https://news.xbox.com/en-us/2026/09/03/xbox-cloud-gaming-changes",
+      "title": "Play the Wreck Runners September Update Early with XBOX Insiders",
+      "url": "https://news.xbox.com/en-us/2026/09/04/play-the-wreck-runners-september-update-early-with-xbox-insiders",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-03"
+      "game_event_key": "release_schedule:xbox:base:2026-09-04"
     },
     {
       "reason": [
@@ -2608,14 +2547,124 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "State of Play & State of Play Japan: all announcements, trailers",
-      "url": "https://blog.playstation.com/2026/09/03/state-of-play-state-of-play-japan-all-announcements-trailers",
+      "source": "Xbox Wire",
+      "title": "Start Your EA SPORTS NHL 27 Season Now With EA Play",
+      "url": "https://news.xbox.com/en-us/2026/09/04/ea-play-september",
+      "canonical_game_key": "xbox:early-access",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:early-access:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "한국형 워프레임 나린과 타우, 한국팬과 함께한 '워프레임' 텐노 VIP 서울",
+      "url": "https://bbs.ruliweb.com/news/read/229024",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Gears of War: E-Day Campaign – Brotherhood and Hope in a Hopeless World | Official XBOX Podcast",
+      "url": "https://news.xbox.com/en-us/2026/09/04/gears-of-war-e-day-campaign-brotherhood-and-hope-in-a-hopeless-world-official-xbox-podcast",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Next Week on XBOX: New Games for September 7 to 11",
+      "url": "https://news.xbox.com/en-us/2026/09/04/next-week-on-xbox-new-games-for-september-7-to-11",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Exodus: Going Hands-on With This Wild Interactive Space Opera",
+      "url": "https://news.xbox.com/en-us/2026/09/04/exodus-preview-hands-on",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "디지털 익스트림즈, 한국 특별 데브스트림 생방송에서 ‘워프레임’ 및 ‘소울프레임’ 신규 업데이트 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229023",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "XBOX and TCL Partner to Bring XBOX App to TCL Smart TVs",
+      "url": "https://news.xbox.com/en-us/2026/09/04/xbox-app-tcl-smart-tv",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "페이트/엑스트라 레코드, 게임 소개 및 최신 정보",
+      "url": "https://bbs.ruliweb.com/news/read/229022",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-03"
+      "game_event_key": "release_schedule:playstation:base:2026-09-04"
     }
   ],
   "source_backlog": {
