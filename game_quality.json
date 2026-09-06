@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-05T07:12:17.634632+00:00",
+  "generated_at": "2026-09-06T07:24:42.505482+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 1,
     "patch_note_events": 2,
-    "release_schedule_events": 29,
-    "actionable_game_event_count": 32,
+    "release_schedule_events": 28,
+    "actionable_game_event_count": 31,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 29,
+    "missing_canonical_game_key_count": 28,
     "official_or_trade_event_count": 25,
-    "event_required_field_gap_count": 30,
+    "event_required_field_gap_count": 29,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 8,
       "latest_event_at": "2026-09-03T20:00:58+00:00",
-      "age_days": 1.47,
+      "age_days": 2.47,
       "latest_title": "(For Southeast Asia) Jin Sakai returns in Ghost of Yōtei: Most Wanted",
       "latest_url": "https://blog.playstation.com/2026/09/03/20260904-goy",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 9,
       "latest_event_at": "2026-09-04T09:30:00+00:00",
-      "age_days": 0.9,
+      "age_days": 1.91,
       "latest_title": "Rack up Points in Arcade Hit Railbreak DX, Out Now on XBOX Series X|S & XPA",
       "latest_url": "https://news.xbox.com/en-us/2026/09/04/rack-up-points-in-arcade-hit-railbreak-dx",
       "latest_source_signal": [
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 8,
       "latest_event_at": "2026-09-04T00:09:47+00:00",
-      "age_days": 1.29,
+      "age_days": 2.3,
       "latest_title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
       "latest_url": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 7,
-      "latest_event_at": "2026-09-04T07:00:00+00:00",
-      "age_days": 1.01,
-      "latest_title": "한국형 워프레임 나린과 타우, 한국팬과 함께한 '워프레임' 텐노 VIP 서울",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229024",
+      "event_count": 6,
+      "latest_event_at": "2026-09-05T07:00:00+00:00",
+      "age_days": 1.02,
+      "latest_title": "더 블러드 오브 던워커, 판매량 100만 장",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229026",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,52 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "더 블러드 오브 던워커, 판매량 100만 장",
+      "url": "https://bbs.ruliweb.com/news/read/229026",
+      "event_at": "2026-09-05T07:00:00+00:00",
+      "event_date": "2026-09-05",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-09-05",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "출시",
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [
+        "반다이남코"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
     {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
@@ -1755,95 +1801,6 @@
       "game_event_key": "release_schedule:base:2026-09-03",
       "genre": [
         "액션"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘파이널 판타지 레조넌스’ 체험판, 오늘(4일) 배포 및 트레일러 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229014",
-      "event_at": "2026-09-03T20:45:38+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-03",
-      "genre": [
-        "rpg"
-      ],
-      "release": [
-        "출시",
-        "트레일러"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "SUPERTHUMb ‘플레밍 저택의 죽음’ 한국어판, 오늘(4일) 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229013",
-      "event_at": "2026-09-03T20:24:56+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-03",
-      "genre": [
-        "어드벤처",
-        "인디"
       ],
       "release": [
         "출시"
@@ -2513,6 +2470,23 @@
   "daily_review_items": [
     {
       "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "더 블러드 오브 던워커, 판매량 100만 장",
+      "url": "https://bbs.ruliweb.com/news/read/229026",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-09-05"
+    },
+    {
+      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
@@ -2649,22 +2623,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-09-04"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "페이트/엑스트라 레코드, 게임 소개 및 최신 정보",
-      "url": "https://bbs.ruliweb.com/news/read/229022",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-04"
     }
   ],
   "source_backlog": {
