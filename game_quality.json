@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-06T07:24:42.505482+00:00",
+  "generated_at": "2026-09-07T07:40:18.766286+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 2,
-    "release_schedule_events": 28,
-    "actionable_game_event_count": 31,
+    "patch_note_events": 0,
+    "release_schedule_events": 25,
+    "actionable_game_event_count": 26,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 28,
+    "missing_canonical_game_key_count": 23,
     "official_or_trade_event_count": 25,
-    "event_required_field_gap_count": 29,
+    "event_required_field_gap_count": 24,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 8,
       "latest_event_at": "2026-09-03T20:00:58+00:00",
-      "age_days": 2.47,
+      "age_days": 3.49,
       "latest_title": "(For Southeast Asia) Jin Sakai returns in Ghost of Yōtei: Most Wanted",
       "latest_url": "https://blog.playstation.com/2026/09/03/20260904-goy",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 9,
       "latest_event_at": "2026-09-04T09:30:00+00:00",
-      "age_days": 1.91,
+      "age_days": 2.92,
       "latest_title": "Rack up Points in Arcade Hit Railbreak DX, Out Now on XBOX Series X|S & XPA",
       "latest_url": "https://news.xbox.com/en-us/2026/09/04/rack-up-points-in-arcade-hit-railbreak-dx",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 8,
       "latest_event_at": "2026-09-04T00:09:47+00:00",
-      "age_days": 2.3,
+      "age_days": 3.31,
       "latest_title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
       "latest_url": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 6,
-      "latest_event_at": "2026-09-05T07:00:00+00:00",
-      "age_days": 1.02,
-      "latest_title": "더 블러드 오브 던워커, 판매량 100만 장",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229026",
+      "event_count": 1,
+      "latest_event_at": "2026-09-06T18:00:00+00:00",
+      "age_days": 0.57,
+      "latest_title": "SIEK PlayStation ‘더 클로’ 홍대 팝업 이벤트, 오는 11일(금)부터 20일(일)까지 진행",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229061",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,31 +1198,26 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "더 블러드 오브 던워커, 판매량 100만 장",
-      "url": "https://bbs.ruliweb.com/news/read/229026",
-      "event_at": "2026-09-05T07:00:00+00:00",
-      "event_date": "2026-09-05",
+      "title": "SIEK PlayStation ‘더 클로’ 홍대 팝업 이벤트, 오는 11일(금)부터 20일(일)까지 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229061",
+      "event_at": "2026-09-06T18:00:00+00:00",
+      "event_date": "2026-09-06",
       "platform": [
-        "스팀"
+        "playstation"
       ],
-      "normalized_platform": "",
+      "normalized_platform": "playstation",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-05",
-      "genre": [
-        "rpg"
-      ],
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-06",
+      "genre": [],
       "release": [
-        "출시",
-        "발표"
+        "출시"
       ],
       "business_signal": [],
-      "studio": [
-        "반다이남코"
-      ],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1237,8 +1232,7 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "game_title"
       ]
     },
     {
@@ -1364,46 +1358,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "한국형 워프레임 나린과 타우, 한국팬과 함께한 '워프레임' 텐노 VIP 서울",
-      "url": "https://bbs.ruliweb.com/news/read/229024",
-      "event_at": "2026-09-04T07:00:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-04",
-      "genre": [],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
       ]
     },
     {
@@ -1534,46 +1488,6 @@
       ]
     },
     {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "디지털 익스트림즈, 한국 특별 데브스트림 생방송에서 ‘워프레임’ 및 ‘소울프레임’ 신규 업데이트 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229023",
-      "event_at": "2026-09-04T04:17:50+00:00",
-      "event_date": "2026-09-04",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-04",
-      "genre": [],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "XBOX and TCL Partner to Bring XBOX App to TCL Smart TVs",
@@ -1603,47 +1517,6 @@
       "authority_role": "platform",
       "trust_tier": "T1_authoritative",
       "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "페이트/엑스트라 레코드, 게임 소개 및 최신 정보",
-      "url": "https://bbs.ruliweb.com/news/read/229022",
-      "event_at": "2026-09-04T03:00:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [
-        "ps5",
-        "스팀"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-04",
-      "genre": [],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
       "version": "",
       "rank": null,
       "market": "",
@@ -1740,90 +1613,6 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "OP.GG, 엔씨(NC) 신작 '타임 테이커즈' 전적 검색 서비스 오픈",
-      "url": "https://bbs.ruliweb.com/news/read/229020",
-      "event_at": "2026-09-03T23:34:36+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-03",
-      "genre": [
-        "슈터"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "팀 뱁새, 인크리멘탈 액션 게임 모트렛 '스팀' 론칭",
-      "url": "https://bbs.ruliweb.com/news/read/229018",
-      "event_at": "2026-09-03T22:14:04+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-03",
-      "genre": [
-        "액션"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
     },
     {
       "source": "PlayStation Blog",
@@ -2470,20 +2259,19 @@
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title_platform",
+        "missing_game_title",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "더 블러드 오브 던워커, 판매량 100만 장",
-      "url": "https://bbs.ruliweb.com/news/read/229026",
-      "canonical_game_key": "base",
+      "title": "SIEK PlayStation ‘더 클로’ 홍대 팝업 이벤트, 오는 11일(금)부터 20일(일)까지 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229061",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "game_title"
       ],
-      "game_event_key": "release_schedule:base:2026-09-05"
+      "game_event_key": "release_schedule:playstation:base:2026-09-06"
     },
     {
       "reason": [
@@ -2532,23 +2320,6 @@
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "한국형 워프레임 나린과 타우, 한국팬과 함께한 '워프레임' 텐노 VIP 서울",
-      "url": "https://bbs.ruliweb.com/news/read/229024",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-09-04"
-    },
-    {
-      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
@@ -2594,23 +2365,6 @@
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "디지털 익스트림즈, 한국 특별 데브스트림 생방송에서 ‘워프레임’ 및 ‘소울프레임’ 신규 업데이트 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229023",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-09-04"
-    },
-    {
-      "reason": [
         "missing_game_title",
         "missing_required_fields"
       ],
@@ -2623,6 +2377,36 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_required_fields"
+      ],
+      "event_model": "store_ranking",
+      "source": "GamesIndustry.biz",
+      "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
+      "url": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
+      "canonical_game_key": "gta:playstation:base",
+      "required_field_gaps": [
+        "rank",
+        "market"
+      ],
+      "game_event_key": "store_ranking:gta:playstation:base:2026-09-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "(For Southeast Asia) Jin Sakai returns in Ghost of Yōtei: Most Wanted",
+      "url": "https://blog.playstation.com/2026/09/03/20260904-goy",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-03"
     }
   ],
   "source_backlog": {
