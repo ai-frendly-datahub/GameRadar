@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-07T07:40:18.766286+00:00",
+  "generated_at": "2026-09-08T07:32:14.237654+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 0,
-    "release_schedule_events": 25,
-    "actionable_game_event_count": 26,
+    "patch_note_events": 5,
+    "release_schedule_events": 28,
+    "actionable_game_event_count": 34,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 23,
-    "official_or_trade_event_count": 25,
-    "event_required_field_gap_count": 24,
+    "missing_canonical_game_key_count": 31,
+    "official_or_trade_event_count": 27,
+    "event_required_field_gap_count": 32,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 8,
       "latest_event_at": "2026-09-03T20:00:58+00:00",
-      "age_days": 3.49,
+      "age_days": 4.48,
       "latest_title": "(For Southeast Asia) Jin Sakai returns in Ghost of Yōtei: Most Wanted",
       "latest_url": "https://blog.playstation.com/2026/09/03/20260904-goy",
       "latest_source_signal": [
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 9,
-      "latest_event_at": "2026-09-04T09:30:00+00:00",
-      "age_days": 2.92,
-      "latest_title": "Rack up Points in Arcade Hit Railbreak DX, Out Now on XBOX Series X|S & XPA",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/04/rack-up-points-in-arcade-hit-railbreak-dx",
+      "event_count": 10,
+      "latest_event_at": "2026-09-07T11:00:00+00:00",
+      "age_days": 0.86,
+      "latest_title": "Survive Together in the Strange Worlds: Once Human (F2P) Is Available Now on XBOX Series X|S With Game Pass!",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/07/once-human-on-game-pass",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 8,
-      "latest_event_at": "2026-09-04T00:09:47+00:00",
-      "age_days": 3.31,
-      "latest_title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
-      "latest_url": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
+      "event_count": 9,
+      "latest_event_at": "2026-09-07T06:34:14+00:00",
+      "age_days": 1.04,
+      "latest_title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
+      "latest_url": "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 1,
-      "latest_event_at": "2026-09-06T18:00:00+00:00",
-      "age_days": 0.57,
-      "latest_title": "SIEK PlayStation ‘더 클로’ 홍대 팝업 이벤트, 오는 11일(금)부터 20일(일)까지 진행",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229061",
+      "event_count": 7,
+      "latest_event_at": "2026-09-07T22:00:00+00:00",
+      "age_days": 0.4,
+      "latest_title": "에이스 컴뱃 8: 시브의 날개, 온라인 로비에서 즐길 수 있는 아케이드 게임",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229110",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1197,24 +1197,23 @@
   "events": [
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "SIEK PlayStation ‘더 클로’ 홍대 팝업 이벤트, 오는 11일(금)부터 20일(일)까지 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229061",
-      "event_at": "2026-09-06T18:00:00+00:00",
-      "event_date": "2026-09-06",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
+      "event_model": "patch_note",
+      "title": "에이스 컴뱃 8: 시브의 날개, 온라인 로비에서 즐길 수 있는 아케이드 게임",
+      "url": "https://bbs.ruliweb.com/news/read/229110",
+      "event_at": "2026-09-07T22:00:00+00:00",
+      "event_date": "2026-09-07",
+      "platform": [],
+      "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-06",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-07",
       "genre": [],
       "release": [
-        "출시"
+        "출시",
+        "업데이트"
       ],
       "business_signal": [],
       "studio": [],
@@ -1227,6 +1226,384 @@
       "authority_role": "community_media",
       "trust_tier": "T3_professional",
       "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’, 신규 캐릭터 ‘자비에르’ 오늘(8일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229107",
+      "event_at": "2026-09-07T20:05:42+00:00",
+      "event_date": "2026-09-07",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-07",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "니콘, ZR 펌웨어 업데이트 및 시네마 렌즈 개발… 영상 시장 공략 본격화",
+      "url": "https://bbs.ruliweb.com/news/read/229106",
+      "event_at": "2026-09-07T19:09:34+00:00",
+      "event_date": "2026-09-07",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-07",
+      "genre": [],
+      "release": [
+        "출시",
+        "발표",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "2.00",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "넷마블 '아스달 연대기: 세 개의 세력', 뉴월드 시즌2 오늘(8일) 시작 ‘플레이 통한 성장’",
+      "url": "https://bbs.ruliweb.com/news/read/229105",
+      "event_at": "2026-09-07T19:06:03+00:00",
+      "event_date": "2026-09-07",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-07",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넷마블"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "판 스튜디오 ‘듀엣 나이트 어비스’, 1.6 버전 ‘낙원의 22번째 하얀 토끼’ 업데이트 오늘(8일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229104",
+      "event_at": "2026-09-07T17:41:03+00:00",
+      "event_date": "2026-09-07",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-07",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.6",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "그라비티 게임 비전(GGV), 첫 오픈월드 MMORPG ‘라그나로크(Ragnarok): The New World’ 흥행",
+      "url": "https://bbs.ruliweb.com/news/read/229102",
+      "event_at": "2026-09-07T16:46:55+00:00",
+      "event_date": "2026-09-07",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-09-07",
+      "genre": [
+        "mmorpg",
+        "오픈월드"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Kyuyu Games, 키캡 ASMR 인크리멘탈 게임 ‘Keycap Keycap!’, Steam 상점·발표 트레일러 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229098",
+      "event_at": "2026-09-07T16:15:28+00:00",
+      "event_date": "2026-09-07",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-09-07",
+      "genre": [],
+      "release": [
+        "발표",
+        "트레일러"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Survive Together in the Strange Worlds: Once Human (F2P) Is Available Now on XBOX Series X|S With Game Pass!",
+      "url": "https://news.xbox.com/en-us/2026/09/07/once-human-on-game-pass",
+      "event_at": "2026-09-07T11:00:00+00:00",
+      "event_date": "2026-09-07",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-07",
+      "genre": [
+        "shooter"
+      ],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
+      "url": "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
+      "event_at": "2026-09-07T06:34:14+00:00",
+      "event_date": "2026-09-07",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-09-07",
+      "genre": [
+        "strategy",
+        "roguelike"
+      ],
+      "release": [
+        "showcase"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Five Reasons to Race into HOT WHEELS Infinite Rush, Out in Early Access Today",
+      "url": "https://news.xbox.com/en-us/2026/09/07/hot-wheels-infinite-rush-early-access-xbox",
+      "event_at": "2026-09-07T06:00:00+00:00",
+      "event_date": "2026-09-07",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "early-access",
+      "canonical_game_key": "xbox:early-access",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:early-access:2026-09-07",
+      "genre": [
+        "racing"
+      ],
+      "release": [
+        "launch",
+        "early access"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
       "version": "",
       "rank": null,
       "market": "",
@@ -1802,47 +2179,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Free Play Days – EA Sports College Football 27, The Survivalists, The Lonesome Guild, and Under The Waves",
-      "url": "https://news.xbox.com/en-us/2026/09/03/free-play-days-09-03-2026",
-      "event_at": "2026-09-03T06:00:00+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "xbox:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-03",
-      "genre": [
-        "sports"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Rhapsody in Scarlet announced for PS5",
@@ -2259,19 +2595,119 @@
   "daily_review_items": [
     {
       "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "에이스 컴뱃 8: 시브의 날개, 온라인 로비에서 즐길 수 있는 아케이드 게임",
+      "url": "https://bbs.ruliweb.com/news/read/229110",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-07"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’, 신규 캐릭터 ‘자비에르’ 오늘(8일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229107",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-07"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "니콘, ZR 펌웨어 업데이트 및 시네마 렌즈 개발… 영상 시장 공략 본격화",
+      "url": "https://bbs.ruliweb.com/news/read/229106",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "patch_note:base:2026-09-07"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "넷마블 '아스달 연대기: 세 개의 세력', 뉴월드 시즌2 오늘(8일) 시작 ‘플레이 통한 성장’",
+      "url": "https://bbs.ruliweb.com/news/read/229105",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-07"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "판 스튜디오 ‘듀엣 나이트 어비스’, 1.6 버전 ‘낙원의 22번째 하얀 토끼’ 업데이트 오늘(8일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229104",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "patch_note:base:2026-09-07"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "그라비티 게임 비전(GGV), 첫 오픈월드 MMORPG ‘라그나로크(Ragnarok): The New World’ 흥행",
+      "url": "https://bbs.ruliweb.com/news/read/229102",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-09-07"
+    },
+    {
+      "reason": [
         "missing_game_title",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "SIEK PlayStation ‘더 클로’ 홍대 팝업 이벤트, 오는 11일(금)부터 20일(일)까지 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229061",
-      "canonical_game_key": "playstation:base",
+      "title": "Kyuyu Games, 키캡 ASMR 인크리멘탈 게임 ‘Keycap Keycap!’, Steam 상점·발표 트레일러 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229098",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-06"
+      "game_event_key": "release_schedule:steam:base:2026-09-07"
     },
     {
       "reason": [
@@ -2280,13 +2716,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Rack up Points in Arcade Hit Railbreak DX, Out Now on XBOX Series X|S & XPA",
-      "url": "https://news.xbox.com/en-us/2026/09/04/rack-up-points-in-arcade-hit-railbreak-dx",
+      "title": "Survive Together in the Strange Worlds: Once Human (F2P) Is Available Now on XBOX Series X|S With Game Pass!",
+      "url": "https://news.xbox.com/en-us/2026/09/07/once-human-on-game-pass",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-04"
+      "game_event_key": "release_schedule:xbox:base:2026-09-07"
     },
     {
       "reason": [
@@ -2294,14 +2730,14 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Play the Wreck Runners September Update Early with XBOX Insiders",
-      "url": "https://news.xbox.com/en-us/2026/09/04/play-the-wreck-runners-september-update-early-with-xbox-insiders",
-      "canonical_game_key": "xbox:base",
+      "source": "GamesIndustry.biz",
+      "title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
+      "url": "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-04"
+      "game_event_key": "release_schedule:steam:base:2026-09-07"
     },
     {
       "reason": [
@@ -2310,103 +2746,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Start Your EA SPORTS NHL 27 Season Now With EA Play",
-      "url": "https://news.xbox.com/en-us/2026/09/04/ea-play-september",
+      "title": "Five Reasons to Race into HOT WHEELS Infinite Rush, Out in Early Access Today",
+      "url": "https://news.xbox.com/en-us/2026/09/07/hot-wheels-infinite-rush-early-access-xbox",
       "canonical_game_key": "xbox:early-access",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:early-access:2026-09-04"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Gears of War: E-Day Campaign – Brotherhood and Hope in a Hopeless World | Official XBOX Podcast",
-      "url": "https://news.xbox.com/en-us/2026/09/04/gears-of-war-e-day-campaign-brotherhood-and-hope-in-a-hopeless-world-official-xbox-podcast",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-04"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Next Week on XBOX: New Games for September 7 to 11",
-      "url": "https://news.xbox.com/en-us/2026/09/04/next-week-on-xbox-new-games-for-september-7-to-11",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-04"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Exodus: Going Hands-on With This Wild Interactive Space Opera",
-      "url": "https://news.xbox.com/en-us/2026/09/04/exodus-preview-hands-on",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-04"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "XBOX and TCL Partner to Bring XBOX App to TCL Smart TVs",
-      "url": "https://news.xbox.com/en-us/2026/09/04/xbox-app-tcl-smart-tv",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-04"
-    },
-    {
-      "reason": [
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
-      "url": "https://www.gamesindustry.biz/gta-6-netflix-preview-causes-playstation-and-xbox-hardware-sales-to-jump-in-the-uk",
-      "canonical_game_key": "gta:playstation:base",
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:gta:playstation:base:2026-09-04"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Jin Sakai returns in Ghost of Yōtei: Most Wanted",
-      "url": "https://blog.playstation.com/2026/09/03/20260904-goy",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-03"
+      "game_event_key": "release_schedule:xbox:early-access:2026-09-07"
     }
   ],
   "source_backlog": {
