@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-08T07:32:14.237654+00:00",
+  "generated_at": "2026-09-09T07:40:11.248078+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 5,
-    "release_schedule_events": 28,
+    "patch_note_events": 6,
+    "release_schedule_events": 27,
     "actionable_game_event_count": 34,
-    "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 31,
-    "official_or_trade_event_count": 27,
-    "event_required_field_gap_count": 32,
+    "canonical_game_key_present_count": 7,
+    "missing_canonical_game_key_count": 27,
+    "official_or_trade_event_count": 26,
+    "event_required_field_gap_count": 29,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 8,
-      "latest_event_at": "2026-09-03T20:00:58+00:00",
-      "age_days": 4.48,
-      "latest_title": "(For Southeast Asia) Jin Sakai returns in Ghost of Yōtei: Most Wanted",
-      "latest_url": "https://blog.playstation.com/2026/09/03/20260904-goy",
+      "event_count": 9,
+      "latest_event_at": "2026-09-08T09:43:44+00:00",
+      "age_days": 0.91,
+      "latest_title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
+      "latest_url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 10,
-      "latest_event_at": "2026-09-07T11:00:00+00:00",
-      "age_days": 0.86,
-      "latest_title": "Survive Together in the Strange Worlds: Once Human (F2P) Is Available Now on XBOX Series X|S With Game Pass!",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/07/once-human-on-game-pass",
+      "event_count": 9,
+      "latest_event_at": "2026-09-08T08:30:00+00:00",
+      "age_days": 0.97,
+      "latest_title": "Call of Duty: Black Ops 7 and Call of Duty: Warzone Season 06 Content Drop: The Haunting",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/08/call-of-duty-black-ops-7-and-call-of-duty-warzone-season-06-content-drop-the-haunting",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,9 +470,9 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 9,
+      "event_count": 8,
       "latest_event_at": "2026-09-07T06:34:14+00:00",
-      "age_days": 1.04,
+      "age_days": 2.05,
       "latest_title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
       "latest_url": "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 15,
-      "event_count": 7,
-      "latest_event_at": "2026-09-07T22:00:00+00:00",
-      "age_days": 0.4,
-      "latest_title": "에이스 컴뱃 8: 시브의 날개, 온라인 로비에서 즐길 수 있는 아케이드 게임",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229110",
+      "article_count": 14,
+      "event_count": 8,
+      "latest_event_at": "2026-09-08T22:38:58+00:00",
+      "age_days": 0.38,
+      "latest_title": "‘소닉 레이싱 크로스월드’ 무료 업데이트 '아미고'('Samba de Amigo' 시리즈) 오늘(9일) 배포",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229160",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,10 +1198,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "에이스 컴뱃 8: 시브의 날개, 온라인 로비에서 즐길 수 있는 아케이드 게임",
-      "url": "https://bbs.ruliweb.com/news/read/229110",
-      "event_at": "2026-09-07T22:00:00+00:00",
-      "event_date": "2026-09-07",
+      "title": "‘소닉 레이싱 크로스월드’ 무료 업데이트 '아미고'('Samba de Amigo' 시리즈) 오늘(9일) 배포",
+      "url": "https://bbs.ruliweb.com/news/read/229160",
+      "event_at": "2026-09-08T22:38:58+00:00",
+      "event_date": "2026-09-08",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1209,14 +1209,17 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-07",
-      "genre": [],
+      "game_event_key": "patch_note:base:2026-09-08",
+      "genre": [
+        "레이싱"
+      ],
       "release": [
-        "출시",
         "업데이트"
       ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "세가"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1238,10 +1241,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’, 신규 캐릭터 ‘자비에르’ 오늘(8일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229107",
-      "event_at": "2026-09-07T20:05:42+00:00",
-      "event_date": "2026-09-07",
+      "title": "넷마블 ‘RF 온라인 넥스트’, ‘코어월드 II: 월드 크리에이터’ 등 9월 대규모 업데이트 오늘(9일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/229157",
+      "event_at": "2026-09-08T21:05:48+00:00",
+      "event_date": "2026-09-08",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1249,86 +1252,7 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-07",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "니콘, ZR 펌웨어 업데이트 및 시네마 렌즈 개발… 영상 시장 공략 본격화",
-      "url": "https://bbs.ruliweb.com/news/read/229106",
-      "event_at": "2026-09-07T19:09:34+00:00",
-      "event_date": "2026-09-07",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-07",
-      "genre": [],
-      "release": [
-        "출시",
-        "발표",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "2.00",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "넷마블 '아스달 연대기: 세 개의 세력', 뉴월드 시즌2 오늘(8일) 시작 ‘플레이 통한 성장’",
-      "url": "https://bbs.ruliweb.com/news/read/229105",
-      "event_at": "2026-09-07T19:06:03+00:00",
-      "event_date": "2026-09-07",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-07",
+      "game_event_key": "patch_note:base:2026-09-08",
       "genre": [
         "mmorpg"
       ],
@@ -1359,28 +1283,33 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "판 스튜디오 ‘듀엣 나이트 어비스’, 1.6 버전 ‘낙원의 22번째 하얀 토끼’ 업데이트 오늘(8일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229104",
-      "event_at": "2026-09-07T17:41:03+00:00",
-      "event_date": "2026-09-07",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-07",
-      "genre": [
-        "액션",
-        "rpg"
+      "event_model": "release_schedule",
+      "title": "‘젤다의 전설 시간의 오카리나’ NS2 버전 11월 5일(목) 발매 및 ‘젤다의 전설 40주년’ 특별 디자인 NS2와 주변기기 10월 29일(목) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/229156",
+      "event_at": "2026-09-08T21:00:20+00:00",
+      "event_date": "2026-09-08",
+      "platform": [
+        "nintendo",
+        "닌텐도",
+        "switch"
       ],
+      "normalized_platform": "nintendo",
+      "game_title": [
+        "젤다"
+      ],
+      "normalized_game_title": "젤다",
+      "edition": "base",
+      "canonical_game_key": "젤다:nintendo:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:젤다:nintendo:base:2026-09-08",
+      "genre": [],
       "release": [
-        "업데이트"
+        "발표"
       ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "nintendo"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1390,38 +1319,37 @@
       "authority_role": "community_media",
       "trust_tier": "T3_professional",
       "producer_role": "community_media",
-      "version": "1.6",
+      "version": "",
       "rank": null,
       "market": "",
       "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
+      "required_field_gaps": []
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "그라비티 게임 비전(GGV), 첫 오픈월드 MMORPG ‘라그나로크(Ragnarok): The New World’ 흥행",
-      "url": "https://bbs.ruliweb.com/news/read/229102",
-      "event_at": "2026-09-07T16:46:55+00:00",
-      "event_date": "2026-09-07",
-      "platform": [
-        "스팀"
-      ],
+      "event_model": "patch_note",
+      "title": "㈜엔씨 ‘아이온2’, 신규 성역 ‘비탄의 설원’ 업데이트 오늘(9일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229155",
+      "event_at": "2026-09-08T20:34:15+00:00",
+      "event_date": "2026-09-08",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-07",
+      "game_event_key": "patch_note:base:2026-09-08",
       "genre": [
-        "mmorpg",
-        "오픈월드"
+        "mmorpg"
       ],
-      "release": [],
+      "release": [
+        "업데이트"
+      ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "엔씨소프트"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1436,34 +1364,41 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ]
     },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "Kyuyu Games, 키캡 ASMR 인크리멘탈 게임 ‘Keycap Keycap!’, Steam 상점·발표 트레일러 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229098",
-      "event_at": "2026-09-07T16:15:28+00:00",
-      "event_date": "2026-09-07",
+      "title": "‘코드 베인 Ⅱ’ 한국어판 확장 DLC ‘Mask of Idris’ 오늘(9일) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/229153",
+      "event_at": "2026-09-08T17:58:20+00:00",
+      "event_date": "2026-09-08",
       "platform": [
+        "ps5",
+        "xbox",
+        "xbox series x",
         "steam"
       ],
-      "normalized_platform": "steam",
+      "normalized_platform": "playstation",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "steam:base",
+      "canonical_game_key": "playstation:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-09-07",
-      "genre": [],
+      "game_event_key": "release_schedule:playstation:base:2026-09-08",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
       "release": [
-        "발표",
-        "트레일러"
+        "dlc"
       ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "반다이남코"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1480,6 +1415,247 @@
       "required_field_gaps": [
         "game_title"
       ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, 9월 업데이트로 신규 테마 모드 ‘블러드헌트’ 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/229147",
+      "event_at": "2026-09-08T17:20:48+00:00",
+      "event_date": "2026-09-08",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "배틀그라운드"
+      ],
+      "normalized_game_title": "배틀그라운드",
+      "edition": "base",
+      "canonical_game_key": "배틀그라운드:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "patch_note:배틀그라운드:base:2026-09-08",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "크래프톤"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, 9월 업데이트로 신규 테마 모드 ‘블러드헌트’ 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/229147",
+      "event_at": "2026-09-08T17:20:48+00:00",
+      "event_date": "2026-09-08",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "배틀그라운드"
+      ],
+      "normalized_game_title": "배틀그라운드",
+      "edition": "base",
+      "canonical_game_key": "배틀그라운드:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:배틀그라운드:base:2026-09-08",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "크래프톤"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜넥슨 ‘카트라이더 러쉬플러스’, ‘알파드라이브원’와 컬래버레이션 예고",
+      "url": "https://bbs.ruliweb.com/news/read/229146",
+      "event_at": "2026-09-08T17:15:37+00:00",
+      "event_date": "2026-09-08",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-08",
+      "genre": [],
+      "release": [
+        "발표",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
+      "url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17",
+      "event_at": "2026-09-08T09:43:44+00:00",
+      "event_date": "2026-09-08",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "season-06",
+      "canonical_game_key": "call-of-duty:playstation:season-06",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "patch_note:call-of-duty:playstation:season-06:2026-09-08",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
+      "url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17",
+      "event_at": "2026-09-08T09:43:44+00:00",
+      "event_date": "2026-09-08",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "season-06",
+      "canonical_game_key": "call-of-duty:playstation:season-06",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:playstation:season-06:2026-09-08",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Call of Duty: Black Ops 7 and Call of Duty: Warzone Season 06 Content Drop: The Haunting",
+      "url": "https://news.xbox.com/en-us/2026/09/08/call-of-duty-black-ops-7-and-call-of-duty-warzone-season-06-content-drop-the-haunting",
+      "event_at": "2026-09-08T08:30:00+00:00",
+      "event_date": "2026-09-08",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "season-06",
+      "canonical_game_key": "call-of-duty:xbox:season-06",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:season-06:2026-09-08",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
     },
     {
       "source": "Xbox Wire",
@@ -1865,44 +2041,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "XBOX and TCL Partner to Bring XBOX App to TCL Smart TVs",
-      "url": "https://news.xbox.com/en-us/2026/09/04/xbox-app-tcl-smart-tv",
-      "event_at": "2026-09-04T04:00:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-04",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
@@ -2103,45 +2241,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Upcoming Changes to XBOX Cloud Gaming",
-      "url": "https://news.xbox.com/en-us/2026/09/03/xbox-cloud-gaming-changes",
-      "event_at": "2026-09-03T07:58:00+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-03",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "State of Play & State of Play Japan: all announcements, trailers",
@@ -2308,43 +2407,6 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "First look at the Grand Theft Auto VI Limited-Edition DualSense Wireless Controllers",
-      "url": "https://blog.playstation.com/2026/09/03/first-look-at-the-grand-theft-auto-vi-limited-edition-dualsense-wireless-controllers",
-      "event_at": "2026-09-03T04:46:10+00:00",
-      "event_date": "2026-09-03",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "playstation:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:premium-edition:2026-09-03",
-      "genre": [],
-      "release": [
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     },
     {
       "source": "GamesIndustry.biz",
@@ -2549,47 +2611,6 @@
       "required_field_gaps": [
         "platform"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Newzoo: 2026 console revenue would be flat year-on-year without Grand Theft Auto 6",
-      "url": "https://www.gamesindustry.biz/newzoo-2026-console-revenue-would-be-flat-year-on-year-without-grand-theft-auto-6",
-      "event_at": "2026-08-27T03:22:00+00:00",
-      "event_date": "2026-08-27",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-08-27",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2601,14 +2622,14 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "에이스 컴뱃 8: 시브의 날개, 온라인 로비에서 즐길 수 있는 아케이드 게임",
-      "url": "https://bbs.ruliweb.com/news/read/229110",
+      "title": "‘소닉 레이싱 크로스월드’ 무료 업데이트 '아미고'('Samba de Amigo' 시리즈) 오늘(9일) 배포",
+      "url": "https://bbs.ruliweb.com/news/read/229160",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-09-07"
+      "game_event_key": "patch_note:base:2026-09-08"
     },
     {
       "reason": [
@@ -2618,80 +2639,43 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’, 신규 캐릭터 ‘자비에르’ 오늘(8일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229107",
+      "title": "넷마블 ‘RF 온라인 넥스트’, ‘코어월드 II: 월드 크리에이터’ 등 9월 대규모 업데이트 오늘(9일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/229157",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-09-07"
+      "game_event_key": "patch_note:base:2026-09-08"
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "니콘, ZR 펌웨어 업데이트 및 시네마 렌즈 개발… 영상 시장 공략 본격화",
-      "url": "https://bbs.ruliweb.com/news/read/229106",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "patch_note:base:2026-09-07"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "넷마블 '아스달 연대기: 세 개의 세력', 뉴월드 시즌2 오늘(8일) 시작 ‘플레이 통한 성장’",
-      "url": "https://bbs.ruliweb.com/news/read/229105",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-09-07"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "판 스튜디오 ‘듀엣 나이트 어비스’, 1.6 버전 ‘낙원의 22번째 하얀 토끼’ 업데이트 오늘(8일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229104",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "patch_note:base:2026-09-07"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "그라비티 게임 비전(GGV), 첫 오픈월드 MMORPG ‘라그나로크(Ragnarok): The New World’ 흥행",
-      "url": "https://bbs.ruliweb.com/news/read/229102",
+      "title": "‘젤다의 전설 시간의 오카리나’ NS2 버전 11월 5일(목) 발매 및 ‘젤다의 전설 40주년’ 특별 디자인 NS2와 주변기기 10월 29일(목) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/229156",
+      "canonical_game_key": "젤다:nintendo:base",
+      "required_field_gaps": [],
+      "game_event_key": "release_schedule:젤다:nintendo:base:2026-09-08"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜엔씨 ‘아이온2’, 신규 성역 ‘비탄의 설원’ 업데이트 오늘(9일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229155",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ],
-      "game_event_key": "release_schedule:base:2026-09-07"
+      "game_event_key": "patch_note:base:2026-09-08"
     },
     {
       "reason": [
@@ -2701,13 +2685,77 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "Kyuyu Games, 키캡 ASMR 인크리멘탈 게임 ‘Keycap Keycap!’, Steam 상점·발표 트레일러 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229098",
-      "canonical_game_key": "steam:base",
+      "title": "‘코드 베인 Ⅱ’ 한국어판 확장 DLC ‘Mask of Idris’ 오늘(9일) 발매",
+      "url": "https://bbs.ruliweb.com/news/read/229153",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-09-07"
+      "game_event_key": "release_schedule:playstation:base:2026-09-08"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, 9월 업데이트로 신규 테마 모드 ‘블러드헌트’ 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/229147",
+      "canonical_game_key": "배틀그라운드:base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:배틀그라운드:base:2026-09-08"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, 9월 업데이트로 신규 테마 모드 ‘블러드헌트’ 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/229147",
+      "canonical_game_key": "배틀그라운드:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:배틀그라운드:base:2026-09-08"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘카트라이더 러쉬플러스’, ‘알파드라이브원’와 컬래버레이션 예고",
+      "url": "https://bbs.ruliweb.com/news/read/229146",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-08"
+    },
+    {
+      "reason": [
+        "missing_required_fields"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
+      "url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17",
+      "canonical_game_key": "call-of-duty:playstation:season-06",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:call-of-duty:playstation:season-06:2026-09-08"
     },
     {
       "reason": [
@@ -2723,36 +2771,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-09-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
-      "url": "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-09-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Five Reasons to Race into HOT WHEELS Infinite Rush, Out in Early Access Today",
-      "url": "https://news.xbox.com/en-us/2026/09/07/hot-wheels-infinite-rush-early-access-xbox",
-      "canonical_game_key": "xbox:early-access",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:early-access:2026-09-07"
     }
   ],
   "source_backlog": {
