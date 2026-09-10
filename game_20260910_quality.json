@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-09T07:40:11.248078+00:00",
+  "generated_at": "2026-09-10T07:36:21.750470+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 6,
-    "release_schedule_events": 27,
-    "actionable_game_event_count": 34,
-    "canonical_game_key_present_count": 7,
-    "missing_canonical_game_key_count": 27,
-    "official_or_trade_event_count": 26,
-    "event_required_field_gap_count": 29,
+    "patch_note_events": 2,
+    "release_schedule_events": 23,
+    "actionable_game_event_count": 26,
+    "canonical_game_key_present_count": 5,
+    "missing_canonical_game_key_count": 21,
+    "official_or_trade_event_count": 21,
+    "event_required_field_gap_count": 23,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 9,
-      "latest_event_at": "2026-09-08T09:43:44+00:00",
-      "age_days": 0.91,
-      "latest_title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
-      "latest_url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17",
+      "event_count": 8,
+      "latest_event_at": "2026-09-09T06:30:17+00:00",
+      "age_days": 1.05,
+      "latest_title": "PlayStation Plus Game Catalog for September: RuneScape: Dragonwilds, WWE 2K26, Ball x Pit, Date Everything! and more",
+      "latest_url": "https://blog.playstation.com/2026/09/09/playstation-plus-game-catalog-for-september-runescape-dragonwilds-wwe-2k26-ball-x-pit-date-everything-and-more",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 9,
-      "latest_event_at": "2026-09-08T08:30:00+00:00",
-      "age_days": 0.97,
-      "latest_title": "Call of Duty: Black Ops 7 and Call of Duty: Warzone Season 06 Content Drop: The Haunting",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/08/call-of-duty-black-ops-7-and-call-of-duty-warzone-season-06-content-drop-the-haunting",
+      "event_count": 6,
+      "latest_event_at": "2026-09-09T17:30:35+00:00",
+      "age_days": 0.59,
+      "latest_title": "XBOX and KOJIMA PRODUCTIONS Expand Partnership to Publish PHYSINT",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/09/xbox-and-kojima-productions-expand-partnership-to-publish-physint",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 8,
-      "latest_event_at": "2026-09-07T06:34:14+00:00",
-      "age_days": 2.05,
-      "latest_title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
-      "latest_url": "https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market",
+      "event_count": 7,
+      "latest_event_at": "2026-09-09T22:34:19+00:00",
+      "age_days": 0.38,
+      "latest_title": "Xbox to publish Kojima Productions' Physint after it \"unexpectedly received notice\" from PlayStation that it would cancel the project",
+      "latest_url": "https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 14,
-      "event_count": 8,
-      "latest_event_at": "2026-09-08T22:38:58+00:00",
-      "age_days": 0.38,
-      "latest_title": "‘소닉 레이싱 크로스월드’ 무료 업데이트 '아미고'('Samba de Amigo' 시리즈) 오늘(9일) 배포",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229160",
+      "article_count": 15,
+      "event_count": 5,
+      "latest_event_at": "2026-09-09T22:01:06+00:00",
+      "age_days": 0.4,
+      "latest_title": "㈜넥슨 ‘FC 모바일’ ‘K리그’ 클래스 출시 기념 오프라인 이벤트 실시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229238",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1196,190 +1196,15 @@
   ],
   "events": [
     {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "‘소닉 레이싱 크로스월드’ 무료 업데이트 '아미고'('Samba de Amigo' 시리즈) 오늘(9일) 배포",
-      "url": "https://bbs.ruliweb.com/news/read/229160",
-      "event_at": "2026-09-08T22:38:58+00:00",
-      "event_date": "2026-09-08",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-08",
-      "genre": [
-        "레이싱"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "세가"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "넷마블 ‘RF 온라인 넥스트’, ‘코어월드 II: 월드 크리에이터’ 등 9월 대규모 업데이트 오늘(9일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/229157",
-      "event_at": "2026-09-08T21:05:48+00:00",
-      "event_date": "2026-09-08",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-08",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넷마블"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
+      "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
-      "title": "‘젤다의 전설 시간의 오카리나’ NS2 버전 11월 5일(목) 발매 및 ‘젤다의 전설 40주년’ 특별 디자인 NS2와 주변기기 10월 29일(목) 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229156",
-      "event_at": "2026-09-08T21:00:20+00:00",
-      "event_date": "2026-09-08",
+      "title": "Xbox to publish Kojima Productions' Physint after it \"unexpectedly received notice\" from PlayStation that it would cancel the project",
+      "url": "https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project",
+      "event_at": "2026-09-09T22:34:19+00:00",
+      "event_date": "2026-09-09",
       "platform": [
-        "nintendo",
-        "닌텐도",
-        "switch"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [
-        "젤다"
-      ],
-      "normalized_game_title": "젤다",
-      "edition": "base",
-      "canonical_game_key": "젤다:nintendo:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:젤다:nintendo:base:2026-09-08",
-      "genre": [],
-      "release": [
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜엔씨 ‘아이온2’, 신규 성역 ‘비탄의 설원’ 업데이트 오늘(9일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229155",
-      "event_at": "2026-09-08T20:34:15+00:00",
-      "event_date": "2026-09-08",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-08",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "엔씨소프트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘코드 베인 Ⅱ’ 한국어판 확장 DLC ‘Mask of Idris’ 오늘(9일) 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229153",
-      "event_at": "2026-09-08T17:58:20+00:00",
-      "event_date": "2026-09-08",
-      "platform": [
-        "ps5",
-        "xbox",
-        "xbox series x",
-        "steam"
+        "playstation",
+        "xbox"
       ],
       "normalized_platform": "playstation",
       "game_title": [],
@@ -1387,27 +1212,21 @@
       "edition": "base",
       "canonical_game_key": "playstation:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-08",
-      "genre": [
-        "액션",
-        "rpg"
-      ],
-      "release": [
-        "dlc"
-      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-09",
+      "genre": [],
+      "release": [],
       "business_signal": [],
-      "studio": [
-        "반다이남코"
-      ],
+      "studio": [],
       "source_signal": [
-        "community_reaction",
         "game_media_context",
-        "patch",
-        "release"
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
       ],
-      "authority_role": "community_media",
+      "authority_role": "trade_media",
       "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "producer_role": "trade_media",
       "version": "",
       "rank": null,
       "market": "",
@@ -1418,71 +1237,28 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, 9월 업데이트로 신규 테마 모드 ‘블러드헌트’ 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/229147",
-      "event_at": "2026-09-08T17:20:48+00:00",
-      "event_date": "2026-09-08",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "배틀그라운드"
-      ],
-      "normalized_game_title": "배틀그라운드",
-      "edition": "base",
-      "canonical_game_key": "배틀그라운드:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "patch_note:배틀그라운드:base:2026-09-08",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "크래프톤"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, 9월 업데이트로 신규 테마 모드 ‘블러드헌트’ 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/229147",
-      "event_at": "2026-09-08T17:20:48+00:00",
-      "event_date": "2026-09-08",
+      "title": "㈜넥슨 ‘FC 모바일’ ‘K리그’ 클래스 출시 기념 오프라인 이벤트 실시",
+      "url": "https://bbs.ruliweb.com/news/read/229238",
+      "event_at": "2026-09-09T22:01:06+00:00",
+      "event_date": "2026-09-09",
       "platform": [],
       "normalized_platform": "",
       "game_title": [
-        "배틀그라운드"
+        "fc"
       ],
-      "normalized_game_title": "배틀그라운드",
+      "normalized_game_title": "fc",
       "edition": "base",
-      "canonical_game_key": "배틀그라운드:base",
+      "canonical_game_key": "fc:base",
       "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:배틀그라운드:base:2026-09-08",
+      "game_event_key": "release_schedule:fc:base:2026-09-09",
       "genre": [],
       "release": [
-        "업데이트"
+        "출시"
       ],
       "business_signal": [],
       "studio": [
-        "크래프톤"
+        "넥슨"
       ],
       "source_signal": [
         "community_reaction",
@@ -1503,28 +1279,29 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜넥슨 ‘카트라이더 러쉬플러스’, ‘알파드라이브원’와 컬래버레이션 예고",
-      "url": "https://bbs.ruliweb.com/news/read/229146",
-      "event_at": "2026-09-08T17:15:37+00:00",
-      "event_date": "2026-09-08",
-      "platform": [],
+      "event_model": "release_schedule",
+      "title": "‘메탈 슬러그 얼티밋 콜렉션’ 2027년 발매 예정",
+      "url": "https://bbs.ruliweb.com/news/read/229236",
+      "event_at": "2026-09-09T21:56:30+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "닌텐도",
+        "스위치"
+      ],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-08",
+      "game_event_key": "release_schedule:base:2026-09-09",
       "genre": [],
       "release": [
-        "발표",
-        "업데이트"
+        "출시",
+        "발표"
       ],
       "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1539,8 +1316,533 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "platform",
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "㈜에이치투 인터렉티브, 과즙세연·최연청 출연 FMV 연애 시뮬레이션 게임 ‘선생님, 진도 나갈까요?’ 스팀 데모 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229232",
+      "event_at": "2026-09-09T21:19:51+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-09-09",
+      "genre": [
+        "시뮬레이션"
+      ],
+      "release": [
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Upgraded Studio, SF 증분형 게임 ‘Orebits’, 오늘(10일) Steam 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229230",
+      "event_at": "2026-09-09T20:59:25+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-09-09",
+      "genre": [
+        "어드벤처"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "어셈블 엔터테인먼트 액션 로그라이트 '아스가르드 폴', 1.0 지난 9일(수) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229228",
+      "event_at": "2026-09-09T20:43:37+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-09-09",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.0",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "XBOX and KOJIMA PRODUCTIONS Expand Partnership to Publish PHYSINT",
+      "url": "https://news.xbox.com/en-us/2026/09/09/xbox-and-kojima-productions-expand-partnership-to-publish-physint",
+      "event_at": "2026-09-09T17:30:35+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-09",
+      "genre": [],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Fable: How Playground Games is Building Albion for a New Generation | Official XBOX Podcast",
+      "url": "https://news.xbox.com/en-us/2026/09/09/fable-how-playground-games-is-building-albion-for-a-new-generation-official-xbox-podcast",
+      "event_at": "2026-09-09T11:05:00+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-09",
+      "genre": [],
+      "release": [
+        "gamescom"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Modern Warfare 4 Pre-Order Bonus: Inner Circuit M4 Blueprint",
+      "url": "https://news.xbox.com/en-us/2026/09/09/modern-warfare-4-pre-order-bonus-inner-circuit-m4-blueprint",
+      "event_at": "2026-09-09T09:00:00+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-09",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Available for XBOX Insiders: More Ways to Customize, Play, and Connect",
+      "url": "https://news.xbox.com/en-us/2026/09/09/xbox-insiders-october-2026-console-features-3",
+      "event_at": "2026-09-09T07:00:06+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-09",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "PlayStation Plus Game Catalog for September: RuneScape: Dragonwilds, WWE 2K26, Ball x Pit, Date Everything! and more",
+      "url": "https://blog.playstation.com/2026/09/09/playstation-plus-game-catalog-for-september-runescape-dragonwilds-wwe-2k26-ball-x-pit-date-everything-and-more",
+      "event_at": "2026-09-09T06:30:17+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "playstation",
+        "playstation plus"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-09",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "Introducing No Man’s Sky: Cosmos update, live on PS5 today",
+      "url": "https://blog.playstation.com/2026/09/09/introducing-no-mans-sky-cosmos-update-live-on-ps5-today",
+      "event_at": "2026-09-09T04:00:28+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-09-09",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
         "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Introducing No Man’s Sky: Cosmos update, live on PS5 today",
+      "url": "https://blog.playstation.com/2026/09/09/introducing-no-mans-sky-cosmos-update-live-on-ps5-today",
+      "event_at": "2026-09-09T04:00:28+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-09",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Introducing Dead or Alive 6 Last Round’s new fighter, Minato",
+      "url": "https://blog.playstation.com/2026/09/09/introducing-dead-or-alive-6-last-rounds-new-fighter-minato",
+      "event_at": "2026-09-09T03:00:06+00:00",
+      "event_date": "2026-09-09",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-09",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Gamescom Asia x Thailand Game Show announces exhibitor lineup for 2026",
+      "url": "https://www.gamesindustry.biz/gamescom-asia-x-thailand-game-show-announces-exhibitor-lineup-for-2026",
+      "event_at": "2026-09-09T00:55:55+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "playstation",
+        "nintendo"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-09",
+      "genre": [],
+      "release": [
+        "announced",
+        "gamescom"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo",
+        "capcom",
+        "bandai namco"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Steam achievements for unreleased and unannounced games leak on aggregators such as Exophase and SteamDB",
+      "url": "https://www.gamesindustry.biz/steam-achievements-for-unreleased-and-unannounced-games-leak-on-aggregators-such-as-exophase-and-steamdb",
+      "event_at": "2026-09-09T00:15:34+00:00",
+      "event_date": "2026-09-09",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-09-09",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1746,301 +2048,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Five Reasons to Race into HOT WHEELS Infinite Rush, Out in Early Access Today",
-      "url": "https://news.xbox.com/en-us/2026/09/07/hot-wheels-infinite-rush-early-access-xbox",
-      "event_at": "2026-09-07T06:00:00+00:00",
-      "event_date": "2026-09-07",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "early-access",
-      "canonical_game_key": "xbox:early-access",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:early-access:2026-09-07",
-      "genre": [
-        "racing"
-      ],
-      "release": [
-        "launch",
-        "early access"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Rack up Points in Arcade Hit Railbreak DX, Out Now on XBOX Series X|S & XPA",
-      "url": "https://news.xbox.com/en-us/2026/09/04/rack-up-points-in-arcade-hit-railbreak-dx",
-      "event_at": "2026-09-04T09:30:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-04",
-      "genre": [
-        "shooter"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Play the Wreck Runners September Update Early with XBOX Insiders",
-      "url": "https://news.xbox.com/en-us/2026/09/04/play-the-wreck-runners-september-update-early-with-xbox-insiders",
-      "event_at": "2026-09-04T09:00:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-04",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Start Your EA SPORTS NHL 27 Season Now With EA Play",
-      "url": "https://news.xbox.com/en-us/2026/09/04/ea-play-september",
-      "event_at": "2026-09-04T08:00:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [
-        "xbox",
-        "ea play"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "early-access",
-      "canonical_game_key": "xbox:early-access",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:early-access:2026-09-04",
-      "genre": [
-        "sports"
-      ],
-      "release": [
-        "early access"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Gears of War: E-Day Campaign – Brotherhood and Hope in a Hopeless World | Official XBOX Podcast",
-      "url": "https://news.xbox.com/en-us/2026/09/04/gears-of-war-e-day-campaign-brotherhood-and-hope-in-a-hopeless-world-official-xbox-podcast",
-      "event_at": "2026-09-04T07:00:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-04",
-      "genre": [],
-      "release": [
-        "trailer",
-        "gamescom"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Next Week on XBOX: New Games for September 7 to 11",
-      "url": "https://news.xbox.com/en-us/2026/09/04/next-week-on-xbox-new-games-for-september-7-to-11",
-      "event_at": "2026-09-04T05:00:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [
-        "xbox",
-        "xbox series x",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-04",
-      "genre": [
-        "sports"
-      ],
-      "release": [
-        "coming soon"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Exodus: Going Hands-on With This Wild Interactive Space Opera",
-      "url": "https://news.xbox.com/en-us/2026/09/04/exodus-preview-hands-on",
-      "event_at": "2026-09-04T04:30:00+00:00",
-      "event_date": "2026-09-04",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-04",
-      "genre": [
-        "action"
-      ],
-      "release": [
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "GTA 6 Netflix preview causes PlayStation and Xbox hardware sales to jump in the UK",
@@ -2204,211 +2211,6 @@
       ]
     },
     {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "(For Southeast Asia) First look at the Grand Theft Auto VI Limited-Edition DualSense Wireless Controllers",
-      "url": "https://blog.playstation.com/2026/09/03/20260904-gta",
-      "event_at": "2026-09-03T17:47:41+00:00",
-      "event_date": "2026-09-03",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "playstation:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:premium-edition:2026-09-03",
-      "genre": [],
-      "release": [
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "State of Play & State of Play Japan: all announcements, trailers",
-      "url": "https://blog.playstation.com/2026/09/03/state-of-play-state-of-play-japan-all-announcements-trailers",
-      "event_at": "2026-09-03T06:05:55+00:00",
-      "event_date": "2026-09-03",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-03",
-      "genre": [],
-      "release": [
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Rhapsody in Scarlet announced for PS5",
-      "url": "https://blog.playstation.com/2026/09/03/rhapsody-in-scarlet-announced-for-ps5",
-      "event_at": "2026-09-03T05:33:39+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-03",
-      "genre": [
-        "action"
-      ],
-      "release": [
-        "announced",
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Fate/Extra Record launches Jan 28 2027 on PS5 & PS4",
-      "url": "https://blog.playstation.com/2026/09/03/fate-extra-record-launches-jan-28-2027-on-ps5-ps4",
-      "event_at": "2026-09-03T05:04:38+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "playstation",
-        "ps5",
-        "ps4"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-03",
-      "genre": [],
-      "release": [
-        "announced",
-        "trailer",
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Final Fantasy VII Revelation launches on PS5 April 8, 2027",
-      "url": "https://blog.playstation.com/2026/09/03/final-fantasy-vii-revelation-launches-on-ps5-april-8-2027",
-      "event_at": "2026-09-03T04:57:19+00:00",
-      "event_date": "2026-09-03",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "final fantasy"
-      ],
-      "normalized_game_title": "final-fantasy",
-      "edition": "base",
-      "canonical_game_key": "final-fantasy:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:final-fantasy:playstation:base:2026-09-03",
-      "genre": [
-        "action",
-        "action rpg",
-        "rpg"
-      ],
-      "release": [
-        "launch",
-        "state of play"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
       "title": "Over 700 games launched on Steam in one week for the first time, though 74% had fewer than 10 reviews",
@@ -2446,219 +2248,39 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "GTA 6 will have a halo effect for the entire industry | Opinion",
-      "url": "https://www.gamesindustry.biz/gta-6-will-have-a-halo-effect-for-the-entire-industry-opinion",
-      "event_at": "2026-08-28T05:27:12+00:00",
-      "event_date": "2026-08-28",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-08-28",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Cloud Imperium delays Squadron 42 to 2027 – \"There is no way I want to launch into the attention buzz saw of GTA 6\"",
-      "url": "https://www.gamesindustry.biz/cloud-imperium-delays-squadron-42-to-2027-there-is-no-way-i-want-to-launch-into-the-attention-buzz-saw-of-gta-6",
-      "event_at": "2026-08-28T02:17:59+00:00",
-      "event_date": "2026-08-28",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-08-28",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Sensor Tower: Netflix US mobile viewership increased 35% during GTA 6 extended preview",
-      "url": "https://www.gamesindustry.biz/sensor-tower-netflix-us-mobile-viewership-increased-35-during-gta-6-extended-preview",
-      "event_at": "2026-08-27T23:09:05+00:00",
-      "event_date": "2026-08-27",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-08-27",
-      "genre": [],
-      "release": [
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Grand Theft Auto 6 30-minute teaser debuts on Netflix",
-      "url": "https://www.gamesindustry.biz/grand-theft-auto-6-30-minute-teaser-debuts-on-netflix",
-      "event_at": "2026-08-27T10:33:45+00:00",
-      "event_date": "2026-08-27",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-08-27",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "rockstar",
-        "take-two"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_game_title",
+        "missing_required_fields"
       ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "‘소닉 레이싱 크로스월드’ 무료 업데이트 '아미고'('Samba de Amigo' 시리즈) 오늘(9일) 배포",
-      "url": "https://bbs.ruliweb.com/news/read/229160",
-      "canonical_game_key": "base",
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Xbox to publish Kojima Productions' Physint after it \"unexpectedly received notice\" from PlayStation that it would cancel the project",
+      "url": "https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title"
       ],
-      "game_event_key": "patch_note:base:2026-09-08"
+      "game_event_key": "release_schedule:playstation:base:2026-09-09"
     },
     {
       "reason": [
-        "missing_game_title_platform",
+        "missing_platform",
         "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "넷마블 ‘RF 온라인 넥스트’, ‘코어월드 II: 월드 크리에이터’ 등 9월 대규모 업데이트 오늘(9일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/229157",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-09-08"
-    },
-    {
-      "reason": [
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘젤다의 전설 시간의 오카리나’ NS2 버전 11월 5일(목) 발매 및 ‘젤다의 전설 40주년’ 특별 디자인 NS2와 주변기기 10월 29일(목) 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229156",
-      "canonical_game_key": "젤다:nintendo:base",
-      "required_field_gaps": [],
-      "game_event_key": "release_schedule:젤다:nintendo:base:2026-09-08"
+      "title": "㈜넥슨 ‘FC 모바일’ ‘K리그’ 클래스 출시 기념 오프라인 이벤트 실시",
+      "url": "https://bbs.ruliweb.com/news/read/229238",
+      "canonical_game_key": "fc:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:fc:base:2026-09-09"
     },
     {
       "reason": [
@@ -2666,16 +2288,33 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "patch_note",
+      "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "㈜엔씨 ‘아이온2’, 신규 성역 ‘비탄의 설원’ 업데이트 오늘(9일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229155",
+      "title": "‘메탈 슬러그 얼티밋 콜렉션’ 2027년 발매 예정",
+      "url": "https://bbs.ruliweb.com/news/read/229236",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "patch_note:base:2026-09-08"
+      "game_event_key": "release_schedule:base:2026-09-09"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "㈜에이치투 인터렉티브, 과즙세연·최연청 출연 FMV 연애 시뮬레이션 게임 ‘선생님, 진도 나갈까요?’ 스팀 데모 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229232",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-09-09"
     },
     {
       "reason": [
@@ -2685,46 +2324,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘코드 베인 Ⅱ’ 한국어판 확장 DLC ‘Mask of Idris’ 오늘(9일) 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229153",
-      "canonical_game_key": "playstation:base",
+      "title": "Upgraded Studio, SF 증분형 게임 ‘Orebits’, 오늘(10일) Steam 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229230",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-08"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, 9월 업데이트로 신규 테마 모드 ‘블러드헌트’ 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/229147",
-      "canonical_game_key": "배틀그라운드:base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:배틀그라운드:base:2026-09-08"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "㈜크래프톤 ‘배틀그라운드 모바일’, 9월 업데이트로 신규 테마 모드 ‘블러드헌트’ 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/229147",
-      "canonical_game_key": "배틀그라운드:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:배틀그라운드:base:2026-09-08"
+      "game_event_key": "release_schedule:steam:base:2026-09-09"
     },
     {
       "reason": [
@@ -2732,30 +2338,16 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "patch_note",
+      "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "㈜넥슨 ‘카트라이더 러쉬플러스’, ‘알파드라이브원’와 컬래버레이션 예고",
-      "url": "https://bbs.ruliweb.com/news/read/229146",
+      "title": "어셈블 엔터테인먼트 액션 로그라이트 '아스가르드 폴', 1.0 지난 9일(수) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229228",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "patch_note:base:2026-09-08"
-    },
-    {
-      "reason": [
-        "missing_required_fields"
-      ],
-      "event_model": "patch_note",
-      "source": "PlayStation Blog",
-      "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
-      "url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17",
-      "canonical_game_key": "call-of-duty:playstation:season-06",
-      "required_field_gaps": [
-        "version"
-      ],
-      "game_event_key": "patch_note:call-of-duty:playstation:season-06:2026-09-08"
+      "game_event_key": "release_schedule:base:2026-09-09"
     },
     {
       "reason": [
@@ -2764,13 +2356,58 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Survive Together in the Strange Worlds: Once Human (F2P) Is Available Now on XBOX Series X|S With Game Pass!",
-      "url": "https://news.xbox.com/en-us/2026/09/07/once-human-on-game-pass",
+      "title": "XBOX and KOJIMA PRODUCTIONS Expand Partnership to Publish PHYSINT",
+      "url": "https://news.xbox.com/en-us/2026/09/09/xbox-and-kojima-productions-expand-partnership-to-publish-physint",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-07"
+      "game_event_key": "release_schedule:xbox:base:2026-09-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Fable: How Playground Games is Building Albion for a New Generation | Official XBOX Podcast",
+      "url": "https://news.xbox.com/en-us/2026/09/09/fable-how-playground-games-is-building-albion-for-a-new-generation-official-xbox-podcast",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Modern Warfare 4 Pre-Order Bonus: Inner Circuit M4 Blueprint",
+      "url": "https://news.xbox.com/en-us/2026/09/09/modern-warfare-4-pre-order-bonus-inner-circuit-m4-blueprint",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Available for XBOX Insiders: More Ways to Customize, Play, and Connect",
+      "url": "https://news.xbox.com/en-us/2026/09/09/xbox-insiders-october-2026-console-features-3",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-09"
     }
   ],
   "source_backlog": {
