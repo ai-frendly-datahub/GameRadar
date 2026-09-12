@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-11T07:35:18.701057+00:00",
+  "generated_at": "2026-09-12T07:26:32.981032+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 2,
+    "patch_note_events": 3,
     "release_schedule_events": 22,
-    "actionable_game_event_count": 25,
-    "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 21,
-    "official_or_trade_event_count": 23,
-    "event_required_field_gap_count": 23,
+    "actionable_game_event_count": 26,
+    "canonical_game_key_present_count": 2,
+    "missing_canonical_game_key_count": 24,
+    "official_or_trade_event_count": 22,
+    "event_required_field_gap_count": 25,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 8,
-      "latest_event_at": "2026-09-10T03:00:17+00:00",
-      "age_days": 1.19,
-      "latest_title": "Play your way with Control Resonant’s expanded Assist Mode",
-      "latest_url": "https://blog.playstation.com/2026/09/10/play-your-way-with-control-resonants-expanded-assist-mode",
+      "event_count": 7,
+      "latest_event_at": "2026-09-11T08:43:39+00:00",
+      "age_days": 0.95,
+      "latest_title": "Official PlayStation Podcast Episode 547: Orb-solutely Fabulous",
+      "latest_url": "https://blog.playstation.com/2026/09/11/official-playstation-podcast-episode-547-orb-solutely-fabulous",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 7,
-      "latest_event_at": "2026-09-10T09:00:00+00:00",
-      "age_days": 0.94,
-      "latest_title": "Age of Empires III: Definitive Edition – The Baltic Powers Available Now",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/10/age-of-empires-iii-definitive-edition-the-baltic-powers-available-now",
+      "event_count": 8,
+      "latest_event_at": "2026-09-11T05:00:00+00:00",
+      "age_days": 1.1,
+      "latest_title": "Next Week on XBOX: New Games for September 14 to 18",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/11/next-week-on-xbox-new-games-for-september-14-to-18",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,9 +470,9 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 8,
+      "event_count": 7,
       "latest_event_at": "2026-09-10T04:50:35+00:00",
-      "age_days": 1.11,
+      "age_days": 2.11,
       "latest_title": "GTA 6 Netflix preview drove more than 100,000 sign-ups during its six-hour exclusivity window",
       "latest_url": "https://www.gamesindustry.biz/gta-6-netflix-preview-drove-more-than-100000-sign-ups-during-its-six-hour-exclusivity-window",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 2,
-      "latest_event_at": "2026-09-10T22:04:19+00:00",
-      "age_days": 0.4,
-      "latest_title": "SIEK, 마블 울버린 ‘더 클로’ 팝업 이벤트 현장",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229296",
+      "event_count": 4,
+      "latest_event_at": "2026-09-11T01:00:26+00:00",
+      "age_days": 1.27,
+      "latest_title": "505게임즈 ‘아세토 코르사 랠리’ 0.6 업데이트, 신규 차량 3종 및 사진 모드 추가",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229304",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,209 @@
     }
   ],
   "events": [
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Official PlayStation Podcast Episode 547: Orb-solutely Fabulous",
+      "url": "https://blog.playstation.com/2026/09/11/official-playstation-podcast-episode-547-orb-solutely-fabulous",
+      "event_at": "2026-09-11T08:43:39+00:00",
+      "event_date": "2026-09-11",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-11",
+      "genre": [],
+      "release": [
+        "state of play"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Next Week on XBOX: New Games for September 14 to 18",
+      "url": "https://news.xbox.com/en-us/2026/09/11/next-week-on-xbox-new-games-for-september-14-to-18",
+      "event_at": "2026-09-11T05:00:00+00:00",
+      "event_date": "2026-09-11",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-11",
+      "genre": [],
+      "release": [
+        "coming soon"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "505게임즈 ‘아세토 코르사 랠리’ 0.6 업데이트, 신규 차량 3종 및 사진 모드 추가",
+      "url": "https://bbs.ruliweb.com/news/read/229304",
+      "event_at": "2026-09-11T01:00:26+00:00",
+      "event_date": "2026-09-11",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-11",
+      "genre": [
+        "시뮬레이션",
+        "스포츠"
+      ],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "0.6",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "30 Years of History Come Together in the METAL SLUG Ultimate Collection",
+      "url": "https://news.xbox.com/en-us/2026/09/11/metal-slug-ultimate-collection",
+      "event_at": "2026-09-11T00:42:44+00:00",
+      "event_date": "2026-09-11",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "xbox:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-11",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "‘고요한 시골 정원 이야기’ 추가 콘텐츠, 9월 29일(화)부터 순차 발매",
+      "url": "https://bbs.ruliweb.com/news/read/229303",
+      "event_at": "2026-09-10T23:49:40+00:00",
+      "event_date": "2026-09-10",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-10",
+      "genre": [
+        "시뮬레이션"
+      ],
+      "release": [
+        "발표",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -1683,44 +1886,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Modern Warfare 4 Pre-Order Bonus: Inner Circuit M4 Blueprint",
-      "url": "https://news.xbox.com/en-us/2026/09/09/modern-warfare-4-pre-order-bonus-inner-circuit-m4-blueprint",
-      "event_at": "2026-09-09T09:00:00+00:00",
-      "event_date": "2026-09-09",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-09",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "PlayStation Plus Game Catalog for September: RuneScape: Dragonwilds, WWE 2K26, Ball x Pit, Date Everything! and more",
@@ -1962,82 +2127,6 @@
       ]
     },
     {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
-      "url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17",
-      "event_at": "2026-09-08T09:43:44+00:00",
-      "event_date": "2026-09-08",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "call of duty"
-      ],
-      "normalized_game_title": "call-of-duty",
-      "edition": "season-06",
-      "canonical_game_key": "call-of-duty:playstation:season-06",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "patch_note:call-of-duty:playstation:season-06:2026-09-08",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
-      "url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17",
-      "event_at": "2026-09-08T09:43:44+00:00",
-      "event_date": "2026-09-08",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "call of duty"
-      ],
-      "normalized_game_title": "call-of-duty",
-      "edition": "season-06",
-      "canonical_game_key": "call-of-duty:playstation:season-06",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:call-of-duty:playstation:season-06:2026-09-08",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
       "title": "\"It's not sexy, but it's one of the most successful genres on Steam\" – Stronghold developer Firefly launches publishing label to serve the vast strategy market",
@@ -2169,48 +2258,87 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Over 700 games launched on Steam in one week for the first time, though 74% had fewer than 10 reviews",
-      "url": "https://www.gamesindustry.biz/over-700-games-launched-on-steam-in-one-week-for-the-first-time-though-74-had-fewer-than-10-reviews",
-      "event_at": "2026-09-02T00:55:59+00:00",
-      "event_date": "2026-09-02",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-09-02",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Official PlayStation Podcast Episode 547: Orb-solutely Fabulous",
+      "url": "https://blog.playstation.com/2026/09/11/official-playstation-podcast-episode-547-orb-solutely-fabulous",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-11"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Next Week on XBOX: New Games for September 14 to 18",
+      "url": "https://news.xbox.com/en-us/2026/09/11/next-week-on-xbox-new-games-for-september-14-to-18",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-11"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "505게임즈 ‘아세토 코르사 랠리’ 0.6 업데이트, 신규 차량 3종 및 사진 모드 추가",
+      "url": "https://bbs.ruliweb.com/news/read/229304",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "patch_note:base:2026-09-11"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "30 Years of History Come Together in the METAL SLUG Ultimate Collection",
+      "url": "https://news.xbox.com/en-us/2026/09/11/metal-slug-ultimate-collection",
+      "canonical_game_key": "xbox:premium-edition",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-11"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "‘고요한 시골 정원 이야기’ 추가 콘텐츠, 9월 29일(화)부터 순차 발매",
+      "url": "https://bbs.ruliweb.com/news/read/229303",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-10"
+    },
     {
       "reason": [
         "missing_game_title",
@@ -2287,81 +2415,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:premium-edition:2026-09-10"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "GTA 6 Netflix preview drove more than 100,000 sign-ups during its six-hour exclusivity window",
-      "url": "https://www.gamesindustry.biz/gta-6-netflix-preview-drove-more-than-100000-sign-ups-during-its-six-hour-exclusivity-window",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-09-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Gears of War Launches Fifth Year of “Never Fight Alone” Suicide Prevention",
-      "url": "https://news.xbox.com/en-us/2026/09/10/gears-of-war-launches-fifth-year-of-never-fight-alone-suicide-prevention",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Play your way with Control Resonant’s expanded Assist Mode",
-      "url": "https://blog.playstation.com/2026/09/10/play-your-way-with-control-resonants-expanded-assist-mode",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Muramasa: Revenant Blades launches February 4, 2027",
-      "url": "https://blog.playstation.com/2026/09/10/muramasa-revenant-blades-launches-february-4-2027",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Xbox to publish Kojima Productions' Physint after it \"unexpectedly received notice\" from PlayStation that it would cancel the project",
-      "url": "https://www.gamesindustry.biz/xbox-to-publish-kojima-productions-physint-after-it-unexpectedly-received-notice-from-playstation-that-it-would-cancel-the-project",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-09"
     }
   ],
   "source_backlog": {
