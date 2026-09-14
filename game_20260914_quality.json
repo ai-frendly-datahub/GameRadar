@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-13T07:45:03.313231+00:00",
+  "generated_at": "2026-09-14T08:15:31.770113+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 5,
-    "release_schedule_events": 25,
-    "actionable_game_event_count": 31,
+    "patch_note_events": 2,
+    "release_schedule_events": 22,
+    "actionable_game_event_count": 25,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 28,
+    "missing_canonical_game_key_count": 22,
     "official_or_trade_event_count": 22,
-    "event_required_field_gap_count": 29,
+    "event_required_field_gap_count": 23,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 7,
       "latest_event_at": "2026-09-11T08:43:39+00:00",
-      "age_days": 1.96,
+      "age_days": 2.98,
       "latest_title": "Official PlayStation Podcast Episode 547: Orb-solutely Fabulous",
       "latest_url": "https://blog.playstation.com/2026/09/11/official-playstation-podcast-episode-547-orb-solutely-fabulous",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 8,
       "latest_event_at": "2026-09-12T10:20:04+00:00",
-      "age_days": 0.89,
+      "age_days": 1.91,
       "latest_title": "BlizzCon 2026 Opening Ceremony: Starcraft Returns, Diablo V Announced, Warcraft news and more",
       "latest_url": "https://news.xbox.com/en-us/2026/09/12/blizzcon-2026-opening-ceremony",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 7,
       "latest_event_at": "2026-09-10T04:50:35+00:00",
-      "age_days": 3.12,
+      "age_days": 4.14,
       "latest_title": "GTA 6 Netflix preview drove more than 100,000 sign-ups during its six-hour exclusivity window",
       "latest_url": "https://www.gamesindustry.biz/gta-6-netflix-preview-drove-more-than-100000-sign-ups-during-its-six-hour-exclusivity-window",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 9,
-      "latest_event_at": "2026-09-12T21:50:00+00:00",
-      "age_days": 0.41,
-      "latest_title": "[블리즈컨] ‘스타크래프트’ 신작은 오픈월드 슈터, 70년 후 코프룰루 그린다",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229313",
+      "event_count": 3,
+      "latest_event_at": "2026-09-13T20:45:41+00:00",
+      "age_days": 0.48,
+      "latest_title": "넷마블 ‘세븐나이츠 리버스’, 애니메이션 ‘귀멸의 칼날’ 콜라보 사전등록 오늘(14일) 시작",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229378",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1197,123 +1197,69 @@
   "events": [
     {
       "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "넷마블 ‘세븐나이츠 리버스’, 애니메이션 ‘귀멸의 칼날’ 콜라보 사전등록 오늘(14일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229378",
+      "event_at": "2026-09-13T20:45:41+00:00",
+      "event_date": "2026-09-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-13",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넷마블"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "[블리즈컨] ‘스타크래프트’ 신작은 오픈월드 슈터, 70년 후 코프룰루 그린다",
-      "url": "https://bbs.ruliweb.com/news/read/229313",
-      "event_at": "2026-09-12T21:50:00+00:00",
-      "event_date": "2026-09-12",
+      "title": "‘파이널 판타지 레조넌스’ 한국어판 패키지 예약 판매, 오는 16일(수) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229373",
+      "event_at": "2026-09-13T20:03:23+00:00",
+      "event_date": "2026-09-13",
       "platform": [],
       "normalized_platform": "",
       "game_title": [
-        "스타크래프트"
+        "final fantasy"
       ],
-      "normalized_game_title": "스타크래프트",
+      "normalized_game_title": "final-fantasy",
       "edition": "base",
-      "canonical_game_key": "스타크래프트:base",
+      "canonical_game_key": "final-fantasy:base",
       "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:스타크래프트:base:2026-09-12",
-      "genre": [
-        "슈터",
-        "오픈월드"
-      ],
+      "game_event_key": "release_schedule:final-fantasy:base:2026-09-13",
+      "genre": [],
       "release": [
-        "출시",
         "발표"
       ],
       "business_signal": [],
       "studio": [
-        "블리자드"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "‘블리즈컨 2026’에서 신작 게임 및 뉴스 대거 발표",
-      "url": "https://bbs.ruliweb.com/news/read/229314",
-      "event_at": "2026-09-12T15:54:52+00:00",
-      "event_date": "2026-09-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "스타크래프트",
-        "디아블로"
-      ],
-      "normalized_game_title": "스타크래프트",
-      "edition": "base",
-      "canonical_game_key": "스타크래프트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "patch_note:스타크래프트:base:2026-09-12",
-      "genre": [],
-      "release": [
-        "출시",
-        "발표",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "블리자드"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘블리즈컨 2026’에서 신작 게임 및 뉴스 대거 발표",
-      "url": "https://bbs.ruliweb.com/news/read/229314",
-      "event_at": "2026-09-12T15:54:52+00:00",
-      "event_date": "2026-09-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "스타크래프트",
-        "디아블로"
-      ],
-      "normalized_game_title": "스타크래프트",
-      "edition": "base",
-      "canonical_game_key": "스타크래프트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:스타크래프트:base:2026-09-12",
-      "genre": [],
-      "release": [
-        "출시",
-        "발표",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "블리자드"
+        "반다이남코"
       ],
       "source_signal": [
         "community_reaction",
@@ -1335,171 +1281,29 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "[블리즈컨] '디아블로 5', 전작 이후 100년 그리고 완전히 다른 플레이 구조 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229311",
-      "event_at": "2026-09-12T12:47:08+00:00",
-      "event_date": "2026-09-12",
-      "platform": [],
+      "title": "‘크라이시스 코어 파이널 판타지 VII 리유니온’ 한국어판 NS2 패키지, 오는 23일 발매",
+      "url": "https://bbs.ruliweb.com/news/read/229372",
+      "event_at": "2026-09-13T19:48:26+00:00",
+      "event_date": "2026-09-13",
+      "platform": [
+        "닌텐도",
+        "스위치"
+      ],
       "normalized_platform": "",
       "game_title": [
-        "디아블로"
+        "final fantasy"
       ],
-      "normalized_game_title": "디아블로",
+      "normalized_game_title": "final-fantasy",
       "edition": "base",
-      "canonical_game_key": "디아블로:base",
+      "canonical_game_key": "final-fantasy:base",
       "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:디아블로:base:2026-09-12",
+      "game_event_key": "release_schedule:final-fantasy:base:2026-09-13",
       "genre": [],
       "release": [
         "출시"
       ],
       "business_signal": [],
-      "studio": [
-        "블리자드"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "[블리즈컨] 스타크래프트가 슈터로 돌아온다, 다만 4년 뒤인 2030년에",
-      "url": "https://bbs.ruliweb.com/news/read/229308",
-      "event_at": "2026-09-12T10:30:34+00:00",
-      "event_date": "2026-09-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "스타크래프트"
-      ],
-      "normalized_game_title": "스타크래프트",
-      "edition": "base",
-      "canonical_game_key": "스타크래프트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:스타크래프트:base:2026-09-12",
-      "genre": [
-        "슈터",
-        "rts",
-        "오픈월드"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [
-        "블리자드"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "[블리즈컨] 스타크래프트 슈터 그리고 디아블로 5 최초 공개 - 블리즈컨 2026 종합",
-      "url": "https://bbs.ruliweb.com/news/read/229307",
-      "event_at": "2026-09-12T10:20:47+00:00",
-      "event_date": "2026-09-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "스타크래프트",
-        "디아블로",
-        "오버워치"
-      ],
-      "normalized_game_title": "스타크래프트",
-      "edition": "base",
-      "canonical_game_key": "스타크래프트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "patch_note:스타크래프트:base:2026-09-12",
-      "genre": [
-        "슈터",
-        "오픈월드"
-      ],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "블리자드"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "[블리즈컨] 스타크래프트 슈터 그리고 디아블로 5 최초 공개 - 블리즈컨 2026 종합",
-      "url": "https://bbs.ruliweb.com/news/read/229307",
-      "event_at": "2026-09-12T10:20:47+00:00",
-      "event_date": "2026-09-12",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "스타크래프트",
-        "디아블로",
-        "오버워치"
-      ],
-      "normalized_game_title": "스타크래프트",
-      "edition": "base",
-      "canonical_game_key": "스타크래프트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:스타크래프트:base:2026-09-12",
-      "genre": [
-        "슈터",
-        "오픈월드"
-      ],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "블리자드"
-      ],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1642,48 +1446,6 @@
       ]
     },
     {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "505게임즈 ‘아세토 코르사 랠리’ 0.6 업데이트, 신규 차량 3종 및 사진 모드 추가",
-      "url": "https://bbs.ruliweb.com/news/read/229304",
-      "event_at": "2026-09-11T01:00:26+00:00",
-      "event_date": "2026-09-11",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-11",
-      "genre": [
-        "시뮬레이션",
-        "스포츠"
-      ],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "0.6",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "30 Years of History Come Together in the METAL SLUG Ultimate Collection",
@@ -1719,48 +1481,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "‘고요한 시골 정원 이야기’ 추가 콘텐츠, 9월 29일(화)부터 순차 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229303",
-      "event_at": "2026-09-10T23:49:40+00:00",
-      "event_date": "2026-09-10",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-10",
-      "genre": [
-        "시뮬레이션"
-      ],
-      "release": [
-        "발표",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
       ]
     },
     {
@@ -2503,36 +2223,20 @@
   "daily_review_items": [
     {
       "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "[블리즈컨] ‘스타크래프트’ 신작은 오픈월드 슈터, 70년 후 코프룰루 그린다",
-      "url": "https://bbs.ruliweb.com/news/read/229313",
-      "canonical_game_key": "스타크래프트:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:스타크래프트:base:2026-09-12"
-    },
-    {
-      "reason": [
-        "missing_platform",
+        "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "‘블리즈컨 2026’에서 신작 게임 및 뉴스 대거 발표",
-      "url": "https://bbs.ruliweb.com/news/read/229314",
-      "canonical_game_key": "스타크래프트:base",
+      "title": "넷마블 ‘세븐나이츠 리버스’, 애니메이션 ‘귀멸의 칼날’ 콜라보 사전등록 오늘(14일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229378",
+      "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:스타크래프트:base:2026-09-12"
+      "game_event_key": "patch_note:base:2026-09-13"
     },
     {
       "reason": [
@@ -2542,13 +2246,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘블리즈컨 2026’에서 신작 게임 및 뉴스 대거 발표",
-      "url": "https://bbs.ruliweb.com/news/read/229314",
-      "canonical_game_key": "스타크래프트:base",
+      "title": "‘파이널 판타지 레조넌스’ 한국어판 패키지 예약 판매, 오는 16일(수) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229373",
+      "canonical_game_key": "final-fantasy:base",
       "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:스타크래프트:base:2026-09-12"
+      "game_event_key": "release_schedule:final-fantasy:base:2026-09-13"
     },
     {
       "reason": [
@@ -2558,62 +2262,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "[블리즈컨] '디아블로 5', 전작 이후 100년 그리고 완전히 다른 플레이 구조 공개",
-      "url": "https://bbs.ruliweb.com/news/read/229311",
-      "canonical_game_key": "디아블로:base",
+      "title": "‘크라이시스 코어 파이널 판타지 VII 리유니온’ 한국어판 NS2 패키지, 오는 23일 발매",
+      "url": "https://bbs.ruliweb.com/news/read/229372",
+      "canonical_game_key": "final-fantasy:base",
       "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:디아블로:base:2026-09-12"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "[블리즈컨] 스타크래프트가 슈터로 돌아온다, 다만 4년 뒤인 2030년에",
-      "url": "https://bbs.ruliweb.com/news/read/229308",
-      "canonical_game_key": "스타크래프트:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:스타크래프트:base:2026-09-12"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "[블리즈컨] 스타크래프트 슈터 그리고 디아블로 5 최초 공개 - 블리즈컨 2026 종합",
-      "url": "https://bbs.ruliweb.com/news/read/229307",
-      "canonical_game_key": "스타크래프트:base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:스타크래프트:base:2026-09-12"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "[블리즈컨] 스타크래프트 슈터 그리고 디아블로 5 최초 공개 - 블리즈컨 2026 종합",
-      "url": "https://bbs.ruliweb.com/news/read/229307",
-      "canonical_game_key": "스타크래프트:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:스타크래프트:base:2026-09-12"
+      "game_event_key": "release_schedule:final-fantasy:base:2026-09-13"
     },
     {
       "reason": [
@@ -2647,19 +2302,78 @@
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_game_title",
+        "missing_required_fields"
       ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "505게임즈 ‘아세토 코르사 랠리’ 0.6 업데이트, 신규 차량 3종 및 사진 모드 추가",
-      "url": "https://bbs.ruliweb.com/news/read/229304",
-      "canonical_game_key": "base",
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "30 Years of History Come Together in the METAL SLUG Ultimate Collection",
+      "url": "https://news.xbox.com/en-us/2026/09/11/metal-slug-ultimate-collection",
+      "canonical_game_key": "xbox:premium-edition",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-11"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Age of Empires III: Definitive Edition – The Baltic Powers Available Now",
+      "url": "https://news.xbox.com/en-us/2026/09/10/age-of-empires-iii-definitive-edition-the-baltic-powers-available-now",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-10"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Themes Explored Through Horror in BrokenLore: Don’t Lie",
+      "url": "https://news.xbox.com/en-us/2026/09/10/themes-explored-through-horror-in-brokenlore-dont-lie",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-10"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Free Play Days – EA Sports Madden NFL 27, Borderlands 4, F1 25 2026 Season Edition, Dustborn, and More",
+      "url": "https://news.xbox.com/en-us/2026/09/10/free-play-days-09-10-2026",
+      "canonical_game_key": "xbox:premium-edition",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-10"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "GTA 6 Netflix preview drove more than 100,000 sign-ups during its six-hour exclusivity window",
+      "url": "https://www.gamesindustry.biz/gta-6-netflix-preview-drove-more-than-100000-sign-ups-during-its-six-hour-exclusivity-window",
+      "canonical_game_key": "gta:base",
       "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "patch_note:base:2026-09-11"
+      "game_event_key": "release_schedule:gta:base:2026-09-10"
     }
   ],
   "source_backlog": {
