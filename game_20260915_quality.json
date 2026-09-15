@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-14T08:15:31.770113+00:00",
+  "generated_at": "2026-09-15T08:08:04.159236+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 1,
     "patch_note_events": 2,
-    "release_schedule_events": 22,
-    "actionable_game_event_count": 25,
+    "release_schedule_events": 23,
+    "actionable_game_event_count": 26,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 22,
-    "official_or_trade_event_count": 22,
-    "event_required_field_gap_count": 23,
+    "missing_canonical_game_key_count": 23,
+    "official_or_trade_event_count": 23,
+    "event_required_field_gap_count": 24,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 7,
-      "latest_event_at": "2026-09-11T08:43:39+00:00",
-      "age_days": 2.98,
-      "latest_title": "Official PlayStation Podcast Episode 547: Orb-solutely Fabulous",
-      "latest_url": "https://blog.playstation.com/2026/09/11/official-playstation-podcast-episode-547-orb-solutely-fabulous",
+      "event_count": 6,
+      "latest_event_at": "2026-09-14T06:00:20+00:00",
+      "age_days": 1.09,
+      "latest_title": "Marvel’s Wolverine developers discuss capturing the essence of Logan – out September 15",
+      "latest_url": "https://blog.playstation.com/2026/09/14/marvels-wolverine-developers-discuss-capturing-the-essence-of-logan-out-september-15",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 8,
-      "latest_event_at": "2026-09-12T10:20:04+00:00",
-      "age_days": 1.91,
-      "latest_title": "BlizzCon 2026 Opening Ceremony: Starcraft Returns, Diablo V Announced, Warcraft news and more",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/12/blizzcon-2026-opening-ceremony",
+      "event_count": 9,
+      "latest_event_at": "2026-09-14T07:00:00+00:00",
+      "age_days": 1.05,
+      "latest_title": "LEGO Batman: Legacy of the Dark Knight – Building Mayhem with The Joker & Harley Quinn",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/14/lego-batman-mayhem-collection-dlc",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 7,
-      "latest_event_at": "2026-09-10T04:50:35+00:00",
-      "age_days": 4.14,
-      "latest_title": "GTA 6 Netflix preview drove more than 100,000 sign-ups during its six-hour exclusivity window",
-      "latest_url": "https://www.gamesindustry.biz/gta-6-netflix-preview-drove-more-than-100000-sign-ups-during-its-six-hour-exclusivity-window",
+      "event_count": 8,
+      "latest_event_at": "2026-09-14T01:29:14+00:00",
+      "age_days": 1.28,
+      "latest_title": "New StarCraft title to launch in 2030, will be an open-world FPS",
+      "latest_url": "https://www.gamesindustry.biz/new-starcraft-title-to-launch-in-2030-will-be-an-open-world-fps",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -760,10 +760,10 @@
       "status": "fresh",
       "article_count": 15,
       "event_count": 3,
-      "latest_event_at": "2026-09-13T20:45:41+00:00",
-      "age_days": 0.48,
-      "latest_title": "넷마블 ‘세븐나이츠 리버스’, 애니메이션 ‘귀멸의 칼날’ 콜라보 사전등록 오늘(14일) 시작",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229378",
+      "latest_event_at": "2026-09-14T21:38:48+00:00",
+      "age_days": 0.44,
+      "latest_title": "㈜넥슨 ‘블루 아카이브’ 메인 스토리 ‘Ex. 로어추적 편 2장’ 업데이트 오늘(15일) 진행",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229434",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,10 +1198,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "넷마블 ‘세븐나이츠 리버스’, 애니메이션 ‘귀멸의 칼날’ 콜라보 사전등록 오늘(14일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/229378",
-      "event_at": "2026-09-13T20:45:41+00:00",
-      "event_date": "2026-09-13",
+      "title": "㈜넥슨 ‘블루 아카이브’ 메인 스토리 ‘Ex. 로어추적 편 2장’ 업데이트 오늘(15일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229434",
+      "event_at": "2026-09-14T21:38:48+00:00",
+      "event_date": "2026-09-14",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1209,14 +1209,14 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-13",
+      "game_event_key": "patch_note:base:2026-09-14",
       "genre": [],
       "release": [
         "업데이트"
       ],
       "business_signal": [],
       "studio": [
-        "넷마블"
+        "넥슨"
       ],
       "source_signal": [
         "community_reaction",
@@ -1238,29 +1238,27 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘파이널 판타지 레조넌스’ 한국어판 패키지 예약 판매, 오는 16일(수) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/229373",
-      "event_at": "2026-09-13T20:03:23+00:00",
-      "event_date": "2026-09-13",
+      "event_model": "patch_note",
+      "title": "㈜엔씨 ‘길드워2’, 확장팩 마지막 업데이트 ‘코드 오브 크리에이션’ 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229428",
+      "event_at": "2026-09-14T20:04:51+00:00",
+      "event_date": "2026-09-14",
       "platform": [],
       "normalized_platform": "",
-      "game_title": [
-        "final fantasy"
-      ],
-      "normalized_game_title": "final-fantasy",
+      "game_title": [],
+      "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "final-fantasy:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:final-fantasy:base:2026-09-13",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-14",
       "genre": [],
       "release": [
-        "발표"
+        "출시",
+        "확장팩",
+        "업데이트"
       ],
       "business_signal": [],
-      "studio": [
-        "반다이남코"
-      ],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1275,30 +1273,31 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "platform"
+        "platform",
+        "version"
       ]
     },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘크라이시스 코어 파이널 판타지 VII 리유니온’ 한국어판 NS2 패키지, 오는 23일 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229372",
-      "event_at": "2026-09-13T19:48:26+00:00",
-      "event_date": "2026-09-13",
+      "title": "‘닌자 베이스볼 리그맨 – 베이시스 로디드’ 한국어판 12월 10일 정식 출시 및 예약 판매 오늘(15일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229422",
+      "event_at": "2026-09-14T18:00:00+00:00",
+      "event_date": "2026-09-14",
       "platform": [
         "닌텐도",
         "스위치"
       ],
       "normalized_platform": "",
-      "game_title": [
-        "final fantasy"
-      ],
-      "normalized_game_title": "final-fantasy",
+      "game_title": [],
+      "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "final-fantasy:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:final-fantasy:base:2026-09-13",
-      "genre": [],
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-09-14",
+      "genre": [
+        "액션"
+      ],
       "release": [
         "출시"
       ],
@@ -1313,6 +1312,171 @@
       "authority_role": "community_media",
       "trust_tier": "T3_professional",
       "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "LEGO Batman: Legacy of the Dark Knight – Building Mayhem with The Joker & Harley Quinn",
+      "url": "https://news.xbox.com/en-us/2026/09/14/lego-batman-mayhem-collection-dlc",
+      "event_at": "2026-09-14T07:00:00+00:00",
+      "event_date": "2026-09-14",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-14",
+      "genre": [],
+      "release": [
+        "dlc"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Marvel’s Wolverine developers discuss capturing the essence of Logan – out September 15",
+      "url": "https://blog.playstation.com/2026/09/14/marvels-wolverine-developers-discuss-capturing-the-essence-of-logan-out-september-15",
+      "event_at": "2026-09-14T06:00:20+00:00",
+      "event_date": "2026-09-14",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-14",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Ace Combat 8: Wings of Theve – Annihilation Battle mode confirmed, story trailer revealed",
+      "url": "https://blog.playstation.com/2026/09/14/ace-combat-8-wings-of-theve-annihilation-battle-mode-confirmed-story-trailer-revealed",
+      "event_at": "2026-09-14T05:00:34+00:00",
+      "event_date": "2026-09-14",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-14",
+      "genre": [],
+      "release": [
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
+      "url": "https://www.gamesindustry.biz/new-starcraft-title-to-launch-in-2030-will-be-an-open-world-fps",
+      "event_at": "2026-09-14T01:29:14+00:00",
+      "event_date": "2026-09-14",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "starcraft"
+      ],
+      "normalized_game_title": "starcraft",
+      "edition": "base",
+      "canonical_game_key": "starcraft:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:starcraft:base:2026-09-14",
+      "genre": [
+        "fps",
+        "shooter",
+        "strategy"
+      ],
+      "release": [
+        "launch",
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [
+        "blizzard"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
       "version": "",
       "rank": null,
       "market": "",
@@ -1884,123 +2048,6 @@
       ]
     },
     {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Introducing No Man’s Sky: Cosmos update, live on PS5 today",
-      "url": "https://blog.playstation.com/2026/09/09/introducing-no-mans-sky-cosmos-update-live-on-ps5-today",
-      "event_at": "2026-09-09T04:00:28+00:00",
-      "event_date": "2026-09-09",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-09-09",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Introducing No Man’s Sky: Cosmos update, live on PS5 today",
-      "url": "https://blog.playstation.com/2026/09/09/introducing-no-mans-sky-cosmos-update-live-on-ps5-today",
-      "event_at": "2026-09-09T04:00:28+00:00",
-      "event_date": "2026-09-09",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-09",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Introducing Dead or Alive 6 Last Round’s new fighter, Minato",
-      "url": "https://blog.playstation.com/2026/09/09/introducing-dead-or-alive-6-last-rounds-new-fighter-minato",
-      "event_at": "2026-09-09T03:00:06+00:00",
-      "event_date": "2026-09-09",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-09",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
       "title": "Gamescom Asia x Thailand Game Show announces exhibitor lineup for 2026",
@@ -2229,46 +2276,108 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘세븐나이츠 리버스’, 애니메이션 ‘귀멸의 칼날’ 콜라보 사전등록 오늘(14일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/229378",
+      "title": "㈜넥슨 ‘블루 아카이브’ 메인 스토리 ‘Ex. 로어추적 편 2장’ 업데이트 오늘(15일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229434",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-09-13"
+      "game_event_key": "patch_note:base:2026-09-14"
     },
     {
       "reason": [
-        "missing_platform",
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜엔씨 ‘길드워2’, 확장팩 마지막 업데이트 ‘코드 오브 크리에이션’ 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229428",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-14"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘파이널 판타지 레조넌스’ 한국어판 패키지 예약 판매, 오는 16일(수) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/229373",
-      "canonical_game_key": "final-fantasy:base",
+      "title": "‘닌자 베이스볼 리그맨 – 베이시스 로디드’ 한국어판 12월 10일 정식 출시 및 예약 판매 오늘(15일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229422",
+      "canonical_game_key": "base",
       "required_field_gaps": [
+        "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:final-fantasy:base:2026-09-13"
+      "game_event_key": "release_schedule:base:2026-09-14"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "LEGO Batman: Legacy of the Dark Knight – Building Mayhem with The Joker & Harley Quinn",
+      "url": "https://news.xbox.com/en-us/2026/09/14/lego-batman-mayhem-collection-dlc",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-14"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Marvel’s Wolverine developers discuss capturing the essence of Logan – out September 15",
+      "url": "https://blog.playstation.com/2026/09/14/marvels-wolverine-developers-discuss-capturing-the-essence-of-logan-out-september-15",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-14"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Ace Combat 8: Wings of Theve – Annihilation Battle mode confirmed, story trailer revealed",
+      "url": "https://blog.playstation.com/2026/09/14/ace-combat-8-wings-of-theve-annihilation-battle-mode-confirmed-story-trailer-revealed",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-14"
     },
     {
       "reason": [
         "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘크라이시스 코어 파이널 판타지 VII 리유니온’ 한국어판 NS2 패키지, 오는 23일 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229372",
-      "canonical_game_key": "final-fantasy:base",
+      "source": "GamesIndustry.biz",
+      "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
+      "url": "https://www.gamesindustry.biz/new-starcraft-title-to-launch-in-2030-will-be-an-open-world-fps",
+      "canonical_game_key": "starcraft:base",
       "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:final-fantasy:base:2026-09-13"
+      "game_event_key": "release_schedule:starcraft:base:2026-09-14"
     },
     {
       "reason": [
@@ -2314,66 +2423,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:premium-edition:2026-09-11"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Age of Empires III: Definitive Edition – The Baltic Powers Available Now",
-      "url": "https://news.xbox.com/en-us/2026/09/10/age-of-empires-iii-definitive-edition-the-baltic-powers-available-now",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Themes Explored Through Horror in BrokenLore: Don’t Lie",
-      "url": "https://news.xbox.com/en-us/2026/09/10/themes-explored-through-horror-in-brokenlore-dont-lie",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Free Play Days – EA Sports Madden NFL 27, Borderlands 4, F1 25 2026 Season Edition, Dustborn, and More",
-      "url": "https://news.xbox.com/en-us/2026/09/10/free-play-days-09-10-2026",
-      "canonical_game_key": "xbox:premium-edition",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-10"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "GTA 6 Netflix preview drove more than 100,000 sign-ups during its six-hour exclusivity window",
-      "url": "https://www.gamesindustry.biz/gta-6-netflix-preview-drove-more-than-100000-sign-ups-during-its-six-hour-exclusivity-window",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-09-10"
     }
   ],
   "source_backlog": {
