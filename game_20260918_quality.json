@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-17T08:07:53.739202+00:00",
+  "generated_at": "2026-09-18T07:43:25.411800+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 0,
-    "patch_note_events": 2,
-    "release_schedule_events": 20,
-    "actionable_game_event_count": 22,
-    "canonical_game_key_present_count": 5,
-    "missing_canonical_game_key_count": 17,
-    "official_or_trade_event_count": 19,
-    "event_required_field_gap_count": 17,
+    "store_ranking_events": 1,
+    "patch_note_events": 3,
+    "release_schedule_events": 25,
+    "actionable_game_event_count": 29,
+    "canonical_game_key_present_count": 3,
+    "missing_canonical_game_key_count": 26,
+    "official_or_trade_event_count": 23,
+    "event_required_field_gap_count": 26,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 6,
-      "latest_event_at": "2026-09-16T23:00:09+00:00",
-      "age_days": 0.38,
-      "latest_title": "Final Fantasy VII Revelation hands-on report: Into the Whirlwind Maze where Sephiroth awaits",
-      "latest_url": "https://blog.playstation.com/2026/09/17/final-fantasy-vii-revelation-hands-on-report-into-the-whirlwind-maze-where-sephiroth-awaits",
+      "event_count": 7,
+      "latest_event_at": "2026-09-17T03:00:15+00:00",
+      "age_days": 1.2,
+      "latest_title": "Co-op roguelite Shape of Dreams launches today on PS5",
+      "latest_url": "https://blog.playstation.com/2026/09/17/co-op-roguelite-shape-of-dreams-launches-today-on-ps5",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 7,
-      "latest_event_at": "2026-09-16T05:00:00+00:00",
-      "age_days": 1.13,
-      "latest_title": "Sea of Thieves: Season 21, Talk Like a Pirate Day, New Rewards, Amazing Prizes and More!",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/16/sea-of-thieves-season-21-talk-like-a-pirate-day",
+      "event_count": 8,
+      "latest_event_at": "2026-09-17T11:42:40+00:00",
+      "age_days": 0.83,
+      "latest_title": "Overwatch w/Devs: Doctrine, Grimsvötn, Reworks, and More | Official XBOX Podcast",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/17/overwatch-w-devs-doctrine-grimsvotn-reworks-and-more-official-xbox-podcast",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 6,
-      "latest_event_at": "2026-09-15T21:30:00+00:00",
-      "age_days": 1.44,
-      "latest_title": "Why the publisher of Nintendo Life is launching a new PC gaming site",
-      "latest_url": "https://www.gamesindustry.biz/why-the-publisher-of-nintendo-life-is-launching-a-new-pc-gaming-site",
+      "event_count": 8,
+      "latest_event_at": "2026-09-17T04:00:00+00:00",
+      "age_days": 1.16,
+      "latest_title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
+      "latest_url": "https://www.gamesindustry.biz/every-major-publisher-has-approached-us-to-review-their-old-kinect-and-wii-catalogue-nex-playground-is-spoilt-for-choice-as-its-international-rollout-continues",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 47,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 3,
-      "latest_event_at": "2026-09-16T22:58:44+00:00",
-      "age_days": 0.38,
-      "latest_title": "‘투 포인트 호스피탈 완전 회복 컬렉션’, 지난 16일(수) 디지털판 발매",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229590",
+      "event_count": 6,
+      "latest_event_at": "2026-09-17T21:12:28+00:00",
+      "age_days": 0.44,
+      "latest_title": "스마일게이트 ‘에픽세븐’, 지난 17일(목) ‘카오스 제로 나이트메어’ 컬래버레이션 콘텐츠 업데이트",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229666",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1196,6 +1196,746 @@
   ],
   "events": [
     {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "스마일게이트 ‘에픽세븐’, 지난 17일(목) ‘카오스 제로 나이트메어’ 컬래버레이션 콘텐츠 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/229666",
+      "event_at": "2026-09-17T21:12:28+00:00",
+      "event_date": "2026-09-17",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-09-17",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "스마일게이트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜카카오게임즈 ‘우마무스메 프리티 더비’ 신규 스토리 이벤트 ‘푸른 유월의 스타티스’ 오늘(18일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229665",
+      "event_at": "2026-09-17T21:05:35+00:00",
+      "event_date": "2026-09-17",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "우마무스메"
+      ],
+      "normalized_game_title": "우마무스메",
+      "edition": "base",
+      "canonical_game_key": "우마무스메:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "patch_note:우마무스메:base:2026-09-17",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "카카오게임즈"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "㈜카카오게임즈 ‘우마무스메 프리티 더비’ 신규 스토리 이벤트 ‘푸른 유월의 스타티스’ 오늘(18일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229665",
+      "event_at": "2026-09-17T21:05:35+00:00",
+      "event_date": "2026-09-17",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "우마무스메"
+      ],
+      "normalized_game_title": "우마무스메",
+      "edition": "base",
+      "canonical_game_key": "우마무스메:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:우마무스메:base:2026-09-17",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "카카오게임즈"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "레이저(Razer), 래피드 트리거·8K 폴링레이트 게이밍 키패드 ‘Tartarus V2 Pro’ 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229663",
+      "event_at": "2026-09-17T20:35:20+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "스위치"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-09-17",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "마이크로소프트 XBOX, 지난 17일(목) ‘도쿄게임쇼 2026’ 에서 신규 게임 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229658",
+      "event_at": "2026-09-17T19:24:19+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-17",
+      "genre": [],
+      "release": [
+        "트레일러"
+      ],
+      "business_signal": [],
+      "studio": [
+        "activision",
+        "bethesda"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘엣지 오브 메모리즈’ PC, PS5 한국어판 11월 5일 정식 출시 및 PS5 디지털 버전 사전 예약 오늘(18일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229656",
+      "event_at": "2026-09-17T19:10:13+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-17",
+      "genre": [
+        "jrpg"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Overwatch w/Devs: Doctrine, Grimsvötn, Reworks, and More | Official XBOX Podcast",
+      "url": "https://news.xbox.com/en-us/2026/09/17/overwatch-w-devs-doctrine-grimsvotn-reworks-and-more-official-xbox-podcast",
+      "event_at": "2026-09-17T11:42:40+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "overwatch"
+      ],
+      "normalized_game_title": "overwatch",
+      "edition": "season-5",
+      "canonical_game_key": "overwatch:xbox:season-5",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:overwatch:xbox:season-5:2026-09-17",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Character Development and Storytelling in Kernel Hearts, Out Now on XBOX",
+      "url": "https://news.xbox.com/en-us/2026/09/17/character-development-and-storytelling-in-kernel-hearts",
+      "event_at": "2026-09-17T09:00:00+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-17",
+      "genre": [
+        "action",
+        "action rpg",
+        "rpg",
+        "fighting"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Five Years of Solo Development – Interview with Fountains Creator John Pywell",
+      "url": "https://news.xbox.com/en-us/2026/09/17/five-years-of-solo-development-interview",
+      "event_at": "2026-09-17T08:00:00+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-17",
+      "genre": [
+        "metroidvania"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Gears of War: E-Day Has Gone Gold, Pre-Install Begins September 29, Full PC Specifications Revealed",
+      "url": "https://news.xbox.com/en-us/2026/09/17/gears-of-war-e-day-gone-gold-pre-install-pc-specs",
+      "event_at": "2026-09-17T07:00:00+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "xbox:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-17",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Free Play Days – Sea of Thieves and Hell Let Loose Vietnam",
+      "url": "https://news.xbox.com/en-us/2026/09/17/free-play-days-09-17-2026",
+      "event_at": "2026-09-17T06:00:00+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "xbox:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-17",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
+      "url": "https://www.gamesindustry.biz/every-major-publisher-has-approached-us-to-review-their-old-kinect-and-wii-catalogue-nex-playground-is-spoilt-for-choice-as-its-international-rollout-continues",
+      "event_at": "2026-09-17T04:00:00+00:00",
+      "event_date": "2026-09-17",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "store_ranking:base:2026-09-17",
+      "genre": [],
+      "release": [
+        "expansion"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "Co-op roguelite Shape of Dreams launches today on PS5",
+      "url": "https://blog.playstation.com/2026/09/17/co-op-roguelite-shape-of-dreams-launches-today-on-ps5",
+      "event_at": "2026-09-17T03:00:15+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-09-17",
+      "genre": [],
+      "release": [
+        "launch",
+        "trailer",
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Co-op roguelite Shape of Dreams launches today on PS5",
+      "url": "https://blog.playstation.com/2026/09/17/co-op-roguelite-shape-of-dreams-launches-today-on-ps5",
+      "event_at": "2026-09-17T03:00:15+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-17",
+      "genre": [],
+      "release": [
+        "launch",
+        "trailer",
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Tokyo Game Show 2026: Bill Skarsgård Cast as Lead Role in PHYSINT",
+      "url": "https://news.xbox.com/en-us/2026/09/17/physint-lead-role-bill-skarsgard-kojima-productions-xbox",
+      "event_at": "2026-09-17T01:37:44+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-17",
+      "genre": [
+        "action"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Remedy's Arhi Makkonen on designing the \"biggest world we have ever done\" for Control Resonant",
+      "url": "https://www.gamesindustry.biz/remedys-arhi-makkonen-on-designing-the-biggest-world-we-have-ever-done-for-control-resonant",
+      "event_at": "2026-09-17T01:29:52+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "switch"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-09-17",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Bloomwalker: Healing a Broken World, One Bloom at a Time",
+      "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-bloomwalker",
+      "event_at": "2026-09-17T01:16:56+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-17",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Action Roguelite Shape of Dreams Launches on XBOX Today With its Biggest Update Yet",
+      "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-shape-of-dreams",
+      "event_at": "2026-09-17T01:10:40+00:00",
+      "event_date": "2026-09-17",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-17",
+      "genre": [
+        "action"
+      ],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "1.5",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Final Fantasy VII Revelation hands-on report: Into the Whirlwind Maze where Sephiroth awaits",
@@ -1234,144 +1974,6 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘투 포인트 호스피탈 완전 회복 컬렉션’, 지난 16일(수) 디지털판 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229590",
-      "event_at": "2026-09-16T22:58:44+00:00",
-      "event_date": "2026-09-16",
-      "platform": [
-        "ps5",
-        "xbox",
-        "xbox series x",
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-16",
-      "genre": [
-        "시뮬레이션",
-        "경영"
-      ],
-      "release": [
-        "출시",
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [
-        "세가"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘압솔룸 Nintendo Switch™ 2 Edition’ 오늘 (17일) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229579",
-      "event_at": "2026-09-16T20:24:17+00:00",
-      "event_date": "2026-09-16",
-      "platform": [
-        "nintendo",
-        "switch",
-        "switch 2"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-09-16",
-      "genre": [
-        "액션",
-        "로그라이크"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "레벨 인피니트 ‘승리의 여신: 니케’, 신규 풀 보이스 스토리 이벤트 ‘COIN RUSH SHOWDOWN’ 업데이트 오늘(17일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229578",
-      "event_at": "2026-09-16T20:15:54+00:00",
-      "event_date": "2026-09-16",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-16",
-      "genre": [
-        "rpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
     },
     {
       "source": "PlayStation Blog",
@@ -1439,84 +2041,6 @@
       "studio": [],
       "source_signal": [
         "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Sea of Thieves: Season 21, Talk Like a Pirate Day, New Rewards, Amazing Prizes and More!",
-      "url": "https://news.xbox.com/en-us/2026/09/16/sea-of-thieves-season-21-talk-like-a-pirate-day",
-      "event_at": "2026-09-16T05:00:00+00:00",
-      "event_date": "2026-09-16",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "season-21",
-      "canonical_game_key": "xbox:season-21",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:season-21:2026-09-16",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Inside the Mystery of Clue Junior in Hasbro Games Junior Collection",
-      "url": "https://news.xbox.com/en-us/2026/09/16/hasbro-games-junior-collection-clue-preview",
-      "event_at": "2026-09-16T04:00:00+00:00",
-      "event_date": "2026-09-16",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-16",
-      "genre": [],
-      "release": [
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
         "platform_update",
         "release_schedule"
       ],
@@ -1616,84 +2140,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Aniimo Launches Today – Begin Your Journey into Idyll",
-      "url": "https://news.xbox.com/en-us/2026/09/15/aniimo-launches-today-xbox",
-      "event_at": "2026-09-15T09:00:00+00:00",
-      "event_date": "2026-09-15",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-15",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Diablo Discussion w/Devs: Diablo V, Season of Hell’s Legacy, and The Amazon | Official XBOX Podcast",
-      "url": "https://news.xbox.com/en-us/2026/09/15/diablo-discussion-w-devs-diablo-v-season-of-hells-legacy-and-the-amazon-official-xbox-podcast",
-      "event_at": "2026-09-15T08:05:00+00:00",
-      "event_date": "2026-09-15",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "diablo"
-      ],
-      "normalized_game_title": "diablo",
-      "edition": "season-15",
-      "canonical_game_key": "diablo:xbox:season-15",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:diablo:xbox:season-15:2026-09-15",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Gear up for the launch of Marvel’s Wolverine with new official merchandise",
@@ -1722,124 +2168,6 @@
       "studio": [],
       "source_signal": [
         "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Coming to XBOX Game Pass: Gears of War: E-Day, Minecraft Dungeons II, Dune: Awakening, and More",
-      "url": "https://news.xbox.com/en-us/2026/09/15/xbox-game-pass-september-2026-wave-2",
-      "event_at": "2026-09-15T07:00:00+00:00",
-      "event_date": "2026-09-15",
-      "platform": [
-        "xbox",
-        "xbox series x",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "minecraft"
-      ],
-      "normalized_game_title": "minecraft",
-      "edition": "premium-edition",
-      "canonical_game_key": "minecraft:xbox:premium-edition",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:minecraft:xbox:premium-edition:2026-09-15",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Control Resonant: PS5 features detailed",
-      "url": "https://blog.playstation.com/2026/09/15/control-resonant-ps5-features-detailed",
-      "event_at": "2026-09-15T05:00:58+00:00",
-      "event_date": "2026-09-15",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-09-15",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "LEGO Batman: Legacy of the Dark Knight – Building Mayhem with The Joker & Harley Quinn",
-      "url": "https://news.xbox.com/en-us/2026/09/14/lego-batman-mayhem-collection-dlc",
-      "event_at": "2026-09-14T07:00:00+00:00",
-      "event_date": "2026-09-14",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-14",
-      "genre": [],
-      "release": [
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
         "platform_update",
         "release_schedule"
       ],
@@ -1901,49 +2229,6 @@
       "required_field_gaps": [
         "platform"
       ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "BlizzCon 2026 Opening Ceremony: Starcraft Returns, Diablo V Announced, Warcraft news and more",
-      "url": "https://news.xbox.com/en-us/2026/09/12/blizzcon-2026-opening-ceremony",
-      "event_at": "2026-09-12T10:20:04+00:00",
-      "event_date": "2026-09-12",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "starcraft",
-        "diablo"
-      ],
-      "normalized_game_title": "starcraft",
-      "edition": "base",
-      "canonical_game_key": "starcraft:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:starcraft:xbox:base:2026-09-12",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "blizzard"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
     },
     {
       "source": "GamesIndustry.biz",
@@ -2118,35 +2403,53 @@
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title",
+        "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "‘투 포인트 호스피탈 완전 회복 컬렉션’, 지난 16일(수) 디지털판 발매",
-      "url": "https://bbs.ruliweb.com/news/read/229590",
-      "canonical_game_key": "playstation:base",
+      "title": "스마일게이트 ‘에픽세븐’, 지난 17일(목) ‘카오스 제로 나이트메어’ 컬래버레이션 콘텐츠 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/229666",
+      "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title"
+        "platform",
+        "version"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-16"
+      "game_event_key": "patch_note:base:2026-09-17"
     },
     {
       "reason": [
-        "missing_game_title",
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜카카오게임즈 ‘우마무스메 프리티 더비’ 신규 스토리 이벤트 ‘푸른 유월의 스타티스’ 오늘(18일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229665",
+      "canonical_game_key": "우마무스메:base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:우마무스메:base:2026-09-17"
+    },
+    {
+      "reason": [
+        "missing_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘압솔룸 Nintendo Switch™ 2 Edition’ 오늘 (17일) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229579",
-      "canonical_game_key": "nintendo:base",
+      "title": "㈜카카오게임즈 ‘우마무스메 프리티 더비’ 신규 스토리 이벤트 ‘푸른 유월의 스타티스’ 오늘(18일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229665",
+      "canonical_game_key": "우마무스메:base",
       "required_field_gaps": [
-        "game_title"
+        "platform"
       ],
-      "game_event_key": "release_schedule:nintendo:base:2026-09-16"
+      "game_event_key": "release_schedule:우마무스메:base:2026-09-17"
     },
     {
       "reason": [
@@ -2154,31 +2457,48 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "patch_note",
+      "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "레벨 인피니트 ‘승리의 여신: 니케’, 신규 풀 보이스 스토리 이벤트 ‘COIN RUSH SHOWDOWN’ 업데이트 오늘(17일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229578",
+      "title": "레이저(Razer), 래피드 트리거·8K 폴링레이트 게이밍 키패드 ‘Tartarus V2 Pro’ 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229663",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "patch_note:base:2026-09-16"
+      "game_event_key": "release_schedule:base:2026-09-17"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Moomintroll: Winter’s Warmth launches on September 18",
-      "url": "https://blog.playstation.com/2026/09/16/moomintroll-winters-warmth-launches-on-september-18",
+      "source": "루리웹 뉴스",
+      "title": "마이크로소프트 XBOX, 지난 17일(목) ‘도쿄게임쇼 2026’ 에서 신규 게임 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229658",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-17"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘엣지 오브 메모리즈’ PC, PS5 한국어판 11월 5일 정식 출시 및 PS5 디지털 버전 사전 예약 오늘(18일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/229656",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-16"
+      "game_event_key": "release_schedule:playstation:base:2026-09-17"
     },
     {
       "reason": [
@@ -2187,13 +2507,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Sea of Thieves: Season 21, Talk Like a Pirate Day, New Rewards, Amazing Prizes and More!",
-      "url": "https://news.xbox.com/en-us/2026/09/16/sea-of-thieves-season-21-talk-like-a-pirate-day",
-      "canonical_game_key": "xbox:season-21",
+      "title": "Character Development and Storytelling in Kernel Hearts, Out Now on XBOX",
+      "url": "https://news.xbox.com/en-us/2026/09/17/character-development-and-storytelling-in-kernel-hearts",
+      "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:season-21:2026-09-16"
+      "game_event_key": "release_schedule:xbox:base:2026-09-17"
     },
     {
       "reason": [
@@ -2202,43 +2522,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Inside the Mystery of Clue Junior in Hasbro Games Junior Collection",
-      "url": "https://news.xbox.com/en-us/2026/09/16/hasbro-games-junior-collection-clue-preview",
+      "title": "Five Years of Solo Development – Interview with Fountains Creator John Pywell",
+      "url": "https://news.xbox.com/en-us/2026/09/17/five-years-of-solo-development-interview",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-16"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Why the publisher of Nintendo Life is launching a new PC gaming site",
-      "url": "https://www.gamesindustry.biz/why-the-publisher-of-nintendo-life-is-launching-a-new-pc-gaming-site",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-15"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Wo Long 2: Wings of Ember launches March 4, 2027, demo live today",
-      "url": "https://blog.playstation.com/2026/09/15/wo-long-2-wings-of-ember-launches-march-4-2027-demo-live-today",
-      "canonical_game_key": "playstation:preview",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:preview:2026-09-15"
+      "game_event_key": "release_schedule:xbox:base:2026-09-17"
     },
     {
       "reason": [
@@ -2247,13 +2537,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Aniimo Launches Today – Begin Your Journey into Idyll",
-      "url": "https://news.xbox.com/en-us/2026/09/15/aniimo-launches-today-xbox",
-      "canonical_game_key": "xbox:base",
+      "title": "Gears of War: E-Day Has Gone Gold, Pre-Install Begins September 29, Full PC Specifications Revealed",
+      "url": "https://news.xbox.com/en-us/2026/09/17/gears-of-war-e-day-gone-gold-pre-install-pc-specs",
+      "canonical_game_key": "xbox:premium-edition",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-15"
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-17"
     },
     {
       "reason": [
@@ -2261,14 +2551,14 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Gear up for the launch of Marvel’s Wolverine with new official merchandise",
-      "url": "https://blog.playstation.com/2026/09/15/gear-up-for-the-launch-of-marvels-wolverine-with-new-official-merchandise",
-      "canonical_game_key": "playstation:base",
+      "source": "Xbox Wire",
+      "title": "Free Play Days – Sea of Thieves and Hell Let Loose Vietnam",
+      "url": "https://news.xbox.com/en-us/2026/09/17/free-play-days-09-17-2026",
+      "canonical_game_key": "xbox:premium-edition",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-15"
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-17"
     }
   ],
   "source_backlog": {
