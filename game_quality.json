@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-19T07:38:29.904492+00:00",
+  "generated_at": "2026-09-20T08:02:11.455826+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 2,
-    "release_schedule_events": 21,
-    "actionable_game_event_count": 24,
+    "patch_note_events": 1,
+    "release_schedule_events": 20,
+    "actionable_game_event_count": 22,
     "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 20,
+    "missing_canonical_game_key_count": 18,
     "official_or_trade_event_count": 21,
-    "event_required_field_gap_count": 20,
+    "event_required_field_gap_count": 18,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -73,7 +73,7 @@
       "article_count": 10,
       "event_count": 6,
       "latest_event_at": "2026-09-17T03:00:15+00:00",
-      "age_days": 2.19,
+      "age_days": 3.21,
       "latest_title": "Co-op roguelite Shape of Dreams launches today on PS5",
       "latest_url": "https://blog.playstation.com/2026/09/17/co-op-roguelite-shape-of-dreams-launches-today-on-ps5",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 9,
       "latest_event_at": "2026-09-18T13:00:00+00:00",
-      "age_days": 0.78,
+      "age_days": 1.79,
       "latest_title": "Welcome to The World’s Game: EA Sports FC 27 Early Access Trial with EA Play Available Today",
       "latest_url": "https://news.xbox.com/en-us/2026/09/18/ea-sports-fc-27-early-access-trial-with-ea-play-available-today",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 6,
       "latest_event_at": "2026-09-17T04:00:00+00:00",
-      "age_days": 2.15,
+      "age_days": 3.17,
       "latest_title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
       "latest_url": "https://www.gamesindustry.biz/every-major-publisher-has-approached-us-to-review-their-old-kinect-and-wii-catalogue-nex-playground-is-spoilt-for-choice-as-its-international-rollout-continues",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 3,
-      "latest_event_at": "2026-09-18T16:01:40+00:00",
-      "age_days": 0.65,
-      "latest_title": "[TGS] 카리아의 아틀리에 ~밤의 왕국과 추억의 이정표~, 먹으면서 만들어간다",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229685",
+      "event_count": 1,
+      "latest_event_at": "2026-09-19T20:31:32+00:00",
+      "age_days": 0.48,
+      "latest_title": "[TGS] 스위치 2 '스텔라 블레이드'와 앞으로의 계획, 김형태 대표 인터뷰",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229697",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,29 +1198,25 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "[TGS] 카리아의 아틀리에 ~밤의 왕국과 추억의 이정표~, 먹으면서 만들어간다",
-      "url": "https://bbs.ruliweb.com/news/read/229685",
-      "event_at": "2026-09-18T16:01:40+00:00",
-      "event_date": "2026-09-18",
+      "title": "[TGS] 스위치 2 '스텔라 블레이드'와 앞으로의 계획, 김형태 대표 인터뷰",
+      "url": "https://bbs.ruliweb.com/news/read/229697",
+      "event_at": "2026-09-19T20:31:32+00:00",
+      "event_date": "2026-09-19",
       "platform": [
-        "ps5",
-        "xbox",
         "닌텐도",
-        "스위치",
-        "스팀"
+        "스위치"
       ],
-      "normalized_platform": "playstation",
+      "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-18",
-      "genre": [
-        "rpg"
-      ],
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-09-19",
+      "genre": [],
       "release": [
         "출시",
+        "발표",
         "tgs"
       ],
       "business_signal": [],
@@ -1239,50 +1235,8 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "[TGS] 강해진 각성자와 전리품 시스템, '드래곤즈 도그마 2 다크 어리즌' 시연",
-      "url": "https://bbs.ruliweb.com/news/read/229683",
-      "event_at": "2026-09-18T15:56:01+00:00",
-      "event_date": "2026-09-18",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-18",
-      "genre": [],
-      "release": [
-        "dlc",
-        "업데이트",
-        "tgs"
-      ],
-      "business_signal": [],
-      "studio": [
-        "캡콤"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title",
+        "platform"
       ]
     },
     {
@@ -1410,49 +1364,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "[TGS] 닌자라 2 언차티드 플래닛, 세계관의 확장 위해 오픈 월드 PvE로",
-      "url": "https://bbs.ruliweb.com/news/read/229674",
-      "event_at": "2026-09-18T04:59:09+00:00",
-      "event_date": "2026-09-18",
-      "platform": [
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-18",
-      "genre": [],
-      "release": [
-        "출시",
-        "tgs"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
       ]
     },
     {
@@ -2198,36 +2109,20 @@
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title",
+        "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "[TGS] 카리아의 아틀리에 ~밤의 왕국과 추억의 이정표~, 먹으면서 만들어간다",
-      "url": "https://bbs.ruliweb.com/news/read/229685",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-18"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "[TGS] 강해진 각성자와 전리품 시스템, '드래곤즈 도그마 2 다크 어리즌' 시연",
-      "url": "https://bbs.ruliweb.com/news/read/229683",
+      "title": "[TGS] 스위치 2 '스텔라 블레이드'와 앞으로의 계획, 김형태 대표 인터뷰",
+      "url": "https://bbs.ruliweb.com/news/read/229697",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "patch_note:base:2026-09-18"
+      "game_event_key": "release_schedule:base:2026-09-19"
     },
     {
       "reason": [
@@ -2258,23 +2153,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-09-18"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "[TGS] 닌자라 2 언차티드 플래닛, 세계관의 확장 위해 오픈 월드 PvE로",
-      "url": "https://bbs.ruliweb.com/news/read/229674",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-09-18"
     },
     {
       "reason": [
@@ -2352,6 +2230,36 @@
         "market"
       ],
       "game_event_key": "store_ranking:base:2026-09-17"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "Co-op roguelite Shape of Dreams launches today on PS5",
+      "url": "https://blog.playstation.com/2026/09/17/co-op-roguelite-shape-of-dreams-launches-today-on-ps5",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "version"
+      ],
+      "game_event_key": "patch_note:playstation:base:2026-09-17"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Co-op roguelite Shape of Dreams launches today on PS5",
+      "url": "https://blog.playstation.com/2026/09/17/co-op-roguelite-shape-of-dreams-launches-today-on-ps5",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-17"
     }
   ],
   "source_backlog": {
