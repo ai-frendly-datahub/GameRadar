@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-20T08:02:11.455826+00:00",
+  "generated_at": "2026-09-21T08:20:26.157244+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 1,
-    "release_schedule_events": 20,
-    "actionable_game_event_count": 22,
+    "patch_note_events": 2,
+    "release_schedule_events": 18,
+    "actionable_game_event_count": 21,
     "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 18,
-    "official_or_trade_event_count": 21,
-    "event_required_field_gap_count": 18,
+    "missing_canonical_game_key_count": 17,
+    "official_or_trade_event_count": 20,
+    "event_required_field_gap_count": 17,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,9 +71,9 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 6,
+      "event_count": 5,
       "latest_event_at": "2026-09-17T03:00:15+00:00",
-      "age_days": 3.21,
+      "age_days": 4.22,
       "latest_title": "Co-op roguelite Shape of Dreams launches today on PS5",
       "latest_url": "https://blog.playstation.com/2026/09/17/co-op-roguelite-shape-of-dreams-launches-today-on-ps5",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 10,
       "event_count": 9,
       "latest_event_at": "2026-09-18T13:00:00+00:00",
-      "age_days": 1.79,
+      "age_days": 2.81,
       "latest_title": "Welcome to The World’s Game: EA Sports FC 27 Early Access Trial with EA Play Available Today",
       "latest_url": "https://news.xbox.com/en-us/2026/09/18/ea-sports-fc-27-early-access-trial-with-ea-play-available-today",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 6,
       "latest_event_at": "2026-09-17T04:00:00+00:00",
-      "age_days": 3.17,
+      "age_days": 4.18,
       "latest_title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
       "latest_url": "https://www.gamesindustry.biz/every-major-publisher-has-approached-us-to-review-their-old-kinect-and-wii-catalogue-nex-playground-is-spoilt-for-choice-as-its-international-rollout-continues",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -760,10 +760,10 @@
       "status": "fresh",
       "article_count": 15,
       "event_count": 1,
-      "latest_event_at": "2026-09-19T20:31:32+00:00",
-      "age_days": 0.48,
-      "latest_title": "[TGS] 스위치 2 '스텔라 블레이드'와 앞으로의 계획, 김형태 대표 인터뷰",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229697",
+      "latest_event_at": "2026-09-20T19:00:15+00:00",
+      "age_days": 0.56,
+      "latest_title": "㈜피프티원퍼센트 ‘페블나이츠’, ‘GES(게임 이스포츠 서울) 2026’ 20일(일) 종료",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229743",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1197,27 +1197,27 @@
   "events": [
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "[TGS] 스위치 2 '스텔라 블레이드'와 앞으로의 계획, 김형태 대표 인터뷰",
-      "url": "https://bbs.ruliweb.com/news/read/229697",
-      "event_at": "2026-09-19T20:31:32+00:00",
-      "event_date": "2026-09-19",
-      "platform": [
-        "닌텐도",
-        "스위치"
-      ],
+      "event_model": "patch_note",
+      "title": "㈜피프티원퍼센트 ‘페블나이츠’, ‘GES(게임 이스포츠 서울) 2026’ 20일(일) 종료",
+      "url": "https://bbs.ruliweb.com/news/read/229743",
+      "event_at": "2026-09-20T19:00:15+00:00",
+      "event_date": "2026-09-20",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-19",
-      "genre": [],
+      "game_event_key": "patch_note:base:2026-09-20",
+      "genre": [
+        "액션",
+        "로그라이크",
+        "스포츠",
+        "인디"
+      ],
       "release": [
-        "출시",
-        "발표",
-        "tgs"
+        "업데이트"
       ],
       "business_signal": [],
       "studio": [],
@@ -1230,12 +1230,11 @@
       "authority_role": "community_media",
       "trust_tier": "T3_professional",
       "producer_role": "community_media",
-      "version": "",
+      "version": "2.0",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
         "platform"
       ]
     },
@@ -1935,46 +1934,6 @@
       ]
     },
     {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Wo Long 2: Wings of Ember launches March 4, 2027, demo live today",
-      "url": "https://blog.playstation.com/2026/09/15/wo-long-2-wings-of-ember-launches-march-4-2027-demo-live-today",
-      "event_at": "2026-09-15T16:00:22+00:00",
-      "event_date": "2026-09-15",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "preview",
-      "canonical_game_key": "playstation:preview",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:preview:2026-09-15",
-      "genre": [
-        "action"
-      ],
-      "release": [
-        "launch",
-        "demo"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
       "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
@@ -2113,16 +2072,15 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "[TGS] 스위치 2 '스텔라 블레이드'와 앞으로의 계획, 김형태 대표 인터뷰",
-      "url": "https://bbs.ruliweb.com/news/read/229697",
+      "title": "㈜피프티원퍼센트 ‘페블나이츠’, ‘GES(게임 이스포츠 서울) 2026’ 20일(일) 종료",
+      "url": "https://bbs.ruliweb.com/news/read/229743",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-09-19"
+      "game_event_key": "patch_note:base:2026-09-20"
     },
     {
       "reason": [
