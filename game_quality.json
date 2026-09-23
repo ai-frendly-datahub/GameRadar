@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-22T08:03:05.732145+00:00",
+  "generated_at": "2026-09-23T08:05:44.904793+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 4,
-    "release_schedule_events": 20,
-    "actionable_game_event_count": 25,
+    "patch_note_events": 3,
+    "release_schedule_events": 25,
+    "actionable_game_event_count": 29,
     "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 21,
-    "official_or_trade_event_count": 20,
-    "event_required_field_gap_count": 21,
+    "missing_canonical_game_key_count": 25,
+    "official_or_trade_event_count": 24,
+    "event_required_field_gap_count": 25,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 6,
-      "latest_event_at": "2026-09-21T16:03:04+00:00",
-      "age_days": 0.67,
-      "latest_title": "(For Southeast Asia) Lisa x PlayStation arrives this October: First look at the DualSense wireless controller",
-      "latest_url": "https://blog.playstation.com/2026/09/21/20260922-lisa",
+      "event_count": 7,
+      "latest_event_at": "2026-09-22T06:00:40+00:00",
+      "age_days": 1.09,
+      "latest_title": "Fading Echo makes a splash on PlayStation 5 today",
+      "latest_url": "https://blog.playstation.com/2026/09/22/fading-echo-makes-a-splash-on-playstation-5-today",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -105,10 +105,10 @@
       "status": "fresh",
       "article_count": 10,
       "event_count": 9,
-      "latest_event_at": "2026-09-21T04:00:00+00:00",
+      "latest_event_at": "2026-09-22T04:00:00+00:00",
       "age_days": 1.17,
-      "latest_title": "Gears of War: E-Day – Prepare for Emergence Day with Us in Los Angeles",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/21/gears-of-war-e-day-emergence-la-event",
+      "latest_title": "Gears of War: E-Day x Liquid Death – Unlock a Legendary Pose and More",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/22/gears-of-war-e-day-liquid-death",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 5,
-      "latest_event_at": "2026-09-17T04:00:00+00:00",
-      "age_days": 5.17,
-      "latest_title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
-      "latest_url": "https://www.gamesindustry.biz/every-major-publisher-has-approached-us-to-review-their-old-kinect-and-wii-catalogue-nex-playground-is-spoilt-for-choice-as-its-international-rollout-continues",
+      "event_count": 8,
+      "latest_event_at": "2026-09-22T22:57:04+00:00",
+      "age_days": 0.38,
+      "latest_title": "Undead Labs confirms it is now an \"employee-owned studio\"",
+      "latest_url": "https://www.gamesindustry.biz/undead-labs-confirms-it-is-now-an-employee-owned-studio",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -760,10 +760,10 @@
       "status": "fresh",
       "article_count": 15,
       "event_count": 5,
-      "latest_event_at": "2026-09-21T22:41:01+00:00",
+      "latest_event_at": "2026-09-22T22:41:31+00:00",
       "age_days": 0.39,
-      "latest_title": "스마일게이트 ‘이클립스: 더 어웨이크닝’, 지난 21일(월) 개발자 라이브 방송 ‘이PD의 LIVE 방송' 요약",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229820",
+      "latest_title": "‘서든 스트라이크 5 – 디럭스 에디션’ PS5 한국어판 오늘(23일) 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229884",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1196,58 +1196,55 @@
   ],
   "events": [
     {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "스마일게이트 ‘이클립스: 더 어웨이크닝’, 지난 21일(월) 개발자 라이브 방송 ‘이PD의 LIVE 방송' 요약",
-      "url": "https://bbs.ruliweb.com/news/read/229820",
-      "event_at": "2026-09-21T22:41:01+00:00",
-      "event_date": "2026-09-21",
-      "platform": [],
-      "normalized_platform": "",
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Undead Labs confirms it is now an \"employee-owned studio\"",
+      "url": "https://www.gamesindustry.biz/undead-labs-confirms-it-is-now-an-employee-owned-studio",
+      "event_at": "2026-09-22T22:57:04+00:00",
+      "event_date": "2026-09-22",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-21",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-09-22",
       "genre": [],
       "release": [
-        "발표",
-        "업데이트"
+        "announced"
       ],
       "business_signal": [],
-      "studio": [
-        "스마일게이트"
-      ],
+      "studio": [],
       "source_signal": [
-        "community_reaction",
         "game_media_context",
-        "patch",
-        "release"
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
       ],
-      "authority_role": "community_media",
+      "authority_role": "trade_media",
       "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "producer_role": "trade_media",
       "version": "",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title"
       ]
     },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘라타탄’ PC, PS5, NS2 한국어판, 10월 15일 정식 출시 및 패키지 버전 예약 판매 오늘(22일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/229816",
-      "event_at": "2026-09-21T21:42:48+00:00",
-      "event_date": "2026-09-21",
+      "title": "‘서든 스트라이크 5 – 디럭스 에디션’ PS5 한국어판 오늘(23일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229884",
+      "event_at": "2026-09-22T22:41:31+00:00",
+      "event_date": "2026-09-22",
       "platform": [
-        "ps5",
-        "닌텐도",
-        "스위치"
+        "ps5"
       ],
       "normalized_platform": "playstation",
       "game_title": [],
@@ -1255,10 +1252,9 @@
       "edition": "base",
       "canonical_game_key": "playstation:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-21",
+      "game_event_key": "release_schedule:playstation:base:2026-09-22",
       "genre": [
-        "액션",
-        "로그라이크"
+        "전략"
       ],
       "release": [
         "출시"
@@ -1284,57 +1280,11 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘네온 어비스 2’, 10월 8일 콘솔 및 PC로 정식 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229815",
-      "event_at": "2026-09-21T21:15:34+00:00",
-      "event_date": "2026-09-21",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-21",
-      "genre": [
-        "액션",
-        "로그라이크"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [
-        "스마일게이트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "넷마블 ‘블레이드 & 소울 레볼루션’, 18개 직업 밸런스 개선 업데이트 오늘(22일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/229814",
-      "event_at": "2026-09-21T21:06:50+00:00",
-      "event_date": "2026-09-21",
+      "title": "컴투스홀딩스 '소울 스트라이크', 추석맞이 업데이트 오늘(23일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229883",
+      "event_at": "2026-09-22T21:50:39+00:00",
+      "event_date": "2026-09-22",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1342,16 +1292,14 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-21",
-      "genre": [
-        "mmorpg"
-      ],
+      "game_event_key": "patch_note:base:2026-09-22",
+      "genre": [],
       "release": [
         "업데이트"
       ],
       "business_signal": [],
       "studio": [
-        "넷마블"
+        "컴투스"
       ],
       "source_signal": [
         "community_reaction",
@@ -1373,11 +1321,97 @@
     },
     {
       "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "SOOP ‘추석 특집 페이지’ 오늘(23일) 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/229882",
+      "event_at": "2026-09-22T21:36:35+00:00",
+      "event_date": "2026-09-22",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "마인크래프트",
+        "디아블로"
+      ],
+      "normalized_game_title": "마인크래프트",
+      "edition": "base",
+      "canonical_game_key": "마인크래프트:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:마인크래프트:base:2026-09-22",
+      "genre": [
+        "스포츠"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘신모의 클리파’ 오는 24일 (목) 출시 및 기념 이벤트 개최",
+      "url": "https://bbs.ruliweb.com/news/read/229877",
+      "event_at": "2026-09-22T20:25:04+00:00",
+      "event_date": "2026-09-22",
+      "platform": [
+        "ps5",
+        "닌텐도",
+        "스위치",
+        "스팀"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-22",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘메르세데스 프레데릭’ 추가",
-      "url": "https://bbs.ruliweb.com/news/read/229808",
-      "event_at": "2026-09-21T20:15:46+00:00",
-      "event_date": "2026-09-21",
+      "title": "라인게임즈, ‘창세기전 모바일’ 원스토어 매출 1위 달성",
+      "url": "https://bbs.ruliweb.com/news/read/229876",
+      "event_at": "2026-09-22T20:14:39+00:00",
+      "event_date": "2026-09-22",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1385,7 +1419,7 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-21",
+      "game_event_key": "patch_note:base:2026-09-22",
       "genre": [],
       "release": [
         "업데이트"
@@ -1408,6 +1442,257 @@
       "required_field_gaps": [
         "platform",
         "version"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Fading Echo makes a splash on PlayStation 5 today",
+      "url": "https://blog.playstation.com/2026/09/22/fading-echo-makes-a-splash-on-playstation-5-today",
+      "event_at": "2026-09-22T06:00:40+00:00",
+      "event_date": "2026-09-22",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-22",
+      "genre": [
+        "action",
+        "adventure",
+        "rpg",
+        "fighting"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Xbox transfers Rare and Halo franchise to Activision, proposes closure of Ninja Theory, and confirms another 268 roles cut amid studio restructure",
+      "url": "https://www.gamesindustry.biz/xbox-transfers-rare-and-halo-franchise-to-activision-proposes-closure-of-ninja-theory-and-confirms-another-268-roles-cut-amid-studio-restructure",
+      "event_at": "2026-09-22T05:06:00+00:00",
+      "event_date": "2026-09-22",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-22",
+      "genre": [],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [
+        "activision"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Gears of War: E-Day x Liquid Death – Unlock a Legendary Pose and More",
+      "url": "https://news.xbox.com/en-us/2026/09/22/gears-of-war-e-day-liquid-death",
+      "event_at": "2026-09-22T04:00:00+00:00",
+      "event_date": "2026-09-22",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-22",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Dune: Awakening Arrives on XBOX With New Ways to Play",
+      "url": "https://news.xbox.com/en-us/2026/09/22/dune-awakening-xbox-launch",
+      "event_at": "2026-09-22T03:00:00+00:00",
+      "event_date": "2026-09-22",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-22",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "IO Interactive \"had no choice\" but to delay Switch 2 launch of 007 First Light for a third time",
+      "url": "https://www.gamesindustry.biz/io-interactive-had-no-choice-but-to-delay-switch-2-launch-of-007-first-light-for-a-third-time",
+      "event_at": "2026-09-22T01:55:16+00:00",
+      "event_date": "2026-09-22",
+      "platform": [
+        "nintendo",
+        "switch",
+        "switch 2"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-09-22",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Xbox reportedly set to announce second round of layoffs this week",
+      "url": "https://www.gamesindustry.biz/xbox-reportedly-set-to-announce-second-round-of-layoffs-this-week",
+      "event_at": "2026-09-21T22:55:38+00:00",
+      "event_date": "2026-09-21",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-21",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [
+        "activision"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1776,85 +2061,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Gears of War: E-Day Has Gone Gold, Pre-Install Begins September 29, Full PC Specifications Revealed",
-      "url": "https://news.xbox.com/en-us/2026/09/17/gears-of-war-e-day-gone-gold-pre-install-pc-specs",
-      "event_at": "2026-09-17T07:00:00+00:00",
-      "event_date": "2026-09-17",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "xbox:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-17",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Free Play Days – Sea of Thieves and Hell Let Loose Vietnam",
-      "url": "https://news.xbox.com/en-us/2026/09/17/free-play-days-09-17-2026",
-      "event_at": "2026-09-17T06:00:00+00:00",
-      "event_date": "2026-09-17",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "xbox:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-17",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
@@ -2189,68 +2395,23 @@
       "required_field_gaps": [
         "platform"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "GTA 6 Netflix preview drove more than 100,000 sign-ups during its six-hour exclusivity window",
-      "url": "https://www.gamesindustry.biz/gta-6-netflix-preview-drove-more-than-100000-sign-ups-during-its-six-hour-exclusivity-window",
-      "event_at": "2026-09-10T04:50:35+00:00",
-      "event_date": "2026-09-10",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-09-10",
-      "genre": [],
-      "release": [
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [
-        "rockstar"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_game_title",
+        "missing_required_fields"
       ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘이클립스: 더 어웨이크닝’, 지난 21일(월) 개발자 라이브 방송 ‘이PD의 LIVE 방송' 요약",
-      "url": "https://bbs.ruliweb.com/news/read/229820",
-      "canonical_game_key": "base",
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Undead Labs confirms it is now an \"employee-owned studio\"",
+      "url": "https://www.gamesindustry.biz/undead-labs-confirms-it-is-now-an-employee-owned-studio",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title"
       ],
-      "game_event_key": "patch_note:base:2026-09-21"
+      "game_event_key": "release_schedule:steam:base:2026-09-22"
     },
     {
       "reason": [
@@ -2260,13 +2421,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘라타탄’ PC, PS5, NS2 한국어판, 10월 15일 정식 출시 및 패키지 버전 예약 판매 오늘(22일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/229816",
+      "title": "‘서든 스트라이크 5 – 디럭스 에디션’ PS5 한국어판 오늘(23일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229884",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-21"
+      "game_event_key": "release_schedule:playstation:base:2026-09-22"
     },
     {
       "reason": [
@@ -2274,16 +2435,48 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "‘네온 어비스 2’, 10월 8일 콘솔 및 PC로 정식 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229815",
+      "title": "컴투스홀딩스 '소울 스트라이크', 추석맞이 업데이트 오늘(23일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/229883",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-09-22"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "SOOP ‘추석 특집 페이지’ 오늘(23일) 오픈",
+      "url": "https://bbs.ruliweb.com/news/read/229882",
+      "canonical_game_key": "마인크래프트:base",
+      "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-09-21"
+      "game_event_key": "release_schedule:마인크래프트:base:2026-09-22"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘신모의 클리파’ 오는 24일 (목) 출시 및 기념 이벤트 개최",
+      "url": "https://bbs.ruliweb.com/news/read/229877",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-22"
     },
     {
       "reason": [
@@ -2293,31 +2486,14 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘블레이드 & 소울 레볼루션’, 18개 직업 밸런스 개선 업데이트 오늘(22일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/229814",
+      "title": "라인게임즈, ‘창세기전 모바일’ 원스토어 매출 1위 달성",
+      "url": "https://bbs.ruliweb.com/news/read/229876",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-09-21"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘메르세데스 프레데릭’ 추가",
-      "url": "https://bbs.ruliweb.com/news/read/229808",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-09-21"
+      "game_event_key": "patch_note:base:2026-09-22"
     },
     {
       "reason": [
@@ -2326,13 +2502,13 @@
       ],
       "event_model": "release_schedule",
       "source": "PlayStation Blog",
-      "title": "(For Southeast Asia) Lisa x PlayStation arrives this October: First look at the DualSense wireless controller",
-      "url": "https://blog.playstation.com/2026/09/21/20260922-lisa",
+      "title": "Fading Echo makes a splash on PlayStation 5 today",
+      "url": "https://blog.playstation.com/2026/09/22/fading-echo-makes-a-splash-on-playstation-5-today",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-21"
+      "game_event_key": "release_schedule:playstation:base:2026-09-22"
     },
     {
       "reason": [
@@ -2340,44 +2516,14 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Gears of War: E-Day – Prepare for Emergence Day with Us in Los Angeles",
-      "url": "https://news.xbox.com/en-us/2026/09/21/gears-of-war-e-day-emergence-la-event",
-      "canonical_game_key": "xbox:early-access",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:early-access:2026-09-21"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Lisa x PlayStation arrives this October: First look at the DualSense wireless controller – Lisa Limited Edition and all-new merchandise",
-      "url": "https://blog.playstation.com/2026/09/21/lisa-x-playstation-arrives-this-october-first-look-at-the-dualsense-wireless-controller-lisa-limited-edition-and-all-new-merchandise",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-21"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "How Remedies Shape Progression in Hela: Of Mice & Magic",
-      "url": "https://news.xbox.com/en-us/2026/09/18/how-remedies-shape-progression-in-hela-of-mice-magic",
+      "source": "GamesIndustry.biz",
+      "title": "Xbox transfers Rare and Halo franchise to Activision, proposes closure of Ninja Theory, and confirms another 268 roles cut amid studio restructure",
+      "url": "https://www.gamesindustry.biz/xbox-transfers-rare-and-halo-franchise-to-activision-proposes-closure-of-ninja-theory-and-confirms-another-268-roles-cut-amid-studio-restructure",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-18"
+      "game_event_key": "release_schedule:xbox:base:2026-09-22"
     },
     {
       "reason": [
@@ -2386,13 +2532,28 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Next Week on XBOX: New Games for September 21 to 25",
-      "url": "https://news.xbox.com/en-us/2026/09/18/next-week-on-xbox-new-games-for-september-21-to-25",
+      "title": "Gears of War: E-Day x Liquid Death – Unlock a Legendary Pose and More",
+      "url": "https://news.xbox.com/en-us/2026/09/22/gears-of-war-e-day-liquid-death",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-18"
+      "game_event_key": "release_schedule:xbox:base:2026-09-22"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Dune: Awakening Arrives on XBOX With New Ways to Play",
+      "url": "https://news.xbox.com/en-us/2026/09/22/dune-awakening-xbox-launch",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-22"
     }
   ],
   "source_backlog": {
