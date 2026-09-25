@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-09-24T07:55:51.667286+00:00",
+  "generated_at": "2026-09-25T08:19:44.550128+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 2,
-    "patch_note_events": 3,
-    "release_schedule_events": 28,
-    "actionable_game_event_count": 33,
-    "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 29,
-    "official_or_trade_event_count": 25,
-    "event_required_field_gap_count": 29,
+    "patch_note_events": 1,
+    "release_schedule_events": 26,
+    "actionable_game_event_count": 29,
+    "canonical_game_key_present_count": 2,
+    "missing_canonical_game_key_count": 27,
+    "official_or_trade_event_count": 23,
+    "event_required_field_gap_count": 27,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -72,10 +72,10 @@
       "status": "fresh",
       "article_count": 10,
       "event_count": 7,
-      "latest_event_at": "2026-09-22T06:00:40+00:00",
-      "age_days": 2.08,
-      "latest_title": "Fading Echo makes a splash on PlayStation 5 today",
-      "latest_url": "https://blog.playstation.com/2026/09/22/fading-echo-makes-a-splash-on-playstation-5-today",
+      "latest_event_at": "2026-09-24T04:00:40+00:00",
+      "age_days": 1.18,
+      "latest_title": "Luma Island is coming to PS5",
+      "latest_url": "https://blog.playstation.com/2026/09/24/luma-island-is-coming-to-ps5",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 9,
-      "latest_event_at": "2026-09-23T17:01:00+00:00",
-      "age_days": 0.62,
-      "latest_title": "Meet Key Players Shaping Makoto Daito’s Journey in STRANGER THAN HEAVEN",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/23/stranger-than-heaven-full-cast-character-reveal-xbox-sega",
+      "event_count": 8,
+      "latest_event_at": "2026-09-24T09:00:00+00:00",
+      "age_days": 0.97,
+      "latest_title": "XBOX Insiders Can Join the Chicken Invaders Collection Preview Today!",
+      "latest_url": "https://news.xbox.com/en-us/2026/09/24/xbox-insiders-can-join-the-chicken-invaders-collection-preview-today",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,9 +470,9 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 50,
-      "event_count": 9,
+      "event_count": 8,
       "latest_event_at": "2026-09-23T03:55:38+00:00",
-      "age_days": 1.17,
+      "age_days": 2.18,
       "latest_title": "Sensor Tower: PC and PlayStation unit sales in Japan rise 13% to 21m during H1 2026, led by Resident Evil Requiem",
       "latest_url": "https://www.gamesindustry.biz/sensor-tower-pc-and-playstation-unit-sales-in-japan-rise-13-to-21m-during-h1-2026-led-by-resident-evil-requiem",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 8,
-      "latest_event_at": "2026-09-23T21:00:00+00:00",
-      "age_days": 0.46,
-      "latest_title": "메타 VR 안경 대응 MR 게임, 스토리 오브 시즌: 유어 원더풀 라이프",
-      "latest_url": "https://bbs.ruliweb.com/news/read/229892",
+      "event_count": 6,
+      "latest_event_at": "2026-09-24T22:40:00+00:00",
+      "age_days": 0.4,
+      "latest_title": "캐슬바니아, 40주년 기념 무료 배포와 할인 판매",
+      "latest_url": "https://bbs.ruliweb.com/news/read/229911",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,12 +1198,13 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "메타 VR 안경 대응 MR 게임, 스토리 오브 시즌: 유어 원더풀 라이프",
-      "url": "https://bbs.ruliweb.com/news/read/229892",
-      "event_at": "2026-09-23T21:00:00+00:00",
-      "event_date": "2026-09-23",
+      "title": "캐슬바니아, 40주년 기념 무료 배포와 할인 판매",
+      "url": "https://bbs.ruliweb.com/news/read/229911",
+      "event_at": "2026-09-24T22:40:00+00:00",
+      "event_date": "2026-09-24",
       "platform": [
-        "vr"
+        "닌텐도",
+        "스팀"
       ],
       "normalized_platform": "",
       "game_title": [],
@@ -1211,14 +1212,15 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-23",
+      "game_event_key": "release_schedule:base:2026-09-24",
       "genre": [],
       "release": [
-        "출시",
-        "발표"
+        "출시"
       ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "코나미"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1240,12 +1242,59 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "100g으로 무게를 확 줄였다, 메타 VR 안경",
-      "url": "https://bbs.ruliweb.com/news/read/229891",
-      "event_at": "2026-09-23T19:30:00+00:00",
-      "event_date": "2026-09-23",
+      "title": "굿스마일컴퍼니×모노크롬, 신규 IP 브랜드 이그니스피어와 첫 타이틀 ‘던게이저’",
+      "url": "https://bbs.ruliweb.com/news/read/229910",
+      "event_at": "2026-09-24T21:50:00+00:00",
+      "event_date": "2026-09-24",
       "platform": [
-        "vr"
+        "ps5",
+        "닌텐도",
+        "스위치",
+        "스팀"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-24",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
+      "release": [
+        "출시",
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘컨트롤 레조넌트’, 지난 24일(목) 전 세계 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229906",
+      "event_at": "2026-09-24T19:02:00+00:00",
+      "event_date": "2026-09-24",
+      "platform": [
+        "스팀"
       ],
       "normalized_platform": "",
       "game_title": [],
@@ -1253,8 +1302,10 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-23",
-      "genre": [],
+      "game_event_key": "release_schedule:base:2026-09-24",
+      "genre": [
+        "액션"
+      ],
       "release": [
         "출시"
       ],
@@ -1281,22 +1332,71 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘메타 퀘스트’용으로 개발 중, 역전재판5 VR",
-      "url": "https://bbs.ruliweb.com/news/read/229890",
-      "event_at": "2026-09-23T19:00:00+00:00",
-      "event_date": "2026-09-23",
+      "title": "폴든 퍼블리싱, 협동 수집 게임 '다함께 장난감 정리!' Steam 데모 오늘(25일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229904",
+      "event_at": "2026-09-24T17:10:43+00:00",
+      "event_date": "2026-09-24",
       "platform": [
-        "vr"
+        "steam"
       ],
-      "normalized_platform": "",
+      "normalized_platform": "steam",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-23",
-      "genre": [],
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-09-24",
+      "genre": [
+        "시뮬레이션"
+      ],
       "release": [
+        "출시",
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "필 프리 게임즈 '루마섬(Luma Island)', 지난 24일(목) PS5 및 XSX 버전 출시 발표",
+      "url": "https://bbs.ruliweb.com/news/read/229903",
+      "event_at": "2026-09-24T17:03:12+00:00",
+      "event_date": "2026-09-24",
+      "platform": [
+        "ps5",
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-24",
+      "genre": [
+        "어드벤처",
+        "인디"
+      ],
+      "release": [
+        "출시",
         "발표"
       ],
       "business_signal": [],
@@ -1315,8 +1415,167 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title",
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘EA SPORTS FC™ 27’ 한국어판 패키지, 오늘(25일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229902",
+      "event_at": "2026-09-24T16:43:32+00:00",
+      "event_date": "2026-09-24",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "fc",
+        "ea sports fc"
+      ],
+      "normalized_game_title": "fc",
+      "edition": "base",
+      "canonical_game_key": "fc:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:fc:base:2026-09-24",
+      "genre": [
+        "sports"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
         "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "XBOX Insiders Can Join the Chicken Invaders Collection Preview Today!",
+      "url": "https://news.xbox.com/en-us/2026/09/24/xbox-insiders-can-join-the-chicken-invaders-collection-preview-today",
+      "event_at": "2026-09-24T09:00:00+00:00",
+      "event_date": "2026-09-24",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-09-24",
+      "genre": [],
+      "release": [
+        "preview"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Free Play Days – PGA TOUR 2K25, The Escapists 2, Young Suns, and The Division 2",
+      "url": "https://news.xbox.com/en-us/2026/09/24/free-play-days-09-24-2026",
+      "event_at": "2026-09-24T06:00:00+00:00",
+      "event_date": "2026-09-24",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "xbox:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-24",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Luma Island is coming to PS5",
+      "url": "https://blog.playstation.com/2026/09/24/luma-island-is-coming-to-ps5",
+      "event_at": "2026-09-24T04:00:40+00:00",
+      "event_date": "2026-09-24",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-09-24",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": 800000,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1357,90 +1616,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "워프레임, ‘나린의 얼음검’ 전 플랫폼 무료 업데이트 배포 중",
-      "url": "https://bbs.ruliweb.com/news/read/229889",
-      "event_at": "2026-09-23T15:21:50+00:00",
-      "event_date": "2026-09-23",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-23",
-      "genre": [],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "디볼버디지털 ‘스틱 잇 투 더 스틱맨’ 오늘(24일) 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229888",
-      "event_at": "2026-09-23T15:00:00+00:00",
-      "event_date": "2026-09-23",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-09-23",
-      "genre": [
-        "격투",
-        "인디"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "1.0",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
       ]
     },
     {
@@ -1603,130 +1778,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘서든 스트라이크 5 – 디럭스 에디션’ PS5 한국어판 오늘(23일) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229884",
-      "event_at": "2026-09-22T22:41:31+00:00",
-      "event_date": "2026-09-22",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-22",
-      "genre": [
-        "전략"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "컴투스홀딩스 '소울 스트라이크', 추석맞이 업데이트 오늘(23일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/229883",
-      "event_at": "2026-09-22T21:50:39+00:00",
-      "event_date": "2026-09-22",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-22",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "컴투스"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "SOOP ‘추석 특집 페이지’ 오늘(23일) 오픈",
-      "url": "https://bbs.ruliweb.com/news/read/229882",
-      "event_at": "2026-09-22T21:36:35+00:00",
-      "event_date": "2026-09-22",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "마인크래프트",
-        "디아블로"
-      ],
-      "normalized_game_title": "마인크래프트",
-      "edition": "base",
-      "canonical_game_key": "마인크래프트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:마인크래프트:base:2026-09-22",
-      "genre": [
-        "스포츠"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
       ]
     },
     {
@@ -2106,125 +2157,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "How Remedies Shape Progression in Hela: Of Mice & Magic",
-      "url": "https://news.xbox.com/en-us/2026/09/18/how-remedies-shape-progression-in-hela-of-mice-magic",
-      "event_at": "2026-09-18T07:00:00+00:00",
-      "event_date": "2026-09-18",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-18",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Next Week on XBOX: New Games for September 21 to 25",
-      "url": "https://news.xbox.com/en-us/2026/09/18/next-week-on-xbox-new-games-for-september-21-to-25",
-      "event_at": "2026-09-18T05:00:00+00:00",
-      "event_date": "2026-09-18",
-      "platform": [
-        "xbox",
-        "xbox series x",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-18",
-      "genre": [],
-      "release": [
-        "coming soon"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Overwatch w/Devs: Doctrine, Grimsvötn, Reworks, and More | Official XBOX Podcast",
-      "url": "https://news.xbox.com/en-us/2026/09/17/overwatch-w-devs-doctrine-grimsvotn-reworks-and-more-official-xbox-podcast",
-      "event_at": "2026-09-17T11:42:40+00:00",
-      "event_date": "2026-09-17",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "overwatch"
-      ],
-      "normalized_game_title": "overwatch",
-      "edition": "season-5",
-      "canonical_game_key": "overwatch:xbox:season-5",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:overwatch:xbox:season-5:2026-09-17",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "\"Every major publisher has approached us to review their old Kinect and Wii catalogue\" – Nex Playground is spoilt for choice as its international rollout continues",
@@ -2429,46 +2361,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Monster Hunter Wilds: Ascendance hands-on report – taking on new monster Araketa and Elder Dragon Teostra",
-      "url": "https://blog.playstation.com/2026/09/16/monster-hunter-wilds-ascendance-hands-on-report-taking-on-new-monster-araketa-and-elder-dragon-teostra",
-      "event_at": "2026-09-16T16:00:21+00:00",
-      "event_date": "2026-09-16",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "monster hunter"
-      ],
-      "normalized_game_title": "monster-hunter",
-      "edition": "preview",
-      "canonical_game_key": "monster-hunter:playstation:preview",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:monster-hunter:playstation:preview:2026-09-16",
-      "genre": [],
-      "release": [
-        "expansion",
-        "demo"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
       "title": "Why the publisher of Nintendo Life is launching a new PC gaming site",
@@ -2511,54 +2403,6 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "New StarCraft title to launch in 2030, will be an open-world FPS",
-      "url": "https://www.gamesindustry.biz/new-starcraft-title-to-launch-in-2030-will-be-an-open-world-fps",
-      "event_at": "2026-09-14T01:29:14+00:00",
-      "event_date": "2026-09-14",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "starcraft"
-      ],
-      "normalized_game_title": "starcraft",
-      "edition": "base",
-      "canonical_game_key": "starcraft:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:starcraft:base:2026-09-14",
-      "genre": [
-        "fps",
-        "shooter",
-        "strategy"
-      ],
-      "release": [
-        "launch",
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "blizzard"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2570,14 +2414,30 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "메타 VR 안경 대응 MR 게임, 스토리 오브 시즌: 유어 원더풀 라이프",
-      "url": "https://bbs.ruliweb.com/news/read/229892",
+      "title": "캐슬바니아, 40주년 기념 무료 배포와 할인 판매",
+      "url": "https://bbs.ruliweb.com/news/read/229911",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-09-23"
+      "game_event_key": "release_schedule:base:2026-09-24"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "굿스마일컴퍼니×모노크롬, 신규 IP 브랜드 이그니스피어와 첫 타이틀 ‘던게이저’",
+      "url": "https://bbs.ruliweb.com/news/read/229910",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-24"
     },
     {
       "reason": [
@@ -2587,31 +2447,107 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "100g으로 무게를 확 줄였다, 메타 VR 안경",
-      "url": "https://bbs.ruliweb.com/news/read/229891",
+      "title": "‘컨트롤 레조넌트’, 지난 24일(목) 전 세계 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229906",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-09-23"
+      "game_event_key": "release_schedule:base:2026-09-24"
     },
     {
       "reason": [
-        "missing_game_title_platform",
+        "missing_game_title",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘메타 퀘스트’용으로 개발 중, 역전재판5 VR",
-      "url": "https://bbs.ruliweb.com/news/read/229890",
-      "canonical_game_key": "base",
+      "title": "폴든 퍼블리싱, 협동 수집 게임 '다함께 장난감 정리!' Steam 데모 오늘(25일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/229904",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
-        "game_title",
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-09-24"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "필 프리 게임즈 '루마섬(Luma Island)', 지난 24일(목) PS5 및 XSX 버전 출시 발표",
+      "url": "https://bbs.ruliweb.com/news/read/229903",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-24"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘EA SPORTS FC™ 27’ 한국어판 패키지, 오늘(25일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/229902",
+      "canonical_game_key": "fc:base",
+      "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-09-23"
+      "game_event_key": "release_schedule:fc:base:2026-09-24"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "XBOX Insiders Can Join the Chicken Invaders Collection Preview Today!",
+      "url": "https://news.xbox.com/en-us/2026/09/24/xbox-insiders-can-join-the-chicken-invaders-collection-preview-today",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-09-24"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Free Play Days – PGA TOUR 2K25, The Escapists 2, Young Suns, and The Division 2",
+      "url": "https://news.xbox.com/en-us/2026/09/24/free-play-days-09-24-2026",
+      "canonical_game_key": "xbox:premium-edition",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-09-24"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Luma Island is coming to PS5",
+      "url": "https://blog.playstation.com/2026/09/24/luma-island-is-coming-to-ps5",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-09-24"
     },
     {
       "reason": [
@@ -2627,101 +2563,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:base:2026-09-23"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "워프레임, ‘나린의 얼음검’ 전 플랫폼 무료 업데이트 배포 중",
-      "url": "https://bbs.ruliweb.com/news/read/229889",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-09-23"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "디볼버디지털 ‘스틱 잇 투 더 스틱맨’ 오늘(24일) 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/229888",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-09-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Age of Empires II: Definitive Edition – The Viking Sagas Available Now",
-      "url": "https://news.xbox.com/en-us/2026/09/23/age-of-empires-ii-definitive-edition-the-viking-sagas-available-now",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "CONTROL Resonant Is an Action Game… and an RPG, and a Superhero Game, and More Besides",
-      "url": "https://news.xbox.com/en-us/2026/09/23/control-resonant-launch-genre-details",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Sensor Tower: PC and PlayStation unit sales in Japan rise 13% to 21m during H1 2026, led by Resident Evil Requiem",
-      "url": "https://www.gamesindustry.biz/sensor-tower-pc-and-playstation-unit-sales-in-japan-rise-13-to-21m-during-h1-2026-led-by-resident-evil-requiem",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ],
-      "game_event_key": "store_ranking:playstation:base:2026-09-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Undead Labs confirms it is now an \"employee-owned studio\", a \"significant number\" of employees face layoffs",
-      "url": "https://www.gamesindustry.biz/undead-labs-confirms-it-is-now-an-employee-owned-studio",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-09-22"
     }
   ],
   "source_backlog": {
