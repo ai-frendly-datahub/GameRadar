@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-01T09:35:08.503017+00:00",
+  "generated_at": "2026-10-02T09:09:35.174293+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 2,
-    "patch_note_events": 3,
-    "release_schedule_events": 24,
-    "actionable_game_event_count": 29,
-    "canonical_game_key_present_count": 5,
-    "missing_canonical_game_key_count": 24,
+    "patch_note_events": 2,
+    "release_schedule_events": 26,
+    "actionable_game_event_count": 30,
+    "canonical_game_key_present_count": 2,
+    "missing_canonical_game_key_count": 28,
     "official_or_trade_event_count": 26,
-    "event_required_field_gap_count": 24,
+    "event_required_field_gap_count": 28,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,11 +71,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 9,
-      "latest_event_at": "2026-09-30T06:30:30+00:00",
-      "age_days": 1.13,
-      "latest_title": "PlayStation Plus Monthly Games for October: F1 25, Hunt: Showdown 1896, Earth Defense Force: World Brothers 2",
-      "latest_url": "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2",
+      "event_count": 10,
+      "latest_event_at": "2026-10-01T07:00:09+00:00",
+      "age_days": 1.09,
+      "latest_title": "AI upscaling is coming to PS5",
+      "latest_url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 10,
-      "event_count": 8,
-      "latest_event_at": "2026-09-30T07:00:00+00:00",
-      "age_days": 1.11,
-      "latest_title": "Microsoft Jewel Comes to Mobile with XBOX Achievements and Game Pass Benefits",
-      "latest_url": "https://news.xbox.com/en-us/2026/09/30/microsoft-jewel-game-pass-achievements-xbox",
+      "event_count": 7,
+      "latest_event_at": "2026-10-01T14:00:00+00:00",
+      "age_days": 0.8,
+      "latest_title": "Invincible VS Open Beta Begins October 13: What You Need to Know",
+      "latest_url": "https://news.xbox.com/en-us/2026/10/01/invincible-vs-open-beta-begins-october-13",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 50,
       "event_count": 9,
       "latest_event_at": "2026-09-30T23:25:00+00:00",
-      "age_days": 0.42,
+      "age_days": 1.41,
       "latest_title": "PC and console revenue charts led by new releases in August | Newzoo charts",
       "latest_url": "https://www.gamesindustry.biz/pc-and-console-revenue-charts-led-by-new-releases-in-august-newzoo-charts",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 15,
-      "event_count": 3,
-      "latest_event_at": "2026-09-30T21:26:48+00:00",
-      "age_days": 0.51,
-      "latest_title": "㈜위메이드 ‘레전드 오브 이미르’ 신규 클래스 ‘어쌔신’ 업데이트 오늘(1일) 진행",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230122",
+      "event_count": 4,
+      "latest_event_at": "2026-10-02T00:00:00+00:00",
+      "age_days": 0.38,
+      "latest_title": "Circle KEN ‘WORJONG / 워드작’, 10월 30일 Steam 출시 및 한국어 공식 규칙 사이트 공개",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230176",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1196,6 +1196,461 @@
   ],
   "events": [
     {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Circle KEN ‘WORJONG / 워드작’, 10월 30일 Steam 출시 및 한국어 공식 규칙 사이트 공개",
+      "url": "https://bbs.ruliweb.com/news/read/230176",
+      "event_at": "2026-10-02T00:00:00+00:00",
+      "event_date": "2026-10-02",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-02",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘캐슬바니아: 벨몬트의 저주’ PS5, XSX, NS, PC 체험판 데모 지난 1일(목) 배포",
+      "url": "https://bbs.ruliweb.com/news/read/230179",
+      "event_at": "2026-10-01T23:32:56+00:00",
+      "event_date": "2026-10-01",
+      "platform": [
+        "ps5",
+        "xbox",
+        "닌텐도",
+        "스위치",
+        "스팀"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-01",
+      "genre": [],
+      "release": [
+        "출시",
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [
+        "코나미"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "스마일게이트 ‘카오스 제로 나이트메어’, 정식 론칭 1주년 기념 ‘악몽제’ 티징 영상 오늘(2일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/230175",
+      "event_at": "2026-10-01T22:18:14+00:00",
+      "event_date": "2026-10-01",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-10-01",
+      "genre": [
+        "rpg",
+        "로그라이크"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "스마일게이트"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘룬스케이프: 드래곤와일즈’ PS5 한국어판 패키지, 11월 5일 출시 및 예약 판매 오늘(2일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/230173",
+      "event_at": "2026-10-01T20:30:54+00:00",
+      "event_date": "2026-10-01",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-01",
+      "genre": [
+        "오픈월드"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Invincible VS Open Beta Begins October 13: What You Need to Know",
+      "url": "https://news.xbox.com/en-us/2026/10/01/invincible-vs-open-beta-begins-october-13",
+      "event_at": "2026-10-01T14:00:00+00:00",
+      "event_date": "2026-10-01",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "season-2",
+      "canonical_game_key": "xbox:season-2",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:season-2:2026-10-01",
+      "genre": [],
+      "release": [
+        "dlc",
+        "beta"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "AI upscaling is coming to PS5",
+      "url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5",
+      "event_at": "2026-10-01T07:00:09+00:00",
+      "event_date": "2026-10-01",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-01",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "IKEA and XBOX Team Up on YXSTABY, a New Collection Made for Gaming at Home",
+      "url": "https://news.xbox.com/en-us/2026/10/01/ikea-xbox-gaming-collection-yxstaby",
+      "event_at": "2026-10-01T07:00:00+00:00",
+      "event_date": "2026-10-01",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-01",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Martial arts meet fluid platforming in Elta: Defy All Gods, with a free PS5 demo out today",
+      "url": "https://blog.playstation.com/2026/10/01/martial-arts-meet-fluid-platforming-in-elta-defy-all-gods-with-a-free-ps5-demo-out-today",
+      "event_at": "2026-10-01T06:00:44+00:00",
+      "event_date": "2026-10-01",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "preview",
+      "canonical_game_key": "playstation:preview",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:preview:2026-10-01",
+      "genre": [
+        "action"
+      ],
+      "release": [
+        "demo"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Gears of War: E-Day is Available in Early Access Today, Watch the Launch Gameplay Trailer",
+      "url": "https://news.xbox.com/en-us/2026/10/01/gears-of-war-e-day-early-access-launch-trailer-xbox",
+      "event_at": "2026-10-01T06:00:00+00:00",
+      "event_date": "2026-10-01",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "early-access",
+      "canonical_game_key": "xbox:early-access",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:early-access:2026-10-01",
+      "genre": [],
+      "release": [
+        "launch",
+        "early access",
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "A Colossal Update and Two DLCs Come to Bulwark: Falconeer Chronicles",
+      "url": "https://news.xbox.com/en-us/2026/10/01/a-colossal-update-and-two-dlcs-come-to-bulwark-falconeer-chronicles",
+      "event_at": "2026-10-01T04:00:00+00:00",
+      "event_date": "2026-10-01",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-01",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Kena: Scars of Kosmora launches 2027, Ember Lab shares story overview",
+      "url": "https://blog.playstation.com/2026/10/01/kena-scars-of-kosmora-launches-2027-ember-lab-shares-story-overview",
+      "event_at": "2026-10-01T02:59:54+00:00",
+      "event_date": "2026-10-01",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-01",
+      "genre": [],
+      "release": [
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
       "source": "GamesIndustry.biz",
       "event_model": "store_ranking",
       "title": "PC and console revenue charts led by new releases in August | Newzoo charts",
@@ -1233,130 +1688,6 @@
       "required_field_gaps": [
         "platform",
         "market"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜위메이드 ‘레전드 오브 이미르’ 신규 클래스 ‘어쌔신’ 업데이트 오늘(1일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/230122",
-      "event_at": "2026-09-30T21:26:48+00:00",
-      "event_date": "2026-09-30",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-30",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "크래프톤, ‘PUBG: 블랙 버짓’ 개발 종료 결정",
-      "url": "https://bbs.ruliweb.com/news/read/230119",
-      "event_at": "2026-09-30T21:00:00+00:00",
-      "event_date": "2026-09-30",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "pubg"
-      ],
-      "normalized_game_title": "pubg",
-      "edition": "base",
-      "canonical_game_key": "pubg:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:pubg:base:2026-09-30",
-      "genre": [],
-      "release": [
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [
-        "크래프톤"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "넷마블 ‘세븐나이츠 리버스’, 애니메이션 '귀멸의 칼날' 콜라보 1차 업데이트 오늘(1일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/230109",
-      "event_at": "2026-09-30T19:05:42+00:00",
-      "event_date": "2026-09-30",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-09-30",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넷마블"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
       ]
     },
     {
@@ -1648,84 +1979,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Available for XBOX Insiders: Mythic Achievements, One of our Most Player-Requested Features",
-      "url": "https://news.xbox.com/en-us/2026/09/29/xbox-insiders-october-2026-console-features-4",
-      "event_at": "2026-09-29T07:00:03+00:00",
-      "event_date": "2026-09-29",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-29",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Call of Duty: Modern Warfare 4 PC Trailer, Tech Updates, and More",
-      "url": "https://news.xbox.com/en-us/2026/09/29/call-of-duty-modern-warfare-4-pc-trailer-tech-updates-and-more",
-      "event_at": "2026-09-29T06:30:00+00:00",
-      "event_date": "2026-09-29",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "call of duty"
-      ],
-      "normalized_game_title": "call-of-duty",
-      "edition": "base",
-      "canonical_game_key": "call-of-duty:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:call-of-duty:xbox:base:2026-09-29",
-      "genre": [],
-      "release": [
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "How Control Resonant’s art design and tech shaped its bosses, paranaturally-twisted Manhattan and more",
@@ -1843,47 +2096,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Gears of War: E-Day and XBOX Unleash “The Emergence Pie” with Prince St. Pizza",
-      "url": "https://news.xbox.com/en-us/2026/09/28/gears-of-war-e-day-prince-st-pizza",
-      "event_at": "2026-09-28T07:00:00+00:00",
-      "event_date": "2026-09-28",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-28",
-      "genre": [],
-      "release": [
-        "launch",
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Suri: The Seventh Note launches Oct 30 on PS5",
@@ -1921,47 +2133,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "How Minecraft Dungeons II’s Interconnected World Makes Every Journey an Adventure",
-      "url": "https://news.xbox.com/en-us/2026/09/28/how-minecraft-dungeons-iis-interconnected-world-makes-every-journey-an-adventure",
-      "event_at": "2026-09-28T04:00:00+00:00",
-      "event_date": "2026-09-28",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "minecraft"
-      ],
-      "normalized_game_title": "minecraft",
-      "edition": "base",
-      "canonical_game_key": "minecraft:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:minecraft:xbox:base:2026-09-28",
-      "genre": [
-        "adventure",
-        "arpg"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "God of War Laufey pre-orders available starting September 29, editions detailed",
@@ -1986,47 +2157,6 @@
       "studio": [],
       "source_signal": [
         "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Minecraft Dungeons II’s New Dimension Coming to Minecraft Java & Bedrock Edition",
-      "url": "https://news.xbox.com/en-us/2026/09/26/minecraft-new-dimension-sift-dungeons-2",
-      "event_at": "2026-09-26T09:00:00+00:00",
-      "event_date": "2026-09-26",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "minecraft"
-      ],
-      "normalized_game_title": "minecraft",
-      "edition": "base",
-      "canonical_game_key": "minecraft:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:minecraft:xbox:base:2026-09-26",
-      "genre": [],
-      "release": [
-        "announced",
-        "gamescom"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
         "platform_update",
         "release_schedule"
       ],
@@ -2072,44 +2202,6 @@
       "rank": null,
       "market": "",
       "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Luma Island is coming to PS5",
-      "url": "https://blog.playstation.com/2026/09/24/luma-island-is-coming-to-ps5",
-      "event_at": "2026-09-24T04:00:40+00:00",
-      "event_date": "2026-09-24",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-24",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": 800000,
       "required_field_gaps": [
         "game_title"
       ]
@@ -2187,48 +2279,6 @@
       "authority_role": "trade_media",
       "trust_tier": "T3_professional",
       "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Fading Echo makes a splash on PlayStation 5 today",
-      "url": "https://blog.playstation.com/2026/09/22/fading-echo-makes-a-splash-on-playstation-5-today",
-      "event_at": "2026-09-22T06:00:40+00:00",
-      "event_date": "2026-09-22",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-22",
-      "genre": [
-        "action",
-        "adventure",
-        "rpg",
-        "fighting"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
       "version": "",
       "rank": null,
       "market": "",
@@ -2372,144 +2422,68 @@
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "PC and console revenue charts led by new releases in August | Newzoo charts",
-      "url": "https://www.gamesindustry.biz/pc-and-console-revenue-charts-led-by-new-releases-in-august-newzoo-charts",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "market"
-      ],
-      "game_event_key": "store_ranking:base:2026-09-30"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜위메이드 ‘레전드 오브 이미르’ 신규 클래스 ‘어쌔신’ 업데이트 오늘(1일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/230122",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-09-30"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "크래프톤, ‘PUBG: 블랙 버짓’ 개발 종료 결정",
-      "url": "https://bbs.ruliweb.com/news/read/230119",
-      "canonical_game_key": "pubg:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:pubg:base:2026-09-30"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "넷마블 ‘세븐나이츠 리버스’, 애니메이션 '귀멸의 칼날' 콜라보 1차 업데이트 오늘(1일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/230109",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-09-30"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Alleged hacker arrested over leak that exposed GTA Online's daily revenue",
-      "url": "https://www.gamesindustry.biz/alleged-hacker-arrested-over-leak-that-exposed-gta-onlines-daily-revenue",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-09-30"
-    },
-    {
-      "reason": [
         "missing_game_title",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "The Witcher 3 hits its highest-ever Steam concurrent player count following Remastered launch",
-      "url": "https://www.gamesindustry.biz/the-witcher-3-hits-its-highest-ever-steam-concurrent-player-count-following-remastered-launch",
+      "source": "루리웹 뉴스",
+      "title": "Circle KEN ‘WORJONG / 워드작’, 10월 30일 Steam 출시 및 한국어 공식 규칙 사이트 공개",
+      "url": "https://bbs.ruliweb.com/news/read/230176",
       "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-09-30"
+      "game_event_key": "release_schedule:steam:base:2026-10-02"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Microsoft Jewel Comes to Mobile with XBOX Achievements and Game Pass Benefits",
-      "url": "https://news.xbox.com/en-us/2026/09/30/microsoft-jewel-game-pass-achievements-xbox",
-      "canonical_game_key": "xbox:base",
+      "source": "루리웹 뉴스",
+      "title": "‘캐슬바니아: 벨몬트의 저주’ PS5, XSX, NS, PC 체험판 데모 지난 1일(목) 배포",
+      "url": "https://bbs.ruliweb.com/news/read/230179",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-30"
+      "game_event_key": "release_schedule:playstation:base:2026-10-01"
     },
     {
       "reason": [
-        "missing_game_title",
-        "missing_required_fields"
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "patch_note",
-      "source": "PlayStation Blog",
-      "title": "PlayStation Plus Monthly Games for October: F1 25, Hunt: Showdown 1896, Earth Defense Force: World Brothers 2",
-      "url": "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2",
-      "canonical_game_key": "playstation:base",
+      "source": "루리웹 뉴스",
+      "title": "스마일게이트 ‘카오스 제로 나이트메어’, 정식 론칭 1주년 기념 ‘악몽제’ 티징 영상 오늘(2일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/230175",
+      "canonical_game_key": "base",
       "required_field_gaps": [
+        "platform",
         "version"
       ],
-      "game_event_key": "patch_note:playstation:base:2026-09-30"
+      "game_event_key": "patch_note:base:2026-10-01"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "PlayStation Plus Monthly Games for October: F1 25, Hunt: Showdown 1896, Earth Defense Force: World Brothers 2",
-      "url": "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2",
+      "source": "루리웹 뉴스",
+      "title": "‘룬스케이프: 드래곤와일즈’ PS5 한국어판 패키지, 11월 5일 출시 및 예약 판매 오늘(2일) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/230173",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-09-30"
+      "game_event_key": "release_schedule:playstation:base:2026-10-01"
     },
     {
       "reason": [
@@ -2518,13 +2492,88 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "End of Abyss: Explore and Fight Through the Abyss’ Horror",
-      "url": "https://news.xbox.com/en-us/2026/09/30/end-of-abyss-xbox-launch",
+      "title": "Invincible VS Open Beta Begins October 13: What You Need to Know",
+      "url": "https://news.xbox.com/en-us/2026/10/01/invincible-vs-open-beta-begins-october-13",
+      "canonical_game_key": "xbox:season-2",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:season-2:2026-10-01"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "AI upscaling is coming to PS5",
+      "url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-10-01"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "IKEA and XBOX Team Up on YXSTABY, a New Collection Made for Gaming at Home",
+      "url": "https://news.xbox.com/en-us/2026/10/01/ikea-xbox-gaming-collection-yxstaby",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-09-30"
+      "game_event_key": "release_schedule:xbox:base:2026-10-01"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Martial arts meet fluid platforming in Elta: Defy All Gods, with a free PS5 demo out today",
+      "url": "https://blog.playstation.com/2026/10/01/martial-arts-meet-fluid-platforming-in-elta-defy-all-gods-with-a-free-ps5-demo-out-today",
+      "canonical_game_key": "playstation:preview",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:preview:2026-10-01"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Gears of War: E-Day is Available in Early Access Today, Watch the Launch Gameplay Trailer",
+      "url": "https://news.xbox.com/en-us/2026/10/01/gears-of-war-e-day-early-access-launch-trailer-xbox",
+      "canonical_game_key": "xbox:early-access",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:early-access:2026-10-01"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "A Colossal Update and Two DLCs Come to Bulwark: Falconeer Chronicles",
+      "url": "https://news.xbox.com/en-us/2026/10/01/a-colossal-update-and-two-dlcs-come-to-bulwark-falconeer-chronicles",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-01"
     }
   ],
   "source_backlog": {
