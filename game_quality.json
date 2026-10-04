@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-03T08:42:51.366975+00:00",
+  "generated_at": "2026-10-04T08:58:37.939497+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 2,
     "patch_note_events": 2,
-    "release_schedule_events": 31,
-    "actionable_game_event_count": 35,
+    "release_schedule_events": 32,
+    "actionable_game_event_count": 36,
     "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 33,
+    "missing_canonical_game_key_count": 34,
     "official_or_trade_event_count": 29,
-    "event_required_field_gap_count": 33,
+    "event_required_field_gap_count": 34,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -73,7 +73,7 @@
       "article_count": 13,
       "event_count": 12,
       "latest_event_at": "2026-10-02T08:58:44+00:00",
-      "age_days": 0.99,
+      "age_days": 2.0,
       "latest_title": "Official PlayStation Podcast Episode 549: Friendly Ghosts",
       "latest_url": "https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 13,
       "event_count": 8,
       "latest_event_at": "2026-10-02T05:00:00+00:00",
-      "age_days": 1.15,
+      "age_days": 2.17,
       "latest_title": "Next Week on XBOX: New Games for October 5 to 9",
       "latest_url": "https://news.xbox.com/en-us/2026/10/02/next-week-on-xbox-new-games-for-october-5-to-9",
       "latest_source_signal": [
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 56,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 57,
       "event_count": 9,
       "latest_event_at": "2026-09-30T23:25:00+00:00",
-      "age_days": 2.39,
+      "age_days": 3.4,
       "latest_title": "PC and console revenue charts led by new releases in August | Newzoo charts",
       "latest_url": "https://www.gamesindustry.biz/pc-and-console-revenue-charts-led-by-new-releases-in-august-newzoo-charts",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 20,
-      "event_count": 6,
-      "latest_event_at": "2026-10-02T08:06:47+00:00",
-      "age_days": 1.03,
-      "latest_title": "폴든 퍼블리싱, 군락 건설 전략 게임 '개미 왕국: 야생의 숲' 데모 오늘(3일) Steam 공개",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230184",
+      "article_count": 22,
+      "event_count": 7,
+      "latest_event_at": "2026-10-03T19:05:27+00:00",
+      "age_days": 0.58,
+      "latest_title": "FLUXJIN ‘PC방 시뮬레이터’, 10월 28일 Steam 앞서 해보기 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230187",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,49 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "FLUXJIN ‘PC방 시뮬레이터’, 10월 28일 Steam 앞서 해보기 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230187",
+      "event_at": "2026-10-03T19:05:27+00:00",
+      "event_date": "2026-10-03",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-03",
+      "genre": [
+        "시뮬레이션",
+        "경영"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
@@ -2629,6 +2672,22 @@
     {
       "reason": [
         "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "FLUXJIN ‘PC방 시뮬레이터’, 10월 28일 Steam 앞서 해보기 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230187",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-03"
+    },
+    {
+      "reason": [
+        "missing_game_title",
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
@@ -2768,21 +2827,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:playstation:base:2026-10-01"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Invincible VS Open Beta Begins October 13: What You Need to Know",
-      "url": "https://news.xbox.com/en-us/2026/10/01/invincible-vs-open-beta-begins-october-13",
-      "canonical_game_key": "xbox:season-2",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:season-2:2026-10-01"
     }
   ],
   "source_backlog": {
