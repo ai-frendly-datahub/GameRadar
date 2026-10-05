@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-04T08:58:37.939497+00:00",
+  "generated_at": "2026-10-05T09:47:31.302951+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 2,
     "patch_note_events": 2,
-    "release_schedule_events": 32,
-    "actionable_game_event_count": 36,
+    "release_schedule_events": 34,
+    "actionable_game_event_count": 38,
     "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 34,
+    "missing_canonical_game_key_count": 36,
     "official_or_trade_event_count": 29,
-    "event_required_field_gap_count": 34,
+    "event_required_field_gap_count": 36,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -73,7 +73,7 @@
       "article_count": 13,
       "event_count": 12,
       "latest_event_at": "2026-10-02T08:58:44+00:00",
-      "age_days": 2.0,
+      "age_days": 3.03,
       "latest_title": "Official PlayStation Podcast Episode 549: Friendly Ghosts",
       "latest_url": "https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 13,
       "event_count": 8,
       "latest_event_at": "2026-10-02T05:00:00+00:00",
-      "age_days": 2.17,
+      "age_days": 3.2,
       "latest_title": "Next Week on XBOX: New Games for October 5 to 9",
       "latest_url": "https://news.xbox.com/en-us/2026/10/02/next-week-on-xbox-new-games-for-october-5-to-9",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 74,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 57,
+      "article_count": 56,
       "event_count": 9,
       "latest_event_at": "2026-09-30T23:25:00+00:00",
-      "age_days": 3.4,
+      "age_days": 4.43,
       "latest_title": "PC and console revenue charts led by new releases in August | Newzoo charts",
       "latest_url": "https://www.gamesindustry.biz/pc-and-console-revenue-charts-led-by-new-releases-in-august-newzoo-charts",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 22,
-      "event_count": 7,
-      "latest_event_at": "2026-10-03T19:05:27+00:00",
-      "age_days": 0.58,
-      "latest_title": "FLUXJIN ‘PC방 시뮬레이터’, 10월 28일 Steam 앞서 해보기 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230187",
+      "article_count": 29,
+      "event_count": 9,
+      "latest_event_at": "2026-10-04T16:50:00+00:00",
+      "age_days": 0.71,
+      "latest_title": "사이쿄 메모리즈, PS5·스위치 2로 발매 결정",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230191",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1195,6 +1195,92 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "사이쿄 메모리즈, PS5·스위치 2로 발매 결정",
+      "url": "https://bbs.ruliweb.com/news/read/230191",
+      "event_at": "2026-10-04T16:50:00+00:00",
+      "event_date": "2026-10-04",
+      "platform": [
+        "ps5",
+        "닌텐도",
+        "스위치"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-04",
+      "genre": [],
+      "release": [
+        "출시",
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Watashi Games, 강아지 유치원 시뮬레이션 ‘Kennel Chaos’ Steam 무료 데모 6일 배포 및 Steam 넥스트 페스트 참가",
+      "url": "https://bbs.ruliweb.com/news/read/230190",
+      "event_at": "2026-10-04T15:44:33+00:00",
+      "event_date": "2026-10-04",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-04",
+      "genre": [
+        "시뮬레이션"
+      ],
+      "release": [
+        "발표",
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -2677,6 +2763,38 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
+      "title": "사이쿄 메모리즈, PS5·스위치 2로 발매 결정",
+      "url": "https://bbs.ruliweb.com/news/read/230191",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-10-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "Watashi Games, 강아지 유치원 시뮬레이션 ‘Kennel Chaos’ Steam 무료 데모 6일 배포 및 Steam 넥스트 페스트 참가",
+      "url": "https://bbs.ruliweb.com/news/read/230190",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-04"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
       "title": "FLUXJIN ‘PC방 시뮬레이터’, 10월 28일 Steam 앞서 해보기 출시",
       "url": "https://bbs.ruliweb.com/news/read/230187",
       "canonical_game_key": "steam:base",
@@ -2789,39 +2907,6 @@
       "source": "루리웹 뉴스",
       "title": "‘캐슬바니아: 벨몬트의 저주’ PS5, XSX, NS, PC 체험판 데모 지난 1일(목) 배포",
       "url": "https://bbs.ruliweb.com/news/read/230179",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-01"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘카오스 제로 나이트메어’, 정식 론칭 1주년 기념 ‘악몽제’ 티징 영상 오늘(2일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/230175",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-10-01"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘룬스케이프: 드래곤와일즈’ PS5 한국어판 패키지, 11월 5일 출시 및 예약 판매 오늘(2일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/230173",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
