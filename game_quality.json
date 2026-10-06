@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-05T09:47:31.302951+00:00",
+  "generated_at": "2026-10-06T09:34:55.949245+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,12 +16,12 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 2,
-    "patch_note_events": 2,
+    "patch_note_events": 4,
     "release_schedule_events": 34,
-    "actionable_game_event_count": 38,
-    "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 36,
-    "official_or_trade_event_count": 29,
+    "actionable_game_event_count": 40,
+    "canonical_game_key_present_count": 3,
+    "missing_canonical_game_key_count": 37,
+    "official_or_trade_event_count": 32,
     "event_required_field_gap_count": 36,
     "daily_review_item_count": 10
   },
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 13,
-      "event_count": 12,
-      "latest_event_at": "2026-10-02T08:58:44+00:00",
-      "age_days": 3.03,
-      "latest_title": "Official PlayStation Podcast Episode 549: Friendly Ghosts",
-      "latest_url": "https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts",
+      "article_count": 15,
+      "event_count": 14,
+      "latest_event_at": "2026-10-05T08:15:00+00:00",
+      "age_days": 1.06,
+      "latest_title": "Everything you need to know about DMZ mode in  Call of Duty: Modern Warfare 4",
+      "latest_url": "https://blog.playstation.com/2026/10/05/everything-you-need-to-know-about-dmz-mode-in-call-of-duty-modern-warfare-4",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 13,
-      "event_count": 8,
-      "latest_event_at": "2026-10-02T05:00:00+00:00",
-      "age_days": 3.2,
-      "latest_title": "Next Week on XBOX: New Games for October 5 to 9",
-      "latest_url": "https://news.xbox.com/en-us/2026/10/02/next-week-on-xbox-new-games-for-october-5-to-9",
+      "article_count": 16,
+      "event_count": 10,
+      "latest_event_at": "2026-10-05T09:00:00+00:00",
+      "age_days": 1.02,
+      "latest_title": "How The Walking Dead: Streets of Survival Builds a Tactical Brawler",
+      "latest_url": "https://news.xbox.com/en-us/2026/10/05/how-the-walking-dead-streets-of-survival-builds-a-tactical-brawler",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 74,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 5,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 56,
-      "event_count": 9,
-      "latest_event_at": "2026-09-30T23:25:00+00:00",
-      "age_days": 4.43,
-      "latest_title": "PC and console revenue charts led by new releases in August | Newzoo charts",
-      "latest_url": "https://www.gamesindustry.biz/pc-and-console-revenue-charts-led-by-new-releases-in-august-newzoo-charts",
+      "article_count": 60,
+      "event_count": 8,
+      "latest_event_at": "2026-10-05T04:35:22+00:00",
+      "age_days": 1.21,
+      "latest_title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
+      "latest_url": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 29,
-      "event_count": 9,
-      "latest_event_at": "2026-10-04T16:50:00+00:00",
-      "age_days": 0.71,
-      "latest_title": "사이쿄 메모리즈, PS5·스위치 2로 발매 결정",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230191",
+      "article_count": 30,
+      "event_count": 8,
+      "latest_event_at": "2026-10-05T22:43:09+00:00",
+      "age_days": 0.45,
+      "latest_title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230240",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1197,15 +1197,292 @@
   "events": [
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "사이쿄 메모리즈, PS5·스위치 2로 발매 결정",
-      "url": "https://bbs.ruliweb.com/news/read/230191",
-      "event_at": "2026-10-04T16:50:00+00:00",
-      "event_date": "2026-10-04",
+      "event_model": "patch_note",
+      "title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
+      "url": "https://bbs.ruliweb.com/news/read/230240",
+      "event_at": "2026-10-05T22:43:09+00:00",
+      "event_date": "2026-10-05",
       "platform": [
-        "ps5",
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:steam:base:2026-10-05",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.3.0",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
+      "url": "https://bbs.ruliweb.com/news/read/230240",
+      "event_at": "2026-10-05T22:43:09+00:00",
+      "event_date": "2026-10-05",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-05",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "1.3.0",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "몬스터 헌터 라이즈, 누적 판매량 2천만 장",
+      "url": "https://bbs.ruliweb.com/news/read/230235",
+      "event_at": "2026-10-05T20:50:00+00:00",
+      "event_date": "2026-10-05",
+      "platform": [
         "닌텐도",
-        "스위치"
+        "스위치",
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-05",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "출시",
+        "확장팩"
+      ],
+      "business_signal": [],
+      "studio": [
+        "캡콤"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘카이’ 오늘(6일) 무료 배포",
+      "url": "https://bbs.ruliweb.com/news/read/230231",
+      "event_at": "2026-10-05T20:07:17+00:00",
+      "event_date": "2026-10-05",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-10-05",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "How The Walking Dead: Streets of Survival Builds a Tactical Brawler",
+      "url": "https://news.xbox.com/en-us/2026/10/05/how-the-walking-dead-streets-of-survival-builds-a-tactical-brawler",
+      "event_at": "2026-10-05T09:00:00+00:00",
+      "event_date": "2026-10-05",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-05",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Everything you need to know about DMZ mode in  Call of Duty: Modern Warfare 4",
+      "url": "https://blog.playstation.com/2026/10/05/everything-you-need-to-know-about-dmz-mode-in-call-of-duty-modern-warfare-4",
+      "event_at": "2026-10-05T08:15:00+00:00",
+      "event_date": "2026-10-05",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:playstation:base:2026-10-05",
+      "genre": [
+        "shooter"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Hello from Seattle: XBOX FanFest Comes Home November 12",
+      "url": "https://news.xbox.com/en-us/2026/10/05/xbox-fanfest-seattle-25th-anniversary",
+      "event_at": "2026-10-05T08:00:00+00:00",
+      "event_date": "2026-10-05",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-05",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Players’ Choice: Vote for September’s best new game",
+      "url": "https://blog.playstation.com/2026/10/05/players-choice-vote-for-septembers-best-new-game-4",
+      "event_at": "2026-10-05T05:00:16+00:00",
+      "event_date": "2026-10-05",
+      "platform": [
+        "playstation"
       ],
       "normalized_platform": "playstation",
       "game_title": [],
@@ -1213,115 +1490,109 @@
       "edition": "base",
       "canonical_game_key": "playstation:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-10-04",
+      "game_event_key": "release_schedule:playstation:base:2026-10-05",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
+      "url": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
+      "event_at": "2026-10-05T04:35:22+00:00",
+      "event_date": "2026-10-05",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-05",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "sony interactive"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Jagex responds to use of generative AI in RuneScape trailer made by \"trusted external partner\"",
+      "url": "https://www.gamesindustry.biz/jagex-responds-to-use-of-generative-ai-in-runescape-trailer-made-by-trusted-external-partner",
+      "event_at": "2026-10-05T02:08:39+00:00",
+      "event_date": "2026-10-05",
+      "platform": [
+        "quest"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-05",
       "genre": [],
       "release": [
-        "출시",
-        "발표"
+        "trailer"
       ],
       "business_signal": [],
       "studio": [],
       "source_signal": [
-        "community_reaction",
         "game_media_context",
-        "patch",
-        "release"
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
       ],
-      "authority_role": "community_media",
+      "authority_role": "trade_media",
       "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "producer_role": "trade_media",
       "version": "",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "Watashi Games, 강아지 유치원 시뮬레이션 ‘Kennel Chaos’ Steam 무료 데모 6일 배포 및 Steam 넥스트 페스트 참가",
-      "url": "https://bbs.ruliweb.com/news/read/230190",
-      "event_at": "2026-10-04T15:44:33+00:00",
-      "event_date": "2026-10-04",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-04",
-      "genre": [
-        "시뮬레이션"
-      ],
-      "release": [
-        "발표",
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "FLUXJIN ‘PC방 시뮬레이터’, 10월 28일 Steam 앞서 해보기 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230187",
-      "event_at": "2026-10-03T19:05:27+00:00",
-      "event_date": "2026-10-03",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-03",
-      "genre": [
-        "시뮬레이션",
-        "경영"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
+        "game_title",
+        "platform"
       ]
     },
     {
@@ -1359,92 +1630,6 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "폴든 퍼블리싱, 군락 건설 전략 게임 '개미 왕국: 야생의 숲' 데모 오늘(3일) Steam 공개",
-      "url": "https://bbs.ruliweb.com/news/read/230184",
-      "event_at": "2026-10-02T08:06:47+00:00",
-      "event_date": "2026-10-02",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-02",
-      "genre": [
-        "전략"
-      ],
-      "release": [
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "메이드 카페 시뮬레이터, 10월 8일(목) 스팀 론칭",
-      "url": "https://bbs.ruliweb.com/news/read/230183",
-      "event_at": "2026-10-02T06:48:06+00:00",
-      "event_date": "2026-10-02",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-02",
-      "genre": [
-        "시뮬레이션",
-        "경영"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
       ]
     },
     {
@@ -2621,187 +2806,147 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Xbox transfers Rare and Halo franchise to Activision, proposes closure of Ninja Theory, and confirms another 268 roles cut amid studio restructure",
-      "url": "https://www.gamesindustry.biz/xbox-transfers-rare-and-halo-franchise-to-activision-proposes-closure-of-ninja-theory-and-confirms-another-268-roles-cut-amid-studio-restructure",
-      "event_at": "2026-09-22T05:06:00+00:00",
-      "event_date": "2026-09-22",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-22",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "activision"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "IO Interactive \"had no choice\" but to delay Switch 2 launch of 007 First Light for a third time",
-      "url": "https://www.gamesindustry.biz/io-interactive-had-no-choice-but-to-delay-switch-2-launch-of-007-first-light-for-a-third-time",
-      "event_at": "2026-09-22T01:55:16+00:00",
-      "event_date": "2026-09-22",
-      "platform": [
-        "nintendo",
-        "switch",
-        "switch 2"
-      ],
-      "normalized_platform": "nintendo",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "nintendo:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-09-22",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Xbox reportedly set to announce second round of layoffs this week",
-      "url": "https://www.gamesindustry.biz/xbox-reportedly-set-to-announce-second-round-of-layoffs-this-week",
-      "event_at": "2026-09-21T22:55:38+00:00",
-      "event_date": "2026-09-21",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-21",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [
-        "activision"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
         "missing_game_title",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
+      "url": "https://bbs.ruliweb.com/news/read/230240",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [],
+      "game_event_key": "patch_note:steam:base:2026-10-05"
+    },
+    {
+      "reason": [
+        "missing_game_title",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "사이쿄 메모리즈, PS5·스위치 2로 발매 결정",
-      "url": "https://bbs.ruliweb.com/news/read/230191",
+      "title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
+      "url": "https://bbs.ruliweb.com/news/read/230240",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-05"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "몬스터 헌터 라이즈, 누적 판매량 2천만 장",
+      "url": "https://bbs.ruliweb.com/news/read/230235",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-05"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘카이’ 오늘(6일) 무료 배포",
+      "url": "https://bbs.ruliweb.com/news/read/230231",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-10-05"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "How The Walking Dead: Streets of Survival Builds a Tactical Brawler",
+      "url": "https://news.xbox.com/en-us/2026/10/05/how-the-walking-dead-streets-of-survival-builds-a-tactical-brawler",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-05"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Hello from Seattle: XBOX FanFest Comes Home November 12",
+      "url": "https://news.xbox.com/en-us/2026/10/05/xbox-fanfest-seattle-25th-anniversary",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-05"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Players’ Choice: Vote for September’s best new game",
+      "url": "https://blog.playstation.com/2026/10/05/players-choice-vote-for-septembers-best-new-game-4",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-04"
+      "game_event_key": "release_schedule:playstation:base:2026-10-05"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "Watashi Games, 강아지 유치원 시뮬레이션 ‘Kennel Chaos’ Steam 무료 데모 6일 배포 및 Steam 넥스트 페스트 참가",
-      "url": "https://bbs.ruliweb.com/news/read/230190",
-      "canonical_game_key": "steam:base",
+      "source": "GamesIndustry.biz",
+      "title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
+      "url": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
+      "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-10-04"
+      "game_event_key": "release_schedule:playstation:base:2026-10-05"
     },
     {
       "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_game_title_platform",
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "FLUXJIN ‘PC방 시뮬레이터’, 10월 28일 Steam 앞서 해보기 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230187",
-      "canonical_game_key": "steam:base",
+      "source": "GamesIndustry.biz",
+      "title": "Jagex responds to use of generative AI in RuneScape trailer made by \"trusted external partner\"",
+      "url": "https://www.gamesindustry.biz/jagex-responds-to-use-of-generative-ai-in-runescape-trailer-made-by-trusted-external-partner",
+      "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-10-03"
+      "game_event_key": "release_schedule:base:2026-10-05"
     },
     {
       "reason": [
@@ -2817,101 +2962,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:playstation:base:2026-10-02"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "폴든 퍼블리싱, 군락 건설 전략 게임 '개미 왕국: 야생의 숲' 데모 오늘(3일) Steam 공개",
-      "url": "https://bbs.ruliweb.com/news/read/230184",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-10-02"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "메이드 카페 시뮬레이터, 10월 8일(목) 스팀 론칭",
-      "url": "https://bbs.ruliweb.com/news/read/230183",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-10-02"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Next Week on XBOX: New Games for October 5 to 9",
-      "url": "https://news.xbox.com/en-us/2026/10/02/next-week-on-xbox-new-games-for-october-5-to-9",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-02"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Ghost of Yōtei Complete Edition – Erika Ishii interview",
-      "url": "https://blog.playstation.com/2026/10/02/ghost-of-yotei-complete-edition-erika-ishii-interview",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-02"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "Circle KEN ‘WORJONG / 워드작’, 10월 30일 Steam 출시 및 한국어 공식 규칙 사이트 공개",
-      "url": "https://bbs.ruliweb.com/news/read/230176",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-10-02"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘캐슬바니아: 벨몬트의 저주’ PS5, XSX, NS, PC 체험판 데모 지난 1일(목) 배포",
-      "url": "https://bbs.ruliweb.com/news/read/230179",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-01"
     }
   ],
   "source_backlog": {
