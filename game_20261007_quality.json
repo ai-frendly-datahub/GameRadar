@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-06T09:34:55.949245+00:00",
+  "generated_at": "2026-10-07T09:30:52.016029+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 10,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 2,
-    "patch_note_events": 4,
-    "release_schedule_events": 34,
-    "actionable_game_event_count": 40,
+    "store_ranking_events": 1,
+    "patch_note_events": 3,
+    "release_schedule_events": 37,
+    "actionable_game_event_count": 41,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 37,
-    "official_or_trade_event_count": 32,
-    "event_required_field_gap_count": 36,
+    "missing_canonical_game_key_count": 38,
+    "official_or_trade_event_count": 33,
+    "event_required_field_gap_count": 38,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 15,
-      "event_count": 14,
-      "latest_event_at": "2026-10-05T08:15:00+00:00",
-      "age_days": 1.06,
-      "latest_title": "Everything you need to know about DMZ mode in  Call of Duty: Modern Warfare 4",
-      "latest_url": "https://blog.playstation.com/2026/10/05/everything-you-need-to-know-about-dmz-mode-in-call-of-duty-modern-warfare-4",
+      "article_count": 16,
+      "event_count": 15,
+      "latest_event_at": "2026-10-06T05:00:51+00:00",
+      "age_days": 1.19,
+      "latest_title": "Warhammer Survivors launches November 10, new characters revealed",
+      "latest_url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 16,
-      "event_count": 10,
-      "latest_event_at": "2026-10-05T09:00:00+00:00",
-      "age_days": 1.02,
-      "latest_title": "How The Walking Dead: Streets of Survival Builds a Tactical Brawler",
-      "latest_url": "https://news.xbox.com/en-us/2026/10/05/how-the-walking-dead-streets-of-survival-builds-a-tactical-brawler",
+      "article_count": 19,
+      "event_count": 12,
+      "latest_event_at": "2026-10-06T06:27:41+00:00",
+      "age_days": 1.13,
+      "latest_title": "Watch the Gears of War: E-Day Official Launch Trailer",
+      "latest_url": "https://www.youtube.com/watch?v=3onc3ownB14",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 60,
-      "event_count": 8,
+      "article_count": 59,
+      "event_count": 6,
       "latest_event_at": "2026-10-05T04:35:22+00:00",
-      "age_days": 1.21,
+      "age_days": 2.21,
       "latest_title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
       "latest_url": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
       "latest_source_signal": [
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -760,10 +760,10 @@
       "status": "fresh",
       "article_count": 30,
       "event_count": 8,
-      "latest_event_at": "2026-10-05T22:43:09+00:00",
-      "age_days": 0.45,
-      "latest_title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230240",
+      "latest_event_at": "2026-10-07T00:14:59+00:00",
+      "age_days": 0.39,
+      "latest_title": "NemoQ Studio ‘호시키리 조디악 패리’, 스팀 넥스트 페스트 참가 및 무료 데모 배포 중",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230298",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1197,92 +1197,12 @@
   "events": [
     {
       "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
-      "url": "https://bbs.ruliweb.com/news/read/230240",
-      "event_at": "2026-10-05T22:43:09+00:00",
-      "event_date": "2026-10-05",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:steam:base:2026-10-05",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "1.3.0",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
-      "url": "https://bbs.ruliweb.com/news/read/230240",
-      "event_at": "2026-10-05T22:43:09+00:00",
-      "event_date": "2026-10-05",
+      "title": "NemoQ Studio ‘호시키리 조디악 패리’, 스팀 넥스트 페스트 참가 및 무료 데모 배포 중",
+      "url": "https://bbs.ruliweb.com/news/read/230298",
+      "event_at": "2026-10-07T00:14:59+00:00",
+      "event_date": "2026-10-07",
       "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-05",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "1.3.0",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "몬스터 헌터 라이즈, 누적 판매량 2천만 장",
-      "url": "https://bbs.ruliweb.com/news/read/230235",
-      "event_at": "2026-10-05T20:50:00+00:00",
-      "event_date": "2026-10-05",
-      "platform": [
-        "닌텐도",
-        "스위치",
         "스팀"
       ],
       "normalized_platform": "",
@@ -1291,18 +1211,103 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-05",
+      "game_event_key": "release_schedule:base:2026-10-07",
       "genre": [
-        "액션"
+        "액션",
+        "로그라이크"
       ],
       "release": [
-        "출시",
-        "확장팩"
+        "데모"
       ],
       "business_signal": [],
-      "studio": [
-        "캡콤"
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
       ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Chemkaaa ‘Meteor Spin’ 스팀 무료 데모 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/230293",
+      "event_at": "2026-10-06T23:06:10+00:00",
+      "event_date": "2026-10-06",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-06",
+      "genre": [
+        "로그라이크",
+        "인디"
+      ],
+      "release": [
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "㈜엔씨 ‘아이온2’, 글로벌 정식 출시 후 스팀 ‘최다 플레이 게임’ Top 5 진입",
+      "url": "https://bbs.ruliweb.com/news/read/230289",
+      "event_at": "2026-10-06T20:53:59+00:00",
+      "event_date": "2026-10-06",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-06",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1324,10 +1329,10 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
-      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘카이’ 오늘(6일) 무료 배포",
-      "url": "https://bbs.ruliweb.com/news/read/230231",
-      "event_at": "2026-10-05T20:07:17+00:00",
-      "event_date": "2026-10-05",
+      "title": "㈜엔씨 ‘리니지 리마스터’, ‘황금사막 아벨라’ 업데이트 오늘(7일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/230287",
+      "event_at": "2026-10-06T20:08:54+00:00",
+      "event_date": "2026-10-06",
       "platform": [],
       "normalized_platform": "",
       "game_title": [],
@@ -1335,13 +1340,18 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-05",
-      "genre": [],
+      "game_event_key": "patch_note:base:2026-10-06",
+      "genre": [
+        "액션",
+        "mmorpg"
+      ],
       "release": [
         "업데이트"
       ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "엔씨소프트"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1358,6 +1368,129 @@
       "required_field_gaps": [
         "platform",
         "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Watch the Gears of War: E-Day Official Launch Trailer",
+      "url": "https://www.youtube.com/watch?v=3onc3ownB14",
+      "event_at": "2026-10-06T06:27:41+00:00",
+      "event_date": "2026-10-06",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-06",
+      "genre": [],
+      "release": [
+        "launch",
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Gears of War: E-Day – Surviving the First Night of Emergence",
+      "url": "https://news.xbox.com/en-us/2026/10/06/gears-of-war-e-day-global-launch-tips-guide",
+      "event_at": "2026-10-06T06:00:00+00:00",
+      "event_date": "2026-10-06",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "steam",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-06",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Warhammer Survivors launches November 10, new characters revealed",
+      "url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed",
+      "event_at": "2026-10-06T05:00:51+00:00",
+      "event_date": "2026-10-06",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-06",
+      "genre": [],
+      "release": [
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1402,7 +1535,7 @@
     {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
-      "title": "Everything you need to know about DMZ mode in  Call of Duty: Modern Warfare 4",
+      "title": "Everything you need to know about DMZ mode in Call of Duty: Modern Warfare 4",
       "url": "https://blog.playstation.com/2026/10/05/everything-you-need-to-know-about-dmz-mode-in-call-of-duty-modern-warfare-4",
       "event_at": "2026-10-05T08:15:00+00:00",
       "event_date": "2026-10-05",
@@ -2725,135 +2858,59 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Sensor Tower: PC and PlayStation unit sales in Japan rise 13% to 21m during H1 2026, led by Resident Evil Requiem",
-      "url": "https://www.gamesindustry.biz/sensor-tower-pc-and-playstation-unit-sales-in-japan-rise-13-to-21m-during-h1-2026-led-by-resident-evil-requiem",
-      "event_at": "2026-09-23T03:55:38+00:00",
-      "event_date": "2026-09-23",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "store_ranking:playstation:base:2026-09-23",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Undead Labs confirms it is now an \"employee-owned studio\", a \"significant number\" of employees face layoffs",
-      "url": "https://www.gamesindustry.biz/undead-labs-confirms-it-is-now-an-employee-owned-studio",
-      "event_at": "2026-09-22T22:57:04+00:00",
-      "event_date": "2026-09-22",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-09-22",
-      "genre": [],
-      "release": [
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
-      "url": "https://bbs.ruliweb.com/news/read/230240",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [],
-      "game_event_key": "patch_note:steam:base:2026-10-05"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "HayaseWorks ‘InfinityMine’, 지난주 1일(목) v1.3.0 ‘The Dawn of Trade’ 업데이트 배포 (한국어 미지원)",
-      "url": "https://bbs.ruliweb.com/news/read/230240",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-10-05"
-    },
-    {
-      "reason": [
         "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "몬스터 헌터 라이즈, 누적 판매량 2천만 장",
-      "url": "https://bbs.ruliweb.com/news/read/230235",
+      "title": "NemoQ Studio ‘호시키리 조디악 패리’, 스팀 넥스트 페스트 참가 및 무료 데모 배포 중",
+      "url": "https://bbs.ruliweb.com/news/read/230298",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-10-05"
+      "game_event_key": "release_schedule:base:2026-10-07"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "Chemkaaa ‘Meteor Spin’ 스팀 무료 데모 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/230293",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-06"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "㈜엔씨 ‘아이온2’, 글로벌 정식 출시 후 스팀 ‘최다 플레이 게임’ Top 5 진입",
+      "url": "https://bbs.ruliweb.com/news/read/230289",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-06"
     },
     {
       "reason": [
@@ -2863,14 +2920,59 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "라인게임즈, ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘카이’ 오늘(6일) 무료 배포",
-      "url": "https://bbs.ruliweb.com/news/read/230231",
+      "title": "㈜엔씨 ‘리니지 리마스터’, ‘황금사막 아벨라’ 업데이트 오늘(7일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/230287",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-10-05"
+      "game_event_key": "patch_note:base:2026-10-06"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Watch the Gears of War: E-Day Official Launch Trailer",
+      "url": "https://www.youtube.com/watch?v=3onc3ownB14",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-06"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Gears of War: E-Day – Surviving the First Night of Emergence",
+      "url": "https://news.xbox.com/en-us/2026/10/06/gears-of-war-e-day-global-launch-tips-guide",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-06"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Warhammer Survivors launches November 10, new characters revealed",
+      "url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-10-06"
     },
     {
       "reason": [
@@ -2916,52 +3018,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:playstation:base:2026-10-05"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
-      "url": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-05"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Jagex responds to use of generative AI in RuneScape trailer made by \"trusted external partner\"",
-      "url": "https://www.gamesindustry.biz/jagex-responds-to-use-of-generative-ai-in-runescape-trailer-made-by-trusted-external-partner",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-10-05"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Official PlayStation Podcast Episode 549: Friendly Ghosts",
-      "url": "https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-02"
     }
   ],
   "source_backlog": {
