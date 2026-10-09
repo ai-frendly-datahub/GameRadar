@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-08T09:41:54.789531+00:00",
+  "generated_at": "2026-10-09T09:47:30.348212+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 4,
-    "release_schedule_events": 38,
-    "actionable_game_event_count": 43,
-    "canonical_game_key_present_count": 5,
-    "missing_canonical_game_key_count": 38,
+    "patch_note_events": 2,
+    "release_schedule_events": 44,
+    "actionable_game_event_count": 47,
+    "canonical_game_key_present_count": 7,
+    "missing_canonical_game_key_count": 40,
     "official_or_trade_event_count": 35,
-    "event_required_field_gap_count": 38,
+    "event_required_field_gap_count": 40,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -71,9 +71,9 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 17,
-      "event_count": 16,
+      "event_count": 15,
       "latest_event_at": "2026-10-07T08:00:48+00:00",
-      "age_days": 1.07,
+      "age_days": 2.07,
       "latest_title": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
       "latest_url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2",
       "latest_source_signal": [
@@ -105,10 +105,10 @@
       "status": "fresh",
       "article_count": 20,
       "event_count": 13,
-      "latest_event_at": "2026-10-07T19:00:00+00:00",
-      "age_days": 0.61,
-      "latest_title": "Monster Hunter Stories 3: Twisted Reflection Heading to XBOX on PC November 18",
-      "latest_url": "https://news.xbox.com/en-us/2026/10/07/monster-hunter-stories-3-xbox-px-xbox-play-anywhere-announce",
+      "latest_event_at": "2026-10-08T07:30:00+00:00",
+      "age_days": 1.1,
+      "latest_title": "You Have Minutes to Live: Introducing Echo Weaver",
+      "latest_url": "https://news.xbox.com/en-us/2026/10/08/you-have-minutes-to-live-introducing-echo-weaver",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 71,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 61,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 65,
-      "event_count": 6,
-      "latest_event_at": "2026-10-05T04:35:22+00:00",
-      "age_days": 3.21,
-      "latest_title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech",
-      "latest_url": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
+      "article_count": 64,
+      "event_count": 7,
+      "latest_event_at": "2026-10-08T03:18:40+00:00",
+      "age_days": 1.27,
+      "latest_title": "Xbox announces new XP division to deliver transmedia spinoffs including film, TV, and theme parks",
+      "latest_url": "https://www.gamesindustry.biz/xbox-announces-new-xp-division-to-deliver-transmedia-spinoffs-including-film-tv-and-theme-parks",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 30,
-      "event_count": 8,
-      "latest_event_at": "2026-10-08T00:10:21+00:00",
-      "age_days": 0.4,
-      "latest_title": "‘아크 레이더스’, ‘얼어붙은 산길’ 대규모 업데이트 오늘(8일) 실시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230367",
+      "event_count": 12,
+      "latest_event_at": "2026-10-08T23:30:00+00:00",
+      "age_days": 0.43,
+      "latest_title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’ 발표",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230408",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1184,7 +1184,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1197,98 +1197,14 @@
   "events": [
     {
       "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "‘아크 레이더스’, ‘얼어붙은 산길’ 대규모 업데이트 오늘(8일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/230367",
-      "event_at": "2026-10-08T00:10:21+00:00",
+      "event_model": "release_schedule",
+      "title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’ 발표",
+      "url": "https://bbs.ruliweb.com/news/read/230408",
+      "event_at": "2026-10-08T23:30:00+00:00",
       "event_date": "2026-10-08",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-08",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "㈜크래프톤, 신작 ‘PUBG: 데드넷’ 첫 ‘클로즈드 베타 테스트’ 9일(금) 정오 시작",
-      "url": "https://bbs.ruliweb.com/news/read/230359",
-      "event_at": "2026-10-07T22:09:33+00:00",
-      "event_date": "2026-10-07",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "pubg"
-      ],
-      "normalized_game_title": "pubg",
-      "edition": "base",
-      "canonical_game_key": "pubg:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:pubg:base:2026-10-07",
-      "genre": [
-        "fps"
-      ],
-      "release": [
-        "베타"
-      ],
-      "business_signal": [],
-      "studio": [
-        "크래프톤"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "스마일게이트 ‘에픽세븐’, 스팀 정식 서비스 기념 이벤트 예고",
-      "url": "https://bbs.ruliweb.com/news/read/230358",
-      "event_at": "2026-10-07T21:23:57+00:00",
-      "event_date": "2026-10-07",
       "platform": [
-        "스팀"
+        "닌텐도",
+        "스위치"
       ],
       "normalized_platform": "",
       "game_title": [],
@@ -1296,15 +1212,15 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-07",
+      "game_event_key": "release_schedule:base:2026-10-08",
       "genre": [
-        "rpg"
+        "액션"
       ],
-      "release": [],
+      "release": [
+        "발표"
+      ],
       "business_signal": [],
-      "studio": [
-        "스마일게이트"
-      ],
+      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1325,24 +1241,24 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜위메이드 ‘미르4’ 신규 직업 ‘정령사’ 업데이트 오늘(8일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/230353",
-      "event_at": "2026-10-07T20:44:23+00:00",
-      "event_date": "2026-10-07",
-      "platform": [],
-      "normalized_platform": "",
+      "event_model": "release_schedule",
+      "title": "14Dimension Enterprise, 게임 전용 AI 게임마스터 내장 오프라인 TRPG ‘일루네스의 귀환(The Return of Illunes)’ Steam 정식 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230407",
+      "event_at": "2026-10-08T22:38:41+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-07",
-      "genre": [
-        "mmorpg"
-      ],
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-08",
+      "genre": [],
       "release": [
-        "업데이트"
+        "출시"
       ],
       "business_signal": [],
       "studio": [],
@@ -1360,9 +1276,434 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title"
       ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "쇼치쿠㈜, 지난 8일(목) 공포 어드벤처 ‘인보키어: 마의 주사위’ 스팀 앞서 해보기 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230405",
+      "event_at": "2026-10-08T22:15:08+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-08",
+      "genre": [
+        "어드벤처",
+        "공포"
+      ],
+      "release": [
+        "출시",
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "스퀘어에닉스, 액션 RPG ‘볼트브레이커스’ Steam 데모 버전 배포",
+      "url": "https://bbs.ruliweb.com/news/read/230402",
+      "event_at": "2026-10-08T19:02:46+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-08",
+      "genre": [
+        "액션",
+        "rpg"
+      ],
+      "release": [
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [
+        "square enix",
+        "스퀘어에닉스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "㈜얼라이언스 아츠, 리듬 어드벤처 '융융 전파 신드롬' 두 번째 DLC 2종 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230401",
+      "event_at": "2026-10-08T19:02:43+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-08",
+      "genre": [
+        "어드벤처"
+      ],
+      "release": [
+        "출시",
+        "dlc"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "고블린게임즈, 덱빌딩 로그라이크 ‘Paceweaver’ 2026년 4분기 스팀 출시 및 10월 스팀 넥스트 페스트 참가",
+      "url": "https://bbs.ruliweb.com/news/read/230399",
+      "event_at": "2026-10-08T17:32:37+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-08",
+      "genre": [
+        "턴제",
+        "로그라이크",
+        "인디"
+      ],
+      "release": [
+        "출시",
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "에이스 컴뱃 8: 시브의 날개, 최단 기간에 100만 장 돌파",
+      "url": "https://bbs.ruliweb.com/news/read/230398",
+      "event_at": "2026-10-08T17:30:00+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "xbox",
+        "스팀"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-08",
+      "genre": [],
+      "release": [
+        "출시",
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [
+        "반다이남코"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "비트픽(BITPICK) ‘팬, 플리즈!(PAN, PLEASE!)’ 스팀 상점 페이지 및 어나운스 트레일러 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/230397",
+      "event_at": "2026-10-08T16:42:09+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "steam",
+        "스팀"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-08",
+      "genre": [],
+      "release": [
+        "트레일러"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "You Have Minutes to Live: Introducing Echo Weaver",
+      "url": "https://news.xbox.com/en-us/2026/10/08/you-have-minutes-to-live-introducing-echo-weaver",
+      "event_at": "2026-10-08T07:30:00+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "preview",
+      "canonical_game_key": "xbox:preview",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:preview:2026-10-08",
+      "genre": [],
+      "release": [
+        "demo"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Free Play Days – ARC Raiders, S.T.A.L.K.E.R. 2: Heart of Chornobyl, Little Nightmares III, Screamer, and More",
+      "url": "https://news.xbox.com/en-us/2026/10/08/free-play-days-10-08-2026",
+      "event_at": "2026-10-08T06:00:00+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "xbox:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-10-08",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Pull Up to 7-Eleven in Forza Horizon 6",
+      "url": "https://news.xbox.com/en-us/2026/10/08/forza-horizon-6-7-eleven",
+      "event_at": "2026-10-08T05:11:00+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "horizon"
+      ],
+      "normalized_game_title": "horizon",
+      "edition": "base",
+      "canonical_game_key": "horizon:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:horizon:xbox:base:2026-10-08",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Xbox announces new XP division to deliver transmedia spinoffs including film, TV, and theme parks",
+      "url": "https://www.gamesindustry.biz/xbox-announces-new-xp-division-to-deliver-transmedia-spinoffs-including-film-tv-and-theme-parks",
+      "event_at": "2026-10-08T03:18:40+00:00",
+      "event_date": "2026-10-08",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "minecraft"
+      ],
+      "normalized_game_title": "minecraft",
+      "edition": "base",
+      "canonical_game_key": "minecraft:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:minecraft:xbox:base:2026-10-08",
+      "genre": [],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
     },
     {
       "source": "Xbox Wire",
@@ -1530,49 +1871,6 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Gears of War: E-Day – Surviving the First Night of Emergence",
-      "url": "https://news.xbox.com/en-us/2026/10/06/gears-of-war-e-day-global-launch-tips-guide",
-      "event_at": "2026-10-06T06:00:00+00:00",
-      "event_date": "2026-10-06",
-      "platform": [
-        "xbox",
-        "xbox series x",
-        "steam",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-06",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Warhammer Survivors launches November 10, new characters revealed",
@@ -1597,45 +1895,6 @@
       "studio": [],
       "source_signal": [
         "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "How The Walking Dead: Streets of Survival Builds a Tactical Brawler",
-      "url": "https://news.xbox.com/en-us/2026/10/05/how-the-walking-dead-streets-of-survival-builds-a-tactical-brawler",
-      "event_at": "2026-10-05T09:00:00+00:00",
-      "event_date": "2026-10-05",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-05",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
         "platform_update",
         "release_schedule"
       ],
@@ -1686,44 +1945,6 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Hello from Seattle: XBOX FanFest Comes Home November 12",
-      "url": "https://news.xbox.com/en-us/2026/10/05/xbox-fanfest-seattle-25th-anniversary",
-      "event_at": "2026-10-05T08:00:00+00:00",
-      "event_date": "2026-10-05",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-05",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     },
     {
       "source": "PlayStation Blog",
@@ -2897,43 +3118,6 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Official PlayStation Podcast Episode 548: September Selects",
-      "url": "https://blog.playstation.com/2026/09/25/official-playstation-podcast-episode-548-september-selects",
-      "event_at": "2026-09-25T08:20:35+00:00",
-      "event_date": "2026-09-25",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-25",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2943,49 +3127,32 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "‘아크 레이더스’, ‘얼어붙은 산길’ 대규모 업데이트 오늘(8일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/230367",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-10-08"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "㈜크래프톤, 신작 ‘PUBG: 데드넷’ 첫 ‘클로즈드 베타 테스트’ 9일(금) 정오 시작",
-      "url": "https://bbs.ruliweb.com/news/read/230359",
-      "canonical_game_key": "pubg:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:pubg:base:2026-10-07"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘에픽세븐’, 스팀 정식 서비스 기념 이벤트 예고",
-      "url": "https://bbs.ruliweb.com/news/read/230358",
+      "title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’ 발표",
+      "url": "https://bbs.ruliweb.com/news/read/230408",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-10-07"
+      "game_event_key": "release_schedule:base:2026-10-08"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "14Dimension Enterprise, 게임 전용 AI 게임마스터 내장 오프라인 TRPG ‘일루네스의 귀환(The Return of Illunes)’ Steam 정식 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230407",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-08"
     },
     {
       "reason": [
@@ -2993,31 +3160,98 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "patch_note",
+      "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "㈜위메이드 ‘미르4’ 신규 직업 ‘정령사’ 업데이트 오늘(8일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/230353",
+      "title": "쇼치쿠㈜, 지난 8일(목) 공포 어드벤처 ‘인보키어: 마의 주사위’ 스팀 앞서 해보기 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230405",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "patch_note:base:2026-10-07"
+      "game_event_key": "release_schedule:base:2026-10-08"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields"
+        "missing_required_fields",
+        "official_confirmation_required"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
-      "url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2",
-      "canonical_game_key": "playstation:base",
+      "source": "루리웹 뉴스",
+      "title": "스퀘어에닉스, 액션 RPG ‘볼트브레이커스’ Steam 데모 버전 배포",
+      "url": "https://bbs.ruliweb.com/news/read/230402",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-07"
+      "game_event_key": "release_schedule:steam:base:2026-10-08"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "㈜얼라이언스 아츠, 리듬 어드벤처 '융융 전파 신드롬' 두 번째 DLC 2종 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230401",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-08"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "고블린게임즈, 덱빌딩 로그라이크 ‘Paceweaver’ 2026년 4분기 스팀 출시 및 10월 스팀 넥스트 페스트 참가",
+      "url": "https://bbs.ruliweb.com/news/read/230399",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-08"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "에이스 컴뱃 8: 시브의 날개, 최단 기간에 100만 장 돌파",
+      "url": "https://bbs.ruliweb.com/news/read/230398",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-08"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "비트픽(BITPICK) ‘팬, 플리즈!(PAN, PLEASE!)’ 스팀 상점 페이지 및 어나운스 트레일러 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/230397",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-08"
     },
     {
       "reason": [
@@ -3026,13 +3260,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Watch the Gears of War: E-Day Official Launch Trailer",
-      "url": "https://www.youtube.com/watch?v=3onc3ownB14",
-      "canonical_game_key": "xbox:base",
+      "title": "You Have Minutes to Live: Introducing Echo Weaver",
+      "url": "https://news.xbox.com/en-us/2026/10/08/you-have-minutes-to-live-introducing-echo-weaver",
+      "canonical_game_key": "xbox:preview",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-06"
+      "game_event_key": "release_schedule:xbox:preview:2026-10-08"
     },
     {
       "reason": [
@@ -3041,58 +3275,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Gears of War: E-Day – Surviving the First Night of Emergence",
-      "url": "https://news.xbox.com/en-us/2026/10/06/gears-of-war-e-day-global-launch-tips-guide",
-      "canonical_game_key": "xbox:base",
+      "title": "Free Play Days – ARC Raiders, S.T.A.L.K.E.R. 2: Heart of Chornobyl, Little Nightmares III, Screamer, and More",
+      "url": "https://news.xbox.com/en-us/2026/10/08/free-play-days-10-08-2026",
+      "canonical_game_key": "xbox:premium-edition",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Warhammer Survivors launches November 10, new characters revealed",
-      "url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "How The Walking Dead: Streets of Survival Builds a Tactical Brawler",
-      "url": "https://news.xbox.com/en-us/2026/10/05/how-the-walking-dead-streets-of-survival-builds-a-tactical-brawler",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-05"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Hello from Seattle: XBOX FanFest Comes Home November 12",
-      "url": "https://news.xbox.com/en-us/2026/10/05/xbox-fanfest-seattle-25th-anniversary",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-05"
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-10-08"
     }
   ],
   "source_backlog": {
