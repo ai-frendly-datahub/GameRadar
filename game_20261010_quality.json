@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-09T09:47:30.348212+00:00",
+  "generated_at": "2026-10-10T09:12:22.598826+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -19,10 +19,10 @@
     "patch_note_events": 2,
     "release_schedule_events": 44,
     "actionable_game_event_count": 47,
-    "canonical_game_key_present_count": 7,
-    "missing_canonical_game_key_count": 40,
-    "official_or_trade_event_count": 35,
-    "event_required_field_gap_count": 40,
+    "canonical_game_key_present_count": 8,
+    "missing_canonical_game_key_count": 39,
+    "official_or_trade_event_count": 37,
+    "event_required_field_gap_count": 39,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 17,
+      "article_count": 19,
       "event_count": 15,
       "latest_event_at": "2026-10-07T08:00:48+00:00",
-      "age_days": 2.07,
+      "age_days": 3.05,
       "latest_title": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
       "latest_url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2",
       "latest_source_signal": [
@@ -104,11 +104,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 20,
-      "event_count": 13,
-      "latest_event_at": "2026-10-08T07:30:00+00:00",
-      "age_days": 1.1,
-      "latest_title": "You Have Minutes to Live: Introducing Echo Weaver",
-      "latest_url": "https://news.xbox.com/en-us/2026/10/08/you-have-minutes-to-live-introducing-echo-weaver",
+      "event_count": 14,
+      "latest_event_at": "2026-10-09T08:00:00+00:00",
+      "age_days": 1.05,
+      "latest_title": "DMZ — 5 Features to Get Excited for in Call of Duty: Modern Warfare 4’s New Mode",
+      "latest_url": "https://news.xbox.com/en-us/2026/10/09/dmz-5-features-get-excited-for-mw4",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 71,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 5,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 64,
-      "event_count": 7,
-      "latest_event_at": "2026-10-08T03:18:40+00:00",
-      "age_days": 1.27,
-      "latest_title": "Xbox announces new XP division to deliver transmedia spinoffs including film, TV, and theme parks",
-      "latest_url": "https://www.gamesindustry.biz/xbox-announces-new-xp-division-to-deliver-transmedia-spinoffs-including-film-tv-and-theme-parks",
+      "article_count": 71,
+      "event_count": 8,
+      "latest_event_at": "2026-10-09T06:42:04+00:00",
+      "age_days": 1.1,
+      "latest_title": "This should be game streaming’s moment. It's not | Opinion",
+      "latest_url": "https://www.gamesindustry.biz/this-should-be-game-streamings-moment-its-not-opinion",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 30,
-      "event_count": 12,
-      "latest_event_at": "2026-10-08T23:30:00+00:00",
-      "age_days": 0.43,
-      "latest_title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’ 발표",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230408",
+      "event_count": 10,
+      "latest_event_at": "2026-10-09T16:43:52+00:00",
+      "age_days": 0.69,
+      "latest_title": "JJelly Studio ‘Tamer Survivors(테이머 서바이버)’, 10월 스팀 넥스트 페스트 참가 및 무료 데모 공개 중",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230415",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1184,7 +1184,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 1,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1198,9 +1198,262 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’ 발표",
+      "title": "JJelly Studio ‘Tamer Survivors(테이머 서바이버)’, 10월 스팀 넥스트 페스트 참가 및 무료 데모 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/230415",
+      "event_at": "2026-10-09T16:43:52+00:00",
+      "event_date": "2026-10-09",
+      "platform": [
+        "steam",
+        "스팀"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-09",
+      "genre": [
+        "액션",
+        "인디"
+      ],
+      "release": [
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "DMZ — 5 Features to Get Excited for in Call of Duty: Modern Warfare 4’s New Mode",
+      "url": "https://news.xbox.com/en-us/2026/10/09/dmz-5-features-get-excited-for-mw4",
+      "event_at": "2026-10-09T08:00:00+00:00",
+      "event_date": "2026-10-09",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:base:2026-10-09",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "픽업트럭 이용한 배달 어드벤처 게임, 트럭풀",
+      "url": "https://bbs.ruliweb.com/news/read/230377",
+      "event_at": "2026-10-09T07:00:00+00:00",
+      "event_date": "2026-10-09",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-09",
+      "genre": [
+        "어드벤처"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "This should be game streaming’s moment. It's not | Opinion",
+      "url": "https://www.gamesindustry.biz/this-should-be-game-streamings-moment-its-not-opinion",
+      "event_at": "2026-10-09T06:42:04+00:00",
+      "event_date": "2026-10-09",
+      "platform": [
+        "playstation",
+        "xbox",
+        "xcloud"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-09",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "DelosX, 턴제 전략 게임 ‘Salt and Soil’ 11월 9일 Steam 앞서 해보기 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230409",
+      "event_at": "2026-10-09T05:53:00+00:00",
+      "event_date": "2026-10-09",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-09",
+      "genre": [
+        "전략",
+        "턴제"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Next Week on XBOX: New Games for October 12 to 16",
+      "url": "https://news.xbox.com/en-us/2026/10/09/next-week-on-xbox-new-games-for-october-12-to-16",
+      "event_at": "2026-10-09T05:01:46+00:00",
+      "event_date": "2026-10-09",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-09",
+      "genre": [],
+      "release": [
+        "coming soon"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’",
       "url": "https://bbs.ruliweb.com/news/read/230408",
-      "event_at": "2026-10-08T23:30:00+00:00",
+      "event_at": "2026-10-08T23:40:00+00:00",
       "event_date": "2026-10-08",
       "platform": [
         "닌텐도",
@@ -1322,227 +1575,6 @@
       "required_field_gaps": [
         "game_title",
         "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "스퀘어에닉스, 액션 RPG ‘볼트브레이커스’ Steam 데모 버전 배포",
-      "url": "https://bbs.ruliweb.com/news/read/230402",
-      "event_at": "2026-10-08T19:02:46+00:00",
-      "event_date": "2026-10-08",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-08",
-      "genre": [
-        "액션",
-        "rpg"
-      ],
-      "release": [
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [
-        "square enix",
-        "스퀘어에닉스"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "㈜얼라이언스 아츠, 리듬 어드벤처 '융융 전파 신드롬' 두 번째 DLC 2종 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230401",
-      "event_at": "2026-10-08T19:02:43+00:00",
-      "event_date": "2026-10-08",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-08",
-      "genre": [
-        "어드벤처"
-      ],
-      "release": [
-        "출시",
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "고블린게임즈, 덱빌딩 로그라이크 ‘Paceweaver’ 2026년 4분기 스팀 출시 및 10월 스팀 넥스트 페스트 참가",
-      "url": "https://bbs.ruliweb.com/news/read/230399",
-      "event_at": "2026-10-08T17:32:37+00:00",
-      "event_date": "2026-10-08",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-08",
-      "genre": [
-        "턴제",
-        "로그라이크",
-        "인디"
-      ],
-      "release": [
-        "출시",
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "에이스 컴뱃 8: 시브의 날개, 최단 기간에 100만 장 돌파",
-      "url": "https://bbs.ruliweb.com/news/read/230398",
-      "event_at": "2026-10-08T17:30:00+00:00",
-      "event_date": "2026-10-08",
-      "platform": [
-        "xbox",
-        "스팀"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-08",
-      "genre": [],
-      "release": [
-        "출시",
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [
-        "반다이남코"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "비트픽(BITPICK) ‘팬, 플리즈!(PAN, PLEASE!)’ 스팀 상점 페이지 및 어나운스 트레일러 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/230397",
-      "event_at": "2026-10-08T16:42:09+00:00",
-      "event_date": "2026-10-08",
-      "platform": [
-        "steam",
-        "스팀"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-08",
-      "genre": [],
-      "release": [
-        "트레일러"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
       ]
     },
     {
@@ -1828,47 +1860,6 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Watch the Gears of War: E-Day Official Launch Trailer",
-      "url": "https://www.youtube.com/watch?v=3onc3ownB14",
-      "event_at": "2026-10-06T06:27:41+00:00",
-      "event_date": "2026-10-06",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-06",
-      "genre": [],
-      "release": [
-        "launch",
-        "trailer"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     },
     {
       "source": "PlayStation Blog",
@@ -3123,13 +3114,92 @@
   "daily_review_items": [
     {
       "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "JJelly Studio ‘Tamer Survivors(테이머 서바이버)’, 10월 스팀 넥스트 페스트 참가 및 무료 데모 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/230415",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-09"
+    },
+    {
+      "reason": [
         "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’ 발표",
+      "title": "픽업트럭 이용한 배달 어드벤처 게임, 트럭풀",
+      "url": "https://bbs.ruliweb.com/news/read/230377",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "This should be game streaming’s moment. It's not | Opinion",
+      "url": "https://www.gamesindustry.biz/this-should-be-game-streamings-moment-its-not-opinion",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-10-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "DelosX, 턴제 전략 게임 ‘Salt and Soil’ 11월 9일 Steam 앞서 해보기 출시",
+      "url": "https://bbs.ruliweb.com/news/read/230409",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-09"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Next Week on XBOX: New Games for October 12 to 16",
+      "url": "https://news.xbox.com/en-us/2026/10/09/next-week-on-xbox-new-games-for-october-12-to-16",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-09"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’",
       "url": "https://bbs.ruliweb.com/news/read/230408",
       "canonical_game_key": "base",
       "required_field_gaps": [
@@ -3170,88 +3240,6 @@
         "platform"
       ],
       "game_event_key": "release_schedule:base:2026-10-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "스퀘어에닉스, 액션 RPG ‘볼트브레이커스’ Steam 데모 버전 배포",
-      "url": "https://bbs.ruliweb.com/news/read/230402",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-10-08"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "㈜얼라이언스 아츠, 리듬 어드벤처 '융융 전파 신드롬' 두 번째 DLC 2종 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230401",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-10-08"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "고블린게임즈, 덱빌딩 로그라이크 ‘Paceweaver’ 2026년 4분기 스팀 출시 및 10월 스팀 넥스트 페스트 참가",
-      "url": "https://bbs.ruliweb.com/news/read/230399",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-10-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "에이스 컴뱃 8: 시브의 날개, 최단 기간에 100만 장 돌파",
-      "url": "https://bbs.ruliweb.com/news/read/230398",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "비트픽(BITPICK) ‘팬, 플리즈!(PAN, PLEASE!)’ 스팀 상점 페이지 및 어나운스 트레일러 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/230397",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-10-08"
     },
     {
       "reason": [
