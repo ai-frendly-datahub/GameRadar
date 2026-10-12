@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-11T09:27:59.267975+00:00",
+  "generated_at": "2026-10-12T09:58:22.925064+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 3,
-    "release_schedule_events": 45,
-    "actionable_game_event_count": 49,
-    "canonical_game_key_present_count": 8,
-    "missing_canonical_game_key_count": 41,
-    "official_or_trade_event_count": 37,
-    "event_required_field_gap_count": 41,
+    "patch_note_events": 2,
+    "release_schedule_events": 40,
+    "actionable_game_event_count": 43,
+    "canonical_game_key_present_count": 7,
+    "missing_canonical_game_key_count": 36,
+    "official_or_trade_event_count": 35,
+    "event_required_field_gap_count": 36,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 19,
-      "event_count": 15,
+      "article_count": 17,
+      "event_count": 13,
       "latest_event_at": "2026-10-07T08:00:48+00:00",
-      "age_days": 4.06,
+      "age_days": 5.08,
       "latest_title": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
       "latest_url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 20,
       "event_count": 14,
       "latest_event_at": "2026-10-09T08:00:00+00:00",
-      "age_days": 2.06,
+      "age_days": 3.08,
       "latest_title": "DMZ — 5 Features to Get Excited for in Call of Duty: Modern Warfare 4’s New Mode",
       "latest_url": "https://news.xbox.com/en-us/2026/10/09/dmz-5-features-get-excited-for-mw4",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 71,
+      "article_count": 66,
       "event_count": 8,
       "latest_event_at": "2026-10-09T06:42:04+00:00",
-      "age_days": 2.12,
+      "age_days": 3.14,
       "latest_title": "This should be game streaming’s moment. It's not | Opinion",
       "latest_url": "https://www.gamesindustry.biz/this-should-be-game-streamings-moment-its-not-opinion",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 30,
-      "event_count": 12,
-      "latest_event_at": "2026-10-10T17:04:04+00:00",
-      "age_days": 0.68,
-      "latest_title": "‘한국 철도 Celesti Express KTX 서울-부산 편’ Nintendo Switch, 22일(목) 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230420",
+      "event_count": 8,
+      "latest_event_at": "2026-10-11T23:35:12+00:00",
+      "age_days": 0.43,
+      "latest_title": "Bozz Studio, 멀티플레이 좀비 FPS ‘Disbond’ 스팀 넥스트 페스트에 참가",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230467",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1198,15 +1198,57 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘한국 철도 Celesti Express KTX 서울-부산 편’ Nintendo Switch, 22일(목) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230420",
-      "event_at": "2026-10-10T17:04:04+00:00",
-      "event_date": "2026-10-10",
+      "title": "Bozz Studio, 멀티플레이 좀비 FPS ‘Disbond’ 스팀 넥스트 페스트에 참가",
+      "url": "https://bbs.ruliweb.com/news/read/230467",
+      "event_at": "2026-10-11T23:35:12+00:00",
+      "event_date": "2026-10-11",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-11",
+      "genre": [
+        "fps",
+        "인디"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘헬로키티 파티 랜드’ 한국어판  패키지 선주문 판매 10월 14일(수) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/230458",
+      "event_at": "2026-10-11T19:06:25+00:00",
+      "event_date": "2026-10-11",
       "platform": [
         "nintendo",
-        "닌텐도",
-        "switch",
-        "스위치"
+        "switch"
       ],
       "normalized_platform": "nintendo",
       "game_title": [],
@@ -1214,16 +1256,16 @@
       "edition": "base",
       "canonical_game_key": "nintendo:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-10-10",
-      "genre": [
-        "시뮬레이션"
-      ],
+      "game_event_key": "release_schedule:nintendo:base:2026-10-11",
+      "genre": [],
       "release": [
-        "출시"
+        "출시",
+        "발표"
       ],
       "business_signal": [],
       "studio": [
-        "nintendo"
+        "nintendo",
+        "반다이남코"
       ],
       "source_signal": [
         "community_reaction",
@@ -1245,15 +1287,58 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "엠투, ‘전인 알레스터’ 콘솔 버전 공식 발표",
-      "url": "https://bbs.ruliweb.com/news/read/230418",
-      "event_at": "2026-10-10T06:42:45+00:00",
-      "event_date": "2026-10-10",
+      "title": "카셀 게임즈, AI빌딩 전략RPG ‘래토칼립스’ 13일 스팀 데모 공개",
+      "url": "https://bbs.ruliweb.com/news/read/230457",
+      "event_at": "2026-10-11T19:00:44+00:00",
+      "event_date": "2026-10-11",
       "platform": [
-        "ps5",
-        "ps4",
-        "닌텐도",
-        "스위치"
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-11",
+      "genre": [
+        "전략"
+      ],
+      "release": [
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘에이스 컴뱃 8: 시브의 날개’, 전 세계 누적 판매량 100만 장 돌파",
+      "url": "https://bbs.ruliweb.com/news/read/230454",
+      "event_at": "2026-10-11T17:55:49+00:00",
+      "event_date": "2026-10-11",
+      "platform": [
+        "playstation",
+        "xbox",
+        "xbox series x",
+        "steam"
       ],
       "normalized_platform": "playstation",
       "game_title": [],
@@ -1261,104 +1346,15 @@
       "edition": "base",
       "canonical_game_key": "playstation:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-10-10",
+      "game_event_key": "release_schedule:playstation:base:2026-10-11",
       "genre": [],
       "release": [
-        "출시",
-        "발매일",
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "카오스 제로 나이트메어, 1주년 기념 ‘악몽제’ 쇼케이스 내용",
-      "url": "https://bbs.ruliweb.com/news/read/230417",
-      "event_at": "2026-10-10T02:38:53+00:00",
-      "event_date": "2026-10-10",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-10",
-      "genre": [
-        "rpg",
-        "로그라이크"
-      ],
-      "release": [
-        "발표",
-        "업데이트"
+        "출시"
       ],
       "business_signal": [],
       "studio": [
-        "스마일게이트"
+        "반다이남코"
       ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "JJelly Studio ‘Tamer Survivors(테이머 서바이버)’, 10월 스팀 넥스트 페스트 참가 및 무료 데모 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/230415",
-      "event_at": "2026-10-09T16:43:52+00:00",
-      "event_date": "2026-10-09",
-      "platform": [
-        "steam",
-        "스팀"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-09",
-      "genre": [
-        "액션",
-        "인디"
-      ],
-      "release": [
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1415,49 +1411,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "픽업트럭 이용한 배달 어드벤처 게임, 트럭풀",
-      "url": "https://bbs.ruliweb.com/news/read/230377",
-      "event_at": "2026-10-09T07:00:00+00:00",
-      "event_date": "2026-10-09",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-09",
-      "genre": [
-        "어드벤처"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
       "title": "This should be game streaming’s moment. It's not | Opinion",
@@ -1501,49 +1454,6 @@
       ]
     },
     {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "DelosX, 턴제 전략 게임 ‘Salt and Soil’ 11월 9일 Steam 앞서 해보기 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230409",
-      "event_at": "2026-10-09T05:53:00+00:00",
-      "event_date": "2026-10-09",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-09",
-      "genre": [
-        "전략",
-        "턴제"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
       "title": "Next Week on XBOX: New Games for October 12 to 16",
@@ -1577,90 +1487,6 @@
       "authority_role": "platform",
       "trust_tier": "T1_authoritative",
       "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’",
-      "url": "https://bbs.ruliweb.com/news/read/230408",
-      "event_at": "2026-10-08T23:40:00+00:00",
-      "event_date": "2026-10-08",
-      "platform": [
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-08",
-      "genre": [
-        "액션"
-      ],
-      "release": [
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "14Dimension Enterprise, 게임 전용 AI 게임마스터 내장 오프라인 TRPG ‘일루네스의 귀환(The Return of Illunes)’ Steam 정식 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230407",
-      "event_at": "2026-10-08T22:38:41+00:00",
-      "event_date": "2026-10-08",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-10-08",
-      "genre": [],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
       "version": "",
       "rank": null,
       "market": "",
@@ -3127,164 +2953,74 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Suri: The Seventh Note launches Oct 30 on PS5",
-      "url": "https://blog.playstation.com/2026/09/28/suri-the-seventh-note-launches-oct-30-on-ps5",
-      "event_at": "2026-09-28T04:06:18+00:00",
-      "event_date": "2026-09-28",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-28",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "God of War Laufey pre-orders available starting September 29, editions detailed",
-      "url": "https://blog.playstation.com/2026/09/28/god-of-war-laufey-pre-orders-available-starting-september-29-editions-detailed",
-      "event_at": "2026-09-28T03:00:14+00:00",
-      "event_date": "2026-09-28",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "god of war"
-      ],
-      "normalized_game_title": "god-of-war",
-      "edition": "premium-edition",
-      "canonical_game_key": "god-of-war:playstation:premium-edition",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:god-of-war:playstation:premium-edition:2026-09-28",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
     {
       "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘한국 철도 Celesti Express KTX 서울-부산 편’ Nintendo Switch, 22일(목) 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230420",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:nintendo:base:2026-10-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "엠투, ‘전인 알레스터’ 콘솔 버전 공식 발표",
-      "url": "https://bbs.ruliweb.com/news/read/230418",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-10"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "카오스 제로 나이트메어, 1주년 기념 ‘악몽제’ 쇼케이스 내용",
-      "url": "https://bbs.ruliweb.com/news/read/230417",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-10-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "JJelly Studio ‘Tamer Survivors(테이머 서바이버)’, 10월 스팀 넥스트 페스트 참가 및 무료 데모 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/230415",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-10-09"
-    },
-    {
-      "reason": [
         "missing_game_title_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "픽업트럭 이용한 배달 어드벤처 게임, 트럭풀",
-      "url": "https://bbs.ruliweb.com/news/read/230377",
+      "title": "Bozz Studio, 멀티플레이 좀비 FPS ‘Disbond’ 스팀 넥스트 페스트에 참가",
+      "url": "https://bbs.ruliweb.com/news/read/230467",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-10-09"
+      "game_event_key": "release_schedule:base:2026-10-11"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘헬로키티 파티 랜드’ 한국어판  패키지 선주문 판매 10월 14일(수) 시작",
+      "url": "https://bbs.ruliweb.com/news/read/230458",
+      "canonical_game_key": "nintendo:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:nintendo:base:2026-10-11"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "카셀 게임즈, AI빌딩 전략RPG ‘래토칼립스’ 13일 스팀 데모 공개",
+      "url": "https://bbs.ruliweb.com/news/read/230457",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-11"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘에이스 컴뱃 8: 시브의 날개’, 전 세계 누적 판매량 100만 장 돌파",
+      "url": "https://bbs.ruliweb.com/news/read/230454",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-10-11"
     },
     {
       "reason": [
@@ -3304,22 +3040,6 @@
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "DelosX, 턴제 전략 게임 ‘Salt and Soil’ 11월 9일 Steam 앞서 해보기 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230409",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-10-09"
-    },
-    {
-      "reason": [
-        "missing_game_title",
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
@@ -3334,36 +3054,63 @@
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_game_title",
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "D3P, 걸판 신작 ‘걸즈 앤 판처 올스타 탱크 카니발’",
-      "url": "https://bbs.ruliweb.com/news/read/230408",
-      "canonical_game_key": "base",
+      "source": "Xbox Wire",
+      "title": "You Have Minutes to Live: Introducing Echo Weaver",
+      "url": "https://news.xbox.com/en-us/2026/10/08/you-have-minutes-to-live-introducing-echo-weaver",
+      "canonical_game_key": "xbox:preview",
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "game_title"
       ],
-      "game_event_key": "release_schedule:base:2026-10-08"
+      "game_event_key": "release_schedule:xbox:preview:2026-10-08"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "14Dimension Enterprise, 게임 전용 AI 게임마스터 내장 오프라인 TRPG ‘일루네스의 귀환(The Return of Illunes)’ Steam 정식 출시",
-      "url": "https://bbs.ruliweb.com/news/read/230407",
-      "canonical_game_key": "steam:base",
+      "source": "Xbox Wire",
+      "title": "Free Play Days – ARC Raiders, S.T.A.L.K.E.R. 2: Heart of Chornobyl, Little Nightmares III, Screamer, and More",
+      "url": "https://news.xbox.com/en-us/2026/10/08/free-play-days-10-08-2026",
+      "canonical_game_key": "xbox:premium-edition",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-10-08"
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-10-08"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
+      "url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-10-07"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Warhammer Survivors launches November 10, new characters revealed",
+      "url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-10-06"
     }
   ],
   "source_backlog": {
