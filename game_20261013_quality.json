@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-12T09:58:22.925064+00:00",
+  "generated_at": "2026-10-13T09:52:08.558974+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 48,
@@ -16,12 +16,12 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 1,
-    "patch_note_events": 2,
-    "release_schedule_events": 40,
-    "actionable_game_event_count": 43,
-    "canonical_game_key_present_count": 7,
+    "patch_note_events": 4,
+    "release_schedule_events": 37,
+    "actionable_game_event_count": 42,
+    "canonical_game_key_present_count": 6,
     "missing_canonical_game_key_count": 36,
-    "official_or_trade_event_count": 35,
+    "official_or_trade_event_count": 34,
     "event_required_field_gap_count": 36,
     "daily_review_item_count": 10
   },
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 17,
-      "event_count": 13,
+      "article_count": 15,
+      "event_count": 11,
       "latest_event_at": "2026-10-07T08:00:48+00:00",
-      "age_days": 5.08,
+      "age_days": 6.08,
       "latest_title": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
       "latest_url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2",
       "latest_source_signal": [
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 20,
-      "event_count": 14,
-      "latest_event_at": "2026-10-09T08:00:00+00:00",
-      "age_days": 3.08,
-      "latest_title": "DMZ — 5 Features to Get Excited for in Call of Duty: Modern Warfare 4’s New Mode",
-      "latest_url": "https://news.xbox.com/en-us/2026/10/09/dmz-5-features-get-excited-for-mw4",
+      "article_count": 19,
+      "event_count": 13,
+      "latest_event_at": "2026-10-12T09:17:50+00:00",
+      "age_days": 1.02,
+      "latest_title": "Get the Shattered Relay Weapon Blueprint in Call of Duty: Mobile as a Call of Duty: Modern Warfare 4 Pre-order Bonus",
+      "latest_url": "https://news.xbox.com/en-us/2026/10/12/get-the-shattered-relay-weapon-blueprint-in-call-of-duty-mobile-as-a-call-of-duty-modern-warfare-4-pre-order-bonus",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 74,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 5,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,11 +470,11 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 66,
-      "event_count": 8,
-      "latest_event_at": "2026-10-09T06:42:04+00:00",
-      "age_days": 3.14,
-      "latest_title": "This should be game streaming’s moment. It's not | Opinion",
-      "latest_url": "https://www.gamesindustry.biz/this-should-be-game-streamings-moment-its-not-opinion",
+      "event_count": 10,
+      "latest_event_at": "2026-10-12T10:54:58+00:00",
+      "age_days": 0.96,
+      "latest_title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
+      "latest_url": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -760,10 +760,10 @@
       "status": "fresh",
       "article_count": 30,
       "event_count": 8,
-      "latest_event_at": "2026-10-11T23:35:12+00:00",
+      "latest_event_at": "2026-10-12T23:30:00+00:00",
       "age_days": 0.43,
-      "latest_title": "Bozz Studio, 멀티플레이 좀비 FPS ‘Disbond’ 스팀 넥스트 페스트에 참가",
-      "latest_url": "https://bbs.ruliweb.com/news/read/230467",
+      "latest_title": "노 맨즈 스카이, iOS 디바이스 버전 발매일 결정",
+      "latest_url": "https://bbs.ruliweb.com/news/read/230515",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1197,13 +1197,57 @@
   "events": [
     {
       "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "노 맨즈 스카이, iOS 디바이스 버전 발매일 결정",
+      "url": "https://bbs.ruliweb.com/news/read/230515",
+      "event_at": "2026-10-12T23:30:00+00:00",
+      "event_date": "2026-10-12",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-10-12",
+      "genre": [
+        "어드벤처"
+      ],
+      "release": [
+        "출시",
+        "발매일",
+        "발표",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "Bozz Studio, 멀티플레이 좀비 FPS ‘Disbond’ 스팀 넥스트 페스트에 참가",
-      "url": "https://bbs.ruliweb.com/news/read/230467",
-      "event_at": "2026-10-11T23:35:12+00:00",
-      "event_date": "2026-10-11",
+      "title": "엔비디아, 메타와 스펙트럼-6·멀티플레인 기술로 AI 네트워킹 고도화",
+      "url": "https://bbs.ruliweb.com/news/read/230520",
+      "event_at": "2026-10-12T23:23:10+00:00",
+      "event_date": "2026-10-12",
       "platform": [
-        "스팀"
+        "스위치"
       ],
       "normalized_platform": "",
       "game_title": [],
@@ -1211,13 +1255,10 @@
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-11",
-      "genre": [
-        "fps",
-        "인디"
-      ],
+      "game_event_key": "release_schedule:base:2026-10-12",
+      "genre": [],
       "release": [
-        "출시"
+        "발표"
       ],
       "business_signal": [],
       "studio": [],
@@ -1242,13 +1283,14 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
-      "title": "‘헬로키티 파티 랜드’ 한국어판  패키지 선주문 판매 10월 14일(수) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/230458",
-      "event_at": "2026-10-11T19:06:25+00:00",
-      "event_date": "2026-10-11",
+      "title": "‘메타포: 리판타지오’ NS2버전, 제품판 저장 데이터 인계 ‘프롤로그 체험판’ 배포 중",
+      "url": "https://bbs.ruliweb.com/news/read/230514",
+      "event_at": "2026-10-12T22:48:22+00:00",
+      "event_date": "2026-10-12",
       "platform": [
         "nintendo",
-        "switch"
+        "switch",
+        "switch 2"
       ],
       "normalized_platform": "nintendo",
       "game_title": [],
@@ -1256,16 +1298,18 @@
       "edition": "base",
       "canonical_game_key": "nintendo:base",
       "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:nintendo:base:2026-10-11",
-      "genre": [],
+      "game_event_key": "release_schedule:nintendo:base:2026-10-12",
+      "genre": [
+        "rpg"
+      ],
       "release": [
-        "출시",
-        "발표"
+        "출시"
       ],
       "business_signal": [],
       "studio": [
         "nintendo",
-        "반다이남코"
+        "세가",
+        "아틀러스"
       ],
       "source_signal": [
         "community_reaction",
@@ -1286,29 +1330,30 @@
     },
     {
       "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "카셀 게임즈, AI빌딩 전략RPG ‘래토칼립스’ 13일 스팀 데모 공개",
-      "url": "https://bbs.ruliweb.com/news/read/230457",
-      "event_at": "2026-10-11T19:00:44+00:00",
-      "event_date": "2026-10-11",
-      "platform": [
-        "스팀"
-      ],
+      "event_model": "patch_note",
+      "title": "소닉 레이싱 크로스월드, ‘시즌 2’ 정보 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/230513",
+      "event_at": "2026-10-12T22:36:23+00:00",
+      "event_date": "2026-10-12",
+      "platform": [],
       "normalized_platform": "",
       "game_title": [],
       "normalized_game_title": "",
       "edition": "base",
       "canonical_game_key": "base",
       "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-11",
+      "game_event_key": "patch_note:base:2026-10-12",
       "genre": [
-        "전략"
+        "레이싱"
       ],
       "release": [
-        "데모"
+        "발표",
+        "업데이트"
       ],
       "business_signal": [],
-      "studio": [],
+      "studio": [
+        "세가"
+      ],
       "source_signal": [
         "community_reaction",
         "game_media_context",
@@ -1319,6 +1364,87 @@
       "trust_tier": "T3_professional",
       "producer_role": "community_media",
       "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
+      "url": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
+      "event_at": "2026-10-12T10:54:58+00:00",
+      "event_date": "2026-10-12",
+      "platform": [
+        "epic games"
+      ],
+      "normalized_platform": "epic",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "epic:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:epic:base:2026-10-12",
+      "genre": [
+        "shooter"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Dragon Quest creator Yuji Horii releases game he says he made with AI in about 30 minutes",
+      "url": "https://www.gamesindustry.biz/dragon-quest-creator-yuji-horii-releases-game-he-says-he-made-with-ai-in-about-30-minutes",
+      "event_at": "2026-10-12T09:49:25+00:00",
+      "event_date": "2026-10-12",
+      "platform": [
+        "quest"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-12",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "19.25.58",
       "rank": null,
       "market": "",
       "concurrent_players": null,
@@ -1328,48 +1454,80 @@
       ]
     },
     {
-      "source": "루리웹 뉴스",
+      "source": "Xbox Wire",
       "event_model": "release_schedule",
-      "title": "‘에이스 컴뱃 8: 시브의 날개’, 전 세계 누적 판매량 100만 장 돌파",
-      "url": "https://bbs.ruliweb.com/news/read/230454",
-      "event_at": "2026-10-11T17:55:49+00:00",
-      "event_date": "2026-10-11",
+      "title": "Get the Shattered Relay Weapon Blueprint in Call of Duty: Mobile as a Call of Duty: Modern Warfare 4 Pre-order Bonus",
+      "url": "https://news.xbox.com/en-us/2026/10/12/get-the-shattered-relay-weapon-blueprint-in-call-of-duty-mobile-as-a-call-of-duty-modern-warfare-4-pre-order-bonus",
+      "event_at": "2026-10-12T09:17:50+00:00",
+      "event_date": "2026-10-12",
       "platform": [
-        "playstation",
-        "xbox",
-        "xbox series x",
-        "steam"
+        "xbox"
       ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
+      "normalized_platform": "xbox",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
       "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-10-11",
+      "canonical_game_key": "call-of-duty:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:base:2026-10-12",
       "genre": [],
-      "release": [
-        "출시"
-      ],
+      "release": [],
       "business_signal": [],
-      "studio": [
-        "반다이남코"
-      ],
+      "studio": [],
       "source_signal": [
-        "community_reaction",
         "game_media_context",
-        "patch",
-        "release"
+        "game_pass",
+        "platform_update",
+        "release_schedule"
       ],
-      "authority_role": "community_media",
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Group behind GTA 6 leaks threatens to release alleged full build of game including story mode",
+      "url": "https://www.gamesindustry.biz/group-behind-gta-6-leaks-threatens-to-release-alleged-full-build-of-game-including-story-mode",
+      "event_at": "2026-10-12T01:32:50+00:00",
+      "event_date": "2026-10-12",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "gta"
+      ],
+      "normalized_game_title": "gta",
+      "edition": "premium-edition",
+      "canonical_game_key": "gta:premium-edition",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:gta:premium-edition:2026-10-12",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
       "trust_tier": "T3_professional",
-      "producer_role": "community_media",
+      "producer_role": "trade_media",
       "version": "",
       "rank": null,
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": [
-        "game_title"
+        "platform"
       ]
     },
     {
@@ -1737,47 +1895,6 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Coming to XBOX Game Pass: Battlefield 6, Valor Mortis, Forever Ago, and More",
-      "url": "https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1",
-      "event_at": "2026-10-07T07:00:00+00:00",
-      "event_date": "2026-10-07",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "minecraft"
-      ],
-      "normalized_game_title": "minecraft",
-      "edition": "base",
-      "canonical_game_key": "minecraft:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:minecraft:xbox:base:2026-10-07",
-      "genre": [],
-      "release": [
-        "showcase"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
     },
     {
       "source": "PlayStation Blog",
@@ -2794,165 +2911,6 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "NBA The Run Kicks off its First Season with a Major Update",
-      "url": "https://news.xbox.com/en-us/2026/09/29/nba-the-run-kicks-off-its-first-season",
-      "event_at": "2026-09-29T09:00:00+00:00",
-      "event_date": "2026-09-29",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-09-29",
-      "genre": [],
-      "release": [
-        "launch",
-        "update",
-        "showcase"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "How Control Resonant’s art design and tech shaped its bosses, paranaturally-twisted Manhattan and more",
-      "url": "https://blog.playstation.com/2026/09/29/how-control-resonants-art-design-and-tech-shaped-its-bosses-paranaturally-twisted-manhattan-and-more",
-      "event_at": "2026-09-29T04:00:09+00:00",
-      "event_date": "2026-09-29",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-09-29",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "\"Why should we just give up the entire month of November?\" – The indie games going head to head with GTA 6",
-      "url": "https://www.gamesindustry.biz/why-should-we-just-give-up-the-entire-month-of-november-the-indie-games-going-head-to-head-with-gta-6",
-      "event_at": "2026-09-29T03:30:00+00:00",
-      "event_date": "2026-09-29",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-09-29",
-      "genre": [
-        "indie"
-      ],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "(For SEA) God of War Laufey pre-orders available starting September 29, editions detailed",
-      "url": "https://blog.playstation.com/2026/09/28/20260929-gow",
-      "event_at": "2026-09-28T17:05:06+00:00",
-      "event_date": "2026-09-28",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "god of war"
-      ],
-      "normalized_game_title": "god-of-war",
-      "edition": "premium-edition",
-      "canonical_game_key": "god-of-war:playstation:premium-edition",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:god-of-war:playstation:premium-edition:2026-09-28",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -2962,32 +2920,16 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "Bozz Studio, 멀티플레이 좀비 FPS ‘Disbond’ 스팀 넥스트 페스트에 참가",
-      "url": "https://bbs.ruliweb.com/news/read/230467",
+      "title": "노 맨즈 스카이, iOS 디바이스 버전 발매일 결정",
+      "url": "https://bbs.ruliweb.com/news/read/230515",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
-        "platform"
+        "platform",
+        "version"
       ],
-      "game_event_key": "release_schedule:base:2026-10-11"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘헬로키티 파티 랜드’ 한국어판  패키지 선주문 판매 10월 14일(수) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/230458",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:nintendo:base:2026-10-11"
+      "game_event_key": "patch_note:base:2026-10-12"
     },
     {
       "reason": [
@@ -2997,14 +2939,14 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "카셀 게임즈, AI빌딩 전략RPG ‘래토칼립스’ 13일 스팀 데모 공개",
-      "url": "https://bbs.ruliweb.com/news/read/230457",
+      "title": "엔비디아, 메타와 스펙트럼-6·멀티플레인 기술로 AI 네트워킹 고도화",
+      "url": "https://bbs.ruliweb.com/news/read/230520",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-10-11"
+      "game_event_key": "release_schedule:base:2026-10-12"
     },
     {
       "reason": [
@@ -3014,13 +2956,76 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘에이스 컴뱃 8: 시브의 날개’, 전 세계 누적 판매량 100만 장 돌파",
-      "url": "https://bbs.ruliweb.com/news/read/230454",
-      "canonical_game_key": "playstation:base",
+      "title": "‘메타포: 리판타지오’ NS2버전, 제품판 저장 데이터 인계 ‘프롤로그 체험판’ 배포 중",
+      "url": "https://bbs.ruliweb.com/news/read/230514",
+      "canonical_game_key": "nintendo:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-11"
+      "game_event_key": "release_schedule:nintendo:base:2026-10-12"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "소닉 레이싱 크로스월드, ‘시즌 2’ 정보 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/230513",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-10-12"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Epic Games delays Disney game and tells developers to go \"AI first\"",
+      "url": "https://www.gamesindustry.biz/epic-games-delays-disney-game-and-tells-developers-to-go-ai-first",
+      "canonical_game_key": "epic:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:epic:base:2026-10-12"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Dragon Quest creator Yuji Horii releases game he says he made with AI in about 30 minutes",
+      "url": "https://www.gamesindustry.biz/dragon-quest-creator-yuji-horii-releases-game-he-says-he-made-with-ai-in-about-30-minutes",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-12"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Group behind GTA 6 leaks threatens to release alleged full build of game including story mode",
+      "url": "https://www.gamesindustry.biz/group-behind-gta-6-leaks-threatens-to-release-alleged-full-build-of-game-including-story-mode",
+      "canonical_game_key": "gta:premium-edition",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:gta:premium-edition:2026-10-12"
     },
     {
       "reason": [
@@ -3066,51 +3071,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:xbox:preview:2026-10-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Free Play Days – ARC Raiders, S.T.A.L.K.E.R. 2: Heart of Chornobyl, Little Nightmares III, Screamer, and More",
-      "url": "https://news.xbox.com/en-us/2026/10/08/free-play-days-10-08-2026",
-      "canonical_game_key": "xbox:premium-edition",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-10-08"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
-      "url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-07"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Warhammer Survivors launches November 10, new characters revealed",
-      "url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-06"
     }
   ],
   "source_backlog": {
