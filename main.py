@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import sys
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import cast
@@ -19,6 +20,7 @@ from radar.config_loader import (
     load_settings,
 )
 from radar.date_storage import apply_date_storage_policy
+from radar.exceptions import EmptyCollectionError
 from radar.logger import configure_logging, get_logger
 from radar.models import Article, CategoryConfig, Source
 from radar.notifier import (
@@ -141,7 +143,7 @@ def run(
     categories_dir: Path | None = None,
     per_source_limit: int = 30,
     recent_days: int = 7,
-    timeout: int = 15,
+    timeout: int = 45,
     keep_days: int = 90,
     keep_raw_days: int = 180,
     keep_report_days: int = 90,
@@ -169,11 +171,13 @@ def run(
         category=category_cfg.category_name,
         sources_count=len(effective_sources),
     )
+    raw_logger = RawLogger(settings.raw_data_dir)
     collected, errors = collect_sources(
         effective_sources,
         category=category_cfg.category_name,
         limit_per_source=per_source_limit,
         timeout=timeout,
+        raw_logger=raw_logger,
     )
 
     collected = annotate_articles_with_ontology(
@@ -185,7 +189,6 @@ def run(
         attach_event_model_payload=True,
     )
 
-    raw_logger = RawLogger(settings.raw_data_dir)
     for source in effective_sources:
         source_articles = [article for article in collected if article.source == source.name]
         if source_articles:
@@ -286,8 +289,19 @@ def run(
     snapshot_path = date_storage.get("snapshot_path")
     if isinstance(snapshot_path, str) and snapshot_path:
         logger.info("snapshot_saved", snapshot_path=snapshot_path)
+    logger.info(
+        "duckdb_compact",
+        reason=date_storage.get("db_reason"),
+        bytes_before=date_storage.get("db_bytes_before"),
+        bytes_after=date_storage.get("db_bytes"),
+        rows_deleted=date_storage.get("db_rows_deleted"),
+    )
     if all_errors:
         logger.warning("collection_errors", errors_count=len(all_errors))
+    ensure_collection_not_empty(
+        collected_count=len(collected),
+        enabled_source_count=len(effective_sources),
+    )
 
     # Send notifications if configured
     _send_notifications(
@@ -301,6 +315,19 @@ def run(
     )
 
     return output_path
+
+
+def ensure_collection_not_empty(*, collected_count: int, enabled_source_count: int) -> None:
+    """Fail the run when enabled sources produced nothing.
+
+    A dated snapshot of an old database is not evidence that this run collected data.
+    """
+    if enabled_source_count > 0 and collected_count <= 0:
+        print(
+            "::error title=GameRadar empty collection::Collection produced no articles",
+            flush=True,
+        )
+        raise EmptyCollectionError("Collection produced no articles from enabled sources")
 
 
 def parse_args() -> argparse.Namespace:
@@ -321,7 +348,7 @@ def parse_args() -> argparse.Namespace:
         "--recent-days", type=int, default=7, help="Window (days) to show in the report"
     )
     _ = parser.add_argument(
-        "--timeout", type=int, default=15, help="HTTP timeout per request (seconds)"
+        "--timeout", type=int, default=45, help="HTTP timeout per request (seconds)"
     )
     _ = parser.add_argument(
         "--keep-days", type=int, default=90, help="Retention window for stored items"
@@ -402,17 +429,21 @@ def _to_str_list(value: object) -> list[str]:
 
 if __name__ == "__main__":
     args = cast(dict[str, object], vars(parse_args()))
-    _ = run(
-        category=str(args.get("category", "")),
-        config_path=_to_path(args.get("config")),
-        categories_dir=_to_path(args.get("categories_dir")),
-        per_source_limit=_to_int(args.get("per_source_limit"), 30),
-        recent_days=_to_int(args.get("recent_days"), 7),
-        timeout=_to_int(args.get("timeout"), 15),
-        keep_days=_to_int(args.get("keep_days"), 90),
-        keep_raw_days=_to_int(args.get("keep_raw_days"), 180),
-        keep_report_days=_to_int(args.get("keep_report_days"), 90),
-        snapshot_db=bool(args.get("snapshot_db", False)),
-        max_sources=_to_optional_int(args.get("max_sources")),
-        exclude_sources=_to_str_list(args.get("exclude_source")),
-    )
+    try:
+        _ = run(
+            category=str(args.get("category", "")),
+            config_path=_to_path(args.get("config")),
+            categories_dir=_to_path(args.get("categories_dir")),
+            per_source_limit=_to_int(args.get("per_source_limit"), 30),
+            recent_days=_to_int(args.get("recent_days"), 7),
+            timeout=_to_int(args.get("timeout"), 45),
+            keep_days=_to_int(args.get("keep_days"), 90),
+            keep_raw_days=_to_int(args.get("keep_raw_days"), 180),
+            keep_report_days=_to_int(args.get("keep_report_days"), 90),
+            snapshot_db=bool(args.get("snapshot_db", False)),
+            max_sources=_to_optional_int(args.get("max_sources")),
+            exclude_sources=_to_str_list(args.get("exclude_source")),
+        )
+    except EmptyCollectionError as exc:
+        print(f"[Radar] {exc}", file=sys.stderr)
+        raise SystemExit(1) from exc

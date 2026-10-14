@@ -6,7 +6,7 @@ import duckdb
 from radar_core.exceptions import StorageError
 from radar_core.storage import RadarStorage as _CoreRadarStorage
 
-from .date_storage import cleanup_date_directories, snapshot_database
+from .date_storage import _compact_database, cleanup_date_directories, snapshot_database
 
 
 class RadarStorage(_CoreRadarStorage):
@@ -15,6 +15,7 @@ class RadarStorage(_CoreRadarStorage):
         _ = self.conn.execute("CHECKPOINT")
         self.conn.close()
         try:
+            _compact_database(self.db_path)
             return snapshot_database(self.db_path, snapshot_root=snapshot_root)
         finally:
             self.conn = duckdb.connect(str(self.db_path))
