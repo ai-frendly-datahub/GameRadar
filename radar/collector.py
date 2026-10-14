@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import html
 import os
+import re
 import threading
 import time
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from concurrent.futures import Future, ThreadPoolExecutor
 from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
@@ -19,14 +20,24 @@ from radar_core import AdaptiveThrottler, CrawlHealthStore
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
+from .common.validators import is_challenge_or_error_page
 from .exceptions import NetworkError, ParseError, SourceError
 from .models import Article, Source
+from .raw_logger import RawLogger
 from .resilience import get_circuit_breaker_manager
 
 logger = structlog.get_logger(__name__)
 
+# Identifying client name. Public feeds that reject python-requests still get a
+# product token, not a browser impersonation string.
+GAMERADAR_USER_AGENT = (
+    "GameRadar/0.1 (+https://github.com/ai-frendly-datahub/GameRadar; public-rss)"
+)
+RSS_TIMEOUT_SECONDS = 45
+_ENV_VAR_NAME = re.compile(r"[A-Za-z_][A-Za-z0-9_]*")
 _DEFAULT_HEADERS: dict[str, str] = {
-    "User-Agent": "Mozilla/5.0 (compatible; RadarTemplateBot/1.0; +https://github.com/zzragida/ai-frendly-datahub)",
+    "User-Agent": GAMERADAR_USER_AGENT,
+    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
 }
 _DEFAULT_HEALTH_DB_PATH = "data/radar_data.duckdb"
 _COLLECTION_CONTROL_LOCK = threading.Lock()
@@ -90,14 +101,51 @@ def _source_bypasses_crawl_health(source: Source) -> bool:
     return False
 
 
+def _env_var_names(value: object) -> list[str]:
+    raw_names: list[str] = []
+    if isinstance(value, str):
+        raw_names = [value]
+    elif isinstance(value, Sequence) and not isinstance(value, (str, bytes)):
+        raw_names = [str(item) for item in value]
+    names: list[str] = []
+    for item in raw_names:
+        candidate = item.strip()
+        if not candidate:
+            continue
+        if _ENV_VAR_NAME.fullmatch(candidate) is None:
+            raise ValueError("required_env must be an environment variable name")
+        names.append(candidate)
+    return names
+
+
+def missing_required_env(source: Source) -> list[str]:
+    """Return required env var names that are unset. Values are never returned."""
+    configured = source.config.get("required_env", source.config.get("required_env_vars"))
+    missing: list[str] = []
+    for name in _env_var_names(configured):
+        if not os.environ.get(name, "").strip():
+            missing.append(name)
+    return missing
+
+
+def emit_missing_secret_warning(source_name: str, env_names: str | Sequence[str]) -> None:
+    """Warn once that a source was skipped. Prints env var names, never values."""
+    names = _env_var_names(env_names if isinstance(env_names, str) else list(env_names))
+    if not names:
+        raise ValueError("required_env must be an environment variable name")
+    message = f"{source_name} skipped; required env {', '.join(names)}"
+    print(f"::warning title=GameRadar missing secret::{message}", flush=True)
+
+
 def _create_session() -> requests.Session:
     session = requests.Session()
+    session.verify = True
     session.headers.update(_DEFAULT_HEADERS)
 
     retry_strategy = Retry(
         total=3,
         backoff_factor=1,
-        status_forcelist=[429, 500, 502, 503, 504],
+        status_forcelist=[500, 502, 503, 504],
         allowed_methods=frozenset(["GET"]),
         raise_on_status=False,
     )
@@ -120,6 +168,7 @@ def _fetch_url_with_retry(
 ) -> requests.Response:
     """Fetch URL with retry logic on transient errors."""
     merged = {**_DEFAULT_HEADERS, **(headers or {})}
+    merged["User-Agent"] = GAMERADAR_USER_AGENT
     if throttler is None or health_store is None:
         active_throttler, active_health_store = _get_collection_controls()
         throttler = throttler or active_throttler
@@ -137,9 +186,9 @@ def _fetch_url_with_retry(
 
         try:
             if session is not None:
-                response = session.get(url, timeout=timeout, headers=merged)
+                response = session.get(url, timeout=timeout, headers=merged, verify=True)
             else:
-                response = requests.get(url, timeout=timeout, headers=merged)
+                response = requests.get(url, timeout=timeout, headers=merged, verify=True)
             response.raise_for_status()
 
             if source_name is not None and throttler is not None:
@@ -150,22 +199,45 @@ def _fetch_url_with_retry(
 
             return response
         except retryable_errors as exc:
+            status_code: int | None = None
+            if isinstance(exc, requests.exceptions.HTTPError) and exc.response is not None:
+                status_code = exc.response.status_code
+
             if source_name is not None and throttler is not None:
                 retry_after: int | str | None = None
-                if isinstance(exc, requests.exceptions.HTTPError):
-                    response = exc.response
-                    if response is not None and response.status_code == 429:
-                        retry_after = _parse_retry_after(response.headers.get("Retry-After"))
+                if status_code == 429 and exc.response is not None:
+                    retry_after = _parse_retry_after(exc.response.headers.get("Retry-After"))
 
                 throttler.record_failure(source_name, retry_after=retry_after)
                 if health_store is not None:
                     delay = throttler.get_current_delay(source_name)
                     health_store.record_failure(source_name, str(exc), delay)
 
-            if attempt == max_attempts - 1:
+            # A 429 is the host asking us to stop. Further immediate retries
+            # make the next source on the same host fail too.
+            if status_code == 429 or attempt == max_attempts - 1:
                 raise
 
     raise RuntimeError("Retry loop exited unexpectedly")
+
+
+def _response_is_html_page(response: requests.Response) -> bool:
+    """True when a 200 body is an HTML document rather than a feed."""
+    headers = getattr(response, "headers", None)
+    content_type = ""
+    if isinstance(headers, Mapping):
+        raw_type = headers.get("Content-Type", headers.get("content-type", ""))
+        content_type = str(raw_type).lower()
+    if "html" in content_type:
+        return True
+    raw = getattr(response, "content", b"")
+    if isinstance(raw, str):
+        sample = raw[:300].lstrip().lower()
+    elif isinstance(raw, bytes):
+        sample = raw[:300].decode("utf-8", errors="ignore").lstrip().lower()
+    else:
+        return False
+    return sample.startswith("<!doctype html") or sample.startswith("<html")
 
 
 def _parse_retry_after(value: str | None) -> int | str | None:
@@ -182,15 +254,41 @@ def _parse_retry_after(value: str | None) -> int | str | None:
     return stripped
 
 
+def _secret_skip(
+    source: Source,
+    raw_logger: RawLogger | None,
+) -> tuple[list[Article], list[str]] | None:
+    """Skip a source whose required env names are unset. Never records values."""
+    try:
+        missing_env = missing_required_env(source)
+    except ValueError:
+        return [], [f"{source.name}: required_env must be an environment variable name"]
+    if not missing_env:
+        return None
+    emit_missing_secret_warning(source.name, missing_env)
+    if raw_logger is not None:
+        raw_logger.log_skip(source_name=source.name, required_env=missing_env)
+    return [], [f"{source.name}: skipped_missing_env {', '.join(missing_env)}"]
+
+
+def _without_challenge_pages(articles: list[Article]) -> list[Article]:
+    return [
+        article
+        for article in articles
+        if not is_challenge_or_error_page(article.title, article.summary)
+    ]
+
+
 def collect_sources(
     sources: list[Source],
     *,
     category: str,
     limit_per_source: int = 30,
-    timeout: int = 15,
+    timeout: int = RSS_TIMEOUT_SECONDS,
     min_interval_per_host: float = 0.5,
     max_workers: int | None = None,
     health_db_path: str | None = None,
+    raw_logger: RawLogger | None = None,
 ) -> tuple[list[Article], list[str]]:
     """Fetch items from all configured sources, returning articles and errors."""
     articles: list[Article] = []
@@ -212,9 +310,13 @@ def collect_sources(
     source_hosts: dict[str, str] = {
         source.name: (urlparse(source.url).netloc.lower() or source.name) for source in rss_sources
     }
-    rate_limiters: dict[str, RateLimiter] = {
-        host: RateLimiter(min_interval=min_interval_per_host) for host in set(source_hosts.values())
-    }
+    rate_limiters: dict[str, RateLimiter] = {}
+    for host in set(source_hosts.values()):
+        # Reddit's public Atom endpoint returns 429 when several subreddits
+        # are requested back to back. Space that host out; other feeds stay
+        # on the caller interval.
+        interval = 6.0 if host.endswith("reddit.com") else min_interval_per_host
+        rate_limiters[host] = RateLimiter(min_interval=interval)
     host_locks: dict[str, threading.Lock] = {
         host: threading.Lock() for host in set(source_hosts.values())
     }
@@ -226,6 +328,9 @@ def collect_sources(
     session = _create_session()
 
     def _collect_for_source(source: Source) -> tuple[list[Article], list[str]]:
+        skipped = _secret_skip(source, raw_logger)
+        if skipped is not None:
+            return skipped
         if not _source_bypasses_crawl_health(source) and health_store.is_disabled(source.name):
             return [], [f"{source.name}: Source disabled (crawl health threshold reached)"]
 
@@ -270,6 +375,15 @@ def collect_sources(
                     errors.extend(source_errors)
 
         if js_sources:
+            runnable_js: list[Source] = []
+            for source in js_sources:
+                skipped = _secret_skip(source, raw_logger)
+                if skipped is not None:
+                    errors.extend(skipped[1])
+                    continue
+                runnable_js.append(source)
+            js_sources = runnable_js
+        if js_sources:
             try:
                 from .browser_collector import collect_browser_sources
 
@@ -279,7 +393,13 @@ def collect_sources(
                     timeout=max(1_000, timeout * 1_000),
                     health_db_path=health_db_path,
                 )
-                articles.extend(js_articles)
+                kept_js = _without_challenge_pages(js_articles)
+                if js_articles and not kept_js:
+                    js_errors = [
+                        *js_errors,
+                        "Browser collection returned only challenge or error pages",
+                    ]
+                articles.extend(kept_js)
                 errors.extend(js_errors)
             except ImportError:
                 logger.warning(
@@ -288,6 +408,15 @@ def collect_sources(
                     hint="pip install 'radar-core[browser]'",
                 )
 
+        if reddit_sources:
+            runnable_reddit: list[Source] = []
+            for source in reddit_sources:
+                skipped = _secret_skip(source, raw_logger)
+                if skipped is not None:
+                    errors.extend(skipped[1])
+                    continue
+                runnable_reddit.append(source)
+            reddit_sources = runnable_reddit
         if reddit_sources:
             try:
                 from radar_core import collect_reddit_sources
@@ -300,11 +429,17 @@ def collect_sources(
                     health_db_path=health_db_path
                     or os.environ.get("RADAR_CRAWL_HEALTH_DB_PATH", _DEFAULT_HEALTH_DB_PATH),
                 )
-                articles.extend(reddit_articles)
+                kept_reddit = _without_challenge_pages(reddit_articles)
+                if reddit_articles and not kept_reddit:
+                    reddit_errors = [
+                        *reddit_errors,
+                        "Reddit collection returned only challenge or error pages",
+                    ]
+                articles.extend(kept_reddit)
                 errors.extend(reddit_errors)
                 logger.info(
                     "reddit_collection_complete",
-                    article_count=len(reddit_articles),
+                    article_count=len(kept_reddit),
                     error_count=len(reddit_errors),
                 )
             except ImportError:
@@ -347,6 +482,7 @@ def _collect_single(
     try:
         feed = feedparser.parse(response.content)
         items: list[Article] = []
+        dropped_challenge = 0
 
         for entry in feed.entries[:limit]:
             published = _extract_datetime(entry)
@@ -362,18 +498,30 @@ def _collect_single(
                             summary = value
             if not summary:
                 summary = title
+            summary = html.unescape(summary.strip())
+            if is_challenge_or_error_page(title, summary):
+                dropped_challenge += 1
+                continue
 
             items.append(
                 Article(
                     title=title,
                     link=_entry_link(entry, fallback_url=source.url),
-                    summary=html.unescape(summary.strip()),
+                    summary=summary,
                     published=published,
                     source=source.name,
                     category=category,
                 )
             )
 
+        if items:
+            return items
+        if dropped_challenge:
+            raise ParseError(
+                f"Feed from {source.name} was a challenge, Cloudflare, or cookie-wall page"
+            )
+        if _response_is_html_page(response):
+            raise ParseError(f"Feed from {source.name} returned an HTML page instead of a feed")
         return items
     except Exception as exc:
         raise ParseError(f"Failed to parse feed from {source.name}: {exc}") from exc

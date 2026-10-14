@@ -38,7 +38,7 @@ dependencies = [
     "mcp>=1.0.0",
     "pybreaker>=1.0.0",
     "plotly>=5.14.0",
-    "radar-core>=0.4.0",
+    "radar-core @ git+https://github.com/ai-frendly-datahub/radar-core.git@main",
 ]
 
 [project.optional-dependencies]

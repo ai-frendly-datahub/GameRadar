@@ -169,25 +169,25 @@ class TestLoadCategoryConfig:
         assert ruliweb.collection_tier == "C1_rss"
         assert ruliweb.config["bypass_crawl_health"] is True
 
-        assert sources["Eurogamer"].enabled is False
-        assert "connection reset" in sources["Eurogamer"].notes
+        assert sources["Eurogamer"].enabled is True
+        assert sources["Eurogamer"].url == "https://www.eurogamer.net/feed"
         assert sources["게임포커스"].enabled is False
-        assert "403/404" in sources["게임포커스"].notes
-        # VentureBeat Gaming was reactivated 2026-05-20 after URL probe confirmed
-        # the gamesbeat.com/feed redirect now returns HTTP 200; assertion removed
-        # so this guard only covers sources still blocked.
-        assert sources["Esports Insider"].enabled is False
-        assert "resets" in sources["Esports Insider"].notes
+        assert "404" in sources["게임포커스"].notes
+        assert sources["VentureBeat Gaming"].config["bypass_crawl_health"] is True
+        assert sources["Esports Insider"].enabled is True
         assert sources["The Esports Observer"].enabled is False
-        assert "HTTP 500" in sources["The Esports Observer"].notes
+        assert "403" in sources["The Esports Observer"].notes
         assert sources["인벤 뉴스"].enabled is False
         assert "404" in sources["인벤 뉴스"].notes
         assert sources["디스이즈게임"].enabled is False
         assert "403" in sources["디스이즈게임"].notes
         assert sources["Famitsu"].enabled is False
         assert "404" in sources["Famitsu"].notes
-        assert sources["4Gamer"].enabled is False
-        assert "404" in sources["4Gamer"].notes
+        assert sources["4Gamer"].enabled is True
+        assert sources["4Gamer"].url == "https://www.4gamer.net/rss/index.xml"
+        assert sources["r/gaming"].type == "rss"
+        assert sources["r/gaming"].url.endswith(".rss")
+        assert sources["r/gaming"].config["bypass_crawl_health"] is True
         assert sources["Kinda Funny Games Daily"].enabled is False
         assert "404" in sources["Kinda Funny Games Daily"].notes
 

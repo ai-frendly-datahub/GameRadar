@@ -162,11 +162,13 @@ sources:
     event_model: editorial_coverage
 - name: Eurogamer
   type: rss
-  url: https://www.eurogamer.net/?format=rss
-  enabled: false
-  notes: '2026-04-13 live smoke: current network receives connection reset/block response
-    for the RSS endpoint. Keep as cataloged media source until a stable public feed
-    is verified.'
+  url: https://www.eurogamer.net/feed
+  enabled: true
+  notes: '2026-10-14: https://www.eurogamer.net/feed returns HTTP 200 application/rss+xml
+    with User-Agent GameRadar/0.1 and TLS verification on. The 2026-04-13 connection
+    reset was against ?format=rss from another network. No Cloudflare bypass.'
+  config:
+    event_model: editorial_coverage
 - name: Rock Paper Shotgun
   type: rss
   url: https://www.rockpapershotgun.com/feed
@@ -238,9 +240,12 @@ sources:
   type: rss
   url: https://gamesbeat.com/feed/
   enabled: true
-  notes: '2026-05-20: URL updated to follow venturebeat.com -> gamesbeat.com redirect;
-    probe returned HTTP 200 with application/rss+xml. Previously disabled 2026-04-13
-    when the venturebeat path still resolved to a 403 wall.'
+  notes: '2026-10-14: gamesbeat.com/feed still returns HTTP 200 application/rss+xml.
+    Crawl health had disabled the source name after earlier failures, so collection
+    requests it again. TLS stays on. No Cloudflare bypass.'
+  config:
+    bypass_crawl_health: true
+    event_model: editorial_coverage
 - name: Dot Esports
   type: rss
   url: https://dotesports.com/feed
@@ -249,15 +254,17 @@ sources:
 - name: Esports Insider
   type: rss
   url: https://esportsinsider.com/feed
-  enabled: false
-  notes: '2026-04-13 live smoke: current feed probe resets the HTTPS connection. Keep
-    cataloged until the endpoint is reachable from the crawler network.'
+  enabled: true
+  notes: '2026-10-14: public feed returns HTTP 200 application/rss+xml. The 2026-04-13
+    connection reset no longer reproduces. No API key.'
+  config:
+    event_model: editorial_coverage
 - name: The Esports Observer
   type: rss
   url: https://archive.esportsobserver.com/feed/
   enabled: false
-  notes: '2026-04-13 live smoke: archived feed probe returns HTTP 500. Keep disabled
-    until an active replacement feed is verified.'
+  notes: '2026-10-14 probe: archive.esportsobserver.com returns HTTP 403 Site Disabled.
+    Kept off. No Cloudflare bypass and no key.'
 - name: Dexerto
   type: rss
   url: https://www.dexerto.com/feed/
@@ -272,11 +279,14 @@ sources:
   trust_tier: T3_professional
   collection_tier: C1_rss
   content_type: news
-  notes: '2026-04-13 live smoke: current RSS probe returns 404. Keep disabled until
-    a stable public RSS endpoint is verified.'
+  notes: '2026-10-14 probe: /webzine/rss/, /rss/news.xml, and /common/rss/ still return
+    HTTP 404. Kept off. Gematsu and Siliconera are the public keyless replacements.'
 - name: 게임메카
   type: rss
   url: https://www.gamemeca.com/rss/
+  enabled: false
+  notes: '2026-10-14: /rss/, /feed, and /rss/allArticle.xml return HTTP 200 HTML
+    (error.css, robots noindex), not a feed. Kept off. 게임조선 and 게임톡 still collect.'
   language: ko
   country: KR
   trust_tier: T3_professional
@@ -293,8 +303,8 @@ sources:
   trust_tier: T3_professional
   collection_tier: C1_rss
   content_type: news
-  notes: '2026-04-13 live smoke: current RSS probe returns 403. Keep disabled until
-    a stable public RSS endpoint is verified.'
+  notes: '2026-10-14 probe: /webzine/rss/ and /rss return HTTP 403 or 404. Kept off.
+    No Cloudflare bypass.'
 - name: 게임조선
   type: rss
   url: http://www.gameinsight.co.kr/rss/allArticle.xml
@@ -334,6 +344,9 @@ sources:
 - name: 게임동아
   type: rss
   url: https://game.donga.com/rss/
+  enabled: false
+  notes: '2026-10-14: /rss/ and /feed return the site HTML (HTTP 200 or 404), not an
+    RSS document. Kept off. 게임조선 and 게임톡 still collect.'
   config:
     event_model: editorial_coverage
 - name: 게임포커스
@@ -348,89 +361,130 @@ sources:
   - release_schedule
   - patch
   - market_analysis
-  notes: '2026-04-13 live smoke: listing/RSS probes return 403/404 and the browser
-    selector no longer resolves. Keep disabled until a stable public feed or selector
-    is verified.'
+  notes: '2026-10-14 probe: /rss/ and /news/rss.xml return HTTP 404. Listing page stays
+    off. No Cloudflare bypass and no browser impersonation.'
   config:
     wait_for: .article-list
 - name: Famitsu
   type: rss
   url: https://www.famitsu.com/feed/
   enabled: false
-  notes: '2026-04-13 live smoke: current feed probe returns 404. Keep disabled until
-    a stable public feed URL is verified.'
+  notes: '2026-10-14 probe: /feed/, /rss/, /news/rss.xml, and /rss/news.xml return
+    HTTP 404. Kept off. Gematsu, Siliconera, and 4Gamer are the public replacements.'
 - name: 4Gamer
   type: rss
-  url: https://www.4gamer.net/rss/news.xml
-  enabled: false
-  notes: '2026-04-13 live smoke: current feed probe returns 404. Keep disabled until
-    a stable public feed URL is verified.'
-- name: r/gaming
-  type: reddit
-  url: https://www.reddit.com/r/gaming/
+  url: https://www.4gamer.net/rss/index.xml
+  enabled: true
+  notes: '2026-10-14: /rss/news.xml is still HTTP 404. /rss/index.xml returns HTTP 200
+    text/xml with about 100 items. Crawl health from the old URL is bypassed. Public
+    feed, no key.'
   config:
+    bypass_crawl_health: true
+    event_model: editorial_coverage
+- name: Gematsu
+  type: rss
+  url: https://www.gematsu.com/feed
+  notes: '2026-10-14: public keyless RSS (HTTP 200 text/xml) added while Famitsu stays
+    404. TLS verification on. No Cloudflare bypass.'
+  config:
+    event_model: editorial_coverage
+- name: Siliconera
+  type: rss
+  url: https://www.siliconera.com/feed/
+  notes: '2026-10-14: public keyless RSS (HTTP 200 application/rss+xml) added while
+    Inven and Famitsu stay 404.'
+  config:
+    event_model: editorial_coverage
+- name: r/gaming
+  type: rss
+  url: https://www.reddit.com/r/gaming/.rss
+  notes: '2026-10-14: public Atom .rss. The old reddit collector was crawl-health
+    disabled and returned 0 items. No API key.'
+  config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/Games
-  type: reddit
-  url: https://www.reddit.com/r/Games/
+  type: rss
+  url: https://www.reddit.com/r/Games/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/PS5
-  type: reddit
-  url: https://www.reddit.com/r/PS5/
+  type: rss
+  url: https://www.reddit.com/r/PS5/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/XboxSeriesX
-  type: reddit
-  url: https://www.reddit.com/r/XboxSeriesX/
+  type: rss
+  url: https://www.reddit.com/r/XboxSeriesX/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/NintendoSwitch
-  type: reddit
-  url: https://www.reddit.com/r/NintendoSwitch/
+  type: rss
+  url: https://www.reddit.com/r/NintendoSwitch/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/pcgaming
-  type: reddit
-  url: https://www.reddit.com/r/pcgaming/
+  type: rss
+  url: https://www.reddit.com/r/pcgaming/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/IndieGaming
-  type: reddit
-  url: https://www.reddit.com/r/IndieGaming/
+  type: rss
+  url: https://www.reddit.com/r/IndieGaming/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/leagueoflegends
-  type: reddit
-  url: https://www.reddit.com/r/leagueoflegends/
+  type: rss
+  url: https://www.reddit.com/r/leagueoflegends/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/VALORANT
-  type: reddit
-  url: https://www.reddit.com/r/VALORANT/
+  type: rss
+  url: https://www.reddit.com/r/VALORANT/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/Genshin_Impact
-  type: reddit
-  url: https://www.reddit.com/r/Genshin_Impact/
+  type: rss
+  url: https://www.reddit.com/r/Genshin_Impact/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/lostarkgame
-  type: reddit
-  url: https://www.reddit.com/r/lostarkgame/
+  type: rss
+  url: https://www.reddit.com/r/lostarkgame/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: r/MapleStory
-  type: reddit
-  url: https://www.reddit.com/r/MapleStory/
+  type: rss
+  url: https://www.reddit.com/r/MapleStory/.rss
+  notes: '2026-10-14: public Atom .rss. No API key.'
   config:
+    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: Kinda Funny Games Daily
   type: rss
   url: https://feeds.simplecast.com/MbI0D7YZ
   enabled: false
-  notes: '2026-04-13 live smoke: current Simplecast feed probe returns 404. Keep disabled
-    until the active podcast feed is verified.'
+  notes: '2026-10-14 probe: Simplecast feed MbI0D7YZ still returns HTTP 404. Kept off.'
 - name: IGN Game Scoop
   type: rss
   url: https://feeds.megaphone.fm/gamescoop
