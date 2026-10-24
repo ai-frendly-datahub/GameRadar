@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-23T08:05:01.949268+00:00",
+  "generated_at": "2026-10-24T07:44:02.135209+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 0,
-    "patch_note_events": 17,
-    "release_schedule_events": 26,
-    "actionable_game_event_count": 43,
+    "patch_note_events": 9,
+    "release_schedule_events": 25,
+    "actionable_game_event_count": 34,
     "canonical_game_key_present_count": 5,
-    "missing_canonical_game_key_count": 38,
-    "official_or_trade_event_count": 20,
-    "event_required_field_gap_count": 38,
+    "missing_canonical_game_key_count": 29,
+    "official_or_trade_event_count": 17,
+    "event_required_field_gap_count": 29,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 7,
+      "article_count": 9,
       "event_count": 3,
       "latest_event_at": "2026-10-21T08:00:37+00:00",
-      "age_days": 2.0,
+      "age_days": 2.99,
       "latest_title": "Once Human’s Isles of Abyss expansion launches on PS5 tomorrow",
       "latest_url": "https://blog.playstation.com/2026/10/21/once-humans-isles-of-abyss-expansion-launches-on-ps5-tomorrow",
       "latest_source_signal": [
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 16,
-      "event_count": 13,
-      "latest_event_at": "2026-10-22T10:00:00+00:00",
-      "age_days": 0.92,
-      "latest_title": "How More Than 40 New Traits Change Your Strategy in Becastled",
-      "latest_url": "https://news.xbox.com/en-us/2026/10/22/how-more-than-40-new-traits-change-your-strategy",
+      "article_count": 12,
+      "event_count": 10,
+      "latest_event_at": "2026-10-23T12:50:48+00:00",
+      "age_days": 0.79,
+      "latest_title": "Watch the Official Grand Theft Auto VI Launch Trailer – Explore Leonida Before the Game Arrives November 19",
+      "latest_url": "https://news.xbox.com/en-us/2026/10/23/watch-the-official-grand-theft-auto-vi-launch-trailer-explore-leonida-before-the-game-arrives-november-19",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 15,
+      "article_count": 16,
       "event_count": 4,
-      "latest_event_at": "2026-10-22T00:14:16+00:00",
-      "age_days": 1.33,
-      "latest_title": "Xbox reveals pricing for cloud gaming limits, starting at $3.99 for 10 hours",
-      "latest_url": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours",
+      "latest_event_at": "2026-10-23T00:59:48+00:00",
+      "age_days": 1.28,
+      "latest_title": "Call of Duty: Modern Warfare 4 | Critical Consensus",
+      "latest_url": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -521,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -567,7 +567,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 45,
-      "event_count": 23,
-      "latest_event_at": "2026-10-22T21:08:09+00:00",
-      "age_days": 0.46,
-      "latest_title": "보름달(FullMoon) 주식 블라인드 차트 게임 ‘차트퀘스트’, 내 규칙대로 움직이는 '마이봇' 업데이트",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231012",
+      "article_count": 38,
+      "event_count": 17,
+      "latest_event_at": "2026-10-23T20:00:22+00:00",
+      "age_days": 0.49,
+      "latest_title": "10년을 달려온 ‘쿠키런: 오븐브레이크’, 어린이대공원서 성대한 축제",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231023",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 129,
+      "article_count": 127,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -931,7 +931,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -977,7 +977,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1046,7 +1046,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1092,7 +1092,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1230,7 +1230,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 0,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1241,6 +1241,341 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "10년을 달려온 ‘쿠키런: 오븐브레이크’, 어린이대공원서 성대한 축제",
+      "url": "https://bbs.ruliweb.com/news/read/231023",
+      "event_at": "2026-10-23T20:00:22+00:00",
+      "event_date": "2026-10-23",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-10-23",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "데브시스터즈"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Watch the Official Grand Theft Auto VI Launch Trailer – Explore Leonida Before the Game Arrives November 19",
+      "url": "https://news.xbox.com/en-us/2026/10/23/watch-the-official-grand-theft-auto-vi-launch-trailer-explore-leonida-before-the-game-arrives-november-19",
+      "event_at": "2026-10-23T12:50:48+00:00",
+      "event_date": "2026-10-23",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-23",
+      "genre": [],
+      "release": [
+        "launch",
+        "trailer"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Call of Duty: Modern Warfare 4 – Kill Block is Must-Play Multiplayer at Launch",
+      "url": "https://news.xbox.com/en-us/2026/10/23/call-of-duty-modern-warfare-4-kill-block-must-play-multiplayer",
+      "event_at": "2026-10-23T08:00:00+00:00",
+      "event_date": "2026-10-23",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:xbox:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:base:2026-10-23",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "어셈블 엔터테인먼트, 1인칭 생존 시뮬레이션 '언더 캐노피스', Steam 앞서 해보기 출시 (한국어 미지원)",
+      "url": "https://bbs.ruliweb.com/news/read/231021",
+      "event_at": "2026-10-23T06:09:19+00:00",
+      "event_date": "2026-10-23",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-23",
+      "genre": [
+        "시뮬레이션"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Next Week on XBOX: New Games for October 26 to 30",
+      "url": "https://news.xbox.com/en-us/2026/10/23/next-week-on-xbox-new-games-for-october-26-to-30",
+      "event_at": "2026-10-23T05:00:00+00:00",
+      "event_date": "2026-10-23",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-23",
+      "genre": [],
+      "release": [
+        "coming soon"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "콘솔 게임 주간 판매 순위 : 26.10.12~26.10.18",
+      "url": "https://bbs.ruliweb.com/news/read/231020",
+      "event_at": "2026-10-23T04:27:03+00:00",
+      "event_date": "2026-10-23",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "스파이더맨"
+      ],
+      "normalized_game_title": "스파이더맨",
+      "edition": "base",
+      "canonical_game_key": "스파이더맨:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:스파이더맨:playstation:base:2026-10-23",
+      "genre": [],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "26.10.12",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "RODRIK LTD, 경영 모의 게임 ‘Holdopolis’ 11월 중순 Steam 앞서 해보기 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231018",
+      "event_at": "2026-10-23T01:57:55+00:00",
+      "event_date": "2026-10-23",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-23",
+      "genre": [
+        "경영",
+        "인디"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Call of Duty: Modern Warfare 4 | Critical Consensus",
+      "url": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
+      "event_at": "2026-10-23T00:59:48+00:00",
+      "event_date": "2026-10-23",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:call-of-duty:base:2026-10-23",
+      "genre": [
+        "strategy"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "activision"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
@@ -2303,743 +2638,115 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Games like Call of Duty and EA Sports FC most at risk of losing players during GTA 6 launch, according to new data",
-      "url": "https://www.gamesindustry.biz/games-like-call-of-duty-and-ea-sports-fc-most-at-risk-of-losing-players-during-gta-6-launch-according-to-new-data",
-      "event_at": "2026-10-21T01:53:35+00:00",
-      "event_date": "2026-10-21",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta",
-        "call of duty",
-        "fc",
-        "ea sports fc"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-10-21",
-      "genre": [
-        "sports"
-      ],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "액토즈소프트 ‘라테일’, ‘취향의 영역’ 오늘(21일) 업데이트 및 할로윈 이벤트 실시",
-      "url": "https://bbs.ruliweb.com/news/read/230891",
-      "event_at": "2026-10-20T22:39:42+00:00",
-      "event_date": "2026-10-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-20",
-      "genre": [
-        "액션",
-        "rpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "‘투 포인트 뮤지엄’, ‘Little Kitty, Big City’ 콜라보 배포 중",
-      "url": "https://bbs.ruliweb.com/news/read/230888",
-      "event_at": "2026-10-20T22:03:54+00:00",
-      "event_date": "2026-10-20",
-      "platform": [
-        "ps5",
-        "xbox",
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-10-20",
-      "genre": [
-        "어드벤처",
-        "시뮬레이션",
-        "경영"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "세가"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘투 포인트 뮤지엄’, ‘Little Kitty, Big City’ 콜라보 배포 중",
-      "url": "https://bbs.ruliweb.com/news/read/230888",
-      "event_at": "2026-10-20T22:03:54+00:00",
-      "event_date": "2026-10-20",
-      "platform": [
-        "ps5",
-        "xbox",
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-10-20",
-      "genre": [
-        "어드벤처",
-        "시뮬레이션",
-        "경영"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "세가"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "스마일게이트‘카오스 제로 나이트메어’, 1주년 맞아 선보이는 신규 시즌 ‘눈 위에 맺힌 약속’ 업데이트 오늘(21일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/230887",
-      "event_at": "2026-10-20T21:47:28+00:00",
-      "event_date": "2026-10-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-20",
-      "genre": [
-        "rpg",
-        "로그라이크"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "스마일게이트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "넷마블 ‘레이븐2’, 할로윈 이벤트 던전 등 업데이트 오늘(21일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/230884",
-      "event_at": "2026-10-20T20:47:28+00:00",
-      "event_date": "2026-10-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-20",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넷마블"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "스마일게이트 ‘로드나인’, 신규 사냥터 및 장비 등 대규모 업데이트 오늘(21일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/230883",
-      "event_at": "2026-10-20T20:41:15+00:00",
-      "event_date": "2026-10-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-20",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "스마일게이트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "드림에이지 ‘아키텍트: 랜드 오브 엑자일’, 출시 1주년 기념 감사제 개최…‘듀얼 클래스’·‘초월 스킬’ 업데이트 오늘(21일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/230882",
-      "event_at": "2026-10-20T20:10:46+00:00",
-      "event_date": "2026-10-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-20",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜카카오게임즈 ‘도깨비의세계’, 첫 대규모 업데이트 오늘(21일) 진행…신규 서버 오후 8시 오픈",
-      "url": "https://bbs.ruliweb.com/news/read/230881",
-      "event_at": "2026-10-20T20:06:25+00:00",
-      "event_date": "2026-10-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-20",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "카카오게임즈"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "넷마블 ‘뱀피르’, 정예 던전 신규 보스존 ‘성은의 금역’ 등 대규모 업데이트 오늘(21일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/230880",
-      "event_at": "2026-10-20T19:50:34+00:00",
-      "event_date": "2026-10-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-20",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넷마블"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜엔씨 ‘블레이드 & 소울 NEO’, 2주년 대규모 업데이트 ‘MORE & MORE’ 오늘(21일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/230876",
-      "event_at": "2026-10-20T19:06:17+00:00",
-      "event_date": "2026-10-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-20",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "엔씨소프트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Grounded 2: 100 Reasons to Run in the Rot and Ruin Update",
-      "url": "https://news.xbox.com/en-us/2026/10/20/grounded-2-rot-and-ruin",
-      "event_at": "2026-10-20T10:00:00+00:00",
-      "event_date": "2026-10-20",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-20",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Ready for Launch: Modern Warfare 4 Progression and Prestige",
-      "url": "https://news.xbox.com/en-us/2026/10/20/ready-for-launch-modern-warfare-4-progression-and-prestige",
-      "event_at": "2026-10-20T09:21:52+00:00",
-      "event_date": "2026-10-20",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-20",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "ID@XBOX x IGN Showcase Recap: All the News and Announcements",
-      "url": "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026",
-      "event_at": "2026-10-20T08:45:48+00:00",
-      "event_date": "2026-10-20",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-20",
-      "genre": [
-        "indie"
-      ],
-      "release": [
-        "launch",
-        "showcase"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Three CRITICAL REFLEX Hits Are Coming to XBOX, And One Arrives Today",
-      "url": "https://news.xbox.com/en-us/2026/10/20/critical-reflex-games-xbox-update",
-      "event_at": "2026-10-20T08:27:00+00:00",
-      "event_date": "2026-10-20",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-20",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Call of Duty: Modern Warfare 4 – How to Get Started as an Operator in DMZ",
-      "url": "https://news.xbox.com/en-us/2026/10/20/call-of-duty-modern-warfare-4-how-to-get-started-operator-dmz",
-      "event_at": "2026-10-20T08:00:00+00:00",
-      "event_date": "2026-10-20",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "call of duty"
-      ],
-      "normalized_game_title": "call-of-duty",
-      "edition": "early-access",
-      "canonical_game_key": "call-of-duty:xbox:early-access",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:call-of-duty:xbox:early-access:2026-10-20",
-      "genre": [
-        "action"
-      ],
-      "release": [
-        "launch",
-        "early access"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Coming to XBOX Game Pass: Final Fantasy VII Remake Intergrade, The Séance of Blake Manor, and More",
-      "url": "https://news.xbox.com/en-us/2026/10/20/xbox-game-pass-october-2026-wave-2",
-      "event_at": "2026-10-20T07:00:00+00:00",
-      "event_date": "2026-10-20",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "final fantasy"
-      ],
-      "normalized_game_title": "final-fantasy",
-      "edition": "base",
-      "canonical_game_key": "final-fantasy:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:final-fantasy:xbox:base:2026-10-20",
-      "genre": [],
-      "release": [
-        "coming soon",
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "10년을 달려온 ‘쿠키런: 오븐브레이크’, 어린이대공원서 성대한 축제",
+      "url": "https://bbs.ruliweb.com/news/read/231023",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-10-23"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Watch the Official Grand Theft Auto VI Launch Trailer – Explore Leonida Before the Game Arrives November 19",
+      "url": "https://news.xbox.com/en-us/2026/10/23/watch-the-official-grand-theft-auto-vi-launch-trailer-explore-leonida-before-the-game-arrives-november-19",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-23"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "어셈블 엔터테인먼트, 1인칭 생존 시뮬레이션 '언더 캐노피스', Steam 앞서 해보기 출시 (한국어 미지원)",
+      "url": "https://bbs.ruliweb.com/news/read/231021",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-23"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Next Week on XBOX: New Games for October 26 to 30",
+      "url": "https://news.xbox.com/en-us/2026/10/23/next-week-on-xbox-new-games-for-october-26-to-30",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-23"
+    },
+    {
+      "reason": [
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "콘솔 게임 주간 판매 순위 : 26.10.12~26.10.18",
+      "url": "https://bbs.ruliweb.com/news/read/231020",
+      "canonical_game_key": "스파이더맨:playstation:base",
+      "required_field_gaps": [],
+      "game_event_key": "release_schedule:스파이더맨:playstation:base:2026-10-23"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "RODRIK LTD, 경영 모의 게임 ‘Holdopolis’ 11월 중순 Steam 앞서 해보기 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231018",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-23"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Call of Duty: Modern Warfare 4 | Critical Consensus",
+      "url": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
+      "canonical_game_key": "call-of-duty:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:call-of-duty:base:2026-10-23"
+    },
     {
       "reason": [
         "missing_game_title_platform",
@@ -3090,116 +2797,6 @@
         "platform"
       ],
       "game_event_key": "release_schedule:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘엣지 오브 메모리즈’ PC, PS5 한국어판 12월 3일 출시 및 PS5 패키지 ‘디럭스 에디션’ 예약 판매 오늘(23일) 시작",
-      "url": "https://bbs.ruliweb.com/news/read/231008",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "레벨 인피니트 ‘승리의 여신: 니케’, 출시 4주년 기념 특별 방송 오는 24일 오후 7시 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231001",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "라인게임즈, PC 협동 SF 호러 기대작 ‘CODE EXIT’ 신규 데모 2.0 오늘(23일) 공개",
-      "url": "https://bbs.ruliweb.com/news/read/231000",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "How More Than 40 New Traits Change Your Strategy in Becastled",
-      "url": "https://news.xbox.com/en-us/2026/10/22/how-more-than-40-new-traits-change-your-strategy",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "The Power of PEAK Friendship, Coming to XBOX Today",
-      "url": "https://news.xbox.com/en-us/2026/10/22/peak-friendship-coming-to-xbox-today",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "From the Anime to the Game — Free Update Brings Edgerunners 2 Content and More to Cyberpunk 2077!",
-      "url": "https://news.xbox.com/en-us/2026/10/22/cyberpunk-2077-edgerunners-2-update",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Xbox reveals pricing for cloud gaming limits, starting at $3.99 for 10 hours",
-      "url": "https://www.gamesindustry.biz/xbox-reveals-pricing-for-cloud-gaming-limits-starting-at-399-for-10-hours",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-22"
     }
   ],
   "source_backlog": {
