@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-24T07:44:02.135209+00:00",
+  "generated_at": "2026-10-25T07:55:53.247867+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 0,
-    "patch_note_events": 9,
+    "patch_note_events": 10,
     "release_schedule_events": 25,
-    "actionable_game_event_count": 34,
+    "actionable_game_event_count": 35,
     "canonical_game_key_present_count": 5,
-    "missing_canonical_game_key_count": 29,
-    "official_or_trade_event_count": 17,
-    "event_required_field_gap_count": 29,
+    "missing_canonical_game_key_count": 30,
+    "official_or_trade_event_count": 15,
+    "event_required_field_gap_count": 30,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 9,
-      "event_count": 3,
+      "article_count": 7,
+      "event_count": 2,
       "latest_event_at": "2026-10-21T08:00:37+00:00",
-      "age_days": 2.99,
+      "age_days": 4.0,
       "latest_title": "Once Human’s Isles of Abyss expansion launches on PS5 tomorrow",
       "latest_url": "https://blog.playstation.com/2026/10/21/once-humans-isles-of-abyss-expansion-launches-on-ps5-tomorrow",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 12,
       "event_count": 10,
       "latest_event_at": "2026-10-23T12:50:48+00:00",
-      "age_days": 0.79,
+      "age_days": 1.8,
       "latest_title": "Watch the Official Grand Theft Auto VI Launch Trailer – Explore Leonida Before the Game Arrives November 19",
       "latest_url": "https://news.xbox.com/en-us/2026/10/23/watch-the-official-grand-theft-auto-vi-launch-trailer-explore-leonida-before-the-game-arrives-november-19",
       "latest_source_signal": [
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 54,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 16,
-      "event_count": 4,
+      "article_count": 14,
+      "event_count": 3,
       "latest_event_at": "2026-10-23T00:59:48+00:00",
-      "age_days": 1.28,
+      "age_days": 2.29,
       "latest_title": "Call of Duty: Modern Warfare 4 | Critical Consensus",
       "latest_url": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-critical-consensus",
       "latest_source_signal": [
@@ -521,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -567,7 +567,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 38,
-      "event_count": 17,
-      "latest_event_at": "2026-10-23T20:00:22+00:00",
-      "age_days": 0.49,
-      "latest_title": "10년을 달려온 ‘쿠키런: 오븐브레이크’, 어린이대공원서 성대한 축제",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231023",
+      "article_count": 43,
+      "event_count": 20,
+      "latest_event_at": "2026-10-24T04:30:00+00:00",
+      "age_days": 1.14,
+      "latest_title": "이야기의 시작점, 마리안과 지휘관의 과거 밝혀진다… '니케' 4주년 특별 방송",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231026",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 127,
+      "article_count": 135,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -931,7 +931,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 51,
+      "article_count": 61,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1092,7 +1092,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1244,9 +1244,137 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
+      "title": "이야기의 시작점, 마리안과 지휘관의 과거 밝혀진다… '니케' 4주년 특별 방송",
+      "url": "https://bbs.ruliweb.com/news/read/231026",
+      "event_at": "2026-10-24T04:30:00+00:00",
+      "event_date": "2026-10-24",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-10-24",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Grim Page Studio, 3인칭 파괴 게임 ‘Too Angry to Clean’ 플레이 테스트 참가 신청 접수 중",
+      "url": "https://bbs.ruliweb.com/news/read/231025",
+      "event_at": "2026-10-24T03:31:49+00:00",
+      "event_date": "2026-10-24",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-24",
+      "genre": [
+        "액션",
+        "인디"
+      ],
+      "release": [
+        "출시",
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "MIKAGE STUDIO, 리듬 액션 게임 ‘SLASH//SYNC’ Steam 무료 체험판 오늘(24일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231024",
+      "event_at": "2026-10-24T03:08:13+00:00",
+      "event_date": "2026-10-24",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-10-24",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
       "title": "10년을 달려온 ‘쿠키런: 오븐브레이크’, 어린이대공원서 성대한 축제",
       "url": "https://bbs.ruliweb.com/news/read/231023",
-      "event_at": "2026-10-23T20:00:22+00:00",
+      "event_at": "2026-10-23T21:00:00+00:00",
       "event_date": "2026-10-23",
       "platform": [],
       "normalized_platform": "",
@@ -2556,91 +2684,58 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Project Helix reportedly launching in late 2028, projected to cost between $1,200 and $1,800",
-      "url": "https://www.gamesindustry.biz/project-helix-reportedly-launching-in-late-2028-projected-to-cost-between-1200-and-1800",
-      "event_at": "2026-10-21T04:38:47+00:00",
-      "event_date": "2026-10-21",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-21",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "PlayStation Store’s Planet of the Deals promotion is live now",
-      "url": "https://blog.playstation.com/2026/10/21/playstation-stores-planet-of-the-deals-promotion-is-live-now",
-      "event_at": "2026-10-21T03:00:08+00:00",
-      "event_date": "2026-10-21",
-      "platform": [
-        "playstation",
-        "ps5",
-        "ps4"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-10-21",
-      "genre": [
-        "adventure"
-      ],
-      "release": [
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "이야기의 시작점, 마리안과 지휘관의 과거 밝혀진다… '니케' 4주년 특별 방송",
+      "url": "https://bbs.ruliweb.com/news/read/231026",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-10-24"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "Grim Page Studio, 3인칭 파괴 게임 ‘Too Angry to Clean’ 플레이 테스트 참가 신청 접수 중",
+      "url": "https://bbs.ruliweb.com/news/read/231025",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-24"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "MIKAGE STUDIO, 리듬 액션 게임 ‘SLASH//SYNC’ Steam 무료 체험판 오늘(24일) 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231024",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-10-24"
+    },
     {
       "reason": [
         "missing_game_title_platform",
@@ -2746,57 +2841,6 @@
         "platform"
       ],
       "game_event_key": "release_schedule:call-of-duty:base:2026-10-23"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "보름달(FullMoon) 주식 블라인드 차트 게임 ‘차트퀘스트’, 내 규칙대로 움직이는 '마이봇' 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/231012",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "몽마스튜디오, 지난 20일(화) ‘레버넌트 서바이버즈’의 전투와 성장을 개편한 스팀 데모 업데이트 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231009",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-10-22"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "몽마스튜디오, 지난 20일(화) ‘레버넌트 서바이버즈’의 전투와 성장을 개편한 스팀 데모 업데이트 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231009",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-10-22"
     }
   ],
   "source_backlog": {
