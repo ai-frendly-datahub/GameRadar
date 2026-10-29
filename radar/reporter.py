@@ -7,6 +7,7 @@ from html import escape
 from pathlib import Path
 from typing import Any, cast
 
+from radar_core.dates import daily_partition_date
 from radar_core.ontology import build_summary_ontology_metadata
 from radar_core.report_utils import (
     generate_index_html as _core_generate_index_html,
@@ -91,7 +92,7 @@ def _inject_game_quality_panel(
 ) -> None:
     panel = _render_game_quality_panel(quality_report)
     targets = {report_path}
-    date_stamp = datetime.now(UTC).strftime("%Y%m%d")
+    date_stamp = daily_partition_date(datetime.now(UTC)).strftime("%Y%m%d")
     dated_path = report_path.parent / f"{category_name}_{date_stamp}.html"
     if dated_path.exists():
         targets.add(dated_path)
