@@ -8,8 +8,7 @@ import time
 import urllib.robotparser
 from collections.abc import Mapping, Sequence
 from concurrent.futures import Future, ThreadPoolExecutor
-from datetime import UTC, datetime
-from email.utils import parsedate_to_datetime
+from datetime import datetime
 from typing import Any
 from urllib.parse import unquote, urljoin, urlparse
 
@@ -18,6 +17,7 @@ import requests
 import structlog
 from pybreaker import CircuitBreakerError
 from radar_core import AdaptiveThrottler, CrawlHealthStore
+from radar_core.dates import parse_feed_entry, resolve_default_timezone
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -489,7 +489,7 @@ def _collect_single(
         dropped_challenge = 0
 
         for entry in feed.entries[:limit]:
-            published = _extract_datetime(entry)
+            published, published_raw = _extract_published(entry, source)
             title = html.unescape(_entry_text(entry, "title").strip()) or "(no title)"
             summary = _entry_text(entry, "summary") or _entry_text(entry, "description")
             if not summary:
@@ -519,6 +519,7 @@ def _collect_single(
                     published=published,
                     source=source.name,
                     category=category,
+                    published_raw=published_raw,
                 )
             )
 
@@ -535,27 +536,27 @@ def _collect_single(
         raise ParseError(f"Failed to parse feed from {source.name}: {exc}") from exc
 
 
-def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
+def _extract_datetime(entry: Mapping[str, Any], source: Source | None = None) -> datetime | None:
     """Parse a feed entry date into a timezone-aware datetime."""
-    published_parsed = entry.get("published_parsed")
-    if isinstance(published_parsed, time.struct_time):
-        return datetime.fromtimestamp(time.mktime(published_parsed), tz=UTC)
+    return _extract_published(entry, source)[0]
 
-    updated_parsed = entry.get("updated_parsed")
-    if isinstance(updated_parsed, time.struct_time):
-        return datetime.fromtimestamp(time.mktime(updated_parsed), tz=UTC)
 
-    for key in ("published", "updated", "date"):
-        raw = entry.get(key)
-        if raw:
-            try:
-                dt = parsedate_to_datetime(str(raw))
-                if dt and dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=UTC)
-                return dt
-            except Exception:
-                continue
-    return None
+def _extract_published(
+    entry: Mapping[str, Any], source: Source | None = None
+) -> tuple[datetime | None, str | None]:
+    """Parse a feed entry, keeping the original published string.
+
+    ``*_parsed`` is UTC via ``calendar.timegm``. Strings that already have an
+    offset keep it. Zone-less strings use the source timezone.
+    """
+    default_timezone = "UTC"
+    if source is not None:
+        default_timezone = resolve_default_timezone(
+            source_url=source.url,
+            default_timezone=source.default_timezone,
+            config=source.config,
+        )
+    return parse_feed_entry(entry, default_timezone=default_timezone)
 
 
 def _entry_text(entry: Mapping[str, Any], key: str) -> str:

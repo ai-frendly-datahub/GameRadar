@@ -36,5 +36,6 @@ def test_collect_browser_sources_forwards_source_config(monkeypatch) -> None:
             "type": "javascript",
             "url": "https://bbs.ruliweb.com/news",
             "config": {"wait_for": ".board_list"},
+            "default_timezone": "",
         }
     ]
