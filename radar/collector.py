@@ -5,12 +5,13 @@ import os
 import re
 import threading
 import time
+import urllib.robotparser
 from collections.abc import Mapping, Sequence
 from concurrent.futures import Future, ThreadPoolExecutor
 from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import unquote, urljoin, urlparse
 
 import feedparser
 import requests
@@ -467,6 +468,9 @@ def _collect_single(
     if source.type.lower() != "rss":
         raise SourceError(source.name, f"Unsupported source type '{source.type}'")
 
+    if not _robots_permits(source.url, session=session, timeout=timeout):
+        raise SourceError(source.name, f"robots.txt disallows {source.url}")
+
     try:
         response = _fetch_url_with_retry(
             source.url,
@@ -503,10 +507,14 @@ def _collect_single(
                 dropped_challenge += 1
                 continue
 
+            link = _entry_link(entry, fallback_url=source.url)
+            if not link:
+                continue
+
             items.append(
                 Article(
                     title=title,
-                    link=_entry_link(entry, fallback_url=source.url),
+                    link=link,
                     summary=summary,
                     published=published,
                     source=source.name,
@@ -555,14 +563,173 @@ def _entry_text(entry: Mapping[str, Any], key: str) -> str:
     return value if isinstance(value, str) else ""
 
 
-def _entry_link(entry: Mapping[str, Any], *, fallback_url: str) -> str:
-    direct_link = _entry_text(entry, "link").strip()
-    if direct_link:
-        return direct_link
+_INDEX_FILENAMES = frozenset(
+    {
+        "index",
+        "index.html",
+        "index.htm",
+        "index.php",
+        "index.jsp",
+        "index.aspx",
+        "index.xml",
+        "index.rss",
+        "default.html",
+        "default.aspx",
+        "articlelist.html",
+        "list.html",
+        "feed",
+        "rss",
+        "atom",
+        "feed.xml",
+        "rss.xml",
+        "atom.xml",
+        "latest",
+    }
+)
+_MEDIA_EXTENSIONS = (".mp3", ".m4a", ".mp4", ".wav", ".ogg", ".aac")
+_HOST_LABEL = re.compile(r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?")
+_OPAQUE_ID = re.compile(
+    r"^(?:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|[0-9a-f]{16,})$"
+)
+_PUBLIC_SUFFIXES = frozenset(
+    {
+        "com",
+        "org",
+        "net",
+        "io",
+        "jp",
+        "kr",
+        "uk",
+        "co",
+        "global",
+        "london",
+        "games",
+        "gg",
+        "tv",
+        "info",
+        "biz",
+        "us",
+        "de",
+        "fr",
+        "app",
+        "dev",
+        "xyz",
+        "me",
+        "eu",
+        "ca",
+        "au",
+        "nz",
+        "br",
+        "mx",
+        "cn",
+        "tw",
+        "hk",
+        "sg",
+        "in",
+        "ru",
+        "se",
+        "no",
+        "fi",
+        "pl",
+        "es",
+        "it",
+        "nl",
+        "be",
+        "ch",
+        "at",
+        "asia",
+        "site",
+        "online",
+        "store",
+        "news",
+        "media",
+        "press",
+        "live",
+        "pro",
+        "tech",
+    }
+)
+_COMPOUND_SUFFIXES = frozenset(
+    {"co.uk", "co.kr", "co.jp", "com.au", "com.br", "co.nz", "com.mx", "ne.jp", "or.jp", "ac.uk"}
+)
 
-    entry_id = _entry_text(entry, "id").strip()
-    if _is_http_url(entry_id):
-        return entry_id
+
+def _robots_permits(
+    url: str,
+    *,
+    session: requests.Session | None,
+    timeout: int,
+) -> bool:
+    """Return False only when a fetched robots.txt disallows url.
+
+    A missing robots.txt (HTTP 404) or a transport failure does not invent a
+    disallow. TLS verification and the identifying User-Agent stay on.
+    """
+    parsed = urlparse(url)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return False
+    robots_url = f"{parsed.scheme}://{parsed.netloc}/robots.txt"
+    try:
+        if session is not None:
+            response = session.get(
+                robots_url,
+                timeout=timeout,
+                headers=_DEFAULT_HEADERS,
+                verify=True,
+            )
+        else:
+            response = requests.get(
+                robots_url,
+                timeout=timeout,
+                headers=_DEFAULT_HEADERS,
+                verify=True,
+            )
+    except requests.exceptions.RequestException:
+        return True
+
+    status = response.status_code
+    if status == 404:
+        return True
+    if status != 200:
+        return True
+    body = response.text if isinstance(response.text, str) else ""
+    if not body and isinstance(response.content, bytes):
+        body = response.content.decode("utf-8", "replace")
+    parser = urllib.robotparser.RobotFileParser()
+    parser.parse(body.splitlines())
+    return parser.can_fetch(GAMERADAR_USER_AGENT, url)
+
+
+def _entry_link(entry: Mapping[str, Any], *, fallback_url: str) -> str:
+    """Return the item's own absolute page URL, or "" when none is available.
+
+    Feed, index, list, homepage, and enclosure URLs are not item pages.
+    A bare hostname is kept as https://hostname instead of being joined onto
+    the publisher host.
+    """
+    for raw in _entry_link_candidates(entry):
+        absolute, promoted = _to_absolute_url(raw, base_url=fallback_url)
+        if absolute and not _is_list_index_or_feed(
+            absolute,
+            fallback_url,
+            promoted_bare_host=promoted,
+        ):
+            return absolute
+    return ""
+
+
+def _entry_link_candidates(entry: Mapping[str, Any]) -> list[str]:
+    candidates: list[str] = []
+    seen: set[str] = set()
+
+    def add(value: object) -> None:
+        if not isinstance(value, str):
+            return
+        text = value.strip()
+        if not text or text in seen:
+            return
+        seen.add(text)
+        candidates.append(text)
 
     links = entry.get("links")
     if isinstance(links, list):
@@ -570,10 +737,182 @@ def _entry_link(entry: Mapping[str, Any], *, fallback_url: str) -> str:
             if not isinstance(item, Mapping):
                 continue
             href = item.get("href")
-            if isinstance(href, str) and _is_http_url(href.strip()):
-                return href.strip()
+            if not isinstance(href, str):
+                continue
+            rel = str(item.get("rel") or "").lower()
+            kind = str(item.get("type") or "").lower()
+            if _is_enclosure(rel, kind, href):
+                continue
+            if rel in {"", "alternate", "related"}:
+                add(href)
 
-    return fallback_url
+    direct = _entry_text(entry, "link").strip()
+    if direct and not _is_enclosure("", "", direct):
+        add(direct)
+    add(entry.get("id"))
+    add(entry.get("guid"))
+    return candidates
+
+
+def _is_enclosure(rel: str, kind: str, href: str) -> bool:
+    if rel == "enclosure":
+        return True
+    if kind.startswith("audio/") or kind.startswith("video/"):
+        return True
+    path = urlparse(href.strip()).path.lower()
+    return path.endswith(_MEDIA_EXTENSIONS)
+
+
+def _to_absolute_url(raw: str, *, base_url: str) -> tuple[str, bool]:
+    text = raw.strip()
+    if not text:
+        return "", False
+    if text.startswith("//"):
+        text = "https:" + text
+    parsed = urlparse(text)
+    if parsed.scheme in {"http", "https"} and parsed.netloc:
+        repaired = _repair_glued_or_joined_host(text, base_url=base_url)
+        if repaired:
+            return repaired, True
+        return text, False
+    if parsed.scheme:
+        return "", False
+    if _looks_like_hostname(text):
+        return "https://" + text.strip("/").lower(), True
+    if _OPAQUE_ID.fullmatch(text.lower()) is not None:
+        return "", False
+    joined = urljoin(base_url, text)
+    repaired = _repair_glued_or_joined_host(joined, base_url=base_url)
+    if repaired:
+        return repaired, True
+    if _is_http_url(joined):
+        return joined, False
+    return "", False
+
+
+def _repair_glued_or_joined_host(url: str, *, base_url: str) -> str:
+    parsed = urlparse(url)
+    host = parsed.netloc.lower()
+    for publisher in _publisher_hosts(base_url):
+        if host.startswith(publisher) and host != publisher:
+            remainder = host[len(publisher) :]
+            if _looks_like_hostname(remainder):
+                return _url_with_host(parsed, remainder)
+    segments = [segment for segment in unquote(parsed.path or "").split("/") if segment]
+    if len(segments) == 1 and _publisher_host_matches(host, base_url):
+        segment = segments[0]
+        if _looks_like_hostname(segment):
+            return "https://" + segment.lower().rstrip(".")
+    return ""
+
+
+def _publisher_hosts(feed_url: str) -> list[str]:
+    host = urlparse(feed_url).netloc.lower()
+    if not host:
+        return []
+    hosts = [host]
+    if host.startswith("www."):
+        hosts.append(host[4:])
+    else:
+        hosts.append("www." + host)
+    return hosts
+
+
+def _publisher_host_matches(host: str, feed_url: str) -> bool:
+    return host.lower() in _publisher_hosts(feed_url)
+
+
+def _url_with_host(parsed: Any, host: str) -> str:
+    path = parsed.path if isinstance(parsed.path, str) else ""
+    query = parsed.query if isinstance(parsed.query, str) else ""
+    rebuilt = f"https://{host.strip('/')}"
+    if path and path != "/":
+        rebuilt += path if path.startswith("/") else "/" + path
+    if query:
+        rebuilt += "?" + query
+    return rebuilt
+
+
+def _looks_like_hostname(value: str) -> bool:
+    candidate = value.strip().lower().strip(".")
+    if not candidate or "/" in candidate or " " in candidate or "@" in candidate:
+        return False
+    labels = candidate.split(".")
+    if len(labels) < 2:
+        return False
+    if any(_HOST_LABEL.fullmatch(label) is None for label in labels):
+        return False
+    if labels[-1] in _PUBLIC_SUFFIXES:
+        return True
+    if len(labels) >= 3 and f"{labels[-2]}.{labels[-1]}" in _COMPOUND_SUFFIXES:
+        return True
+    return False
+
+
+def _is_list_index_or_feed(
+    url: str,
+    feed_url: str,
+    *,
+    promoted_bare_host: bool,
+) -> bool:
+    if _same_resource(url, feed_url):
+        return True
+    parsed = urlparse(url)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return True
+    segments = [segment for segment in unquote(parsed.path or "").split("/") if segment]
+    if not segments:
+        return not promoted_bare_host
+    if len(segments) == 1 and _OPAQUE_ID.fullmatch(segments[0].lower()) is not None:
+        return True
+    last = segments[-1].lower()
+    if last in _INDEX_FILENAMES or last.endswith(".rss"):
+        return True
+    lowered = "/".join(segments).lower()
+    if lowered.endswith(("/feed", "/rss", "/atom")):
+        return True
+    return last.endswith(_MEDIA_EXTENSIONS) and any(
+        segment.lower() in {"rss", "feed", "atom"} for segment in segments
+    )
+
+
+def classify_stored_link(link: object, feed_url: str) -> str | None:
+    """Classify a stored link that is not the item's own absolute page."""
+    if not isinstance(link, str) or not link.strip():
+        return "missing"
+    text = link.strip()
+    parsed = urlparse(text)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return "relative"
+    repaired, promoted = _to_absolute_url(text, base_url=feed_url)
+    if promoted and repaired and not _same_resource(repaired, text):
+        return "glued_or_relative_host"
+    if _is_list_index_or_feed(text, feed_url, promoted_bare_host=False):
+        if _path_is_media_feed_redirect(text):
+            return "feed_redirect"
+        return "list_index_or_feed"
+    return None
+
+
+def _path_is_media_feed_redirect(url: str) -> bool:
+    parsed = urlparse(url)
+    segments = [segment for segment in unquote(parsed.path or "").split("/") if segment]
+    if not segments:
+        return False
+    last = segments[-1].lower()
+    return last.endswith(_MEDIA_EXTENSIONS) and any(
+        segment.lower() in {"rss", "feed", "atom"} for segment in segments
+    )
+
+
+def _same_resource(left: str, right: str) -> bool:
+    parsed_left = urlparse(left.strip())
+    parsed_right = urlparse(right.strip())
+    left_host = parsed_left.netloc.lower().removeprefix("www.")
+    right_host = parsed_right.netloc.lower().removeprefix("www.")
+    left_path = unquote(parsed_left.path or "").rstrip("/") or "/"
+    right_path = unquote(parsed_right.path or "").rstrip("/") or "/"
+    return left_host == right_host and left_path.lower() == right_path.lower()
 
 
 def _is_http_url(value: str) -> bool:

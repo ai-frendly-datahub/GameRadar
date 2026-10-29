@@ -45,8 +45,8 @@ class TestCollectorRetryLogic:
             assert articles[0].title == "Test Article"
             assert mock_get.call_count == 3
 
-    def test_collect_single_uses_feed_url_when_entry_link_missing(self) -> None:
-        """Should keep podcast entries valid when the feed item omits a link."""
+    def test_collect_single_skips_item_when_entry_link_missing(self) -> None:
+        """Should not store the feed URL when an item has no page of its own."""
         source = Source(name="podcast", type="rss", url="https://example.com/feed")
 
         with patch("radar.collector.requests.get") as mock_get:
@@ -66,8 +66,7 @@ class TestCollectorRetryLogic:
 
             articles = _collect_single(source, category="test", limit=10, timeout=15)
 
-        assert len(articles) == 1
-        assert articles[0].link == source.url
+        assert articles == []
 
     def test_collect_single_uses_title_when_entry_summary_missing(self) -> None:
         """Should keep RSS entries valid when a feed item omits summary text."""
