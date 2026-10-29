@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.gamedeveloper.com">
+  <channel>
+    <title>Link fixture</title>
+    <link>https://www.gamedeveloper.com</link>
+    <item>
+      <title>Relative article</title>
+      <link>/news/own-article</link>
+      <description>Relative path should become the article URL.</description>
+    </item>
+    <item>
+      <title>BitSummit</title>
+      <link>bitsummit.org</link>
+      <description>Bare host should not be glued to the publisher.</description>
+    </item>
+    <item>
+      <title>Game Conference MX</title>
+      <link>www.gameconferencemx.com</link>
+      <description>Scheme-less host.</description>
+    </item>
+    <item>
+      <title>PAX West</title>
+      <link>https://www.gamedeveloper.comwest.paxsite.com</link>
+      <description>Host concatenated without a slash.</description>
+    </item>
+    <item>
+      <title>Joined host path</title>
+      <link>https://www.gamedeveloper.com/games.london</link>
+      <description>Bare host joined as a single path segment.</description>
+    </item>
+    <item>
+      <title>Real business story</title>
+      <link>https://www.gamedeveloper.com/rss.xml</link>
+      <guid isPermaLink="true">https://www.gamedeveloper.com/business/real-story</guid>
+      <description>The feed URL is not the article.</description>
+    </item>
+    <item>
+      <title>From the index</title>
+      <link>https://www.gamedeveloper.com/index.html</link>
+      <guid>https://www.gamedeveloper.com/news/from-guid</guid>
+      <description>An index page is not the article.</description>
+    </item>
+    <item>
+      <title>Show homepage</title>
+      <link>https://www.stitcher.com</link>
+      <guid>8a6c2250-cf1f-11f1-b224-2708cc2c96a5</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/traffic.megaphone.fm/SBP1.mp3" type="audio/mpeg"/>
+      <description>Show homepage and feed redirect are not the episode page.</description>
+    </item>
+    <item>
+      <title>Missing link</title>
+      <description>No permalink at all.</description>
+    </item>
+    <item>
+      <title>Episode with article guid</title>
+      <link>https://www.stitcher.com/</link>
+      <guid>http://games.ign.com/articles/122/1226317p1.html</guid>
+      <enclosure url="https://www.podtrac.com/pts/redirect.mp3/x/rss/p/file.mp3" type="audio/mpeg"/>
+      <description>Prefer the article guid over the show homepage.</description>
+    </item>
+    <item>
+      <title>Ordinary article</title>
+      <link>https://www.gamedeveloper.com/programming/ordinary-article</link>
+      <description>Already an absolute article URL.</description>
+    </item>
+  </channel>
+</rss>

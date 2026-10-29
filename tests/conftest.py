@@ -7,7 +7,10 @@ from pathlib import Path
 import pytest
 import structlog
 
+import radar.collector as collector_module
 from tests.reference_dates import REFERENCE_NOW
+
+_ORIGINAL_ROBOTS_PERMITS = collector_module._robots_permits
 
 
 class FrozenDateTime(datetime):
@@ -37,6 +40,23 @@ def reset_structlog() -> object:
 @pytest.fixture(autouse=True)
 def isolate_crawl_health_db(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     monkeypatch.setenv("RADAR_CRAWL_HEALTH_DB_PATH", str(tmp_path / "crawl_health.duckdb"))
+
+
+def _allow_robots(*_args: object, **_kwargs: object) -> bool:
+    return True
+
+
+@pytest.fixture(autouse=True)
+def permit_robots_txt(monkeypatch: pytest.MonkeyPatch, request: pytest.FixtureRequest) -> None:
+    """Unit tests use feed fixtures. Robots checks have their own fixture tests."""
+    if "real_robots_permits" in request.fixturenames:
+        return
+    monkeypatch.setattr(collector_module, "_robots_permits", _allow_robots)
+
+
+@pytest.fixture
+def real_robots_permits(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(collector_module, "_robots_permits", _ORIGINAL_ROBOTS_PERMITS)
 
 
 @pytest.fixture
