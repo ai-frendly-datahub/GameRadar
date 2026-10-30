@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-29T09:05:49.508278+00:00",
+  "generated_at": "2026-10-30T09:17:25.258295+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 1,
     "patch_note_events": 9,
-    "release_schedule_events": 24,
-    "actionable_game_event_count": 34,
+    "release_schedule_events": 22,
+    "actionable_game_event_count": 32,
     "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 32,
-    "official_or_trade_event_count": 20,
-    "event_required_field_gap_count": 31,
+    "missing_canonical_game_key_count": 30,
+    "official_or_trade_event_count": 21,
+    "event_required_field_gap_count": 29,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 13,
-      "event_count": 10,
-      "latest_event_at": "2026-10-28T08:15:17+00:00",
-      "age_days": 1.04,
+      "article_count": 10,
+      "event_count": 8,
+      "latest_event_at": "2026-10-28T17:15:17+00:00",
+      "age_days": 1.67,
       "latest_title": "Modern Warfare 4 Season 1: Everything you need to know for November 6 launch",
       "latest_url": "https://blog.playstation.com/2026/10/28/modern-warfare-4-season-1-everything-you-need-to-know-for-november-6-launch",
       "latest_source_signal": [
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 10,
-      "event_count": 6,
-      "latest_event_at": "2026-10-28T16:40:58+00:00",
-      "age_days": 0.68,
-      "latest_title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know",
-      "latest_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
+      "article_count": 12,
+      "event_count": 9,
+      "latest_event_at": "2026-10-29T22:00:00+00:00",
+      "age_days": 0.47,
+      "latest_title": "The Journey of Crimson Desert Continues with Charting the Unknown",
+      "latest_url": "https://news.xbox.com/en-us/2026/10/29/crimson-desert-charting-the-unknown",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -471,10 +471,10 @@
       "status": "fresh",
       "article_count": 20,
       "event_count": 4,
-      "latest_event_at": "2026-10-28T02:54:35+00:00",
-      "age_days": 1.26,
-      "latest_title": "Wardogs leads Newzoo's September PC revenue charts",
-      "latest_url": "https://www.gamesindustry.biz/wardogs-leads-newzoos-september-pc-revenue-charts",
+      "latest_event_at": "2026-10-29T13:30:00+00:00",
+      "age_days": 0.82,
+      "latest_title": "\"We are very eager to learn from the real veterans\" – How Tencent's TiMi Studio Group collaborated with Capcom on Monster Hunter Outlanders",
+      "latest_url": "https://www.gamesindustry.biz/we-are-very-eager-to-learn-from-the-real-veterans-how-tencents-timi-studio-group-collaborated-with-capcom-on-monster-hunter-outlanders",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -521,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -567,7 +567,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 5,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -759,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 45,
-      "event_count": 14,
-      "latest_event_at": "2026-10-28T22:54:01+00:00",
-      "age_days": 0.42,
-      "latest_title": "알플레이 게임즈, 비주얼노벨 ‘핏빛 비가 내린 날’ 오늘(29일) 스팀 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231265",
+      "event_count": 11,
+      "latest_event_at": "2026-10-30T07:16:24+00:00",
+      "age_days": 0.08,
+      "latest_title": "넷마블 ‘일곱 개의 대죄: GRAND CROSS’, 지난 29일(목) ‘페르소나5 더 로열’ 콜라보 업데이트",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231322",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 131,
+      "article_count": 126,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -931,7 +931,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1092,7 +1092,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1138,7 +1138,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1241,6 +1241,449 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "넷마블 ‘일곱 개의 대죄: GRAND CROSS’, 지난 29일(목) ‘페르소나5 더 로열’ 콜라보 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/231322",
+      "event_at": "2026-10-30T07:16:24+00:00",
+      "event_date": "2026-10-30",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-10-30",
+      "genre": [
+        "jrpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넷마블"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "11월에 출시되는 한국어 콘솔 게임 목록",
+      "url": "https://bbs.ruliweb.com/news/read/231321",
+      "event_at": "2026-10-30T06:50:50+00:00",
+      "event_date": "2026-10-30",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "젤다",
+        "gta"
+      ],
+      "normalized_game_title": "젤다",
+      "edition": "base",
+      "canonical_game_key": "젤다:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:젤다:base:2026-10-30",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "씨씨알컨텐츠트리 ‘포트리스M’, 신규 6성 캐릭터 및 전용 아이템 6종 업데이트 오늘(30일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/231312",
+      "event_at": "2026-10-30T05:19:55+00:00",
+      "event_date": "2026-10-30",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-10-30",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "The Journey of Crimson Desert Continues with Charting the Unknown",
+      "url": "https://news.xbox.com/en-us/2026/10/29/crimson-desert-charting-the-unknown",
+      "event_at": "2026-10-29T22:00:00+00:00",
+      "event_date": "2026-10-29",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-29",
+      "genre": [],
+      "release": [
+        "launch",
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Raiders of the North for Age of Empires IV is Available Now",
+      "url": "https://news.xbox.com/en-us/2026/10/29/raiders-of-the-north-for-age-of-empires-iv-is-available-now",
+      "event_at": "2026-10-29T18:00:00+00:00",
+      "event_date": "2026-10-29",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-29",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "METRO Redux Next-Gen Update Out Now for XBOX Series X|S",
+      "url": "https://news.xbox.com/en-us/2026/10/29/metro-redux-next-gen-update",
+      "event_at": "2026-10-29T16:30:00+00:00",
+      "event_date": "2026-10-29",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-29",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Weave Your Own Fate: Titan Quest II Is Now Available for Pre-Order on XBOX Series X|S",
+      "url": "https://news.xbox.com/en-us/2026/10/29/titan-quest-ii-pre-order",
+      "event_at": "2026-10-29T16:00:00+00:00",
+      "event_date": "2026-10-29",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "quest"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-29",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Free Play Days – WUCHANG: Fallen Feathers, Dead by Daylight, Darkwood, Spirittea, and EVERSPACE 2",
+      "url": "https://news.xbox.com/en-us/2026/10/29/free-play-days-10-29-2026",
+      "event_at": "2026-10-29T15:00:00+00:00",
+      "event_date": "2026-10-29",
+      "platform": [
+        "xbox",
+        "game pass",
+        "quest"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "xbox:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-10-29",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Once Human: From A Misplaced Lighthouse to the Living Ocean of Isles of Abyss",
+      "url": "https://news.xbox.com/en-us/2026/10/29/once-human-isles-of-abyss-expansion-xbox",
+      "event_at": "2026-10-29T14:00:00+00:00",
+      "event_date": "2026-10-29",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-10-29",
+      "genre": [],
+      "release": [
+        "expansion"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "\"We are very eager to learn from the real veterans\" – How Tencent's TiMi Studio Group collaborated with Capcom on Monster Hunter Outlanders",
+      "url": "https://www.gamesindustry.biz/we-are-very-eager-to-learn-from-the-real-veterans-how-tencents-timi-studio-group-collaborated-with-capcom-on-monster-hunter-outlanders",
+      "event_at": "2026-10-29T13:30:00+00:00",
+      "event_date": "2026-10-29",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "monster hunter"
+      ],
+      "normalized_game_title": "monster-hunter",
+      "edition": "base",
+      "canonical_game_key": "monster-hunter:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:monster-hunter:base:2026-10-29",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [
+        "capcom"
+      ],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know",
+      "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
+      "event_at": "2026-10-29T01:40:58+00:00",
+      "event_date": "2026-10-29",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "season-1",
+      "canonical_game_key": "call-of-duty:xbox:season-1",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:season-1:2026-10-29",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -1405,49 +1848,11 @@
       ]
     },
     {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know",
-      "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
-      "event_at": "2026-10-28T16:40:58+00:00",
-      "event_date": "2026-10-28",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "call of duty"
-      ],
-      "normalized_game_title": "call-of-duty",
-      "edition": "season-1",
-      "canonical_game_key": "call-of-duty:xbox:season-1",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:call-of-duty:xbox:season-1:2026-10-28",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
       "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Modern Warfare 4 Season 1: Everything you need to know for November 6 launch",
       "url": "https://blog.playstation.com/2026/10/28/modern-warfare-4-season-1-everything-you-need-to-know-for-november-6-launch",
-      "event_at": "2026-10-28T08:15:17+00:00",
+      "event_at": "2026-10-28T17:15:17+00:00",
       "event_date": "2026-10-28",
       "platform": [],
       "normalized_platform": "playstation",
@@ -1484,7 +1889,7 @@
       "event_model": "release_schedule",
       "title": "Never Played Football Manager Before? Here are Some First-Timer Tips Before Football Manager 27 Arrives",
       "url": "https://news.xbox.com/en-us/2026/10/28/football-manager-27-interview-tips-tricks-xbox-launch",
-      "event_at": "2026-10-28T08:00:00+00:00",
+      "event_at": "2026-10-28T17:00:00+00:00",
       "event_date": "2026-10-28",
       "platform": [
         "xbox"
@@ -1526,7 +1931,7 @@
       "event_model": "release_schedule",
       "title": "PlayStation Plus Monthly Games for November: Dead Island 2, Tomb Raider IV – VI Remastered, Monster Train 2",
       "url": "https://blog.playstation.com/2026/10/28/playstation-plus-monthly-games-for-november-dead-island-2-tomb-raider-iv-vi-remastered-monster-train-2",
-      "event_at": "2026-10-28T06:31:43+00:00",
+      "event_at": "2026-10-28T15:31:43+00:00",
       "event_date": "2026-10-28",
       "platform": [
         "playstation",
@@ -1564,7 +1969,7 @@
       "event_model": "release_schedule",
       "title": "Explore the Spookier Side of Space in No Man’s Sky: FORSAKEN!",
       "url": "https://news.xbox.com/en-us/2026/10/28/no-mans-sky-forsaken-update",
-      "event_at": "2026-10-28T05:00:00+00:00",
+      "event_at": "2026-10-28T14:00:00+00:00",
       "event_date": "2026-10-28",
       "platform": [
         "xbox",
@@ -1605,7 +2010,7 @@
       "event_model": "release_schedule",
       "title": "Suit up as Astro Bot in Rayman Legends Retold",
       "url": "https://blog.playstation.com/2026/10/28/suit-up-as-astro-bot-in-rayman-legends-retold",
-      "event_at": "2026-10-28T04:01:45+00:00",
+      "event_at": "2026-10-28T13:01:45+00:00",
       "event_date": "2026-10-28",
       "platform": [
         "playstation",
@@ -1645,7 +2050,7 @@
       "event_model": "store_ranking",
       "title": "Wardogs leads Newzoo's September PC revenue charts",
       "url": "https://www.gamesindustry.biz/wardogs-leads-newzoos-september-pc-revenue-charts",
-      "event_at": "2026-10-28T02:54:35+00:00",
+      "event_at": "2026-10-28T11:54:35+00:00",
       "event_date": "2026-10-28",
       "platform": [],
       "normalized_platform": "",
@@ -1691,7 +2096,7 @@
       "event_model": "release_schedule",
       "title": "Wardogs leads Newzoo's September PC revenue charts",
       "url": "https://www.gamesindustry.biz/wardogs-leads-newzoos-september-pc-revenue-charts",
-      "event_at": "2026-10-28T02:54:35+00:00",
+      "event_at": "2026-10-28T11:54:35+00:00",
       "event_date": "2026-10-28",
       "platform": [],
       "normalized_platform": "",
@@ -1728,6 +2133,80 @@
       "concurrent_players": null,
       "required_field_gaps": [
         "platform"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
+      "url": "https://blog.playstation.com/2026/10/27/20261028-sale",
+      "event_at": "2026-10-28T02:01:10+00:00",
+      "event_date": "2026-10-28",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-10-28",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "11.11",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
+      "url": "https://blog.playstation.com/2026/10/27/20261028-sale",
+      "event_at": "2026-10-28T02:01:10+00:00",
+      "event_date": "2026-10-28",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-10-28",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "11.11",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
       ]
     },
     {
@@ -1905,84 +2384,10 @@
     },
     {
       "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
-      "url": "https://blog.playstation.com/2026/10/27/20261028-sale",
-      "event_at": "2026-10-27T17:01:10+00:00",
-      "event_date": "2026-10-27",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-10-27",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "11.11",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
-      "url": "https://blog.playstation.com/2026/10/27/20261028-sale",
-      "event_at": "2026-10-27T17:01:10+00:00",
-      "event_date": "2026-10-27",
-      "platform": [
-        "playstation",
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-10-27",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "11.11",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
       "event_model": "release_schedule",
       "title": "Aloft and Conan Exiles Enhanced launch on PS5 in early 2027",
       "url": "https://blog.playstation.com/2026/10/27/aloft-and-conan-exiles-enhanced-launch-on-ps5-in-early-2027",
-      "event_at": "2026-10-27T07:00:43+00:00",
+      "event_at": "2026-10-27T16:00:43+00:00",
       "event_date": "2026-10-27",
       "platform": [
         "playstation",
@@ -2022,7 +2427,7 @@
       "event_model": "patch_note",
       "title": "Where Winds Meet’s climactic Hutuo Battlefield narrative arc revealed, out Nov 13",
       "url": "https://blog.playstation.com/2026/10/27/where-winds-meets-climactic-hutuo-battlefield-narrative-arc-revealed-out-nov-13",
-      "event_at": "2026-10-27T06:01:34+00:00",
+      "event_at": "2026-10-27T15:01:34+00:00",
       "event_date": "2026-10-27",
       "platform": [],
       "normalized_platform": "playstation",
@@ -2059,7 +2464,7 @@
       "event_model": "release_schedule",
       "title": "Where Winds Meet’s climactic Hutuo Battlefield narrative arc revealed, out Nov 13",
       "url": "https://blog.playstation.com/2026/10/27/where-winds-meets-climactic-hutuo-battlefield-narrative-arc-revealed-out-nov-13",
-      "event_at": "2026-10-27T06:01:34+00:00",
+      "event_at": "2026-10-27T15:01:34+00:00",
       "event_date": "2026-10-27",
       "platform": [],
       "normalized_platform": "playstation",
@@ -2096,7 +2501,7 @@
       "event_model": "release_schedule",
       "title": "\"Developers need to treat Early Access like a real launch, because players do\" – Early Access games are on the rise, but so are player expectations",
       "url": "https://www.gamesindustry.biz/developers-need-to-treat-early-access-like-a-real-launch-because-players-do-early-access-games-are-on-the-rise-but-so-are-player-expectations",
-      "event_at": "2026-10-27T04:30:00+00:00",
+      "event_at": "2026-10-27T13:30:00+00:00",
       "event_date": "2026-10-27",
       "platform": [
         "steam"
@@ -2134,500 +2539,6 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘콜 오브 듀티’ 시리즈, 글로벌 누적 매출 400억 달러",
-      "url": "https://bbs.ruliweb.com/news/read/231115",
-      "event_at": "2026-10-26T22:10:00+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-26",
-      "genre": [],
-      "release": [
-        "출시",
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "노리고 게임즈, 분식집 경영 시뮬레이션 ‘김밥천국(Gimbap Heaven)’ 11월 1일 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231117",
-      "event_at": "2026-10-26T21:50:12+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-26",
-      "genre": [
-        "시뮬레이션",
-        "경영"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "라인게임즈 ‘QUIET’, ‘스팀 스크림 축제 5’서 ‘Top Demos’ 1위 달성",
-      "url": "https://bbs.ruliweb.com/news/read/231116",
-      "event_at": "2026-10-26T21:05:31+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-26",
-      "genre": [
-        "공포"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "넷마블 ‘스톤에이지 키우기’, ‘서버 이주’ 등 신규 시스템 업데이트 오늘(27일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231114",
-      "event_at": "2026-10-26T20:21:14+00:00",
-      "event_date": "2026-10-26",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-26",
-      "genre": [
-        "rpg"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넷마블"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "라인게임즈 PC 신작 ‘컴 투 마이 파티’, ‘스팀 넥스트 페스트’ 참가 마무리",
-      "url": "https://bbs.ruliweb.com/news/read/231104",
-      "event_at": "2026-10-26T17:10:11+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-26",
-      "genre": [],
-      "release": [
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "2.0",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜크래프톤 산하 렐루게임즈 ‘미메시스’, 지난 26일(월) 두 번째 업데이트 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231103",
-      "event_at": "2026-10-26T17:05:53+00:00",
-      "event_date": "2026-10-26",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-26",
-      "genre": [
-        "공포"
-      ],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "크래프톤"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "(For Southeast Asia) Crunchyroll Arrives for PS5 and PS4 users in Indonesia, Malaysia and Thailand",
-      "url": "https://blog.playstation.com/2026/10/26/20261027-roll",
-      "event_at": "2026-10-26T17:01:28+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "playstation",
-        "ps5",
-        "ps4"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "playstation:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:premium-edition:2026-10-26",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Xbox staff among up to 60,000 Microsoft employees offered voluntary exit",
-      "url": "https://www.gamesindustry.biz/xbox-staff-among-up-to-60000-microsoft-employees-offered-voluntary-exit",
-      "event_at": "2026-10-26T12:34:00+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-26",
-      "genre": [],
-      "release": [
-        "gamescom"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Microsoft Flight Simulator Releases Local Legend 26: The Antonov An-28 Today!",
-      "url": "https://news.xbox.com/en-us/2026/10/26/microsoft-flight-simulator-releases-local-legend-26-the-antonov-an-28-today",
-      "event_at": "2026-10-26T10:00:00+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-26",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Microsoft Flight Simulator Releases World Update 23: Poland and the Baltics",
-      "url": "https://news.xbox.com/en-us/2026/10/26/microsoft-flight-simulator-releases-world-update-23-poland-and-the-baltics",
-      "event_at": "2026-10-26T09:00:00+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-26",
-      "genre": [],
-      "release": [
-        "update"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "New Marvel Cosmic Invasion: The Siege of Castle Doom gameplay details",
-      "url": "https://blog.playstation.com/2026/10/26/new-marvel-cosmic-invasion-the-siege-of-castle-doom-gameplay-details",
-      "event_at": "2026-10-26T07:00:09+00:00",
-      "event_date": "2026-10-26",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-10-26",
-      "genre": [],
-      "release": [
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Scramble Knights Online: Changing Genres to Save a Game",
-      "url": "https://news.xbox.com/en-us/2026/10/26/scramble-knights-online-genre-change",
-      "event_at": "2026-10-26T07:00:00+00:00",
-      "event_date": "2026-10-26",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-26",
-      "genre": [
-        "action",
-        "action rpg",
-        "rpg"
-      ],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2637,16 +2548,32 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "release_schedule",
+      "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "알플레이 게임즈, 비주얼노벨 ‘핏빛 비가 내린 날’ 오늘(29일) 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231265",
+      "title": "넷마블 ‘일곱 개의 대죄: GRAND CROSS’, 지난 29일(목) ‘페르소나5 더 로열’ 콜라보 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/231322",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "game_title",
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-10-30"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "11월에 출시되는 한국어 콘솔 게임 목록",
+      "url": "https://bbs.ruliweb.com/news/read/231321",
+      "canonical_game_key": "젤다:base",
+      "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-10-28"
+      "game_event_key": "release_schedule:젤다:base:2026-10-30"
     },
     {
       "reason": [
@@ -2656,47 +2583,14 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘세븐나이츠 리버스’, 신규 영웅 ‘쥬다스’ 등 1.5주년 전야제 업데이트 오늘(29일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/231255",
+      "title": "씨씨알컨텐츠트리 ‘포트리스M’, 신규 6성 캐릭터 및 전용 아이템 6종 업데이트 오늘(30일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/231312",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-10-28"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "엔비디아, RTX 리믹스 1.6 출시… ‘마인크래프트’에 패스 트레이싱·DLSS 적용",
-      "url": "https://bbs.ruliweb.com/news/read/231252",
-      "canonical_game_key": "마인크래프트:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:마인크래프트:base:2026-10-28"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "엔비디아, RTX 스파크 윈도우 노트북에 신규 모델·에이전트 도구·게임 지원",
-      "url": "https://bbs.ruliweb.com/news/read/231251",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-10-28"
+      "game_event_key": "patch_note:base:2026-10-30"
     },
     {
       "reason": [
@@ -2705,28 +2599,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Never Played Football Manager Before? Here are Some First-Timer Tips Before Football Manager 27 Arrives",
-      "url": "https://news.xbox.com/en-us/2026/10/28/football-manager-27-interview-tips-tricks-xbox-launch",
+      "title": "The Journey of Crimson Desert Continues with Charting the Unknown",
+      "url": "https://news.xbox.com/en-us/2026/10/29/crimson-desert-charting-the-unknown",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-28"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "PlayStation Plus Monthly Games for November: Dead Island 2, Tomb Raider IV – VI Remastered, Monster Train 2",
-      "url": "https://blog.playstation.com/2026/10/28/playstation-plus-monthly-games-for-november-dead-island-2-tomb-raider-iv-vi-remastered-monster-train-2",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-28"
+      "game_event_key": "release_schedule:xbox:base:2026-10-29"
     },
     {
       "reason": [
@@ -2735,13 +2614,13 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "Explore the Spookier Side of Space in No Man’s Sky: FORSAKEN!",
-      "url": "https://news.xbox.com/en-us/2026/10/28/no-mans-sky-forsaken-update",
+      "title": "Raiders of the North for Age of Empires IV is Available Now",
+      "url": "https://news.xbox.com/en-us/2026/10/29/raiders-of-the-north-for-age-of-empires-iv-is-available-now",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-28"
+      "game_event_key": "release_schedule:xbox:base:2026-10-29"
     },
     {
       "reason": [
@@ -2749,31 +2628,59 @@
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "Suit up as Astro Bot in Rayman Legends Retold",
-      "url": "https://blog.playstation.com/2026/10/28/suit-up-as-astro-bot-in-rayman-legends-retold",
-      "canonical_game_key": "playstation:base",
+      "source": "Xbox Wire",
+      "title": "METRO Redux Next-Gen Update Out Now for XBOX Series X|S",
+      "url": "https://news.xbox.com/en-us/2026/10/29/metro-redux-next-gen-update",
+      "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-28"
+      "game_event_key": "release_schedule:xbox:base:2026-10-29"
     },
     {
       "reason": [
-        "missing_platform",
+        "missing_game_title",
         "missing_required_fields"
       ],
-      "event_model": "store_ranking",
-      "source": "GamesIndustry.biz",
-      "title": "Wardogs leads Newzoo's September PC revenue charts",
-      "url": "https://www.gamesindustry.biz/wardogs-leads-newzoos-september-pc-revenue-charts",
-      "canonical_game_key": "fc:base",
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Weave Your Own Fate: Titan Quest II Is Now Available for Pre-Order on XBOX Series X|S",
+      "url": "https://news.xbox.com/en-us/2026/10/29/titan-quest-ii-pre-order",
+      "canonical_game_key": "xbox:base",
       "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
+        "game_title"
       ],
-      "game_event_key": "store_ranking:fc:base:2026-10-28"
+      "game_event_key": "release_schedule:xbox:base:2026-10-29"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Free Play Days – WUCHANG: Fallen Feathers, Dead by Daylight, Darkwood, Spirittea, and EVERSPACE 2",
+      "url": "https://news.xbox.com/en-us/2026/10/29/free-play-days-10-29-2026",
+      "canonical_game_key": "xbox:premium-edition",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-10-29"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Once Human: From A Misplaced Lighthouse to the Living Ocean of Isles of Abyss",
+      "url": "https://news.xbox.com/en-us/2026/10/29/once-human-isles-of-abyss-expansion-xbox",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-10-29"
     },
     {
       "reason": [
@@ -2782,13 +2689,13 @@
       ],
       "event_model": "release_schedule",
       "source": "GamesIndustry.biz",
-      "title": "Wardogs leads Newzoo's September PC revenue charts",
-      "url": "https://www.gamesindustry.biz/wardogs-leads-newzoos-september-pc-revenue-charts",
-      "canonical_game_key": "fc:base",
+      "title": "\"We are very eager to learn from the real veterans\" – How Tencent's TiMi Studio Group collaborated with Capcom on Monster Hunter Outlanders",
+      "url": "https://www.gamesindustry.biz/we-are-very-eager-to-learn-from-the-real-veterans-how-tencents-timi-studio-group-collaborated-with-capcom-on-monster-hunter-outlanders",
+      "canonical_game_key": "monster-hunter:base",
       "required_field_gaps": [
         "platform"
       ],
-      "game_event_key": "release_schedule:fc:base:2026-10-28"
+      "game_event_key": "release_schedule:monster-hunter:base:2026-10-29"
     }
   ],
   "source_backlog": {
