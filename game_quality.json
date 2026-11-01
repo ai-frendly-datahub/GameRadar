@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-10-31T09:04:06.294939+00:00",
+  "generated_at": "2026-11-01T09:54:23.164817+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 1,
     "patch_note_events": 4,
-    "release_schedule_events": 22,
-    "actionable_game_event_count": 27,
+    "release_schedule_events": 24,
+    "actionable_game_event_count": 29,
     "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 25,
+    "missing_canonical_game_key_count": 27,
     "official_or_trade_event_count": 19,
-    "event_required_field_gap_count": 25,
+    "event_required_field_gap_count": 27,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -73,7 +73,7 @@
       "article_count": 8,
       "event_count": 3,
       "latest_event_at": "2026-10-28T17:15:17+00:00",
-      "age_days": 2.66,
+      "age_days": 3.69,
       "latest_title": "Modern Warfare 4 Season 1: Everything you need to know for November 6 launch",
       "latest_url": "https://blog.playstation.com/2026/10/28/modern-warfare-4-season-1-everything-you-need-to-know-for-november-6-launch",
       "latest_source_signal": [
@@ -106,7 +106,7 @@
       "article_count": 16,
       "event_count": 13,
       "latest_event_at": "2026-10-30T18:00:00+00:00",
-      "age_days": 0.63,
+      "age_days": 1.66,
       "latest_title": "Avatar Legends: The Fighting Game Enters the Avatar State",
       "latest_url": "https://news.xbox.com/en-us/2026/10/30/avatar-legends-the-fighting-game-enters-the-avatar-state",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 97,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 71,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -472,7 +472,7 @@
       "article_count": 19,
       "event_count": 3,
       "latest_event_at": "2026-10-29T13:30:00+00:00",
-      "age_days": 1.82,
+      "age_days": 2.85,
       "latest_title": "\"We are very eager to learn from the real veterans\" – How Tencent's TiMi Studio Group collaborated with Capcom on Monster Hunter Outlanders",
       "latest_url": "https://www.gamesindustry.biz/we-are-very-eager-to-learn-from-the-real-veterans-how-tencents-timi-studio-group-collaborated-with-capcom-on-monster-hunter-outlanders",
       "latest_source_signal": [
@@ -521,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -567,7 +567,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 7,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 33,
-      "event_count": 8,
-      "latest_event_at": "2026-10-31T06:20:00+00:00",
-      "age_days": 0.11,
-      "latest_title": "실버 팰리스, 12월 14일 전 세계에 서비스",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231326",
+      "article_count": 36,
+      "event_count": 10,
+      "latest_event_at": "2026-11-01T01:00:00+00:00",
+      "age_days": 0.37,
+      "latest_title": "11월 1일은 피크민 데이! 피크민 4 스위치 에디션·피크민 블룸 정보와 헬로우! 피크민",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231328",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 136,
+      "article_count": 139,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1241,6 +1241,93 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "11월 1일은 피크민 데이! 피크민 4 스위치 에디션·피크민 블룸 정보와 헬로우! 피크민",
+      "url": "https://bbs.ruliweb.com/news/read/231328",
+      "event_at": "2026-11-01T01:00:00+00:00",
+      "event_date": "2026-11-01",
+      "platform": [
+        "닌텐도",
+        "스위치"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-01",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "피에로기 게임즈, 3D 플랫포머 ‘룬 러너스(Rune Runners)’ 2027년 3월 15일 NS2와 스팀으로 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231327",
+      "event_at": "2026-10-31T14:35:28+00:00",
+      "event_date": "2026-10-31",
+      "platform": [
+        "닌텐도",
+        "스위치",
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-10-31",
+      "genre": [
+        "플랫포머"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -2353,6 +2440,40 @@
   "daily_review_items": [
     {
       "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "11월 1일은 피크민 데이! 피크민 4 스위치 에디션·피크민 블룸 정보와 헬로우! 피크민",
+      "url": "https://bbs.ruliweb.com/news/read/231328",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-11-01"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "피에로기 게임즈, 3D 플랫포머 ‘룬 러너스(Rune Runners)’ 2027년 3월 15일 NS2와 스팀으로 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231327",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-10-31"
+    },
+    {
+      "reason": [
         "missing_game_title",
         "missing_required_fields",
         "official_confirmation_required"
@@ -2476,36 +2597,6 @@
         "version"
       ],
       "game_event_key": "patch_note:base:2026-10-30"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "The Journey of Crimson Desert Continues with Charting the Unknown",
-      "url": "https://news.xbox.com/en-us/2026/10/29/crimson-desert-charting-the-unknown",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-29"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Raiders of the North for Age of Empires IV is Available Now",
-      "url": "https://news.xbox.com/en-us/2026/10/29/raiders-of-the-north-for-age-of-empires-iv-is-available-now",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-29"
     }
   ],
   "source_backlog": {
