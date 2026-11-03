@@ -1,15 +1,15 @@
 {
   "category": "game",
-  "generated_at": "2026-11-02T10:16:15.499673+00:00",
+  "generated_at": "2026-11-03T10:17:33.625214+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
     "enabled_sources": 41,
     "tracked_sources": 6,
-    "fresh_sources": 3,
+    "fresh_sources": 4,
     "stale_sources": 0,
     "missing_sources": 0,
-    "missing_event_sources": 1,
+    "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
     "not_tracked_sources": 37,
     "skipped_disabled_sources": 9,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 0,
     "patch_note_events": 6,
-    "release_schedule_events": 21,
-    "actionable_game_event_count": 27,
+    "release_schedule_events": 19,
+    "actionable_game_event_count": 25,
     "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 26,
-    "official_or_trade_event_count": 12,
-    "event_required_field_gap_count": 26,
+    "missing_canonical_game_key_count": 24,
+    "official_or_trade_event_count": 11,
+    "event_required_field_gap_count": 24,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -69,14 +69,18 @@
         "release_schedule"
       ],
       "freshness_sla_days": 7.0,
-      "status": "missing_event",
-      "article_count": 4,
-      "event_count": 0,
-      "latest_event_at": null,
-      "age_days": null,
-      "latest_title": "",
-      "latest_url": "",
-      "latest_source_signal": [],
+      "status": "fresh",
+      "article_count": 6,
+      "event_count": 3,
+      "latest_event_at": "2026-11-02T16:00:44+00:00",
+      "age_days": 0.76,
+      "latest_title": "Players’ Choice: Vote for October’s best new game",
+      "latest_url": "https://blog.playstation.com/2026/11/02/players-choice-vote-for-octobers-best-new-game-4",
+      "latest_source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
       "errors": []
     },
     {
@@ -99,10 +103,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 13,
-      "event_count": 11,
+      "article_count": 10,
+      "event_count": 7,
       "latest_event_at": "2026-10-30T18:00:00+00:00",
-      "age_days": 2.68,
+      "age_days": 3.68,
       "latest_title": "Avatar Legends: The Fighting Game Enters the Avatar State",
       "latest_url": "https://news.xbox.com/en-us/2026/10/30/avatar-legends-the-fighting-game-enters-the-avatar-state",
       "latest_source_signal": [
@@ -159,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -182,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -205,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -228,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -251,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -274,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -297,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -320,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -343,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -366,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 1,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -389,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -412,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -467,10 +471,10 @@
       "status": "fresh",
       "article_count": 15,
       "event_count": 1,
-      "latest_event_at": "2026-10-29T13:30:00+00:00",
-      "age_days": 3.87,
-      "latest_title": "\"We are very eager to learn from the real veterans\" – How Tencent's TiMi Studio Group collaborated with Capcom on Monster Hunter Outlanders",
-      "latest_url": "https://www.gamesindustry.biz/we-are-very-eager-to-learn-from-the-real-veterans-how-tencents-timi-studio-group-collaborated-with-capcom-on-monster-hunter-outlanders",
+      "latest_event_at": "2026-11-02T11:51:05+00:00",
+      "age_days": 0.94,
+      "latest_title": "Among Us VR co-developer Schell Games announces second round of layoffs this year",
+      "latest_url": "https://www.gamesindustry.biz/among-us-vr-co-developer-schell-games-announces-second-round-of-layoffs-this-year",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -494,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -517,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -563,7 +567,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 6,
+      "article_count": 7,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -609,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -701,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -724,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -755,11 +759,11 @@
       "freshness_sla_days": 7.0,
       "status": "fresh",
       "article_count": 51,
-      "event_count": 15,
-      "latest_event_at": "2026-11-02T09:23:44+00:00",
-      "age_days": 0.04,
-      "latest_title": "Lys Games, 4인 협동 사무실 인턴 시뮬레이션 ‘Gopher It: Office Intern Simulator’ 오는 10일(화) 스팀 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231400",
+      "event_count": 14,
+      "latest_event_at": "2026-11-03T05:34:56+00:00",
+      "age_days": 0.2,
+      "latest_title": "콜 오브 듀티: 워존, ‘시즌 1’ 전체 정보 공개 중",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231434",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -858,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 166,
+      "article_count": 138,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -881,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -904,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1237,6 +1241,282 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "콜 오브 듀티: 워존, ‘시즌 1’ 전체 정보 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/231434",
+      "event_at": "2026-11-03T05:34:56+00:00",
+      "event_date": "2026-11-03",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-03",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘카타리나 메디시스’ 오늘(3일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/231433",
+      "event_at": "2026-11-03T05:19:42+00:00",
+      "event_date": "2026-11-03",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-03",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "ImpressaEntertainment, 역(逆)로그라이크 게임 ‘No One Came Back’ 6일(금) Steam 얼리 액세스 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231427",
+      "event_at": "2026-11-03T01:33:45+00:00",
+      "event_date": "2026-11-03",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-11-03",
+      "genre": [
+        "로그라이크"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Players’ Choice: Vote for October’s best new game",
+      "url": "https://blog.playstation.com/2026/11/02/players-choice-vote-for-octobers-best-new-game-4",
+      "event_at": "2026-11-02T16:00:44+00:00",
+      "event_date": "2026-11-02",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:playstation:base:2026-11-02",
+      "genre": [
+        "racing"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "‘90s style sci-fi horror Derelikt launches Nov 13 on PS5",
+      "url": "https://blog.playstation.com/2026/11/02/90s-style-sci-fi-horror-derelikt-launches-nov-13-on-ps5",
+      "event_at": "2026-11-02T15:00:26+00:00",
+      "event_date": "2026-11-02",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-11-02",
+      "genre": [
+        "horror"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Godzilla: Destroy All Monsters Melee Remastered fighter guide",
+      "url": "https://blog.playstation.com/2026/11/02/godzilla-destroy-all-monsters-melee-remastered-fighter-guide",
+      "event_at": "2026-11-02T14:01:16+00:00",
+      "event_date": "2026-11-02",
+      "platform": [
+        "playstation"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-11-02",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Among Us VR co-developer Schell Games announces second round of layoffs this year",
+      "url": "https://www.gamesindustry.biz/among-us-vr-co-developer-schell-games-announces-second-round-of-layoffs-this-year",
+      "event_at": "2026-11-02T11:51:05+00:00",
+      "event_date": "2026-11-02",
+      "platform": [
+        "vr"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-02",
+      "genre": [],
+      "release": [
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -1996,372 +2276,105 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Weave Your Own Fate: Titan Quest II Is Now Available for Pre-Order on XBOX Series X|S",
-      "url": "https://news.xbox.com/en-us/2026/10/29/titan-quest-ii-pre-order",
-      "event_at": "2026-10-29T16:00:00+00:00",
-      "event_date": "2026-10-29",
-      "platform": [
-        "xbox",
-        "xbox series x",
-        "quest"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-29",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Free Play Days – WUCHANG: Fallen Feathers, Dead by Daylight, Darkwood, Spirittea, and EVERSPACE 2",
-      "url": "https://news.xbox.com/en-us/2026/10/29/free-play-days-10-29-2026",
-      "event_at": "2026-10-29T15:00:00+00:00",
-      "event_date": "2026-10-29",
-      "platform": [
-        "xbox",
-        "game pass",
-        "quest"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "xbox:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-10-29",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Once Human: From A Misplaced Lighthouse to the Living Ocean of Isles of Abyss",
-      "url": "https://news.xbox.com/en-us/2026/10/29/once-human-isles-of-abyss-expansion-xbox",
-      "event_at": "2026-10-29T14:00:00+00:00",
-      "event_date": "2026-10-29",
-      "platform": [
-        "xbox",
-        "xbox series x"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-10-29",
-      "genre": [],
-      "release": [
-        "expansion"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "\"We are very eager to learn from the real veterans\" – How Tencent's TiMi Studio Group collaborated with Capcom on Monster Hunter Outlanders",
-      "url": "https://www.gamesindustry.biz/we-are-very-eager-to-learn-from-the-real-veterans-how-tencents-timi-studio-group-collaborated-with-capcom-on-monster-hunter-outlanders",
-      "event_at": "2026-10-29T13:30:00+00:00",
-      "event_date": "2026-10-29",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "monster hunter"
-      ],
-      "normalized_game_title": "monster-hunter",
-      "edition": "base",
-      "canonical_game_key": "monster-hunter:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:monster-hunter:base:2026-10-29",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "capcom"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know",
-      "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
-      "event_at": "2026-10-29T01:40:58+00:00",
-      "event_date": "2026-10-29",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "call of duty"
-      ],
-      "normalized_game_title": "call-of-duty",
-      "edition": "season-1",
-      "canonical_game_key": "call-of-duty:xbox:season-1",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:call-of-duty:xbox:season-1:2026-10-29",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "알플레이 게임즈, 비주얼노벨 ‘핏빛 비가 내린 날’ 오늘(29일) 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231265",
-      "event_at": "2026-10-28T22:54:01+00:00",
-      "event_date": "2026-10-28",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-10-28",
-      "genre": [],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "넷마블 ‘세븐나이츠 리버스’, 신규 영웅 ‘쥬다스’ 등 1.5주년 전야제 업데이트 오늘(29일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/231255",
-      "event_at": "2026-10-28T19:59:50+00:00",
-      "event_date": "2026-10-28",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-28",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넷마블"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "엔비디아, RTX 리믹스 1.6 출시… ‘마인크래프트’에 패스 트레이싱·DLSS 적용",
-      "url": "https://bbs.ruliweb.com/news/read/231252",
-      "event_at": "2026-10-28T19:35:14+00:00",
-      "event_date": "2026-10-28",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "마인크래프트"
-      ],
-      "normalized_game_title": "마인크래프트",
-      "edition": "base",
-      "canonical_game_key": "마인크래프트:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:마인크래프트:base:2026-10-28",
-      "genre": [
-        "레이싱"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "1.6",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "엔비디아, RTX 스파크 윈도우 노트북에 신규 모델·에이전트 도구·게임 지원",
-      "url": "https://bbs.ruliweb.com/news/read/231251",
-      "event_at": "2026-10-28T19:27:39+00:00",
-      "event_date": "2026-10-28",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-10-28",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "콜 오브 듀티: 워존, ‘시즌 1’ 전체 정보 공개 중",
+      "url": "https://bbs.ruliweb.com/news/read/231434",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-11-03"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "라인게임즈 ‘창세기전 모바일: 아수라 프로젝트’ 신규 캐릭터 ‘카타리나 메디시스’ 오늘(3일) 공개",
+      "url": "https://bbs.ruliweb.com/news/read/231433",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-11-03"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "ImpressaEntertainment, 역(逆)로그라이크 게임 ‘No One Came Back’ 6일(금) Steam 얼리 액세스 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231427",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-11-03"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "‘90s style sci-fi horror Derelikt launches Nov 13 on PS5",
+      "url": "https://blog.playstation.com/2026/11/02/90s-style-sci-fi-horror-derelikt-launches-nov-13-on-ps5",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-11-02"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Godzilla: Destroy All Monsters Melee Remastered fighter guide",
+      "url": "https://blog.playstation.com/2026/11/02/godzilla-destroy-all-monsters-melee-remastered-fighter-guide",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-11-02"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "GamesIndustry.biz",
+      "title": "Among Us VR co-developer Schell Games announces second round of layoffs this year",
+      "url": "https://www.gamesindustry.biz/among-us-vr-co-developer-schell-games-announces-second-round-of-layoffs-this-year",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-11-02"
+    },
     {
       "reason": [
         "missing_game_title_platform",
@@ -2428,103 +2441,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:playstation:base:2026-11-02"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘이클립스: 더 어웨이크닝’, 지난달 28일 ‘서버 경쟁’ 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/231386",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-11-02"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "11월 1일은 피크민 데이! 피크민 4 스위치 에디션·피크민 블룸 정보와 헬로우! 피크민",
-      "url": "https://bbs.ruliweb.com/news/read/231328",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-11-01"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "피에로기 게임즈, 3D 플랫포머 ‘룬 러너스(Rune Runners)’ 2027년 3월 15일 NS2와 스팀으로 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231327",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-10-31"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "실버 팰리스, 12월 14일 전 세계에 서비스",
-      "url": "https://bbs.ruliweb.com/news/read/231326",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-10-31"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Avatar Legends: The Fighting Game Enters the Avatar State",
-      "url": "https://news.xbox.com/en-us/2026/10/30/avatar-legends-the-fighting-game-enters-the-avatar-state",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-30"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Queen’s Domain Releases Today! Some Beginner’s Pro Tips for Success",
-      "url": "https://news.xbox.com/en-us/2026/10/30/queens-domain-launch-tips",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-10-30"
     }
   ],
   "source_backlog": {
