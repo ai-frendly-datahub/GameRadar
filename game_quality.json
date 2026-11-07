@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-11-06T10:18:29.019433+00:00",
+  "generated_at": "2026-11-07T09:25:26.468442+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 9,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 3,
-    "patch_note_events": 9,
-    "release_schedule_events": 29,
-    "actionable_game_event_count": 41,
+    "store_ranking_events": 2,
+    "patch_note_events": 7,
+    "release_schedule_events": 30,
+    "actionable_game_event_count": 39,
     "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 39,
-    "official_or_trade_event_count": 22,
-    "event_required_field_gap_count": 39,
+    "missing_canonical_game_key_count": 37,
+    "official_or_trade_event_count": 19,
+    "event_required_field_gap_count": 37,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 7,
-      "event_count": 7,
-      "latest_event_at": "2026-11-05T14:00:38+00:00",
-      "age_days": 0.85,
-      "latest_title": "Assassin’s Creed Valhalla: new update brings New Game Plus, upgraded PSSR support for PS5 Pro today",
-      "latest_url": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today",
+      "article_count": 5,
+      "event_count": 5,
+      "latest_event_at": "2026-11-06T17:00:12+00:00",
+      "age_days": 0.68,
+      "latest_title": "Hozy brings calm, tactile home restoration to PS5 on November 9",
+      "latest_url": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 18,
+      "article_count": 14,
       "event_count": 10,
-      "latest_event_at": "2026-11-05T17:00:04+00:00",
-      "age_days": 0.72,
-      "latest_title": "A Faster, Simpler XBOX Experience Is Coming to PC, Web and Cloud",
-      "latest_url": "https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud",
+      "latest_event_at": "2026-11-06T17:00:00+00:00",
+      "age_days": 0.68,
+      "latest_title": "A Blade for the Innocent: Into the War-Torn Hutuo Region of Where Winds Meet on XBOX",
+      "latest_url": "https://news.xbox.com/en-us/2026/11/06/where-winds-meet-anniversary-update-hutuo",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 46,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 1,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -470,9 +470,9 @@
       "freshness_sla_days": 10.0,
       "status": "fresh",
       "article_count": 20,
-      "event_count": 5,
+      "event_count": 4,
       "latest_event_at": "2026-11-05T14:13:50+00:00",
-      "age_days": 0.84,
+      "age_days": 1.8,
       "latest_title": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5",
       "latest_url": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-playstation-5",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -521,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -567,7 +567,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 51,
-      "event_count": 19,
-      "latest_event_at": "2026-11-06T09:00:00+00:00",
-      "age_days": 0.05,
-      "latest_title": "‘에이코니아: 거울세계’ 한국어판, 2027년 봄 출시 결정",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231604",
+      "article_count": 52,
+      "event_count": 20,
+      "latest_event_at": "2026-11-07T00:55:13+00:00",
+      "age_days": 0.35,
+      "latest_title": "Code and DESIGN, 방치형 파티 RPG ‘Meow Dungeon: Idle Cat RPG’ 오늘(7일) Steam 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231613",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 133,
+      "article_count": 158,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1244,6 +1244,287 @@
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
+      "title": "Code and DESIGN, 방치형 파티 RPG ‘Meow Dungeon: Idle Cat RPG’ 오늘(7일) Steam 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231613",
+      "event_at": "2026-11-07T00:55:13+00:00",
+      "event_date": "2026-11-07",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-11-07",
+      "genre": [
+        "rpg",
+        "idle"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Shintaro Higashi, 그림책 로그라이크 ‘Ink & Lore’ 12월 8일 Steam 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231612",
+      "event_at": "2026-11-07T00:38:23+00:00",
+      "event_date": "2026-11-07",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-11-07",
+      "genre": [
+        "전략",
+        "로그라이크"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Hozy brings calm, tactile home restoration to PS5 on November 9",
+      "url": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9",
+      "event_at": "2026-11-06T17:00:12+00:00",
+      "event_date": "2026-11-06",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-11-06",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "A Blade for the Innocent: Into the War-Torn Hutuo Region of Where Winds Meet on XBOX",
+      "url": "https://news.xbox.com/en-us/2026/11/06/where-winds-meet-anniversary-update-hutuo",
+      "event_at": "2026-11-06T17:00:00+00:00",
+      "event_date": "2026-11-06",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-06",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Share of the Week: Shadows",
+      "url": "https://blog.playstation.com/2026/11/06/share-of-the-week-shadows-2",
+      "event_at": "2026-11-06T16:00:21+00:00",
+      "event_date": "2026-11-06",
+      "platform": [],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-11-06",
+      "genre": [],
+      "release": [
+        "dlc"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "20 Years of Gears",
+      "url": "https://news.xbox.com/en-us/2026/11/06/gears-of-war-e-day-season-2-20th-anniversary",
+      "event_at": "2026-11-06T16:00:00+00:00",
+      "event_date": "2026-11-06",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-06",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Next Week on XBOX: New Games for November 9 to 13",
+      "url": "https://news.xbox.com/en-us/2026/11/06/next-week-on-xbox-new-games-for-november-9-to-13",
+      "event_at": "2026-11-06T15:00:00+00:00",
+      "event_date": "2026-11-06",
+      "platform": [
+        "xbox",
+        "xbox series x",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-06",
+      "genre": [],
+      "release": [
+        "coming soon"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
       "title": "‘에이코니아: 거울세계’ 한국어판, 2027년 봄 출시 결정",
       "url": "https://bbs.ruliweb.com/news/read/231604",
       "event_at": "2026-11-06T09:00:00+00:00",
@@ -1597,7 +1878,7 @@
     {
       "source": "Xbox Wire",
       "event_model": "release_schedule",
-      "title": "Free Play Days – PAYDAY 3, Anno 117, BALL x PIT, Deceive Inc, Age of Wonders 4, and More",
+      "title": "Free Play Days – Call of Duty: Modern Warfare 4 – DMZ, PAYDAY 3, Anno 117, BALL x PIT, Deceive Inc, Age of Wonders 4, and More",
       "url": "https://news.xbox.com/en-us/2026/11/05/free-play-days-11-04-2026",
       "event_at": "2026-11-05T16:00:00+00:00",
       "event_date": "2026-11-05",
@@ -1606,12 +1887,14 @@
         "game pass"
       ],
       "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
       "edition": "premium-edition",
-      "canonical_game_key": "xbox:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-11-05",
+      "canonical_game_key": "call-of-duty:xbox:premium-edition",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:call-of-duty:xbox:premium-edition:2026-11-05",
       "genre": [],
       "release": [],
       "business_signal": [],
@@ -1629,9 +1912,7 @@
       "rank": null,
       "market": "",
       "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
+      "required_field_gaps": []
     },
     {
       "source": "Xbox Wire",
@@ -2583,361 +2864,116 @@
       "required_field_gaps": [
         "platform"
       ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Coming to XBOX Game Pass: Escape Academy 2: Back 2 School, Thronefall, Warhammer Survivors, and More",
-      "url": "https://news.xbox.com/en-us/2026/11/03/xbox-game-pass-november-2026-wave-1",
-      "event_at": "2026-11-03T18:00:00+00:00",
-      "event_date": "2026-11-03",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "premium-edition",
-      "canonical_game_key": "xbox:premium-edition",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-11-03",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Call of Duty: Warzone Season 1 – Everything You Need to Know",
-      "url": "https://news.xbox.com/en-us/2026/11/03/call-of-duty-warzone-season-1-everything-you-need-to-know",
-      "event_at": "2026-11-03T16:24:30+00:00",
-      "event_date": "2026-11-03",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "call of duty"
-      ],
-      "normalized_game_title": "call-of-duty",
-      "edition": "season-1",
-      "canonical_game_key": "call-of-duty:xbox:season-1",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:call-of-duty:xbox:season-1:2026-11-03",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Grand Theft Auto VI pre-download begins November 10",
-      "url": "https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10",
-      "event_at": "2026-11-03T15:28:13+00:00",
-      "event_date": "2026-11-03",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-11-03",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "patch_note",
-      "title": "Sonic Racing: CrossWorlds Year Two begins today with Duel Mode, new characters, gadgets and more",
-      "url": "https://blog.playstation.com/2026/11/03/sonic-racing-crossworlds-year-two-begins-today-with-duel-mode-new-characters-gadgets-and-more",
-      "event_at": "2026-11-03T14:00:04+00:00",
-      "event_date": "2026-11-03",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "patch_note:playstation:base:2026-11-03",
-      "genre": [
-        "racing"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "version"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Sonic Racing: CrossWorlds Year Two begins today with Duel Mode, new characters, gadgets and more",
-      "url": "https://blog.playstation.com/2026/11/03/sonic-racing-crossworlds-year-two-begins-today-with-duel-mode-new-characters-gadgets-and-more",
-      "event_at": "2026-11-03T14:00:04+00:00",
-      "event_date": "2026-11-03",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-11-03",
-      "genre": [
-        "racing"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "The Silver Seas and How We “Ship” New Features for Age of Wonders 4",
-      "url": "https://news.xbox.com/en-us/2026/11/03/age-of-wonders-4-the-silver-seas",
-      "event_at": "2026-11-03T14:00:00+00:00",
-      "event_date": "2026-11-03",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-11-03",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "The launch is not the end: How Beholder: Conductor equalled its launch sales 15 months after release",
-      "url": "https://www.gamesindustry.biz/the-launch-is-not-the-end-how-beholder-conductor-equalled-its-launch-sales-15-months-after-release",
-      "event_at": "2026-11-03T13:30:00+00:00",
-      "event_date": "2026-11-03",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "store_ranking:base:2026-11-03",
-      "genre": [],
-      "release": [
-        "launch",
-        "dlc",
-        "patch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "PlayStation Store’s Black Friday Deals 2026",
-      "url": "https://blog.playstation.com/2026/11/03/playstations-black-friday-deals-2026",
-      "event_at": "2026-11-03T11:00:10+00:00",
-      "event_date": "2026-11-03",
-      "platform": [
-        "playstation",
-        "ps5",
-        "ps4"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-11-03",
-      "genre": [],
-      "release": [
-        "dlc",
-        "preview"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "콜 오브 듀티: 워존, ‘시즌 1’ 전체 정보 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/231434",
-      "event_at": "2026-11-03T05:34:56+00:00",
-      "event_date": "2026-11-03",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-11-03",
-      "genre": [],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "Code and DESIGN, 방치형 파티 RPG ‘Meow Dungeon: Idle Cat RPG’ 오늘(7일) Steam 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231613",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-11-07"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "Shintaro Higashi, 그림책 로그라이크 ‘Ink & Lore’ 12월 8일 Steam 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231612",
+      "canonical_game_key": "steam:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:steam:base:2026-11-07"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Hozy brings calm, tactile home restoration to PS5 on November 9",
+      "url": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-11-06"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "A Blade for the Innocent: Into the War-Torn Hutuo Region of Where Winds Meet on XBOX",
+      "url": "https://news.xbox.com/en-us/2026/11/06/where-winds-meet-anniversary-update-hutuo",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-11-06"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "PlayStation Blog",
+      "title": "Share of the Week: Shadows",
+      "url": "https://blog.playstation.com/2026/11/06/share-of-the-week-shadows-2",
+      "canonical_game_key": "playstation:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:playstation:base:2026-11-06"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "20 Years of Gears",
+      "url": "https://news.xbox.com/en-us/2026/11/06/gears-of-war-e-day-season-2-20th-anniversary",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-11-06"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Next Week on XBOX: New Games for November 9 to 13",
+      "url": "https://news.xbox.com/en-us/2026/11/06/next-week-on-xbox-new-games-for-november-9-to-13",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-11-06"
+    },
     {
       "reason": [
         "missing_game_title",
@@ -2985,118 +3021,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:nintendo:base:2026-11-06"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "엔비디아, 지난 5일(목) ‘지포스 8800 GTX’ 출시 20주년 기념 무료 스팀 데모 공개",
-      "url": "https://bbs.ruliweb.com/news/read/231605",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-11-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘메타포: 리판타지오’ XBOX, Steam, PS5, PS4 다운로드판 12일(목)부터 가격 인하",
-      "url": "https://bbs.ruliweb.com/news/read/231602",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-11-06"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜넥슨 ‘테일즈위버’ 2027년 상반기까지 업데이트 로드맵 공개",
-      "url": "https://bbs.ruliweb.com/news/read/231598",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-11-06"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘에픽세븐’, 신규 영웅 ‘바니걸 마피아 유피네’ 지난 5일(목) 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/231595",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-11-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "A Faster, Simpler XBOX Experience Is Coming to PC, Web and Cloud",
-      "url": "https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-11-05"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Free Play Days – PAYDAY 3, Anno 117, BALL x PIT, Deceive Inc, Age of Wonders 4, and More",
-      "url": "https://news.xbox.com/en-us/2026/11/05/free-play-days-11-04-2026",
-      "canonical_game_key": "xbox:premium-edition",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:premium-edition:2026-11-05"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Hope in the City: Why This Detective Uses a Sketchbook Instead of a Badge",
-      "url": "https://news.xbox.com/en-us/2026/11/05/hope-in-the-city-detective-sketchbook",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-11-05"
     }
   ],
   "source_backlog": {
