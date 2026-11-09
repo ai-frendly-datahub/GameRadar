@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-11-08T09:42:41.261262+00:00",
+  "generated_at": "2026-11-09T10:35:56.445406+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -16,12 +16,12 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 2,
-    "patch_note_events": 4,
-    "release_schedule_events": 29,
+    "patch_note_events": 5,
+    "release_schedule_events": 28,
     "actionable_game_event_count": 35,
     "canonical_game_key_present_count": 2,
     "missing_canonical_game_key_count": 33,
-    "official_or_trade_event_count": 19,
+    "official_or_trade_event_count": 18,
     "event_required_field_gap_count": 33,
     "daily_review_item_count": 10
   },
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 51,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 5,
-      "event_count": 5,
+      "article_count": 3,
+      "event_count": 4,
       "latest_event_at": "2026-11-06T17:00:12+00:00",
-      "age_days": 1.7,
+      "age_days": 2.73,
       "latest_title": "Hozy brings calm, tactile home restoration to PS5 on November 9",
       "latest_url": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9",
       "latest_source_signal": [
@@ -103,10 +103,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 14,
+      "article_count": 13,
       "event_count": 10,
       "latest_event_at": "2026-11-06T17:00:00+00:00",
-      "age_days": 1.7,
+      "age_days": 2.73,
       "latest_title": "A Blade for the Innocent: Into the War-Torn Hutuo Region of Where Winds Meet on XBOX",
       "latest_url": "https://news.xbox.com/en-us/2026/11/06/where-winds-meet-anniversary-update-hutuo",
       "latest_source_signal": [
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 54,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 19,
+      "article_count": 17,
       "event_count": 4,
       "latest_event_at": "2026-11-05T14:13:50+00:00",
-      "age_days": 2.81,
+      "age_days": 3.85,
       "latest_title": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5",
       "latest_url": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-almost-reach-8m-74-bought-on-playstation-5",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 41,
-      "event_count": 16,
-      "latest_event_at": "2026-11-07T00:55:13+00:00",
-      "age_days": 1.37,
-      "latest_title": "Code and DESIGN, 방치형 파티 RPG ‘Meow Dungeon: Idle Cat RPG’ 오늘(7일) Steam 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231613",
+      "article_count": 55,
+      "event_count": 17,
+      "latest_event_at": "2026-11-09T08:05:46+00:00",
+      "age_days": 0.1,
+      "latest_title": "Alarc Games, 턴제 포격 게임 'Trajectory:Rumble' 스팀은 오늘(9일) 스토브는 지난 (7일) 데모 공개",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231674",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 142,
+      "article_count": 153,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1241,6 +1241,93 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Alarc Games, 턴제 포격 게임 'Trajectory:Rumble' 스팀은 오늘(9일) 스토브는 지난 (7일) 데모 공개",
+      "url": "https://bbs.ruliweb.com/news/read/231674",
+      "event_at": "2026-11-09T08:05:46+00:00",
+      "event_date": "2026-11-09",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-09",
+      "genre": [
+        "턴제",
+        "인디"
+      ],
+      "release": [
+        "데모"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "미니맵(Minimap), 움직일수록 작아지는 슬라임의 탈출기, ‘멜티 웨이(The Melty Way)’ 한국어 패치 진행",
+      "url": "https://bbs.ruliweb.com/news/read/231662",
+      "event_at": "2026-11-09T04:30:30+00:00",
+      "event_date": "2026-11-09",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-09",
+      "genre": [
+        "퍼즐",
+        "플랫포머",
+        "인디"
+      ],
+      "release": [
+        "패치"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -2620,89 +2707,43 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Bringing Jin Sakai back to life for Ghost of Yōtei: Most Wanted",
-      "url": "https://blog.playstation.com/2026/11/04/bringing-jin-sakai-back-to-life-for-ghost-of-yotei-most-wanted",
-      "event_at": "2026-11-04T13:00:36+00:00",
-      "event_date": "2026-11-04",
-      "platform": [],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-11-04",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "‘에이지 오브 원더 4’ PS5 한국어판 DLC ‘더 실버 씨즈’ 서비스 중",
-      "url": "https://bbs.ruliweb.com/news/read/231494",
-      "event_at": "2026-11-04T08:43:34+00:00",
-      "event_date": "2026-11-04",
-      "platform": [
-        "ps5"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-11-04",
-      "genre": [
-        "전략"
-      ],
-      "release": [
-        "출시",
-        "dlc"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "Alarc Games, 턴제 포격 게임 'Trajectory:Rumble' 스팀은 오늘(9일) 스토브는 지난 (7일) 데모 공개",
+      "url": "https://bbs.ruliweb.com/news/read/231674",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-11-09"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "미니맵(Minimap), 움직일수록 작아지는 슬라임의 탈출기, ‘멜티 웨이(The Melty Way)’ 한국어 패치 진행",
+      "url": "https://bbs.ruliweb.com/news/read/231662",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-11-09"
+    },
     {
       "reason": [
         "missing_game_title",
@@ -2825,38 +2866,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:playstation:base:2026-11-06"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘GTA VI (Grand Theft Auto VI)’ 출시 갤러리 ‘스크린샷 컬렉션’ 공개",
-      "url": "https://bbs.ruliweb.com/news/read/231607",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-11-06"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘Eternal Palace Sakura’, 지난 5일(목) NS2 및 스팀 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231606",
-      "canonical_game_key": "nintendo:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:nintendo:base:2026-11-06"
     }
   ],
   "source_backlog": {
