@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-11-11T10:00:58.002040+00:00",
+  "generated_at": "2026-11-12T10:28:56.453776+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -16,13 +16,13 @@
     "collection_error_count": 0,
     "steam_chart_events": 0,
     "store_ranking_events": 0,
-    "patch_note_events": 6,
-    "release_schedule_events": 24,
-    "actionable_game_event_count": 30,
-    "canonical_game_key_present_count": 1,
-    "missing_canonical_game_key_count": 29,
-    "official_or_trade_event_count": 15,
-    "event_required_field_gap_count": 29,
+    "patch_note_events": 8,
+    "release_schedule_events": 26,
+    "actionable_game_event_count": 34,
+    "canonical_game_key_present_count": 2,
+    "missing_canonical_game_key_count": 32,
+    "official_or_trade_event_count": 17,
+    "event_required_field_gap_count": 32,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -73,7 +73,7 @@
       "article_count": 4,
       "event_count": 4,
       "latest_event_at": "2026-11-10T18:00:31+00:00",
-      "age_days": 0.67,
+      "age_days": 1.69,
       "latest_title": "The Outer Worlds 2’s first DLC arrives December 2",
       "latest_url": "https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2",
       "latest_source_signal": [
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 7,
-      "event_count": 6,
-      "latest_event_at": "2026-11-10T22:00:00+00:00",
-      "age_days": 0.5,
-      "latest_title": "Microsoft Flight Simulator 2024 Celebrates Halo’s 25th Anniversary with the Release of the Halo Pelican",
-      "latest_url": "https://news.xbox.com/en-us/2026/11/10/microsoft-flight-simulator-2024-celebrates-halos-25th-anniversary-with-the-release-of-the-halo-pelican",
+      "article_count": 8,
+      "event_count": 7,
+      "latest_event_at": "2026-11-11T16:00:00+00:00",
+      "age_days": 0.77,
+      "latest_title": "How Luma Island Was Built For Everyone on XBOX Series X|S",
+      "latest_url": "https://news.xbox.com/en-us/2026/11/11/how-luma-island-was-built-for-everyone-on-xbox-series-xs",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 13,
-      "event_count": 5,
-      "latest_event_at": "2026-11-09T21:39:40+00:00",
-      "age_days": 1.51,
-      "latest_title": "\"There's no such thing as easy money in our business\" – Strauss Zelnick on GTA 6, BioShock, Take-Two's acquisition plans, and reviving old IP",
-      "latest_url": "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip",
+      "article_count": 19,
+      "event_count": 6,
+      "latest_event_at": "2026-11-11T12:10:40+00:00",
+      "age_days": 0.93,
+      "latest_title": "GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts",
+      "latest_url": "https://www.gamesindustry.biz/gta-6-becomes-most-pre-ordered-game-on-playstation-and-xbox-storefronts",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -521,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -567,7 +567,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 52,
-      "event_count": 15,
-      "latest_event_at": "2026-11-11T07:44:48+00:00",
-      "age_days": 0.09,
-      "latest_title": "‘풋볼 매니저 2027’, 오늘(11일) 발매 및 론칭 트레일러 공개",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231791",
+      "article_count": 46,
+      "event_count": 17,
+      "latest_event_at": "2026-11-12T10:18:52+00:00",
+      "age_days": 0.01,
+      "latest_title": "빈딕투스: 디파잉 페이트, 대응 플랫폼과 시네마틱 트레일러 티저",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231868",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 141,
+      "article_count": 146,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1241,6 +1241,345 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "빈딕투스: 디파잉 페이트, 대응 플랫폼과 시네마틱 트레일러 티저",
+      "url": "https://bbs.ruliweb.com/news/read/231868",
+      "event_at": "2026-11-12T10:18:52+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-12",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "출시",
+        "트레일러"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜넥슨 ‘마비노기 영웅전’ 신규 시공간 왜곡 ‘무신의 절해고도’ 업데이트 오늘(12일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/231863",
+      "event_at": "2026-11-12T08:05:24+00:00",
+      "event_date": "2026-11-12",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-12",
+      "genre": [
+        "액션"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "펄어비스, 붉은사막 이식 및 신작 ‘도깨비’ 계획",
+      "url": "https://bbs.ruliweb.com/news/read/231862",
+      "event_at": "2026-11-12T08:00:00+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "닌텐도",
+        "스위치"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-12",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [
+        "펄어비스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "‘골프 히어로 3D’ 11월 19일 Nintendo Switch™로 전 세계 동시 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231861",
+      "event_at": "2026-11-12T07:53:23+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "nintendo",
+        "switch"
+      ],
+      "normalized_platform": "nintendo",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "nintendo:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:nintendo:base:2026-11-12",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [
+        "nintendo"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜스튜디오비사이드 '스타세이비어', 1주년 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/231858",
+      "event_at": "2026-11-12T07:15:15+00:00",
+      "event_date": "2026-11-12",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-12",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜넥슨 ‘카운터 스트라이크 온라인’ 신규 초월 클래스 ‘아이리’ 업데이트 오늘(12일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/231853",
+      "event_at": "2026-11-12T06:07:32+00:00",
+      "event_date": "2026-11-12",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-12",
+      "genre": [
+        "fps"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넥슨"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "How Luma Island Was Built For Everyone on XBOX Series X|S",
+      "url": "https://news.xbox.com/en-us/2026/11/11/how-luma-island-was-built-for-everyone-on-xbox-series-xs",
+      "event_at": "2026-11-11T16:00:00+00:00",
+      "event_date": "2026-11-11",
+      "platform": [
+        "xbox",
+        "xbox series x"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-11",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts",
+      "url": "https://www.gamesindustry.biz/gta-6-becomes-most-pre-ordered-game-on-playstation-and-xbox-storefronts",
+      "event_at": "2026-11-11T12:10:40+00:00",
+      "event_date": "2026-11-11",
+      "platform": [
+        "playstation",
+        "xbox"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [
+        "gta"
+      ],
+      "normalized_game_title": "gta",
+      "edition": "base",
+      "canonical_game_key": "gta:playstation:base",
+      "canonical_game_key_status": "complete",
+      "game_event_key": "release_schedule:gta:playstation:base:2026-11-11",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -2316,182 +2655,125 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "Alarc Games, 턴제 포격 게임 'Trajectory:Rumble' 스팀은 오늘(9일) 스토브는 지난 (7일) 데모 공개",
-      "url": "https://bbs.ruliweb.com/news/read/231674",
-      "event_at": "2026-11-09T08:05:46+00:00",
-      "event_date": "2026-11-09",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-11-09",
-      "genre": [
-        "턴제",
-        "인디"
-      ],
-      "release": [
-        "데모"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "미니맵(Minimap), 움직일수록 작아지는 슬라임의 탈출기, ‘멜티 웨이(The Melty Way)’ 한국어 패치 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231662",
-      "event_at": "2026-11-09T04:30:30+00:00",
-      "event_date": "2026-11-09",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-11-09",
-      "genre": [
-        "퍼즐",
-        "플랫포머",
-        "인디"
-      ],
-      "release": [
-        "패치"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "Code and DESIGN, 방치형 파티 RPG ‘Meow Dungeon: Idle Cat RPG’ 오늘(7일) Steam 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231613",
-      "event_at": "2026-11-07T00:55:13+00:00",
-      "event_date": "2026-11-07",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-11-07",
-      "genre": [
-        "rpg",
-        "idle"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "Shintaro Higashi, 그림책 로그라이크 ‘Ink & Lore’ 12월 8일 Steam 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231612",
-      "event_at": "2026-11-07T00:38:23+00:00",
-      "event_date": "2026-11-07",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-11-07",
-      "genre": [
-        "전략",
-        "로그라이크"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "빈딕투스: 디파잉 페이트, 대응 플랫폼과 시네마틱 트레일러 티저",
+      "url": "https://bbs.ruliweb.com/news/read/231868",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-11-12"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘마비노기 영웅전’ 신규 시공간 왜곡 ‘무신의 절해고도’ 업데이트 오늘(12일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/231863",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-11-12"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "펄어비스, 붉은사막 이식 및 신작 ‘도깨비’ 계획",
+      "url": "https://bbs.ruliweb.com/news/read/231862",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-11-12"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "‘골프 히어로 3D’ 11월 19일 Nintendo Switch™로 전 세계 동시 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231861",
+      "canonical_game_key": "nintendo:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:nintendo:base:2026-11-12"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜스튜디오비사이드 '스타세이비어', 1주년 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/231858",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-11-12"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "㈜넥슨 ‘카운터 스트라이크 온라인’ 신규 초월 클래스 ‘아이리’ 업데이트 오늘(12일) 진행",
+      "url": "https://bbs.ruliweb.com/news/read/231853",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-11-12"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "How Luma Island Was Built For Everyone on XBOX Series X|S",
+      "url": "https://news.xbox.com/en-us/2026/11/11/how-luma-island-was-built-for-everyone-on-xbox-series-xs",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-11-11"
+    },
     {
       "reason": [
         "missing_game_title",
@@ -2539,116 +2821,6 @@
         "platform"
       ],
       "game_event_key": "patch_note:base:2026-11-11"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "PS5, 전 세계 누적 판매량 1억대 돌파",
-      "url": "https://bbs.ruliweb.com/news/read/231786",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-11-11"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "조이시티 ‘건쉽배틀: 토탈워페어’ SF 애니 ‘로보텍’ 2차 콜라보 업데이트 오늘(11일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231785",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-11-11"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "스마일게이트 ‘카오스 제로 나이트메어’, 은하계 재해 시즌5 두번째 콘텐츠 업데이트 오늘(11일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231783",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-11-11"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Microsoft Flight Simulator 2024 Celebrates Halo’s 25th Anniversary with the Release of the Halo Pelican",
-      "url": "https://news.xbox.com/en-us/2026/11/10/microsoft-flight-simulator-2024-celebrates-halos-25th-anniversary-with-the-release-of-the-halo-pelican",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-11-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Football Manager 27 Out Now with Game Pass: Discover 5 Unmissable Additions",
-      "url": "https://news.xbox.com/en-us/2026/11/10/football-manager-27-game-pass-pc-console-xbox",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-11-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "PlayStation Blog",
-      "title": "The Outer Worlds 2’s first DLC arrives December 2",
-      "url": "https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2",
-      "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-11-10"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Side Effects Guaranteed in the First DLC For The Outer Worlds 2, Coming December 2",
-      "url": "https://news.xbox.com/en-us/2026/11/10/side-effects-guaranteed-the-outer-worlds-2-dlc",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-11-10"
     }
   ],
   "source_backlog": {
