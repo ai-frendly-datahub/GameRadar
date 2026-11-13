@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-11-12T10:28:56.453776+00:00",
+  "generated_at": "2026-11-13T10:18:11.004302+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -17,12 +17,12 @@
     "steam_chart_events": 0,
     "store_ranking_events": 0,
     "patch_note_events": 8,
-    "release_schedule_events": 26,
-    "actionable_game_event_count": 34,
-    "canonical_game_key_present_count": 2,
-    "missing_canonical_game_key_count": 32,
-    "official_or_trade_event_count": 17,
-    "event_required_field_gap_count": 32,
+    "release_schedule_events": 28,
+    "actionable_game_event_count": 36,
+    "canonical_game_key_present_count": 1,
+    "missing_canonical_game_key_count": 35,
+    "official_or_trade_event_count": 19,
+    "event_required_field_gap_count": 35,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 4,
-      "event_count": 4,
-      "latest_event_at": "2026-11-10T18:00:31+00:00",
-      "age_days": 1.69,
-      "latest_title": "The Outer Worlds 2’s first DLC arrives December 2",
-      "latest_url": "https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2",
+      "article_count": 6,
+      "event_count": 5,
+      "latest_event_at": "2026-11-12T13:07:48+00:00",
+      "age_days": 0.88,
+      "latest_title": "Vindictus: Defying Fate comes to PS5 next year",
+      "latest_url": "https://blog.playstation.com/2026/11/12/vindictus-defying-fate-comes-to-ps5-next-year",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 8,
-      "event_count": 7,
-      "latest_event_at": "2026-11-11T16:00:00+00:00",
-      "age_days": 0.77,
-      "latest_title": "How Luma Island Was Built For Everyone on XBOX Series X|S",
-      "latest_url": "https://news.xbox.com/en-us/2026/11/11/how-luma-island-was-built-for-everyone-on-xbox-series-xs",
+      "article_count": 16,
+      "event_count": 13,
+      "latest_event_at": "2026-11-13T01:00:00+00:00",
+      "age_days": 0.39,
+      "latest_title": "Thanks for 25 Years, XBOX Players — From Wolfenstein 3 and Halo Firefight to Classic XBOX Games on PC: Everything Announced Today",
+      "latest_url": "https://news.xbox.com/en-us/2026/11/12/xbox-25th-anniversary-news-recap",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -186,7 +186,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 19,
-      "event_count": 6,
+      "article_count": 18,
+      "event_count": 1,
       "latest_event_at": "2026-11-11T12:10:40+00:00",
-      "age_days": 0.93,
+      "age_days": 1.92,
       "latest_title": "GTA 6 becomes most pre-ordered game on PlayStation and Xbox storefronts",
       "latest_url": "https://www.gamesindustry.biz/gta-6-becomes-most-pre-ordered-game-on-playstation-and-xbox-storefronts",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 46,
+      "article_count": 45,
       "event_count": 17,
-      "latest_event_at": "2026-11-12T10:18:52+00:00",
-      "age_days": 0.01,
-      "latest_title": "빈딕투스: 디파잉 페이트, 대응 플랫폼과 시네마틱 트레일러 티저",
-      "latest_url": "https://bbs.ruliweb.com/news/read/231868",
+      "latest_event_at": "2026-11-13T09:03:40+00:00",
+      "age_days": 0.05,
+      "latest_title": "Code and DESIGN, 인크리멘탈 공장 경영 ‘미나미 주식회사’ 스팀 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/231914",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 146,
+      "article_count": 141,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1241,6 +1241,566 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Code and DESIGN, 인크리멘탈 공장 경영 ‘미나미 주식회사’ 스팀 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231914",
+      "event_at": "2026-11-13T09:03:40+00:00",
+      "event_date": "2026-11-13",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-13",
+      "genre": [
+        "경영"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "페퍼게임즈, 동화 속 숲 생존 게임 '로스트 인 어 페어리테일' 14일(토) 스팀 얼리 액세스 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231912",
+      "event_at": "2026-11-13T07:23:16+00:00",
+      "event_date": "2026-11-13",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-13",
+      "genre": [],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "콘솔 게임 주간 판매 순위 : 26.11.02~26.11.08",
+      "url": "https://bbs.ruliweb.com/news/read/231870",
+      "event_at": "2026-11-13T07:00:00+00:00",
+      "event_date": "2026-11-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "젤다"
+      ],
+      "normalized_game_title": "젤다",
+      "edition": "base",
+      "canonical_game_key": "젤다:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:젤다:base:2026-11-13",
+      "genre": [],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "26.11.02",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Monoii Studio, 아늑한 방치형 수집 게임 ‘Bottled by Bears’, 오늘(13일) Steam 출시와 동시에 25% 할인",
+      "url": "https://bbs.ruliweb.com/news/read/231910",
+      "event_at": "2026-11-13T06:26:21+00:00",
+      "event_date": "2026-11-13",
+      "platform": [
+        "steam"
+      ],
+      "normalized_platform": "steam",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "steam:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:steam:base:2026-11-13",
+      "genre": [
+        "인디"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "㈜카카오게임즈 ‘패스 오브 엑자일’ 시즌 24 신규 리그 ‘움브라의 마녀단’ 11월 14일 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231904",
+      "event_at": "2026-11-13T05:05:40+00:00",
+      "event_date": "2026-11-13",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-13",
+      "genre": [],
+      "release": [
+        "출시",
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "카카오게임즈"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Thanks for 25 Years, XBOX Players — From Wolfenstein 3 and Halo Firefight to Classic XBOX Games on PC: Everything Announced Today",
+      "url": "https://news.xbox.com/en-us/2026/11/12/xbox-25th-anniversary-news-recap",
+      "event_at": "2026-11-13T01:00:00+00:00",
+      "event_date": "2026-11-13",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-13",
+      "genre": [],
+      "release": [
+        "launch",
+        "announced"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Available for XBOX Insiders: More Ways to Personalize Your Home, Library, and Guide",
+      "url": "https://news.xbox.com/en-us/2026/11/12/xbox-insiders-january-2027-console-features-1",
+      "event_at": "2026-11-12T23:00:01+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-12",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Candy Crush Saga Gives Halo, Fallout, Forza and More a Sweet Makeover for XBOX’s 25th",
+      "url": "https://news.xbox.com/en-us/2026/11/12/candy-crush-saga-game-on-halo-fallout-sea-of-thieves-xbox-25",
+      "event_at": "2026-11-12T22:00:00+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-12",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "25 Original XBOX Games Available Today on PC via XBOX Backward Compatibility",
+      "url": "https://news.xbox.com/en-us/2026/11/12/25-original-xbox-games-now-available-on-pc",
+      "event_at": "2026-11-12T21:02:29+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-12",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Slaughter Mode Arrives to DOOM: The Dark Ages | Revelations on November 16",
+      "url": "https://news.xbox.com/en-us/2026/11/12/slaughter-mode-arrives-to-doom-the-dark-ages-revelations-on-november-16",
+      "event_at": "2026-11-12T20:00:00+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-12",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Halo: Campaign Evolved Players Can Jump Into Firefight for Free This Winter",
+      "url": "https://news.xbox.com/en-us/2026/11/12/halo-campaign-evolved-firefight-free-update-this-winter",
+      "event_at": "2026-11-12T17:00:00+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-12",
+      "genre": [],
+      "release": [
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Free Play Days – Sumerian Six, Hypnospace Outlaw, Sunderfolk and STUFFED",
+      "url": "https://news.xbox.com/en-us/2026/11/12/free-play-days-11-12-2026",
+      "event_at": "2026-11-12T16:30:00+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "xbox:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-11-12",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "XBOX Playback is Here: Look Back at Your XBOX Story",
+      "url": "https://news.xbox.com/en-us/2026/11/12/xbox-playback-25th-anniversary-review",
+      "event_at": "2026-11-12T16:05:00+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-12",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Vindictus: Defying Fate comes to PS5 next year",
+      "url": "https://blog.playstation.com/2026/11/12/vindictus-defying-fate-comes-to-ps5-next-year",
+      "event_at": "2026-11-12T13:07:48+00:00",
+      "event_date": "2026-11-12",
+      "platform": [
+        "playstation",
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-11-12",
+      "genre": [
+        "action",
+        "adventure",
+        "rpg"
+      ],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "release_schedule",
@@ -2145,516 +2705,6 @@
       "required_field_gaps": [
         "game_title"
       ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Warhammer Survivors Out Now on XBOX Game Pass! Defeat the Gloomspite Gitz With These Tips",
-      "url": "https://news.xbox.com/en-us/2026/11/10/warhammer-survivors-gloomspite-gitz",
-      "event_at": "2026-11-10T10:00:00+00:00",
-      "event_date": "2026-11-10",
-      "platform": [
-        "xbox",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-11-10",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "Spacewisp Games, 전략 오토배틀러 'Against Heroes' 오늘(10일) 스팀 정식 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231723",
-      "event_at": "2026-11-10T08:23:35+00:00",
-      "event_date": "2026-11-10",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-11-10",
-      "genre": [
-        "전략",
-        "인디"
-      ],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "시프트업, 분기순손익 적자 전환 및 신작 공개 일정 조정",
-      "url": "https://bbs.ruliweb.com/news/read/231722",
-      "event_at": "2026-11-10T08:20:00+00:00",
-      "event_date": "2026-11-10",
-      "platform": [
-        "닌텐도",
-        "스위치"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-11-10",
-      "genre": [],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "내년 10주년 맞이하는 PUBG, 신작과 AI로 더 큰 성장 - 크래프톤 26년 3분기 실적발표",
-      "url": "https://bbs.ruliweb.com/news/read/231721",
-      "event_at": "2026-11-10T07:50:00+00:00",
-      "event_date": "2026-11-10",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "pubg"
-      ],
-      "normalized_game_title": "pubg",
-      "edition": "base",
-      "canonical_game_key": "pubg:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:pubg:base:2026-11-10",
-      "genre": [],
-      "release": [
-        "출시",
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [
-        "크래프톤"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "넥슨 ‘2026년 3분기 연결 실적’ 발표",
-      "url": "https://bbs.ruliweb.com/news/read/231719",
-      "event_at": "2026-11-10T06:53:00+00:00",
-      "event_date": "2026-11-10",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "fc",
-        "메이플스토리"
-      ],
-      "normalized_game_title": "fc",
-      "edition": "base",
-      "canonical_game_key": "fc:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:fc:base:2026-11-10",
-      "genre": [],
-      "release": [
-        "발표"
-      ],
-      "business_signal": [],
-      "studio": [
-        "넥슨"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "㈜엔씨 ‘아이온2’, 지난 8일(일) ‘1주년 기념 행사’에서 업데이트 계획 공개",
-      "url": "https://bbs.ruliweb.com/news/read/231710",
-      "event_at": "2026-11-10T02:10:02+00:00",
-      "event_date": "2026-11-10",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-11-10",
-      "genre": [
-        "mmorpg"
-      ],
-      "release": [
-        "출시",
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [
-        "엔씨소프트"
-      ],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "\"There's no such thing as easy money in our business\" – Strauss Zelnick on GTA 6, BioShock, Take-Two's acquisition plans, and reviving old IP",
-      "url": "https://www.gamesindustry.biz/theres-no-such-thing-as-easy-money-in-our-business-strauss-zelnick-on-gta-6-bioshock-take-twos-acquisition-plans-and-reviving-old-ip",
-      "event_at": "2026-11-09T21:39:40+00:00",
-      "event_date": "2026-11-09",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-11-09",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "take-two"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
-      "url": "https://www.gamesindustry.biz/take-two-q2-net-bookings-fall-18-to-16bn-as-nba-2k27-misses-forecast-but-gta-6-pre-orders-are-tracking-far-in-excess-of-expectations",
-      "event_at": "2026-11-09T21:22:20+00:00",
-      "event_date": "2026-11-09",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-11-09",
-      "genre": [],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "take-two"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "1.60",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "PlayStation cancels Ratchet & Clank: Ranger Rumble a year into soft launch",
-      "url": "https://www.gamesindustry.biz/playstation-cancels-ratchet-clank-ranger-rumble-a-year-into-soft-launch",
-      "event_at": "2026-11-09T17:37:10+00:00",
-      "event_date": "2026-11-09",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-11-09",
-      "genre": [],
-      "release": [
-        "launch",
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "FragPunk Reveals Farlands: New Delivery PvPvE Adventure Now Available in Early Access",
-      "url": "https://news.xbox.com/en-us/2026/11/09/fragpunk-farlands-early-access",
-      "event_at": "2026-11-09T16:00:00+00:00",
-      "event_date": "2026-11-09",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "early-access",
-      "canonical_game_key": "xbox:early-access",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:early-access:2026-11-09",
-      "genre": [
-        "adventure"
-      ],
-      "release": [
-        "early access"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Will Grand Theft Auto 6 break the internet?",
-      "url": "https://www.gamesindustry.biz/will-grand-theft-auto-6-break-the-internet",
-      "event_at": "2026-11-09T15:00:00+00:00",
-      "event_date": "2026-11-09",
-      "platform": [
-        "playstation",
-        "xbox",
-        "nintendo",
-        "steam"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:playstation:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:gta:playstation:base:2026-11-09",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [
-        "nintendo"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Star Wars Zero Company developer Bit Reactor has laid off an unspecified number of people",
-      "url": "https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-has-laid-off-an-unspecified-number-of-people",
-      "event_at": "2026-11-09T11:29:50+00:00",
-      "event_date": "2026-11-09",
-      "platform": [
-        "steam"
-      ],
-      "normalized_platform": "steam",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "steam:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:steam:base:2026-11-09",
-      "genre": [
-        "turn-based"
-      ],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2666,31 +2716,14 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "빈딕투스: 디파잉 페이트, 대응 플랫폼과 시네마틱 트레일러 티저",
-      "url": "https://bbs.ruliweb.com/news/read/231868",
+      "title": "Code and DESIGN, 인크리멘탈 공장 경영 ‘미나미 주식회사’ 스팀 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231914",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-11-12"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜넥슨 ‘마비노기 영웅전’ 신규 시공간 왜곡 ‘무신의 절해고도’ 업데이트 오늘(12일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231863",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-11-12"
+      "game_event_key": "release_schedule:base:2026-11-13"
     },
     {
       "reason": [
@@ -2700,14 +2733,30 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "펄어비스, 붉은사막 이식 및 신작 ‘도깨비’ 계획",
-      "url": "https://bbs.ruliweb.com/news/read/231862",
+      "title": "페퍼게임즈, 동화 속 숲 생존 게임 '로스트 인 어 페어리테일' 14일(토) 스팀 얼리 액세스 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231912",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "game_title",
         "platform"
       ],
-      "game_event_key": "release_schedule:base:2026-11-12"
+      "game_event_key": "release_schedule:base:2026-11-13"
+    },
+    {
+      "reason": [
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "콘솔 게임 주간 판매 순위 : 26.11.02~26.11.08",
+      "url": "https://bbs.ruliweb.com/news/read/231870",
+      "canonical_game_key": "젤다:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:젤다:base:2026-11-13"
     },
     {
       "reason": [
@@ -2717,13 +2766,13 @@
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘골프 히어로 3D’ 11월 19일 Nintendo Switch™로 전 세계 동시 출시",
-      "url": "https://bbs.ruliweb.com/news/read/231861",
-      "canonical_game_key": "nintendo:base",
+      "title": "Monoii Studio, 아늑한 방치형 수집 게임 ‘Bottled by Bears’, 오늘(13일) Steam 출시와 동시에 25% 할인",
+      "url": "https://bbs.ruliweb.com/news/read/231910",
+      "canonical_game_key": "steam:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:nintendo:base:2026-11-12"
+      "game_event_key": "release_schedule:steam:base:2026-11-13"
     },
     {
       "reason": [
@@ -2733,31 +2782,14 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "㈜스튜디오비사이드 '스타세이비어', 1주년 업데이트",
-      "url": "https://bbs.ruliweb.com/news/read/231858",
+      "title": "㈜카카오게임즈 ‘패스 오브 엑자일’ 시즌 24 신규 리그 ‘움브라의 마녀단’ 11월 14일 출시",
+      "url": "https://bbs.ruliweb.com/news/read/231904",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-11-12"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜넥슨 ‘카운터 스트라이크 온라인’ 신규 초월 클래스 ‘아이리’ 업데이트 오늘(12일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/231853",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-11-12"
+      "game_event_key": "patch_note:base:2026-11-13"
     },
     {
       "reason": [
@@ -2766,61 +2798,73 @@
       ],
       "event_model": "release_schedule",
       "source": "Xbox Wire",
-      "title": "How Luma Island Was Built For Everyone on XBOX Series X|S",
-      "url": "https://news.xbox.com/en-us/2026/11/11/how-luma-island-was-built-for-everyone-on-xbox-series-xs",
+      "title": "Thanks for 25 Years, XBOX Players — From Wolfenstein 3 and Halo Firefight to Classic XBOX Games on PC: Everything Announced Today",
+      "url": "https://news.xbox.com/en-us/2026/11/12/xbox-25th-anniversary-news-recap",
       "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-11-11"
+      "game_event_key": "release_schedule:xbox:base:2026-11-13"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "‘풋볼 매니저 2027’, 오늘(11일) 발매 및 론칭 트레일러 공개",
-      "url": "https://bbs.ruliweb.com/news/read/231791",
-      "canonical_game_key": "playstation:base",
+      "source": "Xbox Wire",
+      "title": "Available for XBOX Insiders: More Ways to Personalize Your Home, Library, and Guide",
+      "url": "https://news.xbox.com/en-us/2026/11/12/xbox-insiders-january-2027-console-features-1",
+      "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-11-11"
+      "game_event_key": "release_schedule:xbox:base:2026-11-12"
     },
     {
       "reason": [
         "missing_game_title",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "Xlab Digital ‘IRON GUARD: Day Zero’, 지난 6월 18일 PS5 출시 및 지난 10월 29일 스팀 페이지 공개",
-      "url": "https://bbs.ruliweb.com/news/read/231790",
-      "canonical_game_key": "playstation:base",
+      "source": "Xbox Wire",
+      "title": "Candy Crush Saga Gives Halo, Fallout, Forza and More a Sweet Makeover for XBOX’s 25th",
+      "url": "https://news.xbox.com/en-us/2026/11/12/candy-crush-saga-game-on-halo-fallout-sea-of-thieves-xbox-25",
+      "canonical_game_key": "xbox:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-11-11"
+      "game_event_key": "release_schedule:xbox:base:2026-11-12"
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_game_title",
+        "missing_required_fields"
       ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜위메이드맥스, 3분기 매출 299억원…‘나이트 크로우 W’ 등 신작 출시 준비",
-      "url": "https://bbs.ruliweb.com/news/read/231789",
-      "canonical_game_key": "base",
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "25 Original XBOX Games Available Today on PC via XBOX Backward Compatibility",
+      "url": "https://news.xbox.com/en-us/2026/11/12/25-original-xbox-games-now-available-on-pc",
+      "canonical_game_key": "xbox:base",
       "required_field_gaps": [
-        "platform"
+        "game_title"
       ],
-      "game_event_key": "patch_note:base:2026-11-11"
+      "game_event_key": "release_schedule:xbox:base:2026-11-12"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Slaughter Mode Arrives to DOOM: The Dark Ages | Revelations on November 16",
+      "url": "https://news.xbox.com/en-us/2026/11/12/slaughter-mode-arrives-to-doom-the-dark-ages-revelations-on-november-16",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-11-12"
     }
   ],
   "source_backlog": {
