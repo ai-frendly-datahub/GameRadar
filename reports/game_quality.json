@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-11-24T13:04:36.411373+00:00",
+  "generated_at": "2026-11-25T11:54:27.877672+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 9,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 2,
-    "patch_note_events": 3,
-    "release_schedule_events": 17,
-    "actionable_game_event_count": 22,
-    "canonical_game_key_present_count": 4,
-    "missing_canonical_game_key_count": 18,
-    "official_or_trade_event_count": 16,
-    "event_required_field_gap_count": 18,
+    "store_ranking_events": 0,
+    "patch_note_events": 5,
+    "release_schedule_events": 11,
+    "actionable_game_event_count": 16,
+    "canonical_game_key_present_count": 3,
+    "missing_canonical_game_key_count": 13,
+    "official_or_trade_event_count": 8,
+    "event_required_field_gap_count": 13,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -70,10 +70,10 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 3,
-      "event_count": 2,
+      "article_count": 1,
+      "event_count": 1,
       "latest_event_at": "2026-11-23T23:30:13+00:00",
-      "age_days": 0.57,
+      "age_days": 1.52,
       "latest_title": "Thank you for making Grand Theft Auto VI the biggest launch in PlayStation history",
       "latest_url": "https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history",
       "latest_source_signal": [
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 3,
+      "article_count": 5,
       "event_count": 3,
-      "latest_event_at": "2026-11-23T21:36:20+00:00",
-      "age_days": 0.64,
-      "latest_title": "How to Play Grand Theft Auto VI in the Cloud and with Remote Play",
-      "latest_url": "https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play",
+      "latest_event_at": "2026-11-24T19:00:00+00:00",
+      "age_days": 0.7,
+      "latest_title": "Nioh 3 Is Coming to XBOX in 2027",
+      "latest_url": "https://news.xbox.com/en-us/2026/11/24/nioh-3-xbox-series-debut",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 107,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -370,7 +370,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 1,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,10 +469,10 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 22,
-      "event_count": 11,
+      "article_count": 14,
+      "event_count": 4,
       "latest_event_at": "2026-11-24T11:44:10+00:00",
-      "age_days": 0.06,
+      "age_days": 1.01,
       "latest_title": "GTA 6 was the \"biggest launch in PlayStation history\", with the highest number of concurrent players ever",
       "latest_url": "https://www.gamesindustry.biz/gta-6-was-the-biggest-launch-in-playstation-history-with-the-highest-number-of-concurrent-players-ever",
       "latest_source_signal": [
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -521,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 53,
-      "event_count": 6,
-      "latest_event_at": "2026-11-24T08:02:00+00:00",
-      "age_days": 0.21,
-      "latest_title": "Rudrac Games, 2인 협동 퍼즐 어드벤처 ‘TWIN FLAMES’ 오늘 (24일) Steam 출시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/232343",
+      "article_count": 51,
+      "event_count": 8,
+      "latest_event_at": "2026-11-25T06:36:42+00:00",
+      "age_days": 0.22,
+      "latest_title": "넷마블 ‘RF 온라인 넥스트’, ‘크림슨 침공’ 이벤트 등 대규모 업데이트 오늘(25일) 실시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/232402",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 141,
+      "article_count": 146,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1241,6 +1241,130 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "넷마블 ‘RF 온라인 넥스트’, ‘크림슨 침공’ 이벤트 등 대규모 업데이트 오늘(25일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/232402",
+      "event_at": "2026-11-25T06:36:42+00:00",
+      "event_date": "2026-11-25",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-25",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넷마블"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "컴투스홀딩스 수집형 RPG ‘스타 세일러’, 신규 3성 동료 '저빌' 오늘(25일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/232397",
+      "event_at": "2026-11-25T05:33:01+00:00",
+      "event_date": "2026-11-25",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-25",
+      "genre": [
+        "rpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "컴투스"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Nioh 3 Is Coming to XBOX in 2027",
+      "url": "https://news.xbox.com/en-us/2026/11/24/nioh-3-xbox-series-debut",
+      "event_at": "2026-11-24T19:00:00+00:00",
+      "event_date": "2026-11-24",
+      "platform": [
+        "xbox"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "xbox:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:base:2026-11-24",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "GamesIndustry.biz",
       "event_model": "release_schedule",
@@ -1779,390 +1903,58 @@
         "game_title",
         "platform"
       ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "GTA 6 hits $3.79 billion in its first day on sale, becoming \"the biggest entertainment launch in history\"",
-      "url": "https://www.gamesindustry.biz/gta-6-hits-379-billion-in-its-first-day-on-sale-becoming-the-biggest-entertainment-launch-in-history",
-      "event_at": "2026-11-20T20:24:00+00:00",
-      "event_date": "2026-11-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "store_ranking:gta:base:2026-11-20",
-      "genre": [],
-      "release": [
-        "launch",
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "rockstar"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "3.79",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "GTA 6 hits $3.79 billion in its first day on sale, becoming \"the biggest entertainment launch in history\"",
-      "url": "https://www.gamesindustry.biz/gta-6-hits-379-billion-in-its-first-day-on-sale-becoming-the-biggest-entertainment-launch-in-history",
-      "event_at": "2026-11-20T20:24:00+00:00",
-      "event_date": "2026-11-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-11-20",
-      "genre": [],
-      "release": [
-        "launch",
-        "announced"
-      ],
-      "business_signal": [],
-      "studio": [
-        "rockstar"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "3.79",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "PlayStation Blog",
-      "event_model": "release_schedule",
-      "title": "Official PlayStation Podcast Episode 553: Peak Gaming",
-      "url": "https://blog.playstation.com/2026/11/20/official-playstation-podcast-episode-553-peak-gaming",
-      "event_at": "2026-11-20T18:28:32+00:00",
-      "event_date": "2026-11-20",
-      "platform": [
-        "playstation"
-      ],
-      "normalized_platform": "playstation",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "playstation:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:playstation:base:2026-11-20",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "patch",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Ampere Analysis: Over 2m UK and US Xbox players accessed GTA 6 before official launch by switching location to New Zealand",
-      "url": "https://www.gamesindustry.biz/ampere-analysis-over-1m-uk-and-us-xbox-players-accessed-gta-6-before-official-launch-by-switching-location-to-new-zealand",
-      "event_at": "2026-11-20T15:21:00+00:00",
-      "event_date": "2026-11-20",
-      "platform": [
-        "xbox"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:xbox:base",
-      "canonical_game_key_status": "complete",
-      "game_event_key": "release_schedule:gta:xbox:base:2026-11-20",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": []
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "GTA 6: the first billion-dollar game may also be the last | Opinion",
-      "url": "https://www.gamesindustry.biz/gta-6-the-first-billion-dollar-game-may-also-be-the-last",
-      "event_at": "2026-11-20T15:02:20+00:00",
-      "event_date": "2026-11-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-11-20",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "Xbox Wire",
-      "event_model": "release_schedule",
-      "title": "Next Week on XBOX: New Games for November 23 to 27",
-      "url": "https://news.xbox.com/en-us/2026/11/20/next-week-on-xbox-new-games-for-november-23-to-27",
-      "event_at": "2026-11-20T15:00:00+00:00",
-      "event_date": "2026-11-20",
-      "platform": [
-        "xbox",
-        "xbox series x",
-        "game pass"
-      ],
-      "normalized_platform": "xbox",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "xbox:base",
-      "canonical_game_key_status": "missing_game_title",
-      "game_event_key": "release_schedule:xbox:base:2026-11-20",
-      "genre": [],
-      "release": [
-        "coming soon"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "game_pass",
-        "platform_update",
-        "release_schedule"
-      ],
-      "authority_role": "platform",
-      "trust_tier": "T1_authoritative",
-      "producer_role": "platform",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "store_ranking",
-      "title": "Sensor Tower estimates GTA 6 generated $2.36bn in pre-order and launch-day sales",
-      "url": "https://www.gamesindustry.biz/sensor-tower-estimates-gta-6-generated-236bn-in-pre-order-and-launch-day-sales",
-      "event_at": "2026-11-20T14:07:30+00:00",
-      "event_date": "2026-11-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "store_ranking:gta:base:2026-11-20",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "24.5",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform",
-        "rank",
-        "market"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Sensor Tower estimates GTA 6 generated $2.36bn in pre-order and launch-day sales",
-      "url": "https://www.gamesindustry.biz/sensor-tower-estimates-gta-6-generated-236bn-in-pre-order-and-launch-day-sales",
-      "event_at": "2026-11-20T14:07:30+00:00",
-      "event_date": "2026-11-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-11-20",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "24.5",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "IGN partners with Rockstar to host Official Strategy Guide for GTA 6",
-      "url": "https://www.gamesindustry.biz/ign-partners-with-rockstar-to-host-official-strategy-guide-for-gta-6",
-      "event_at": "2026-11-20T10:07:40+00:00",
-      "event_date": "2026-11-20",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-11-20",
-      "genre": [
-        "strategy",
-        "open world"
-      ],
-      "release": [],
-      "business_signal": [],
-      "studio": [
-        "rockstar"
-      ],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "넷마블 ‘RF 온라인 넥스트’, ‘크림슨 침공’ 이벤트 등 대규모 업데이트 오늘(25일) 실시",
+      "url": "https://bbs.ruliweb.com/news/read/232402",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-11-25"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "컴투스홀딩스 수집형 RPG ‘스타 세일러’, 신규 3성 동료 '저빌' 오늘(25일) 추가",
+      "url": "https://bbs.ruliweb.com/news/read/232397",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:base:2026-11-25"
+    },
+    {
+      "reason": [
+        "missing_game_title",
+        "missing_required_fields"
+      ],
+      "event_model": "release_schedule",
+      "source": "Xbox Wire",
+      "title": "Nioh 3 Is Coming to XBOX in 2027",
+      "url": "https://news.xbox.com/en-us/2026/11/24/nioh-3-xbox-series-debut",
+      "canonical_game_key": "xbox:base",
+      "required_field_gaps": [
+        "game_title"
+      ],
+      "game_event_key": "release_schedule:xbox:base:2026-11-24"
+    },
     {
       "reason": [
         "missing_game_title",
@@ -2273,54 +2065,6 @@
         "game_title"
       ],
       "game_event_key": "release_schedule:steam:base:2026-11-23"
-    },
-    {
-      "reason": [
-        "missing_platform",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Over half of console players in the US played GTA 6 on launch day, according to Circana",
-      "url": "https://www.gamesindustry.biz/over-half-of-console-players-in-the-us-played-gta-6-on-launch-day-according-to-circana",
-      "canonical_game_key": "gta:base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "release_schedule:gta:base:2026-11-23"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "한국 무속 신앙 기반 로그라이트 액션, 악선",
-      "url": "https://bbs.ruliweb.com/news/read/232238",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform"
-      ],
-      "game_event_key": "patch_note:base:2026-11-21"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "release_schedule",
-      "source": "루리웹 뉴스",
-      "title": "낭만게임즈, 1인 개발 공기놀이 게임 '공기: 쉬는 시간', 11월 23일 스팀 앞서 해보기 출시",
-      "url": "https://bbs.ruliweb.com/news/read/232236",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ],
-      "game_event_key": "release_schedule:base:2026-11-21"
     }
   ],
   "source_backlog": {
