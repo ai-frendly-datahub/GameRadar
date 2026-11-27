@@ -1,6 +1,6 @@
 {
   "category": "game",
-  "generated_at": "2026-11-25T11:54:27.877672+00:00",
+  "generated_at": "2026-11-27T11:35:38.223528+00:00",
   "scope_note": "Official platform, store ranking, release schedule, and patch note signals are tracked separately from broad game media and community discussion. Broad feeds require game-domain evidence before they enter reports.",
   "summary": {
     "total_sources": 50,
@@ -15,14 +15,14 @@
     "skipped_disabled_sources": 9,
     "collection_error_count": 0,
     "steam_chart_events": 0,
-    "store_ranking_events": 0,
-    "patch_note_events": 5,
-    "release_schedule_events": 11,
-    "actionable_game_event_count": 16,
+    "store_ranking_events": 1,
+    "patch_note_events": 7,
+    "release_schedule_events": 20,
+    "actionable_game_event_count": 28,
     "canonical_game_key_present_count": 3,
-    "missing_canonical_game_key_count": 13,
-    "official_or_trade_event_count": 8,
-    "event_required_field_gap_count": 13,
+    "missing_canonical_game_key_count": 25,
+    "official_or_trade_event_count": 16,
+    "event_required_field_gap_count": 24,
     "daily_review_item_count": 10
   },
   "sources": [
@@ -40,7 +40,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -70,12 +70,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 1,
-      "event_count": 1,
-      "latest_event_at": "2026-11-23T23:30:13+00:00",
-      "age_days": 1.52,
-      "latest_title": "Thank you for making Grand Theft Auto VI the biggest launch in PlayStation history",
-      "latest_url": "https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history",
+      "article_count": 3,
+      "event_count": 4,
+      "latest_event_at": "2026-11-26T21:59:37+00:00",
+      "age_days": 0.57,
+      "latest_title": "Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5",
+      "latest_url": "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5",
       "latest_source_signal": [
         "patch",
         "platform_update",
@@ -103,12 +103,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 5,
-      "event_count": 3,
-      "latest_event_at": "2026-11-24T19:00:00+00:00",
-      "age_days": 0.7,
-      "latest_title": "Nioh 3 Is Coming to XBOX in 2027",
-      "latest_url": "https://news.xbox.com/en-us/2026/11/24/nioh-3-xbox-series-debut",
+      "article_count": 8,
+      "event_count": 4,
+      "latest_event_at": "2026-11-26T16:00:00+00:00",
+      "age_days": 0.82,
+      "latest_title": "Free Play Days – Warhammer 40,000: Mechanicus and Little Rocket Lab",
+      "latest_url": "https://news.xbox.com/en-us/2026/11/26/free-play-days-11-26-2026",
       "latest_source_signal": [
         "game_media_context",
         "game_pass",
@@ -163,7 +163,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -209,7 +209,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 54,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -232,7 +232,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -301,7 +301,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 100,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -324,7 +324,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -347,7 +347,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -393,7 +393,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -416,7 +416,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -469,12 +469,12 @@
       ],
       "freshness_sla_days": 10.0,
       "status": "fresh",
-      "article_count": 14,
-      "event_count": 4,
-      "latest_event_at": "2026-11-24T11:44:10+00:00",
-      "age_days": 1.01,
-      "latest_title": "GTA 6 was the \"biggest launch in PlayStation history\", with the highest number of concurrent players ever",
-      "latest_url": "https://www.gamesindustry.biz/gta-6-was-the-biggest-launch-in-playstation-history-with-the-highest-number-of-concurrent-players-ever",
+      "article_count": 23,
+      "event_count": 8,
+      "latest_event_at": "2026-11-27T09:24:20+00:00",
+      "age_days": 0.09,
+      "latest_title": "Modern Warfare 4 launch boosts Call of Duty HQ to top of Newzoo's PC revenue charts",
+      "latest_url": "https://www.gamesindustry.biz/modern-warfare-4-launch-boosts-call-of-duty-hq-to-top-of-newzoos-pc-charts",
       "latest_source_signal": [
         "game_media_context",
         "market_analysis",
@@ -498,7 +498,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -521,7 +521,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -567,7 +567,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 4,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -613,7 +613,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -705,7 +705,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -728,7 +728,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -758,12 +758,12 @@
       ],
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 51,
-      "event_count": 8,
-      "latest_event_at": "2026-11-25T06:36:42+00:00",
-      "age_days": 0.22,
-      "latest_title": "넷마블 ‘RF 온라인 넥스트’, ‘크림슨 침공’ 이벤트 등 대규모 업데이트 오늘(25일) 실시",
-      "latest_url": "https://bbs.ruliweb.com/news/read/232402",
+      "article_count": 45,
+      "event_count": 12,
+      "latest_event_at": "2026-11-27T09:49:54+00:00",
+      "age_days": 0.07,
+      "latest_title": "MogMek, 3D 물리 시뮬레이션 기반 디오라마 빌더 'Waterfall Dreams', 2027년 3분기 스팀 출시",
+      "latest_url": "https://bbs.ruliweb.com/news/read/232536",
       "latest_source_signal": [
         "community_reaction",
         "game_media_context",
@@ -862,7 +862,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 146,
+      "article_count": 147,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -885,7 +885,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -908,7 +908,7 @@
       "tracked_event_models": [],
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1241,6 +1241,626 @@
     }
   ],
   "events": [
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "MogMek, 3D 물리 시뮬레이션 기반 디오라마 빌더 'Waterfall Dreams', 2027년 3분기 스팀 출시",
+      "url": "https://bbs.ruliweb.com/news/read/232536",
+      "event_at": "2026-11-27T09:49:54+00:00",
+      "event_date": "2026-11-27",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-27",
+      "genre": [
+        "시뮬레이션"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "store_ranking",
+      "title": "Modern Warfare 4 launch boosts Call of Duty HQ to top of Newzoo's PC revenue charts",
+      "url": "https://www.gamesindustry.biz/modern-warfare-4-launch-boosts-call-of-duty-hq-to-top-of-newzoos-pc-charts",
+      "event_at": "2026-11-27T09:24:20+00:00",
+      "event_date": "2026-11-27",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "store_ranking:call-of-duty:base:2026-11-27",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "rank",
+        "market"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "Modern Warfare 4 launch boosts Call of Duty HQ to top of Newzoo's PC revenue charts",
+      "url": "https://www.gamesindustry.biz/modern-warfare-4-launch-boosts-call-of-duty-hq-to-top-of-newzoos-pc-charts",
+      "event_at": "2026-11-27T09:24:20+00:00",
+      "event_date": "2026-11-27",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "call of duty"
+      ],
+      "normalized_game_title": "call-of-duty",
+      "edition": "base",
+      "canonical_game_key": "call-of-duty:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:call-of-duty:base:2026-11-27",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "가레나 ‘몬스터헌터 아웃랜더스’, 신규 모험가 ‘프레야’ 및 ‘스티리아’ 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/232535",
+      "event_at": "2026-11-27T08:37:19+00:00",
+      "event_date": "2026-11-27",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "몬스터헌터"
+      ],
+      "normalized_game_title": "몬스터헌터",
+      "edition": "base",
+      "canonical_game_key": "몬스터헌터:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "patch_note:몬스터헌터:base:2026-11-27",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "캡콤"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "가레나 ‘몬스터헌터 아웃랜더스’, 신규 모험가 ‘프레야’ 및 ‘스티리아’ 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/232535",
+      "event_at": "2026-11-27T08:37:19+00:00",
+      "event_date": "2026-11-27",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "몬스터헌터"
+      ],
+      "normalized_game_title": "몬스터헌터",
+      "edition": "base",
+      "canonical_game_key": "몬스터헌터:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:몬스터헌터:base:2026-11-27",
+      "genre": [],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "캡콤"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "patch_note",
+      "title": "넷마블 ‘리니지2 레볼루션’, ‘서비스 10주년’ 기념 신서버 ‘아덴’ 등 대규모 업데이트 예고",
+      "url": "https://bbs.ruliweb.com/news/read/232534",
+      "event_at": "2026-11-27T07:39:23+00:00",
+      "event_date": "2026-11-27",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "patch_note:base:2026-11-27",
+      "genre": [
+        "mmorpg"
+      ],
+      "release": [
+        "업데이트"
+      ],
+      "business_signal": [],
+      "studio": [
+        "넷마블"
+      ],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "콘솔 게임 주간 판매 순위 : 26.11.16~26.11.22",
+      "url": "https://bbs.ruliweb.com/news/read/232476",
+      "event_at": "2026-11-27T07:00:00+00:00",
+      "event_date": "2026-11-27",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "젤다"
+      ],
+      "normalized_game_title": "젤다",
+      "edition": "base",
+      "canonical_game_key": "젤다:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:젤다:base:2026-11-27",
+      "genre": [],
+      "release": [
+        "발표"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "26.11.16",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "루리웹 뉴스",
+      "event_model": "release_schedule",
+      "title": "Denis Morozov 심리 호러 ‘착한 아이는 기도를 드린다’, 지난주 16일(월) 공식 한국어 지원 추가",
+      "url": "https://bbs.ruliweb.com/news/read/232525",
+      "event_at": "2026-11-27T05:41:36+00:00",
+      "event_date": "2026-11-27",
+      "platform": [
+        "스팀"
+      ],
+      "normalized_platform": "",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "base",
+      "canonical_game_key_status": "missing_game_title_platform",
+      "game_event_key": "release_schedule:base:2026-11-27",
+      "genre": [
+        "어드벤처"
+      ],
+      "release": [
+        "출시"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "community_reaction",
+        "game_media_context",
+        "patch",
+        "release"
+      ],
+      "authority_role": "community_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "community_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "patch_note",
+      "title": "Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5",
+      "url": "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5",
+      "event_at": "2026-11-26T21:59:37+00:00",
+      "event_date": "2026-11-26",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "patch_note:playstation:base:2026-11-26",
+      "genre": [
+        "adventure"
+      ],
+      "release": [
+        "announced",
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "3.0",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": []
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5",
+      "url": "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5",
+      "event_at": "2026-11-26T21:59:37+00:00",
+      "event_date": "2026-11-26",
+      "platform": [
+        "ps5"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-11-26",
+      "genre": [
+        "adventure"
+      ],
+      "release": [
+        "announced",
+        "update"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "3.0",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "\"This was unlike anything else we've ever seen before\" - but GTA 6's success is limited by the console install base, and its future rests on PC",
+      "url": "https://www.gamesindustry.biz/this-was-unlike-anything-else-weve-ever-seen-before-but-gta-6s-success-is-limited-by-the-console-install-base-and-its-future-rests-on-pc",
+      "event_at": "2026-11-26T16:53:20+00:00",
+      "event_date": "2026-11-26",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "gta"
+      ],
+      "normalized_game_title": "gta",
+      "edition": "base",
+      "canonical_game_key": "gta:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:gta:base:2026-11-26",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "32.5",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "Xbox Wire",
+      "event_model": "release_schedule",
+      "title": "Free Play Days – Warhammer 40,000: Mechanicus and Little Rocket Lab",
+      "url": "https://news.xbox.com/en-us/2026/11/26/free-play-days-11-26-2026",
+      "event_at": "2026-11-26T16:00:00+00:00",
+      "event_date": "2026-11-26",
+      "platform": [
+        "xbox",
+        "game pass"
+      ],
+      "normalized_platform": "xbox",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "premium-edition",
+      "canonical_game_key": "xbox:premium-edition",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:xbox:premium-edition:2026-11-26",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "game_pass",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "NielsenIQ: GTA 6 boosts UK games retail revenue by 99% to £142m during launch period",
+      "url": "https://www.gamesindustry.biz/nielseniq-gta-6-boosts-uk-games-retail-revenue-by-99-to-142m-during-launch-period",
+      "event_at": "2026-11-26T11:55:50+00:00",
+      "event_date": "2026-11-26",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "gta"
+      ],
+      "normalized_game_title": "gta",
+      "edition": "base",
+      "canonical_game_key": "gta:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:gta:base:2026-11-26",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "GamesIndustry.biz",
+      "event_model": "release_schedule",
+      "title": "GTA 6 launch drives combined 2.3m downloads of franchise's mobile ports, according to AppMagic",
+      "url": "https://www.gamesindustry.biz/gta-6-launch-drives-combined-23m-downloads-of-franchises-mobile-ports-according-to-appmagic",
+      "event_at": "2026-11-26T10:07:50+00:00",
+      "event_date": "2026-11-26",
+      "platform": [],
+      "normalized_platform": "",
+      "game_title": [
+        "gta"
+      ],
+      "normalized_game_title": "gta",
+      "edition": "base",
+      "canonical_game_key": "gta:base",
+      "canonical_game_key_status": "missing_platform",
+      "game_event_key": "release_schedule:gta:base:2026-11-26",
+      "genre": [],
+      "release": [
+        "launch"
+      ],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "game_media_context",
+        "market_analysis",
+        "market_report",
+        "release_schedule",
+        "sales_chart"
+      ],
+      "authority_role": "trade_media",
+      "trust_tier": "T3_professional",
+      "producer_role": "trade_media",
+      "version": "2.3",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "platform"
+      ]
+    },
+    {
+      "source": "PlayStation Blog",
+      "event_model": "release_schedule",
+      "title": "PlayStation Plus Monthly Games for December: Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2, Amnesia: The Bunker",
+      "url": "https://blog.playstation.com/2026/11/25/playstation-plus-monthly-games-for-december-tony-hawks-pro-skater-34-dragon-ball-xenoverse-2-amnesia-the-bunker",
+      "event_at": "2026-11-25T16:30:15+00:00",
+      "event_date": "2026-11-25",
+      "platform": [
+        "playstation",
+        "playstation plus"
+      ],
+      "normalized_platform": "playstation",
+      "game_title": [],
+      "normalized_game_title": "",
+      "edition": "base",
+      "canonical_game_key": "playstation:base",
+      "canonical_game_key_status": "missing_game_title",
+      "game_event_key": "release_schedule:playstation:base:2026-11-25",
+      "genre": [],
+      "release": [],
+      "business_signal": [],
+      "studio": [],
+      "source_signal": [
+        "patch",
+        "platform_update",
+        "release_schedule"
+      ],
+      "authority_role": "platform",
+      "trust_tier": "T1_authoritative",
+      "producer_role": "platform",
+      "version": "",
+      "rank": null,
+      "market": "",
+      "concurrent_players": null,
+      "required_field_gaps": [
+        "game_title"
+      ]
+    },
     {
       "source": "루리웹 뉴스",
       "event_model": "patch_note",
@@ -1781,128 +2401,6 @@
       "market": "",
       "concurrent_players": null,
       "required_field_gaps": []
-    },
-    {
-      "source": "GamesIndustry.biz",
-      "event_model": "release_schedule",
-      "title": "Over half of console players in the US played GTA 6 on launch day, according to Circana",
-      "url": "https://www.gamesindustry.biz/over-half-of-console-players-in-the-us-played-gta-6-on-launch-day-according-to-circana",
-      "event_at": "2026-11-23T10:57:20+00:00",
-      "event_date": "2026-11-23",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [
-        "gta"
-      ],
-      "normalized_game_title": "gta",
-      "edition": "base",
-      "canonical_game_key": "gta:base",
-      "canonical_game_key_status": "missing_platform",
-      "game_event_key": "release_schedule:gta:base:2026-11-23",
-      "genre": [],
-      "release": [
-        "launch"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "game_media_context",
-        "market_analysis",
-        "market_report",
-        "release_schedule",
-        "sales_chart"
-      ],
-      "authority_role": "trade_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "trade_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "patch_note",
-      "title": "한국 무속 신앙 기반 로그라이트 액션, 악선",
-      "url": "https://bbs.ruliweb.com/news/read/232238",
-      "event_at": "2026-11-21T14:04:00+00:00",
-      "event_date": "2026-11-21",
-      "platform": [],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "patch_note:base:2026-11-21",
-      "genre": [
-        "액션"
-      ],
-      "release": [
-        "업데이트"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "1.0",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "platform"
-      ]
-    },
-    {
-      "source": "루리웹 뉴스",
-      "event_model": "release_schedule",
-      "title": "낭만게임즈, 1인 개발 공기놀이 게임 '공기: 쉬는 시간', 11월 23일 스팀 앞서 해보기 출시",
-      "url": "https://bbs.ruliweb.com/news/read/232236",
-      "event_at": "2026-11-21T13:03:02+00:00",
-      "event_date": "2026-11-21",
-      "platform": [
-        "스팀"
-      ],
-      "normalized_platform": "",
-      "game_title": [],
-      "normalized_game_title": "",
-      "edition": "base",
-      "canonical_game_key": "base",
-      "canonical_game_key_status": "missing_game_title_platform",
-      "game_event_key": "release_schedule:base:2026-11-21",
-      "genre": [],
-      "release": [
-        "출시"
-      ],
-      "business_signal": [],
-      "studio": [],
-      "source_signal": [
-        "community_reaction",
-        "game_media_context",
-        "patch",
-        "release"
-      ],
-      "authority_role": "community_media",
-      "trust_tier": "T3_professional",
-      "producer_role": "community_media",
-      "version": "",
-      "rank": null,
-      "market": "",
-      "concurrent_players": null,
-      "required_field_gaps": [
-        "game_title",
-        "platform"
-      ]
     }
   ],
   "daily_review_items": [
@@ -1912,64 +2410,81 @@
         "missing_required_fields",
         "official_confirmation_required"
       ],
-      "event_model": "patch_note",
+      "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "넷마블 ‘RF 온라인 넥스트’, ‘크림슨 침공’ 이벤트 등 대규모 업데이트 오늘(25일) 실시",
-      "url": "https://bbs.ruliweb.com/news/read/232402",
+      "title": "MogMek, 3D 물리 시뮬레이션 기반 디오라마 빌더 'Waterfall Dreams', 2027년 3분기 스팀 출시",
+      "url": "https://bbs.ruliweb.com/news/read/232536",
       "canonical_game_key": "base",
       "required_field_gaps": [
-        "platform",
-        "version"
+        "game_title",
+        "platform"
       ],
-      "game_event_key": "patch_note:base:2026-11-25"
+      "game_event_key": "release_schedule:base:2026-11-27"
     },
     {
       "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
+        "missing_platform",
+        "missing_required_fields"
       ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "컴투스홀딩스 수집형 RPG ‘스타 세일러’, 신규 3성 동료 '저빌' 오늘(25일) 추가",
-      "url": "https://bbs.ruliweb.com/news/read/232397",
-      "canonical_game_key": "base",
+      "event_model": "store_ranking",
+      "source": "GamesIndustry.biz",
+      "title": "Modern Warfare 4 launch boosts Call of Duty HQ to top of Newzoo's PC revenue charts",
+      "url": "https://www.gamesindustry.biz/modern-warfare-4-launch-boosts-call-of-duty-hq-to-top-of-newzoos-pc-charts",
+      "canonical_game_key": "call-of-duty:base",
       "required_field_gaps": [
         "platform",
-        "version"
+        "rank",
+        "market"
       ],
-      "game_event_key": "patch_note:base:2026-11-25"
+      "game_event_key": "store_ranking:call-of-duty:base:2026-11-27"
     },
     {
       "reason": [
-        "missing_game_title",
+        "missing_platform",
         "missing_required_fields"
       ],
       "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "Nioh 3 Is Coming to XBOX in 2027",
-      "url": "https://news.xbox.com/en-us/2026/11/24/nioh-3-xbox-series-debut",
-      "canonical_game_key": "xbox:base",
+      "source": "GamesIndustry.biz",
+      "title": "Modern Warfare 4 launch boosts Call of Duty HQ to top of Newzoo's PC revenue charts",
+      "url": "https://www.gamesindustry.biz/modern-warfare-4-launch-boosts-call-of-duty-hq-to-top-of-newzoos-pc-charts",
+      "canonical_game_key": "call-of-duty:base",
       "required_field_gaps": [
-        "game_title"
+        "platform"
       ],
-      "game_event_key": "release_schedule:xbox:base:2026-11-24"
+      "game_event_key": "release_schedule:call-of-duty:base:2026-11-27"
     },
     {
       "reason": [
-        "missing_game_title",
+        "missing_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "patch_note",
+      "source": "루리웹 뉴스",
+      "title": "가레나 ‘몬스터헌터 아웃랜더스’, 신규 모험가 ‘프레야’ 및 ‘스티리아’ 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/232535",
+      "canonical_game_key": "몬스터헌터:base",
+      "required_field_gaps": [
+        "platform",
+        "version"
+      ],
+      "game_event_key": "patch_note:몬스터헌터:base:2026-11-27"
+    },
+    {
+      "reason": [
+        "missing_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "Rudrac Games, 2인 협동 퍼즐 어드벤처 ‘TWIN FLAMES’ 오늘 (24일) Steam 출시",
-      "url": "https://bbs.ruliweb.com/news/read/232343",
-      "canonical_game_key": "steam:base",
+      "title": "가레나 ‘몬스터헌터 아웃랜더스’, 신규 모험가 ‘프레야’ 및 ‘스티리아’ 업데이트",
+      "url": "https://bbs.ruliweb.com/news/read/232535",
+      "canonical_game_key": "몬스터헌터:base",
       "required_field_gaps": [
-        "game_title"
+        "platform"
       ],
-      "game_event_key": "release_schedule:steam:base:2026-11-24"
+      "game_event_key": "release_schedule:몬스터헌터:base:2026-11-27"
     },
     {
       "reason": [
@@ -1979,47 +2494,59 @@
       ],
       "event_model": "patch_note",
       "source": "루리웹 뉴스",
-      "title": "㈜카카오게임즈 ‘오딘: 발할라 라이징’, 12월 대규모 업데이트 예고",
-      "url": "https://bbs.ruliweb.com/news/read/232338",
+      "title": "넷마블 ‘리니지2 레볼루션’, ‘서비스 10주년’ 기념 신서버 ‘아덴’ 등 대규모 업데이트 예고",
+      "url": "https://bbs.ruliweb.com/news/read/232534",
       "canonical_game_key": "base",
       "required_field_gaps": [
         "platform",
         "version"
       ],
-      "game_event_key": "patch_note:base:2026-11-24"
+      "game_event_key": "patch_note:base:2026-11-27"
     },
     {
       "reason": [
-        "missing_game_title",
+        "missing_platform",
         "missing_required_fields",
         "official_confirmation_required"
       ],
       "event_model": "release_schedule",
       "source": "루리웹 뉴스",
-      "title": "‘스튜피드 네버 다이즈’, 최종 보스 ‘King of Monsters’과의 결전을 그린 '파이널 트레일러' 공개 중",
-      "url": "https://bbs.ruliweb.com/news/read/232336",
+      "title": "콘솔 게임 주간 판매 순위 : 26.11.16~26.11.22",
+      "url": "https://bbs.ruliweb.com/news/read/232476",
+      "canonical_game_key": "젤다:base",
+      "required_field_gaps": [
+        "platform"
+      ],
+      "game_event_key": "release_schedule:젤다:base:2026-11-27"
+    },
+    {
+      "reason": [
+        "missing_game_title_platform",
+        "missing_required_fields",
+        "official_confirmation_required"
+      ],
+      "event_model": "release_schedule",
+      "source": "루리웹 뉴스",
+      "title": "Denis Morozov 심리 호러 ‘착한 아이는 기도를 드린다’, 지난주 16일(월) 공식 한국어 지원 추가",
+      "url": "https://bbs.ruliweb.com/news/read/232525",
+      "canonical_game_key": "base",
+      "required_field_gaps": [
+        "game_title",
+        "platform"
+      ],
+      "game_event_key": "release_schedule:base:2026-11-27"
+    },
+    {
+      "reason": [
+        "missing_game_title"
+      ],
+      "event_model": "patch_note",
+      "source": "PlayStation Blog",
+      "title": "Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5",
+      "url": "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5",
       "canonical_game_key": "playstation:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:playstation:base:2026-11-24"
-    },
-    {
-      "reason": [
-        "missing_game_title_platform",
-        "missing_required_fields",
-        "official_confirmation_required"
-      ],
-      "event_model": "patch_note",
-      "source": "루리웹 뉴스",
-      "title": "㈜웹젠 ‘뮤 모나크’, 3차 환생 및 레벨 확장 업데이트 오늘(24일) 진행",
-      "url": "https://bbs.ruliweb.com/news/read/232333",
-      "canonical_game_key": "base",
-      "required_field_gaps": [
-        "platform",
-        "version"
-      ],
-      "game_event_key": "patch_note:base:2026-11-24"
+      "required_field_gaps": [],
+      "game_event_key": "patch_note:playstation:base:2026-11-26"
     },
     {
       "reason": [
@@ -2028,43 +2555,13 @@
       ],
       "event_model": "release_schedule",
       "source": "PlayStation Blog",
-      "title": "Thank you for making Grand Theft Auto VI the biggest launch in PlayStation history",
-      "url": "https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history",
+      "title": "Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5",
+      "url": "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5",
       "canonical_game_key": "playstation:base",
       "required_field_gaps": [
         "game_title"
       ],
-      "game_event_key": "release_schedule:playstation:base:2026-11-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "Xbox Wire",
-      "title": "How to Play Grand Theft Auto VI in the Cloud and with Remote Play",
-      "url": "https://news.xbox.com/en-us/2026/11/23/grand-theft-auto-vi-xbox-cloud-and-remote-play",
-      "canonical_game_key": "xbox:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:xbox:base:2026-11-23"
-    },
-    {
-      "reason": [
-        "missing_game_title",
-        "missing_required_fields"
-      ],
-      "event_model": "release_schedule",
-      "source": "GamesIndustry.biz",
-      "title": "Nicalis removes AI-generated music from The Binding of Isaac: Repentance+ after player backlash",
-      "url": "https://www.gamesindustry.biz/nicalis-removes-ai-generated-music-from-the-binding-of-isaac-repentance-after-player-backlash",
-      "canonical_game_key": "steam:base",
-      "required_field_gaps": [
-        "game_title"
-      ],
-      "game_event_key": "release_schedule:steam:base:2026-11-23"
+      "game_event_key": "release_schedule:playstation:base:2026-11-26"
     }
   ],
   "source_backlog": {
